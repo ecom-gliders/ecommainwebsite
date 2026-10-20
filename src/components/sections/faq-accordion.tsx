@@ -48,7 +48,7 @@ export function FaqAccordion({
                 "py-5 text-left tracking-tight hover:no-underline sm:py-6",
                 isLime
                   ? "text-base font-bold text-primary sm:text-lg [&[data-state=open]]:text-primary [&>svg]:h-7 [&>svg]:w-7 [&>svg]:rounded-full [&>svg]:bg-primary [&>svg]:p-1.5 [&>svg]:text-accent"
-                  : "text-base font-bold text-primary sm:text-lg [&[data-state=open]]:text-accent",
+                  : "text-base font-bold text-primary sm:text-lg",
               )}
             >
               {item.question}

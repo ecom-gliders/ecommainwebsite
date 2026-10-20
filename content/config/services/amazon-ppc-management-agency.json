@@ -143,7 +143,7 @@
     ]
   },
   "audience": {
-    "heading": "Who this is for",
+    "heading": "Who Amazon PPC management is for",
     "points": [
       {
         "title": "Sellers wasting spend on irrelevant searches",
@@ -160,6 +160,27 @@
       {
         "title": "Multi-marketplace advertisers",
         "description": "Sellers who need priorities by margin and catalog stage."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders PPC differs from typical options",
+    "points": [
+      {
+        "title": "Structure before bid automation",
+        "description": "Intent lanes, match types, and waste controls are set before spend scales."
+      },
+      {
+        "title": "Ads tied to listing readiness",
+        "description": "Traffic is aimed at conversion-ready pages, not broken or thin listings."
+      },
+      {
+        "title": "Verified case metrics only",
+        "description": "ACoS and revenue outcomes cite named case studies—no invented average cuts."
+      },
+      {
+        "title": "In-house specialists",
+        "description": "Campaign work stays with accountable operators, not a rotating freelance bench."
       }
     ]
   },
@@ -226,19 +247,25 @@
       "id": "service-browser-proof",
       "type": "browserProof",
       "heading": "Sales movement from live account windows",
-      "subheading": "Unedited Seller app snapshots from growth.ecomgliders.com—account-specific examples, not a guarantee of ACoS or ROAS.",
+      "subheading": "Live Seller app windows. Not a guarantee of ACoS or ROAS.",
       "images": [
         {
           "src": "/images/growth/sales-primeday.avif",
-          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year.",
-          "caption": "Peak-window sales snapshot (+152% YoY). Source: growth.ecomgliders.com."
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
         },
         {
           "src": "/images/growth/sales-803k.avif",
-          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year.",
-          "caption": "30-day sales window (+241% YoY). Source: growth.ecomgliders.com."
+          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year."
         }
-      ]
+      ],
+      "callout": {
+        "metric": "+152%",
+        "metricLabel": "Peak sales vs the prior year",
+        "points": [
+          "PPC built for profitable growth",
+          "Live account windows, not mock charts"
+        ]
+      }
     },
     {
       "id": "service-acos-chart",

@@ -218,19 +218,25 @@
       "id": "service-browser-proof",
       "type": "browserProof",
       "heading": "Decision-ready views from live Amazon tools",
-      "subheading": "Seller Central and Sellerboard snapshots from growth.ecomgliders.com—examples vary by account.",
+      "subheading": "Live tool views. Examples vary by account.",
       "images": [
         {
-          "src": "/images/growth/sales-dashboard-2yr.avif",
-          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
-          "caption": "Multi-period sales view. Source: growth.ecomgliders.com."
+          "src": "/images/growth/sales-90day.avif",
+          "alt": "Amazon sales snapshot showing $187,576 in ordered product sales, up 52% versus the same range last year."
         },
         {
-          "src": "/images/growth/sales-90day.avif",
-          "alt": "Amazon sales snapshot showing $187,576 in ordered product sales, up 52% versus the same range last year.",
-          "caption": "Shorter-window sales comparison. Source: growth.ecomgliders.com."
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025."
         }
-      ]
+      ],
+      "callout": {
+        "metric": "$51.3M+",
+        "metricLabel": "Numbers leaders can decide from",
+        "points": [
+          "Shared definitions across ads and catalog",
+          "Weekly packs built for action, not noise"
+        ]
+      }
     },
     {
       "id": "weekly-kpi-board",
@@ -299,7 +305,7 @@
             "Action log",
             "Last week’s fixes closed?",
             "Carry open items forward",
-            "All pods"
+            "All workstreams"
           ]
         }
       ],

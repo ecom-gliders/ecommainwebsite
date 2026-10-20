@@ -192,7 +192,7 @@ export default async function CaseStudiesIndexPage() {
                 </p>
                 <h2
                   id="case-studies-featured-heading"
-                  className="mt-3 text-5xl font-black tracking-tight text-accent-alt sm:text-6xl"
+                  className="mt-3 border-l-[3px] border-accent pl-3 text-5xl font-black tracking-tight text-primary sm:text-6xl"
                 >
                   {featured.metric}
                 </h2>

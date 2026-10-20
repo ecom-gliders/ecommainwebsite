@@ -27,11 +27,11 @@
     },
     "accent": {
       "value": "#C6FD50",
-      "usage": "PO lime — primary CTA fill, punch cards, highlights"
+      "usage": "PO lime — CTA fill, borders, chips, underlines, and text only on dark/ink surfaces. Never use as body or metric text on light backgrounds (fails WCAG)."
     },
     "accentAlt": {
       "value": "#B5EC3F",
-      "usage": "Slightly deeper lime — pressed / hover emphasis"
+      "usage": "Slightly deeper lime — pressed / hover fill. Same surface rule as accent: not light-surface text."
     },
     "brandCyan": {
       "value": "#6B6B66",
@@ -39,7 +39,7 @@
     },
     "brandYellow": {
       "value": "#C6FD50",
-      "usage": "Lime — chart highlights, metrics"
+      "usage": "Lime — chart fills/highlights on dark; metrics on light use textPrimary plus accent rule/chip"
     },
     "brandMint": {
       "value": "#E8E8E3",
@@ -59,11 +59,11 @@
     },
     "textPrimary": {
       "value": "#131311",
-      "usage": "Body text, headings — PO ink"
+      "usage": "Headings and readable metrics on light surfaces — PO ink"
     },
     "textSecondary": {
       "value": "#6B6B66",
-      "usage": "Meta text, captions, supporting copy"
+      "usage": "Supporting body/meta on light — must stay distinct from textPrimary (weight + color), never lime"
     },
     "textOnDark": {
       "value": "#FFFFFF",

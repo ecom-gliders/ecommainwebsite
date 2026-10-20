@@ -1,9 +1,8 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
-import { Lock } from "lucide-react";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import { ContainedMedia } from "./contained-media";
 import {
   ImagePreviewDialog,
   useImagePreview,
@@ -16,34 +15,71 @@ export interface BrowserProofImage {
   caption?: string;
 }
 
+export interface BrowserProofCallout {
+  metric: string;
+  metricLabel?: string;
+  points?: string[];
+}
+
 interface BrowserProofStageProps {
   images: BrowserProofImage[];
   disclaimer?: string;
+  callout?: BrowserProofCallout;
+  heading?: string;
 }
-
-type FrameKind = "browser" | "phone";
 
 interface SizedImage extends BrowserProofImage {
-  kind: FrameKind;
   width: number;
   height: number;
+  isPortrait: boolean;
 }
 
-function classify(width: number, height: number): FrameKind {
-  return width >= height ? "browser" : "phone";
+function sanitizeCaption(caption: string | undefined): string | undefined {
+  if (!caption) return undefined;
+  const cleaned = caption
+    .replace(/\s*Source:\s*[^\s.].*/gi, "")
+    .replace(/\s*source\s+github\.ecom.*/gi, "")
+    .replace(/\s*growth\.ecomgliders\.com\.?/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  if (!cleaned) return undefined;
+  if (/github\.ecom|multi-year brand growth snapshot seller dashboard/i.test(cleaned)) {
+    return undefined;
+  }
+  return cleaned;
 }
 
-function proofUrlLabel(src: string): string {
-  if (src.includes("sellerboard") || src.includes("brand-yoy")) {
-    return "app.sellerboard.com";
+function deriveCallout(
+  images: BrowserProofImage[],
+  callout?: BrowserProofCallout,
+): BrowserProofCallout {
+  if (callout?.metric) {
+    return {
+      metric: callout.metric,
+      metricLabel: callout.metricLabel,
+      points: callout.points?.filter(Boolean).slice(0, 4),
+    };
   }
-  if (src.includes("primeday") || src.includes("803k") || src.includes("90day")) {
-    return "sellercentral.amazon.com";
-  }
-  if (src.includes("dashboard")) {
-    return "sellercentral.amazon.com";
-  }
-  return "ecomgliders.com";
+
+  const caption = sanitizeCaption(images.find((image) => image.caption)?.caption);
+  const alt = images[0]?.alt ?? "";
+
+  const money =
+    caption?.match(/\$[\d,.]+[MBKmbk]?/)?.[0] ??
+    alt.match(/\$[\d,.]+[MBKmbk]?/)?.[0];
+  const percent =
+    caption?.match(/\+?\d{1,3}%/)?.[0] ?? alt.match(/\+?\d{1,3}%/)?.[0];
+
+  return {
+    metric: money ?? percent ?? "Verified account view",
+    metricLabel:
+      sanitizeCaption(images[0]?.caption) ??
+      "Live Seller Central / Seller app performance",
+    points: images
+      .slice(0, 3)
+      .map((image) => sanitizeCaption(image.caption))
+      .filter((value): value is string => Boolean(value)),
+  };
 }
 
 function useSizedImages(images: BrowserProofImage[]): {
@@ -65,21 +101,21 @@ function useSizedImages(images: BrowserProofImage[]): {
             new Promise<SizedImage>((resolve) => {
               const img = new window.Image();
               img.onload = () => {
-                const width = img.naturalWidth || 16;
-                const height = img.naturalHeight || 10;
+                const width = img.naturalWidth || 9;
+                const height = img.naturalHeight || 16;
                 resolve({
                   ...image,
                   width,
                   height,
-                  kind: classify(width, height),
+                  isPortrait: height >= width,
                 });
               };
               img.onerror = () => {
                 resolve({
                   ...image,
-                  width: 16,
-                  height: 10,
-                  kind: "browser",
+                  width: 9,
+                  height: 16,
+                  isPortrait: true,
                 });
               };
               img.src = image.src;
@@ -103,58 +139,18 @@ function useSizedImages(images: BrowserProofImage[]): {
   return { sized, ready };
 }
 
-/** macOS Safari/Chrome window — matches services hub hero frame. */
-function DesktopFrame({
-  image,
-  className,
-  onPreview,
-}: {
-  image: PreviewableImage;
-  className?: string;
-  onPreview: () => void;
-}) {
-  const url = proofUrlLabel(image.src);
-
-  return (
-    <button
-      type="button"
-      onClick={onPreview}
-      aria-label={`Preview: ${image.alt}`}
-      className={cn(
-        "block w-full overflow-hidden rounded-[12px] border border-white/15 bg-[#ececef] text-left",
-        "shadow-[0_24px_60px_-18px_rgba(0,0,0,0.65)] ring-1 ring-black/20",
-        "transition-transform duration-300 ease-out motion-safe:hover:-translate-y-0.5",
-        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
-        className,
-      )}
-    >
-      <div className="flex h-10 items-center gap-3 bg-[#e4e4e7] px-3.5">
-        <div className="flex shrink-0 items-center gap-1.5" aria-hidden="true">
-          <span className="h-3 w-3 rounded-full bg-[#FF5F57]" />
-          <span className="h-3 w-3 rounded-full bg-[#FFBD2E]" />
-          <span className="h-3 w-3 rounded-full bg-[#28C840]" />
-        </div>
-        <div className="flex min-w-0 flex-1 items-center gap-1.5 rounded-md border border-black/8 bg-white px-2.5 py-1 shadow-sm">
-          <Lock
-            className="h-3 w-3 shrink-0 text-neutral-400"
-            aria-hidden="true"
-          />
-          <span className="truncate text-[11px] font-medium text-neutral-500">
-            {url}
-          </span>
-        </div>
-      </div>
-      <ContainedMedia
-        src={image.src}
-        alt={image.alt}
-        aspectClassName="aspect-[16/10]"
-        sizes="(max-width: 768px) 100vw, 70vw"
-      />
-    </button>
+function pickPhoneImage(sized: SizedImage[]): SizedImage | null {
+  if (sized.length === 0) return null;
+  const appLike = sized.find((image) =>
+    /primeday|803k|90day|small-brand|seller.?app/i.test(image.src),
   );
+  if (appLike) return appLike;
+  const portrait = sized.find((image) => image.isPortrait);
+  if (portrait) return portrait;
+  return sized[0];
 }
 
-/** iPhone-style device — notch, status bar, home indicator. */
+/** Compact iPhone-style device — shorter than full 9:16 so the stage stays dense. */
 function PhoneFrame({
   image,
   className,
@@ -170,23 +166,23 @@ function PhoneFrame({
       onClick={onPreview}
       aria-label={`Preview: ${image.alt}`}
       className={cn(
-        "block w-full overflow-hidden rounded-[2rem] border border-white/20 bg-[#1c1c1e] p-2 text-left",
-        "shadow-[0_28px_50px_-20px_rgba(0,0,0,0.75)] ring-1 ring-black/30",
-        "transition-transform duration-300 ease-out motion-safe:hover:-translate-y-1",
+        "block w-full overflow-hidden rounded-[1.55rem] border border-white/20 bg-[#1c1c1e] p-1.5 text-left",
+        "shadow-[0_22px_40px_-18px_rgba(0,0,0,0.75)] ring-1 ring-black/30",
+        "transition-transform duration-300 ease-out motion-safe:hover:-translate-y-0.5",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
         className,
       )}
     >
-      <div className="overflow-hidden rounded-[1.55rem] bg-black">
+      <div className="overflow-hidden rounded-[1.25rem] bg-black">
         <div
-          className="relative flex items-center justify-between px-5 pb-1 pt-3 text-[10px] font-semibold text-white"
+          className="relative flex items-center justify-between px-4 pb-0.5 pt-2.5 text-[10px] font-semibold text-white"
           aria-hidden="true"
         >
           <span>9:41</span>
-          <span className="absolute left-1/2 top-2 h-[1.15rem] w-[5.5rem] -translate-x-1/2 rounded-full bg-black" />
+          <span className="absolute left-1/2 top-2 h-[1rem] w-[4.75rem] -translate-x-1/2 rounded-full bg-black" />
           <div className="flex items-center gap-1">
             <span className="flex items-end gap-[2px]">
-              {[4, 6, 8, 10].map((h) => (
+              {[3, 5, 7, 9].map((h) => (
                 <span
                   key={h}
                   className="w-[2.5px] rounded-sm bg-white"
@@ -194,241 +190,109 @@ function PhoneFrame({
                 />
               ))}
             </span>
-            <span className="ml-0.5 h-[10px] w-[18px] rounded-[3px] border border-white/80 p-px">
-              <span className="block h-full w-[70%] rounded-[1.5px] bg-white" />
+            <span className="ml-0.5 h-[9px] w-[16px] rounded-[3px] border border-white/80 p-px">
+              <span className="block h-full w-[70%] rounded-[1px] bg-white" />
             </span>
           </div>
         </div>
-        <ContainedMedia
-          src={image.src}
-          alt={image.alt}
-          aspectClassName="aspect-[9/16]"
-          sizes="(max-width: 768px) 60vw, 28vw"
-        />
-        <div className="flex justify-center bg-black py-2" aria-hidden="true">
-          <span className="h-1 w-24 rounded-full bg-white/35" />
+        <div className="relative aspect-[9/14] w-full bg-black">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            sizes="(max-width: 768px) 60vw, 260px"
+            quality={80}
+            className="object-cover object-top"
+          />
+        </div>
+        <div className="flex justify-center bg-black py-1.5" aria-hidden="true">
+          <span className="h-1 w-20 rounded-full bg-white/35" />
         </div>
       </div>
     </button>
   );
 }
 
-function StageShell({ children }: { children: ReactNode }) {
-  return (
-    <div
-      className={cn(
-        "relative overflow-hidden rounded-[16px] border-2 border-primary bg-primary",
-        "shadow-[6px_6px_0_0_#131311]",
-        "px-5 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-12",
-      )}
-    >
-      <div
-        className="pointer-events-none absolute inset-0 opacity-40"
-        aria-hidden="true"
-        style={{
-          backgroundImage:
-            "radial-gradient(ellipse 80% 60% at 30% 40%, rgba(159,232,112,0.12), transparent 55%), radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0)",
-          backgroundSize: "100% 100%, 22px 22px",
-        }}
-      />
-      <div className="relative mx-auto max-w-5xl">{children}</div>
-    </div>
-  );
-}
-
 /**
- * Dimension-aware proof stage:
- * - landscape → browser chrome
- * - portrait → phone chrome
- * - two browsers → left-layered stack
- * - browser + phone → desktop dominant + phone overlap
- * Tap opens full preview (contain + blur).
+ * Feature callout stage: large green metric copy on the left,
+ * single mobile mockup on the right. No dual-device collage.
  */
 export function BrowserProofStage({
   images,
   disclaimer,
+  callout,
 }: BrowserProofStageProps) {
   const { sized, ready } = useSizedImages(images);
   const { preview, open, openPreview, onOpenChange } = useImagePreview();
+  const resolved = deriveCallout(images, callout);
+  const phone = pickPhoneImage(sized);
 
   if (images.length === 0) return null;
 
-  const primary = sized[0] ?? null;
-  const secondary = sized[1] ?? null;
-  const stageCaption = images[0]?.caption;
-  const secondaryNote =
-    images[1]?.caption && images[1].caption !== stageCaption
-      ? images[1].caption
-      : null;
-
-  const bothBrowser =
-    ready &&
-    primary?.kind === "browser" &&
-    secondary?.kind === "browser";
-  const primaryBrowserSecondaryPhone =
-    ready &&
-    primary?.kind === "browser" &&
-    secondary?.kind === "phone";
-  const primaryPhone =
-    ready && primary?.kind === "phone" && !secondary;
-  const twoPhones =
-    ready && primary?.kind === "phone" && secondary?.kind === "phone";
-  const phoneThenBrowser =
-    ready && primary?.kind === "phone" && secondary?.kind === "browser";
-
   return (
     <div>
-      <StageShell>
-        {!ready || !primary ? (
-          <div className="aspect-[16/10] w-full animate-pulse rounded-[10px] bg-white/10" />
-        ) : bothBrowser && secondary ? (
-          <>
-            {/* Layered browsers — left back, right front */}
-            <div className="relative hidden min-h-[280px] md:block lg:min-h-[320px]">
-              <div className="relative z-0 w-[68%] -rotate-1">
-                <DesktopFrame
-                  image={primary}
-                  onPreview={() => openPreview(primary)}
-                />
-              </div>
-              <div className="absolute bottom-[-4%] right-0 z-10 w-[68%] rotate-1">
-                <DesktopFrame
-                  image={secondary}
-                  onPreview={() => openPreview(secondary)}
-                />
-              </div>
-              <div className="h-16" aria-hidden="true" />
-            </div>
-            <div className="space-y-4 md:hidden">
-              <DesktopFrame
-                image={primary}
-                onPreview={() => openPreview(primary)}
-              />
-              <DesktopFrame
-                image={secondary}
-                onPreview={() => openPreview(secondary)}
-              />
-            </div>
-          </>
-        ) : primaryBrowserSecondaryPhone && secondary ? (
-          <>
-            <div className="relative hidden md:block">
-              <DesktopFrame
-                image={primary}
-                className="w-[72%]"
-                onPreview={() => openPreview(primary)}
-              />
-              <div className="absolute bottom-[-6%] right-[2%] w-[30%] max-w-[220px]">
-                <PhoneFrame
-                  image={secondary}
-                  onPreview={() => openPreview(secondary)}
-                />
-              </div>
-              <div className="h-10 lg:h-14" aria-hidden="true" />
-            </div>
-            <div className="md:hidden">
-              <DesktopFrame
-                image={primary}
-                onPreview={() => openPreview(primary)}
-              />
-              <div className="relative z-10 mx-auto -mt-8 w-[58%] max-w-[220px]">
-                <PhoneFrame
-                  image={secondary}
-                  onPreview={() => openPreview(secondary)}
-                />
-              </div>
-            </div>
-          </>
-        ) : phoneThenBrowser && secondary ? (
-          <>
-            {/* Prefer browser as dominant even if listed second */}
-            <div className="relative hidden md:block">
-              <DesktopFrame
-                image={secondary}
-                className="w-[72%]"
-                onPreview={() => openPreview(secondary)}
-              />
-              <div className="absolute bottom-[-6%] right-[2%] w-[30%] max-w-[220px]">
-                <PhoneFrame
-                  image={primary}
-                  onPreview={() => openPreview(primary)}
-                />
-              </div>
-              <div className="h-10 lg:h-14" aria-hidden="true" />
-            </div>
-            <div className="md:hidden">
-              <DesktopFrame
-                image={secondary}
-                onPreview={() => openPreview(secondary)}
-              />
-              <div className="relative z-10 mx-auto -mt-8 w-[58%] max-w-[220px]">
-                <PhoneFrame
-                  image={primary}
-                  onPreview={() => openPreview(primary)}
-                />
-              </div>
-            </div>
-          </>
-        ) : twoPhones && secondary ? (
-          <>
-            <div className="relative mx-auto hidden max-w-md md:block">
-              <div className="relative z-0 w-[70%] -rotate-2">
-                <PhoneFrame
-                  image={primary}
-                  onPreview={() => openPreview(primary)}
-                />
-              </div>
-              <div className="absolute bottom-[-4%] right-0 z-10 w-[70%] rotate-2">
-                <PhoneFrame
-                  image={secondary}
-                  onPreview={() => openPreview(secondary)}
-                />
-              </div>
-              <div className="h-12" aria-hidden="true" />
-            </div>
-            <div className="mx-auto flex max-w-[240px] flex-col gap-4 md:hidden">
-              <PhoneFrame
-                image={primary}
-                onPreview={() => openPreview(primary)}
-              />
-              <PhoneFrame
-                image={secondary}
-                onPreview={() => openPreview(secondary)}
-              />
-            </div>
-          </>
-        ) : primaryPhone ? (
-          <div className="mx-auto w-full max-w-[260px]">
-            <PhoneFrame
-              image={primary}
-              onPreview={() => openPreview(primary)}
-            />
-          </div>
-        ) : (
-          <div className="mx-auto w-full max-w-4xl">
-            <DesktopFrame
-              image={primary}
-              onPreview={() => openPreview(primary)}
-            />
-          </div>
+      <div
+        className={cn(
+          "relative overflow-hidden rounded-[18px] border-2 border-primary bg-primary",
+          "shadow-[5px_5px_0_0_#131311]",
+          "px-5 py-7 sm:px-8 sm:py-8 lg:px-10 lg:py-9",
         )}
-      </StageShell>
+      >
+        <div
+          className="pointer-events-none absolute inset-0 opacity-45"
+          aria-hidden="true"
+          style={{
+            backgroundImage:
+              "radial-gradient(ellipse 55% 70% at 18% 45%, color-mix(in srgb, var(--color-accent) 18%, transparent), transparent 60%), radial-gradient(ellipse 50% 60% at 88% 50%, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent 55%), radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0)",
+            backgroundSize: "100% 100%, 100% 100%, 18px 18px",
+          }}
+        />
 
-      {stageCaption ? (
-        <p className="mt-4 max-w-3xl text-small font-medium text-primary">
-          {stageCaption}
-        </p>
-      ) : null}
-      {secondaryNote ? (
-        <p className="mt-1 max-w-3xl text-xs text-text-secondary">
-          {secondaryNote}
-        </p>
-      ) : null}
-      {disclaimer ? (
-        <p className="mt-2 max-w-3xl text-xs leading-relaxed text-text-secondary">
-          {disclaimer}
-        </p>
-      ) : null}
+        <div className="relative mx-auto flex max-w-4xl flex-col items-center gap-6 sm:gap-7 lg:max-w-5xl lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+          <div className="min-w-0 w-full max-w-md lg:max-w-xl">
+            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.16em] text-accent sm:text-[11px]">
+              Verified Seller tools
+            </p>
+            <p className="service-callout-metric mt-2.5">{resolved.metric}</p>
+            {resolved.metricLabel ? (
+              <p className="mt-2.5 text-[clamp(1.15rem,2vw,1.45rem)] font-bold leading-snug text-text-on-dark">
+                {resolved.metricLabel}
+              </p>
+            ) : null}
+            {resolved.points && resolved.points.length > 0 ? (
+              <ul className="mt-4 grid gap-2">
+                {resolved.points.map((point) => (
+                  <li
+                    key={point}
+                    className="flex w-fit max-w-full gap-2.5 rounded-[10px] border border-white/10 bg-white/[0.05] px-3.5 py-2.5 text-sm font-medium leading-snug text-text-on-dark/90 sm:text-[0.95rem]"
+                  >
+                    <span
+                      className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
+                      aria-hidden="true"
+                    />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : disclaimer ? (
+              <p className="mt-3 text-sm leading-relaxed text-text-on-dark/65">
+                {disclaimer.replace(/\s*Source:.*$/i, "").trim()}
+              </p>
+            ) : null}
+          </div>
+
+          <div className="w-full max-w-[220px] shrink-0 sm:max-w-[235px] lg:max-w-[250px]">
+            {!ready || !phone ? (
+              <div className="aspect-[9/14] w-full animate-pulse rounded-[1.55rem] bg-white/10" />
+            ) : (
+              <PhoneFrame
+                image={phone}
+                onPreview={() => openPreview(phone)}
+              />
+            )}
+          </div>
+        </div>
+      </div>
 
       <ImagePreviewDialog
         open={open}

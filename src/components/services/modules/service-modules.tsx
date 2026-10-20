@@ -53,12 +53,16 @@ export function ServiceModules({
               <ServiceModuleShell
                 key={module.id}
                 id={module.id}
-                heading={module.heading}
+                // Callout metric is the visual heading — skip duplicate section title.
+                heading={module.callout?.metric ? undefined : module.heading}
                 tone={tone}
+                density="tight"
               >
                 <BrowserProofStage
                   images={module.images}
                   disclaimer={module.subheading}
+                  callout={module.callout}
+                  heading={module.heading}
                 />
               </ServiceModuleShell>
             );

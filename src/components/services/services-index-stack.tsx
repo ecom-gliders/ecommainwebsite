@@ -3,36 +3,35 @@ import { SectionHeading } from "@/components/sections/section-heading";
 import { SectionShell } from "@/components/sections/section-shell";
 
 interface ServicesIndexStackProps {
-  stack: ServicesIndexConfig["stack"];
+  engagement: ServicesIndexConfig["engagement"];
 }
 
-const hardPanel =
-  "rounded-[16px] border-2 border-primary bg-background p-5 text-primary shadow-[4px_4px_0_0_#131311] sm:p-6";
-
-export function ServicesIndexStack({ stack }: ServicesIndexStackProps) {
+export function ServicesIndexStack({ engagement }: ServicesIndexStackProps) {
   return (
     <SectionShell
-      id="services-stack"
-      ariaLabelledBy="services-stack-heading"
+      id="services-engagement"
+      ariaLabelledBy="services-engagement-heading"
       tone="muted"
-      className="py-12 sm:py-16"
+      className="py-14 sm:py-16 lg:py-20"
     >
       <SectionHeading
-        heading={stack.heading}
-        subheading={stack.subheading}
-        headingId="services-stack-heading"
+        heading={engagement.heading}
+        headingId="services-engagement-heading"
       />
-      <ol className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {stack.steps.map((step, index) => (
-          <li key={step.title} className={hardPanel}>
+      <ol className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+        {engagement.steps.map((step, index) => (
+          <li
+            key={step.title}
+            className="rounded-[16px] border-2 border-primary bg-background p-6 text-primary shadow-[4px_4px_0_0_#131311] sm:p-7"
+          >
             <span
               aria-hidden="true"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-[10px] border-2 border-primary bg-accent text-small font-bold shadow-[3px_3px_0_0_#131311]"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-[10px] border-2 border-primary bg-accent text-body font-bold shadow-[3px_3px_0_0_#131311]"
             >
               {index + 1}
             </span>
-            <h3 className="mt-3 text-h4 text-primary">{step.title}</h3>
-            <p className="mt-2 text-body text-text-secondary">{step.description}</p>
+            <h3 className="mt-4 text-h3 text-primary">{step.title}</h3>
+            <p className="mt-3 text-body text-text-secondary">{step.description}</p>
           </li>
         ))}
       </ol>

@@ -308,19 +308,25 @@
       "id": "catalog-browser-proof",
       "type": "browserProof",
       "heading": "Account scale that catalog health has to support",
-      "subheading": "Seller Central and Sellerboard captures from growth.ecomgliders.com. Catalog work keeps pages buyable under that traffic.",
+      "subheading": "Live account examples. Catalog work keeps pages buyable at scale.",
       "images": [
         {
-          "src": "/images/growth/sales-dashboard-2yr.avif",
-          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
-          "caption": "Two-year ordered product sales window. Source: growth.ecomgliders.com."
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%."
         },
         {
-          "src": "/images/growth/sales-brand-yoy.avif",
-          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
-          "caption": "Multi-year brand growth snapshot. Source: growth.ecomgliders.com."
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025."
         }
-      ]
+      ],
+      "callout": {
+        "metric": "$51.3M+",
+        "metricLabel": "Sales scale your catalog has to support",
+        "points": [
+          "Pages stay buyable when traffic rises",
+          "Fix suppressions before you scale spend"
+        ]
+      }
     }
   ],
   "results": {

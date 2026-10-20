@@ -3,9 +3,11 @@ import { BlogPostCta } from "@/components/blog/blog-post-cta";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { SectionHeading } from "@/components/sections/section-heading";
 import { SectionShell } from "@/components/sections/section-shell";
-import { ServicesIndexCategories } from "./services-index-categories";
+import { ServicesIndexAlsoAvailable } from "./services-index-also-available";
+import { ServicesIndexAudience } from "./services-index-audience";
+import { ServicesIndexCapabilityRail } from "./services-index-capability-rail";
+import { ServicesIndexFlagship } from "./services-index-flagship";
 import { ServicesIndexHero } from "./services-index-hero";
-import { ServicesIndexProof } from "./services-index-proof";
 import { ServicesIndexResults } from "./services-index-results";
 import { ServicesIndexStack } from "./services-index-stack";
 
@@ -19,23 +21,29 @@ export function ServicesIndexTemplate({
   site,
 }: ServicesIndexTemplateProps) {
   return (
-    <>
-      <ServicesIndexHero hero={index.hero} flagshipCta={index.flagship.cta} />
-      <ServicesIndexCategories categories={index.categories} />
-      <ServicesIndexStack stack={index.stack} />
-      <ServicesIndexProof proof={index.proof} />
-      <ServicesIndexResults featuredResults={index.featuredResults} />
+    <div className="services-hub">
+      <ServicesIndexHero hero={index.hero} />
+      <ServicesIndexAudience audience={index.audience} />
+      <ServicesIndexFlagship flagship={index.flagship} />
+      <ServicesIndexCapabilityRail
+        capabilityRail={index.capabilityRail}
+        focusedPaths={index.focusedPaths}
+      />
+      <ServicesIndexStack engagement={index.engagement} />
+      <ServicesIndexResults results={index.results} />
+      <ServicesIndexAlsoAvailable alsoAvailable={index.alsoAvailable} />
 
       <SectionShell
         id="services-faq"
         ariaLabelledBy="services-faq-heading"
-        className="py-12 sm:py-16"
+        className="py-14 sm:py-16 lg:py-20"
       >
         <SectionHeading
           heading="Frequently asked questions"
           headingId="services-faq-heading"
+          className="max-w-4xl"
         />
-        <div className="mt-8">
+        <div className="mt-8 w-full">
           <FaqAccordion items={index.faq} />
         </div>
       </SectionShell>
@@ -51,6 +59,6 @@ export function ServicesIndexTemplate({
           },
         }}
       />
-    </>
+    </div>
   );
 }

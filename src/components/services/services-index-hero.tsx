@@ -8,7 +8,6 @@ import { SectionShell } from "@/components/sections/section-shell";
 
 interface ServicesIndexHeroProps {
   hero: ServicesIndexConfig["hero"];
-  flagshipCta?: ServicesIndexConfig["flagship"]["cta"];
 }
 
 function MacBrowserFrame({
@@ -43,7 +42,6 @@ function MacBrowserFrame({
           </div>
         </div>
         <div className="relative aspect-[16/10] w-full overflow-hidden bg-neutral-900">
-          {/* Blurred fill for letterbox bands when foreground uses contain */}
           <Image
             src={image}
             alt=""
@@ -73,7 +71,7 @@ function MacBrowserFrame({
   );
 }
 
-export function ServicesIndexHero({ hero, flagshipCta }: ServicesIndexHeroProps) {
+export function ServicesIndexHero({ hero }: ServicesIndexHeroProps) {
   return (
     <SectionShell
       id="services-hero"
@@ -110,7 +108,7 @@ export function ServicesIndexHero({ hero, flagshipCta }: ServicesIndexHeroProps)
           >
             {hero.title}
           </h1>
-          <p className="mt-4 max-w-xl text-body text-text-on-dark/80">
+          <p className="mt-5 max-w-xl text-body text-text-on-dark/85">
             {hero.subtitle}
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
@@ -120,22 +118,24 @@ export function ServicesIndexHero({ hero, flagshipCta }: ServicesIndexHeroProps)
             {hero.secondaryCta ? (
               <a
                 href={hero.secondaryCta.href}
-                className="inline-flex min-h-11 items-center text-small font-medium text-text-on-dark/85 underline-offset-4 hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+                className="inline-flex min-h-11 items-center text-body font-semibold text-text-on-dark underline-offset-4 hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
               >
                 {hero.secondaryCta.label}
               </a>
             ) : null}
           </div>
-          {flagshipCta ? (
-            <p className="mt-6">
-              <Link
-                href={flagshipCta.href}
-                className="inline-flex items-center text-small font-semibold text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
-              >
-                {flagshipCta.label}
-              </Link>
-            </p>
-          ) : null}
+          <ul className="mt-10 grid grid-cols-2 gap-x-6 gap-y-5 border-t border-white/15 pt-8 sm:grid-cols-4 sm:gap-x-4">
+            {hero.trustStrip.map((item) => (
+              <li key={item.label}>
+                <p className="text-[1.35rem] font-bold leading-none tracking-tight text-accent sm:text-[1.5rem]">
+                  {item.value}
+                </p>
+                <p className="mt-2 text-small leading-snug text-text-on-dark/70">
+                  {item.label}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {hero.browser ? (

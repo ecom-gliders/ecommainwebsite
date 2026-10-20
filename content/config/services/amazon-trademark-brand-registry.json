@@ -217,29 +217,29 @@
     {
       "id": "brand-pathway-board",
       "type": "brandPathwayBoard",
-      "heading": "Trademark to Brand Registry pipeline",
-      "subheading": "Where most sellers sit today—and what must be true before Amazon enrollment can proceed.",
-      "urlLabel": "brand.ecomgliders.com/pathway",
-      "disclaimer": "Planning pathway only. Not legal advice. Amazon and trademark offices set their own timelines.",
+      "heading": "Trademark to Brand Registry",
+      "subheading": "The usual sequence we walk sellers through. Timelines depend on the trademark office and Amazon.",
+      "urlLabel": "Enrollment path",
+      "disclaimer": "Planning guide only — not legal advice. Amazon and trademark offices control their own timelines.",
       "stages": [
         {
           "label": "Mark readiness",
-          "detail": "Confirm distinctive brand name or logo and goods/services scope that can support a filing.",
+          "detail": "Confirm the brand name or logo and the product categories you need to protect.",
           "state": "done"
         },
         {
           "label": "Trademark filing",
-          "detail": "Application with a recognized trademark office. Attorney involvement when the matter requires it.",
+          "detail": "File with a recognized trademark office. We flag when an attorney should lead the filing.",
           "state": "current"
         },
         {
           "label": "Brand Registry enrollment",
-          "detail": "Submit eligible trademark details, brand assets, and account alignment for Amazon review.",
+          "detail": "Submit trademark details, brand assets, and Seller Central alignment for Amazon review.",
           "state": "upcoming"
         },
         {
           "label": "Tool activation",
-          "detail": "Plan A+, Brand Store, analytics, and protection workflows after enrollment succeeds.",
+          "detail": "Turn on A+, Brand Store, analytics, and protection tools after approval.",
           "state": "upcoming"
         }
       ],
@@ -248,28 +248,28 @@
     {
       "id": "brand-unlock-grid",
       "type": "brandUnlockGrid",
-      "heading": "What Brand Registry unlocks when you qualify",
-      "subheading": "Tools commonly available after enrollment. Exact access still depends on Amazon approval.",
-      "note": "Feature availability varies by marketplace and account. We do not guarantee every tool for every mark.",
+      "heading": "Tools Brand Registry can unlock",
+      "subheading": "Common after enrollment. Amazon still decides what each account receives.",
+      "note": "Availability varies by marketplace and account. We do not promise every tool for every mark.",
       "items": [
         {
           "title": "A+ Content",
-          "description": "Enhanced modules that educate shoppers beyond standard bullets and images.",
+          "description": "Rich content modules beyond standard bullets and images.",
           "unlocked": true
         },
         {
           "title": "Brand Store",
-          "description": "A branded storefront for collections and storytelling after enrollment.",
+          "description": "A branded storefront for collections and product stories.",
           "unlocked": true
         },
         {
           "title": "Brand Analytics",
-          "description": "Search and performance reports that inform listing and advertising decisions.",
+          "description": "Search and sales reports that guide listings and ads.",
           "unlocked": true
         },
         {
           "title": "Report a Violation",
-          "description": "Official pathways to report infringing or unauthorized uses of your brand.",
+          "description": "Amazon’s channel to report unauthorized use of your brand.",
           "unlocked": false
         }
       ]
@@ -281,13 +281,13 @@
       {
         "metric": "7-figure brand in 9 months",
         "brand": "FocusForm (Office products)",
-        "description": "Scaled from a single ASIN to a multi-product 7-figure brand with catalog expansion and brand defense—the operating model Brand Registry supports.",
+        "description": "Grew from one ASIN to a multi-product 7-figure catalog with brand defense in place.",
         "href": "/case-study-8/"
       },
       {
         "metric": "73% sales growth",
         "brand": "Kitchen brand",
-        "description": "Listing and PPC restructuring after brand foundations were in place. Not a claim that trademark filing alone caused the result.",
+        "description": "Listing and PPC rebuild after brand foundations were set — not from trademark filing alone.",
         "href": "/case-study-1/"
       }
     ]

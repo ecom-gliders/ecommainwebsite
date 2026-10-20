@@ -19,7 +19,8 @@ export async function SiteFooter() {
 
   const pathname = headerStore.get("x-pathname") ?? "";
   const slug = pathname.replace(/^\/+|\/+$/g, "");
-  const suppressPreFooter = serviceSlugs.includes(slug);
+  const suppressPreFooter =
+    slug === "services" || serviceSlugs.includes(slug);
 
   return (
     <footer className="relative mt-4 overflow-hidden rounded-t-[20px] bg-primary text-text-on-dark sm:mt-6">

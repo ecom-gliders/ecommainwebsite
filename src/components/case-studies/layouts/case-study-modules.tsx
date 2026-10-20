@@ -216,7 +216,7 @@ export function StickyKpiAside({
           <div key={`${metric.label}-${metric.value}`}>
             <dt className="sr-only">{metric.label}</dt>
             <dd>
-              <span className="block text-xl font-black tracking-tight text-accent-alt sm:text-2xl">
+              <span className="block border-l-[3px] border-accent pl-2 text-xl font-black tracking-tight text-primary sm:text-2xl">
                 {metric.value}
               </span>
               <span className="mt-1 block text-xs leading-snug text-text-secondary">{metric.label}</span>

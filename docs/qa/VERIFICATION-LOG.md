@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-20 â€” `/services/` hub redesign
+
+**Task:** Rebuild services index from AMZ Dudes IA + consultant plan  
+**Verification method:** tsc; next build; Playwright localhost DOM + computed styles  
+
+**STATUS:** IMPLEMENTED (local)  
+**IMPLEMENTED:** Full-Service parent, 01â€“08 rail, green metric results rows, Also available, hub type scale, pre-footer suppress on `/services`  
+**VERIFIED:** tsc clean; build includes `/services`; metric `310%` = `rgb(6,125,98)` / `72px` / `800`; no duplicate â€œReady to scaleâ€ H2  
+**NEXT ACTION:** User review http://localhost:3000/services/; deploy when ready  
+
+---
+
 ## 2026-10-20 â€” Pass 2 visual grammar variants (all 15)
 
 **Task:** Break shared macOS browser + lime horizontal bar look across services  
@@ -2976,4 +2988,16 @@ Hero form â†’ Catalog health board â†’ Issue, fix, and verify â†’ Catalog-linked
 - HTTP 200: `/shopify-website-development/`, `/amazon-ppc-management-agency/`, `/services/` (Verified)
 **STATUS:** Staging deploy COMPLETE  
 **NEXT ACTION:** Production DNS cutover â€” Requires confirmation
+
+
+## 2026-10-21 — Faizan four jobs (localhost:3000)
+
+| Check | Result |
+|-------|--------|
+| Hero form on full-service | Verified — formInHero true, heading ""Request a full-account audit"" |
+| Hero form sample layouts | Verified — PPC, catalog (ops-sheet), listing, content, visual |
+| Callout before | Observed — 72px, rgb(198,253,80), weight 800 |
+| Callout after | Verified — 100px, rgb(212,255,106), weight 900 |
+| Block images | Verified — 12/12 audience+includes imgs naturalWidth > 0 |
+| Next template | Documented — PPC plan file |
 

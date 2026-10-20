@@ -11,7 +11,26 @@ export function buildServicesIndexJsonLd({
   site,
 }: BuildServicesIndexJsonLdInput): Record<string, unknown> {
   const pageUrl = absoluteUrl(index.seo.canonical);
-  const services = index.categories.flatMap((category) => category.services);
+  const listedServices = [
+    {
+      title: index.flagship.heading,
+      href: index.flagship.cta.href,
+    },
+    ...index.capabilityRail.items.map((item) => ({
+      title: item.title,
+      href: item.href,
+    })),
+    ...index.alsoAvailable.items.map((item) => ({
+      title: item.title,
+      href: item.href,
+    })),
+  ];
+
+  const uniqueByHref = listedServices.filter(
+    (service, indexInList, all) =>
+      all.findIndex((candidate) => candidate.href === service.href) ===
+      indexInList,
+  );
 
   return {
     "@context": "https://schema.org",
@@ -28,7 +47,7 @@ export function buildServicesIndexJsonLd({
         },
         mainEntity: {
           "@type": "ItemList",
-          itemListElement: services.map((service, position) => ({
+          itemListElement: uniqueByHref.map((service, position) => ({
             "@type": "ListItem",
             position: position + 1,
             name: service.title,

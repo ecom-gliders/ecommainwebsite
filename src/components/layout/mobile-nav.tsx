@@ -53,7 +53,7 @@ function MobileNavLink({
     <span className="flex min-w-0 items-center gap-2">
       <span className="leading-snug">{label}</span>
       {featured ? (
-        <span className="shrink-0 text-[0.65rem] font-medium uppercase tracking-wide text-accent">
+        <span className="shrink-0 rounded-[3px] bg-accent px-1.5 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-primary">
           Featured
         </span>
       ) : null}

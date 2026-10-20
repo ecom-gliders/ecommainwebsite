@@ -17,6 +17,22 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-21 — Accent contrast pairing (lime vs ink)
+
+**WHAT:** Ban `#C6FD50` (`text-accent`) as body/metric text on light surfaces. Light metrics use `text-primary` plus an accent left rule or chip fill (`bg-accent` + `text-primary`). Keep lime text on dark/ink stages.
+
+**WHY:** Lime on white fails WCAG (~1.3:1). Users reported unreadable green metrics and weak heading/body hierarchy on case cards. Reckap-style council (Brand-SEO, Architect, Pragmatist) all voted SHIP WITH CHANGES — prefer ink metrics over overloading `success`.
+
+**OPTIONS:** (A) Recolor accent darker sitewide (B) `text-success` for all light metrics (C) Surface pairing: accent = fill/border/dark-text only; light metrics = primary + accent cue
+
+**CHOSEN:** C
+
+**TRADEOFFS:** Some decorative lime type removed from light panels; brand punch shifts to chips/rules. Remaining light `text-accent` kickers should be audited as they appear.
+
+**IMPACT:** `design-system.json` usage notes; `service-case-outcomes`, services grid, depth band, case-studies featured/KPI, mega-menu metric, FAQ open state, Featured badges.
+
+---
+
 ## 2026-10-17 — Service graphics P0 + body layouts + early visuals
 
 **WHAT:** Fix broken InfographicSpotlight (quality allowlist); ContainedMedia spotlight variant; distinct body section layouts; split earlyVisuals / lateOps; second niche diagrams on dry ops; teaching diagrams on mid paid pages.

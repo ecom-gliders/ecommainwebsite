@@ -6,7 +6,6 @@ import { PrimaryButton } from "@/components/ui/primary-button";
 import type { ServicePageConfig, SiteConfig } from "@/domain/content/schemas";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
 import { cn } from "@/lib/utils";
-import { CatalogHealthBoard } from "./modules/catalog-health-board";
 import { ServiceBreadcrumb } from "./service-breadcrumb";
 
 interface ServiceHeroProps {
@@ -26,7 +25,8 @@ const FALLBACK_REVENUE_OPTIONS = [
 
 /**
  * Per-layout hero grammar.
- * console-lead / proof-lead defer the lead form so the first viewport is physical proof, not a lime intake card.
+ * Every layout opens with its feature-specific intake form in the hero aside.
+ * Form field sets still come from each service JSON (`hero.form`).
  */
 export type HeroPresentation =
   | "split-accent"
@@ -37,19 +37,19 @@ export type HeroPresentation =
   | "proof-lead";
 
 const HERO_BY_LAYOUT: Record<string, HeroPresentation> = {
-  "catalog-ops": "console-lead",
+  "catalog-ops": "ops-sheet",
   "brand-pathway": "split-panel",
   "entity-setup": "stack-light",
   "sourcing-ops": "ops-sheet",
   "dtc-channel": "split-panel",
-  "lifecycle-ops": "proof-lead",
-  "ppc-ops": "proof-lead",
+  "lifecycle-ops": "split-accent",
+  "ppc-ops": "split-accent",
   "reporting-ops": "ops-sheet",
   "dsp-ops": "split-accent",
-  "account-ops": "proof-lead",
+  "account-ops": "split-accent",
   "listing-seo": "split-panel",
   "copy-ops": "stack-light",
-  "visual-ops": "proof-lead",
+  "visual-ops": "split-accent",
   "video-ops": "split-accent",
   "tiktok-ops": "stack-light",
   default: "split-accent",
@@ -61,8 +61,9 @@ export function getServiceHeroPresentation(
   return HERO_BY_LAYOUT[layout] ?? HERO_BY_LAYOUT.default;
 }
 
-export function heroDefersForm(presentation: HeroPresentation): boolean {
-  return presentation === "console-lead" || presentation === "proof-lead";
+/** Intake form always starts in the hero — never deferred mid-page. */
+export function heroDefersForm(_presentation: HeroPresentation): boolean {
+  return false;
 }
 
 /**
@@ -71,7 +72,6 @@ export function heroDefersForm(presentation: HeroPresentation): boolean {
 export function ServiceHero({ service, site }: ServiceHeroProps) {
   const partnerBadge = site.partnerBadges[0];
   const presentation = getServiceHeroPresentation(service.layout);
-  const deferForm = heroDefersForm(presentation);
   const useAtmosphere =
     Boolean(service.hero.atmosphere) &&
     (presentation === "split-accent" ||
@@ -140,17 +140,6 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
         options: FALLBACK_REVENUE_OPTIONS,
       },
     ];
-
-  const consoleBoard = service.modules?.find(
-    (module) => module.type === "catalogHealthBoard",
-  );
-  const browserProof = service.modules?.find(
-    (module) => module.type === "browserProof",
-  );
-  const proofImage =
-    browserProof && browserProof.type === "browserProof"
-      ? browserProof.images[0]
-      : undefined;
 
   const formShellClass = cn(
     "flex h-full scroll-mt-28 flex-col",
@@ -228,58 +217,15 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
   );
 
   const isStack = presentation === "stack-light";
-  const isProofLead = presentation === "proof-lead";
-  const isConsoleLead = presentation === "console-lead";
-  const showEyebrow = !isProofLead && !isConsoleLead;
 
-  const aside =
-    isConsoleLead && consoleBoard && consoleBoard.type === "catalogHealthBoard" ? (
-      <div className="min-w-0">
-        <CatalogHealthBoard
-          urlLabel={consoleBoard.urlLabel}
-          disclaimer={consoleBoard.disclaimer}
-          columns={consoleBoard.columns}
-          rows={consoleBoard.rows}
-          variant={consoleBoard.variant}
-          boardLabel={consoleBoard.boardLabel}
-        />
-      </div>
-    ) : isProofLead && proofImage ? (
-      <div
-        className={cn(
-          "relative min-h-[16rem] overflow-hidden rounded-[12px] border border-accent/30 bg-primary/40 sm:min-h-[20rem]",
-          "shadow-[0_24px_60px_-18px_rgba(0,0,0,0.55)]",
-        )}
-      >
-        <Image
-          src={proofImage.src}
-          alt={proofImage.alt}
-          fill
-          className="object-cover object-top"
-          sizes="(max-width: 1024px) 100vw, 50vw"
-          quality={80}
-          priority
-        />
-        {proofImage.caption ? (
-          <p className="absolute inset-x-0 bottom-0 bg-primary/85 px-3 py-2 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
-            {proofImage.caption}
-          </p>
-        ) : null}
-      </div>
-    ) : isProofLead ? (
-      <div className="flex min-h-[14rem] items-end rounded-[12px] border border-accent/25 bg-primary/30 p-5 sm:min-h-[18rem]">
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
-          {service.breadcrumbLabel} · live account context
-        </p>
-      </div>
-    ) : !deferForm ? (
-      <div
-        id="service-lead-form"
-        className={cn(formShellClass, isStack && "max-w-3xl")}
-      >
-        {formInner}
-      </div>
-    ) : null;
+  const aside = (
+    <div
+      id="service-lead-form"
+      className={cn(formShellClass, isStack && "max-w-3xl")}
+    >
+      {formInner}
+    </div>
+  );
 
   return (
     <section
@@ -291,7 +237,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
           ? "-mt-[4.75rem] border-b border-primary/20 sm:-mt-[5.5rem] md:-mt-[6rem]"
           : cn(
               "border-b border-primary/10",
-              isConsoleLead ? "bg-surface-muted/40" : "bg-background",
+              "bg-background",
               "pb-8 pt-7 sm:pb-10 sm:pt-9 lg:pb-12 lg:pt-10",
             ),
       )}
@@ -331,37 +277,32 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
         <div
           className={cn(
             "relative z-10 grid items-stretch gap-7",
-            isStack || (isProofLead && !aside)
-              ? "lg:grid-cols-1 lg:gap-8"
-              : "lg:grid-cols-2 lg:gap-10",
+            isStack ? "lg:grid-cols-1 lg:gap-8" : "lg:grid-cols-2 lg:gap-10",
           )}
         >
           <div
             className={cn(
               "flex flex-col",
-              isStack || isProofLead ? "max-w-3xl" : "h-full",
+              isStack ? "max-w-3xl" : "h-full",
             )}
           >
-            {showEyebrow ? (
-              <p
-                className={cn(
-                  "inline-flex w-fit max-w-full items-center px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.14em] sm:text-[11px]",
-                  onDark
-                    ? "rounded-full border border-accent/50 bg-primary/40 text-accent backdrop-blur-sm"
-                    : presentation === "ops-sheet"
-                      ? "rounded-[4px] border border-primary/20 bg-surface-muted text-text-secondary"
-                      : "rounded-full border border-primary/20 bg-surface-muted text-primary",
-                )}
-              >
-                {service.breadcrumbLabel}
-              </p>
-            ) : null}
+            <p
+              className={cn(
+                "inline-flex w-fit max-w-full items-center px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.14em] sm:text-[11px]",
+                onDark
+                  ? "rounded-full border border-accent/50 bg-primary/40 text-accent backdrop-blur-sm"
+                  : presentation === "ops-sheet"
+                    ? "rounded-[4px] border border-primary/20 bg-surface-muted text-text-secondary"
+                    : "rounded-full border border-primary/20 bg-surface-muted text-primary",
+              )}
+            >
+              {service.breadcrumbLabel}
+            </p>
 
             <h1
               id="service-hero-heading"
               className={cn(
-                "text-[clamp(1.85rem,3.4vw,2.65rem)] font-black leading-[1.08] tracking-[-0.02em] text-balance",
-                showEyebrow ? "mt-4 sm:mt-5" : "mt-0",
+                "mt-4 text-[clamp(1.85rem,3.4vw,2.65rem)] font-black leading-[1.08] tracking-[-0.02em] text-balance sm:mt-5",
                 onDark ? "text-text-on-dark" : "text-text-primary",
               )}
             >
@@ -372,7 +313,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
               className={cn(
                 "mt-4 max-w-lg text-base font-normal leading-relaxed text-pretty sm:mt-5 sm:text-lg",
                 onDark ? "text-text-on-dark/85" : "text-text-secondary",
-                (isStack || isProofLead || isConsoleLead) && "max-w-2xl",
+                isStack && "max-w-2xl",
               )}
             >
               {service.hero.subtitle}
@@ -393,24 +334,14 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                <Link
-                  href={
-                    isConsoleLead
-                      ? "#service-results"
-                      : isProofLead
-                        ? "#service-results"
-                        : "#service-results"
-                  }
-                >
-                  See case results
-                </Link>
+                <Link href="#service-results">See case results</Link>
               </PrimaryButton>
             </div>
 
             <div
               className={cn(
                 "pt-7 sm:pt-8",
-                !isStack && !isProofLead && "mt-auto",
+                !isStack && "mt-auto",
               )}
             >
               <p

@@ -502,3 +502,19 @@ Asset: `public/images/creative/search-ranking-optimization.png`
 Action: Wired into listing + content `proofGallery` (replaced weaker duplicate stills)
 Provenance: prior creative bank (already in repo)
 Validated: yes â€” file present before wire-up
+
+## 2026-10-21 — Full-service audience AI images
+
+Date: 2026-10-21
+Source: Cursor GenerateImage (AI-generated, original)
+Asset names:
+- audience-fba-brands-ready-to-scale.jpg
+- audience-ppc-only-agency-limit.jpg
+- audience-multi-marketplace-sellers.jpg
+- audience-founders-accountable-specialists.jpg
+Type: image
+License: generated for eCom Gliders project use
+Used on page: /full-service-amazon-agency/ (Who full-service management is for)
+Paths: public/images/services/audience/ ; assets/source/audience/
+Validated: yes (copied; wired via audience.image in JSON)
+

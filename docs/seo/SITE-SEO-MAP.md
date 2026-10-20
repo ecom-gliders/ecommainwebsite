@@ -628,6 +628,11 @@ Content rewrite status: incomplete until each wave CONTINUE pass.
 | Shopify Website Development | Shopify website development | /shopify-website-development/ | Implemented (D1, 2026-10-04) |
 | TikTok Shop Ads | TikTok Shop ads | /tiktok-shop-ads/ | Implemented (D2, 2026-10-04) |
 | Email Retention Marketing | Email retention marketing | /email-retention-marketing/ | Implemented (D3, 2026-10-04) |
+| Product Launch Services | Amazon product launch services | /amazon-product-launch-services/ | Implemented (2026-10-21) |
+| Inventory Management | Amazon inventory management | /amazon-inventory-management/ | Implemented (2026-10-21) |
+| Seller Central Services | Amazon Seller Central services | /amazon-seller-central-services/ | Implemented (2026-10-21) |
+| Account Operations | Amazon account operations | /amazon-account-operations/ | Implemented (2026-10-21) |
+| Account Health | Amazon account health | /amazon-account-health/ | Implemented (2026-10-21) |
 
 ---
 

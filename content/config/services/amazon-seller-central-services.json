@@ -1,0 +1,295 @@
+{
+  "slug": "amazon-seller-central-services",
+  "breadcrumbLabel": "Seller Central Services",
+  "layout": "account-ops",
+  "hero": {
+    "title": "Amazon Seller Central services for day-to-day ownership",
+    "subtitle": "Structured handling of account tasks, cases, promotions, and operational requests—so Seller Central work keeps moving between audits.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a Seller Central operations review",
+      "subheading": "Tell us what is falling behind in Seller Central. A strategist follows up within one business day.",
+      "submitLabel": "Request Seller Central review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "opsFocus",
+          "label": "Primary Seller Central need",
+          "type": "select",
+          "required": false,
+          "options": [
+            { "value": "", "label": "Please select" },
+            { "value": "cases", "label": "Cases and support tickets" },
+            { "value": "listings-ops", "label": "Listing and catalog tasks" },
+            { "value": "promotions", "label": "Promotions and coupons" },
+            { "value": "day-to-day", "label": "Day-to-day account ops" },
+            { "value": "full-handoff", "label": "Full operational handoff" }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-account-management-service.jpg",
+      "alt": "Amazon Seller Central operations workspace"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Seller Central work falls behind",
+    "points": [
+      {
+        "title": "Reactive firefighting",
+        "description": "Cases and requests are handled only when something breaks."
+      },
+      {
+        "title": "No single ops owner",
+        "description": "Listing, ads, and support tasks bounce between vendors."
+      },
+      {
+        "title": "Promotions without a calendar",
+        "description": "Coupons and deals launch without inventory or advertising alignment."
+      },
+      {
+        "title": "Audit gaps between weeks",
+        "description": "Accounts stall after strategy calls because day-to-day work has no queue."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Seller Central services are for",
+    "points": [
+      {
+        "title": "Founders without an ops bench",
+        "description": "Owners who need reliable Seller Central execution without hiring a full team."
+      },
+      {
+        "title": "Brands stuck in ticket chaos",
+        "description": "Accounts with open cases and unfinished catalog tasks."
+      },
+      {
+        "title": "PPC-led teams missing ops",
+        "description": "Advertisers who need Seller Central follow-through behind the campaigns."
+      },
+      {
+        "title": "Full-service clients",
+        "description": "Accounts that want day-to-day operations under the same lead as ads and listings."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How Seller Central management runs",
+    "steps": [
+      {
+        "title": "Ops audit",
+        "description": "Map open cases, recurring tasks, promotion calendar, and ownership gaps."
+      },
+      {
+        "title": "Workstream setup",
+        "description": "Define what we own weekly versus what stays with your internal team."
+      },
+      {
+        "title": "Execute",
+        "description": "Handle agreed Seller Central tasks with clear documentation."
+      },
+      {
+        "title": "Report",
+        "description": "Surface completed work and blockers in the same cadence as growth reviews."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon Seller Central services include",
+    "items": [
+      {
+        "title": "Case and ticket follow-through",
+        "description": "Structured handling of support cases with documented status."
+      },
+      {
+        "title": "Listing and catalog task queue",
+        "description": "Operational listing updates prioritized by revenue impact."
+      },
+      {
+        "title": "Promotions coordination",
+        "description": "Coupons and deals planned against inventory and advertising."
+      },
+      {
+        "title": "Account task ownership",
+        "description": "Named operators for recurring Seller Central work."
+      },
+      {
+        "title": "Process documentation",
+        "description": "Clear records of what changed and why."
+      },
+      {
+        "title": "Escalation path",
+        "description": "Defined handoff when policy or health issues need specialist response."
+      },
+      {
+        "title": "Weekly ops status",
+        "description": "Completed work and open blockers reported on a fixed cadence."
+      },
+      {
+        "title": "You keep account ownership",
+        "description": "Seller Central access stays authorized and reversible. You retain the account."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders Seller Central work differs",
+    "points": [
+      {
+        "title": "Ops connected to growth work",
+        "description": "Seller Central tasks sit beside PPC and listing priorities—not as a separate ticket dump."
+      },
+      {
+        "title": "In-house specialists",
+        "description": "Day-to-day work stays with accountable operators."
+      },
+      {
+        "title": "Documented process",
+        "description": "Changes are tracked so you can see what was done between reviews."
+      },
+      {
+        "title": "No ownership transfer myths",
+        "description": "You keep the Seller Central account. We work through authorized access."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Account activity from live Seller tools",
+      "subheading": "Live tool windows. Examples vary by account.",
+      "images": [
+        {
+          "src": "/images/growth/sales-90day.avif",
+          "alt": "Amazon sales snapshot showing $187,576 in ordered product sales, up 52% versus the same range last year."
+        },
+        {
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025."
+        }
+      ],
+      "callout": {
+        "metric": "$51.3M+",
+        "metricLabel": "Live account scale we report against",
+        "points": [
+          "Day-to-day Seller Central work with owners",
+          "Ops status tied to growth reviews"
+        ]
+      }
+    }
+  ],
+  "results": {
+    "heading": "Results from accountable Amazon operations",
+    "items": [
+      {
+        "metric": "$24.8M+",
+        "brand": "Full-account managed brands",
+        "description": "Verified Seller tool windows from accounts where advertising, listings, and operations run under one plan.",
+        "href": "/full-service-amazon-agency/"
+      },
+      {
+        "metric": "+310% monthly revenue",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Coordinated account work improved advertising efficiency while monthly revenue grew from $22.1K to $90.7K.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Will I lose access to Seller Central?",
+      "answer": "No. You retain full ownership. We work through authorized user access with clear reporting."
+    },
+    {
+      "question": "What tasks do you take on day to day?",
+      "answer": "Scope is defined in onboarding. Typical work includes cases, listing ops tasks, promotions coordination, and other agreed Seller Central follow-ups."
+    },
+    {
+      "question": "Is this the same as full-service management?",
+      "answer": "Seller Central services can run as a focused ops engagement or as part of full-service account management that also owns PPC and listing strategy."
+    },
+    {
+      "question": "Which marketplaces do you support?",
+      "answer": "We support official Amazon Seller Central marketplaces. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Full Account Management",
+      "description": "Seller Central ops plus PPC, listings, and catalog under one lead.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Amazon Account Health",
+      "description": "Monitoring and response for policy and performance notices.",
+      "href": "/amazon-account-health/",
+      "icon": "shield"
+    },
+    {
+      "title": "Amazon Account Operations",
+      "description": "Cross-service alignment across ads, listings, and catalog.",
+      "href": "/amazon-account-operations/",
+      "icon": "layers"
+    }
+  ],
+  "cta": {
+    "heading": "Request a Seller Central operations review",
+    "subheading": "Share what is falling behind. We outline ownership, cadence, and first-week priorities.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Seller Central Services | eCom Gliders",
+    "metaDescription": "Amazon Seller Central services for cases, promotions, listing ops tasks, and day-to-day account ownership. You keep the account. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-seller-central-services/",
+    "robots": { "index": true, "follow": true },
+    "schema": "Service"
+  }
+}

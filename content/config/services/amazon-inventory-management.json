@@ -1,0 +1,270 @@
+{
+  "slug": "amazon-inventory-management",
+  "breadcrumbLabel": "Inventory Management",
+  "layout": "sourcing-ops",
+  "hero": {
+    "title": "Amazon inventory management that protects ad spend",
+    "subtitle": "FBA stock signals, restock follow-through, and launch timing so top SKUs stay available while advertising demand rises.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request an inventory operations review",
+      "subheading": "Tell us where stockouts or overstock are hurting growth. A strategist follows up within one business day.",
+      "submitLabel": "Request inventory review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "inventoryPain",
+          "label": "Primary inventory issue",
+          "type": "select",
+          "required": false,
+          "options": [
+            { "value": "", "label": "Please select" },
+            { "value": "stockouts", "label": "Stockouts on hero SKUs" },
+            { "value": "overstock", "label": "Overstock / aged inventory" },
+            { "value": "inbound-delays", "label": "Inbound and restock delays" },
+            { "value": "launch-timing", "label": "Launch timing vs stock" },
+            { "value": "multi-market", "label": "Multi-marketplace balance" }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-product-sourcing-service.jpg",
+      "alt": "Amazon FBA inventory planning workspace"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why inventory breaks Amazon growth",
+    "points": [
+      {
+        "title": "Ads without stock",
+        "description": "PPC keeps spending while hero ASINs go unavailable."
+      },
+      {
+        "title": "Reactive restocks",
+        "description": "Teams reorder after stockouts instead of pacing to demand."
+      },
+      {
+        "title": "Launch timing misses",
+        "description": "New ASINs go live before inbound inventory can support early sales."
+      },
+      {
+        "title": "Aged inventory pressure",
+        "description": "Overstock ties up capital while other SKUs starve."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon inventory management is for",
+    "points": [
+      {
+        "title": "Brands scaling paid media",
+        "description": "Accounts that need stock signals before ad budgets rise."
+      },
+      {
+        "title": "Multi-ASIN catalogs",
+        "description": "Operators balancing hero SKUs, long-tail, and inbound capacity."
+      },
+      {
+        "title": "Launch-heavy sellers",
+        "description": "Teams that need restock and go-live dates on one calendar."
+      },
+      {
+        "title": "Full-service accounts",
+        "description": "Brands that want inventory follow-through under the same account lead."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How inventory support runs",
+    "steps": [
+      {
+        "title": "Baseline",
+        "description": "Review days of cover, inbound pipeline, and SKUs that drive revenue."
+      },
+      {
+        "title": "Priority map",
+        "description": "Rank restock and launch timing against advertising and ranking goals."
+      },
+      {
+        "title": "Operational follow-through",
+        "description": "Track inbound, stranded inventory, and stockout risk with clear owners."
+      },
+      {
+        "title": "Ad and ops sync",
+        "description": "Pause or reallocate spend when stock cannot support demand."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon inventory management covers",
+    "items": [
+      {
+        "title": "Hero SKU coverage tracking",
+        "description": "Days-of-cover views for the ASINs that drive most revenue."
+      },
+      {
+        "title": "Restock and inbound follow-up",
+        "description": "Operational tracking so restocks do not stall after a purchase order."
+      },
+      {
+        "title": "Stockout risk alerts",
+        "description": "Early flags before advertising continues into unavailable inventory."
+      },
+      {
+        "title": "Launch stock coordination",
+        "description": "Go-live timing matched to inbound that can fulfill early demand."
+      },
+      {
+        "title": "Aged inventory visibility",
+        "description": "Clear views of overstock so capital and promotions stay intentional."
+      },
+      {
+        "title": "PPC pause guidance",
+        "description": "Recommendations to protect ACoS when stock cannot support spend."
+      },
+      {
+        "title": "Multi-marketplace priorities",
+        "description": "Inventory attention ranked by margin and market readiness."
+      },
+      {
+        "title": "Reporting tie-in",
+        "description": "Inventory notes inside weekly reviews so ads and ops share one picture."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders inventory work differs",
+    "points": [
+      {
+        "title": "Inventory tied to advertising",
+        "description": "Stock decisions are reviewed with PPC and listing priorities, not in isolation."
+      },
+      {
+        "title": "Operators, not a spreadsheet dump",
+        "description": "Follow-through has owners and next actions, not another unread export."
+      },
+      {
+        "title": "In-house account context",
+        "description": "Inventory work sits with the same team that sees ads and catalog health."
+      },
+      {
+        "title": "No invented stockout savings",
+        "description": "We report process and verified account outcomes—not fabricated inventory ROI."
+      }
+    ]
+  },
+  "modules": [],
+  "results": {
+    "heading": "Results from inventory-aware Amazon execution",
+    "items": [
+      {
+        "metric": "+310% monthly revenue",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Growth work that kept advertising and catalog priorities aligned while monthly revenue rose from $22.1K to $90.7K.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog and advertising priorities reviewed together so demand generation stayed commercially grounded.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do you place purchase orders for us?",
+      "answer": "We track inventory signals and operational follow-through. Purchasing authority and supplier contracts stay with you unless a separate sourcing engagement is defined."
+    },
+    {
+      "question": "Is this only FBA?",
+      "answer": "Most work focuses on FBA availability and inbound. Scope for other fulfillment models is confirmed during the audit."
+    },
+    {
+      "question": "How does this connect to PPC?",
+      "answer": "When stock cannot support demand, we recommend pausing or reallocating spend so advertising efficiency is not destroyed by stockouts."
+    },
+    {
+      "question": "Can inventory support run without full-service management?",
+      "answer": "Yes. It can be a focused workstream or included under full-service account management."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon Product Launch Services",
+      "description": "Go-live plans that keep ads and stock on the same calendar.",
+      "href": "/amazon-product-launch-services/",
+      "icon": "rocket"
+    },
+    {
+      "title": "Amazon PPC Management",
+      "description": "Campaign control that can pause when inventory cannot support spend.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Inventory, ads, and catalog under one accountable team.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request an inventory operations review",
+    "subheading": "Share stockout or overstock context. We outline coverage priorities and ad sync points.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Inventory Management Services | eCom Gliders",
+    "metaDescription": "Amazon inventory management for FBA stock signals, restock follow-through, and launch timing tied to advertising demand. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-inventory-management/",
+    "robots": { "index": true, "follow": true },
+    "schema": "Service"
+  }
+}

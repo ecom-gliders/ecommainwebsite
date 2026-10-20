@@ -6,6 +6,11 @@ import { pageSeoSchema } from "./page-seo.schema";
 const servicePointSchema = z.object({
   title: z.string(),
   description: z.string(),
+  /** Optional card image; components fall back to keyword-resolved service imagery. */
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
+  /** Optional detail-page link for includes / audience cards. */
+  href: z.string().optional(),
 });
 
 const serviceStepSchema = z.object({
@@ -18,6 +23,9 @@ const serviceResultSchema = z.object({
   brand: z.string(),
   description: z.string(),
   href: z.string(),
+  /** Case card image for metric-forward results grids */
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
 });
 
 const relatedServiceCardSchema = z.object({
@@ -65,6 +73,14 @@ export const serviceModuleSchema = z.discriminatedUnion("type", [
   moduleBaseSchema.extend({
     type: z.literal("browserProof"),
     images: z.array(moduleImageSchema).min(1).max(4),
+    /** Green metric callout beside the mobile proof mockup */
+    callout: z
+      .object({
+        metric: z.string(),
+        metricLabel: z.string().optional(),
+        points: z.array(z.string()).max(4).optional(),
+      })
+      .optional(),
   }),
   moduleBaseSchema.extend({
     type: z.literal("comparisonTable"),

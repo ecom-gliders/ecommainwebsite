@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Account Management",
   "layout": "account-ops",
   "hero": {
-    "title": "Full-account Amazon management under one pod",
-    "subtitle": "PPC, listings, catalog health, and Seller Central operations on one roadmap—so media, conversion, and inventory stay aligned. No 90-day miracle claims.",
+    "title": "Full-service Amazon account management",
+    "subtitle": "PPC, listings, catalog health, and Seller Central operations under one accountable team—so media, conversion, and inventory stay aligned.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit-2/"
@@ -147,19 +147,27 @@
     "points": [
       {
         "title": "FBA brands ready to scale",
-        "description": "Operators who need coordinated advertising, listing, and catalog work."
+        "description": "Operators who need coordinated advertising, listing, and catalog work.",
+        "image": "/images/services/audience/audience-fba-brands-ready-to-scale.jpg",
+        "imageAlt": "FBA warehouse with packed cartons and a tablet showing growth charts for brands ready to scale"
       },
       {
         "title": "Brands limited by PPC-only agencies",
-        "description": "Teams that buy media but need listings and catalog tied to the same plan."
+        "description": "Teams that buy media but need listings and catalog tied to the same plan.",
+        "image": "/images/services/audience/audience-ppc-only-agency-limit.jpg",
+        "imageAlt": "Desk with advertising dashboard beside product listing photos that still need optimization"
       },
       {
         "title": "Multi-marketplace sellers",
-        "description": "Priorities set by catalog, margin, and inventory readiness across markets."
+        "description": "Priorities set by catalog, margin, and inventory readiness across markets.",
+        "image": "/images/services/audience/audience-multi-marketplace-sellers.jpg",
+        "imageAlt": "World map desk with regional marketplace flags and devices showing multi-country seller dashboards"
       },
       {
         "title": "Founders who want accountable specialists",
-        "description": "A named in-house pod instead of a rotating freelance bench."
+        "description": "A named in-house team instead of a rotating freelance bench.",
+        "image": "/images/services/audience/audience-founders-accountable-specialists.jpg",
+        "imageAlt": "Founder meeting with an in-house specialist team reviewing Seller Central on a shared screen"
       }
     ]
   },
@@ -189,35 +197,43 @@
     "items": [
       {
         "title": "Dedicated account oversight",
-        "description": "A named team coordinating advertising, content, catalog, and operations."
+        "description": "A named team coordinating advertising, content, catalog, and operations.",
+        "href": "/full-service-amazon-agency/"
       },
       {
         "title": "Amazon PPC management",
-        "description": "Campaign structure, bids, search terms, and budgets aligned to account goals."
+        "description": "Campaign structure, bids, search terms, and budgets aligned to account goals.",
+        "href": "/amazon-ppc-management-agency/"
       },
       {
         "title": "Listing and content coordination",
-        "description": "Prioritized listing updates so paid and organic traffic land on conversion-ready pages."
+        "description": "Prioritized listing updates so paid and organic traffic land on conversion-ready pages.",
+        "href": "/amazon-listing-optimization/"
       },
       {
         "title": "Catalog health monitoring",
-        "description": "Ongoing review of suppressions, variations, and listing accuracy."
+        "description": "Ongoing review of suppressions, variations, and listing accuracy.",
+        "href": "/amazon-catalog-management/"
       },
       {
         "title": "Inventory and launch planning support",
-        "description": "Restocks, launches, and promotions coordinated so spend matches stock."
+        "description": "Restocks, launches, and promotions coordinated so spend matches stock—via dedicated inventory and product launch workstreams when needed.",
+        "href": "/amazon-product-launch-services/"
       },
       {
         "title": "Performance reporting",
-        "description": "Sales, advertising efficiency, and catalog actions with clear next steps."
+        "description": "Sales, advertising efficiency, and catalog actions with clear next steps.",
+        "href": "/amazon-reporting-analytics/"
       },
       {
         "title": "Seller Central process management",
-        "description": "Structured handling of account tasks, cases, and operational requests."
+        "description": "Structured handling of account tasks, cases, and operational requests through Seller Central services.",
+        "href": "/amazon-seller-central-services/"
       },
       {
         "title": "Cross-service alignment",
-        "description": "Creative, catalog, and analytics under one account strategy."
+        "description": "Creative, catalog, and analytics under one account strategy through account operations.",
+        "href": "/amazon-account-operations/"
       }
     ]
   },
@@ -243,7 +259,7 @@
     ]
   },
   "opsLanes": {
-    "heading": "Cross-pod issues we close under one owner",
+    "heading": "Cross-team issues we close under one owner",
     "subheading": "Full-account work is not three separate vendors. Issue, fix, and verify across ads, listings, and catalog.",
     "note": "Scope is set during the free audit. Outcomes depend on catalog readiness, inventory, and marketplace conditions—not a fixed 60- or 90-day guarantee.",
     "lanes": [
@@ -256,7 +272,7 @@
       {
         "title": "Fragmented vendors",
         "issue": "Separate ads, content, and catalog providers leave gaps and incomplete reporting.",
-        "fix": "One pod owns the roadmap; specialists execute with shared definitions and handoffs.",
+        "fix": "One account lead owns the roadmap; specialists execute with shared definitions and handoffs.",
         "verify": "One reporting cadence, one priority list, clear owners for open items."
       },
       {
@@ -272,34 +288,39 @@
       "id": "service-browser-proof",
       "type": "browserProof",
       "heading": "Account-scale proof from live Seller tools",
-      "subheading": "Dashboard captures from growth.ecomgliders.com—advertising-led Amazon growth context, not a guarantee for every account.",
+      "subheading": "Live account examples. Results vary by catalog and category.",
       "images": [
         {
-          "src": "/images/growth/sales-brand-yoy.avif",
-          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
-          "caption": "Multi-year brand growth snapshot (Sellerboard). Source: growth.ecomgliders.com."
-        },
-        {
-          "src": "/images/growth/sales-dashboard-2yr.avif",
-          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
-          "caption": "Two-year ordered product sales window. Source: growth.ecomgliders.com."
-        },
-        {
           "src": "/images/growth/sales-small-brand.avif",
-          "alt": "Amazon Seller app showing a smaller brand sales window up 182% versus last year.",
-          "caption": "Smaller-brand sales window (+182% YoY). Source: growth.ecomgliders.com."
+          "alt": "Amazon Seller app showing a smaller brand sales window up 182% versus last year."
+        },
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
+        },
+        {
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%."
         }
-      ]
+      ],
+      "callout": {
+        "metric": "$24.8M+",
+        "metricLabel": "Scaled on Amazon with one full-account team",
+        "points": [
+          "Ads, listings, and catalog on one plan",
+          "Real Seller tool growth—not slide-deck claims"
+        ]
+      }
     },
     {
       "id": "account-weekly-board",
       "type": "catalogHealthBoard",
       "heading": "Weekly ownership board",
-      "subheading": "One owner across pods—PPC-only shops leave catalog and listing gaps unowned.",
+      "subheading": "One owner across workstreams—PPC-only shops leave catalog and listing gaps unowned.",
       "urlLabel": "account.ecomgliders.com/weekly",
-      "disclaimer": "Illustrative weekly board. Exact pods and cadence are set during onboarding.",
+      "disclaimer": "Illustrative weekly board. Exact workstreams and cadence are set during onboarding.",
       "columns": [
-        "Pod",
+        "Workstream",
         "Weekly focus",
         "Signal watched",
         "Owner action"
@@ -356,7 +377,7 @@
         {
           "cells": [
             "Handoffs",
-            "Open tickets across pods?",
+            "Open tickets across workstreams?",
             "Close or reassign same day",
             "Account lead"
           ]
@@ -364,45 +385,34 @@
       ],
       "variant": "sheet",
       "boardLabel": "Account · weekly"
-    },
-    {
-      "id": "account-outcome-chart",
-      "type": "metricChart",
-      "heading": "Named outcomes from full-account cases",
-      "subheading": "Verified case metrics under multi-pod ownership—not a guarantee of identical results.",
-      "chartLabel": "Named outcome index (for chart scale)",
-      "points": [
-        {
-          "label": "GoSports sales increase % (case study 9)",
-          "value": 310
-        },
-        {
-          "label": "Smaller-brand YoY sales % (growth proof)",
-          "value": 182
-        },
-        {
-          "label": "Kitchen brand sales growth % (case study 1)",
-          "value": 73
-        }
-      ],
-      "footnote": "GoSports (/case-study-9/): +310% sales with listing and advertising work. Smaller-brand window: +182% YoY from growth.ecomgliders.com. Kitchen (/case-study-1/): +73% sales with integrated account work. Not a guarantee of identical results.",
-      "variant": "bars"
     }
   ],
   "results": {
-    "heading": "Results from full-account work",
+    "heading": "Results from full-account cases",
     "items": [
       {
-        "metric": "310% sales increase",
-        "brand": "GoSports (Sports and Outdoors)",
-        "description": "Listing optimization, data-driven advertising, and brand positioning lifted Amazon sales from a stagnant baseline.",
-        "href": "/case-study-9/"
+        "metric": "+310%",
+        "brand": "GoSports",
+        "description": "Monthly sales $22.1K to $90.7K. ACoS 52% to 26.5%.",
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon account management case study"
       },
       {
-        "metric": "73% sales growth",
+        "metric": "+73%",
         "brand": "Kitchen brand",
-        "description": "Integrated account management improved visibility, conversion, and advertising efficiency for a home and kitchen seller.",
-        "href": "/case-study-1/"
+        "description": "Sales growth with listing, catalog, and advertising under one plan.",
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account management case study"
+      },
+      {
+        "metric": "76% → 37%",
+        "brand": "VoltTech",
+        "description": "ACoS cut while ad spend fell 32% across US and UK.",
+        "href": "/case-study-3/",
+        "image": "/images/cases/case-study-3.png",
+        "imageAlt": "VoltTech accessories from the Amazon PPC and account case study"
       }
     ]
   },
@@ -448,16 +458,34 @@
       "icon": "target"
     },
     {
-      "title": "Listing Optimization and SEO",
-      "description": "Keyword research, listing content, and organic ranking improvements.",
-      "href": "/amazon-listing-optimization/",
-      "icon": "search"
+      "title": "Product Launch Services",
+      "description": "Listing readiness, launch ads, and stock timing for new ASINs.",
+      "href": "/amazon-product-launch-services/",
+      "icon": "rocket"
     },
     {
-      "title": "Reporting and Analytics",
-      "description": "Clear weekly and monthly metrics for advertising and account performance.",
-      "href": "/amazon-reporting-analytics/",
-      "icon": "file-text"
+      "title": "Inventory Management",
+      "description": "FBA stock signals so advertising demand does not outrun inventory.",
+      "href": "/amazon-inventory-management/",
+      "icon": "package"
+    },
+    {
+      "title": "Seller Central Services",
+      "description": "Day-to-day Seller Central tasks, cases, and promotions follow-through.",
+      "href": "/amazon-seller-central-services/",
+      "icon": "settings"
+    },
+    {
+      "title": "Account Operations",
+      "description": "Cross-service alignment across ads, listings, and catalog.",
+      "href": "/amazon-account-operations/",
+      "icon": "layers"
+    },
+    {
+      "title": "Account Health",
+      "description": "Policy notice monitoring and documented performance response.",
+      "href": "/amazon-account-health/",
+      "icon": "shield"
     }
   ],
   "cta": {

@@ -1,0 +1,291 @@
+{
+  "slug": "amazon-account-operations",
+  "breadcrumbLabel": "Account Operations",
+  "layout": "account-ops",
+  "hero": {
+    "title": "Amazon account operations across ads, listings, and catalog",
+    "subtitle": "Cross-service alignment so creative, catalog, PPC, and analytics share one account strategy—not separate vendor priorities.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request an account operations review",
+      "subheading": "Tell us where workstreams are misaligned. A strategist follows up within one business day.",
+      "submitLabel": "Request operations review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "alignmentGap",
+          "label": "Where teams disconnect",
+          "type": "select",
+          "required": false,
+          "options": [
+            { "value": "", "label": "Please select" },
+            { "value": "ads-listings", "label": "Ads vs listings" },
+            { "value": "catalog-ads", "label": "Catalog vs advertising" },
+            { "value": "vendors", "label": "Too many vendors" },
+            { "value": "reporting", "label": "Reporting without owners" },
+            { "value": "all", "label": "Full account alignment" }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-account-management-service.jpg",
+      "alt": "Cross-service Amazon account operations planning"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why cross-service Amazon work fails",
+    "points": [
+      {
+        "title": "Vendors with competing priorities",
+        "description": "PPC, creative, and catalog teams optimize different goals."
+      },
+      {
+        "title": "No shared ASIN roadmap",
+        "description": "Workstreams pick different hero products each week."
+      },
+      {
+        "title": "Reporting without owners",
+        "description": "Metrics appear, but nobody is assigned to the next action."
+      },
+      {
+        "title": "Hand-offs that stall",
+        "description": "Listing fixes wait on ads pauses that never get requested."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon account operations is for",
+    "points": [
+      {
+        "title": "Brands with multiple vendors",
+        "description": "Teams that need one plan across advertising, content, and catalog."
+      },
+      {
+        "title": "In-house plus agency mixes",
+        "description": "Operators who need clear ownership boundaries and shared priorities."
+      },
+      {
+        "title": "Scaling multi-ASIN catalogs",
+        "description": "Accounts that need ranked workstreams, not equal noise on every SKU."
+      },
+      {
+        "title": "Full-service candidates",
+        "description": "Sellers evaluating whether coordinated operations beats piecemeal services."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How account operations aligns the work",
+    "steps": [
+      {
+        "title": "Map the workstreams",
+        "description": "Inventory current owners for ads, listings, catalog, creative, and ops."
+      },
+      {
+        "title": "Set shared priorities",
+        "description": "Agree ASIN and keyword priorities that every specialist uses."
+      },
+      {
+        "title": "Run the weekly board",
+        "description": "Track blockers, hand-offs, and completed actions across services."
+      },
+      {
+        "title": "Adjust from one report",
+        "description": "Use shared definitions so PPC, listing, and catalog moves stay coherent."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon account operations includes",
+    "items": [
+      {
+        "title": "Cross-service priority board",
+        "description": "One ranked list of ASINs and actions shared by all specialists."
+      },
+      {
+        "title": "Hand-off rules",
+        "description": "Clear triggers for when ads pause, listings update, or catalog fixes first."
+      },
+      {
+        "title": "Weekly alignment reviews",
+        "description": "Short operating reviews that connect metrics to owners."
+      },
+      {
+        "title": "Vendor or internal role map",
+        "description": "Documented who owns what so work does not duplicate or drop."
+      },
+      {
+        "title": "Creative and catalog sync",
+        "description": "A+ and listing imagery timed with ranking and advertising priorities."
+      },
+      {
+        "title": "Reporting definitions",
+        "description": "Shared KPI language across ads, sales, and catalog health."
+      },
+      {
+        "title": "Escalation path to full-service",
+        "description": "Clear option to consolidate into full account management when needed."
+      },
+      {
+        "title": "Action log",
+        "description": "Tracked follow-ups so alignment meetings produce completed work."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders account operations differs",
+    "points": [
+      {
+        "title": "One accountable lead",
+        "description": "Specialists still own their craft, but priorities come from one plan."
+      },
+      {
+        "title": "In-house bench",
+        "description": "Ads, listings, and catalog can sit inside the same company when you want them to."
+      },
+      {
+        "title": "No slide-deck alignment",
+        "description": "Alignment is a weekly operating board with owners—not a quarterly workshop."
+      },
+      {
+        "title": "Verified outcomes only",
+        "description": "We cite named case results. We do not invent average alignment ROI."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Aligned growth from live Seller tools",
+      "subheading": "Live account windows. Not a guarantee of results.",
+      "images": [
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
+        },
+        {
+          "src": "/images/growth/sales-803k.avif",
+          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year."
+        }
+      ],
+      "callout": {
+        "metric": "+152%",
+        "metricLabel": "Peak sales when workstreams share one plan",
+        "points": [
+          "Ads, listings, and catalog on shared priorities",
+          "Weekly ownership instead of vendor drift"
+        ]
+      }
+    }
+  ],
+  "results": {
+    "heading": "Results from coordinated Amazon operations",
+    "items": [
+      {
+        "metric": "+310% monthly revenue",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Advertising and listing work under one plan moved monthly revenue from $22.1K to $90.7K while ACoS improved from 52% to 26.5%.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "ACOS 76% to 37%",
+        "brand": "VoltTech Accessories",
+        "description": "Restructure that connected advertising efficiency to listing and catalog context across US and UK.",
+        "href": "/case-study-3/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is this the same as full-service management?",
+      "answer": "Account operations focuses on alignment across workstreams. Full-service management can also own day-to-day PPC, listing, and catalog execution under one team. Many brands start with operations alignment and expand."
+    },
+    {
+      "question": "Can you coordinate our existing freelancers?",
+      "answer": "Yes. We can define priorities and hand-off rules across internal or external specialists. Deeper execution may move in-house when that is a better fit."
+    },
+    {
+      "question": "How often do alignment reviews run?",
+      "answer": "Most accounts run a weekly operating board plus a monthly strategy review. Cadence is set during onboarding."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Full Account Management",
+      "description": "Consolidate execution under one in-house team.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Amazon Seller Central Services",
+      "description": "Day-to-day Seller Central tasks with clear ownership.",
+      "href": "/amazon-seller-central-services/",
+      "icon": "settings"
+    },
+    {
+      "title": "Amazon Reporting and Analytics",
+      "description": "Shared metric definitions that feed the operating board.",
+      "href": "/amazon-reporting-analytics/",
+      "icon": "bar-chart"
+    }
+  ],
+  "cta": {
+    "heading": "Request an account operations review",
+    "subheading": "Share where vendors or teams disconnect. We outline a shared priority board and ownership map.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Account Operations | Cross-Service Alignment | eCom Gliders",
+    "metaDescription": "Amazon account operations for cross-service alignment across PPC, listings, catalog, and analytics under one priority board. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-account-operations/",
+    "robots": { "index": true, "follow": true },
+    "schema": "Service"
+  }
+}

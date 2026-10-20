@@ -67,13 +67,26 @@ export default async function SlugPage({ params }: SlugPageProps) {
   const service = await repository.getService(slug);
 
   if (service) {
+    const { loadServiceRelatedPosts } = await import(
+      "@/lib/blog/select-service-related-posts"
+    );
+    const relatedPosts = await loadServiceRelatedPosts(
+      () => repository.getAllBlogPostFrontmatter(),
+      (postSlug) => repository.getBlogPost(postSlug),
+      service.slug,
+      3,
+    );
     const jsonLd = buildServicePageJsonLd({ service, site });
 
     return (
       <>
         <JsonLdScript data={jsonLd} />
         <main id="main-content">
-          <ServicePageTemplate service={service} site={site} />
+          <ServicePageTemplate
+            service={service}
+            site={site}
+            relatedPosts={relatedPosts}
+          />
         </main>
       </>
     );

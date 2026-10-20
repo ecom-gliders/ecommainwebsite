@@ -134,8 +134,12 @@ export default async function FreeAuditPage() {
         </SectionShell>
 
         <SectionShell id="audit-faq" tone="muted" ariaLabelledBy="audit-faq-heading">
-          <SectionHeading heading="Frequently asked questions" headingId="audit-faq-heading" />
-          <div className="mt-8">
+          <SectionHeading
+            heading="Frequently asked questions"
+            headingId="audit-faq-heading"
+            className="max-w-4xl"
+          />
+          <div className="mt-8 w-full">
             <FaqAccordion items={page.faq} />
           </div>
         </SectionShell>

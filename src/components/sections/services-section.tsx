@@ -66,7 +66,7 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
           {heading}
         </h2>
         {subheading ? (
-          <p className="mt-4 text-base font-semibold leading-snug text-text-primary/75 sm:text-lg">
+          <p className="mt-4 text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
             {subheading}
           </p>
         ) : null}
@@ -115,23 +115,29 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
                 </div>
               ) : null}
 
-              <div className="flex flex-1 flex-col p-5 sm:p-6">
+              <div className="flex flex-1 flex-col p-5 sm:p-6 lg:p-7">
                 <span
                   className={cn(
-                    "font-mono text-xs font-bold tracking-[0.14em]",
-                    punch ? "text-accent" : "text-accent",
+                    "font-mono text-sm font-bold tracking-[0.14em]",
+                    punch ? "text-accent" : "text-primary",
                   )}
                 >
                   {number}
                 </span>
-                <h3 className="mt-3 text-lg font-bold leading-snug tracking-tight sm:text-xl">
+                {/* AMZ Dudes card H3 ~19px; keep explicit colors so dark tiles never inherit ink */}
+                <h3
+                  className={cn(
+                    "mt-3 text-[1.1875rem] font-bold leading-snug tracking-tight sm:text-[1.25rem]",
+                    punch ? "text-text-on-dark" : "text-primary",
+                  )}
+                >
                   {item.title}
                 </h3>
                 {item.description ? (
                   <p
                     className={cn(
-                      "mt-3 flex-1 text-sm font-medium leading-relaxed",
-                      punch ? "text-text-on-dark/75" : "text-text-secondary",
+                      "mt-3 flex-1 text-[0.9375rem] font-normal leading-[1.65] sm:text-base sm:leading-relaxed",
+                      punch ? "text-text-on-dark/90" : "text-text-secondary",
                     )}
                   >
                     {item.description}
@@ -141,21 +147,21 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
                 {item.href ? (
                   <span
                     className={cn(
-                      "mt-5 inline-flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.04em]",
+                      "mt-5 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.04em]",
                       punch ? "text-accent" : "text-primary",
                     )}
                   >
                     Learn more
                     <span
                       className={cn(
-                        "inline-flex h-6 w-6 items-center justify-center rounded-[5px]",
+                        "inline-flex h-7 w-7 items-center justify-center rounded-[5px]",
                         punch
                           ? "bg-accent text-primary"
                           : "bg-primary text-text-on-dark",
                       )}
                       aria-hidden="true"
                     >
-                      <ArrowUpRight className="h-3.5 w-3.5 stroke-[2.5]" />
+                      <ArrowUpRight className="h-4 w-4 stroke-[2.5]" />
                     </span>
                   </span>
                 ) : null}

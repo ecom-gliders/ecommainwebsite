@@ -22,43 +22,54 @@ export function BrandPathwayBoard({
   variant = "mac",
 }: BrandPathwayBoardProps) {
   if (variant === "rail") {
+    /* Full-width 2×2 grid — avoids a thin left timeline with empty right */
     return (
       <div className="space-y-3">
-        <p className="font-mono text-[11px] text-text-secondary">{urlLabel}</p>
-        <ol className="relative space-y-0 border-l-4 border-accent pl-6 sm:pl-8">
-          {stages.map((stage) => (
-            <li key={stage.label} className="relative pb-8 last:pb-0">
-              <span
-                className={cn(
-                  "absolute -left-[1.4rem] top-1 h-3.5 w-3.5 rounded-full border-2 border-primary sm:-left-[1.65rem]",
-                  stage.state === "current" && "bg-accent",
-                  stage.state === "done" && "bg-primary",
-                  stage.state === "upcoming" && "bg-background",
-                )}
-                aria-hidden="true"
-              />
-              <p
-                className={cn(
-                  "text-[11px] font-bold uppercase tracking-[0.12em]",
-                  stage.state === "upcoming"
-                    ? "text-text-secondary"
-                    : "text-primary",
-                )}
-              >
-                {stage.state === "done"
-                  ? "Complete"
-                  : stage.state === "current"
-                    ? "Current"
-                    : "Next"}
-              </p>
-              <h3 className="mt-1 text-h4 text-primary">{stage.label}</h3>
-              <p className="mt-1.5 text-small text-text-secondary">
+        {urlLabel ? (
+          <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+            {urlLabel}
+          </p>
+        ) : null}
+        <ol className="grid gap-0 border-t-2 border-primary sm:grid-cols-2">
+          {stages.map((stage, index) => (
+            <li
+              key={stage.label}
+              className={cn(
+                "border-b-2 border-primary py-6 sm:px-6 sm:py-7",
+                index % 2 === 0 && "sm:border-r-2 sm:pl-0",
+                index % 2 === 1 && "sm:pr-0",
+                stage.state === "current" && "bg-accent/20",
+              )}
+            >
+              <div className="flex items-baseline justify-between gap-3">
+                <span className="font-mono text-lg font-black text-primary/25">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <p
+                  className={cn(
+                    "text-[11px] font-bold uppercase tracking-[0.12em]",
+                    stage.state === "upcoming"
+                      ? "text-text-secondary"
+                      : "text-primary",
+                  )}
+                >
+                  {stage.state === "done"
+                    ? "Complete"
+                    : stage.state === "current"
+                      ? "Current"
+                      : "Next"}
+                </p>
+              </div>
+              <h3 className="mt-3 text-[1.125rem] font-bold leading-snug text-primary sm:text-[1.1875rem]">
+                {stage.label}
+              </h3>
+              <p className="mt-2 text-[0.9375rem] leading-[1.65] text-text-secondary sm:text-base">
                 {stage.detail}
               </p>
             </li>
           ))}
         </ol>
-        <p className="text-xs text-text-secondary">{disclaimer}</p>
+        <p className="text-sm text-text-secondary">{disclaimer}</p>
       </div>
     );
   }

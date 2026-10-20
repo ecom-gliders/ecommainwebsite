@@ -1,0 +1,266 @@
+{
+  "slug": "amazon-account-health",
+  "breadcrumbLabel": "Account Health",
+  "layout": "account-ops",
+  "hero": {
+    "title": "Amazon account health monitoring and response",
+    "subtitle": "Monitoring for policy notices, performance issues, and cases that need prompt, documented response—so account health does not become a surprise suspension risk.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request an account health review",
+      "subheading": "Share current notices or rating concerns. A strategist follows up within one business day.",
+      "submitLabel": "Request health review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "healthConcern",
+          "label": "Primary concern",
+          "type": "select",
+          "required": false,
+          "options": [
+            { "value": "", "label": "Please select" },
+            { "value": "policy-notice", "label": "Policy or IP notice" },
+            { "value": "odr", "label": "Order defect / performance metrics" },
+            { "value": "listing-suppression", "label": "Listing suppressions" },
+            { "value": "monitoring", "label": "Ongoing monitoring only" },
+            { "value": "other", "label": "Other / not sure" }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-catalog-management-service.jpg",
+      "alt": "Amazon account health monitoring workspace"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why account health gets ignored until it is urgent",
+    "points": [
+      {
+        "title": "Notices without owners",
+        "description": "Policy emails sit unread while advertising continues."
+      },
+      {
+        "title": "Metric drift",
+        "description": "Late shipments, cancellations, or ODRs rise without a weekly review."
+      },
+      {
+        "title": "Listing issues treated as SEO only",
+        "description": "Suppressions and detail-page problems are missed until sales drop."
+      },
+      {
+        "title": "No documented response trail",
+        "description": "Teams scramble when Amazon asks for evidence."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon account health support is for",
+    "points": [
+      {
+        "title": "Scaling sellers",
+        "description": "Brands whose order volume makes performance metrics harder to ignore."
+      },
+      {
+        "title": "Accounts with open notices",
+        "description": "Teams that need structured response and documentation."
+      },
+      {
+        "title": "Catalog-heavy operators",
+        "description": "Sellers managing suppressions alongside growth work."
+      },
+      {
+        "title": "Full-service accounts",
+        "description": "Clients who want health monitoring inside the same operating cadence."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How account health work runs",
+    "steps": [
+      {
+        "title": "Health baseline",
+        "description": "Review Account Health, open cases, and performance metrics that matter."
+      },
+      {
+        "title": "Response plan",
+        "description": "Assign owners, evidence needs, and timelines for open issues."
+      },
+      {
+        "title": "Monitor",
+        "description": "Watch notices and metric trends on a fixed cadence."
+      },
+      {
+        "title": "Prevent",
+        "description": "Connect listing, ops, and advertising changes that reduce repeat risk."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon account health services include",
+    "items": [
+      {
+        "title": "Account Health rating review",
+        "description": "Structured read of rating status and open issues."
+      },
+      {
+        "title": "Policy and IP notice tracking",
+        "description": "Documented follow-up for notices that need response."
+      },
+      {
+        "title": "Performance metric monitoring",
+        "description": "Watch ODR, late shipment, and related metrics that threaten status."
+      },
+      {
+        "title": "Case documentation support",
+        "description": "Organized evidence and status notes for Amazon requests."
+      },
+      {
+        "title": "Listing suppression escalation",
+        "description": "Hand-off to catalog work when detail-page issues block sales."
+      },
+      {
+        "title": "Weekly health status",
+        "description": "Clear open vs closed issues in the operating review."
+      },
+      {
+        "title": "Prevention recommendations",
+        "description": "Process changes that reduce repeat notices where root causes are known."
+      },
+      {
+        "title": "Escalation to full-service",
+        "description": "Path to broader account management when health risk is tied to ops gaps."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders account health work differs",
+    "points": [
+      {
+        "title": "Health watched with growth work",
+        "description": "Notices are reviewed beside advertising and listing priorities."
+      },
+      {
+        "title": "Documented responses",
+        "description": "We keep a trail of what was submitted and when."
+      },
+      {
+        "title": "No guarantee theater",
+        "description": "We do not promise reinstatement outcomes Amazon alone controls."
+      },
+      {
+        "title": "In-house operators",
+        "description": "Monitoring stays with accountable specialists, not a rotating freelance inbox."
+      }
+    ]
+  },
+  "modules": [],
+  "results": {
+    "heading": "Results from disciplined Amazon account work",
+    "items": [
+      {
+        "metric": "95% client retention",
+        "brand": "eCom Gliders clients",
+        "description": "Verified company claim: high retention reflects ongoing account care, including operational and health follow-through where scoped.",
+        "href": "/about-us/"
+      },
+      {
+        "metric": "+310% monthly revenue",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Growth work delivered under accountable account management with listing and advertising coordination.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can you guarantee reinstatement after a suspension?",
+      "answer": "No. Amazon decides account status. We help with monitoring, documentation, and structured response where scoped—without inventing outcome guarantees."
+    },
+    {
+      "question": "Is this legal representation?",
+      "answer": "No. We provide operational Amazon account support. Legal counsel should be engaged when a matter requires it."
+    },
+    {
+      "question": "Do you monitor health only, or also fix listings?",
+      "answer": "Monitoring and response planning are core. Listing and catalog fixes may be handled here or through catalog management depending on scope."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon Seller Central Services",
+      "description": "Day-to-day Seller Central tasks and case follow-through.",
+      "href": "/amazon-seller-central-services/",
+      "icon": "settings"
+    },
+    {
+      "title": "Amazon Catalog Management",
+      "description": "Suppressions, variations, and listing accuracy work.",
+      "href": "/amazon-catalog-management/",
+      "icon": "layers"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Health monitoring inside a full-service engagement.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request an account health review",
+    "subheading": "Share open notices or metric concerns. We outline monitoring cadence and response priorities.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Account Health Management | eCom Gliders",
+    "metaDescription": "Amazon account health monitoring for policy notices, performance metrics, and documented case response. No false reinstatement guarantees. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-account-health/",
+    "robots": { "index": true, "follow": true },
+    "schema": "Service"
+  }
+}

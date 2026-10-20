@@ -9,7 +9,9 @@ interface ServiceSolutionSectionProps {
   tone?: "default" | "muted";
 }
 
-/** Vertical stage spine — must not twin Problem primary+satellites grid. */
+/**
+ * Zigzag process steps — alternating left/right cards so the full section width is used.
+ */
 export function ServiceSolutionSection({
   solution,
   tone = "default",
@@ -25,32 +27,56 @@ export function ServiceSolutionSection({
         heading={solution.heading}
         headingId="service-solution-heading"
       />
-      <ol className="relative mt-8 max-w-3xl space-y-0">
+      <ol className="relative mt-10">
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute bottom-6 left-4 top-6 w-0.5 bg-accent md:left-1/2 md:-translate-x-1/2"
+        />
         {solution.steps.map((step, index) => {
-          const isLast = index === solution.steps.length - 1;
+          const alignRight = index % 2 === 1;
           return (
-            <li key={step.title} className="relative flex gap-4 pb-8 last:pb-0">
-              {!isLast ? (
-                <span
-                  aria-hidden="true"
-                  className="absolute left-[15px] top-10 bottom-0 w-0.5 bg-accent sm:left-[17px]"
-                />
-              ) : null}
+            <li
+              key={step.title}
+              className="relative grid grid-cols-[2.25rem_minmax(0,1fr)] items-start gap-4 pb-10 last:pb-0 md:grid-cols-[1fr_2.5rem_1fr] md:gap-6 md:pb-14"
+            >
+              {/* Desktop: left column */}
+              <div
+                className={cn(
+                  "hidden md:block",
+                  alignRight ? "md:col-start-1" : "md:col-start-1",
+                )}
+              >
+                {!alignRight ? (
+                  <div className="ml-auto max-w-md rounded-[14px] border-2 border-primary bg-background p-5 text-right shadow-[4px_4px_0_0_#131311] sm:p-6">
+                    <h3 className="text-h4 text-primary">{step.title}</h3>
+                    <p className="mt-2 text-body text-text-secondary">
+                      {step.description}
+                    </p>
+                  </div>
+                ) : null}
+              </div>
+
+              {/* Number node */}
               <span
                 aria-hidden="true"
-                className="relative z-10 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-accent text-[11px] font-bold text-primary shadow-[2px_2px_0_0_#131311] sm:h-9 sm:w-9"
+                className="relative z-10 col-start-1 row-start-1 flex h-9 w-9 items-center justify-center rounded-full border-2 border-primary bg-accent text-[11px] font-bold text-primary shadow-[2px_2px_0_0_#131311] md:col-start-2 md:justify-self-center"
               >
                 {String(index + 1).padStart(2, "0")}
               </span>
+
+              {/* Mobile card + desktop right column */}
               <div
                 className={cn(
-                  "min-w-0 flex-1 rounded-[12px] border-2 border-primary bg-[#F4F4F4] p-4 shadow-[3px_3px_0_0_#131311] sm:p-5",
+                  "col-start-2 row-start-1 md:col-start-3",
+                  !alignRight && "md:hidden",
                 )}
               >
-                <h3 className="text-h4 text-primary">{step.title}</h3>
-                <p className="mt-2 text-body text-text-secondary">
-                  {step.description}
-                </p>
+                <div className="max-w-md rounded-[14px] border-2 border-primary bg-background p-5 shadow-[4px_4px_0_0_#131311] sm:p-6 md:max-w-none">
+                  <h3 className="text-h4 text-primary">{step.title}</h3>
+                  <p className="mt-2 text-body text-text-secondary">
+                    {step.description}
+                  </p>
+                </div>
               </div>
             </li>
           );

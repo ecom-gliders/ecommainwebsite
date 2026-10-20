@@ -1,0 +1,294 @@
+{
+  "slug": "amazon-product-launch-services",
+  "breadcrumbLabel": "Product Launches",
+  "layout": "account-ops",
+  "hero": {
+    "title": "Amazon product launch services under one plan",
+    "subtitle": "Listing readiness, launch advertising, and early performance tracking coordinated from day one—so spend, stock, and conversion stay aligned.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a launch readiness review",
+      "subheading": "Share what you are launching and when. A strategist follows up within one business day.",
+      "submitLabel": "Request launch review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "launchStage",
+          "label": "Launch stage",
+          "type": "select",
+          "required": false,
+          "options": [
+            { "value": "", "label": "Please select" },
+            { "value": "research", "label": "Still researching the ASIN" },
+            { "value": "listing-build", "label": "Building the listing" },
+            { "value": "ready-to-advertise", "label": "Listing ready, need ads" },
+            { "value": "already-live", "label": "Already live, relaunch needed" }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-account-management-service.jpg",
+      "alt": "Amazon product launch planning workspace"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon launches stall",
+    "points": [
+      {
+        "title": "Ads before listing readiness",
+        "description": "Spend starts while titles, images, and offers are still incomplete."
+      },
+      {
+        "title": "Stock and demand out of sync",
+        "description": "Launch traffic arrives while inventory cannot support it."
+      },
+      {
+        "title": "No early performance plan",
+        "description": "Teams watch order count without clear ranking, conversion, and ACoS gates."
+      },
+      {
+        "title": "Fragmented owners",
+        "description": "Creative, PPC, and ops workstreams launch on different calendars."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon product launch support is for",
+    "points": [
+      {
+        "title": "New ASIN launches",
+        "description": "Brands that need listing, ads, and inventory sequenced before go-live."
+      },
+      {
+        "title": "Relaunches after weak starts",
+        "description": "Catalogs that need a structured reset instead of more unstructured spend."
+      },
+      {
+        "title": "Seasonal promotion windows",
+        "description": "Teams that need ads and stock aligned to a fixed calendar."
+      },
+      {
+        "title": "Full-service accounts adding SKUs",
+        "description": "Operators who want launches inside the same account roadmap."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How a launch engagement runs",
+    "steps": [
+      {
+        "title": "Readiness audit",
+        "description": "Review listing quality, offer setup, inventory plan, and advertising prerequisites."
+      },
+      {
+        "title": "Launch plan",
+        "description": "Set owners, dates, spend gates, and success metrics for the first weeks."
+      },
+      {
+        "title": "Execute",
+        "description": "Coordinate listing updates, launch ads, and operational follow-through."
+      },
+      {
+        "title": "Stabilize",
+        "description": "Move from launch mode into ongoing PPC, inventory, and reporting cadence."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon product launch services include",
+    "items": [
+      {
+        "title": "Listing readiness checklist",
+        "description": "Titles, bullets, images, and backend terms reviewed before paid traffic."
+      },
+      {
+        "title": "Launch advertising structure",
+        "description": "Sponsored campaigns sized for early learning without uncontrolled waste."
+      },
+      {
+        "title": "Inventory and ship-window coordination",
+        "description": "Launch spend timed to stock that can actually fulfill demand."
+      },
+      {
+        "title": "Promotion and coupon planning",
+        "description": "Offer mechanics aligned to the launch calendar when they help conversion."
+      },
+      {
+        "title": "Early ranking and conversion tracking",
+        "description": "Week-one signals that decide whether to scale, pause, or fix the listing."
+      },
+      {
+        "title": "Cross-team launch board",
+        "description": "One plan shared across ads, content, catalog, and operations."
+      },
+      {
+        "title": "Post-launch handoff",
+        "description": "Clear transition into ongoing account or PPC management."
+      },
+      {
+        "title": "Marketplace scope confirmation",
+        "description": "Launch markets confirmed during audit so priorities stay realistic."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders launch work differs",
+    "points": [
+      {
+        "title": "Ads wait on conversion readiness",
+        "description": "We do not treat launch spend as a substitute for a complete listing."
+      },
+      {
+        "title": "Inventory is part of the plan",
+        "description": "Demand generation is gated by stock that can support it."
+      },
+      {
+        "title": "In-house specialists",
+        "description": "Listing, ads, and ops stay with accountable operators—not a freelance scramble."
+      },
+      {
+        "title": "Verified case language only",
+        "description": "Outcomes cite named case studies. No invented average launch lift claims."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Launch-period sales from live Seller tools",
+      "subheading": "Live account windows. Not a guarantee of launch results.",
+      "images": [
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
+        },
+        {
+          "src": "/images/growth/sales-803k.avif",
+          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year."
+        }
+      ],
+      "callout": {
+        "metric": "+152%",
+        "metricLabel": "Peak sales window vs prior year",
+        "points": [
+          "Launch spend tied to listing and stock readiness",
+          "Live Seller tool windows, not mock charts"
+        ]
+      }
+    }
+  ],
+  "results": {
+    "heading": "Results from coordinated Amazon growth work",
+    "items": [
+      {
+        "metric": "+310% monthly revenue",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Advertising and listing work under one plan moved monthly revenue from $22.1K to $90.7K while ACoS improved from 52% to 26.5%.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and advertising priorities coordinated for a home and kitchen brand with sustained sales growth.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do you only run ads for launches?",
+      "answer": "No. Launch work covers listing readiness, advertising structure, inventory timing, and early performance tracking so spend is not the only lever."
+    },
+    {
+      "question": "Can you launch on multiple marketplaces?",
+      "answer": "Yes. Scope is confirmed during the audit. We support official Amazon Seller Central marketplaces and prioritize markets where listing, stock, and ads can be ready together."
+    },
+    {
+      "question": "When should launch advertising start?",
+      "answer": "After the listing and offer are conversion-ready and inventory can support early demand. Starting earlier usually wastes budget."
+    },
+    {
+      "question": "Is this available without full-service management?",
+      "answer": "Yes. Product launch support can run as a focused engagement or as part of full-service account management."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Full Account Management",
+      "description": "Keep launches inside an ongoing account roadmap.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Amazon PPC Management",
+      "description": "Sponsored structure for launch and post-launch efficiency.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Amazon Inventory Management",
+      "description": "Stock signals so launch demand does not outrun inventory.",
+      "href": "/amazon-inventory-management/",
+      "icon": "package"
+    }
+  ],
+  "cta": {
+    "heading": "Request a launch readiness review",
+    "subheading": "Share your ASIN timeline. We outline listing, ads, and inventory gates before spend scales.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Product Launch Services | eCom Gliders",
+    "metaDescription": "Amazon product launch services with listing readiness, launch advertising, and inventory coordination under one plan. Request a free audit.",
+    "canonical": "https://ecomgliders.com/amazon-product-launch-services/",
+    "robots": { "index": true, "follow": true },
+    "schema": "Service"
+  }
+}

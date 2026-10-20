@@ -62,7 +62,7 @@ export function MegaMenuPanel({ megaMenu, className }: MegaMenuPanelProps) {
                 </p>
               ) : null}
               {ctaPanel.metric ? (
-                <p className="mt-1 text-sm font-semibold text-accent">
+                <p className="mt-1 border-l-[3px] border-accent pl-2 text-sm font-semibold text-primary">
                   {ctaPanel.metric}
                 </p>
               ) : null}

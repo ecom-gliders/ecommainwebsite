@@ -120,6 +120,31 @@
               "label": "Product Sourcing",
               "href": "/amazon-product-sourcing/",
               "description": "Supplier research for new ASINs"
+            },
+            {
+              "label": "Product Launch Services",
+              "href": "/amazon-product-launch-services/",
+              "description": "Listing, ads, and stock for go-live"
+            },
+            {
+              "label": "Inventory Management",
+              "href": "/amazon-inventory-management/",
+              "description": "FBA stock signals and restock follow-through"
+            },
+            {
+              "label": "Seller Central Services",
+              "href": "/amazon-seller-central-services/",
+              "description": "Day-to-day Seller Central operations"
+            },
+            {
+              "label": "Account Health",
+              "href": "/amazon-account-health/",
+              "description": "Policy notices and performance monitoring"
+            },
+            {
+              "label": "Account Operations",
+              "href": "/amazon-account-operations/",
+              "description": "Cross-service alignment under one plan"
             }
           ]
         },

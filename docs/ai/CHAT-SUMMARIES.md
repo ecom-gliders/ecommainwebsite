@@ -15,6 +15,95 @@ Next action:
 
 ---
 
+## 2026-10-21 — Related cards type scale (AMZ Dudes)
+
+Session topic: Related-service cards still felt tiny; compare AMZ Dudes sizes.
+
+Key discoveries (Playwright on amzdudes.com account-mgmt): card H3 ~19px / 700; card body ~15px; section body ~18px.
+
+Key decisions: EG related cards → title 19–20px, body 15–16px, Learn more 14px; dark titles explicit `text-on-dark`; light Learn more stays ink (not lime).
+
+Next action: Hard-refresh related section on full-service page.
+
+---
+
+## 2026-10-21 — Sitewide lime-on-white contrast (council)
+
+Session topic: Green not visible on white; black heading vs black body — council then fix.
+
+Key decisions:
+- Accent lime never as text on light; metrics = `text-primary` + accent rule/chip
+- Keep lime on dark punch cards / ink sections
+- Do not route marketing metrics through `success` (status token)
+
+Key discoveries: `#C6FD50` on white ~1.3:1; council Brand-SEO + Architect + Pragmatist = SHIP WITH CHANGES
+
+Files updated: service-case-outcomes, services-section, depth-band, case-studies page/KPI, mega-menu, FAQ, Featured badges, design-system.json, DECISIONS
+
+Next action: Spot-check localhost case outcomes + home services punch cards; optional full `text-accent` light-surface audit later
+
+---
+
+## 2026-10-20 — Individual service pages (Faizan call feedback)
+
+Session topic: Fix service detail pages — scene layout, related articles, AI copy/artifacts, AMZ Dudes depth.
+
+Key decisions:
+- `BrowserProofStage` = left green metric callout + single phone mockup (no desktop+phone collage)
+- Strip `Source: growth.ecomgliders.com` captions; remove “pod” agency jargon
+- `ServiceDepthBand` + `ServiceRelatedArticles` on all custom layouts; default layout gets articles too
+- Callouts on full-service, PPC, catalog, DSP, reporting browserProof modules
+
+Verified: tsc + next build; Playwright full-service H2 spine + green `$24.8M+` + related articles
+
+Next action: User review localhost service URLs; deploy when ready
+
+## 2026-10-20 — Services hub redesign implemented
+
+Session topic: Build approved `/services/` redesign from AMZ Dudes audit + consultant.
+
+Key decisions:
+- Full-Service parent first; numbered 01–08 rail (PPC, SEO/Listings, Catalog, A+, Launches, FBA, Account health, Ops)
+- Results climax: asymmetric rows, large green metrics (`success` `#067D62`)
+- Also available demotes Shopify/TikTok/email/Reg/Sourcing (+ other non-spine services)
+- CTA path: Free Audit + phone only; suppress global pre-footer on `/services`
+- Larger type scoped to `.services-hub` for sellers ~35–40
+
+Key discoveries / verification:
+- `tsc` clean; `next build` includes `/services`
+- Local Playwright: H1 → audience → flagship → rail → engagement → verified results → also available → FAQ
+
+Files updated:
+- `content/config/services-index.json`, `services-index.schema.ts`
+- New/rewritten services-index components; removed obsolete category/proof/nav
+- `globals.css` hub type scale; `services-index-json-ld.ts`; `site-footer.tsx`
+- `docs/research/SERVICES-HUB-DEMOGRAPHIC-DESIGN-2026-10-20.md`
+
+Next action: User review localhost `/services/`; deploy when ready
+
+## 2026-10-20 — AMZ Dudes services research + hub template (no build)
+
+Session topic: Research “AMC Dood” services page; consultant input; draft `/services/` template. Research only.
+
+Key decisions:
+- Resolved “AMC Dood” → **AMZ Dudes** (`amzdudes.com`) per competitor inventory
+- Steal IA (parent rail + metric-led cases); do not copy claims/wording/orange metrics
+- Hub template: Full-Service parent → numbered Amazon sub-services; results = large green metric rows (`success` `#067D62` pending approval vs lime)
+- Demote Channels/DTC, Company Registration, Sourcing off primary spine
+- Brand-SEO Consultant seated via Task; output in plan file
+
+Key discoveries:
+- AMZ Dudes Account Management: numbered 01–08 nested capabilities; results metrics orange not green
+- Our `flagship` JSON heading/body not rendered on hub (only CTA)
+
+Files updated:
+- `docs/research/AMZDUDES-SERVICES-PAGE-AUDIT-2026-10-20.md`
+- `docs/research/FINDINGS.md`, `SOURCES.md`
+- `.cursor/plans/2026-10-20-services-hub-redesign-template.md`
+- Evidence PNGs under `docs/research/evidence/`
+
+Next action: User approves template (or edits green token / rail list) before implementation
+
 ## 2026-10-20 — DNS cutover start (Vercel attach)
 
 Session topic: User approved cutover (“kro”).

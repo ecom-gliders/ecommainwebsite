@@ -218,19 +218,25 @@
       "id": "service-browser-proof",
       "type": "browserProof",
       "heading": "Account-scale context before upper-funnel media",
-      "subheading": "Growth snapshots as scale context for brands considering DSP. Not DSP-only attribution claims.",
+      "subheading": "Scale context for DSP-ready brands—not DSP-only attribution claims.",
       "images": [
         {
           "src": "/images/growth/sales-brand-yoy.avif",
-          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
-          "caption": "Multi-year brand growth snapshot. Source: growth.ecomgliders.com."
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%."
         },
         {
           "src": "/images/growth/sales-primeday.avif",
-          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year.",
-          "caption": "Peak-window sales snapshot. Source: growth.ecomgliders.com."
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
         }
-      ]
+      ],
+      "callout": {
+        "metric": "$24.8M+",
+        "metricLabel": "Ready for upper-funnel only when foundations are",
+        "points": [
+          "DSP after Brand Registry, listings, and PPC are set",
+          "Scale context—not empty ROAS promises"
+        ]
+      }
     },
     {
       "id": "dsp-readiness-board",

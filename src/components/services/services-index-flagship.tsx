@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ServicesIndexConfig } from "@/domain/content/schemas";
-import { Button } from "@/components/ui/button";
+import { PrimaryButton } from "@/components/ui/primary-button";
 import { SectionShell } from "@/components/sections/section-shell";
 
 interface ServicesIndexFlagshipProps {
@@ -12,25 +12,37 @@ export function ServicesIndexFlagship({ flagship }: ServicesIndexFlagshipProps) 
     <SectionShell
       id="services-flagship"
       ariaLabelledBy="services-flagship-heading"
-      className="py-12 sm:py-16"
+      tone="muted"
+      className="py-14 sm:py-16 lg:py-20"
     >
-      <div className="rounded-[16px] border-2 border-primary bg-primary p-6 text-text-on-dark shadow-[6px_6px_0_0_#9FE870] sm:p-8 lg:p-10">
-        <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent sm:text-xs">
+      <div className="rounded-[20px] border-2 border-primary bg-primary p-7 text-text-on-dark shadow-[6px_6px_0_0_#C6FD50] sm:p-10 lg:p-12">
+        <p className="text-small font-bold uppercase tracking-[0.14em] text-accent">
           {flagship.eyebrow}
         </p>
         <h2
           id="services-flagship-heading"
-          className="mt-3 max-w-2xl text-h2 text-text-on-dark"
+          className="mt-4 max-w-3xl text-h2 text-text-on-dark"
         >
           {flagship.heading}
         </h2>
-        <p className="mt-4 max-w-2xl text-body text-text-on-dark/90">
+        <p className="mt-5 max-w-3xl text-body text-text-on-dark/90">
           {flagship.body}
         </p>
-        <div className="mt-8">
-          <Button variant="outlineOnDark" asChild>
+        <ul className="mt-8 max-w-3xl space-y-4">
+          {flagship.bullets.map((bullet) => (
+            <li key={bullet} className="flex gap-3 text-body text-text-on-dark/90">
+              <span
+                className="mt-2 h-2 w-2 shrink-0 rounded-full bg-accent"
+                aria-hidden="true"
+              />
+              <span>{bullet}</span>
+            </li>
+          ))}
+        </ul>
+        <div className="mt-10">
+          <PrimaryButton variant="accent" asChild>
             <Link href={flagship.cta.href}>{flagship.cta.label}</Link>
-          </Button>
+          </PrimaryButton>
         </div>
       </div>
     </SectionShell>

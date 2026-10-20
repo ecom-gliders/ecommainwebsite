@@ -32,7 +32,7 @@ export function ServiceModuleShell({
           heading={heading}
           subheading={subheading}
           headingId={headingId}
-          className="mb-0 max-w-3xl md:mb-0"
+          className="mb-0 max-w-4xl md:mb-0"
         />
       ) : null}
       <div className={heading ? "mt-6 sm:mt-7" : undefined}>{children}</div>

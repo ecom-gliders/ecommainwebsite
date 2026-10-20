@@ -15,61 +15,61 @@ export interface BrandUnlockGridProps {
 }
 
 /**
- * Tool access sheet — row permissions, not a four-card marketing grid.
+ * Open 2-col scope/access list — hairlines, not nested hard boxes.
  */
 export function BrandUnlockGrid({
   items,
   note,
-  sheetLabel = "brandregistry · tool access",
+  sheetLabel = "Brand Registry · tool access",
 }: BrandUnlockGridProps) {
+  const openCount = items.filter((item) => item.unlocked).length;
+
   return (
-    <div className="space-y-3">
-      <div className="overflow-hidden rounded-[12px] border border-primary/20 bg-background">
-        <div className="flex items-center justify-between border-b border-primary/15 bg-surface-muted/80 px-4 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary sm:px-5">
-          <span>{sheetLabel}</span>
-          <span>
-            {items.filter((item) => item.unlocked).length}/{items.length} open
-          </span>
-        </div>
-        <ul className="divide-y divide-primary/10">
-          {items.map((item) => {
-            const status =
-              item.statusLabel ??
-              (item.unlocked
-                ? "Unlocked after enrollment"
-                : "Requires Brand Registry");
-            return (
-              <li
-                key={item.title}
-                className="grid gap-2 px-4 py-3.5 sm:grid-cols-[9rem_1fr] sm:items-start sm:gap-5 sm:px-5"
-              >
-                <p
-                  className={cn(
-                    "font-mono text-[10px] font-bold uppercase tracking-[0.1em]",
-                    item.unlocked ? "text-primary" : "text-text-secondary",
-                  )}
-                >
-                  {item.unlocked ? "OPEN" : "LOCKED"}
-                </p>
-                <div className="min-w-0">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                    <h3 className="text-body font-semibold text-primary">
-                      {item.title}
-                    </h3>
-                    <span className="text-[11px] text-text-secondary">
-                      {status}
-                    </span>
-                  </div>
-                  <p className="mt-1 text-small text-text-secondary">
-                    {item.description}
-                  </p>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 border-b-2 border-primary pb-3">
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          {sheetLabel}
+        </p>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          {openCount}/{items.length} available
+        </p>
       </div>
-      {note ? <p className="text-xs text-text-secondary">{note}</p> : null}
+      <ul className="grid gap-0 sm:grid-cols-2 sm:gap-x-10">
+        {items.map((item, index) => {
+          const status =
+            item.statusLabel ??
+            (item.unlocked ? "After enrollment" : "Needs Brand Registry");
+          const odd = index % 2 === 1;
+          return (
+            <li
+              key={item.title}
+              className={cn(
+                "border-b border-primary/15 py-5",
+                odd && "sm:border-l sm:border-primary/15 sm:pl-10",
+              )}
+            >
+              <p
+                className={cn(
+                  "font-mono text-[11px] font-bold uppercase tracking-[0.12em]",
+                  item.unlocked ? "text-primary" : "text-text-secondary",
+                )}
+              >
+                {item.unlocked ? "Open" : "Locked"}
+                <span className="ml-2 font-medium normal-case tracking-normal text-text-secondary">
+                  · {status}
+                </span>
+              </p>
+              <h3 className="mt-2 text-[1.125rem] font-bold leading-snug text-primary sm:text-[1.1875rem]">
+                {item.title}
+              </h3>
+              <p className="mt-2 text-[0.9375rem] leading-[1.65] text-text-secondary sm:text-base">
+                {item.description}
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+      {note ? <p className="text-sm text-text-secondary">{note}</p> : null}
     </div>
   );
 }

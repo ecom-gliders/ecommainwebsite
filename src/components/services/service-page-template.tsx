@@ -1,5 +1,9 @@
 import Link from "next/link";
-import type { ServicePageConfig, SiteConfig } from "@/domain/content/schemas";
+import type {
+  BlogPost,
+  ServicePageConfig,
+  SiteConfig,
+} from "@/domain/content/schemas";
 import { BlogPostCta } from "@/components/blog/blog-post-cta";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { SectionHeading } from "@/components/sections/section-heading";
@@ -13,9 +17,12 @@ import {
 } from "./service-hero";
 import { ServiceModules } from "./modules/service-modules";
 import { ServiceAudienceSection } from "./sections/service-audience-section";
+import { ServiceCaseOutcomes } from "./sections/service-case-outcomes";
+import { ServiceDepthBand } from "./sections/service-depth-band";
 import { ServiceOpsLanes } from "./sections/service-ops-lanes";
 import { ServiceProblemSection } from "./sections/service-problem-section";
 import { ServiceSolutionSection } from "./sections/service-solution-section";
+import { ServiceRelatedArticles } from "./service-related-articles";
 import { serviceHardPanel } from "./service-hard-panel";
 import { ServiceHero } from "./service-hero";
 import { ServiceStatsStrip } from "./service-stats-strip";
@@ -23,6 +30,7 @@ import { ServiceStatsStrip } from "./service-stats-strip";
 interface ServicePageTemplateProps {
   service: ServicePageConfig;
   site: SiteConfig;
+  relatedPosts?: BlogPost[];
 }
 
 const EARLY_VISUAL_TYPES = new Set([
@@ -46,6 +54,10 @@ type TailResults = "cards" | "strip" | "omit";
 type TailFaq = "panel" | "plain";
 type TailRelated = "cards" | "links" | "omit";
 
+/**
+ * Editorial proof rows (AMZ Dudes / boutique agency pattern):
+ * oversized metric + brand line — no stacked hard boxes.
+ */
 function InlineCaseResults({
   id,
   label,
@@ -60,28 +72,44 @@ function InlineCaseResults({
   if (items.length === 0) return null;
 
   return (
-    <SectionShell id={id} density="tight" ariaLabelledBy={`${id}-heading`}>
-      <p
-        id={`${id}-heading`}
-        className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary"
-      >
-        {label}
-      </p>
-      <ul className="mt-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-8 sm:gap-y-2">
+    <SectionShell
+      id={id}
+      ariaLabelledBy={`${id}-heading`}
+      className="py-10 sm:py-12 lg:py-14"
+    >
+      <SectionHeading
+        kicker="Proof"
+        heading={label}
+        headingId={`${id}-heading`}
+        className="max-w-4xl"
+      />
+      <ul className="mt-8 border-t-2 border-primary">
         {items.map((item) => (
-          <li key={`${item.metric}-${item.brand}`} className="min-w-0 text-small">
+          <li key={`${item.metric}-${item.brand}`} className="border-b-2 border-primary">
             <Link
               href={item.href}
-              className="font-semibold text-primary underline-offset-4 hover:underline"
+              className={cn(
+                "group grid gap-3 py-7 sm:grid-cols-[minmax(11rem,18rem)_minmax(0,1fr)_auto] sm:items-end sm:gap-8 sm:py-8",
+                "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2",
+              )}
             >
-              {item.metric}
-            </Link>
-            <span className="text-text-secondary"> · {item.brand}</span>
-            {withDescription ? (
-              <span className="mt-1 block text-xs text-text-muted">
-                {item.description}
+              <p className="text-[clamp(1.75rem,3.2vw,2.5rem)] font-black leading-[0.95] tracking-tight text-primary">
+                {item.metric}
+              </p>
+              <div className="min-w-0">
+                <h3 className="text-[1.125rem] font-bold leading-snug text-primary group-hover:underline group-hover:underline-offset-4 sm:text-[1.25rem]">
+                  {item.brand}
+                </h3>
+                {withDescription && item.description ? (
+                  <p className="mt-2 max-w-2xl text-[0.9375rem] leading-[1.65] text-text-secondary sm:text-base">
+                    {item.description}
+                  </p>
+                ) : null}
+              </div>
+              <span className="shrink-0 text-sm font-bold uppercase tracking-[0.06em] text-primary underline-offset-4 group-hover:underline">
+                Read case study
               </span>
-            ) : null}
+            </Link>
           </li>
         ))}
       </ul>
@@ -103,11 +131,13 @@ function ServiceCustomTail({
   site,
   relatedSubheading,
   presentation,
+  relatedPosts = [],
 }: {
   service: ServicePageConfig;
   site: SiteConfig;
   relatedSubheading: string;
   presentation: TailPresentation;
+  relatedPosts?: BlogPost[];
 }) {
   const faqHeading = presentation.faqHeading ?? "Questions about this service";
   const relatedHeading = presentation.relatedHeading ?? "Related services";
@@ -289,63 +319,15 @@ function ServiceCustomTail({
         <SectionHeading
           heading={faqHeading}
           headingId="service-faq-heading"
+          className="max-w-4xl"
         />
-        {presentation.faq === "plain" ? (
-          <div className="mt-8 max-w-3xl">
-            <FaqAccordion items={service.faq} variant="lime" />
-          </div>
-        ) : (
-          <div
-            className={cn(
-              serviceHardPanel,
-              "mt-8 overflow-hidden border-t-4 border-t-accent bg-background p-4 sm:p-5",
-            )}
-          >
-            <FaqAccordion items={service.faq} variant="lime" />
-          </div>
-        )}
+        {/* Open FAQ band — hairline rules only (less “boxed section” chrome) */}
+        <div className="mt-8 w-full border-t-2 border-primary">
+          <FaqAccordion items={service.faq} variant="lime" />
+        </div>
       </SectionShell>
 
-      {presentation.related === "omit" ? null : presentation.related === "links" ? (
-        <SectionShell
-          id="service-related"
-          tone="muted"
-          ariaLabelledBy="service-related-heading"
-        >
-          <SectionHeading
-            heading={relatedHeading}
-            subheading={relatedSubheading}
-            headingId="service-related-heading"
-          />
-          <ul className="mt-8 divide-y divide-primary/10 border-y border-primary/15">
-            {service.relatedServices.map((related, index) => (
-              <li key={related.href}>
-                <Link
-                  href={related.href}
-                  className="group flex items-baseline justify-between gap-4 py-4"
-                >
-                  <span className="flex min-w-0 gap-3">
-                    <span className="shrink-0 font-mono text-[11px] font-bold text-text-secondary">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span>
-                      <span className="block text-body font-semibold text-primary group-hover:underline">
-                        {related.title}
-                      </span>
-                      <span className="mt-1 block text-small text-text-secondary">
-                        {related.description}
-                      </span>
-                    </span>
-                  </span>
-                  <span className="shrink-0 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-text-secondary group-hover:text-primary">
-                    View
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </SectionShell>
-      ) : (
+      {presentation.related === "omit" ? null : (
         <ServicesSection
           id="service-related"
           data={{
@@ -360,6 +342,8 @@ function ServiceCustomTail({
           }}
         />
       )}
+
+      <ServiceRelatedArticles posts={relatedPosts} />
 
       <BlogPostCta
         site={{
@@ -376,7 +360,7 @@ function ServiceCustomTail({
   );
 }
 
-export function ServicePageTemplate({ service, site }: ServicePageTemplateProps) {
+export function ServicePageTemplate({ service, site, relatedPosts = [] }: ServicePageTemplateProps) {
   const isCatalogOps = service.layout === "catalog-ops";
   const isBrandPathway = service.layout === "brand-pathway";
   const isEntitySetup = service.layout === "entity-setup";
@@ -421,6 +405,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {proof.length > 0 ? (
           <ServiceModules modules={proof} band="proof-lead" />
         ) : null}
@@ -459,6 +444,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Listing, account, and brand work that pairs with catalog operations."
           presentation={{
             deliverables: "omit",
@@ -482,47 +468,30 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {pathwayBoard.length > 0 ? (
           <ServiceModules modules={pathwayBoard} band="flat" />
         ) : null}
         {unlockGrid.length > 0 ? (
           <ServiceModules modules={unlockGrid} band="flat" />
         ) : null}
-        <SectionShell
-          id="service-results"
-          density="tight"
-          ariaLabelledBy="service-results-heading"
-        >
-          <p
-            id="service-results-heading"
-            className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary"
-          >
-            Brand-ready growth outcomes
-          </p>
-          <ul className="mt-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-x-8 sm:gap-y-2">
-            {service.results.items.map((item) => (
-              <li key={item.brand} className="min-w-0 text-small">
-                <Link
-                  href={item.href}
-                  className="font-semibold text-primary underline-offset-4 hover:underline"
-                >
-                  {item.metric}
-                </Link>
-                <span className="text-text-secondary"> · {item.brand}</span>
-              </li>
-            ))}
-          </ul>
-        </SectionShell>
+        <InlineCaseResults
+          id="brand-case-results"
+          label="Brand-ready growth outcomes"
+          items={service.results.items}
+          withDescription
+        />
         {leadBand}
         <ServiceCustomTail
           service={service}
           site={site}
-          relatedSubheading="Entity, content, and catalog work that follows Brand Registry enrollment."
+          relatedPosts={relatedPosts}
+          relatedSubheading="Company setup, content, and catalog work that usually follows enrollment."
           presentation={{
             deliverables: "omit",
             results: "omit",
             faq: "plain",
-            related: "links",
+            related: "cards",
             faqHeading: "Trademark and Brand Registry questions",
             relatedHeading: "Next steps after Brand Registry",
           }}
@@ -540,6 +509,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {docBoard.length > 0 ? (
           <ServiceModules modules={docBoard} band="flat" />
         ) : null}
@@ -556,6 +526,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Brand Registry and Amazon growth work after entity foundations are ready."
           presentation={{
             deliverables: "omit",
@@ -581,6 +552,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {shortlistBoard.length > 0 ? (
           <ServiceModules modules={shortlistBoard} band="flat" />
         ) : null}
@@ -600,6 +572,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Catalog, listing, and account work after sourcing decisions are locked."
           presentation={{
             deliverables: "omit",
@@ -622,6 +595,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {syncBoard.length > 0 ? (
           <ServiceModules modules={syncBoard} band="flat" />
         ) : null}
@@ -641,12 +615,13 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
-          relatedSubheading="Email, creative, and Amazon account work that pairs with an owned storefront."
+          relatedPosts={relatedPosts}
+          relatedSubheading="Email, creative, and Amazon account work that pair with an owned storefront."
           presentation={{
             deliverables: "omit",
             results: "omit",
             faq: "plain",
-            related: "links",
+            related: "cards",
             faqHeading: "Shopify for Amazon brands — questions",
             relatedHeading: "Channels that pair with Shopify",
           }}
@@ -667,6 +642,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {journeyBoard.length > 0 ? (
           <ServiceModules modules={journeyBoard} band="flat" />
         ) : null}
@@ -686,6 +662,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Shopify, content, and Amazon account work that feeds owned-list retention."
           presentation={{
             deliverables: "omit",
@@ -700,20 +677,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
   }
 
   if (isPpcOps) {
-    const proof = earlyVisuals
-      .filter((m) => m.type === "browserProof")
-      .map((m) =>
-        m.type === "browserProof"
-          ? {
-              ...m,
-              // First capture already appears in the proof-lead hero aside.
-              images: m.images.slice(1),
-              heading: m.images.length > 1 ? m.heading : undefined,
-              subheading: m.images.length > 1 ? m.subheading : undefined,
-            }
-          : m,
-      )
-      .filter((m) => m.type !== "browserProof" || m.images.length > 0);
+    const proof = earlyVisuals.filter((m) => m.type === "browserProof");
     const structureBoard = earlyVisuals.filter(
       (m) => m.type === "catalogHealthBoard",
     );
@@ -725,11 +689,12 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         {proof.length > 0 ? (
           <ServiceModules modules={proof} band="proof-lead" />
         ) : null}
-        {charts.length > 0 ? (
-          <ServiceModules modules={charts} band="flat" />
-        ) : null}
+        <ServiceDepthBand service={service} />
         {structureBoard.length > 0 ? (
           <ServiceModules modules={structureBoard} band="flat" />
+        ) : null}
+        {charts.length > 0 ? (
+          <ServiceModules modules={charts} band="flat" />
         ) : null}
         <InlineCaseResults
           id="ppc-case-results"
@@ -741,12 +706,13 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Listing, DSP, and full-account work that pairs with Sponsored Ads."
           presentation={{
             deliverables: "omit",
             results: "omit",
-            faq: "plain",
-            related: "links",
+            faq: "panel",
+            related: "cards",
             faqHeading: "Amazon PPC questions",
             relatedHeading: "Services that support ad efficiency",
           }}
@@ -766,6 +732,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {proof.length > 0 ? (
           <ServiceModules modules={proof} band="proof-lead" />
         ) : null}
@@ -788,6 +755,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="PPC, listing, and full-account work guided by the same metric definitions."
           presentation={{
             deliverables: "omit",
@@ -814,6 +782,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {proof.length > 0 ? (
           <ServiceModules modules={proof} band="proof-lead" />
         ) : null}
@@ -836,6 +805,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Sponsored Ads, video creative, and full-account work that DSP expands—not replaces."
           presentation={{
             deliverables: "omit",
@@ -855,7 +825,6 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     const ownershipBoard = earlyVisuals.filter(
       (m) => m.type === "catalogHealthBoard",
     );
-    const outcomeChart = earlyVisuals.filter((m) => m.type === "metricChart");
     const programPath = earlyVisuals.filter(
       (m) => m.type === "brandPathwayBoard",
     );
@@ -866,6 +835,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {proof.length > 0 ? (
           <ServiceModules modules={proof} band="proof-lead" />
         ) : null}
@@ -875,24 +845,23 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         {service.opsLanes ? (
           <ServiceOpsLanes opsLanes={service.opsLanes} variant="tickets" />
         ) : null}
-        {outcomeChart.length > 0 ? (
-          <ServiceModules modules={outcomeChart} band="flat" />
-        ) : null}
+        <ServiceCaseOutcomes
+          id="account-case-results"
+          heading={service.results.heading}
+          subheading="Verified metrics from named case studies. Not a guarantee of identical results."
+          items={service.results.items}
+        />
         {programPath.length > 0 ? (
           <ServiceModules modules={programPath} band="flat" />
         ) : null}
         {spotlightModules.length > 0 ? (
           <ServiceModules modules={spotlightModules} band="flat" />
         ) : null}
-        <InlineCaseResults
-          id="account-case-results"
-          label="Account outcomes"
-          items={service.results.items}
-        />
         {leadBand}
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="PPC, listing, and reporting work that run under the same account roadmap."
           presentation={{
             deliverables: "omit",
@@ -900,7 +869,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
             faq: "panel",
             related: "cards",
             faqHeading: "Full-account management questions",
-            relatedHeading: "Pods inside the account roadmap",
+            relatedHeading: "Related services under full-account management",
           }}
         />
       </>
@@ -916,6 +885,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {cvrChart.length > 0 ? (
           <ServiceModules modules={cvrChart} band="flat" />
         ) : null}
@@ -932,6 +902,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Content writing, visuals, and PPC that land on conversion-ready listings."
           presentation={{
             deliverables: "omit",
@@ -958,6 +929,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {claimBoard.length > 0 ? (
           <ServiceModules modules={claimBoard} band="flat" />
         ) : null}
@@ -980,6 +952,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Listing SEO, visuals, and account work that carry the same voice into publish."
           presentation={{
             deliverables: "omit",
@@ -1006,6 +979,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {physicalProof.length > 0 ? (
           <ServiceModules modules={physicalProof} band="proof-lead" />
         ) : null}
@@ -1028,6 +1002,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Video, copy, and listing SEO that complete the same PDP story."
           presentation={{
             deliverables: "omit",
@@ -1051,6 +1026,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {beatBoard.length > 0 ? (
           <ServiceModules modules={beatBoard} band="flat" />
         ) : null}
@@ -1070,6 +1046,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Still creative, PPC, and DSP placements that use the same product proof."
           presentation={{
             deliverables: "omit",
@@ -1095,6 +1072,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
     return (
       <>
         <ServiceHero service={service} site={site} />
+        <ServiceDepthBand service={service} />
         {fitBoard.length > 0 ? (
           <ServiceModules modules={fitBoard} band="flat" />
         ) : null}
@@ -1117,6 +1095,7 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <ServiceCustomTail
           service={service}
           site={site}
+          relatedPosts={relatedPosts}
           relatedSubheading="Amazon PPC, video, and Shopify work that stay primary while TikTok tests complementary demand."
           presentation={{
             deliverables: "omit",
@@ -1305,13 +1284,9 @@ export function ServicePageTemplate({ service, site }: ServicePageTemplateProps)
         <SectionHeading
           heading="Frequently asked questions"
           headingId="service-faq-heading"
+          className="max-w-4xl"
         />
-        <div
-          className={cn(
-            serviceHardPanel,
-            "mt-8 overflow-hidden border-t-4 border-t-accent bg-background p-4 sm:p-5",
-          )}
-        >
+        <div className="mt-8 w-full border-t-2 border-primary">
           <FaqAccordion items={service.faq} variant="lime" />
         </div>
       </SectionShell>
