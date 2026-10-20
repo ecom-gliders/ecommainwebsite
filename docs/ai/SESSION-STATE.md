@@ -1,10 +1,10 @@
 ## Current objective
 
-GitHub backup push to `faizanMayo786/ecomgliders-site` (full project + Obsidian + Cursor transcripts).
+GitHub backup of full project; DNS cutover still pending Hostinger DNS.
 
 ## Current phase
 
-Preparing initial git commit and push. DNS cutover still blocked on Hostinger DNS (see `docs/seo/DNS-CUTOVER.md`). Staging: https://ecom-gliders.vercel.app
+Pushed to https://github.com/faizanMayo786/ecomgliders-site (`main`). Staging: https://ecom-gliders.vercel.app. DNS cutover: see `docs/seo/DNS-CUTOVER.md`.
 
 ## Completed (cutover)
 
