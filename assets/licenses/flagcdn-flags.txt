@@ -1,0 +1,3 @@
+Marketplace flag PNGs sourced from https://flagcdn.com/ (w80 variants).
+Used on the eCom Gliders homepage markets section for marketplace identification.
+National flags are public symbols; FlagCDN provides the image files for embedding.

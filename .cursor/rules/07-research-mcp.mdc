@@ -1,0 +1,43 @@
+---
+description: Research workflow using MCP Playwright and evidence recording
+alwaysApply: true
+---
+
+# Research and MCP
+
+## Research sequence
+
+1. Define the question
+2. Search existing project evidence in `docs/research/` and `obsidian/09-Research/`
+3. Use official sources first
+4. Use MCP Playwright for current website behavior, layout, forms, navigation, dynamic content
+5. Record source, date, claim, conclusion, confidence
+6. Distinguish facts from inference
+7. Do not repeat research without reason
+
+## MCP Playwright usage
+
+Use when website behavior, layout, interactive state, or current content matters.
+Inspect actual rendered pages. Capture screenshots for evidence.
+Do not infer dynamic UI from static HTML alone.
+
+## Project MCP config
+
+MCP configuration lives in `.cursor/mcp.json` (project-local only).
+
+## Download workflow
+
+1. Verify source and relevance
+2. Verify licensing and usage rights
+3. Verify format, dimensions, file size
+4. Save to correct `assets/` subdirectory
+5. Use meaningful filename
+6. Record provenance in `docs/research/DOWNLOAD-LOG.md`
+7. Validate the application can load the asset
+
+## Anti-hallucination for research
+
+Never state a page exists, a URL works, or content is present without browser or tool verification.
+If Cloudflare or bot protection blocks access, record the blocker and use alternative evidence sources.
+
+Load skill `.cursor/skills/research/SKILL.md` for detailed workflow.

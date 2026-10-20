@@ -1,0 +1,481 @@
+{
+  "slug": "full-service-amazon-agency",
+  "breadcrumbLabel": "Account Management",
+  "layout": "account-ops",
+  "hero": {
+    "title": "Full-account Amazon management under one pod",
+    "subtitle": "PPC, listings, catalog health, and Seller Central operations on one roadmap—so media, conversion, and inventory stay aligned. No 90-day miracle claims.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a full-account audit",
+      "subheading": "Tell us where the account stands. A strategist follows up within one business day.",
+      "submitLabel": "Request a free audit",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "monthlyRevenue",
+          "label": "Monthly Amazon revenue",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "new",
+              "label": "New on Amazon, no sales yet"
+            },
+            {
+              "value": "under-10k",
+              "label": "$1 to $10,000"
+            },
+            {
+              "value": "10k-25k",
+              "label": "$10,000 to $25,000"
+            },
+            {
+              "value": "25k-50k",
+              "label": "$25,000 to $50,000"
+            },
+            {
+              "value": "50k-250k",
+              "label": "$50,000 to $250,000"
+            },
+            {
+              "value": "250k-plus",
+              "label": "$250,000+"
+            }
+          ]
+        },
+        {
+          "name": "priorityFocus",
+          "label": "Primary focus",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "ppc",
+              "label": "Advertising / PPC"
+            },
+            {
+              "value": "listings",
+              "label": "Listings and conversion"
+            },
+            {
+              "value": "catalog",
+              "label": "Catalog and operations"
+            },
+            {
+              "value": "full",
+              "label": "Full account management"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-account-management-service.jpg",
+      "alt": "Account Management service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon growth stalls without full-account ownership",
+    "points": [
+      {
+        "title": "Too many levers for one operator",
+        "description": "PPC, listings, inventory, Brand Registry, and compliance compete for attention."
+      },
+      {
+        "title": "PPC without conversion support",
+        "description": "Ad spend rises while titles, images, and catalog structure stay outdated."
+      },
+      {
+        "title": "Fragmented vendors",
+        "description": "Separate ads, content, and catalog providers leave gaps and incomplete reporting."
+      },
+      {
+        "title": "Reactive firefighting",
+        "description": "Daily alerts without a shared plan for launches, margin, and marketplace priorities."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who full-service management is for",
+    "points": [
+      {
+        "title": "FBA brands ready to scale",
+        "description": "Operators who need coordinated advertising, listing, and catalog work."
+      },
+      {
+        "title": "Brands limited by PPC-only agencies",
+        "description": "Teams that buy media but need listings and catalog tied to the same plan."
+      },
+      {
+        "title": "Multi-marketplace sellers",
+        "description": "Priorities set by catalog, margin, and inventory readiness across markets."
+      },
+      {
+        "title": "Founders who want accountable specialists",
+        "description": "A named in-house pod instead of a rotating freelance bench."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How full-account management runs",
+    "steps": [
+      {
+        "title": "Full account audit",
+        "description": "Baseline Seller Central health, advertising, listings, catalog, and operations."
+      },
+      {
+        "title": "Growth roadmap",
+        "description": "Goals across revenue, margin, ranking, and catalog with clear owners."
+      },
+      {
+        "title": "Day-to-day execution",
+        "description": "In-house specialists run PPC, listing updates, catalog issues, and ops follow-ups."
+      },
+      {
+        "title": "Reporting and strategy reviews",
+        "description": "Structured reporting that connects performance to inventory and next actions."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What full-service management includes",
+    "items": [
+      {
+        "title": "Dedicated account oversight",
+        "description": "A named team coordinating advertising, content, catalog, and operations."
+      },
+      {
+        "title": "Amazon PPC management",
+        "description": "Campaign structure, bids, search terms, and budgets aligned to account goals."
+      },
+      {
+        "title": "Listing and content coordination",
+        "description": "Prioritized listing updates so paid and organic traffic land on conversion-ready pages."
+      },
+      {
+        "title": "Catalog health monitoring",
+        "description": "Ongoing review of suppressions, variations, and listing accuracy."
+      },
+      {
+        "title": "Inventory and launch planning support",
+        "description": "Restocks, launches, and promotions coordinated so spend matches stock."
+      },
+      {
+        "title": "Performance reporting",
+        "description": "Sales, advertising efficiency, and catalog actions with clear next steps."
+      },
+      {
+        "title": "Seller Central process management",
+        "description": "Structured handling of account tasks, cases, and operational requests."
+      },
+      {
+        "title": "Cross-service alignment",
+        "description": "Creative, catalog, and analytics under one account strategy."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders differs from typical options",
+    "points": [
+      {
+        "title": "In-house specialists, not a freelance bench",
+        "description": "More than 20 in-house professionals with clear ownership instead of rotating contractors."
+      },
+      {
+        "title": "Ads connected to listings and catalog health",
+        "description": "PPC managed alongside listing quality and catalog accuracy."
+      },
+      {
+        "title": "Verified partner signals and retention",
+        "description": "Amazon Ads Verified Partner. Helping sellers since 2018. 95% client retention."
+      },
+      {
+        "title": "Audit-first engagement",
+        "description": "Free account audit before ongoing management begins. Scope defined up front."
+      }
+    ]
+  },
+  "opsLanes": {
+    "heading": "Cross-pod issues we close under one owner",
+    "subheading": "Full-account work is not three separate vendors. Issue, fix, and verify across ads, listings, and catalog.",
+    "note": "Scope is set during the free audit. Outcomes depend on catalog readiness, inventory, and marketplace conditions—not a fixed 60- or 90-day guarantee.",
+    "lanes": [
+      {
+        "title": "Ads without conversion support",
+        "issue": "Sponsored spend scales while titles, images, A+, or catalog structure lag.",
+        "fix": "Pair campaign changes with listing and catalog priorities on the same weekly board.",
+        "verify": "Efficiency and conversion move together on hero ASINs—not spend alone."
+      },
+      {
+        "title": "Fragmented vendors",
+        "issue": "Separate ads, content, and catalog providers leave gaps and incomplete reporting.",
+        "fix": "One pod owns the roadmap; specialists execute with shared definitions and handoffs.",
+        "verify": "One reporting cadence, one priority list, clear owners for open items."
+      },
+      {
+        "title": "Reactive firefighting",
+        "issue": "Teams chase daily alerts without a plan for launches, margin, or marketplace focus.",
+        "fix": "Audit baseline, then a roadmap with weekly ops and scheduled strategy reviews.",
+        "verify": "Work traces to the roadmap; firefighting shrinks relative to planned work."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Account-scale proof from live Seller tools",
+      "subheading": "Dashboard captures from growth.ecomgliders.com—advertising-led Amazon growth context, not a guarantee for every account.",
+      "images": [
+        {
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
+          "caption": "Multi-year brand growth snapshot (Sellerboard). Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
+          "caption": "Two-year ordered product sales window. Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-small-brand.avif",
+          "alt": "Amazon Seller app showing a smaller brand sales window up 182% versus last year.",
+          "caption": "Smaller-brand sales window (+182% YoY). Source: growth.ecomgliders.com."
+        }
+      ]
+    },
+    {
+      "id": "account-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly ownership board",
+      "subheading": "One owner across pods—PPC-only shops leave catalog and listing gaps unowned.",
+      "urlLabel": "account.ecomgliders.com/weekly",
+      "disclaimer": "Illustrative weekly board. Exact pods and cadence are set during onboarding.",
+      "columns": [
+        "Pod",
+        "Weekly focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Sponsored Ads",
+            "Structure, search terms, budget",
+            "ACoS / TACoS, wasted spend",
+            "Ship bid and query changes"
+          ]
+        },
+        {
+          "cells": [
+            "Listings",
+            "Hero ASIN conversion fixes",
+            "CVR, content gaps",
+            "Prioritize copy and image updates"
+          ]
+        },
+        {
+          "cells": [
+            "Catalog",
+            "Suppressions and variations",
+            "Buyability, family integrity",
+            "Clear blockers before spend scales"
+          ]
+        },
+        {
+          "cells": [
+            "Operations",
+            "Inventory and cases",
+            "Stock risk, open tickets",
+            "Align promotions with available units"
+          ]
+        },
+        {
+          "cells": [
+            "Reporting",
+            "Shared definitions",
+            "Sales vs efficiency story",
+            "One weekly pack for stakeholders"
+          ]
+        },
+        {
+          "cells": [
+            "Creative / PDP",
+            "Assets match live claims?",
+            "Brief visual + copy",
+            "Creative"
+          ]
+        },
+        {
+          "cells": [
+            "Handoffs",
+            "Open tickets across pods?",
+            "Close or reassign same day",
+            "Account lead"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Account · weekly"
+    },
+    {
+      "id": "account-outcome-chart",
+      "type": "metricChart",
+      "heading": "Named outcomes from full-account cases",
+      "subheading": "Verified case metrics under multi-pod ownership—not a guarantee of identical results.",
+      "chartLabel": "Named outcome index (for chart scale)",
+      "points": [
+        {
+          "label": "GoSports sales increase % (case study 9)",
+          "value": 310
+        },
+        {
+          "label": "Smaller-brand YoY sales % (growth proof)",
+          "value": 182
+        },
+        {
+          "label": "Kitchen brand sales growth % (case study 1)",
+          "value": 73
+        }
+      ],
+      "footnote": "GoSports (/case-study-9/): +310% sales with listing and advertising work. Smaller-brand window: +182% YoY from growth.ecomgliders.com. Kitchen (/case-study-1/): +73% sales with integrated account work. Not a guarantee of identical results.",
+      "variant": "bars"
+    }
+  ],
+  "results": {
+    "heading": "Results from full-account work",
+    "items": [
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing optimization, data-driven advertising, and brand positioning lifted Amazon sales from a stagnant baseline.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Integrated account management improved visibility, conversion, and advertising efficiency for a home and kitchen seller.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What does full-service Amazon account management include?",
+      "answer": "It covers coordinated oversight of PPC, listings, catalog health, reporting, and day-to-day Seller Central execution. Exact scope is defined during the free audit based on your catalog and growth stage."
+    },
+    {
+      "question": "Do I keep ownership of my Seller Central account?",
+      "answer": "Yes. You retain full ownership. We work through authorized access with clear communication on changes and priorities."
+    },
+    {
+      "question": "How is this different from hiring only a PPC agency?",
+      "answer": "PPC is one lever. Full account management connects advertising with listings, catalog health, inventory readiness, and reporting so growth is not limited to paid media alone."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support all official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "Who works on my account?",
+      "answer": "In-house specialists handle your account. You work with a dedicated team rather than a rotating freelance bench."
+    },
+    {
+      "question": "How often will we review strategy?",
+      "answer": "You receive regular performance reporting plus scheduled strategy reviews. Cadence is set during onboarding to match account size and goals."
+    },
+    {
+      "question": "How much does Amazon account management cost?",
+      "answer": "Pricing depends on catalog size, ad spend, and scope of services. Request a free audit or contact us for a custom quote based on your brand's needs."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a discovery survey, strategy call with audit findings, a custom plan, then onboarding."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon PPC Management",
+      "description": "Sponsored Products, Brands, and Display with structured ACoS control.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Keyword research, listing content, and organic ranking improvements.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    },
+    {
+      "title": "Reporting and Analytics",
+      "description": "Clear weekly and monthly metrics for advertising and account performance.",
+      "href": "/amazon-reporting-analytics/",
+      "icon": "file-text"
+    }
+  ],
+  "cta": {
+    "heading": "Request a full-account audit",
+    "subheading": "We review account health, advertising, and growth opportunities. No invented 90-day turnaround claims.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Full Service Amazon Agency | Account Management | eCom Gliders",
+    "metaDescription": "Full-service Amazon agency for account management, PPC, listing optimization, content, and catalog management. 95% client retention. Free audit.",
+    "canonical": "https://ecomgliders.com/full-service-amazon-agency/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

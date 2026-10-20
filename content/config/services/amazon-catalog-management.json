@@ -1,0 +1,416 @@
+{
+  "slug": "amazon-catalog-management",
+  "breadcrumbLabel": "Catalog Management",
+  "layout": "catalog-ops",
+  "hero": {
+    "title": "Amazon catalog management that keeps ASINs live",
+    "subtitle": "Suppressions, variation structure, and attribute quality—prioritized by revenue impact and coordinated with advertising and listing work.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a catalog health review",
+      "subheading": "Share catalog size and the main issue so we can prioritize listing health work.",
+      "submitLabel": "Request catalog review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "catalogSize",
+          "label": "Catalog size",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "under-25",
+              "label": "Under 25 ASINs"
+            },
+            {
+              "value": "25-100",
+              "label": "25 to 100 ASINs"
+            },
+            {
+              "value": "100-500",
+              "label": "100 to 500 ASINs"
+            },
+            {
+              "value": "500-plus",
+              "label": "500+ ASINs"
+            }
+          ]
+        },
+        {
+          "name": "catalogIssue",
+          "label": "Main catalog issue",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "suppressed",
+              "label": "Suppressed / detail page issues"
+            },
+            {
+              "value": "variations",
+              "label": "Variation structure"
+            },
+            {
+              "value": "attributes",
+              "label": "Attributes and compliance"
+            },
+            {
+              "value": "ongoing",
+              "label": "Ongoing catalog ops"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/catalog-management-v2.png",
+      "alt": "Catalog Management service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Catalog issues that stop sales",
+    "points": [
+      {
+        "title": "Suppressions",
+        "description": "Missing attributes, image standards, or detail-page conflicts hide ASINs from search."
+      },
+      {
+        "title": "Broken variations",
+        "description": "Incorrect parent-child setup splits reviews and confuses shoppers."
+      },
+      {
+        "title": "Attribute gaps",
+        "description": "Incomplete or inconsistent fields create quality and discoverability problems at scale."
+      },
+      {
+        "title": "No catalog owner",
+        "description": "Ads and content teams assume listings are healthy until revenue drops."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Suppressed or stranded inventory",
+        "description": "Accounts that need cause diagnosis and remediation when ASINs go inactive."
+      },
+      {
+        "title": "Broken variation families",
+        "description": "Parent-child structures that split reviews or hide child ASINs."
+      },
+      {
+        "title": "Catalogs adding ASINs quickly",
+        "description": "Teams that need consistent setup standards before scale."
+      },
+      {
+        "title": "Advertisers on unstable listings",
+        "description": "PPC programs that need live, accurate pages before budget increases."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How catalog work runs",
+    "steps": [
+      {
+        "title": "Audit",
+        "description": "Inventory ASINs, suppressions, variations, and attribute quality."
+      },
+      {
+        "title": "Prioritize",
+        "description": "Order fixes by revenue impact and ad-supported ASINs."
+      },
+      {
+        "title": "Correct",
+        "description": "Submit attribute, variation, or flat-file changes through the right path."
+      },
+      {
+        "title": "Monitor",
+        "description": "Confirm listings stay healthy and catch regressions early."
+      }
+    ]
+  },
+  "opsLanes": {
+    "heading": "Issue, fix, and verify",
+    "subheading": "How we clear suppressions, variation breaks, and upload errors on priority ASINs.",
+    "note": "Catalog work is coordinated with PPC and listing updates so spend lands on live, accurate pages. Outcomes depend on Amazon review; we do not guarantee reinstatement timelines.",
+    "lanes": [
+      {
+        "title": "Suppressions",
+        "issue": "ASINs drop from search due to missing images or attributes, restricted wording, wrong category, or detail-page conflicts.",
+        "fix": "Name the trigger, correct through Seller Central or flat file, and attach evidence when a case is required.",
+        "verify": "ASIN returns to search and offer state is sellable—dated after the fix."
+      },
+      {
+        "title": "Variations",
+        "issue": "Parent-child themes disagree, children orphan, or reviews split across separate listings.",
+        "fix": "Rebuild the family against the category-allowed variation theme and reattach child ASINs.",
+        "verify": "Children display under one parent and shopper selection works as expected."
+      },
+      {
+        "title": "Attributes and flat files",
+        "issue": "Bulk upload errors, brand conflicts, or incomplete required fields keep listings from publishing cleanly.",
+        "fix": "Use the category template, correct field-level errors, and standardize data across priority ASINs.",
+        "verify": "Uploads process without blocking errors; flagged fields clear on recheck."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What catalog management covers",
+    "items": [
+      {
+        "title": "Listing health monitoring",
+        "description": "Ongoing review of suppressions, detail-page issues, and catalog warnings."
+      },
+      {
+        "title": "Suppression resolution support",
+        "description": "Cause diagnosis and remediation when listings stop converting or go inactive."
+      },
+      {
+        "title": "Variation family management",
+        "description": "Parent-child setup and cleanup that preserves reviews and shopper clarity."
+      },
+      {
+        "title": "Attribute standardization",
+        "description": "Consistent product data across titles, bullets, and required fields."
+      },
+      {
+        "title": "New ASIN setup support",
+        "description": "Catalog creation workflows for launches and expansions."
+      },
+      {
+        "title": "Catalog quality reporting",
+        "description": "Clear status views so operators know which ASINs need attention."
+      },
+      {
+        "title": "Coordination with PPC and content",
+        "description": "Catalog readiness confirmed before major advertising or listing updates."
+      },
+      {
+        "title": "Seller Central case follow-up",
+        "description": "Support on catalog-related cases when Amazon review is required."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "catalog-health-board",
+      "type": "catalogHealthBoard",
+      "variant": "seller-console",
+      "heading": "ASIN status console",
+      "subheading": "Dark ops view for suppressions, variation blockers, and upload errors.",
+      "urlLabel": "sellercentral · catalog health (illustrative)",
+      "disclaimer": "Illustrative status console for triage planning. Reinstatement timelines depend on Amazon review.",
+      "columns": [
+        "ASIN / family",
+        "Status",
+        "Cause",
+        "Next action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Priority parent A",
+            "Suppressed",
+            "Missing required attributes",
+            "Flat-file correction"
+          ]
+        },
+        {
+          "cells": [
+            "Variation family B",
+            "Split",
+            "Variation theme conflict",
+            "Rebuild parent-child"
+          ]
+        },
+        {
+          "cells": [
+            "High-revenue SKU C",
+            "Detail page error",
+            "Image / category mismatch",
+            "Fix assets + category node"
+          ]
+        },
+        {
+          "cells": [
+            "Launch ASIN D",
+            "Upload error",
+            "Flat-file field mismatch",
+            "Template re-upload"
+          ]
+        },
+        {
+          "cells": [
+            "Bundle / multipack E",
+            "Stranded",
+            "FBA inventory not offerable",
+            "Inventory + offer repair"
+          ]
+        },
+        {
+          "cells": [
+            "Legacy SKU F",
+            "Live",
+            "Duplicate ASIN risk",
+            "Merge / keep primary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalog-browser-proof",
+      "type": "browserProof",
+      "heading": "Account scale that catalog health has to support",
+      "subheading": "Seller Central and Sellerboard captures from growth.ecomgliders.com. Catalog work keeps pages buyable under that traffic.",
+      "images": [
+        {
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
+          "caption": "Two-year ordered product sales window. Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
+          "caption": "Multi-year brand growth snapshot. Source: growth.ecomgliders.com."
+        }
+      ]
+    }
+  ],
+  "results": {
+    "heading": "Results from catalog-linked growth work",
+    "items": [
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog optimization with listing and PPC restructuring moved a home and kitchen brand from stagnant sales to sustained growth.",
+        "href": "/case-study-1/"
+      },
+      {
+        "metric": "7-figure brand in 9 months",
+        "brand": "FocusForm (Office products)",
+        "description": "Scaled from a single ASIN to a multi-product 7-figure brand with catalog expansion and brand defense.",
+        "href": "/case-study-8/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What does Amazon catalog management cover?",
+      "answer": "It covers listing health, suppressions, variation structure, attribute quality, and new ASIN setup so the catalog remains sellable and consistent."
+    },
+    {
+      "question": "Can you fix suppressed listings?",
+      "answer": "Yes. We diagnose common suppression causes and work through remediation steps and Seller Central processes as needed. Outcomes depend on Amazon's review process; we do not guarantee reinstatement."
+    },
+    {
+      "question": "Do you restructure variation families?",
+      "answer": "Yes, when structure harms reviews, discoverability, or shopper clarity. Changes are planned carefully because variation edits can affect ranking signals."
+    },
+    {
+      "question": "How does catalog work support PPC?",
+      "answer": "Advertising performance depends on live, accurate listings. We keep catalog health aligned with campaign priorities and launches."
+    },
+    {
+      "question": "Is catalog management only for large catalogs?",
+      "answer": "No. Smaller catalogs benefit from clean structure and proactive health checks before scaling spend or expanding ASINs."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support catalog work across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How often do you review listing health?",
+      "answer": "Monitoring cadence depends on catalog size and risk. Priority ASINs are reviewed regularly, with deeper audits during launches or issue spikes."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a catalog health review, prioritized remediation plan, then ongoing monitoring."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Keyword and conversion improvements on healthy, accurate listings.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Catalog operations coordinated with advertising and growth planning.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Trademark and Brand Registry",
+      "description": "Brand protection tools that support cleaner catalog control.",
+      "href": "/amazon-trademark-brand-registry/",
+      "icon": "layers"
+    }
+  ],
+  "cta": {
+    "heading": "Request a catalog health review",
+    "subheading": "Share catalog size and the main issue. We reply with prioritized next steps—no obligation.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Catalog Management Services | eCom Gliders",
+    "metaDescription": "Amazon catalog management for suppressions, variations, and attribute quality. Revenue-first remediation coordinated with PPC and listing work. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-catalog-management/",
+    "ogImage": "/images/services/catalog-management-v2.png",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

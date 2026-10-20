@@ -1,0 +1,42 @@
+---
+description: SEO AEO GEO AI SEO LLM SEO technical on-page off-page keyword rules
+alwaysApply: true
+---
+
+# SEO AEO GEO and Search
+
+## Every indexable page requires an SEO record in `docs/seo/SITE-SEO-MAP.md`
+
+Review per page: search intent, primary keyword, secondary keywords, title, meta description, H1, heading hierarchy, internal links, canonical, indexability, robots, sitemap, structured data, image alt text, URL slug, page speed, mobile usability.
+
+## AEO (Answer Engine Optimization)
+
+Direct definitions, concise answers, structured headings, clear entity relationships, genuine FAQs only, authoritative citations, consistent facts.
+
+## GEO (Generative Engine Optimization)
+
+Consistent company identity, clear entity relationships, trustworthy factual statements, machine-readable metadata, explicit service capabilities.
+
+## AI SEO and LLM SEO
+
+Clear answerable sections, explicit terminology, factual claims, supporting evidence, structured data, strong internal linking, concise summary sections. No unnatural keyword repetition.
+
+## On-page SEO
+
+Title, meta description, H1, headings, content alignment, images, schema, canonical, URL, page experience.
+
+## Off-page SEO
+
+Track authoritative backlinks, directories, partner references, citations, branded searches. No spammy link building.
+
+## Competitive keyword research
+
+Record competitor, target page, keyword, intent, ranking opportunity, content gap, differentiation. Do not copy competitor wording.
+
+## Blog migration SEO (critical)
+
+All existing blog URLs must resolve with identical paths on the new site.
+301 redirects only when URL must change, and only after mapping is documented and approved.
+Preserve publish dates, authors, categories, tags, featured images, and meta data.
+
+Use `obsidian/08-SEO/` for detailed per-page audits.

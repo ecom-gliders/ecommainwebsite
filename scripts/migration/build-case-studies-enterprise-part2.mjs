@@ -1,0 +1,825 @@
+export const studiesPart2 = [
+  {
+    slug: "case-study-3",
+    title: "PPC Recovery – Cutting Wasted Ad Spend and Driving Profitable Traffic",
+    client: "VoltTech Accessories",
+    clientDisplayName: "VoltTech Accessories",
+    metric: "32%",
+    metricLabel: "Ad spend reduction",
+    secondaryMetric: "76% → 37%",
+    secondaryMetricLabel: "ACOS",
+    excerpt:
+      "Clean PPC structure cut waste and improved profitability across Amazon US and UK for an electronics accessories brand.",
+    featuredImage: "/images/cases/case-study-3.png",
+    featuredImageAlt: "VoltTech Accessories PPC recovery case study",
+    href: "/case-study-3/",
+    category: "Electronics",
+    service: "PPC",
+    serviceFilter: "PPC",
+    layout: "efficiency",
+    market: "Amazon US + UK",
+    duration: "60 Days",
+    servicesDelivered: ["PPC", "Reporting"],
+    heroSubheadline:
+      "A 60-day PPC rehab rebuilt campaigns with a profit-first structure after overlapping keywords left ACOS at 76%.",
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "VoltTech was bleeding ad spend after outsourcing PPC to a low-cost agency. Campaigns were disorganized with poor targeting and extreme keyword overlap. ACOS averaged 76% and TACoS climbed above 42% despite stagnant organic sales.",
+      ],
+    },
+    keyIssues: [
+      "Over 300 keywords across 17 overlapping campaigns",
+      "46% of spend on search terms with zero conversions",
+      "No negative keywords or proper bid segmentation",
+      "Sponsored Display campaigns cannibalizing branded sales",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Full ad audit and spend forensics",
+          description:
+            "Mapped campaigns by SKU and intent; isolated converting terms from a 180-day search term report.",
+        },
+        {
+          title: "Campaign restructure",
+          description: "Built a three-campaign core per SKU plus defensive branded campaigns.",
+        },
+        {
+          title: "Bid adjustments and reporting",
+          description:
+            "Dayparting, weekend bid cuts, dynamic bidding down-only, and a custom performance dashboard.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Full ad audit and spend forensics",
+        bullets: [
+          "Mapped all campaigns by SKU and keyword intent",
+          "Identified redundant terms consuming 24% of spend",
+          "180-day search term report for converting terms",
+        ],
+      },
+      {
+        title: "Campaign restructure",
+        bullets: [
+          "Exact Match Ranking, Phrase Discovery, and Auto per SKU",
+          "Defensive branded campaigns against competitor conquest",
+        ],
+      },
+      {
+        title: "Bid adjustments and time segmentation",
+        bullets: [
+          "Peak-hour bid boosts (6–10 PM local)",
+          "Weekend bid reductions from historical ROAS",
+          "Dynamic bidding – down only",
+        ],
+      },
+      {
+        title: "PPC reporting system",
+        bullets: [
+          "Weekly ACOS by campaign type",
+          "Organic vs PPC sales split",
+          "Search term performance trends",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "ACOS", value: "76% to 37%" },
+        { label: "TACoS", value: "42% to 24%" },
+        { label: "Monthly ad spend", value: "$4,950 to $3,370 (−32%)" },
+        { label: "Organic sales ratio", value: "43% to 61%" },
+        { label: "CTR across campaigns", value: "0.9% to 1.7%" },
+      ],
+    },
+    beforeAfter: [
+      { label: "ACOS", before: "76%", after: "37%", change: "-51%" },
+      { label: "TACoS", before: "42%", after: "24%", change: "-43%" },
+      { label: "Monthly ad spend", before: "$4,950", after: "$3,370", change: "-32%" },
+      { label: "Organic sales ratio", before: "43%", after: "61%", change: "+42%" },
+      { label: "CTR", before: "0.9%", after: "1.7%", change: "+89%" },
+    ],
+    relatedSlugs: ["case-study-9", "case-study-1", "case-study-8"],
+    quote: {
+      text: "We stopped spending money blindly. This was the first time PPC felt like an investment instead of a burn.",
+      author: "VoltTech Accessories",
+    },
+    seo: {
+      metaTitle:
+        "PPC Recovery – Cutting Wasted Ad Spend and Driving Profitable Traffic | eCom Gliders",
+      metaDescription:
+        "VoltTech Accessories PPC recovery: ACOS 76% to 37%, ad spend down 32%, and stronger organic ratio in 60 days.",
+      canonical: "/case-study-3/",
+      ogImage: "/images/cases/case-study-3.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-4",
+    title: "From Generic to Premium – Full Visual Rebrand That 2X'd Conversion",
+    client: "NIKKETTA",
+    clientDisplayName: "NIKKETTA",
+    metric: "2X",
+    metricLabel: "Higher conversions",
+    secondaryMetric: "11.3% → 22.1%",
+    secondaryMetricLabel: "CVR",
+    excerpt:
+      "Visual rebrand and rich A+ content transformed a basic dog grooming tool into a premium listing that converts.",
+    featuredImage: "/images/cases/case-study-4.png",
+    featuredImageAlt: "NIKKETTA pet grooming visual rebrand case study",
+    href: "/case-study-4/",
+    category: "Pet supplies",
+    service: "Visual Creative",
+    serviceFilter: "Visual Creative",
+    layout: "creative",
+    market: "Amazon US",
+    duration: "45 Days",
+    servicesDelivered: ["Visual Creative", "A+ Content", "Brand Story"],
+    heroSubheadline:
+      "Lifestyle imagery, emotional A+ modules, and a clearer brand story nearly doubled conversion for a pet grooming ASIN.",
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "The client sold a high-quality dog grooming tool, but main images were generic, A+ content was templated, and the listing lacked emotional pull. Despite a 4.6-star average, conversion hovered at 11.3% and sessions were dropping.",
+      ],
+    },
+    keyIssues: [
+      "Generic visuals undermining product quality",
+      "Lack of emotional connection with pet owners",
+      "Templated A+ content",
+      "Low conversion despite strong reviews",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Visual repositioning",
+          description:
+            "Replaced white-background photos with lifestyle imagery and benefit overlays for premium buyers.",
+        },
+        {
+          title: "A+ content redesign",
+          description:
+            "Feel-first layout with testimonials, compare modules, and cleaner infographics.",
+        },
+        {
+          title: "Brand story build-out",
+          description:
+            "HQ and team-pet storytelling plus a mini product-use video in Brand Story.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Visual repositioning",
+        bullets: [
+          "Lifestyle imagery with real dogs and owners",
+          "Product-in-hand context on main images",
+          "Icon overlays for key benefits",
+        ],
+      },
+      {
+        title: "A+ content redesign",
+        bullets: [
+          "Feel-first layout with pet-owner testimonials",
+          "Compare With Other Brands module",
+          "Infographics to reduce clutter",
+        ],
+      },
+      {
+        title: "Brand story build-out",
+        bullets: [
+          "HQ and team-pet brand story imagery",
+          "Mini product-use video in Brand Story carousel",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Conversion rate", value: "11.3% to 22.1%" },
+        { label: "Hero image CTR", value: "0.9% to 1.6%" },
+        { label: "Return rate", value: "6.2% to 3.4%" },
+        { label: "Average reviews per ASIN", value: "244 to 388" },
+      ],
+    },
+    beforeAfter: [
+      { label: "Conversion rate", before: "11.3%", after: "22.1%", change: "+96%" },
+      { label: "Hero image CTR", before: "0.9%", after: "1.6%", change: "+78%" },
+      { label: "Return rate", before: "6.2%", after: "3.4%", change: "-45%" },
+    ],
+    relatedSlugs: ["case-study-7", "case-study-1", "case-study-9"],
+    quote: {
+      text: "We always had the quality. But now our brand looks like it deserves its spot at the top.",
+      author: "NIKKETTA",
+    },
+    seo: {
+      metaTitle: "From Generic to Premium – Full Visual Rebrand That 2X'd Conversion | eCom Gliders",
+      metaDescription:
+        "NIKKETTA pet grooming case study: conversion 11.3% to 22.1% through visual rebrand and A+ redesign.",
+      canonical: "/case-study-4/",
+      ogImage: "/images/cases/case-study-4.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-5",
+    title: "Turning Delayed Inventory into a Seasonal Sell-Out",
+    client: "FOCUS DESIGN",
+    clientDisplayName: "FOCUS DESIGN",
+    metric: "1,038",
+    metricLabel: "Units in 17 days",
+    secondaryMetric: "30 days",
+    secondaryMetricLabel: "Engagement",
+    excerpt:
+      "From delayed inventory to sell-out success through compressed seasonal targeting, coupons, and UGC-led PPC.",
+    featuredImage: "/images/cases/case-study-5.png",
+    featuredImageAlt: "FOCUS DESIGN seasonal sell-out case study",
+    href: "/case-study-5/",
+    category: "Travel accessories",
+    service: "Product Launch",
+    serviceFilter: "Product Launch",
+    layout: "launch",
+    market: "Amazon CA",
+    duration: "30 Days",
+    servicesDelivered: ["Product Launch", "PPC", "Visual Creative"],
+    heroSubheadline:
+      "A time-sensitive launch compression strategy salvaged a late summer-travel backpack arrival on Amazon CA.",
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "FOCUS DESIGN missed their Q2 launch window due to supply chain delays. Inventory for foldable backpacks arrived on June 26 — past peak planning — with high risk of underperformance and storage fees.",
+      ],
+    },
+    keyIssues: [
+      "Late inventory arrival",
+      "No pre-launch hype or audience readiness",
+      "Missed organic ranking opportunity",
+      "Underutilized product page engagement tools",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Waitlist-driven launch build-up",
+          description:
+            "Shopify waitlist, Meta ads to Canadian travel communities, and a four-part email sequence before go-live.",
+        },
+        {
+          title: "In-platform promotion stack",
+          description:
+            "Time-boxed coupons, Lightning Deal, and seven-day launch PPC with boosted branded and competitor ASIN bids.",
+        },
+        {
+          title: "Lifestyle UGC integration",
+          description:
+            "Influencer-style UGC for Sponsored Brand Video, image slots, and storefront banners.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Waitlist-driven launch build-up",
+        bullets: [
+          "Shopify waitlist landing page with pixel tracking",
+          "$15/day Meta ads targeting Canadian travel communities",
+          "Four-part email sequence to pre-save the Amazon listing",
+        ],
+      },
+      {
+        title: "In-platform promotion stack",
+        bullets: [
+          "Amazon Coupons with seven-day urgency",
+          "Lightning Deal on day 6",
+          "Seven-day launch PPC with boosted branded and competitor bids",
+        ],
+      },
+      {
+        title: "Lifestyle UGC integration",
+        bullets: [
+          "Five influencer-style UGC videos",
+          "Sponsored Brand Video campaigns",
+          "Image slots and storefront banner modules",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Units sold", value: "1,038" },
+        { label: "Inventory depletion time", value: "17 days" },
+        { label: "Average sale price", value: "$28.90" },
+        { label: "CTR on video ads", value: "2.4%" },
+        { label: "Refund rate", value: "1.1%" },
+      ],
+    },
+    beforeAfter: [
+      { label: "Units sold", before: "0 (late arrival)", after: "1,038" },
+      { label: "Inventory status", before: "At risk", after: "Sold out in 17 days" },
+    ],
+    relatedSlugs: ["case-study-2", "case-study-9", "case-study-4"],
+    quote: {
+      text: "We were late—but we still won the season. That timing strategy saved our quarter.",
+      author: "FOCUS DESIGN",
+    },
+    seo: {
+      metaTitle: "Turning Delayed Inventory into a Seasonal Sell-Out | eCom Gliders",
+      metaDescription:
+        "FOCUS DESIGN Amazon CA case study: 1,038 units sold in 17 days after a delayed seasonal inventory arrival.",
+      canonical: "/case-study-5/",
+      ogImage: "/images/cases/case-study-5.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-6",
+    title: "Localized EU Expansion – €18.4K Launch Revenue Across DE, FR, and IT",
+    client: "TIME TIMER",
+    clientDisplayName: "TIME TIMER",
+    metric: "€18,450",
+    metricLabel: "EU launch revenue",
+    secondaryMetric: "4.8x",
+    secondaryMetricLabel: "Average ROAS",
+    excerpt:
+      "Localized listings and country-specific PPC unlocked growth across Amazon DE, FR, and IT.",
+    featuredImage: "/images/cases/case-study-6.png",
+    featuredImageAlt: "TIME TIMER EU expansion case study",
+    href: "/case-study-6/",
+    category: "Sustainable home products",
+    service: "International",
+    serviceFilter: "International",
+    layout: "expansion",
+    market: "Amazon DE, FR, IT",
+    duration: "60 Days",
+    servicesDelivered: ["International Expansion", "Listing Localization", "PPC"],
+    heroSubheadline:
+      "A local-first expansion strategy replaced automated translations and unlocked real EU traction.",
+    background: {
+      heading: "Background",
+      paragraphs: [
+        "The brand had strong US sales but was unoptimized for Europe. Automated translations, weak indexing, and no localization left DE and FR sales near $300 per month.",
+      ],
+    },
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "European listings relied on automated translations with poor keyword indexing and no localization strategy. Regional PPC underperformed and brand positioning felt imported rather than native.",
+      ],
+    },
+    keyIssues: [
+      "Poor localization of listings",
+      "Low organic visibility in EU markets",
+      "Underperforming regional PPC campaigns",
+      "Weak market traction and brand positioning",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Listing localization (not translation)",
+          description:
+            "Native EU copywriters rewrote listings with country-specific phrasing, benefits, and compliance tags.",
+        },
+        {
+          title: "Localized keyword and A+ optimization",
+          description:
+            "Separate keyword research per market with localized A+ tables and lifestyle assets.",
+        },
+        {
+          title: "Country-specific PPC and storefronts",
+          description:
+            "Replaced Pan-EU auto with market campaigns and localized storefront subpages.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Listing localization",
+        bullets: [
+          "Native copywriters for DE, FR, and IT",
+          "Regional buyer-behavior research",
+          "EU standards and CE compliance tags",
+        ],
+      },
+      {
+        title: "Localized keyword and backend optimization",
+        bullets: [
+          "Separate keyword research per market",
+          "Localized A+ comparison tables and lifestyle assets",
+        ],
+      },
+      {
+        title: "EU PPC campaigns",
+        bullets: [
+          "Country-specific campaigns instead of Pan-EU auto",
+          "Non-English keyword targeting",
+          "Localized storefront subpages",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Total EU revenue", value: "€18,450" },
+        { label: "Page 1 keywords (DE)", value: "22" },
+        { label: "Conversion rate (DE)", value: "14.2%" },
+        { label: "Average ROAS (EU)", value: "4.8x" },
+        { label: "Return rate", value: "<2%" },
+      ],
+    },
+    beforeAfter: [
+      { label: "DE/FR monthly sales", before: "~$300", after: "€18,450 (60 days EU)" },
+      { label: "Page 1 keywords (DE)", before: "Low", after: "22" },
+    ],
+    relatedSlugs: ["case-study-8", "case-study-1", "case-study-9"],
+    quote: {
+      text: "It stopped feeling like we were ‘testing’ the EU market—now it’s a real growth channel.",
+      author: "TIME TIMER",
+    },
+    seo: {
+      metaTitle:
+        "Localized EU Expansion – €18.4K Launch Revenue Across DE, FR, and IT | eCom Gliders",
+      metaDescription:
+        "TIME TIMER EU case study: €18,450 revenue, 22 page-1 DE keywords, and 4.8x ROAS across Amazon DE, FR, and IT.",
+      canonical: "/case-study-6/",
+      ogImage: "/images/cases/case-study-6.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-7",
+    title: "Listing Optimization That Tripled Conversion in a Competitive Niche",
+    client: "Safefine",
+    clientDisplayName: "Safefine",
+    metric: "28.9%",
+    metricLabel: "Conversion rate",
+    secondaryMetric: "10.1% → 28.9%",
+    secondaryMetricLabel: "CVR lift",
+    excerpt:
+      "Listing makeover with emotional visuals and review trust signals turned organic traffic into sales.",
+    featuredImage: "/images/cases/case-study-7.png",
+    featuredImageAlt: "Safefine beauty listing optimization case study",
+    href: "/case-study-7/",
+    category: "Beauty and skincare",
+    service: "Listing Optimization",
+    serviceFilter: "Listing Optimization",
+    layout: "creative",
+    market: "Amazon US",
+    duration: "45 Days",
+    servicesDelivered: ["Listing Optimization", "Visual Creative", "A+ Content"],
+    heroSubheadline:
+      "A psychology-first CRO redesign lifted conversion from 10.1% to 28.9% without changing the formula.",
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "Safefine sold a facial serum priced at $23.90 while competitors offered similar-looking products near $16. The listing lacked trust cues, visuals felt overly clinical, and conversion sat at 10.1% despite 4.5-star reviews and 400–500 organic sessions per day.",
+      ],
+    },
+    keyIssues: [
+      "Low conversion rate despite product quality",
+      "Uninspiring or generic visual content",
+      "Weak copy that did not address buyer concerns",
+      "Underutilized social proof",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Image stack revamp",
+          description:
+            "Luxury lighting, clinical proof badges, before-after stories, and texture close-ups.",
+        },
+        {
+          title: "Listing copy rewrite",
+          description:
+            "Benefit-first bullets, competitor VOC language, and FAQ objection handling.",
+        },
+        {
+          title: "Review and content layering",
+          description:
+            "Micro-influencer video in the image stack, review pull quotes, and a branded insert.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Image stack revamp",
+        bullets: [
+          "Luxury hero lighting on amber bottle",
+          "Clinically tested badge and lab graphic",
+          "Before-after visual stories and texture close-ups",
+        ],
+      },
+      {
+        title: "Listing copy rewrite",
+        bullets: [
+          "Benefit-to-feature bullet format",
+          "Buyer language from competitor reviews",
+          "FAQ objection handling",
+        ],
+      },
+      {
+        title: "Review enhancement and content layering",
+        bullets: [
+          "Micro-influencer video in image stack",
+          "Graphic overlays for strongest reviews",
+          "Seven-Day Glow Guide insert",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Conversion rate", value: "10.1% to 28.9% (+186%)" },
+        { label: "Hero image CTR", value: "0.8% to 2.1%" },
+        { label: "Daily unit sales", value: "49 to 114 avg." },
+        { label: "Amazon Choice", value: "Achieved in 3 weeks" },
+      ],
+    },
+    beforeAfter: [
+      { label: "Conversion rate", before: "10.1%", after: "28.9%", change: "+186%" },
+      { label: "Hero image CTR", before: "0.8%", after: "2.1%", change: "+162%" },
+      { label: "Daily unit sales", before: "49", after: "114", change: "+132%" },
+    ],
+    relatedSlugs: ["case-study-4", "case-study-1", "case-study-2"],
+    quote: {
+      text: "We didn’t change the formula, just the story. The results speak for themselves.",
+      author: "Safefine",
+    },
+    seo: {
+      metaTitle:
+        "Listing Optimization That Tripled Conversion in a Competitive Niche | eCom Gliders",
+      metaDescription:
+        "Safefine beauty case study: conversion 10.1% to 28.9% through listing CRO, visuals, and social proof.",
+      canonical: "/case-study-7/",
+      ogImage: "/images/cases/case-study-7.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-8",
+    title: "Scaling From 1 Product to a 7-Figure Brand in 9 Months",
+    client: "FocusForm",
+    clientDisplayName: "FocusForm",
+    metric: "$118K",
+    metricLabel: "Monthly revenue",
+    secondaryMetric: "1 → 7",
+    secondaryMetricLabel: "SKUs",
+    excerpt:
+      "Smart bundling and storefront expansion grew a solo productivity planner into a full brand ecosystem.",
+    featuredImage: "/images/cases/case-study-8.png",
+    featuredImageAlt: "FocusForm brand expansion case study",
+    href: "/case-study-8/",
+    category: "Office and productivity",
+    service: "Account Management",
+    serviceFilter: "Account Management",
+    layout: "expansion",
+    market: "Amazon US",
+    duration: "9 Months",
+    servicesDelivered: ["Account Management", "Catalog Expansion", "Brand Store", "PPC"],
+    heroSubheadline:
+      "A three-phase brand expansion roadmap moved FocusForm from a single ASIN to a multi-SKU category presence.",
+    background: {
+      heading: "Background",
+      paragraphs: [
+        "FocusForm launched with a single productivity planner ASIN. It converted at 18% but relied on one SKU with no storefront and no cross-sell strategy.",
+      ],
+    },
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "The brand wanted to scale into a full catalog without losing quality or brand voice. Over-reliance on one product capped growth and retention.",
+      ],
+    },
+    keyIssues: [
+      "Over-reliance on a single product",
+      "No upsell or cross-sell strategy",
+      "Lack of brand ecosystem or identity",
+      "Missed retention opportunities",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Product expansion plan",
+          description:
+            "Identified natural extensions with low MOQ and forecasted demand before launching new ASINs.",
+        },
+        {
+          title: "Storefront and brand ecosystem",
+          description:
+            "Four-theme Amazon Storefront with Sponsored Brands linked to each sub-page.",
+        },
+        {
+          title: "Bundling and retention",
+          description:
+            "FBA bundles, Subscribe and Save, and QR-linked bonus templates for repeat purchase.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Product expansion plan",
+        bullets: [
+          "Extensions: to-do pads, sticky notes, digital PDFs, desk organizers",
+          "Prioritized low MOQ, high perceived-value SKUs",
+          "Demand forecasting from Amazon and external marketplaces",
+        ],
+      },
+      {
+        title: "Storefront and brand ecosystem",
+        bullets: [
+          "Four storefront sub-pages by use case",
+          "Sponsored Brand Ads to each theme",
+          "Cross-SKU promotional banners",
+        ],
+      },
+      {
+        title: "Bundling and customer retention",
+        bullets: [
+          "FBA bundles (planner + pen set or stickers)",
+          "Subscribe and Save for dated planners",
+          "QR inserts to bonus productivity templates",
+        ],
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Total SKUs", value: "1 to 7" },
+        { label: "Monthly revenue", value: "$19K to $118K (+521%)" },
+        { label: "Repeat purchase rate", value: "11.4% to 33.6%" },
+        { label: "Conversion rate", value: "18% to 24.7% avg." },
+        { label: "Brand Store CVR", value: "6.2% to 12.3%" },
+      ],
+    },
+    beforeAfter: [
+      { label: "Total SKUs", before: "1", after: "7", change: "+600%" },
+      { label: "Monthly revenue", before: "$19K", after: "$118K", change: "+521%" },
+      { label: "Repeat purchase rate", before: "11.4%", after: "33.6%", change: "+194%" },
+      { label: "Brand Store CVR", before: "6.2%", after: "12.3%", change: "+98%" },
+    ],
+    relatedSlugs: ["case-study-6", "case-study-1", "case-study-9"],
+    quote: {
+      text: "We grew past a single bestseller. Now we’re building something sustainable, with real brand equity.",
+      author: "FocusForm",
+    },
+    seo: {
+      metaTitle: "Scaling From 1 Product to a 7-Figure Brand in 9 Months | eCom Gliders",
+      metaDescription:
+        "FocusForm case study: monthly revenue $19K to $118K and catalog growth from 1 to 7 SKUs in nine months.",
+      canonical: "/case-study-8/",
+      ogImage: "/images/cases/case-study-8.png",
+      schema: "Article",
+    },
+  },
+  {
+    slug: "case-study-9",
+    title: "From Backyard Game to Brand Powerhouse – 310% Growth for GoSports Cornhole",
+    client: "GoSports",
+    clientDisplayName: "GoSports",
+    metric: "310%",
+    metricLabel: "Sales increase",
+    secondaryMetric: "90 days",
+    secondaryMetricLabel: "Engagement",
+    excerpt:
+      "Strategic listing optimization, data-driven advertising, and improved brand positioning delivered a 310% increase in Amazon sales.",
+    featuredImage: "/images/cases/gosports.png",
+    featuredImageAlt: "GoSports cornhole brand case study",
+    href: "/case-study-9/",
+    category: "Sports and outdoor",
+    service: "PPC + Account Management",
+    serviceFilter: "PPC",
+    layout: "flagship",
+    featured: true,
+    market: "Amazon US",
+    duration: "90 Days",
+    servicesDelivered: [
+      "PPC",
+      "Account Management",
+      "Listing Optimization",
+      "Visual Creative",
+      "International",
+    ],
+    heroSubheadline:
+      "Strategic listing optimization, data-driven advertising, and improved brand positioning delivered a 310% increase in Amazon sales.",
+    challenge: {
+      heading: "The challenge",
+      paragraphs: [
+        "GoSports was selling a well-made but visually basic cornhole board set. Despite quality construction (regulation size, all-weather wood), sales were stagnant in a crowded seasonal category.",
+      ],
+    },
+    keyIssues: [
+      "CVR at just 9.8%, especially weak during peak summer sales",
+      "Average listing copy and visuals",
+      "Price competition with low-quality sellers",
+      "Poor ad performance (ACOS 52%)",
+      "No real brand story or social proof",
+    ],
+    solution: {
+      heading: "Our approach",
+      steps: [
+        {
+          title: "Visual identity upgrade",
+          description:
+            "Lifestyle imagery, product detail shots, and A+ content repositioned the listing from commodity to premium backyard experience.",
+        },
+        {
+          title: "Listing optimization",
+          description:
+            "Benefit-first copy, objection-handling bullets, and review-driven overlays improved click-through and conversion.",
+        },
+        {
+          title: "PPC restructure and seasonal scaling",
+          description:
+            "Segmented keywords by utility, gift intent, and competitor conquest with tiered seasonal budgets.",
+        },
+        {
+          title: "Post-purchase social proof",
+          description:
+            "Insert cards, UGC campaigns, and automated review follow-up built 237 new reviews in 45 days.",
+        },
+      ],
+    },
+    strategyStages: [
+      {
+        title: "Visual identity upgrade and differentiation",
+        bullets: [
+          "Lifestyle shots for families, tailgates, and barbecues",
+          "Detail shots for wood grain, edges, and carry handles",
+          "A+ comparisons, How to Play modules, and motion embeds",
+          "Brand tagline: Game On. Anywhere.",
+        ],
+        outcome: "Image CTR 1.1% to 3.6%; time on listing +44 seconds.",
+      },
+      {
+        title: "Listing optimization and enhanced copy",
+        bullets: [
+          "Benefit-first messaging",
+          "Objection-handling bullets for weight, portability, durability",
+          "FAQ and review overlays in main images",
+        ],
+        outcome: "CVR to 26.7%; return rate −28%; AOV $114.70 with bag upsells.",
+      },
+      {
+        title: "PPC restructure and seasonal scaling",
+        bullets: [
+          "Seasonally tiered ad strategy",
+          "Utility, gift-intent, and event-based keyword segments",
+          "UGC video ads and Sponsored Brands to Brand Store",
+        ],
+        outcome: "ACOS 26.5%; TACoS 13.7%; July 4th weekend 412 units in 3 days.",
+      },
+      {
+        title: "Canadian market expansion",
+        bullets: [
+          "Amazon.ca launch with localized pricing and keywords",
+          "Weatherproof angle and bilingual bullets for Quebec",
+          "Prime-eligible fulfillment via NARF",
+        ],
+        outcome: "$9.4K Canada revenue in 30 days; 12.3% CVR; ROAS 4.2x.",
+      },
+      {
+        title: "Post-purchase experience and social proof",
+        bullets: [
+          "Insert card with backyard game ideas PDF",
+          "UGC contest on Instagram",
+          "Automated review and photo follow-up",
+        ],
+        outcome: "237 new reviews in 45 days; 83 UGC entries; branded search +19% MoM.",
+      },
+    ],
+    results: {
+      heading: "Results",
+      metrics: [
+        { label: "Monthly revenue", value: "$22.1K to $90.7K (+310%)" },
+        { label: "Conversion rate", value: "9.8% to 26.7%" },
+        { label: "ACOS", value: "52% to 26.5%" },
+        { label: "TACoS", value: "21% to 13.7%" },
+        { label: "Branded traffic", value: "8% to 24%" },
+        { label: "Canada revenue (30 days)", value: "$9.4K" },
+      ],
+    },
+    beforeAfter: [
+      { label: "Monthly revenue", before: "$22.1K", after: "$90.7K", change: "+310%" },
+      { label: "Conversion rate", before: "9.8%", after: "26.7%" },
+      { label: "ACOS", before: "52%", after: "26.5%" },
+      { label: "TACoS", before: "21%", after: "13.7%" },
+      { label: "Branded traffic", before: "8%", after: "24%" },
+    ],
+    relatedSlugs: ["case-study-3", "case-study-1", "case-study-5"],
+    seo: {
+      metaTitle:
+        "From Backyard Game to Brand Powerhouse – 310% Growth for GoSports Cornhole | eCom Gliders",
+      metaDescription:
+        "GoSports case study: 310% sales growth, CVR 9.8% to 26.7%, and ACOS 52% to 26.5% in 90 days.",
+      canonical: "/case-study-9/",
+      ogImage: "/images/cases/gosports.png",
+      schema: "Article",
+    },
+  },
+];

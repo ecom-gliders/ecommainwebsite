@@ -1,0 +1,14 @@
+{
+  "target": {
+    "id": "blog",
+    "path": "/when-should-you-use-sponsored-display-ads/",
+    "name": "Blog post"
+  },
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "violations": []
+}

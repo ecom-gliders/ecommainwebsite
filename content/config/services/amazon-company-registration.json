@@ -1,0 +1,405 @@
+{
+  "slug": "amazon-company-registration",
+  "breadcrumbLabel": "Company Registration",
+  "layout": "entity-setup",
+  "hero": {
+    "title": "US company registration support for Amazon sellers",
+    "subtitle": "US entity formation guidance tied to Seller Central readiness and Brand Registry planning. Not legal or tax advice.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request company registration support",
+      "subheading": "Share your seller situation so we can outline a US entity path tied to Amazon next steps.",
+      "submitLabel": "Request registration help",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "sellerLocation",
+          "label": "Current seller location",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "us",
+              "label": "United States"
+            },
+            {
+              "value": "non-us",
+              "label": "Outside the United States"
+            },
+            {
+              "value": "planning",
+              "label": "Planning to sell on Amazon"
+            }
+          ]
+        },
+        {
+          "name": "entityGoal",
+          "label": "Entity goal",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "llc",
+              "label": "Form a US LLC"
+            },
+            {
+              "value": "corporation",
+              "label": "Form a corporation"
+            },
+            {
+              "value": "unsure",
+              "label": "Need guidance on entity type"
+            }
+          ]
+        },
+        {
+          "name": "amazonIntent",
+          "label": "Amazon intent",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "new-account",
+              "label": "New Seller Central account"
+            },
+            {
+              "value": "brand-registry",
+              "label": "Brand Registry readiness"
+            },
+            {
+              "value": "both",
+              "label": "Account + Brand Registry path"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-company-registration-service.jpg",
+      "alt": "Company Registration service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why US company setup stalls sellers",
+    "points": [
+      {
+        "title": "Fragmented steps",
+        "description": "Formation, tax ID, banking, and Amazon verification are connected but often explained separately."
+      },
+      {
+        "title": "Document gaps",
+        "description": "Missing identity, address, or entity records delay Seller Central readiness."
+      },
+      {
+        "title": "No Amazon handoff",
+        "description": "Paperwork finishes without a plan for Brand Registry and growth work."
+      },
+      {
+        "title": "Unclear professional boundaries",
+        "description": "Sellers need process guidance without mistaking an agency for a law or tax firm."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Sellers preparing a US entity",
+        "description": "Founders who need a clear sequence before Seller Central and brand setup."
+      },
+      {
+        "title": "International sellers building US readiness",
+        "description": "Operators planning formation alongside verification and payout preparation."
+      },
+      {
+        "title": "Brands sequencing entity before Brand Registry",
+        "description": "Teams aligning ownership details before trademark enrollment work."
+      },
+      {
+        "title": "Accounts ready for agency-led growth",
+        "description": "Sellers who want formation handed into catalog, content, and advertising work."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How company registration support runs",
+    "steps": [
+      {
+        "title": "Needs assessment",
+        "description": "Review selling goals and whether a US entity is relevant."
+      },
+      {
+        "title": "Formation pathway guidance",
+        "description": "Outline entity steps and document requirements for sellers."
+      },
+      {
+        "title": "Documentation support",
+        "description": "Organize information for formation and common follow-ups."
+      },
+      {
+        "title": "Amazon readiness handoff",
+        "description": "Connect completed setup to Seller Central and Brand Registry planning."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What company registration support covers",
+    "items": [
+      {
+        "title": "Entity setup guidance",
+        "description": "Direction on US company registration steps relevant to Amazon sellers."
+      },
+      {
+        "title": "Document checklist",
+        "description": "Practical list of information commonly required during formation and verification prep."
+      },
+      {
+        "title": "Process coordination support",
+        "description": "Help keeping filing steps, follow-ups, and ownership details organized."
+      },
+      {
+        "title": "Amazon account readiness review",
+        "description": "Checks that company details align with Seller Central and brand needs."
+      },
+      {
+        "title": "Brand Registry pathway planning",
+        "description": "Next-step planning for trademark and Brand Registry after entity foundations."
+      },
+      {
+        "title": "Operational handoff notes",
+        "description": "Documentation of completed steps for your team and agency partners."
+      },
+      {
+        "title": "Ongoing question support during setup",
+        "description": "Guidance through common blockers while registration is in progress."
+      },
+      {
+        "title": "Growth service sequencing",
+        "description": "Recommended order for catalog, content, and advertising work after entity readiness."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "entity-doc-board",
+      "type": "catalogHealthBoard",
+      "heading": "Document readiness board",
+      "subheading": "Typical gates sellers organize before Amazon verification—requirements vary by location and Amazon review.",
+      "urlLabel": "entity.ecomgliders.com/docs",
+      "boardLabel": "Document packet",
+      "disclaimer": "Planning checklist only. Not legal or tax advice. Formation and Amazon verification outcomes vary.",
+      "columns": [
+        "Gate",
+        "What it covers",
+        "Common inputs",
+        "Status to aim for"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Entity formation",
+            "State registration packet",
+            "Entity type, state, ownership names",
+            "Articles filed / received"
+          ]
+        },
+        {
+          "cells": [
+            "Tax ID / EIN",
+            "Federal tax identification",
+            "Responsible party details",
+            "EIN letter available"
+          ]
+        },
+        {
+          "cells": [
+            "Identity",
+            "Individual verification",
+            "Government-issued photo ID",
+            "Clear scan ready"
+          ]
+        },
+        {
+          "cells": [
+            "Business address",
+            "Contactable business location",
+            "Physical address and phone",
+            "Matches formation records"
+          ]
+        },
+        {
+          "cells": [
+            "Banking / payout",
+            "Seller Central deposit readiness",
+            "US bank details when required",
+            "Account can receive payouts"
+          ]
+        }
+      ],
+      "variant": "sheet"
+    },
+    {
+      "id": "amazon-handoff-board",
+      "type": "brandPathwayBoard",
+      "heading": "Amazon handoff after entity foundations",
+      "subheading": "How formation connects to Amazon selling readiness.",
+      "urlLabel": "entity.ecomgliders.com/handoff",
+      "disclaimer": "Amazon decides verification independently. Legal or tax advice comes from qualified professionals when required.",
+      "stages": [
+        {
+          "label": "Entity ready",
+          "detail": "Formation records and ownership details are consistent and documented.",
+          "state": "done"
+        },
+        {
+          "label": "Seller Central prep",
+          "detail": "Business name, address, tax, and identity inputs aligned for account registration or updates.",
+          "state": "current"
+        },
+        {
+          "label": "Brand Registry path",
+          "detail": "When relevant, plan trademark readiness after ownership details are stable.",
+          "state": "upcoming"
+        },
+        {
+          "label": "Growth services",
+          "detail": "Sequence catalog, content, and advertising once account foundations are sellable.",
+          "state": "upcoming"
+        }
+      ],
+      "variant": "stamp"
+    }
+  ],
+  "results": {
+    "heading": "Results from foundation-ready Amazon growth work",
+    "items": [
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and PPC work after operational foundations were in place. Not a claim that company filing alone caused the result.",
+        "href": "/case-study-1/"
+      },
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing, creative, and advertising execution grew monthly revenue from $22.1K to $90.7K with clear brand and account foundations.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Who is this service for?",
+      "answer": "It is for Amazon sellers who need structured guidance setting up a US business entity as part of selling and brand operations readiness."
+    },
+    {
+      "question": "Do you provide legal or tax advice?",
+      "answer": "No. We provide process guidance for sellers. Formal legal, tax, banking, or immigration advice should come from qualified professionals when your situation requires it."
+    },
+    {
+      "question": "How does company registration relate to Amazon selling?",
+      "answer": "Entity and documentation readiness can affect account setup, banking, and brand-building timelines. We connect formation work to Amazon next steps such as Brand Registry planning and growth services."
+    },
+    {
+      "question": "Can you help after the company is formed?",
+      "answer": "Yes. We support handoff into Amazon account readiness, Brand Registry planning, and growth services when those are in scope."
+    },
+    {
+      "question": "How long does company registration take?",
+      "answer": "Timelines vary by state, entity type, document completeness, and third-party review. We outline expected stages during the free audit and do not guarantee formation or Amazon verification timelines."
+    },
+    {
+      "question": "Is a US company required for every Amazon seller?",
+      "answer": "Not every seller needs the same structure. We assess whether US entity setup is relevant to your goals before recommending next steps."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support after setup?",
+      "answer": "After entity foundations are ready, we can support Amazon selling work across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Company registration guidance on this page is US-entity focused; marketplace scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a needs assessment, formation pathway plan, then Amazon readiness handoff."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Trademark and Brand Registry",
+      "description": "USPTO and Brand Registry support after entity foundations are ready.",
+      "href": "/amazon-trademark-brand-registry/",
+      "icon": "layers"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Amazon growth oversight once operational foundations are in place.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Product Sourcing",
+      "description": "Supplier research for new ASINs as your selling operation scales.",
+      "href": "/amazon-product-sourcing/",
+      "icon": "search"
+    }
+  ],
+  "cta": {
+    "heading": "Request US entity readiness guidance",
+    "subheading": "Share your seller situation. We outline formation stages and Amazon handoff.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "US Company Registration for Amazon Sellers | eCom Gliders",
+    "metaDescription": "US company registration support for Amazon sellers, with document readiness guidance and handoff into Brand Registry and account growth. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-company-registration/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

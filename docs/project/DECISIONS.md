@@ -1,0 +1,389 @@
+# Decisions Log
+
+Record material project decisions here.
+
+## Template
+
+```
+Date: YYYY-MM-DD
+Decision: What was decided
+Context: Why it was needed
+Options: A, B, C
+Chosen: Selected option
+Why: Rationale with evidence
+Tradeoffs: What becomes harder
+Impact: What needs updating
+```
+
+---
+
+## 2026-10-17 — Service graphics P0 + body layouts + early visuals
+
+**WHAT:** Fix broken InfographicSpotlight (quality allowlist); ContainedMedia spotlight variant; distinct body section layouts; split earlyVisuals / lateOps; second niche diagrams on dry ops; teaching diagrams on mid paid pages.
+
+**WHY:** Staging showed q=90 spotlights returning 400 (blur-only); Problem≡Solution geometry; all graphics late after Differ so mid-narrative felt empty.
+
+**OPTIONS:** (A) Expand qualities allowlist to 90 (B) Clamp to 85 + no-blur spotlight + body grammars + early modules (C) Per-point image schema
+
+**CHOSEN:** B — quality 85; Wave D grammars; early visual modules after Solution; Wave A/B AI teaching diagrams with honest captions.
+
+**TRADEOFFS:** Results thumbs deferred; listing/video stay at module cap 4 (D2 split only).
+
+**IMPACT:** ContainedMedia, InfographicSpotlight, service template/sections, 10 service JSONs + art, SERVICE-LAYOUT-RECIPES.
+
+---
+
+## 2026-10-16 — Services niche visual density (spotlight + unfilter)
+
+**WHAT:** Unfilter process/checklist modules; always render `stats` strip; add `infographicSpotlight` and hero atmosphere; thicken metricChart; migrate dry single-diagram services out of 33vw gallery stamps.
+
+**WHY:** Case studies felt rich while services felt empty despite dense JSON/art — root cause was renderer filter + ProofGalleryGrid desktop stamps, not missing diagrams.
+
+**OPTIONS:** (A) Generate new art for all dry pages (B) Fix presentation scale + unlock existing modules (C) Copy competitor logo walls
+
+**CHOSEN:** B — spotlight existing enterprise infographics; niche stats only from Verified case/growth captions; atmosphere from unused hub assets.
+
+**TRADEOFFS:** Shared agency stats remain on ops pages; comparison tables still hidden when Differ exists.
+
+**IMPACT:** `service-page.schema.ts`, all 15 service JSONs, service template/modules/hero, `SERVICE-LAYOUT-RECIPES.md`.
+
+---
+
+## 2026-10-15 — Case studies as layout-variant proof product
+
+**WHAT:** Extend case-study schema and rebuild hub/detail UI with layout variants; reconcile JSON to live ecomgliders.com narratives and hard metrics; mirror featured images locally.
+
+**WHY:** Staging JSON was templated and anonymized while live pages already had enterprise-depth content; soft chrome on stub bodies looked untrustworthy.
+
+**HOW:** `layout` enum + structured fields (`keyIssues`, `strategyStages`, `beforeAfter`, meta); hub featured + PO hard cards; flagship sticky KPI; Free Audit CTA; preserve `/case-study-N/`.
+
+**EVIDENCE:** Live hub/detail Playwright/fetch 2026-10-15; Zod 9/9; localhost + Vercel staging alias verified.
+
+**RISK:** Trademark display of named brands Assumes continued authorization from live site publication.
+
+**VALIDATION:** VERIFICATION-LOG 2026-10-15 case studies enterprise entry; https://ecom-gliders.vercel.app/case-studies/
+
+---
+
+## 2026-10-15 — Homepage video reviews as Favrick-style reels
+
+**WHAT:** Add `videoReviews` homepage section — portrait reel strip with remote Vumbnail posters; click opens Radix lightbox with Vimeo iframe + pager. Keep text `testimonials`.
+
+**WHY:** Favrick-style social proof; reuse owned Vimeo IDs from live site without inline autoplay (Vimeo privacy blocks background loops).
+
+**HOW:** Content JSON + Zod enum; `VideoReviewsSection` + `VideoPreviewDialog`; place after `case-studies` before testimonials in page flow.
+
+**EVIDENCE:** Six live IDs verified in backup/live audit; Playwright strip + lightbox on localhost:3002.
+
+**RISK:** Poster CDN (vumbnail) availability; unknown speaker names for four carousel clips remain generic until confirmed.
+
+**VALIDATION:** VERIFICATION-LOG 2026-10-15 video reviews entry; staging redeploy after APPROVE.
+
+---
+
+## 2026-10-04 — Services Master Program local completion
+
+**WHAT:** Mark Services Pages Master Program A1–D3 complete locally (15 conversion JSON pages + cross-link audit). Staging/production deploy held until explicit approval.
+
+**WHY:** Queue finished; closeout must not invent deploy success. Staging is a separate approval gate.
+
+**HOW:** Each slug: research gate → SITE-SEO-MAP → full conversion JSON → Playwright verify → VERIFICATION-LOG. Closeout: link inventory, HTTP 200 matrix, TikTok relatedServices inbound fix.
+
+**EVIDENCE:** SITE-SEO-MAP status table all Implemented; VERIFICATION-LOG A1–D3 + cross-link entries; local curl 200 for 15 services.
+
+**RISK:** Staging/production not verified; `/services/` prefix redirects still unconfirmed on live domain.
+
+**VALIDATION:** Staging smoke after APPROVE; then production cutover checklist.
+
+---
+
+## 2026-10-04 — Services pages conversion architecture
+
+**WHAT:** Standardize all 15 service pages on root `/{slug}/` with PO hard-chrome template; optional `audience` and `differ` JSON sections; Service JSON-LD `areaServed` = 23 Seller Central markets.
+
+**WHY:** Soft Card template did not match homepage PO system; schema lacked who-for / differentiation blocks needed for conversion SEO; single-country areaServed contradicted homepage market claims.
+
+**HOW:** Extend Zod schema (optional fields so legacy JSON keeps validating); rewrite `ServicePageTemplate`; align JSON-LD markets with homepage FAQ; execute content rewrites one slug per CONTINUE.
+
+**EVIDENCE:** Playwright on `/full-service-amazon-agency/` — Service+FAQPage, 23 areaServed, hard chrome panels, mobile no overflow.
+
+**RISK:** `/services/` prefix redirects unconfirmed until live crawl / Search Console export.
+
+**VALIDATION:** Per-slug Playwright + SITE-SEO-MAP row + VERIFICATION-LOG before marking each service done.
+
+---
+
+## 2026-09-02 - Project setup
+
+Decision: Create project-local Cursor rules, skills, MCP config, Obsidian vault, and docs before any development.
+
+Context: User requested full project operating system for AI-assisted migration work.
+
+Chosen: All configuration in repository (.cursor/, obsidian/, docs/) not global Cursor settings.
+
+Why: Keeps project knowledge portable and version-controlled.
+
+Impact: Development blocked until audit phase completes.
+
+---
+
+## 2026-09-02 - Q3: Custom code tech stack (P1-04)
+
+**WHAT:** Adopt Next.js 15 (App Router) + TypeScript + Tailwind CSS v4 as the production stack for ecomgliders.com migration.
+
+**WHY:** 328 root-level blog URLs require SSR/SSG with identical paths. Interactive browser mockup, forms, and future CMS admin need a single React application. Phase 0 implementation and user design approval (P0-07) validate the stack in practice.
+
+**HOW:**
+- Framework: Next.js 15 App Router, React 19, TypeScript strict
+- Styling: Tailwind v4 with tokens from `content/config/design-system.json`
+- UI: shadcn/ui (owned Radix primitives), Lucide icons, Motion for minimal animations
+- Content: JSON config now (`content/config/*.json`), MDX for blog (`content/blog/`), `ContentRepository` + adapter pattern for future CMS
+- SEO: `next/metadata`, `schema-dts` (P2+), catch-all `app/[slug]/page.tsx` for blog
+- Forms (P3): React Hook Form + Zod + Server Actions
+- Deployment (proposed): Vercel — requires confirmation at P4-04
+
+**EVIDENCE:**
+- Phase 0 scaffold runs: `package.json` (Next 15.5.x, React 19, Tailwind 4.3.x, Zod 4.x)
+- `tsc --noEmit` passes; `/design-system` renders and approved by user
+- `backup/metadata/blog-inventory.json` — 328 posts at root slugs, fits catch-all routing
+- Competitor research and stack plan in `.cursor/plans/typescript_web_stack_e4470b1d.plan.md`
+
+**OPTIONS CONSIDERED:**
+
+| Option | Rejected because |
+|--------|------------------|
+| Astro | Weaker for interactive browser mockup + future CMS admin in same app |
+| Plain React SPA | SEO penalty for 328 indexed posts; no built-in metadata/SSG |
+| WordPress (keep) | Migration goal is custom code; current platform is audit source only |
+| Framer export | Not maintainable; poor SEO control |
+| Paid block libraries | Build custom in-house per brand and budget rules |
+
+**CHOSEN:** Next.js 15 + TypeScript + Tailwind v4 + shadcn + JSON/MDX content layer.
+
+**TRADEOFFS:**
+- Higher bundle complexity than Astro for static-only pages
+- Vercel coupling if chosen for hosting (mitigated: Next.js is portable)
+- File-based content requires migration scripts before blog goes live (P3-01)
+- No database until CMS phase — content edits via JSON/MDX in repo
+
+**RISK:**
+- Windows `npm run build` EISDIR observed in Phase 0 — verify on CI/Linux before P4-04
+- `next lint` deprecated in Next.js 16 — migrate to ESLint CLI before upgrade
+
+**VALIDATION:**
+- P0-07 design system approval
+- P3-04: 328 blog URLs resolve identically
+- P4-02: Lighthouse 90+ all categories
+- Stack doc: `obsidian/03-Architecture/Tech-Stack.md`
+- Content architecture: `obsidian/03-Architecture/Content-Architecture.md`
+
+**IMPACT:**
+- `docs/project/OPEN-QUESTIONS.md` Q3 → Resolved
+- Phase 1+ implementation proceeds per SESSION-STATE-BUILD.md
+- Folder structure per `obsidian/04-Development/Folder-Structure.md` (update pending)
+
+---
+
+## 2026-09-02 - Q3 related: Content architecture pattern
+
+**WHAT:** Repository + Adapter pattern for all page content; design tokens separate from `ContentRepository`.
+
+**WHY:** User requirement — JSON-configurable now, CMS-swappable later without rewriting pages.
+
+**HOW:** `ContentRepository` interface in `src/domain/content/`; `JsonFileContentRepository` adapter reads `content/config/*.json`; future `MdxBlogRepository` and CMS adapter implement same interface.
+
+**EVIDENCE:** Documented in `obsidian/03-Architecture/Content-Architecture.md`; Phase 0 already uses JSON config for design-system, browser-mockup, review page via `src/lib/content-config.ts`.
+
+**CHOSEN:** Repository + Adapter with Zod validation at adapter boundary.
+
+**TRADEOFFS:** More boilerplate than direct JSON imports; pays off at CMS migration.
+
+**IMPACT:** P1-06 implements interface; P1-05 creates `site.json` + `navigation.json`.
+
+---
+
+## 2026-09-02 - Homepage section type: comparison
+
+**WHAT:** Add `comparison` to `homepageSectionTypeSchema` for Agency vs DIY table (redesign brief section 8).
+
+**WHY:** Brief wireframe section 8 is a comparison table, not a contact teaser. Final CTA uses existing `cta` type.
+
+**HOW:** Extend Zod enum in `homepage.schema.ts`; populate `comparison` section in `homepage.json` with feature rows.
+
+**EVIDENCE:** `.cursor/plans/2026-09-02-homepage-redesign-brief.md` section 8; validated via `getHomepage()` parse.
+
+**RISK:** P2-03 must implement comparison component; `contactTeaser` remains in schema unused.
+
+**VALIDATION:** Zod parse of homepage.json; 12 enabled sections match brief order.
+
+**IMPACT:** `Content-Architecture.md` SectionType union updated.
+
+---
+
+## 2026-09-02 - Homepage SEO module (no schema-dts)
+
+**WHAT:** Add `src/lib/seo/` with `pageSeoToMetadata`, `buildHomepageJsonLd`, and `JsonLdScript`.
+
+**WHY:** P2-05 requires homepage metadata and Organization/WebSite/FAQPage schema without adding dependencies.
+
+**HOW:** `generateMetadata` in `(marketing)/page.tsx`; JSON-LD built from `homepage.json` + `site.json`; FAQ entities sourced from faq section data.
+
+**EVIDENCE:** Playwright verified title, meta, canonical, and three schema types with 10 FAQ entities.
+
+**RISK:** Local dev canonical uses production URL default; override via env on staging.
+
+**VALIDATION:** SITE-SEO-MAP homepage record updated; Rich Results Test pending public deploy.
+
+**IMPACT:** Reusable SEO helpers for service pages in P3-05+.
+
+---
+
+## 2026-09-02 - Native Next.js sitemap (not next-sitemap)
+
+**WHAT:** Implement `app/sitemap.ts` and `app/robots.ts` using Next.js `MetadataRoute` APIs.
+
+**WHY:** Plan listed `next-sitemap`, but built-in routes integrate with ContentRepository, avoid an extra dependency, and regenerate dynamically at request time in dev/staging.
+
+**HOW:** `buildSitemapEntries()` merges static routes, service slugs, case study slugs, and blog MDX frontmatter (with `robots.index` respect).
+
+**EVIDENCE:** `npm run verify:sitemap` — 343 URLs; curl `/sitemap.xml` and `/robots.txt` HTTP 200.
+
+**RISK:** Sitemap generation reads all blog frontmatter on each request; acceptable at 328 posts; consider caching if build time grows.
+
+**VALIDATION:** `docs/qa/sitemap-verification-report.json`.
+
+**IMPACT:** Unimplemented routes excluded until pages exist (`/blog/`, legal pages, nav-only service URLs).
+
+---
+
+## 2026-09-02 - Sitemap/robots as route handlers + trailingSlash
+
+**WHAT:** Serve `/sitemap.xml` and `/robots.txt` via `app/sitemap.xml/route.ts` and `app/robots.txt/route.ts`; enable `trailingSlash: true` in `next.config.ts`.
+
+**WHY:** Metadata route files (`app/sitemap.ts`, `app/robots.ts`) triggered EISDIR during webpack trace on Windows exFAT. Trailing slashes required for URL preservation per migration rules.
+
+**HOW:** `buildSitemapXml()` serializes ContentRepository entries; route handlers return XML/plain responses with cache headers.
+
+**EVIDENCE:** Production build on NTFS succeeds; curl `/sitemap.xml` and `/robots.txt` HTTP 200 with trailing slash config.
+
+**RISK:** Route handlers lack Next.js MetadataRoute typing convenience; logic remains in shared `buildSitemapEntries()`.
+
+**VALIDATION:** `npm run verify:sitemap` unchanged; P4-01 verification still valid.
+
+---
+
+## 2026-09-02 - Windows exFAT blocks local production build
+
+**WHAT:** Document that `npm run build` fails on exFAT drives (project on E:); verify builds on NTFS (C:) or CI.
+
+**WHY:** Node.js `readlink` on exFAT returns EISDIR for non-symlink files during Next.js webpack file tracing.
+
+**EVIDENCE:** `fsutil fsinfo volumeinfo E:` reports exFAT; build fails on E: with EISDIR; identical project builds on `C:/temp/ecom-gliders-build`.
+
+**RISK:** Local developers on external exFAT drives cannot run production builds without path change.
+
+**VALIDATION:** P4-02 Lighthouse verified via C: production build; Vercel deploy (P4-04) expected to succeed.
+
+---
+
+## 2026-09-02 - WCAG AA automated axe gate
+
+**WHAT:** Add `tests/accessibility-wcag.spec.ts` with `@axe-core/playwright` scanning 6 key pages for WCAG 2.1 AA tags.
+
+**WHY:** P4-03 requires axe-clean WCAG AA verification before launch.
+
+**HOW:** Playwright navigates each page, runs axe with `wcag2a`, `wcag2aa`, `wcag21a`, `wcag21aa` tags; fails on any violation; writes per-page JSON to `docs/qa/`.
+
+**EVIDENCE:** `npm run test:a11y` — 6/6 pass, 0 total violations.
+
+**RISK:** Dev server audit may differ slightly from production; re-run against staging URL post-deploy.
+
+**VALIDATION:** `docs/qa/accessibility-audit-summary.json`.
+
+---
+
+## 2026-09-02 - Vercel staging hosting confirmed
+
+**WHAT:** Deploy eCom Gliders Next.js site to Vercel; staging alias `https://ecom-gliders.vercel.app`.
+
+**WHY:** P4-04 requires live staging URL; resolves local exFAT build blocker via Vercel CI builds.
+
+**HOW:** `vercel link` + `vercel deploy`; `vercel.json` for Next.js; `.vercelignore` excludes backup and QA artifacts; `NEXT_PUBLIC_SITE_URL` env for staging canonicals.
+
+**EVIDENCE:** Build 350 pages READY; HTTP 200 on key routes; staging axe 6/6 pass.
+
+**RISK:** Staging indexed if linked externally — use `noindex` or robots disallow on staging before public marketing if needed. Production cutover requires DNS + env URL change.
+
+**VALIDATION:** `docs/qa/staging-deployment-report.json`.
+
+---
+
+## 2026-09-02 - Navbar mega menu IA (4 categories + Channels)
+
+**WHAT:** Replace Core/Other mega menu with four capability columns — Advertising and Growth, Catalog and Content, Brand and Operations, Channels and DTC — plus CTA rail with verified metric. Enable announcement bar. Restore Video Creative and Email; add Shopify and TikTok Shop Ads under Channels.
+
+**WHY:** Flat Core/Other taxonomy read as CMS leftover; boutique peers (Olifant/Sequence) use capability grouping + inline CTA. Multi-channel demand (Shopify/TikTok) should not dilute Amazon-hero columns.
+
+**HOW:** Extend `navLinkSchema` (`featured`, `icon`); extend mega `footerLink` + CTA `eyebrow`/`metric`; rewrite `navigation.json`; rebuild `mega-menu-panel` / `nav-link-item` / `mobile-nav`; Lucide icons via `src/lib/nav-icons.ts`.
+
+**EVIDENCE:** Config + UI implemented; desktop/mobile verification pending screenshots in `docs/qa/`.
+
+**RISK:** Several destination URLs lack service pages yet (404 until built). Shopify/TikTok listed as intended offerings — service page claims must not invent metrics until delivery confirmed.
+
+**VALIDATION:** Zod parse of `navigation.json`; Playwright open Services mega; announcement bar visible.
+
+---
+
+## 2026-09-08 - PrimaryButton + Navy/Orange production lock
+
+**WHAT:** Lock sitewide CTA and brand color settings from `/design-system` into production tokens.
+
+**WHY:** User approved Navy + Orange (`pair-navy-orange`) and PrimaryButton behavior (solid fill, filled-dot idle, bounce to lucide-animated ArrowRight at 18px) and asked to set these as global settings.
+
+**HOW:**
+- `content/config/design-system.json` — PrimaryButton as official primary/accent CTA; icon + motion tokens; lucide-animated for CTA trailing mark
+- `content/config/color-themes.json` — `defaultThemeId: pair-navy-orange`, `productionLocked: true`
+- Production colors already Navy `#0B1B3A` + Amazon Orange `#E47911` (explicit lock)
+- Rejected for production CTA: border-beam, body gradient, galaxy, LTR/RTL icon slides, soft-crossfade-only
+
+**CHOSEN:** PrimaryButton sitewide + pair-navy-orange as production color lock.
+
+**IMPACT:** Design-system theme switcher remains preview-only; live site always uses `design-system.json` tokens via `ThemeReset` / `buildCssVariables`.
+
+---
+
+## 2026-09-15 - Unlock navy/orange; adopt Project One visual system
+
+**WHAT:** Replace production visual lock (navy `#0B1B3A` + orange `#E47911` + IBM Plex Sans) with Project One visual system: ink `#131311`, lime `#C6FD50`, canvas `#FAFAFA`, Satoshi (Fontshare). Content remains eCom Gliders only.
+
+**WHY:** User directed full design/layout/fonts/colors to match Project One while keeping eCom copy. Prior “PO fidelity” passes under navy/orange did not read as PO side-by-side.
+
+**HOW:**
+- Update `content/config/design-system.json` tokens + page atmosphere + typography notes
+- Load Satoshi via Fontshare in `src/app/layout.tsx`; wire `--font-sans` / `--font-display` in `globals.css`
+- Remap hardcoded chrome shadows/accents in `src/` to ink/lime
+- PrimaryButton + floating nav hard shadows use `#131311`; accent CTA = lime + ink chip
+- Section layout rebuilds continue one pass at a time per `.cursor/prompts/PO-VISUAL-REBUILD-MASTER.md`
+
+**OPTIONS CONSIDERED:**
+
+| Option | Rejected because |
+|--------|------------------|
+| Keep navy/orange + match only layout | User saw no visible PO match; signature is lime/Satoshi |
+| Copy PO pricing/copy | Violates content lock / brand integrity |
+| Local-only Satoshi files first | Fontshare CDN acceptable for Pass 0; may vendor later |
+
+**CHOSEN:** PO visual system unlocked; eCom content lock retained.
+
+**TRADEOFFS:**
+- Amazon partner badge orange may contrast with lime system until Pass assets review
+- Theme preview `pair-navy-orange` may diverge from live tokens until themes file updated
+- External Fontshare dependency until fonts are vendored
+
+**RISK:** Unverified claim reuse; PO copy leakage during layout ports.
+
+**VALIDATION:** Pass 0 screenshots — accent lime, body Satoshi, ink hard shadows on nav/CTA at 1440 + 390.
+
+**IMPACT:** Supersedes 2026-09-08 navy/orange production color lock for live homepage rebuild. Docs: plan `.cursor/plans/2026-09-15-po-visual-rebuild.md`, prompt `.cursor/prompts/PO-VISUAL-REBUILD-MASTER.md`.
+
+---

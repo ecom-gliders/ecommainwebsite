@@ -1,0 +1,28 @@
+---
+description: Database design and migration rules
+globs: "**/*.{sql,prisma,ts,js}"
+alwaysApply: false
+---
+
+# Database
+
+## Design requirements
+
+Every table must define primary key, foreign keys, constraints, nullability, indexes, unique constraints, audit fields, and ownership boundaries.
+
+## Migrations
+
+Always use migrations. Never change production schema manually.
+Flow: old schema, migration, new schema, data validation, application compatibility, cleanup.
+Never drop a field before all consumers are migrated.
+
+## Blog and content migration
+
+Blog posts must preserve original slugs, publish dates, canonical URLs, and meta data.
+Record every URL mapping in `docs/seo/URL-INVENTORY.md` before any redirect changes.
+
+## Transactions
+
+Use transactions for multi-step consistency. Avoid storing derived values when safely calculable.
+
+Read `obsidian/05-Database/Database-Schema.md` before schema changes.

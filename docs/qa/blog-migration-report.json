@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-09-02T02:25:44.383Z",
+  "source": "backup/metadata/api/posts-all.json",
+  "expectedCount": 328,
+  "writtenCount": 328,
+  "skippedCount": 0,
+  "failures": []
+}

@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-09-02T08:25:00.000Z",
+  "environment": "production (next start on NTFS C: drive — E: exFAT blocks npm run build)",
+  "baseUrl": "http://localhost:3003",
+  "target": 90,
+  "results": [
+    {
+      "id": "home",
+      "url": "http://localhost:3003/",
+      "scores": {
+        "performance": 91,
+        "accessibility": 96,
+        "bestPractices": 96,
+        "seo": 92
+      },
+      "report": "docs/qa/lighthouse-home.json"
+    },
+    {
+      "id": "service",
+      "url": "http://localhost:3003/amazon-ppc-management-agency/",
+      "scores": {
+        "performance": 91,
+        "accessibility": 96,
+        "bestPractices": 96,
+        "seo": 92
+      },
+      "report": "docs/qa/lighthouse-service.json"
+    },
+    {
+      "id": "blog",
+      "url": "http://localhost:3003/when-should-you-use-sponsored-display-ads/",
+      "scores": {
+        "performance": 91,
+        "accessibility": 95,
+        "bestPractices": 96,
+        "seo": 100
+      },
+      "report": "docs/qa/lighthouse-blog.json"
+    }
+  ],
+  "notes": [
+    "Dev server (localhost:3002) scores 69–73 performance due to Turbopack compile latency; production build required for accurate performance measurement.",
+    "Windows exFAT project drive (E:) causes EISDIR on next build; CI/Vercel or NTFS path required for local production builds."
+  ]
+}

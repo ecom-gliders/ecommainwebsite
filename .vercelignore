@@ -1,0 +1,10 @@
+backup/
+node_modules/
+.next/
+test-results/
+playwright-report/
+.cursor/
+obsidian/
+docs/qa/lighthouse-*.json
+docs/qa/axe-*.json
+*.log

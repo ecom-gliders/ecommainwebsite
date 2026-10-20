@@ -1,0 +1,429 @@
+{
+  "slug": "amazon-listing-optimization",
+  "breadcrumbLabel": "Listing Optimization",
+  "layout": "listing-seo",
+  "hero": {
+    "title": "Listing SEO built for ranking and conversion",
+    "subtitle": "Keyword research, conversion-focused copy, and field-level updates so organic visibility and paid traffic land on pages that close. No unverified rank-percentage guarantees.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a listing review",
+      "subheading": "Share catalog size and store context so we can prioritize SEO and conversion fixes.",
+      "submitLabel": "Request a listing review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "asinCount",
+          "label": "Active ASINs to optimize",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "1-5",
+              "label": "1 to 5"
+            },
+            {
+              "value": "6-20",
+              "label": "6 to 20"
+            },
+            {
+              "value": "21-50",
+              "label": "21 to 50"
+            },
+            {
+              "value": "50-plus",
+              "label": "50+"
+            }
+          ]
+        },
+        {
+          "name": "listingPriority",
+          "label": "Priority need",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "keywords",
+              "label": "Keyword / SEO research"
+            },
+            {
+              "value": "copy",
+              "label": "Title and bullet copy"
+            },
+            {
+              "value": "conversion",
+              "label": "Conversion rate lift"
+            },
+            {
+              "value": "full",
+              "label": "Full listing rebuild"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/listing-seo-v2.png",
+      "alt": "Listing Optimization service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why listings lose rankings and conversions",
+    "points": [
+      {
+        "title": "Keyword coverage misses buyer language",
+        "description": "Titles and backend terms chase volume without matching how shoppers search."
+      },
+      {
+        "title": "Copy that informs but does not convert",
+        "description": "Bullets list features without objections, use cases, and differentiation."
+      },
+      {
+        "title": "Listings out of sync with advertising",
+        "description": "PPC sends traffic to weak messaging and incomplete attributes."
+      },
+      {
+        "title": "No ongoing listing maintenance",
+        "description": "Search shifts and competitor moves go unaddressed after a one-time rewrite."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who listing optimization is for",
+    "points": [
+      {
+        "title": "Traffic with weak conversion",
+        "description": "Sessions that do not turn into sales because listing structure fails to close."
+      },
+      {
+        "title": "Keyword-stuffed catalogs",
+        "description": "Titles packed with terms but thin on benefits, attributes, and backend coverage."
+      },
+      {
+        "title": "Advertisers paying for unready pages",
+        "description": "Sponsored Ads spend landing on listings that cannot convert at target efficiency."
+      },
+      {
+        "title": "Multi-marketplace sellers",
+        "description": "Listing priorities across official Seller Central markets, scoped in the audit."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How listing optimization runs",
+    "steps": [
+      {
+        "title": "Listing and keyword audit",
+        "description": "Ranking, conversion signals, competitor pages, and search language for priority ASINs."
+      },
+      {
+        "title": "Optimization plan",
+        "description": "Title, bullet, backend, and content priorities aligned with inventory and ads."
+      },
+      {
+        "title": "Implementation",
+        "description": "Field updates coordinated with A+ or visual needs as one package."
+      },
+      {
+        "title": "Measure and iterate",
+        "description": "Refine from ranking and conversion response—not a one-and-done rewrite."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon listing optimization includes",
+    "items": [
+      {
+        "title": "Keyword research",
+        "description": "Category-relevant search terms mapped to titles, bullets, and backend fields."
+      },
+      {
+        "title": "Title and bullet optimization",
+        "description": "Conversion-focused copy that balances discoverability with clear benefits."
+      },
+      {
+        "title": "Backend search term management",
+        "description": "Structured backend coverage without cluttering customer-facing fields."
+      },
+      {
+        "title": "Listing SEO maintenance",
+        "description": "Ongoing updates as search behavior, competitors, and priorities change."
+      },
+      {
+        "title": "PPC and listing alignment",
+        "description": "Coordination so paid traffic lands on listings ready to convert."
+      },
+      {
+        "title": "A+ and content coordination",
+        "description": "Briefs and sequencing for enhanced brand content where Brand Registry allows."
+      },
+      {
+        "title": "Attribute and variation review",
+        "description": "Checks that key attributes and variation structure support findability."
+      },
+      {
+        "title": "Performance tracking",
+        "description": "Monitoring of ranking and conversion indicators for optimized ASINs."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders listing optimization differs",
+    "points": [
+      {
+        "title": "Ranking and conversion together",
+        "description": "Discoverability and purchase confidence—not keyword stuffing that hurts conversion."
+      },
+      {
+        "title": "Connected to advertising and catalog",
+        "description": "Listing changes coordinated with PPC and catalog health."
+      },
+      {
+        "title": "In-house specialists since 2018",
+        "description": "More than 20 in-house professionals with clear ownership across listing, content, and visuals."
+      },
+      {
+        "title": "Audit-first prioritization",
+        "description": "ASINs prioritized by commercial impact—not rewriting every SKU at once."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "listing-cvr-chart",
+      "type": "metricChart",
+      "heading": "Verified CVR lifts from listing-led cases",
+      "subheading": "GoSports and Safefine conversion rates from published case studies.",
+      "chartLabel": "Conversion rate (%) from eCom Gliders case studies",
+      "points": [
+        {
+          "label": "GoSports CVR before (case study 9)",
+          "value": 9.8
+        },
+        {
+          "label": "GoSports CVR after (case study 9)",
+          "value": 26.7
+        },
+        {
+          "label": "Safefine CVR before (case study)",
+          "value": 10.1
+        },
+        {
+          "label": "Safefine CVR after (case study)",
+          "value": 28.9
+        }
+      ],
+      "footnote": "GoSports also grew monthly revenue from $22.1K to $90.7K (+310%) with listing, creative, and advertising work. Safefine: 10.1% to 28.9% through listing CRO, visuals, and social proof. Not a promise of identical results.",
+      "variant": "bars"
+    },
+    {
+      "id": "listing-field-scorecard",
+      "type": "catalogHealthBoard",
+      "heading": "PDP field scorecard",
+      "subheading": "What each field must do for shoppers—then we rebuild priority ASINs against verified CVR lifts.",
+      "urlLabel": "listing.ecomgliders.com/scorecard",
+      "disclaimer": "Illustrative field scorecard for priority ASIN audits.",
+      "columns": [
+        "Field",
+        "Shopper job",
+        "Common failure",
+        "Fix signal"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Title",
+            "Intent + brand in one scan",
+            "Stuffing or vague naming",
+            "Readable; core query covered"
+          ]
+        },
+        {
+          "cells": [
+            "Bullets",
+            "Benefits + objections",
+            "Feature dump, no proof",
+            "Scannable benefit order"
+          ]
+        },
+        {
+          "cells": [
+            "Backend terms",
+            "Synonyms without clutter",
+            "Duplicates / wasted chars",
+            "Map tied to research"
+          ]
+        },
+        {
+          "cells": [
+            "Images",
+            "Click + explain",
+            "Weak hero / random set",
+            "Hero, features, use, lifestyle"
+          ]
+        },
+        {
+          "cells": [
+            "A+ / brand content",
+            "Story below the fold",
+            "Templated or empty",
+            "Modules match title claims"
+          ]
+        },
+        {
+          "cells": [
+            "Reviews / Q&A",
+            "Trust and objection surface",
+            "Ignored themes in copy",
+            "Address top complaints in bullets/A+"
+          ]
+        },
+        {
+          "cells": [
+            "Offer / price clarity",
+            "Buy Box readiness",
+            "Conflicting promotions",
+            "Align offer with ad landing"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Listing · field audit"
+    }
+  ],
+  "results": {
+    "heading": "Results from listing-led growth work",
+    "items": [
+      {
+        "metric": "CVR 9.8% to 26.7%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Strategic listing optimization with advertising and brand positioning lifted conversion and grew monthly revenue from $22.1K to $90.7K (+310%).",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "CVR 10.1% to 28.9%",
+        "brand": "Safefine (Beauty)",
+        "description": "Listing CRO, visuals, and social proof lifted conversion without changing the product formula.",
+        "href": "/case-study-7/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is included in Amazon listing optimization?",
+      "answer": "Typical work covers keyword research, titles, bullets, descriptions, backend terms, and coordination with images or A+ content. Scope is set per ASIN priority during the free audit."
+    },
+    {
+      "question": "How long before ranking changes appear?",
+      "answer": "Indexing and ranking response vary by category and competition. Some signals move within weeks; sustained ranking gains usually require ongoing optimization and sales velocity support. We do not publish a fixed percentage rank guarantee."
+    },
+    {
+      "question": "Do you rewrite every listing at once?",
+      "answer": "We prioritize ASINs by revenue potential, inventory, and advertising plans so effort concentrates where commercial impact is highest."
+    },
+    {
+      "question": "Will listing changes affect my PPC campaigns?",
+      "answer": "Yes, often positively when conversion improves. We coordinate with advertising so keyword targeting and listing language stay aligned."
+    },
+    {
+      "question": "Do you handle A+ Content as part of listing SEO?",
+      "answer": "We coordinate A+ where Brand Registry access exists. Writing and design can be delivered through our content and visual teams."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support listing work across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do you measure listing optimization success?",
+      "answer": "We track organic ranking for priority terms, conversion rate, and sales contribution alongside advertising efficiency for the same ASINs."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are an ASIN priority review, findings call, then an optimization plan and implementation."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Content Writing",
+      "description": "Titles, bullets, and A+ copy written for Amazon shoppers.",
+      "href": "/amazon-content-writing/",
+      "icon": "file-text"
+    },
+    {
+      "title": "Amazon PPC Management",
+      "description": "Paid traffic managed against conversion-ready listings.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Visual Creativity",
+      "description": "Photography and A+ design that support listing conversion.",
+      "href": "/amazon-visual-creativity/",
+      "icon": "image"
+    }
+  ],
+  "cta": {
+    "heading": "Request a listing optimization audit",
+    "subheading": "We review priority ASINs, keyword gaps, and conversion blockers. No invented organic-rank percentage promises.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Listing Optimization and SEO | eCom Gliders",
+    "metaDescription": "Amazon listing optimization and SEO with keyword research, conversion copy, and ongoing ranking improvements. Free audit for priority ASINs.",
+    "canonical": "https://ecomgliders.com/amazon-listing-optimization/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

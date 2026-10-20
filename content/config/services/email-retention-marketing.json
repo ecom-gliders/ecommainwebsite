@@ -1,0 +1,470 @@
+{
+  "slug": "email-retention-marketing",
+  "breadcrumbLabel": "Email Retention",
+  "layout": "lifecycle-ops",
+  "hero": {
+    "title": "Email retention for Amazon brands",
+    "subtitle": "Lifecycle flows after legitimate owned opt-in. Amazon does not provide buyer emails for marketing—email complements ads; it does not replace them. No invented ROI claims.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request an email retention review",
+      "subheading": "Share platform and list context so we can scope lifecycle flows for your brand.",
+      "submitLabel": "Request email review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "emailPlatform",
+          "label": "Email platform",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "klaviyo",
+              "label": "Klaviyo"
+            },
+            {
+              "value": "mailchimp",
+              "label": "Mailchimp"
+            },
+            {
+              "value": "other",
+              "label": "Other / not sure"
+            },
+            {
+              "value": "none",
+              "label": "No platform yet"
+            }
+          ]
+        },
+        {
+          "name": "listStatus",
+          "label": "List / audience status",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "none",
+              "label": "No list yet"
+            },
+            {
+              "value": "under-5k",
+              "label": "Under 5,000 contacts"
+            },
+            {
+              "value": "5k-25k",
+              "label": "5,000 to 25,000"
+            },
+            {
+              "value": "25k-plus",
+              "label": "25,000+"
+            }
+          ]
+        },
+        {
+          "name": "retentionGoal",
+          "label": "Primary retention goal",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "flows",
+              "label": "Welcome / post-purchase flows"
+            },
+            {
+              "value": "repeat",
+              "label": "Repeat purchase"
+            },
+            {
+              "value": "owned",
+              "label": "Owned-channel growth"
+            },
+            {
+              "value": "full",
+              "label": "Full retention program"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/email-retention-marketing-service.jpg",
+      "alt": "Email Retention service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon brands underuse retention email",
+    "points": [
+      {
+        "title": "Acquisition only",
+        "description": "Ads bring buyers, but there is no owned relationship for replenishment or brand updates."
+      },
+      {
+        "title": "Lists without journeys",
+        "description": "Broadcasts replace welcome, post-purchase, and win-back architecture."
+      },
+      {
+        "title": "One offer for every stage",
+        "description": "New subscribers and past buyers get the same message."
+      },
+      {
+        "title": "Amazon and DTC stay disconnected",
+        "description": "Bestsellers and product education never inform owned-channel email."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Amazon brands building an owned audience",
+        "description": "Sellers who need lifecycle email after legitimate opt-in outside Seller Central contact limits."
+      },
+      {
+        "title": "Shopify operators with weak flows",
+        "description": "Teams with a list but no welcome, post-purchase, or win-back structure."
+      },
+      {
+        "title": "Brands launching ASINs to warm audiences",
+        "description": "Operators who want owned-channel launch support next to Amazon ads."
+      },
+      {
+        "title": "Teams aligning retention with Amazon growth",
+        "description": "Accounts that want offers informed by proven bestsellers."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How retention email programs run",
+    "steps": [
+      {
+        "title": "Audience audit",
+        "description": "Review list health, capture points, and where email should support Amazon-led growth."
+      },
+      {
+        "title": "Lifecycle architecture",
+        "description": "Design welcome, post-purchase, replenishment, and win-back flows."
+      },
+      {
+        "title": "Flow production",
+        "description": "Write and build emails with clear offers and measurable CTAs."
+      },
+      {
+        "title": "Measure and refine",
+        "description": "Track engagement and contribution, then improve timing and offers."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What email retention covers",
+    "items": [
+      {
+        "title": "Lifecycle flow strategy",
+        "description": "Mapped journeys for welcome, post-purchase, replenishment, and win-back."
+      },
+      {
+        "title": "Email copy and creative direction",
+        "description": "Messaging aligned with brand voice and product priorities."
+      },
+      {
+        "title": "Flow build support",
+        "description": "Implementation guidance or build work inside your email platform as scoped."
+      },
+      {
+        "title": "Campaign calendar planning",
+        "description": "Seasonal and launch campaigns coordinated with Amazon and DTC priorities."
+      },
+      {
+        "title": "List capture recommendations",
+        "description": "Capture points on Shopify or other owned properties, including compliant insert-card pathways when relevant."
+      },
+      {
+        "title": "Segmentation basics",
+        "description": "Audience splits by engagement and purchase stage."
+      },
+      {
+        "title": "Performance reporting",
+        "description": "Reporting on delivery, engagement, and revenue contribution from retention programs."
+      },
+      {
+        "title": "Amazon insight integration",
+        "description": "Bestsellers and proven product points used carefully in owned-channel offers."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "email-day-journey-board",
+      "type": "catalogHealthBoard",
+      "heading": "Lifecycle calendar (Day 0–45)",
+      "subheading": "Owned-list sequence with job and subject intent per beat. Timing shifts with replenishment cycles—Amazon never supplies buyer emails for marketing.",
+      "urlLabel": "retention.ecomgliders.com/journey",
+      "boardLabel": "Lifecycle calendar",
+      "disclaimer": "Illustrative calendar for planning. Not an open-rate or revenue guarantee. Capture must be owned opt-in (site, compliant inserts)—never Amazon PII.",
+      "columns": [
+        "Day",
+        "Flow",
+        "Job",
+        "Subject intent",
+        "CTA"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "0",
+            "Welcome",
+            "Confirm opt-in",
+            "You’re in — here’s what to expect",
+            "Bestsellers on owned site"
+          ]
+        },
+        {
+          "cells": [
+            "3",
+            "Post-purchase",
+            "Cut regret; teach use",
+            "Get more from your order",
+            "Care tip or how-to"
+          ]
+        },
+        {
+          "cells": [
+            "7",
+            "Social proof",
+            "Reinforce choice",
+            "How buyers use it day to day",
+            "UGC or review ask (compliant)"
+          ]
+        },
+        {
+          "cells": [
+            "14",
+            "Cross-sell",
+            "Relevant attach",
+            "Pairs well with what you bought",
+            "Complementary offer"
+          ]
+        },
+        {
+          "cells": [
+            "30",
+            "Replenish",
+            "Match cadence",
+            "Running low? Restock window",
+            "Repurchase reminder"
+          ]
+        },
+        {
+          "cells": [
+            "45+",
+            "Win-back",
+            "Re-engage quiet list",
+            "Still interested? Fresh drop",
+            "Launch or offer notice"
+          ]
+        }
+      ],
+      "variant": "sheet"
+    },
+    {
+      "id": "flow-priority-chart",
+      "type": "metricChart",
+      "heading": "Automation launch order",
+      "subheading": "Build welcome and post-purchase before campaign calendars—index for sequencing only.",
+      "chartLabel": "Relative build priority (index)",
+      "points": [
+        {
+          "label": "Welcome series",
+          "value": 100
+        },
+        {
+          "label": "Post-purchase education",
+          "value": 92
+        },
+        {
+          "label": "Replenishment / repurchase",
+          "value": 78
+        },
+        {
+          "label": "Browse / abandon (site)",
+          "value": 64
+        },
+        {
+          "label": "Win-back",
+          "value": 55
+        },
+        {
+          "label": "Campaign calendar",
+          "value": 42
+        }
+      ],
+      "footnote": "Priority index for sequencing work only. Order depends on list size, platform, and purchase cadence. Not an ROI benchmark.",
+      "variant": "stack"
+    },
+    {
+      "id": "capture-readiness-sheet",
+      "type": "brandUnlockGrid",
+      "heading": "Capture readiness before flows",
+      "subheading": "Owned opt-in first—Klaviyo-style mills often skip Amazon-seller capture constraints.",
+      "note": "Platform choice and compliance confirmed during scoping. No invented email ROI claims.",
+      "sheetLabel": "retention · capture gates",
+      "items": [
+        {
+          "title": "Owned site / Shopify opt-in",
+          "description": "Primary list source with clear consent language.",
+          "unlocked": true,
+          "statusLabel": "Required foundation"
+        },
+        {
+          "title": "Post-purchase education path",
+          "description": "Flows that teach use and reduce returns after a known purchase signal.",
+          "unlocked": true,
+          "statusLabel": "Build after capture"
+        },
+        {
+          "title": "Compliant package inserts",
+          "description": "Opt-in prompts only where marketplace and legal rules allow.",
+          "unlocked": false,
+          "statusLabel": "Scoped if compliant"
+        },
+        {
+          "title": "Amazon buyer email export",
+          "description": "Not available for marketing—never part of this program.",
+          "unlocked": false,
+          "statusLabel": "Blocked by Amazon"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "heading": "Results from brand-retention growth work",
+    "items": [
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing, creative, and advertising grew monthly revenue from $22.1K to $90.7K—the traction owned retention is built to extend. Not an email-attribution claim.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and PPC growth while channel foundations strengthened. Not attributed solely to email.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can email replace Amazon advertising?",
+      "answer": "No. Email is a retention and owned-channel lever. Amazon advertising typically remains the primary acquisition engine for brands we support."
+    },
+    {
+      "question": "Do I need a Shopify store for this service?",
+      "answer": "An owned storefront or capture property makes retention email more effective. We can advise on capture readiness during the free audit."
+    },
+    {
+      "question": "Which email platforms do you work with?",
+      "answer": "We work with common ecommerce email platforms. Exact tooling is confirmed during scoping based on your current stack."
+    },
+    {
+      "question": "What flows should we launch first?",
+      "answer": "Most brands start with welcome and post-purchase, then add replenishment or win-back based on purchase cadence."
+    },
+    {
+      "question": "How do you measure retention email success?",
+      "answer": "We track engagement, attributable revenue, and flow performance, then refine offers and timing from that data."
+    },
+    {
+      "question": "Can email promote Amazon bestsellers?",
+      "answer": "Yes, where offers and channel rules allow. We use Amazon-proven products and messaging carefully inside owned-channel campaigns."
+    },
+    {
+      "question": "Which Amazon marketplaces do your brand clients sell in?",
+      "answer": "Our Amazon growth work supports official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Email capture and send compliance vary by region and platform; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are an audience audit, lifecycle architecture, flow production, then measurement and refinement."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Shopify and Website Development",
+      "description": "Owned storefronts and capture points that make retention email possible.",
+      "href": "/shopify-website-development/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Amazon growth strategy that email retention complements.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "layers"
+    },
+    {
+      "title": "Content Writing",
+      "description": "Product messaging that carries into lifecycle email campaigns.",
+      "href": "/amazon-content-writing/",
+      "icon": "file-text"
+    }
+  ],
+  "cta": {
+    "heading": "Request an email retention review",
+    "subheading": "Share platform and list size. We outline capture gaps and flow priority—no invented ROI benchmarks.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Email and Retention Marketing for Amazon Brands | eCom Gliders",
+    "metaDescription": "Lifecycle email and retention marketing for Amazon brands. Welcome, post-purchase, and win-back flows that complement Amazon ads. Free audit.",
+    "canonical": "https://ecomgliders.com/email-retention-marketing/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

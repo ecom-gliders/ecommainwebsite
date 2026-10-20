@@ -1,0 +1,36 @@
+---
+description: Testing and verification before marking work complete
+alwaysApply: true
+---
+
+# Testing and Verification
+
+## Completion requires evidence
+
+Never claim complete, tested, deployed, optimized, or secure without verification.
+
+## Verification levels
+
+Static analysis, formatter, unit tests, integration tests, browser tests, Playwright, manual UI check, responsive screenshots, migration test, API test, security review, build.
+
+## Visual changes
+
+Render the page. Inspect spacing, alignment, typography, overflow, interaction states.
+Do not rely on code inspection alone.
+
+## Migration verification
+
+For each migrated page and blog post verify:
+- URL resolves correctly
+- Title and meta match or improve (never degrade without approval)
+- Canonical is correct
+- Internal links work
+- Images load
+- Structured data validates
+
+## Status reporting
+
+Report STATUS, IMPLEMENTED, VERIFIED, DOCUMENTED, REMAINING, NEXT ACTION.
+Use COMPLETE only when all relevant checks pass.
+
+Record results in `docs/qa/VERIFICATION-LOG.md`.

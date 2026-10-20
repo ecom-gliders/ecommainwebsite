@@ -1,0 +1,418 @@
+{
+  "slug": "amazon-dsp-management",
+  "breadcrumbLabel": "Amazon DSP",
+  "layout": "dsp-ops",
+  "hero": {
+    "title": "Amazon DSP when Sponsored Ads are ready",
+    "subtitle": "Upper-funnel reach and retargeting aligned with Sponsored Ads. DSP only when Brand Registry, listings, and PPC foundations support it—no invented AMC or DSP-ROAS claims.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a DSP strategy review",
+      "subheading": "Share budget and Brand Registry status so we can assess DSP readiness.",
+      "submitLabel": "Request DSP review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "dspBudget",
+          "label": "Planned monthly DSP budget",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "under-10k",
+              "label": "Under $10,000"
+            },
+            {
+              "value": "10k-30k",
+              "label": "$10,000 to $30,000"
+            },
+            {
+              "value": "30k-75k",
+              "label": "$30,000 to $75,000"
+            },
+            {
+              "value": "75k-plus",
+              "label": "$75,000+"
+            },
+            {
+              "value": "exploring",
+              "label": "Still exploring"
+            }
+          ]
+        },
+        {
+          "name": "brandRegistry",
+          "label": "Brand Registry status",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "enrolled",
+              "label": "Enrolled"
+            },
+            {
+              "value": "in-progress",
+              "label": "In progress"
+            },
+            {
+              "value": "not-yet",
+              "label": "Not yet"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-dsp-management-service.jpg",
+      "alt": "Amazon DSP service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why DSP underperforms without readiness",
+    "points": [
+      {
+        "title": "Awareness spend with nowhere to land",
+        "description": "DSP runs without Sponsored Ads, listing readiness, or retargeting that converts."
+      },
+      {
+        "title": "Audience complexity",
+        "description": "Broad inventory without structured testing drifts into low-intent placements."
+      },
+      {
+        "title": "Creative mismatch",
+        "description": "Display and video ignore Amazon shopping behavior."
+      },
+      {
+        "title": "Reporting that stops at impressions",
+        "description": "Reach without a clear view of downstream Amazon sales and Sponsored Ads effects."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Brands expanding beyond Sponsored Ads",
+        "description": "Accounts with a stable PPC foundation that need upper-funnel reach."
+      },
+      {
+        "title": "Brand Registry advertisers with hero ASINs",
+        "description": "Sellers who can support DSP creatives and eligibility requirements."
+      },
+      {
+        "title": "Launch and category defense",
+        "description": "Brands that need awareness and remarketing around peaks or competition."
+      },
+      {
+        "title": "Operators tying DSP to Amazon P&L",
+        "description": "Marketers who want outcomes beyond impressions alone."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How DSP management runs",
+    "steps": [
+      {
+        "title": "Readiness audit",
+        "description": "Confirm Brand Registry, listings, Sponsored Ads discipline, and budget fit."
+      },
+      {
+        "title": "Audience and funnel plan",
+        "description": "Define awareness, consideration, and retargeting roles next to Sponsored Ads."
+      },
+      {
+        "title": "Creative and delivery",
+        "description": "Launch display and video with frequency and measurement controls."
+      },
+      {
+        "title": "Optimize with Sponsored Ads",
+        "description": "Review DSP beside PPC and total sales so upper-funnel spend stays accountable."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon DSP management covers",
+    "items": [
+      {
+        "title": "DSP campaign setup and management",
+        "description": "Prospecting and retargeting campaigns aligned with your Amazon catalog."
+      },
+      {
+        "title": "Audience strategy",
+        "description": "Audience selection and testing based on category and remarketing pools available to your account."
+      },
+      {
+        "title": "Creative coordination",
+        "description": "Briefing and iteration for display and video that support Amazon shopping decisions."
+      },
+      {
+        "title": "Budget pacing and optimization",
+        "description": "Pacing, bid, and placement adjustments against agreed targets."
+      },
+      {
+        "title": "Sponsored Ads alignment",
+        "description": "DSP coordinated with Sponsored Products, Brands, and Display."
+      },
+      {
+        "title": "Performance reporting",
+        "description": "Delivery, engagement, and Amazon outcomes tied to campaign objectives."
+      },
+      {
+        "title": "Launch and seasonal support",
+        "description": "Plans timed to launches, peaks, and inventory availability."
+      },
+      {
+        "title": "Eligibility and readiness review",
+        "description": "Brand Registry, creative, and account readiness before DSP spend scales."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Account-scale context before upper-funnel media",
+      "subheading": "Growth snapshots as scale context for brands considering DSP. Not DSP-only attribution claims.",
+      "images": [
+        {
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%.",
+          "caption": "Multi-year brand growth snapshot. Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year.",
+          "caption": "Peak-window sales snapshot. Source: growth.ecomgliders.com."
+        }
+      ]
+    },
+    {
+      "id": "dsp-readiness-board",
+      "type": "catalogHealthBoard",
+      "heading": "DSP readiness board",
+      "subheading": "Upper-funnel spend only after Brand Registry, Sponsored Ads discipline, and listing conversion are real.",
+      "urlLabel": "dsp.ecomgliders.com/readiness",
+      "disclaimer": "Illustrative readiness check. Not every account is ready. No invented min-spend or DSP-ROAS guarantees. ",
+      "columns": [
+        "Gate",
+        "What we check",
+        "Why it matters",
+        "If missing"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Brand Registry",
+            "Enrollment where required",
+            "Self-service DSP and brand tools",
+            "Complete Brand Registry path first"
+          ]
+        },
+        {
+          "cells": [
+            "Sponsored Ads",
+            "Structure and efficiency discipline",
+            "Lower-funnel capture for DSP traffic",
+            "Stabilize PPC before DSP scale"
+          ]
+        },
+        {
+          "cells": [
+            "Listings",
+            "Hero ASIN conversion readiness",
+            "Awareness spend needs a landing page that converts",
+            "Fix listing gaps first"
+          ]
+        },
+        {
+          "cells": [
+            "Creative capacity",
+            "Display / video supply",
+            "DSP needs shopper-ready assets",
+            "Brief visual / video teams"
+          ]
+        },
+        {
+          "cells": [
+            "Budget goals",
+            "Awareness vs efficiency targets",
+            "Avoid impression-only success definitions",
+            "Set measurement before launch"
+          ]
+        },
+        {
+          "cells": [
+            "Measurement",
+            "View-through vs click rules agreed",
+            "Stops impression-only success stories",
+            "Define before launch"
+          ]
+        }
+      ],
+      "variant": "mac",
+      "boardLabel": "DSP · gates"
+    },
+    {
+      "id": "dsp-funnel-roles",
+      "type": "metricChart",
+      "heading": "DSP vs Sponsored Ads roles",
+      "subheading": "Teaching model for channel jobs—not a ROAS promise.",
+      "chartLabel": "Relative funnel role (index)",
+      "points": [
+        {
+          "label": "Sponsored Ads capture (high intent)",
+          "value": 100
+        },
+        {
+          "label": "DSP retargeting",
+          "value": 72
+        },
+        {
+          "label": "DSP consideration / in-market",
+          "value": 48
+        },
+        {
+          "label": "DSP broad awareness",
+          "value": 32
+        }
+      ],
+      "footnote": "Teaching model for channel roles only. Actual mix depends on readiness, creative supply, and category. ",
+      "variant": "stack"
+    }
+  ],
+  "results": {
+    "heading": "Advertising foundations before full-funnel expansion",
+    "items": [
+      {
+        "metric": "ACOS 52% to 26.5%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Structured advertising and listing work improved efficiency while monthly revenue grew from $22.1K to $90.7K (+310%)—the foundation brands need before scaling upper-funnel DSP. Not a DSP-attributed result.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "ACOS 76% to 37%; spend −32%",
+        "brand": "VoltTech Accessories (Electronics)",
+        "description": "PPC rehab restored profitable traffic—the Sponsored Ads foundation brands need before adding DSP complexity. Not a DSP-attributed result.",
+        "href": "/case-study-3/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Amazon DSP and when should sellers use it?",
+      "answer": "Amazon DSP buys display and video inventory for awareness and retargeting on and off Amazon. It fits brands with an established Sponsored Ads foundation, Brand Registry access where required, and goals beyond last-click conversion alone."
+    },
+    {
+      "question": "Do I need Brand Registry for DSP?",
+      "answer": "Brand Registry is typically required for self-service DSP access and many brand advertising features. We confirm eligibility during the free audit."
+    },
+    {
+      "question": "How does DSP relate to Sponsored Ads?",
+      "answer": "DSP supports upper-funnel reach and retargeting. Sponsored Ads capture high-intent search and product detail page demand. We plan both so awareness spend supports Amazon conversion."
+    },
+    {
+      "question": "What budget makes sense for DSP?",
+      "answer": "Budget depends on category competition, creative readiness, and funnel goals. We recommend a starting range during the free audit rather than publishing a one-size minimum."
+    },
+    {
+      "question": "How do you measure DSP success?",
+      "answer": "We track delivery quality, engagement, new-to-brand indicators where available, and downstream Amazon sales impact alongside Sponsored Ads performance."
+    },
+    {
+      "question": "Can you manage creative for DSP campaigns?",
+      "answer": "Yes. We coordinate creative requirements and can align with our visual and video teams so assets match Amazon shopping behavior."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support advertising programs across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. DSP availability and inventory differ by market; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a funnel-fit review, eligibility check, then a DSP plan aligned to Sponsored Ads."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon PPC Management",
+      "description": "Sponsored Products, Brands, and Display with structured campaign control.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Video Creative",
+      "description": "Listing and advertising video built for Amazon shoppers.",
+      "href": "/amazon-video-creative/",
+      "icon": "image"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "End-to-end Amazon oversight across ads, listings, and operations.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request a DSP strategy review",
+    "subheading": "Share Brand Registry status and budget intent. We assess readiness before recommending DSP—no invented ROAS claims.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon DSP Management Agency | eCom Gliders",
+    "metaDescription": "Amazon DSP management for upper-funnel reach and retargeting, aligned with Sponsored Ads and Amazon sales goals. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-dsp-management/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

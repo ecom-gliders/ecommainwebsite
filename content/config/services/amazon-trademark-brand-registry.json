@@ -1,0 +1,367 @@
+{
+  "slug": "amazon-trademark-brand-registry",
+  "breadcrumbLabel": "Trademark and Brand Registry",
+  "layout": "brand-pathway",
+  "hero": {
+    "title": "Brand Registry pathway support for Amazon sellers",
+    "subtitle": "Trademark readiness, enrollment guidance, and post-approval activation for A+, Stores, and brand protection—without posing as a law firm.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request Brand Registry guidance",
+      "subheading": "Share trademark status so we can outline the practical enrollment path for your brand.",
+      "submitLabel": "Request Brand Registry help",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "trademarkStatus",
+          "label": "Trademark status",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "registered",
+              "label": "Registered trademark"
+            },
+            {
+              "value": "pending",
+              "label": "Application pending"
+            },
+            {
+              "value": "not-started",
+              "label": "Not started"
+            },
+            {
+              "value": "unsure",
+              "label": "Not sure"
+            }
+          ]
+        },
+        {
+          "name": "registryGoal",
+          "label": "Primary goal",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "enroll",
+              "label": "Enroll in Brand Registry"
+            },
+            {
+              "value": "aplus",
+              "label": "Unlock A+ / Brand Store"
+            },
+            {
+              "value": "protection",
+              "label": "Brand protection tools"
+            },
+            {
+              "value": "full",
+              "label": "Full pathway support"
+            }
+          ]
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-trademark-brand-registry-service.jpg",
+      "alt": "Trademark and Brand Registry service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Brand Registry gets delayed",
+    "points": [
+      {
+        "title": "Unclear trademark path",
+        "description": "Filing, classes, specimens, and Amazon enrollment are often treated as separate projects."
+      },
+      {
+        "title": "Tools stay locked",
+        "description": "Without Brand Registry, A+ Content, Brand Stores, and many protection features stay unavailable."
+      },
+      {
+        "title": "Hijacks with fewer options",
+        "description": "Unauthorized offers are harder to contest without official brand ownership tools."
+      },
+      {
+        "title": "Enrollment blockers",
+        "description": "Mismatched brand records or weak specimens stall Amazon review."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Private-label brands without Brand Registry",
+        "description": "Sellers ready to protect a mark and unlock brand tools before scaling ads."
+      },
+      {
+        "title": "Brands blocked from A+ and Stores",
+        "description": "Teams that need enrollment before enhanced content can ship."
+      },
+      {
+        "title": "Accounts facing listing abuse",
+        "description": "Operators who need clearer ownership signals before enforcement workflows."
+      },
+      {
+        "title": "Entity and brand setup together",
+        "description": "Teams aligning company registration, trademark pathway, and Brand Registry."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How pathway support runs",
+    "steps": [
+      {
+        "title": "Eligibility review",
+        "description": "Review brand name, logo usage, catalog status, and account details."
+      },
+      {
+        "title": "Trademark pathway guidance",
+        "description": "Outline filing steps and documentation relevant to Brand Registry enrollment."
+      },
+      {
+        "title": "Enrollment support",
+        "description": "Help prepare Brand Registry materials and resolve common blockers."
+      },
+      {
+        "title": "Post-enrollment activation",
+        "description": "Connect approval to A+, Stores, catalog control, and protection workflows."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Brand Registry support covers",
+    "items": [
+      {
+        "title": "Brand readiness assessment",
+        "description": "Review of trademark status, brand assets, and Amazon account prerequisites."
+      },
+      {
+        "title": "USPTO process guidance",
+        "description": "Direction on filing steps, classes, and documentation commonly needed for Brand Registry."
+      },
+      {
+        "title": "Specimen and brand asset review",
+        "description": "Checks that brand presentation supports trademark and enrollment requirements."
+      },
+      {
+        "title": "Brand Registry application support",
+        "description": "Assistance preparing and submitting enrollment materials."
+      },
+      {
+        "title": "Issue resolution support",
+        "description": "Help addressing common delays, mismatches, and Amazon follow-up requests."
+      },
+      {
+        "title": "Post-enrollment feature roadmap",
+        "description": "Prioritized plan for A+, Brand Store, and protection tools after approval."
+      },
+      {
+        "title": "Coordination with catalog and content",
+        "description": "Brand Registry access connected to listing, creative, and catalog workstreams."
+      },
+      {
+        "title": "Entity and ownership alignment check",
+        "description": "Review that trademark owner, brand name, and Seller Central details are consistent."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "brand-pathway-board",
+      "type": "brandPathwayBoard",
+      "heading": "Trademark to Brand Registry pipeline",
+      "subheading": "Where most sellers sit today—and what must be true before Amazon enrollment can proceed.",
+      "urlLabel": "brand.ecomgliders.com/pathway",
+      "disclaimer": "Planning pathway only. Not legal advice. Amazon and trademark offices set their own timelines.",
+      "stages": [
+        {
+          "label": "Mark readiness",
+          "detail": "Confirm distinctive brand name or logo and goods/services scope that can support a filing.",
+          "state": "done"
+        },
+        {
+          "label": "Trademark filing",
+          "detail": "Application with a recognized trademark office. Attorney involvement when the matter requires it.",
+          "state": "current"
+        },
+        {
+          "label": "Brand Registry enrollment",
+          "detail": "Submit eligible trademark details, brand assets, and account alignment for Amazon review.",
+          "state": "upcoming"
+        },
+        {
+          "label": "Tool activation",
+          "detail": "Plan A+, Brand Store, analytics, and protection workflows after enrollment succeeds.",
+          "state": "upcoming"
+        }
+      ],
+      "variant": "rail"
+    },
+    {
+      "id": "brand-unlock-grid",
+      "type": "brandUnlockGrid",
+      "heading": "What Brand Registry unlocks when you qualify",
+      "subheading": "Tools commonly available after enrollment. Exact access still depends on Amazon approval.",
+      "note": "Feature availability varies by marketplace and account. We do not guarantee every tool for every mark.",
+      "items": [
+        {
+          "title": "A+ Content",
+          "description": "Enhanced modules that educate shoppers beyond standard bullets and images.",
+          "unlocked": true
+        },
+        {
+          "title": "Brand Store",
+          "description": "A branded storefront for collections and storytelling after enrollment.",
+          "unlocked": true
+        },
+        {
+          "title": "Brand Analytics",
+          "description": "Search and performance reports that inform listing and advertising decisions.",
+          "unlocked": true
+        },
+        {
+          "title": "Report a Violation",
+          "description": "Official pathways to report infringing or unauthorized uses of your brand.",
+          "unlocked": false
+        }
+      ]
+    }
+  ],
+  "results": {
+    "heading": "Results from brand-ready Amazon growth work",
+    "items": [
+      {
+        "metric": "7-figure brand in 9 months",
+        "brand": "FocusForm (Office products)",
+        "description": "Scaled from a single ASIN to a multi-product 7-figure brand with catalog expansion and brand defense—the operating model Brand Registry supports.",
+        "href": "/case-study-8/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Listing and PPC restructuring after brand foundations were in place. Not a claim that trademark filing alone caused the result.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do I need a trademark for Amazon Brand Registry?",
+      "answer": "Yes. Amazon Brand Registry generally requires an eligible registered or pending trademark from a recognized trademark office. Country-specific rules apply. We review your current status and the practical path to enrollment during the free audit."
+    },
+    {
+      "question": "Do you file trademarks as a law firm?",
+      "answer": "No. We provide process guidance and Brand Registry application support for sellers. When attorney representation is required, we discuss that during scoping rather than presenting agency support as legal counsel."
+    },
+    {
+      "question": "How long does Brand Registry enrollment take?",
+      "answer": "Timelines depend on trademark status and Amazon review. Enrollment is typically faster when a qualifying trademark record already exists and brand details match Amazon requirements. We do not guarantee approval timelines."
+    },
+    {
+      "question": "What can I unlock after Brand Registry approval?",
+      "answer": "Common unlocks include A+ Content, Brand Stores, and brand protection tools. Exact features depend on Amazon program availability for your account and marketplace."
+    },
+    {
+      "question": "Can you help if my Brand Registry application was rejected?",
+      "answer": "Yes. We review rejection reasons, documentation gaps, and brand detail mismatches, then outline corrective next steps. Outcomes still depend on Amazon and trademark office review."
+    },
+    {
+      "question": "Is Brand Registry only useful for large brands?",
+      "answer": "No. Growing sellers benefit from protection tools and enhanced content earlier, especially before scaling advertising and catalog size."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support Brand Registry and related brand-setup work for catalogs selling across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Trademark office requirements are country-specific; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a readiness review, trademark pathway plan, then Brand Registry enrollment support."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Company Registration",
+      "description": "US entity setup support for sellers preparing to operate and brand properly.",
+      "href": "/amazon-company-registration/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Content Writing",
+      "description": "A+ and listing copy unlocked after Brand Registry enrollment.",
+      "href": "/amazon-content-writing/",
+      "icon": "file-text"
+    },
+    {
+      "title": "Catalog Management",
+      "description": "Cleaner catalog control once brand tools are available.",
+      "href": "/amazon-catalog-management/",
+      "icon": "layers"
+    }
+  ],
+  "cta": {
+    "heading": "Request Brand Registry pathway guidance",
+    "subheading": "Share trademark status. We outline enrollment blockers and next steps—no invented approval timelines.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Brand Registry and Trademark Support | eCom Gliders",
+    "metaDescription": "Amazon Brand Registry and trademark pathway support for sellers who need protection tools, A+ Content access, and clearer enrollment guidance. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-trademark-brand-registry/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "target": {
+    "id": "service",
+    "path": "/amazon-ppc-management-agency/",
+    "name": "Service page"
+  },
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "violations": []
+}

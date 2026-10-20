@@ -1,0 +1,369 @@
+{
+  "header": {
+    "height": "64px",
+    "sticky": true,
+    "logoHref": "/",
+    "items": [
+      {
+        "id": "services",
+        "label": "Services",
+        "type": "megaMenu",
+        "href": "/services/"
+      },
+      {
+        "id": "case-studies",
+        "label": "Case Studies",
+        "type": "megaMenu",
+        "href": "/case-studies/"
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "type": "link",
+        "href": "/about-us/"
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "type": "megaMenu",
+        "href": "/blog/"
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "type": "link",
+        "href": "/contact/"
+      }
+    ],
+    "cta": {
+      "label": "Free Audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "megaMenus": {
+    "services": {
+      "compact": true,
+      "columns": [
+        {
+          "id": "advertising-growth",
+          "title": "Advertising and Growth",
+          "links": [
+            {
+              "label": "Amazon Account Management",
+              "href": "/full-service-amazon-agency/",
+              "description": "Full-service growth and oversight",
+              "featured": true
+            },
+            {
+              "label": "Amazon PPC Management",
+              "href": "/amazon-ppc-management-agency/",
+              "description": "Sponsored ads with ACOS control"
+            },
+            {
+              "label": "Amazon DSP",
+              "href": "/amazon-dsp-management/",
+              "description": "Upper-funnel and retargeting"
+            },
+            {
+              "label": "Reporting and Analytics",
+              "href": "/amazon-reporting-analytics/",
+              "description": "Clear weekly and monthly metrics"
+            }
+          ]
+        },
+        {
+          "id": "catalog-content",
+          "title": "Catalog and Content",
+          "links": [
+            {
+              "label": "Listing Optimization and SEO",
+              "href": "/amazon-listing-optimization/",
+              "description": "Rankings and conversion copy"
+            },
+            {
+              "label": "Content Writing",
+              "href": "/amazon-content-writing/",
+              "description": "Titles, bullets, and A+ content"
+            },
+            {
+              "label": "Visual Creativity",
+              "href": "/amazon-visual-creativity/",
+              "description": "Photography and A+ design"
+            },
+            {
+              "label": "Video Creative",
+              "href": "/amazon-video-creative/",
+              "description": "Listing and advertising video"
+            },
+            {
+              "label": "Catalog Management",
+              "href": "/amazon-catalog-management/",
+              "description": "Health, suppressions, variations"
+            }
+          ]
+        },
+        {
+          "id": "brand-operations",
+          "title": "Brand and Operations",
+          "links": [
+            {
+              "label": "Trademark and Brand Registry",
+              "href": "/amazon-trademark-brand-registry/",
+              "description": "USPTO and Brand Registry"
+            },
+            {
+              "label": "Company Registration",
+              "href": "/amazon-company-registration/",
+              "description": "US entity setup for sellers"
+            },
+            {
+              "label": "Product Sourcing",
+              "href": "/amazon-product-sourcing/",
+              "description": "Supplier research for new ASINs"
+            }
+          ]
+        },
+        {
+          "id": "channels-dtc",
+          "title": "Channels and DTC",
+          "links": [
+            {
+              "label": "Shopify and Website Development",
+              "href": "/shopify-website-development/",
+              "description": "Storefronts and site builds"
+            },
+            {
+              "label": "TikTok Shop Ads",
+              "href": "/tiktok-shop-ads/",
+              "description": "Shop ads and product discovery"
+            },
+            {
+              "label": "Email and Retention Marketing",
+              "href": "/email-retention-marketing/",
+              "description": "Lifecycle email and retention"
+            }
+          ]
+        }
+      ],
+      "footerLink": {
+        "label": "All services",
+        "href": "/services/"
+      },
+      "ctaPanel": {
+        "eyebrow": "Amazon Ads Verified Partner",
+        "metric": "$112M+ managed",
+        "title": "Free account audit",
+        "body": "PPC, listings, and growth opportunities reviewed by our in-house team.",
+        "button": {
+          "label": "Get Free Audit",
+          "href": "/free-audit-2/"
+        },
+        "phone": {
+          "display": "+1 (360) 660-1210",
+          "tel": "+13606601210"
+        }
+      }
+    },
+    "case-studies": {
+      "compact": true,
+      "columns": [
+        {
+          "id": "featured-results",
+          "title": "Featured results",
+          "links": [
+            {
+              "label": "GoSports — 310% sales increase",
+              "href": "/case-study-9/",
+              "description": "PPC and account management"
+            },
+            {
+              "label": "Kitchen brand — 73% sales growth",
+              "href": "/case-study-1/",
+              "description": "Catalog and listing optimization"
+            },
+            {
+              "label": "Supplement launch — 500 units in 30 days",
+              "href": "/case-study-2/",
+              "description": "Product launch and PPC"
+            }
+          ]
+        },
+        {
+          "id": "by-focus",
+          "title": "Browse by focus",
+          "links": [
+            {
+              "label": "PPC case studies",
+              "href": "/case-studies/",
+              "description": "Advertising efficiency and scale"
+            },
+            {
+              "label": "Account management",
+              "href": "/case-studies/",
+              "description": "Full-service growth programs"
+            },
+            {
+              "label": "Listing optimization",
+              "href": "/case-studies/",
+              "description": "Conversion and ranking wins"
+            },
+            {
+              "label": "Product launches",
+              "href": "/case-studies/",
+              "description": "New ASIN go-to-market results"
+            }
+          ]
+        }
+      ],
+      "footerLink": {
+        "label": "View all case studies",
+        "href": "/case-studies/"
+      }
+    },
+    "blog": {
+      "compact": true,
+      "columns": [
+        {
+          "id": "topics",
+          "title": "Topics",
+          "links": [
+            {
+              "label": "Amazon PPC",
+              "href": "/blog/",
+              "description": "Campaign structure and ACOS"
+            },
+            {
+              "label": "Amazon SEO",
+              "href": "/blog/",
+              "description": "Ranking and listing strategy"
+            },
+            {
+              "label": "Account management",
+              "href": "/blog/",
+              "description": "Operations and growth systems"
+            },
+            {
+              "label": "Brand growth",
+              "href": "/blog/",
+              "description": "Scaling and marketplace strategy"
+            }
+          ]
+        },
+        {
+          "id": "recent",
+          "title": "Recent articles",
+          "links": [
+            {
+              "label": "When Should You Use Sponsored Display Ads?",
+              "href": "/when-should-you-use-sponsored-display-ads/",
+              "description": "July 20, 2026"
+            },
+            {
+              "label": "The Amazon PPC Formula That Scales Without Wasting Budget",
+              "href": "/amazon-ppc-formula-that-scales-without-wasting-budget/",
+              "description": "July 17, 2026"
+            },
+            {
+              "label": "How to Launch a New Product with Strong Amazon SEO",
+              "href": "/launch-new-product-amazon-seo-2026/",
+              "description": "July 16, 2026"
+            }
+          ]
+        }
+      ],
+      "footerLink": {
+        "label": "View all articles",
+        "href": "/blog/"
+      }
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "id": "brand",
+        "title": "eCom Gliders",
+        "type": "brand"
+      },
+      {
+        "id": "services",
+        "title": "Services",
+        "links": [
+          {
+            "label": "All services",
+            "href": "/services/"
+          },
+          {
+            "label": "Amazon Account Management",
+            "href": "/full-service-amazon-agency/"
+          },
+          {
+            "label": "Amazon PPC Management",
+            "href": "/amazon-ppc-management-agency/"
+          },
+          {
+            "label": "Listing Optimization and SEO",
+            "href": "/amazon-listing-optimization/"
+          },
+          {
+            "label": "Shopify and Website Development",
+            "href": "/shopify-website-development/"
+          },
+          {
+            "label": "TikTok Shop Ads",
+            "href": "/tiktok-shop-ads/"
+          },
+          {
+            "label": "Trademark and Brand Registry",
+            "href": "/amazon-trademark-brand-registry/"
+          }
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company",
+        "links": [
+          {
+            "label": "About",
+            "href": "/about-us/"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies/"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          },
+          {
+            "label": "Free Audit",
+            "href": "/free-audit-2/"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "type": "contact"
+      }
+    ],
+    "legal": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy-2/"
+      },
+      {
+        "label": "Terms and Conditions",
+        "href": "/terms-conditions-2/"
+      }
+    ]
+  },
+  "mobile": {
+    "menuLabel": "Open navigation menu",
+    "closeLabel": "Close navigation menu",
+    "servicesExpandLabel": "Services"
+  }
+}

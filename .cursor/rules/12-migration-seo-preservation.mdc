@@ -1,0 +1,39 @@
+---
+description: eCom Gliders website migration and blog URL preservation
+alwaysApply: true
+---
+
+# Migration and SEO Preservation
+
+## Project
+
+Migrate https://ecomgliders.com/ to custom code.
+Current phase: Planning and audit only. No development until approved.
+
+## Blog migration (non-negotiable)
+
+All existing blog posts must migrate with identical URL paths.
+Example: if current URL is `/blog/post-slug/`, new site must serve the same path.
+
+## Before any URL change
+
+1. Export full URL inventory from current site
+2. Document in `docs/seo/URL-INVENTORY.md`
+3. Get explicit approval for any path that cannot be preserved
+4. Implement 301 redirect with mapping table
+5. Verify in staging before production cutover
+
+## Content preservation
+
+Preserve post title, body content, publish date, modified date, author, categories, tags, featured image, meta title, meta description, canonical URL, Open Graph data, structured data.
+
+## Current site services (reference)
+
+Amazon PPC, full account management, content writing, visual creativity, search ranking optimization, catalog management, reporting, and related agency services.
+
+## Audit before build
+
+Complete website audit per `obsidian/09-Research/Current-Site-Audit.md` before any implementation.
+Output KEEP, REMOVE, IMPROVE, REPLACE, INTRODUCE lists.
+
+Load skill `.cursor/skills/migration-audit/SKILL.md` for migration workflow.

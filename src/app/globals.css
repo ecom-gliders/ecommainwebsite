@@ -1,0 +1,847 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primaryDark);
+  --color-accent: var(--color-accent);
+  --color-accent-alt: var(--color-accentAlt);
+  --color-brand-cyan: var(--color-brandCyan);
+  --color-brand-yellow: var(--color-brandYellow);
+  --color-brand-mint: var(--color-brandMint);
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-surface-muted: var(--color-surfaceMuted);
+  --color-text-primary: var(--color-textPrimary);
+  --color-text-secondary: var(--color-textSecondary);
+  --color-text-on-dark: var(--color-textOnDark);
+  --color-link: var(--color-link);
+  --color-link-hover: var(--color-linkHover);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-borderStrong);
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+
+  --font-sans: "Satoshi", var(--font-ibm-plex-sans), system-ui, sans-serif;
+  --font-display: "Satoshi", var(--font-ibm-plex-sans), system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+  --font-hand: var(--font-caveat), "Caveat", cursive;
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-full: var(--radius-full);
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-header: var(--shadow-header);
+
+  --animate-trust-marquee: trust-marquee 32s linear infinite;
+  --animate-trust-marquee-reverse: trust-marquee-reverse 36s linear infinite;
+  --animate-checklist-ticker: checklist-ticker 42s linear infinite;
+  --animate-checklist-ticker-reverse: checklist-ticker-reverse 48s linear infinite;
+  --animate-pain-checklist: pain-checklist 28s linear infinite;
+  --animate-swing-callout: comparison-swing 3.8s ease-in-out infinite;
+  --animate-promo-cta-bounce: promo-cta-bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes trust-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes trust-marquee-reverse {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes checklist-ticker {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes checklist-ticker-reverse {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pain-checklist {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes hero-orbit-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -10px;
+  }
+}
+
+/* Handwritten callout next to comparison subcopy (PO-style swing) */
+@keyframes comparison-swing {
+  0%,
+  100% {
+    transform: rotate(-9deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+/* Promo top-bar CTA — always-on soft bounce (intentional attention cue) */
+@keyframes promo-cta-bounce {
+  0%,
+  100% {
+    transform: scale(1) translateY(0);
+  }
+  40% {
+    transform: scale(1.05) translateY(-1.5px);
+  }
+  60% {
+    transform: scale(0.985) translateY(0);
+  }
+}
+
+/* Creative showcase pill hover float */
+@keyframes creative-float-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes pain-bubble-spawn {
+  0% {
+    opacity: 0;
+    scale: 0.72;
+  }
+  12% {
+    opacity: 1;
+    scale: 1;
+  }
+  78% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0.92;
+  }
+}
+
+/* Framer-style rotating border light — transform spin (reliable vs @property) */
+@keyframes beam-rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@layer utilities {
+  .btn-border-beam {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-radius: 9999px;
+    /* No solid stroke — only the traveling beam shows in the padding gap */
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .btn-border-beam::before {
+    content: "";
+    position: absolute;
+    inset: -45%;
+    z-index: 0;
+    background: conic-gradient(
+      from 0deg,
+      transparent 0%,
+      transparent 58%,
+      var(--beam-from, #ffffff) 68%,
+      var(--beam-to, #e47911) 74%,
+      var(--color-accent, #e47911) 80%,
+      transparent 88%,
+      transparent 100%
+    );
+    animation: beam-rotate 2.4s linear infinite;
+    will-change: transform;
+  }
+
+  .btn-border-beam-fill {
+    position: relative;
+    z-index: 1;
+    border-radius: inherit;
+    /* Reckap-style inner fill: primary → secondary/accent, 90deg */
+    background-color: var(--color-primary);
+    background-image:
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, #ffffff 14%, transparent) 0%,
+        transparent 45%,
+        color-mix(in srgb, #000000 18%, transparent) 100%
+      ),
+      var(
+        --cta-beam-fill,
+        var(
+          --proposed-cta-fill,
+          linear-gradient(
+            135deg,
+            var(--color-primary) 0%,
+            var(--color-primary) 42%,
+            color-mix(in srgb, var(--color-primary) 55%, var(--color-accent)) 72%,
+            var(--color-accent) 100%
+          )
+        )
+      );
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.22),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.28);
+  }
+
+  /* Always-on CTA beam (same exception pattern as trust marquee) */
+  @media (prefers-reduced-motion: reduce) {
+    .btn-border-beam::before {
+      animation: beam-rotate 2.4s linear infinite !important;
+    }
+  }
+
+  /* Project One CTA: idle → ; hover rotates to upright ↗ (OS-independent) */
+  .po-btn-arrow {
+    transition: transform 0.2s ease-out;
+    transform-origin: center;
+    will-change: transform;
+  }
+
+  .group\/po-btn:hover .po-btn-arrow,
+  .group\/po-btn:focus-visible .po-btn-arrow,
+  .group\/po-btn[data-po-hover="true"] .po-btn-arrow {
+    transform: rotate(-45deg);
+  }
+
+  .group\/po-btn {
+    transition:
+      transform 0.2s ease-out,
+      box-shadow 0.2s ease-out,
+      background-color 0.2s ease-out,
+      color 0.2s ease-out;
+  }
+
+  .group\/po-btn:hover,
+  .group\/po-btn[data-po-hover="true"] {
+    transform: translate(1px, 1px);
+    box-shadow: 3px 3px 0 0 #0b1b3a;
+  }
+
+  .group\/po-btn:active {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0 0 #0b1b3a;
+  }
+
+  /* Fixed CTA icon slot: idle = filled dot; hover = bounce to glyph */
+  .btn-cta-icon {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 8px;
+  }
+
+  .btn-cta-icon.h-3\.5,
+  .btn-cta-icon.w-3\.5 {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  .btn-cta-icon.h-4,
+  .btn-cta-icon.w-4 {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .btn-cta-icon.h-5,
+  .btn-cta-icon.w-5 {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  /* Filled dot — springs out on hover */
+  .btn-cta-icon__dot {
+    position: absolute;
+    inset: 30%;
+    border-radius: 9999px;
+    background-color: currentColor;
+    opacity: 1;
+    transform: scale(1);
+    transition:
+      opacity 0.2s ease,
+      transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .btn-cta-icon__glyph {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(0.35);
+    transition:
+      opacity 0.18s ease,
+      transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    color: currentColor;
+    pointer-events: none;
+  }
+
+  .btn-cta-icon__glyph svg {
+    width: 88% !important;
+    height: 88% !important;
+  }
+
+  .group:hover .btn-cta-icon__dot,
+  .group:focus-visible .btn-cta-icon__dot,
+  .group\/btn:hover .btn-cta-icon__dot,
+  .group\/btn:focus-visible .btn-cta-icon__dot {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+
+  .group:hover .btn-cta-icon__glyph,
+  .group:focus-visible .btn-cta-icon__glyph,
+  .group\/btn:hover .btn-cta-icon__glyph,
+  .group\/btn:focus-visible .btn-cta-icon__glyph {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .btn-cta-icon__dot,
+    .btn-cta-icon__glyph {
+      transition-duration: 0.2s !important;
+      transition-timing-function: ease !important;
+    }
+  }
+
+  /* Framer-inspired galaxy CTA: dark glass fill + bloom (accent only in glow) */
+  .btn-galaxy {
+    isolation: isolate;
+    overflow: hidden;
+    background-color: var(--color-primary-dark, var(--color-primary));
+    background-image:
+      radial-gradient(
+        ellipse 80% 70% at 50% 115%,
+        color-mix(in srgb, var(--color-accent) 42%, transparent) 0%,
+        transparent 55%
+      ),
+      radial-gradient(
+        ellipse 90% 60% at 50% -20%,
+        color-mix(in srgb, #ffffff 14%, transparent) 0%,
+        transparent 50%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--color-primary) 78%, #ffffff) 0%,
+        var(--color-primary) 45%,
+        var(--color-primary-dark, var(--color-primary)) 100%
+      );
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, #ffffff 28%, transparent),
+      inset 0 -1px 0 color-mix(in srgb, #000000 40%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--color-accent) 28%, transparent),
+      0 14px 32px color-mix(in srgb, var(--color-primary) 40%, transparent),
+      0 22px 48px color-mix(in srgb, var(--color-accent) 28%, transparent),
+      0 32px 72px color-mix(in srgb, var(--color-accent) 18%, transparent);
+    transition:
+      transform 220ms ease,
+      box-shadow 280ms ease,
+      filter 280ms ease;
+  }
+
+  .btn-galaxy-sheen {
+    background:
+      radial-gradient(
+        circle at 20% 30%,
+        color-mix(in srgb, #ffffff 55%, transparent) 0 0.8px,
+        transparent 1.2px
+      ),
+      radial-gradient(
+        circle at 70% 55%,
+        color-mix(in srgb, #ffffff 45%, transparent) 0 0.6px,
+        transparent 1px
+      ),
+      radial-gradient(
+        circle at 45% 70%,
+        color-mix(in srgb, #ffffff 40%, transparent) 0 0.5px,
+        transparent 0.9px
+      ),
+      radial-gradient(
+        circle at 82% 28%,
+        color-mix(in srgb, #ffffff 50%, transparent) 0 0.7px,
+        transparent 1.1px
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, #ffffff 16%, transparent) 0%,
+        transparent 38%,
+        color-mix(in srgb, #000000 22%, transparent) 100%
+      );
+    background-size:
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%;
+    opacity: 0.9;
+  }
+
+  .btn-galaxy-wrap.is-active .btn-galaxy,
+  .btn-galaxy:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 color-mix(in srgb, #ffffff 34%, transparent),
+      inset 0 -1px 0 color-mix(in srgb, #000000 35%, transparent),
+      0 0 0 1px color-mix(in srgb, var(--color-accent) 45%, transparent),
+      0 0 22px color-mix(in srgb, var(--color-accent) 40%, transparent),
+      0 16px 40px color-mix(in srgb, var(--color-primary) 45%, transparent),
+      0 28px 64px color-mix(in srgb, var(--color-accent) 42%, transparent),
+      0 40px 90px color-mix(in srgb, var(--color-accent) 28%, transparent);
+    filter: saturate(1.06) brightness(1.03);
+  }
+
+  .btn-galaxy-wrap.is-active .btn-galaxy-sheen {
+    opacity: 1;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .btn-galaxy,
+    .btn-galaxy:hover,
+    .btn-galaxy-wrap.is-active .btn-galaxy {
+      transform: none;
+      transition: none;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--color-accent) 70%, var(--color-primary))
+      color-mix(in srgb, var(--color-surface) 80%, transparent);
+  }
+
+  html {
+    background-color: var(--color-background);
+    overflow-x: clip;
+  }
+
+  body {
+    @apply text-text-primary font-sans antialiased;
+    background-color: transparent;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: clip;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+
+    /* Decorative logo ticker stays continuous (user-requested always-on loop) */
+    .animate-trust-marquee {
+      animation: trust-marquee 32s linear infinite !important;
+    }
+
+    .animate-trust-marquee-reverse {
+      animation: trust-marquee-reverse 36s linear infinite !important;
+    }
+
+    .animate-checklist-ticker {
+      animation: checklist-ticker 42s linear infinite !important;
+    }
+
+    .animate-checklist-ticker-reverse {
+      animation: checklist-ticker-reverse 48s linear infinite !important;
+    }
+
+    .animate-pain-checklist {
+      animation: pain-checklist 28s linear infinite !important;
+    }
+
+    /* Handwritten swing notes stay looping (user-requested always-on) */
+    .animate-swing-callout {
+      animation: comparison-swing 3.8s ease-in-out infinite !important;
+    }
+
+    /* Promo flash cues — always on (user-requested even with OS reduce-motion) */
+    .promo-cta-pulse {
+      animation: promo-cta-bounce 1.5s ease-in-out infinite !important;
+      animation-iteration-count: infinite !important;
+    }
+
+    .promo-shimmer {
+      animation: promo-shimmer-sweep 3.2s ease-in-out infinite !important;
+      animation-iteration-count: infinite !important;
+    }
+
+    .promo-urgency-dot {
+      animation: promo-dot-blink 1.2s ease-in-out infinite !important;
+      animation-iteration-count: infinite !important;
+    }
+
+    /* CTA border beam stays continuous (user-approved Framer beam) */
+    .btn-border-beam::before {
+      animation: beam-rotate 2.4s linear infinite !important;
+    }
+
+    /* CTA icon bounce stays on hover */
+    .btn-cta-icon__dot,
+    .btn-cta-icon__glyph {
+      transition-duration: 0.35s !important;
+    }
+
+    /* Media hover zoom — OS-independent (user-requested) */
+    .media-hover-zoom {
+      transition-duration: 500ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    /* Service explorer image crossfade */
+    .service-explorer-stage img {
+      transition-duration: 500ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    /* Seller growth journey expand (OS-independent) */
+    .seller-journey-stage,
+    .seller-journey-panel,
+    .seller-journey-progress {
+      transition-duration: 300ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    /* Creative listing-frame image crossfade */
+    .creative-listing-stage img {
+      transition-duration: 500ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    .creative-listing-thumb {
+      transition-duration: 300ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    /* Case proof atmosphere zoom (OS-independent) */
+    .case-proof-media .media-hover-zoom {
+      transition-duration: 500ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    /* Project One CTA press + arrow upright (OS-independent) */
+    .group\/po-btn {
+      transition-duration: 200ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    .po-btn-arrow {
+      transition-duration: 200ms !important;
+      transition-timing-function: ease-out !important;
+    }
+
+    .group\/po-btn:hover .po-btn-arrow,
+    .group\/po-btn:focus-visible .po-btn-arrow,
+    .group\/po-btn[data-po-hover="true"] .po-btn-arrow {
+      transform: rotate(-45deg) !important;
+    }
+
+    /* Pain strip spawn bubbles (OS-independent) */
+    .animate-pain-bubble-spawn {
+      animation: pain-bubble-spawn 3.4s ease-out both !important;
+    }
+  }
+
+  /* Seller growth journey — connector fill + panel expand */
+  .seller-journey-progress {
+    transition-property: width;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  .seller-journey-panel {
+    transition-property: grid-template-rows, opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  /* Soft zoom on image hover — not gated by prefers-reduced-motion */
+  .media-hover-zoom {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+
+  .group:hover .media-hover-zoom,
+  .group:focus-within .media-hover-zoom {
+    transform: scale(1.05);
+  }
+
+  /* Trust marquee — soft fade where logos clip at edges */
+  .trust-marquee-fade {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%
+    );
+  }
+
+  .checklist-ticker-fade {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #000 6%,
+      #000 94%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      #000 6%,
+      #000 94%,
+      transparent 100%
+    );
+  }
+
+  .animate-checklist-ticker {
+    animation: checklist-ticker 42s linear infinite;
+  }
+
+  .animate-checklist-ticker-reverse {
+    animation: checklist-ticker-reverse 48s linear infinite;
+  }
+
+  /* Promo top-bar CTA — CSS bounce always (also forced under reduce-motion) */
+  .promo-cta-pulse {
+    animation: promo-cta-bounce 1.5s ease-in-out infinite;
+  }
+
+  .promo-shimmer {
+    animation: promo-shimmer-sweep 3.2s ease-in-out infinite;
+  }
+
+  .promo-urgency-dot {
+    animation: promo-dot-blink 1.2s ease-in-out infinite;
+  }
+
+  @keyframes promo-shimmer-sweep {
+    0% {
+      transform: translateX(-20%) skewX(-18deg);
+      opacity: 0;
+    }
+    35% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(420%) skewX(-18deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes promo-dot-blink {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.35;
+      transform: scale(0.85);
+    }
+  }
+
+  .pain-checklist-fade {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      #000 10%,
+      #000 78%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      #000 10%,
+      #000 78%,
+      transparent 100%
+    );
+  }
+
+  .animate-pain-checklist {
+    animation: pain-checklist 28s linear infinite;
+  }
+
+  .animate-pain-bubble-spawn {
+    animation: pain-bubble-spawn 3.4s ease-out both;
+    transform-origin: 20% 100%;
+  }
+
+  /* Branded page scrollbar (WebKit) */
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--color-surface);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      180deg,
+      var(--color-accent) 0%,
+      var(--color-primary) 100%
+    );
+    border-radius: 999px;
+    border: 2px solid var(--color-surface);
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+      180deg,
+      var(--color-accent-alt) 0%,
+      var(--color-primary) 100%
+    );
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: var(--color-surface);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-text-primary;
+    letter-spacing: -0.01em;
+  }
+
+  a:not([class]) {
+    @apply text-link underline-offset-4 hover:text-link-hover hover:underline;
+  }
+}
+
+@layer utilities {
+  .text-hero {
+    font-size: clamp(2.15rem, 8.2vw, 4.75rem);
+    /* PO fold: Satoshi 900 / lh 1 */
+    font-weight: 900;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+
+  .text-display {
+    font-size: clamp(2rem, 4vw, var(--text-display-size));
+    font-weight: var(--text-display-weight);
+    line-height: var(--text-display-line-height);
+  }
+
+  .text-h1 {
+    font-size: clamp(1.75rem, 3.5vw, var(--text-h1-size));
+    font-weight: var(--text-h1-weight);
+    line-height: var(--text-h1-line-height);
+  }
+
+  .text-h2 {
+    font-size: clamp(1.375rem, 2.5vw, var(--text-h2-size));
+    font-weight: var(--text-h2-weight);
+    line-height: var(--text-h2-line-height);
+  }
+
+  .text-h3 {
+    font-size: clamp(1.125rem, 2vw, var(--text-h3-size));
+    font-weight: var(--text-h3-weight);
+    line-height: var(--text-h3-line-height);
+  }
+
+  .text-h4 {
+    font-size: clamp(1rem, 1.5vw, var(--text-h4-size));
+    font-weight: var(--text-h4-weight);
+    line-height: var(--text-h4-line-height);
+  }
+
+  .text-body {
+    font-size: max(16px, var(--text-body-size));
+    font-weight: var(--text-body-weight);
+    line-height: var(--text-body-line-height);
+  }
+
+  .text-small {
+    font-size: max(14px, var(--text-small-size));
+    font-weight: var(--text-small-weight);
+    line-height: var(--text-small-line-height);
+  }
+
+  .text-stat {
+    font-size: clamp(1.5rem, 3vw, var(--text-stat-size));
+    font-weight: var(--text-stat-weight);
+    line-height: var(--text-stat-line-height);
+  }
+
+  .container-page {
+    /* AMZ Dudes shell band (~1320px). Side gutters scale by breakpoint. */
+    @apply mx-auto w-full max-w-[1320px] px-4 sm:px-5 md:px-6 lg:px-8 xl:px-10;
+  }
+}

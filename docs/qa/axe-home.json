@@ -1,0 +1,14 @@
+{
+  "target": {
+    "id": "home",
+    "path": "/",
+    "name": "Homepage"
+  },
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "violations": []
+}

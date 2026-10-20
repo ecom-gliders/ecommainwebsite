@@ -1,0 +1,14 @@
+{
+  "target": {
+    "id": "about",
+    "path": "/about-us/",
+    "name": "About page"
+  },
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "violations": []
+}

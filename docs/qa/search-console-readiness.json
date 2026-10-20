@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-02T03:47:31.092Z",
+  "baseUrl": "https://ecom-gliders.vercel.app",
+  "sitemapSubmitUrl": "https://ecom-gliders.vercel.app/sitemap.xml",
+  "robotsUrl": "https://ecom-gliders.vercel.app/robots.txt",
+  "urlCount": 343,
+  "checks": [
+    {
+      "id": "robots-http-200",
+      "status": "pass",
+      "detail": "https://ecom-gliders.vercel.app/robots.txt → HTTP 200"
+    },
+    {
+      "id": "sitemap-http-200",
+      "status": "pass",
+      "detail": "https://ecom-gliders.vercel.app/sitemap.xml → HTTP 200"
+    },
+    {
+      "id": "homepage-http-200",
+      "status": "pass",
+      "detail": "https://ecom-gliders.vercel.app/ → HTTP 200"
+    },
+    {
+      "id": "robots-references-sitemap",
+      "status": "pass",
+      "detail": "robots.txt includes Sitemap directive"
+    },
+    {
+      "id": "sitemap-xml-valid",
+      "status": "pass",
+      "detail": "urlset namespace present; 343 <loc> entries"
+    },
+    {
+      "id": "sitemap-blog-count",
+      "status": "pass",
+      "detail": "Expected at least 340 URLs (328 blog + static); found 343"
+    },
+    {
+      "id": "sitemap-canonical-host",
+      "status": "pass",
+      "detail": "Sitemap loc URLs use https://ecom-gliders.vercel.app"
+    }
+  ],
+  "readyForSearchConsole": true,
+  "submissionNote": "Submit sitemapSubmitUrl in Google Search Console → Sitemaps after property verification."
+}

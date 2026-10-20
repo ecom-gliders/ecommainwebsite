@@ -1,0 +1,202 @@
+{
+  "header": {
+    "subtitle": "eCom Gliders",
+    "title": "Design System Review",
+    "badge": "Phase 0 — Approved"
+  },
+  "skipLink": {
+    "label": "Skip to main content",
+    "target": "#main-content"
+  },
+  "sections": [
+    { "id": "brand", "number": 1, "title": "Brand Identity", "configKey": "brand", "usedOn": ["header", "footer", "homepage.hero"] },
+    { "id": "colors", "number": 2, "title": "Color Palette", "configKey": "colors", "usedOn": ["site-wide"] },
+    { "id": "typography", "number": 3, "title": "Typography", "configKey": "typography", "usedOn": ["site-wide"] },
+    { "id": "spacing", "number": 4, "title": "Spacing and Radius", "configKey": "spacing, radius", "usedOn": ["components.container", "cards", "sections"] },
+    { "id": "shadows", "number": 5, "title": "Shadows", "configKey": "shadows", "usedOn": ["cards", "header", "browser-mockup"] },
+    { "id": "buttons", "number": 6, "title": "Buttons", "configKey": "components.button", "usedOn": ["header.cta", "homepage.hero", "contact.form", "free-audit.form"] },
+    { "id": "badges", "number": 7, "title": "Badges and Tags", "configKey": "components.badge", "usedOn": ["service cards", "trust bar"] },
+    { "id": "cards", "number": 8, "title": "Cards", "configKey": "components.card", "usedOn": ["homepage.stats", "homepage.services"] },
+    { "id": "forms", "number": 9, "title": "Forms", "configKey": "components.form", "usedOn": ["contact.form", "free-audit.form"] },
+    { "id": "navigation", "number": 10, "title": "Navigation", "configKey": "components.navigation", "usedOn": ["header.navigation"] },
+    { "id": "footer", "number": 11, "title": "Footer", "configKey": "components.footer", "usedOn": ["site.footer"] },
+    { "id": "containers", "number": 12, "title": "Containers", "configKey": "components.container", "usedOn": ["all page sections"] },
+    { "id": "browser-mockup", "number": 13, "title": "Browser Mockup", "configKey": "components.browserMockup", "usedOn": ["homepage.hero", "service-ppc.hero", "free-audit.preview"] },
+    { "id": "motion", "number": 14, "title": "Motion", "configKey": "motion", "usedOn": ["browser-mockup", "cards", "hero"] },
+    { "id": "icons", "number": 15, "title": "Icons", "configKey": "icons", "usedOn": ["navigation", "service cards", "forms"] },
+    { "id": "usage", "number": 16, "title": "Usage Map", "configKey": "usage", "usedOn": ["documentation reference"] },
+    { "id": "accessibility", "number": 17, "title": "Accessibility", "configKey": "accessibility", "usedOn": ["site-wide — WCAG 2.1 AA target"] },
+    { "id": "animation-catalog", "number": 18, "title": "Motion Decision", "configKey": "motion", "usedOn": ["site-wide motion contract"] }
+  ],
+  "copy": {
+    "colors": {
+      "description": "Logo-driven palette: navy wordmark ({primary}), Amazon orange CTA ({accent}), and streak gradient (cyan, orange, mint) for accents only."
+    },
+    "typography": {
+      "description": "IBM Plex Sans — single-family system used by enterprise products. Avoids AI-startup fonts (Syne, Geist, Manrope). Same approach as Amazon Ember and Microsoft Aptos: one neutral humanist sans for headings and body.",
+      "samples": {
+        "display": "Display — Amazon growth partner",
+        "h1": "Heading 1 — Full-service Amazon agency",
+        "h2": "Heading 2 — Services and results",
+        "h3": "Heading 3 — Account management",
+        "h4": "Heading 4 — PPC optimization",
+        "body": "Body — We help Amazon sellers scale revenue with in-house specialists across PPC, listing optimization, and account management.",
+        "small": "Small — Published March 2026 · 8 min read",
+        "stat": "$112M+"
+      }
+    },
+    "buttons": {
+      "description": "PrimaryButton (sitewide): solid navy fill, hover Amazon orange, rounded-full. Trailing mark: filled dot idle → bounce to lucide-animated ArrowRight (18px). Secondary: underline text action — no gray filled box.",
+      "primary": "Primary CTA",
+      "secondary": "View case studies",
+      "link": "Learn more",
+      "disabled": "Disabled"
+    },
+    "badges": ["Amazon PPC", "Verified Partner", "Since 2018"],
+    "cards": {
+      "statTitle": "Stat Card",
+      "statDescription": "Revenue managed",
+      "serviceTitle": "Service Card",
+      "serviceDescription": "Amazon PPC Management — hover for motion",
+      "serviceBody": "Data-driven campaigns that lower ACOS and increase profitable sales."
+    },
+    "forms": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your Amazon business",
+      "submit": "Submit request",
+      "success": "Success state example",
+      "error": "Error state example"
+    },
+    "navigation": {
+      "links": ["Services", "Case Studies", "About", "Blog", "Contact"]
+    },
+    "footer": {
+      "description": "Pre-footer CTA band (navy background) plus 4-column link footer. CTA uses outline-on-dark button — white border and text on navy.",
+      "ctaTitle": "Ready to scale your Amazon business?",
+      "ctaButton": "Request a free audit",
+      "columns": ["Services", "Company", "Resources", "Contact"],
+      "linkPlaceholder": "Link item"
+    },
+    "containers": {
+      "sectionLabel": "Section wrapper — max-width 1280px"
+    },
+    "motion": {
+      "description": "Final decision: custom in-house minimal motion. Framer University shine, 3D flip, shader, stagger, and X-Ray effects rejected as too heavy. Hover the samples below.",
+      "primaryTitle": "PrimaryButton",
+      "primaryDetail": "Solid navy → accent fill; filled-dot bounce to lucide-animated arrow (18px)",
+      "primaryCta": "Hover me",
+      "cardTitle": "ElegantCard",
+      "cardDescription": "2px lift, soft shadow, border brighten — 300ms"
+    },
+    "animationCatalog": {
+      "description": "Framer University options reviewed. Custom minimal in-house motion selected — sleek, not heavy, enterprise-appropriate.",
+      "active": [
+        { "label": "PrimaryButton — solid fill + accent hover + icon bounce", "detail": "300ms color; spring icon bounce; lucide-animated ArrowRight" },
+        { "label": "ElegantCard — lift + border brighten", "detail": "300ms, soft shadow" }
+      ],
+      "rejected": "Shine sweep, 3D flip, staggered text, rotation, shader, X-Ray, border-beam, body-gradient CTA, LTR/RTL icon slides — too flashy or redundant with lucide-animated."
+    },
+    "accessibility": {
+      "implemented": [
+        "Body text minimum 16px (WCAG readable default)",
+        "Touch targets 44px height on buttons and inputs",
+        "Focus-visible rings on all interactive elements",
+        "prefers-reduced-motion respected globally and per component",
+        "Semantic HTML: headings, tables with scope",
+        "lang=\"en\" on document root",
+        "Skip to main content link (keyboard Tab from page load)",
+        "Viewport meta: device-width, scalable up to 5x",
+        "Fluid typography with clamp() — scales across breakpoints",
+        "Mobile section jump select with visible label",
+        "IBM Plex Sans — high legibility enterprise font"
+      ],
+      "planned": [
+        "Dark mode across all pages",
+        "Full WCAG AA contrast audit with evidence",
+        "Screen reader testing (NVDA / VoiceOver)",
+        "High contrast mode support",
+        "axe-core automated a11y tests in CI"
+      ],
+      "contrastSamples": {
+        "navy": "Navy on white text",
+        "accent": "Amazon orange CTA",
+        "secondary": "Secondary gray on white"
+      }
+    }
+  },
+  "icons": [
+    { "icon": "BarChart3", "label": "Analytics" },
+    { "icon": "TrendingUp", "label": "Growth" },
+    { "icon": "Shield", "label": "Trust" },
+    { "icon": "Star", "label": "Reviews" },
+    { "icon": "Mail", "label": "Contact" },
+    { "icon": "Phone", "label": "Phone" },
+    { "icon": "CheckCircle2", "label": "Success" },
+    { "icon": "ArrowRight", "label": "CTA" }
+  ],
+  "reviewChecklist": {
+    "eyebrow": "On-page review",
+    "title": "Phase 0 checklist — test here before approval",
+    "description": "Tick each item as you verify it on this page. Progress saves in your browser.",
+    "storageKey": "ecom-gliders-review-checklist",
+    "items": [
+      {
+        "id": "skip-link",
+        "label": "Skip to main content",
+        "hint": "Reload page → press Tab once → Skip link appears."
+      },
+      {
+        "id": "responsive",
+        "label": "Responsive layout",
+        "hint": "Ctrl+Shift+M → test 375px, 768px, 1280px — no horizontal overflow."
+      },
+      {
+        "id": "buttons",
+        "label": "Button hierarchy",
+        "hint": "Section 6 → Primary CTA + underline text secondary (no gray box)."
+      }
+    ]
+  },
+  "a11yGuide": {
+    "title": "How to test accessibility yourself",
+    "subtitle": "Run these checks on /design-system before Phase 0 approval.",
+    "steps": [
+      {
+        "title": "Keyboard navigation",
+        "detail": "Reload the page, press Tab once — Skip link should appear. Tab through buttons and form fields on this page."
+      },
+      {
+        "title": "Chrome Lighthouse",
+        "detail": "DevTools (F12) → Lighthouse tab → select Accessibility → Analyze page load. Target score 90+."
+      },
+      {
+        "title": "axe DevTools",
+        "detail": "Install the axe Accessibility Linter extension → open DevTools → axe tab → Scan ALL of my page."
+      },
+      {
+        "title": "Contrast check",
+        "detail": "Use WebAIM Contrast Checker (webaim.org/resources/contrastchecker) on navy {primary} and Amazon orange {accent} against white."
+      },
+      {
+        "title": "Reduced motion",
+        "detail": "Windows: Settings → Accessibility → Visual effects → Animation effects Off. macOS: System Settings → Accessibility → Display → Reduce motion."
+      },
+      {
+        "title": "Responsive preview",
+        "detail": "DevTools → Toggle device toolbar (Ctrl+Shift+M). Test 375px (iPhone), 768px (iPad), 1280px (desktop)."
+      },
+      {
+        "title": "Screen reader",
+        "detail": "Windows Narrator (Win+Ctrl+Enter) or NVDA (free). macOS VoiceOver (Cmd+F5). Verify headings and table labels are announced."
+      }
+    ]
+  },
+  "mobileNav": {
+    "label": "Jump to section",
+    "placeholder": "Select a section"
+  }
+}

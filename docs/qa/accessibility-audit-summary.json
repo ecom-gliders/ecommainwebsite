@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-09-02T03:40:40.922Z",
+  "standard": "WCAG 2.1 Level AA",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pagesAudited": 6,
+  "totalViolations": 0,
+  "pages": [
+    {
+      "id": "home",
+      "name": "Homepage",
+      "path": "/",
+      "violationCount": 0,
+      "violations": []
+    },
+    {
+      "id": "service",
+      "name": "Service page",
+      "path": "/amazon-ppc-management-agency/",
+      "violationCount": 0,
+      "violations": []
+    },
+    {
+      "id": "blog",
+      "name": "Blog post",
+      "path": "/when-should-you-use-sponsored-display-ads/",
+      "violationCount": 0,
+      "violations": []
+    },
+    {
+      "id": "contact",
+      "name": "Contact page",
+      "path": "/contact/",
+      "violationCount": 0,
+      "violations": []
+    },
+    {
+      "id": "about",
+      "name": "About page",
+      "path": "/about-us/",
+      "violationCount": 0,
+      "violations": []
+    },
+    {
+      "id": "case-studies",
+      "name": "Case studies index",
+      "path": "/case-studies/",
+      "violationCount": 0,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+---
+description: Architecture, SOLID, OOP, and design patterns for eCom Gliders
+alwaysApply: true
+---
+
+# Architecture and Design Patterns
+
+## Principles
+
+- Separation of concerns, modularity, explicit boundaries, testability
+- Small cohesive modules, predictable data flow
+- No god objects, no global mutable state, no circular dependencies
+
+## SOLID (apply intentionally)
+
+- Single Responsibility: one reason to change per module
+- Open/Closed: extend via abstractions only where extension is expected
+- Liskov Substitution: subtypes preserve behavioral contracts
+- Interface Segregation: focused interfaces over large ones
+- Dependency Inversion: business logic does not depend on infrastructure directly
+
+## OOP rules
+
+- Composition over inheritance
+- Domain logic independent from UI and persistence
+- External services behind clear boundaries
+- Dependency injection only where it improves testability
+
+## Allowed patterns (with documented WHY)
+
+Repository, Service, Factory, Strategy, Adapter, Observer, State, Builder, Facade, Command, Specification.
+
+Before introducing a pattern, document WHY, TRADEOFF, and ALTERNATIVE in `obsidian/12-Decisions/`.
+
+## Architecture decisions
+
+Every decision must answer: problem solved, why this pattern, simpler alternative rejected, maintenance cost, scaling implication, testing strategy.
+
+Read `obsidian/03-Architecture/System-Architecture.md` before structural changes.

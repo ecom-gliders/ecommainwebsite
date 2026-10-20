@@ -1,0 +1,30 @@
+{
+  "deployedAt": "2026-09-02T03:40:00.000Z",
+  "platform": "Vercel",
+  "scope": "faizanmayo786s-projects",
+  "project": "ecom-gliders",
+  "stagingUrl": "https://ecom-gliders.vercel.app",
+  "deploymentUrl": "https://ecom-gliders-do9nipg8f-faizanmayo786s-projects.vercel.app",
+  "inspectorUrl": "https://vercel.com/faizanmayo786s-projects/ecom-gliders/FM2ezgf5XHz7fg4XEBT6aSKVRD3J",
+  "buildResult": {
+    "status": "READY",
+    "staticPages": 350,
+    "region": "iad1"
+  },
+  "verifiedUrls": [
+    { "path": "/", "status": 200 },
+    { "path": "/sitemap.xml", "status": 200 },
+    { "path": "/when-should-you-use-sponsored-display-ads/", "status": 200 },
+    { "path": "/amazon-ppc-management-agency/", "status": 200 }
+  ],
+  "accessibilityStaging": {
+    "command": "PLAYWRIGHT_BASE_URL=https://ecom-gliders.vercel.app npm run test:a11y",
+    "result": "6/6 pass, 0 violations"
+  },
+  "canonicalVerified": "https://ecom-gliders.vercel.app/",
+  "notes": [
+    "First deploy assigned to production alias on Vercel project.",
+    "Set NEXT_PUBLIC_SITE_URL=https://ecom-gliders.vercel.app for staging canonicals; use https://ecomgliders.com at production cutover.",
+    "Added .vercelignore to exclude backup/ and large QA artifacts from future uploads."
+  ]
+}

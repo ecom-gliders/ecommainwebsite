@@ -1,0 +1,422 @@
+{
+  "slug": "amazon-reporting-analytics",
+  "breadcrumbLabel": "Reporting and Analytics",
+  "layout": "reporting-ops",
+  "hero": {
+    "title": "Amazon reporting for decisions—not export dumps",
+    "subtitle": "Weekly and monthly metrics structured so owners see what drives sales, advertising efficiency, and catalog priorities. Specialist-led reviews—not a BI software product.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a reporting setup review",
+      "subheading": "Tell us how you report today so we can propose clearer Amazon decision reviews.",
+      "submitLabel": "Request reporting review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "reportFrequency",
+          "label": "Reporting frequency needed",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "weekly",
+              "label": "Weekly"
+            },
+            {
+              "value": "biweekly",
+              "label": "Biweekly"
+            },
+            {
+              "value": "monthly",
+              "label": "Monthly"
+            },
+            {
+              "value": "custom",
+              "label": "Custom cadence"
+            }
+          ]
+        },
+        {
+          "name": "reportFocus",
+          "label": "Primary metrics focus",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "ads",
+              "label": "Advertising efficiency"
+            },
+            {
+              "value": "sales",
+              "label": "Sales and growth"
+            },
+            {
+              "value": "catalog",
+              "label": "Catalog health"
+            },
+            {
+              "value": "executive",
+              "label": "Executive summary"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-reporting-analytics-service.jpg",
+      "alt": "Reporting and Analytics service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon reporting fails sellers",
+    "points": [
+      {
+        "title": "Exports without decisions",
+        "description": "Downloads pile up. Teams see numbers but not which actions to take."
+      },
+      {
+        "title": "Conflicting metrics",
+        "description": "Sales, ACoS, and ranking move independently without a shared framework."
+      },
+      {
+        "title": "Ads disconnected from inventory",
+        "description": "Advertising looks fine while stockouts erase profit."
+      },
+      {
+        "title": "Manual stakeholder decks",
+        "description": "Operators rebuild summaries each cycle instead of a reliable cadence."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Owners who need verifiable updates",
+        "description": "Founders who want weekly and monthly views tied to sales, ACoS, and catalog health."
+      },
+      {
+        "title": "Teams drowning in exports",
+        "description": "Groups with data access but no shared KPI definitions."
+      },
+      {
+        "title": "Advertisers managing to ACoS alone",
+        "description": "Accounts that need TACoS, conversion, and inventory alongside ad efficiency."
+      },
+      {
+        "title": "Internal teams with an agency",
+        "description": "Operators who need consistent reporting language for joint reviews."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How reporting is structured",
+    "steps": [
+      {
+        "title": "Metric framework",
+        "description": "Define KPIs for sales, advertising efficiency, conversion, and catalog health."
+      },
+      {
+        "title": "Review cadence",
+        "description": "Weekly operational and monthly strategy rhythm with shared definitions."
+      },
+      {
+        "title": "Insight to action",
+        "description": "Each cycle maps changes to PPC, listing, or operations next steps."
+      },
+      {
+        "title": "Refine",
+        "description": "Adjust depth as catalog and goals evolve."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon reporting covers",
+    "items": [
+      {
+        "title": "Weekly performance reporting",
+        "description": "Concise weekly views of sales, advertising, and priority account changes."
+      },
+      {
+        "title": "Monthly strategy reporting",
+        "description": "Deeper monthly analysis connecting trends to roadmap priorities."
+      },
+      {
+        "title": "Advertising efficiency tracking",
+        "description": "ACoS, TACoS, ROAS, spend, and attributed sales by focus area."
+      },
+      {
+        "title": "Catalog and listing indicators",
+        "description": "Ranking, conversion, and listing health signals that affect growth."
+      },
+      {
+        "title": "Inventory-aware commentary",
+        "description": "Notes on stock and launch timing so ad reads stay commercially grounded."
+      },
+      {
+        "title": "Stakeholder-ready summaries",
+        "description": "Clear summaries for owners and operators without rebuilding decks each cycle."
+      },
+      {
+        "title": "Action log support",
+        "description": "Tracked follow-ups so insights convert into assigned next steps."
+      },
+      {
+        "title": "Shared metric definitions",
+        "description": "Consistent KPI language for agency and internal teams."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Decision-ready views from live Amazon tools",
+      "subheading": "Seller Central and Sellerboard snapshots from growth.ecomgliders.com—examples vary by account.",
+      "images": [
+        {
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025.",
+          "caption": "Multi-period sales view. Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-90day.avif",
+          "alt": "Amazon sales snapshot showing $187,576 in ordered product sales, up 52% versus the same range last year.",
+          "caption": "Shorter-window sales comparison. Source: growth.ecomgliders.com."
+        }
+      ]
+    },
+    {
+      "id": "weekly-kpi-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly decision board",
+      "subheading": "Metric, question, action, owner—not a vanity dashboard dump. We are not a BI software vendor.",
+      "urlLabel": "reporting.ecomgliders.com/weekly",
+      "disclaimer": "Illustrative review agenda. Metrics prioritized by account stage. We are not a dashboard software vendor.",
+      "columns": [
+        "Metric",
+        "Weekly question",
+        "If off-track",
+        "Feeds"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Sales pacing",
+            "Ahead or behind plan?",
+            "Check inventory + hero CVR",
+            "Account"
+          ]
+        },
+        {
+          "cells": [
+            "ACoS / TACoS",
+            "Efficiency in target?",
+            "ST harvest + placements",
+            "PPC"
+          ]
+        },
+        {
+          "cells": [
+            "Conversion",
+            "Ads landing on healthy PDPs?",
+            "Title / image / offer audit",
+            "Listing"
+          ]
+        },
+        {
+          "cells": [
+            "Catalog flags",
+            "Suppressions or stranded?",
+            "Revenue-first fixes",
+            "Catalog"
+          ]
+        },
+        {
+          "cells": [
+            "Inventory",
+            "Can spend be supported?",
+            "Pause before stockouts",
+            "Ops + PPC"
+          ]
+        },
+        {
+          "cells": [
+            "Returns / CX",
+            "Quality or listing mismatch?",
+            "Flag creative/copy claims",
+            "Listing + catalog"
+          ]
+        },
+        {
+          "cells": [
+            "Action log",
+            "Last week’s fixes closed?",
+            "Carry open items forward",
+            "All pods"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Reporting · weekly"
+    },
+    {
+      "id": "service-outcome-chart",
+      "type": "metricChart",
+      "heading": "Outcomes tracked in named case work",
+      "subheading": "Case metrics we reference in reporting reviews.",
+      "chartLabel": "Case study results (indexed for chart scale)",
+      "points": [
+        {
+          "label": "GoSports ACoS after (case study 9)",
+          "value": 26.5
+        },
+        {
+          "label": "GoSports ACoS before (case study 9)",
+          "value": 52
+        },
+        {
+          "label": "Kitchen sales growth % (case study 1)",
+          "value": 73
+        }
+      ],
+      "footnote": "GoSports also grew monthly revenue from $22.1K to $90.7K (+310%). Reporting connects efficiency to sales—not a promise of identical results.",
+      "variant": "columns"
+    }
+  ],
+  "results": {
+    "heading": "Results from data-led Amazon execution",
+    "items": [
+      {
+        "metric": "ACOS 52% to 26.5%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Data-led advertising and listing priorities improved efficiency while monthly revenue grew from $22.1K to $90.7K (+310%).",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Clear performance reviews with catalog, listing, and PPC focus moved a home and kitchen brand from stagnant sales to sustained growth.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What Amazon data sources do you use?",
+      "answer": "We work from Seller Central and Amazon Ads reporting relevant to your account, plus agreed operational inputs such as inventory and launch calendars."
+    },
+    {
+      "question": "How often will I receive reports?",
+      "answer": "Most accounts follow a weekly operational report and a monthly strategy review. Cadence can be adjusted for catalog size and decision needs."
+    },
+    {
+      "question": "Is this only advertising reporting?",
+      "answer": "No. Advertising is central, but we also track sales, conversion, and catalog indicators so decisions are not made from ad metrics alone."
+    },
+    {
+      "question": "Can reporting support my internal team?",
+      "answer": "Yes. Reports are built for shared use by owners, operators, and agency specialists with consistent definitions."
+    },
+    {
+      "question": "Do you build custom dashboards?",
+      "answer": "We structure reporting around the decisions your team needs. Format and depth are defined during onboarding. We are not a software dashboard product."
+    },
+    {
+      "question": "How does reporting connect to other services?",
+      "answer": "Insights feed PPC, listing, catalog, and account management work so analysis leads to execution, not static decks."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support reporting for accounts selling across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a metrics-gap review, reporting cadence plan, then ongoing weekly and monthly reviews."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon PPC Management",
+      "description": "Campaign management with ACoS and ROAS targets informed by clear reporting.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "End-to-end Amazon oversight guided by weekly and monthly metrics.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Listing and ranking work prioritized from conversion and traffic data.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    }
+  ],
+  "cta": {
+    "heading": "Request a reporting setup review",
+    "subheading": "Share how you report today. We outline KPI gaps and a practical cadence.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Reporting and Analytics | eCom Gliders",
+    "metaDescription": "Amazon reporting and analytics with clear weekly and monthly metrics for sales, advertising efficiency, and catalog priorities. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-reporting-analytics/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

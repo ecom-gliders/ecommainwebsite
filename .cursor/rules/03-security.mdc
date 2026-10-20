@@ -1,0 +1,31 @@
+---
+description: Security and cybersecurity standards
+alwaysApply: true
+---
+
+# Security
+
+Security is part of architecture, not a final checklist.
+
+## Always consider
+
+Authentication, authorization, least privilege, secrets management, input validation, output encoding, injection prevention, CSRF, XSS, SSRF, file upload security, path traversal, rate limiting, secure headers, session management, dependency security, encryption in transit and at rest where appropriate.
+
+## Secrets
+
+Never place secrets in source code, committed JSON, screenshots, docs, prompts, or client bundles.
+Use environment variables or a secret manager.
+
+## Logging
+
+Never log passwords, access tokens, refresh tokens, private keys, or sensitive personal data.
+
+## Forms and user input
+
+Validate server-side. Sanitize output. Use CSRF protection on state-changing requests.
+
+## File uploads
+
+Validate type, size, and content. Store outside web root. Scan where appropriate.
+
+Read `obsidian/06-Security/Security-Model.md` before external integrations.

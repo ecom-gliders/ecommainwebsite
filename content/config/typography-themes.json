@@ -1,0 +1,17 @@
+{
+  "note": "Production loads IBM Plex + Caveat via next/font. Extra Google pairs deferred until self-hosted (Vercel build reliability). Current site default remains Satoshi + Plex fallback.",
+  "defaultPairId": "pair-plex",
+  "pairs": [
+    {
+      "id": "pair-plex",
+      "label": "1 · IBM Plex Sans",
+      "status": "Current",
+      "description": "Single-family enterprise humanist. Same spirit as Amazon Ember / Microsoft Aptos.",
+      "displayFamily": "IBM Plex Sans",
+      "bodyFamily": "IBM Plex Sans",
+      "displayVar": "--font-ibm-plex-sans",
+      "bodyVar": "--font-ibm-plex-sans",
+      "character": "Reliable, neutral, high readability"
+    }
+  ]
+}

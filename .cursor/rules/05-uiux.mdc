@@ -1,0 +1,34 @@
+---
+description: UI UX international accessibility and design system rules
+globs: "**/*.{tsx,jsx,vue,css,scss,html}"
+alwaysApply: false
+---
+
+# UI and UX
+
+## Interface qualities
+
+Professional, understandable, calm, responsive, consistent, accessible, predictable.
+
+## Every user action needs clear state
+
+User must never wonder: did it save, did it fail, what happens next, where am I.
+
+## International UX
+
+Keyboard accessibility, touch target size (minimum 44px), readable typography, color contrast, focus states, reduced motion, screen reader semantics, localization readiness, text expansion, RTL readiness where relevant, time zones, date formats, number formats.
+
+## Design system
+
+Read `obsidian/07-UX/Design-System.md` before creating UI.
+Do not invent one-off values when a token exists.
+Use approved icon assets from `assets/icons/`. Never use Unicode symbols as icons.
+
+## Visual policy
+
+No emojis in UI. No decorative badges or pill overload. No generic AI visual clichés.
+Verify rendered output, not only source code.
+
+## Responsive testing
+
+Test desktop, tablet, and mobile viewports. Capture screenshots for significant UI changes.

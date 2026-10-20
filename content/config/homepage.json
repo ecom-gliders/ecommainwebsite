@@ -1,0 +1,1065 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Amazon Ads Verified Partner",
+        "headline": "Full-service Amazon growth for ambitious FBA brands",
+        "subheadline": "We manage PPC, listing optimization, content, and catalog health so your Amazon brand scales with clear priorities.",
+        "supportLine": "Dedicated specialists assigned to your account, with reporting tied to sales, ACOS, and catalog health.",
+        "primaryCta": {
+          "label": "Get your free audit",
+          "href": "#hero-lead-form"
+        },
+        "secondaryCta": {
+          "label": "See client results",
+          "href": "/case-studies/"
+        },
+        "trustLine": "Helping sellers since 2018",
+        "partnerBadge": {
+          "label": "Amazon Ads Verified Partner",
+          "image": "/images/amazon-verified-partner.png",
+          "href": "https://advertising.amazon.com/partners/directory/details/amzn1.ads1.ma1.77r354k0k7k515003rnsnvfi7/eCom-Gliders-LLC"
+        },
+        "visual": {
+          "type": "leadForm",
+          "formHeading": "Get your free audit",
+          "formSubheading": "A strategist follows up within one business day.",
+          "submitLabel": "Get your free audit",
+          "consentLabel": "I agree to the privacy policy and to being contacted about this request.",
+          "fields": [
+            {
+              "name": "name",
+              "label": "Name",
+              "type": "text",
+              "required": true,
+              "placeholder": "Enter name"
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "placeholder": "Enter email"
+            },
+            {
+              "name": "brandName",
+              "label": "Company",
+              "type": "text",
+              "required": false,
+              "placeholder": "Enter company name"
+            },
+            {
+              "name": "phone",
+              "label": "Phone",
+              "type": "tel",
+              "required": true,
+              "placeholder": "201-555-0123"
+            },
+            {
+              "name": "amazonStoreUrl",
+              "label": "Amazon store",
+              "type": "url",
+              "required": false,
+              "placeholder": "Enter store URL"
+            },
+            {
+              "name": "monthlyRevenue",
+              "label": "Monthly Amazon revenue",
+              "type": "select",
+              "required": false,
+              "options": [
+                {
+                  "value": "",
+                  "label": "Please select"
+                },
+                {
+                  "value": "new",
+                  "label": "New on Amazon, no sales yet"
+                },
+                {
+                  "value": "under-10k",
+                  "label": "$1 to $10,000"
+                },
+                {
+                  "value": "10k-25k",
+                  "label": "$10,000 to $25,000"
+                },
+                {
+                  "value": "25k-50k",
+                  "label": "$25,000 to $50,000"
+                },
+                {
+                  "value": "50k-250k",
+                  "label": "$50,000 to $250,000"
+                },
+                {
+                  "value": "250k-plus",
+                  "label": "$250,000+"
+                }
+              ]
+            },
+            {
+              "name": "message",
+              "label": "Message",
+              "type": "textarea",
+              "required": false,
+              "placeholder": "Type your message"
+            }
+          ]
+        },
+        "deferredVisual": {
+          "type": "browserMockup",
+          "note": "Moved out of hero for conversion focus. Place in a later homepage or service section.",
+          "desktopVariant": "macos",
+          "mobileVariant": "ios",
+          "tabIds": {
+            "macos": "ppc",
+            "ios": "analytics"
+          },
+          "metricOverlays": [
+            {
+              "value": "$112M+",
+              "label": "Revenue managed"
+            },
+            {
+              "value": "95%",
+              "label": "Client retention"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "promo-campaign-slider",
+      "type": "promoCampaignSlider",
+      "enabled": true,
+      "data": {
+        "slides": [
+          {
+            "id": "free-audit",
+            "kind": "composed",
+            "headline": "Free Amazon Account Audit",
+            "body": "PPC, listings, and catalog reviewed — clear priorities, no obligation.",
+            "cta": {
+              "label": "Schedule Call",
+              "href": "/free-audit-2/"
+            },
+            "leftImage": "/images/promo/promo-team-cutout.png",
+            "leftImageAlt": "eCom Gliders Amazon specialists",
+            "badgeImage": "/images/promo/audit-stamp.png",
+            "badgeImageAlt": "Free account audit seal",
+            "rightImage": "/images/promo/promo-amazon-packages.png",
+            "rightImageAlt": "Amazon shipping packages ready for fulfillment"
+          },
+          {
+            "id": "prime-banner-gif",
+            "kind": "image",
+            "image": "/images/promo/amazon-big-prime-is-coming.gif",
+            "imageAlt": "Amazon Big Prime is coming — prepare your Amazon FBA business",
+            "href": "/free-audit-2/",
+            "backgroundColor": "#d4d5d5"
+          },
+          {
+            "id": "ppc-management",
+            "kind": "composed",
+            "eyebrow": "Amazon PPC",
+            "headline": "Cut wasted ad spend. Scale what converts.",
+            "body": "Structured campaigns, search-term control, and reporting tied to ACOS and sales.",
+            "cta": {
+              "label": "See PPC service",
+              "href": "/amazon-ppc-management-agency/"
+            },
+            "leftImage": "/images/promo/promo-team-cutout.png",
+            "leftImageAlt": "eCom Gliders Amazon specialists",
+            "rightImage": "/images/promo/promo-amazon-packages.png",
+            "rightImageAlt": "Amazon shipping packages ready for fulfillment"
+          },
+          {
+            "id": "case-studies",
+            "kind": "composed",
+            "eyebrow": "Results",
+            "headline": "See how sellers grew with assigned specialists",
+            "body": "Real account work across PPC, listings, and catalog — with clear reporting.",
+            "cta": {
+              "label": "View case studies",
+              "href": "/case-studies/"
+            },
+            "leftImage": "/images/promo/promo-team-cutout.png",
+            "leftImageAlt": "eCom Gliders Amazon specialists",
+            "rightImage": "/images/promo/promo-amazon-packages.png",
+            "rightImageAlt": "Amazon shipping packages ready for fulfillment"
+          }
+        ]
+      }
+    },
+    {
+      "id": "checklist-ticker",
+      "type": "checklistTicker",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Amazon account operations we run",
+        "items": [
+          "PPC search term harvesting",
+          "Listing title and backend keyword QA",
+          "A+ content structure review",
+          "Catalog suppression checks",
+          "Brand Analytics performance review",
+          "ACOS and TACOS reporting",
+          "Inventory and restock signals",
+          "Sponsored Brands creative QA",
+          "Storefront module updates",
+          "Review request compliance checks",
+          "Organic rank monitoring",
+          "Competitor ad landscape scan",
+          "Image stack optimization",
+          "Deal and coupon calendar sync",
+          "Account health monitoring",
+          "Weekly growth priorities"
+        ]
+      }
+    },
+    {
+      "id": "pain-strip",
+      "type": "painStrip",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Common Amazon seller friction",
+        "headline": "Your Amazon account should not feel like daily damage control",
+        "pains": [
+          "PPC reports without clear next actions",
+          "Listings that rank but do not convert",
+          "Catalog suppressions that stall sales",
+          "Creative that looks dated next to competitors",
+          "Agencies that rotate junior staff onto the account",
+          "No single owner for ads, SEO, and catalog health",
+          "Weekly fire drills instead of a growth plan",
+          "ACOS targets without inventory or listing context"
+        ],
+        "bubbles": [
+          "Ad spend is rising faster than profit",
+          "Who owns catalog health this week?",
+          "Ranks ok — conversions are not",
+          "Another junior on our account",
+          "Is this PPC actually working?",
+          "We are stuck in weekly fire drills",
+          "Listing looks fine until mobile"
+        ]
+      }
+    },
+    {
+      "id": "trust-bar",
+      "type": "trustBar",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Trusted by Amazon brands",
+        "heading": "Why brands trust our Amazon team",
+        "subheading": "Partners, client brands, and independent reviews — plus outcomes we can verify.",
+        "metrics": [
+          {
+            "value": "$112M+",
+            "label": "Revenue managed",
+            "note": "Across managed Amazon seller accounts"
+          },
+          {
+            "value": "95%",
+            "label": "Client retention",
+            "note": "Long-term partnerships over short campaigns"
+          },
+          {
+            "value": "20+",
+            "label": "In-house specialists",
+            "note": "PPC, listings, creative, and catalog"
+          },
+          {
+            "value": "2018",
+            "label": "Helping sellers since",
+            "note": "Dedicated Amazon account management"
+          }
+        ],
+        "partners": [
+          {
+            "label": "Amazon Ads Verified Partner",
+            "image": "/images/amazon-verified-partner.png",
+            "alt": "Amazon Ads Verified partner badge"
+          },
+          {
+            "label": "Amazon SSP Partner",
+            "image": "/images/trust/ssp-partner-on-lime.png",
+            "alt": "Amazon Service Providers Partner"
+          },
+          {
+            "label": "eLEEVATE Logistics",
+            "image": "/images/trust/eleevate-logistics.png",
+            "alt": "eLEEVATE Logistics SPP verified partner"
+          }
+        ],
+        "clients": [
+          {
+            "label": "GoSports",
+            "image": "/images/trust/gosports-mark.png",
+            "alt": "GoSports brand logo"
+          },
+          {
+            "label": "Culturelle",
+            "image": "/images/trust/culturelle-mark.png",
+            "alt": "Culturelle probiotics brand logo"
+          }
+        ],
+        "reviews": [
+          {
+            "label": "Trustpilot reviews",
+            "image": "/images/reviews/trustpilot.png",
+            "alt": "Trustpilot reviews"
+          },
+          {
+            "label": "Google reviews",
+            "image": "/images/reviews/google-reviews.webp",
+            "alt": "Google reviews"
+          }
+        ],
+        "press": [
+          {
+            "label": "Featured on DesignRush",
+            "image": "/images/press/featured-designrush.png",
+            "alt": "Featured on DesignRush",
+            "href": "https://www.designrush.com/agency/profile/ecom-gliders"
+          }
+        ]
+      }
+    },
+    {
+      "id": "markets",
+      "type": "markets",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Amazon reach",
+        "heading": "Marketplaces we manage",
+        "subheading": "All official Amazon Seller Central marketplaces across North America, Europe, Middle East, Africa, and Asia-Pacific.",
+        "markets": [
+          { "code": "US", "name": "United States", "flag": "/images/flags/us.png", "flagAlt": "United States flag" },
+          { "code": "CA", "name": "Canada", "flag": "/images/flags/ca.png", "flagAlt": "Canada flag" },
+          { "code": "MX", "name": "Mexico", "flag": "/images/flags/mx.png", "flagAlt": "Mexico flag" },
+          { "code": "BR", "name": "Brazil", "flag": "/images/flags/br.png", "flagAlt": "Brazil flag" },
+          { "code": "UK", "name": "United Kingdom", "flag": "/images/flags/gb.png", "flagAlt": "United Kingdom flag" },
+          { "code": "DE", "name": "Germany", "flag": "/images/flags/de.png", "flagAlt": "Germany flag" },
+          { "code": "FR", "name": "France", "flag": "/images/flags/fr.png", "flagAlt": "France flag" },
+          { "code": "IT", "name": "Italy", "flag": "/images/flags/it.png", "flagAlt": "Italy flag" },
+          { "code": "ES", "name": "Spain", "flag": "/images/flags/es.png", "flagAlt": "Spain flag" },
+          { "code": "NL", "name": "Netherlands", "flag": "/images/flags/nl.png", "flagAlt": "Netherlands flag" },
+          { "code": "BE", "name": "Belgium", "flag": "/images/flags/be.png", "flagAlt": "Belgium flag" },
+          { "code": "IE", "name": "Ireland", "flag": "/images/flags/ie.png", "flagAlt": "Ireland flag" },
+          { "code": "SE", "name": "Sweden", "flag": "/images/flags/se.png", "flagAlt": "Sweden flag" },
+          { "code": "PL", "name": "Poland", "flag": "/images/flags/pl.png", "flagAlt": "Poland flag" },
+          { "code": "TR", "name": "Turkey", "flag": "/images/flags/tr.png", "flagAlt": "Turkey flag" },
+          { "code": "AE", "name": "United Arab Emirates", "flag": "/images/flags/ae.png", "flagAlt": "United Arab Emirates flag" },
+          { "code": "SA", "name": "Saudi Arabia", "flag": "/images/flags/sa.png", "flagAlt": "Saudi Arabia flag" },
+          { "code": "EG", "name": "Egypt", "flag": "/images/flags/eg.png", "flagAlt": "Egypt flag" },
+          { "code": "ZA", "name": "South Africa", "flag": "/images/flags/za.png", "flagAlt": "South Africa flag" },
+          { "code": "IN", "name": "India", "flag": "/images/flags/in.png", "flagAlt": "India flag" },
+          { "code": "JP", "name": "Japan", "flag": "/images/flags/jp.png", "flagAlt": "Japan flag" },
+          { "code": "AU", "name": "Australia", "flag": "/images/flags/au.png", "flagAlt": "Australia flag" },
+          { "code": "SG", "name": "Singapore", "flag": "/images/flags/sg.png", "flagAlt": "Singapore flag" }
+        ]
+      }
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Next step",
+        "heading": "Ready for clearer Amazon priorities?",
+        "subheading": "Share your catalog basics and a strategist will follow up with a written audit summary. No obligation.",
+        "primaryCta": {
+          "label": "Get your free audit",
+          "href": "#hero-lead-form"
+        },
+        "items": []
+      }
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "enabled": true,
+      "data": {
+        "eyebrow": "What we run",
+        "heading": "Amazon growth services",
+        "subheading": "Six core capabilities from one in-house team",
+        "viewAll": {
+          "label": "View all services",
+          "href": "/services/"
+        },
+        "items": [
+          {
+            "number": "01",
+            "title": "Amazon Account Management",
+            "description": "Dedicated oversight of your Seller Central account, priorities, and growth plan. One in-house team coordinates ads, listings, and catalog health.",
+            "href": "/full-service-amazon-agency/",
+            "icon": "briefcase",
+            "image": "/images/services/account-management-v2.png",
+            "imageAlt": "Desk workspace with laptop analytics for Amazon account management"
+          },
+          {
+            "number": "02",
+            "title": "PPC Management",
+            "description": "Sponsored Products, Brands, and Display built for profitable scale. Structure, bids, and search-term control stay active as catalogs grow.",
+            "href": "/amazon-ppc-management-agency/",
+            "icon": "target",
+            "image": "/images/services/ppc-management-v2.png",
+            "imageAlt": "Tablet showing advertising performance charts for Amazon PPC"
+          },
+          {
+            "number": "03",
+            "title": "Listing Optimization and SEO",
+            "description": "Keyword research and listing content aligned to how shoppers search and convert. Improve visibility without stuffing or thin rewrites.",
+            "href": "/amazon-listing-optimization/",
+            "icon": "search",
+            "image": "/images/services/listing-seo-v2.png",
+            "imageAlt": "Product package with magnifying glass suggesting listing SEO focus"
+          },
+          {
+            "number": "04",
+            "title": "Content Writing",
+            "description": "Titles, bullets, descriptions, A+ narrative, and brand story written for Amazon shoppers. Clear claims, scannable structure, consistent voice.",
+            "href": "/amazon-content-writing/",
+            "icon": "file-text",
+            "image": "/images/services/content-writing-v2.png",
+            "imageAlt": "Notebook and pen on a writing desk for Amazon content writing"
+          },
+          {
+            "number": "05",
+            "title": "Visual Creativity",
+            "description": "Main images, secondary sets, infographics, and A+ layouts designed for click-through and conversion. Built to Amazon image and Brand Registry norms.",
+            "href": "/amazon-visual-creativity/",
+            "icon": "image",
+            "image": "/images/services/visual-creativity-v2.png",
+            "imageAlt": "Studio product photography setup for Amazon listing visuals"
+          },
+          {
+            "number": "06",
+            "title": "Catalog Management",
+            "description": "Listing health, suppressions, variations, and catalog cleanup handled before they stall sales. Keep ASINs findable, accurate, and buyable.",
+            "href": "/amazon-catalog-management/",
+            "icon": "layers",
+            "image": "/images/services/catalog-management-v2.png",
+            "imageAlt": "Inventory shelves and tablet for Amazon catalog management"
+          }
+        ]
+      }
+    },
+    {
+      "id": "creative-showcase",
+      "type": "creativeShowcase",
+      "enabled": true,
+      "data": {
+        "heading": "Amazon creative that helps products stand out",
+        "subheading": "Listing imagery, infographics, and A+ layouts built for shopper clarity and conversion.",
+        "eyebrow": "See work",
+        "items": [
+          {
+            "image": "/images/creative/creative-hero-product-v2.png",
+            "alt": "Premium wooden cutting board set product hero for Amazon listing imagery",
+            "caption": "Listing-ready main image craft"
+          },
+          {
+            "image": "/images/creative/creative-infographic-v2.png",
+            "alt": "Refined product feature infographic style frame for Amazon secondary images",
+            "caption": "Secondary and infographic frames"
+          },
+          {
+            "image": "/images/creative/creative-before-after-v2.png",
+            "alt": "Before and after product photography refinement for Amazon listings",
+            "caption": "Before and after image refinement"
+          },
+          {
+            "image": "/images/creative/creative-aplus-v2.png",
+            "alt": "Lifestyle brand-story composition suited to Amazon A+ modules",
+            "caption": "A+ and brand story modules"
+          },
+          {
+            "image": "/images/creative/creative-lifestyle-v2.png",
+            "alt": "Lifestyle kitchen scene with wooden boards for Amazon supporting imagery",
+            "caption": "Lifestyle supporting imagery"
+          }
+        ],
+        "cta": {
+          "label": "Explore visual creativity",
+          "href": "/amazon-visual-creativity/"
+        }
+      }
+    },
+    {
+      "id": "seller-segments",
+      "type": "sellerSegments",
+      "enabled": true,
+      "data": {
+        "heading": "Who we serve",
+        "subheading": "Account management matched to catalog stage and growth goals",
+        "segments": [
+          {
+            "id": "new-sellers",
+            "title": "New sellers",
+            "description": "Build listings, ads, and catalog foundations before wasted spend compounds. We guide setup and early optimization with clear priorities.",
+            "icon": "rocket",
+            "image": "/images/segments/new-sellers.jpg",
+            "imageAlt": "Desk with laptop and shipping boxes for Amazon new seller setup",
+            "cta": {
+              "label": "Get a launch audit",
+              "href": "#hero-lead-form"
+            }
+          },
+          {
+            "id": "scaling-brands",
+            "title": "Scaling brands",
+            "description": "Grow revenue while keeping ACOS under control. A dedicated account team coordinates PPC, listings, and weekly priorities.",
+            "icon": "trending-up",
+            "image": "/images/segments/scaling-brands.jpg",
+            "imageAlt": "Dual monitors with growth charts for scaling Amazon brands",
+            "cta": {
+              "label": "Get a growth audit",
+              "href": "#hero-lead-form"
+            }
+          },
+          {
+            "id": "multi-asin",
+            "title": "Multi-ASIN catalogs",
+            "description": "Keep listing health and PPC coherent across large catalogs. Suppressions, variations, and campaign structure stay managed together.",
+            "icon": "layers",
+            "image": "/images/segments/multi-asin.jpg",
+            "imageAlt": "Warehouse shelves and catalog tablet for multi-ASIN management",
+            "cta": {
+              "label": "Get a catalog audit",
+              "href": "#hero-lead-form"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-studies",
+      "type": "caseStudies",
+      "enabled": true,
+      "data": {
+        "heading": "Client results",
+        "subheading": "Measurable growth across categories and catalog sizes",
+        "eyebrow": "Selected results",
+        "swingNote": "Proof over promises.",
+        "items": [
+          {
+            "metric": "310% sales increase",
+            "brand": "GoSports",
+            "category": "Sports and outdoor",
+            "service": "PPC + Account Management",
+            "description": "Strategic listing optimization, data-driven advertising, and improved brand positioning delivered a 310% increase in Amazon sales.",
+            "href": "/case-study-9/",
+            "image": "/images/cases/gosports.png",
+            "imageAlt": "GoSports brand mark",
+            "atmosphere": "/images/cases/gosports-atmosphere.jpg",
+            "atmosphereAlt": "Outdoor backyard sports lifestyle for GoSports case study"
+          },
+          {
+            "metric": "73% sales growth",
+            "brand": "FARBERWARE",
+            "category": "Home and kitchen",
+            "service": "Account Management + Listing Optimization",
+            "description": "Strategic overhaul of listings, creatives, and PPC delivered 73% sales growth in 90 days.",
+            "href": "/case-study-1/",
+            "image": "/images/cases/case-study-1.png",
+            "imageAlt": "FARBERWARE kitchen brand case study",
+            "atmosphere": "/images/cases/kitchen-atmosphere.jpg",
+            "atmosphereAlt": "Home kitchen cookware lifestyle for FARBERWARE case study"
+          },
+          {
+            "metric": "502 units in 30 days",
+            "brand": "CULTURELLE",
+            "category": "Health and wellness",
+            "service": "Product launch + PPC",
+            "description": "Ranked in three weeks and sold 502 units in the first 30 days in a high-competition supplement category.",
+            "href": "/case-study-2/",
+            "image": "/images/cases/case-study-2.png",
+            "imageAlt": "CULTURELLE supplement launch case study",
+            "atmosphere": "/images/cases/supplement-atmosphere.jpg",
+            "atmosphereAlt": "Clean wellness lifestyle for CULTURELLE case study"
+          }
+        ],
+        "cta": {
+          "label": "View all case studies",
+          "href": "/case-studies/"
+        }
+      }
+    },
+    {
+      "id": "video-reviews",
+      "type": "videoReviews",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Real sellers, real results",
+        "heading": "Client video reviews",
+        "subheading": "Hover a reel for a muted preview — tap to watch the full story.",
+        "items": [
+          {
+            "vimeoId": "1168263614",
+            "title": "From listing to brand growth",
+            "name": "Mr. Patrick",
+            "company": "Les Plaisirs",
+            "coverImage": "/images/video-reviews/cover-1168263614.jpg",
+            "coverImageAlt": "Mr. Patrick video review cover",
+            "hoverStartSeconds": 18,
+            "highlight": {
+              "value": "+519%",
+              "label": "sales",
+              "direction": "up",
+              "caption": "From expensive ads and no profit to stable ACoS."
+            }
+          },
+          {
+            "vimeoId": "1079374516",
+            "title": "Client video review",
+            "name": "Nilofer M",
+            "company": "Amazon seller",
+            "coverImage": "/images/video-reviews/cover-1079374516.jpg",
+            "coverImageAlt": "Nilofer M video review cover",
+            "hoverStartSeconds": 14,
+            "highlight": {
+              "value": "-46%",
+              "label": "ACoS",
+              "direction": "down",
+              "caption": "Done-for-you PPC so they could focus on the brand."
+            }
+          },
+          {
+            "vimeoId": "1079374584",
+            "title": "Client video review",
+            "name": "Juan",
+            "company": "Amazon seller",
+            "coverImage": "/images/video-reviews/cover-1079374584.jpg",
+            "coverImageAlt": "Juan video review cover",
+            "hoverStartSeconds": 12,
+            "highlight": {
+              "value": "3.4x",
+              "label": "ROAS",
+              "direction": "up",
+              "caption": "Scattered spend consolidated and back under control."
+            }
+          },
+          {
+            "vimeoId": "1079374772",
+            "title": "Client video review",
+            "name": "Scott",
+            "company": "Amazon seller",
+            "coverImage": "/images/video-reviews/cover-1079374772.jpg",
+            "coverImageAlt": "Scott video review cover",
+            "hoverStartSeconds": 16,
+            "highlight": {
+              "value": "79%",
+              "label": "ACoS reduction",
+              "direction": "down",
+              "caption": "ACoS pulled down from high double digits to sustainable levels."
+            }
+          },
+          {
+            "vimeoId": "1079372332",
+            "title": "Client video review",
+            "name": "Ahsan Cheema",
+            "company": "Grunhirsch",
+            "coverImage": "/images/video-reviews/cover-1079372332.jpg",
+            "coverImageAlt": "Ahsan Cheema video review cover",
+            "hoverStartSeconds": 14,
+            "highlight": {
+              "value": "+197%",
+              "label": "YoY",
+              "direction": "up",
+              "caption": "Top account, year over year."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "brand-values",
+      "type": "brandValues",
+      "enabled": false,
+      "data": {
+        "heading": "How we partner with brands",
+        "subheading": "Strategy, collaboration, and reporting built for long-term Amazon growth.",
+        "eyebrow": "Partnership principles",
+        "items": [
+          {
+            "title": "Strategy beyond isolated tactics",
+            "description": "Growth plans tied to brand goals and category position, not disconnected campaign tweaks.",
+            "icon": "compass",
+            "image": "/images/values/strategy.jpg",
+            "imageAlt": "Desk with compass and roadmap for strategy principle"
+          },
+          {
+            "title": "Collaboration with your team",
+            "description": "Priorities are set with you. Work reflects how you sell and how shoppers decide on Amazon.",
+            "icon": "users",
+            "image": "/images/values/collaboration.jpg",
+            "imageAlt": "Meeting table notebooks for collaboration principle"
+          },
+          {
+            "title": "Systems that sustain growth",
+            "description": "Ads, listings, and catalog work run on clear rhythms so scale does not mean constant firefighting.",
+            "icon": "gauge",
+            "image": "/images/values/systems.jpg",
+            "imageAlt": "Tablet charts for systems principle"
+          },
+          {
+            "title": "Clear, accountable execution",
+            "description": "Documented actions, honest updates, and reporting you can verify against account results.",
+            "icon": "shield-check",
+            "image": "/images/values/execution.jpg",
+            "imageAlt": "Checklist and report folder for execution principle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "enabled": true,
+      "data": {
+        "heading": "How we work",
+        "subheading": "From free audit to ongoing optimization with clear reporting",
+        "eyebrow": "Engagement flow",
+        "swingNote": "Clear steps. No black box.",
+        "phases": [
+          { "label": "Discovery" },
+          { "label": "Strategy" },
+          { "label": "Execution" },
+          { "label": "Reporting" }
+        ],
+        "steps": [
+          {
+            "number": "01",
+            "title": "Intake",
+            "column": 1,
+            "description": "Share brand basics and catalog context so we know what success looks like for you."
+          },
+          {
+            "number": "02",
+            "title": "Account audit",
+            "column": 1,
+            "description": "We review account health, listings, and PPC performance before recommending next steps."
+          },
+          {
+            "number": "03",
+            "title": "Strategy call",
+            "column": 2,
+            "description": "We agree priorities for ads, listings, and catalog work with clear owners and timelines."
+          },
+          {
+            "number": "04",
+            "title": "Onboarding",
+            "column": 3,
+            "description": "Access, baselines, and the first 30-day plan are locked so execution starts without guesswork."
+          },
+          {
+            "number": "05",
+            "title": "Execute",
+            "column": 3,
+            "description": "In-house specialists implement the plan and optimize day to day across ads and catalog."
+          },
+          {
+            "number": "06",
+            "title": "Report",
+            "column": 4,
+            "description": "Weekly and monthly reporting on sales, ACOS, and catalog health you can verify."
+          },
+          {
+            "number": "07",
+            "title": "Optimize",
+            "column": 4,
+            "description": "We keep refining campaigns and listings from the numbers so growth stays measurable."
+          }
+        ],
+        "closingText": "One accountable team, clear reporting, and a plan you can verify every week.",
+        "assurances": [],
+        "showMockup": false
+      }
+    },
+    {
+      "id": "free-audit-card",
+      "type": "freeAuditCard",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Start here",
+        "title": "Free account audit",
+        "badge": "No obligation",
+        "priceNote": "Qualified brands receive a written audit summary",
+        "cardTitle": "Written priorities for your Amazon account",
+        "cardSupport": "No obligation. A strategist follows up within one business day.",
+        "primaryCta": {
+          "label": "Get your free audit",
+          "href": "#hero-lead-form"
+        },
+        "secondaryCta": {
+          "label": "Prefer to review results first? See case studies",
+          "href": "/case-studies/"
+        },
+        "inclusionsHeading": "What the audit covers",
+        "inclusions": [
+          { "label": "PPC structure and waste indicators" },
+          { "label": "Listing conversion and keyword coverage" },
+          { "label": "Catalog and account health risks" },
+          { "label": "Creative and content gaps vs competitors" },
+          { "label": "Priority actions for the next 30 days" },
+          { "label": "Strategist follow-up within one business day" }
+        ],
+        "sideEyebrow": "After you submit",
+        "sideTitle": "What happens next",
+        "sideBody": "You get a clear read on the account before any paid engagement.",
+        "sideItems": [
+          { "label": "We review the details you share" },
+          { "label": "A strategist prepares written priorities" },
+          { "label": "Follow-up within one business day" }
+        ],
+        "proofTitle": "Prefer proof first?",
+        "proofBody": "See how brands grew with assigned specialists, clear reporting, and catalog work that holds up under review."
+      }
+    },
+    {
+      "id": "comparison",
+      "type": "comparison",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Why partner with us?",
+        "heading": "The smarter way to grow on Amazon.",
+        "subheading": "Whether you are comparing freelancers, DIY management, or a typical agency, eCom Gliders removes the guesswork that usually comes with Amazon growth.",
+        "swingNote": "It's a no-brainer — why wouldn't you?!",
+        "columns": {
+          "agency": "eCom Gliders",
+          "competitors": ["Typical agency", "Freelancer", "DIY / In-house"]
+        },
+        "rows": [
+          {
+            "feature": "Account owner",
+            "values": [
+              { "text": "Assigned specialist", "positive": true },
+              { "text": "Shared or rotated", "positive": false },
+              { "text": "Often part-time", "positive": false },
+              { "text": "No dedicated owner", "positive": false }
+            ]
+          },
+          {
+            "feature": "PPC optimization",
+            "values": [
+              { "text": "Active in-house daily", "positive": true },
+              { "text": "Weekly batch common", "positive": false },
+              { "text": "When time allows", "positive": false },
+              { "text": "Manual / ad hoc", "positive": false }
+            ]
+          },
+          {
+            "feature": "Listings and SEO",
+            "values": [
+              { "text": "In-house listing specialists", "positive": true },
+              { "text": "Mixed or outsourced", "positive": false },
+              { "text": "Variable skill", "positive": false },
+              { "text": "Steep learning curve", "positive": false }
+            ]
+          },
+          {
+            "feature": "Catalog health",
+            "values": [
+              { "text": "Included in full-service work", "positive": true },
+              { "text": "Often limited scope", "positive": false },
+              { "text": "Rarely full coverage", "positive": false },
+              { "text": "Easy to defer", "positive": false }
+            ]
+          },
+          {
+            "feature": "Reporting",
+            "values": [
+              { "text": "Weekly and monthly reporting", "positive": true },
+              { "text": "Monthly deck typical", "positive": false },
+              { "text": "Ad-hoc updates", "positive": false },
+              { "text": "Self-built dashboards", "positive": false }
+            ]
+          },
+          {
+            "feature": "Cost model",
+            "values": [
+              { "text": "Predictable retainer", "positive": true },
+              { "text": "Variable / markup risk", "positive": false },
+              { "text": "Hourly uncertainty", "positive": false },
+              { "text": "Hidden cost of time", "positive": false }
+            ]
+          }
+        ],
+        "cta": {
+          "label": "Read the full Agency vs DIY breakdown",
+          "href": "/amazon-account-management-vs-diy/"
+        }
+      }
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "enabled": true,
+      "data": {
+        "heading": "What our clients say",
+        "subheading": "Named feedback from Amazon sellers across categories",
+        "eyebrow": "Client voices",
+        "items": [
+          {
+            "quote": "eCom Gliders helped me dramatically improve my Amazon product performance, especially my pizza knives' conversion rate, and quickly built a professional brand image, leading to one of my best sales months ever.",
+            "name": "Mr. Patrick",
+            "role": "Founder",
+            "company": "Les Plaisirs"
+          },
+          {
+            "quote": "This agency took my ramen bowls from invisible to a top seller. Their listing optimization and PPC strategy skyrocketed my sales. Fast, focused, and truly game-changing!",
+            "name": "Ahsan Cheema",
+            "role": "Co-Founder",
+            "company": "Grunhirsch"
+          },
+          {
+            "quote": "What I really appreciated was how smoothly everything ran. From onboarding to launch, they kept us in the loop and made smart, strategic moves without overcomplicating things. It felt like they were part of our internal team.",
+            "name": "Sophie V.",
+            "role": "Ecommerce Lead",
+            "company": "Van Den HEUVEL"
+          },
+          {
+            "quote": "Before working with them, we were burning money on ads with very little return. They came in, restructured our campaigns, and within the first month, our ACoS dropped significantly. Super responsive, very hands-on, and genuinely invested in our growth.",
+            "name": "Priya T",
+            "role": "Founder",
+            "company": "SNEMEEY"
+          },
+          {
+            "quote": "We are in a competitive niche, so standing out was tough. Their team helped us rework our branding and optimize everything from images to copy. The results were obvious: more clicks, more sales, and a stronger brand presence overall.",
+            "name": "Abdurrahman",
+            "role": "Product Manager",
+            "company": "SAFEFINE"
+          }
+        ],
+        "minimumCountNote": "Five named testimonials verified from backup; sixth named quote required during content migration (P2-03 or P3)."
+      }
+    },
+    {
+      "id": "blog-preview",
+      "type": "blogPreview",
+      "enabled": true,
+      "data": {
+        "heading": "Amazon seller insights",
+        "subheading": "328 articles on PPC, SEO, and account management",
+        "posts": [
+          {
+            "slug": "when-should-you-use-sponsored-display-ads",
+            "title": "When Should You Use Sponsored Display Ads?",
+            "date": "2026-07-20",
+            "excerpt": "Learn when Sponsored Display Ads can maximize your Amazon advertising results across retargeting, product launches, and brand awareness.",
+            "href": "/when-should-you-use-sponsored-display-ads/",
+            "image": "https://ecomgliders.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-20-2026-07_06_33-AM.png",
+            "imageAlt": "Sponsored Display Ads guide cover"
+          },
+          {
+            "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+            "title": "The Amazon PPC Formula That Scales Without Wasting Budget",
+            "date": "2026-07-17",
+            "excerpt": "Structured PPC strategy for sellers who need measurable returns without rising ad costs or guesswork.",
+            "href": "/amazon-ppc-formula-that-scales-without-wasting-budget/",
+            "image": "https://ecomgliders.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-17-2026-07_46_54-AM.png",
+            "imageAlt": "Amazon PPC formula guide cover"
+          },
+          {
+            "slug": "launch-new-product-amazon-seo-2026",
+            "title": "How to Launch a New Product with Strong Amazon SEO (2026 Guide)",
+            "date": "2026-07-16",
+            "excerpt": "Keyword research, listing optimization, and launch PPC tactics for stronger organic visibility from day one.",
+            "href": "/launch-new-product-amazon-seo-2026/",
+            "image": "https://ecomgliders.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-16-2026-08_32_53-AM-1024x683.png",
+            "imageAlt": "Amazon SEO product launch guide cover"
+          }
+        ],
+        "cta": {
+          "label": "View all articles",
+          "href": "/blog/"
+        }
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "enabled": true,
+      "data": {
+        "heading": "Frequently asked questions",
+        "subheading": "Common questions about working with eCom Gliders",
+        "eyebrow": "Answers",
+        "items": [
+          {
+            "question": "What services does eCom Gliders offer?",
+            "answer": "We provide full-service Amazon account management: PPC management, listing optimization and SEO, content writing, visual creativity, A+ and storefront creative, and catalog management. All services are delivered by our in-house team."
+          },
+          {
+            "question": "How is eCom Gliders different from other Amazon agencies?",
+            "answer": "We are an in-house team of Amazon specialists, not a call center or software dashboard. Clients work with dedicated account managers who handle strategy, execution, and reporting directly."
+          },
+          {
+            "question": "What is included in the free audit?",
+            "answer": "The free audit reviews your Amazon account health, listing quality, PPC performance, and growth opportunities. You receive actionable findings with no obligation to continue."
+          },
+          {
+            "question": "How much does Amazon account management cost?",
+            "answer": "Pricing depends on catalog size, ad spend, and scope of services. Request a free audit or contact us for a custom quote based on your brand's needs."
+          },
+          {
+            "question": "Do you work with new Amazon sellers?",
+            "answer": "Yes. We support new sellers setting up Seller Central and launching first products, as well as established brands that need audits and growth plans for existing catalogs."
+          },
+          {
+            "question": "What marketplaces do you support?",
+            "answer": "We support all official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+          },
+          {
+            "question": "How do you manage Amazon PPC?",
+            "answer": "We structure Sponsored Products, Brands, and Display around profitable keywords and ASIN goals, then optimize bids, search terms, and waste control on an ongoing cadence with reporting you can verify."
+          },
+          {
+            "question": "Can you help with account health or suspensions?",
+            "answer": "Yes. We help diagnose listing suppressions, policy risks, and account health issues, then coordinate remediation steps. Outcomes depend on Amazon's review process; we do not guarantee reinstatement."
+          },
+          {
+            "question": "Do you create A+ Content and storefront creative?",
+            "answer": "Yes. Our content and visual teams produce A+ modules, Brand Store layouts, and listing creative aligned to Brand Registry requirements and conversion goals."
+          },
+          {
+            "question": "How do you measure success?",
+            "answer": "We track metrics aligned to your goals: revenue, ACOS, ROAS, organic rank, listing conversion rate, and catalog health. Reporting is shared on a regular cadence."
+          },
+          {
+            "question": "What is your client retention rate?",
+            "answer": "Our client retention rate is 95%, based on verified company claims from the current site."
+          },
+          {
+            "question": "How do I get started?",
+            "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a discovery survey, strategy call with audit findings, a custom plan, then onboarding and setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ask-ai",
+      "type": "askAi",
+      "enabled": true,
+      "data": {
+        "eyebrow": "Compare with AI",
+        "heading": "Ask AI whether eCom Gliders fits your Amazon brand",
+        "subheading": "Open ChatGPT, Claude, Gemini, or Perplexity with a ready prompt. Each link starts a conversation about ACOS, scale, and whether a full-service Amazon agency is the right next step."
+      }
+    }
+  ],
+  "seo": {
+    "metaTitle": "Amazon Account Management Agency | eCom Gliders",
+    "metaDescription": "Full-service Amazon account management. PPC, listing optimization, content, and catalog management. 95% retention. Free audit.",
+    "canonical": "/",
+    "robots": {
+      "index": true,
+      "follow": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+---
+description: Documentation Obsidian vault and decision records
+alwaysApply: true
+---
+
+# Documentation
+
+## Repository is source of truth
+
+Update docs when architecture, schema, SEO, security, or UX decisions change.
+
+## Obsidian vault
+
+Long-form knowledge lives in `obsidian/`. Use wiki links between related notes.
+One canonical note per concept. Avoid duplicated truth.
+
+## Required updates after material changes
+
+- `docs/project/DECISIONS.md` for direction changes
+- `docs/ai/CHAT-SUMMARIES.md` for session outcomes
+- `docs/ai/SESSION-STATE.md` for current work state
+- `obsidian/12-Decisions/` for ADR-style records
+- `docs/project/CHANGELOG.md` for user-facing changes
+
+## Plans
+
+Save implementation plans to `.cursor/plans/` with date prefix.
+Example: `2026-09-02-blog-migration-plan.md`
+
+## Do not create duplicate documentation
+
+Link to existing notes instead of copying content.

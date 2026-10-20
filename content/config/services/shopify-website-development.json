@@ -1,0 +1,448 @@
+{
+  "slug": "shopify-website-development",
+  "breadcrumbLabel": "Shopify Development",
+  "layout": "dtc-channel",
+  "hero": {
+    "title": "Shopify for Amazon brands—owned channel, not a rival",
+    "subtitle": "Conversion-focused storefronts that extend brand proof beyond the marketplace. Complementary to Amazon growth—not a replacement.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a Shopify project consult",
+      "subheading": "Share store status and goals so we can scope a conversion-focused build.",
+      "submitLabel": "Request Shopify consult",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "shopifyStatus",
+          "label": "Shopify status",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "none",
+              "label": "No store yet"
+            },
+            {
+              "value": "existing",
+              "label": "Existing store needs rebuild"
+            },
+            {
+              "value": "migrate",
+              "label": "Migrating from another platform"
+            }
+          ]
+        },
+        {
+          "name": "shopifyGoal",
+          "label": "Primary goal",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "brand-site",
+              "label": "Brand website"
+            },
+            {
+              "value": "dtc",
+              "label": "Direct-to-consumer sales"
+            },
+            {
+              "value": "amazon-support",
+              "label": "Support Amazon brand presence"
+            },
+            {
+              "value": "full",
+              "label": "Full storefront build"
+            }
+          ]
+        },
+        {
+          "name": "websiteUrl",
+          "label": "Current website (if any)",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://"
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/shopify-website-development-service.jpg",
+      "alt": "Shopify Development service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why DTC sites underperform for Amazon brands",
+    "points": [
+      {
+        "title": "Finished look, weak conversion path",
+        "description": "Theme defaults do not guide shoppers from brand story to a clear product decision."
+      },
+      {
+        "title": "Amazon proof left on the marketplace",
+        "description": "Bestsellers and product education never show up usefully on the owned site."
+      },
+      {
+        "title": "App and theme debt",
+        "description": "Scripts pile up until speed, checkout, and maintenance suffer."
+      },
+      {
+        "title": "Shopify treated as Amazon’s rival",
+        "description": "Teams force channel conflict instead of using DTC for brand, bundles, and retention."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Amazon brands launching an owned storefront",
+        "description": "Sellers ready for Shopify that supports brand presence without abandoning marketplace growth."
+      },
+      {
+        "title": "Stores that need a conversion rebuild",
+        "description": "Existing sites limited by weak templates or cluttered apps."
+      },
+      {
+        "title": "Teams aligning Amazon and DTC messaging",
+        "description": "Brands that want owned-site education coordinated with proven listing points."
+      },
+      {
+        "title": "Operators preparing retention",
+        "description": "Accounts that need email capture foundations alongside Amazon acquisition."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How Shopify builds run",
+    "steps": [
+      {
+        "title": "Channel audit",
+        "description": "Define what the owned channel should accomplish next to Amazon."
+      },
+      {
+        "title": "Architecture and design",
+        "description": "Structure pages and product templates for mobile and desktop clarity."
+      },
+      {
+        "title": "Build and integrations",
+        "description": "Implement a lean theme with essential apps and tracking."
+      },
+      {
+        "title": "Launch and handoff",
+        "description": "Ship with QA, then connect retention and Amazon growth when scoped."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Shopify development covers",
+    "items": [
+      {
+        "title": "Shopify storefront build",
+        "description": "Theme setup and customization aligned with brand and catalog."
+      },
+      {
+        "title": "Product page templates",
+        "description": "Templates designed for clarity, trust, and owned-channel conversion."
+      },
+      {
+        "title": "Homepage and collection structure",
+        "description": "Clear paths from brand entry points to priority products."
+      },
+      {
+        "title": "Essential app and tracking setup",
+        "description": "Practical integrations for analytics, email capture, and operations."
+      },
+      {
+        "title": "Mobile-first UX refinement",
+        "description": "Layouts reviewed for comprehension and checkout readiness on phones."
+      },
+      {
+        "title": "Amazon-to-DTC content alignment",
+        "description": "Messaging coordinated with proven Amazon listing points."
+      },
+      {
+        "title": "Launch QA and handoff",
+        "description": "Pre-launch checks and documentation for ongoing content updates."
+      },
+      {
+        "title": "Retention channel readiness",
+        "description": "Foundation for email capture and lifecycle marketing alongside Amazon growth."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "amazon-shopify-sync-board",
+      "type": "catalogHealthBoard",
+      "heading": "Amazon ↔ Shopify ops sheet",
+      "subheading": "Channel jobs in one browser board—owned site complements Amazon; it does not replace Seller Central. Pure Shopify CRO shops often ignore these edges.",
+      "urlLabel": "channels.ecomgliders.com/amazon-shopify",
+      "boardLabel": "Channel ops",
+      "disclaimer": "Illustrative ops map. Inventory, price, and content sync depend on your apps and operations. Not a GMV or CVR promise. Shopify is not an Amazon replacement.",
+      "columns": [
+        "Signal",
+        "Amazon job",
+        "Shopify job",
+        "Edge / sync note"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Demand",
+            "Discovery + Sponsored ads",
+            "Brand search, email, direct",
+            "Same story; different entry"
+          ]
+        },
+        {
+          "cells": [
+            "Catalog",
+            "ASINs / Buy Box offers",
+            "Collections + DTC PDPs",
+            "Education aligned; formats differ"
+          ]
+        },
+        {
+          "cells": [
+            "Inventory",
+            "FBA / FBM availability",
+            "DTC stock or MCF when used",
+            "Direction set per stack"
+          ]
+        },
+        {
+          "cells": [
+            "Price / offers",
+            "Marketplace pricing rules",
+            "Site price, bundles, subs",
+            "No conflicting public claims"
+          ]
+        },
+        {
+          "cells": [
+            "Creative assets",
+            "A+ / store / ad creative",
+            "PDP media + brand pages",
+            "Reuse proofs; crop for web"
+          ]
+        },
+        {
+          "cells": [
+            "Fulfillment edge",
+            "FBA SLAs and returns",
+            "Checkout + shipping promise",
+            "MCF only when scoped"
+          ]
+        },
+        {
+          "cells": [
+            "Retention",
+            "Repeat via Amazon",
+            "Owned list + lifecycle",
+            "Capture never from Amazon PII"
+          ]
+        }
+      ],
+      "variant": "mac"
+    },
+    {
+      "id": "shopify-build-stamps",
+      "type": "brandPathwayBoard",
+      "heading": "Build stamps for Amazon-brand storefronts",
+      "subheading": "Structure before theme polish—lean apps only.",
+      "urlLabel": "channels.ecomgliders.com/build",
+      "disclaimer": "Illustrative stamps. Plan and app stack confirmed during scoping.",
+      "stages": [
+        {
+          "label": "Channel audit",
+          "detail": "Amazon catalog, brand assets, and what the owned site must do.",
+          "state": "done"
+        },
+        {
+          "label": "IA + templates",
+          "detail": "Homepage, collections, PDP for mobile and desktop clarity.",
+          "state": "current"
+        },
+        {
+          "label": "Theme + tracking",
+          "detail": "Theme work with essential capture and analytics apps only.",
+          "state": "upcoming"
+        },
+        {
+          "label": "Launch QA",
+          "detail": "Clean release, then email and Amazon growth when scoped.",
+          "state": "upcoming"
+        }
+      ],
+      "variant": "stamp"
+    },
+    {
+      "id": "storefront-scope-grid",
+      "type": "brandUnlockGrid",
+      "heading": "Storefront scope sheet",
+      "subheading": "Typical Amazon-brand DTC scope from our Shopify vs WooCommerce guidance—exact line items depend on store status.",
+      "note": "Scope and app stack confirmed in the free audit. No invented conversion-rate claims.",
+      "sheetLabel": "shopify · scope sheet",
+      "items": [
+        {
+          "title": "Collection architecture",
+          "description": "Priority paths from brand entry to hero products and bundles.",
+          "unlocked": true,
+          "statusLabel": "In base build"
+        },
+        {
+          "title": "PDP trust blocks",
+          "description": "Product education templates aligned to Amazon listing proof points.",
+          "unlocked": true,
+          "statusLabel": "In base build"
+        },
+        {
+          "title": "Email capture foundation",
+          "description": "Opt-in points ready for lifecycle marketing after launch.",
+          "unlocked": true,
+          "statusLabel": "In base build"
+        },
+        {
+          "title": "Heavy app / script stack",
+          "description": "Optional only when operations require it—default is lean to protect checkout speed.",
+          "unlocked": false,
+          "statusLabel": "Scoped only if needed"
+        },
+        {
+          "title": "MCF / multi-channel inventory",
+          "description": "Wired when Amazon inventory should serve DTC orders under controlled rules.",
+          "unlocked": false,
+          "statusLabel": "Optional integration"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "heading": "Results from brand-channel growth work",
+    "items": [
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing, creative, and advertising grew monthly revenue from $22.1K to $90.7K—the brand strength an owned Shopify presence is built to extend. Not a Shopify CVR claim.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and PPC growth while channel foundations strengthened. Not attributed solely to a storefront rebuild.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is Shopify meant to replace Amazon for your clients?",
+      "answer": "No. We position Shopify as a complementary owned channel that supports brand presence, bundles, and retention around Amazon growth."
+    },
+    {
+      "question": "Do you rebuild existing Shopify stores?",
+      "answer": "Yes. We can refine or rebuild existing storefronts when conversion, speed, or maintainability is limiting growth."
+    },
+    {
+      "question": "Can product content match Amazon listings?",
+      "answer": "Yes. We align owned-site messaging with proven Amazon product points while adapting format for a brand website."
+    },
+    {
+      "question": "Which Shopify plan do I need?",
+      "answer": "Plan choice depends on traffic, checkout needs, and integrations. We recommend a practical setup during scoping rather than prescribing a plan before review."
+    },
+    {
+      "question": "Do you handle ongoing site updates?",
+      "answer": "Launch builds can include a handoff for your team, or ongoing update support depending on the engagement scope."
+    },
+    {
+      "question": "How does this connect to email marketing?",
+      "answer": "We set up capture and tracking foundations so lifecycle email can support customers acquired from both Amazon and DTC."
+    },
+    {
+      "question": "Which Amazon marketplaces do your brand clients sell in?",
+      "answer": "Our Amazon growth work supports official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Shopify storefront scope is confirmed separately during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a channel audit, information architecture, build, then launch QA."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Email and Retention Marketing",
+      "description": "Lifecycle email that supports customers beyond the first purchase.",
+      "href": "/email-retention-marketing/",
+      "icon": "file-text"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Amazon growth strategy that DTC complements rather than replaces.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Visual Creativity",
+      "description": "Brand and product visuals reusable across Amazon and Shopify.",
+      "href": "/amazon-visual-creativity/",
+      "icon": "image"
+    }
+  ],
+  "cta": {
+    "heading": "Request a Shopify project consult",
+    "subheading": "Share store status and goals. We outline channel fit and build scope—no invented conversion rates.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Shopify Website Development for Amazon Brands | eCom Gliders",
+    "metaDescription": "Shopify website development for Amazon brands. Owned-channel storefronts that complement marketplace growth. Free audit.",
+    "canonical": "https://ecomgliders.com/shopify-website-development/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scraped_at": "2026-09-01T23:18:31Z",
+  "source": "https://ecomgliders.com",
+  "platform": "WordPress",
+  "totals": {
+    "posts": 328,
+    "pages": 26,
+    "media": 370,
+    "sitemap_urls": 450,
+    "html_downloaded": 453,
+    "html_failed": 0
+  },
+  "backup_structure": {
+    "backup/pages/": "HTML of non-blog pages",
+    "backup/blog/": "HTML of blog posts",
+    "backup/assets/": "Downloaded images, CSS, JS, fonts",
+    "backup/metadata/": "JSON inventories and API dumps",
+    "backup/raw/": "Raw sitemaps, robots.txt, API responses"
+  }
+}

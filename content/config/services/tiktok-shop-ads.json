@@ -1,0 +1,450 @@
+{
+  "slug": "tiktok-shop-ads",
+  "breadcrumbLabel": "TikTok Shop Ads",
+  "layout": "tiktok-ops",
+  "hero": {
+    "title": "TikTok Shop ads beside Amazon—not instead of it",
+    "subtitle": "Short-form Shop ads for Amazon-led brands: creative before scale, clear SKU role, insights handed back to Amazon. No invented GMV, ROAS, or creator-network headcount claims.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request a TikTok Shop ads review",
+      "subheading": "Share Shop status and budget so we can assess a complementary ads plan beside Amazon.",
+      "submitLabel": "Request TikTok ads review",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "tiktokShopStatus",
+          "label": "TikTok Shop status",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "live",
+              "label": "Shop is live"
+            },
+            {
+              "value": "setup",
+              "label": "Setting up Shop"
+            },
+            {
+              "value": "exploring",
+              "label": "Exploring TikTok Shop"
+            }
+          ]
+        },
+        {
+          "name": "monthlyAdSpend",
+          "label": "Monthly ad spend",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "under-3k",
+              "label": "Under $3,000"
+            },
+            {
+              "value": "3k-10k",
+              "label": "$3,000 to $10,000"
+            },
+            {
+              "value": "10k-25k",
+              "label": "$10,000 to $25,000"
+            },
+            {
+              "value": "25k-75k",
+              "label": "$25,000 to $75,000"
+            },
+            {
+              "value": "75k-plus",
+              "label": "$75,000+"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/tiktok-shop-ads-service.jpg",
+      "alt": "TikTok Shop Ads service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why TikTok Shop ads underdeliver for sellers",
+    "points": [
+      {
+        "title": "Creative built for the wrong platform",
+        "description": "Amazon stills recycled as ads. TikTok needs native, product-led short-form."
+      },
+      {
+        "title": "No clear role beside Amazon",
+        "description": "Spend without a plan for which SKUs or outcomes TikTok owns versus Amazon."
+      },
+      {
+        "title": "Tracking and offer gaps",
+        "description": "Campaigns launch before Shop pages and conversion tracking are ready."
+      },
+      {
+        "title": "Scaling before creative iteration",
+        "description": "Budgets rise on weak hooks; learning stays shallow."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who TikTok Shop ads are for",
+    "points": [
+      {
+        "title": "Amazon brands testing complementary discovery",
+        "description": "Proven hero SKUs without abandoning marketplace focus."
+      },
+      {
+        "title": "Products with strong visual demos",
+        "description": "Hooks, usage, and transformation clear in short-form video."
+      },
+      {
+        "title": "Teams with weak native creative",
+        "description": "Accounts recycling Amazon stills into TikTok ads."
+      },
+      {
+        "title": "Brands coordinating TikTok with Amazon ads",
+        "description": "Winning angles handed into Amazon PPC, listings, and video when useful."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How TikTok Shop ads are run",
+    "steps": [
+      {
+        "title": "Channel fit and SKU selection",
+        "description": "Products and offers suited to TikTok while Amazon stays primary."
+      },
+      {
+        "title": "Creative and campaign setup",
+        "description": "Native creative brief, structure, and tracking before meaningful spend."
+      },
+      {
+        "title": "Test and optimize",
+        "description": "Iterate hooks, audiences, and offers from delivery and conversion signals."
+      },
+      {
+        "title": "Cross-channel learning",
+        "description": "Winning angles feed Amazon listing and advertising strategy where relevant."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What TikTok Shop ads management includes",
+    "items": [
+      {
+        "title": "TikTok Shop ads strategy",
+        "description": "Objectives, SKU priorities, and budget framing complementary to Amazon."
+      },
+      {
+        "title": "Campaign setup and management",
+        "description": "Structured Shop ad campaigns with ongoing optimization."
+      },
+      {
+        "title": "Creative briefing and iteration",
+        "description": "Hooks and formats designed for short-form product discovery."
+      },
+      {
+        "title": "Offer and landing readiness review",
+        "description": "Checks that product pages and offers can support paid traffic."
+      },
+      {
+        "title": "Performance reporting",
+        "description": "Delivery, efficiency, and learning by creative and SKU."
+      },
+      {
+        "title": "Amazon insight handoff",
+        "description": "Proven messaging angles into Amazon listing or ad tests when useful."
+      },
+      {
+        "title": "Scaling recommendations",
+        "description": "When to expand budget versus continue creative testing."
+      },
+      {
+        "title": "Shop readiness checklist",
+        "description": "Account, catalog, creative, and tracking prerequisites before spend scales."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders TikTok Shop ads differ",
+    "points": [
+      {
+        "title": "Amazon-first, TikTok complementary",
+        "description": "TikTok Shop is not treated as a replacement for Amazon advertising or account management."
+      },
+      {
+        "title": "Creative learning before budget scale",
+        "description": "Hooks and offers are tested with structure before spend expands on weak assets."
+      },
+      {
+        "title": "Connected to PPC, video, and DTC work",
+        "description": "Winning angles can hand off into Amazon PPC, video creative, and Shopify when in scope."
+      },
+      {
+        "title": "Audit-first scoping",
+        "description": "Free audit reviews SKU fit, creative readiness, and channel role before launch."
+      }
+    ]
+  },
+  "opsLanes": {
+    "heading": "Shop-ad risks we stop before scale",
+    "subheading": "Fit checks before TikTok Shop creative and spend scale.",
+    "note": "Outcomes depend on Shop eligibility, creative, and offer readiness.",
+    "lanes": [
+      {
+        "title": "Amazon stills as TikTok ads",
+        "issue": "Gallery images and long listing cuts are forced into short-form discovery.",
+        "fix": "Brief native hooks and demos built for muted scroll and Shop conversion.",
+        "verify": "Opening seconds read as TikTok-native product proof, not a recycled PDP."
+      },
+      {
+        "title": "No role beside Amazon",
+        "issue": "Spend launches without SKU ownership or learning goals versus marketplace growth.",
+        "fix": "Name which hero ASINs TikTok tests and what insight should return to Amazon.",
+        "verify": "Weekly review ties TikTok learning to Amazon listing or PPC actions when in scope."
+      },
+      {
+        "title": "Budget before creative learning",
+        "issue": "Spend scales on one or two weak hooks with shallow testing.",
+        "fix": "Hold scale until structured hook and offer tests show a clear winner set.",
+        "verify": "Scale decisions cite creative and SKU evidence—not spend alone."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "tiktok-fit-board",
+      "type": "catalogHealthBoard",
+      "heading": "TikTok Shop fit board",
+      "subheading": "Complementary Shop tests only—Amazon stays primary. GMV Max mills often skip these gates.",
+      "urlLabel": "tiktok.ecomgliders.com/fit",
+      "disclaimer": "Illustrative fit check. TikTok Shop eligibility and ad inventory vary by region. No invented GMV or ROAS guarantees.",
+      "columns": [
+        "Gate",
+        "What we check",
+        "Why it matters",
+        "If missing"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Shop readiness",
+            "Shop live or setup path clear",
+            "Ads need a convertible Shop destination",
+            "Finish Shop setup before paid scale"
+          ]
+        },
+        {
+          "cells": [
+            "SKU demo fit",
+            "Hero products show well in short video",
+            "Discovery depends on visual hooks",
+            "Start with demo-strong ASINs only"
+          ]
+        },
+        {
+          "cells": [
+            "Native creative supply",
+            "Hooks and captions beyond Amazon stills",
+            "Platform-native ads outperform recycled galleries",
+            "Brief creative before meaningful spend"
+          ]
+        },
+        {
+          "cells": [
+            "Amazon foundation",
+            "Stable hero SKUs and ad discipline",
+            "TikTok should complement, not rescue, Amazon",
+            "Stabilize Amazon core first when needed"
+          ]
+        },
+        {
+          "cells": [
+            "Tracking and offers",
+            "Conversion paths and pricing clarity",
+            "Learning quality depends on clean signals",
+            "Fix tracking and offer gaps pre-launch"
+          ]
+        },
+        {
+          "cells": [
+            "Region eligibility",
+            "Shop ads available in market",
+            "Inventory / policy mismatch",
+            "Confirm region before creative spend"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "TikTok · fit"
+    },
+    {
+      "id": "tiktok-scale-chart",
+      "type": "metricChart",
+      "heading": "Creative-before-scale focus",
+      "subheading": "Relative focus before budget scale—Amazon case metrics below are foundations, not TikTok attribution.",
+      "chartLabel": "Relative focus (index)",
+      "points": [
+        {
+          "label": "Native hook / demo creative",
+          "value": 100
+        },
+        {
+          "label": "SKU and offer readiness",
+          "value": 78
+        },
+        {
+          "label": "Structured learning budget",
+          "value": 62
+        },
+        {
+          "label": "Amazon insight handoff",
+          "value": 48
+        },
+        {
+          "label": "Budget scale (after winners)",
+          "value": 30
+        }
+      ],
+      "footnote": "Sequencing model for planning. Amazon case metrics below are advertising foundations, not TikTok-attributed results.",
+      "variant": "bars"
+    }
+  ],
+  "results": {
+    "heading": "Amazon advertising foundations complementary channels should respect",
+    "items": [
+      {
+        "metric": "ACOS 52% to 26.5%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "PPC restructuring and listing improvements cut ACOS while monthly revenue grew from $22.1K to $90.7K—the discipline complementary Shop tests should support. Not a TikTok-attributed result.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and PPC work moved a home and kitchen brand from stagnant sales to sustained growth. Not a TikTok-attributed result.",
+        "href": "/case-study-1/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Does TikTok Shop replace Amazon advertising?",
+      "answer": "No. We treat TikTok Shop ads as a complementary discovery and sales channel. Amazon remains the core growth focus for most brands we support."
+    },
+    {
+      "question": "Do you publish TikTok ROAS or GMV averages?",
+      "answer": "No. We do not invent TikTok Shop ROAS or GMV benchmarks. Scope and success definitions are set during the free audit based on Shop readiness and creative supply."
+    },
+    {
+      "question": "Which products work best on TikTok Shop?",
+      "answer": "Products with clear visual demos, strong hooks, and offer clarity tend to perform better. We select SKUs during the free audit."
+    },
+    {
+      "question": "Do you create TikTok creative?",
+      "answer": "We brief and iterate creative for Shop ads and can coordinate production through our creative teams depending on scope."
+    },
+    {
+      "question": "How soon can testing start?",
+      "answer": "Timing depends on Shop readiness, creative availability, and tracking. We confirm prerequisites before recommending spend and do not guarantee launch timelines."
+    },
+    {
+      "question": "Can TikTok insights improve Amazon listings?",
+      "answer": "Yes. Hooks and objections that resonate on TikTok can inform Amazon listing copy, imagery, and ad angles when those workstreams are in scope."
+    },
+    {
+      "question": "Which Amazon marketplaces do your brands sell in?",
+      "answer": "Our Amazon growth work supports official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. TikTok Shop eligibility and ad inventory vary by region; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are SKU fit review, creative readiness, campaign setup, then structured testing."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Amazon PPC Management",
+      "description": "Core Amazon advertising while TikTok opens complementary demand.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "target"
+    },
+    {
+      "title": "Video Creative",
+      "description": "Short-form and product video support for discovery channels.",
+      "href": "/amazon-video-creative/",
+      "icon": "image"
+    },
+    {
+      "title": "Shopify and Website Development",
+      "description": "Owned storefronts that can support multi-channel brand demand.",
+      "href": "/shopify-website-development/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request a TikTok Shop ads review",
+    "subheading": "We review SKU fit, creative readiness, and channel role beside Amazon. No invented GMV or ROAS claims.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "TikTok Shop Ads for Amazon Brands | eCom Gliders",
+    "metaDescription": "TikTok Shop ads management for Amazon-led brands. Complementary product discovery without replacing marketplace growth. Free audit.",
+    "canonical": "https://ecomgliders.com/tiktok-shop-ads/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

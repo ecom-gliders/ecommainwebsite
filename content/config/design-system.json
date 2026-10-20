@@ -1,0 +1,340 @@
+{
+  "brand": {
+    "name": "eCom Gliders",
+    "tagline": "Full-service Amazon account management",
+    "logo": {
+      "light": "/images/logo.png",
+      "dark": "/images/logo-dark.png"
+    },
+    "partnerBadge": "/images/amazon-verified-partner.png",
+    "gradient": {
+      "value": "linear-gradient(90deg, #131311 0%, #C6FD50 100%)",
+      "usage": "PO visual system — ink to lime streak; accents not CTA body fill"
+    },
+    "pageAtmosphere": {
+      "value": "radial-gradient(ellipse 80% 55% at 92% 0%, color-mix(in srgb, #C6FD50 10%, transparent), transparent 55%), radial-gradient(ellipse 70% 50% at 8% 100%, color-mix(in srgb, #131311 3%, transparent), transparent 55%), linear-gradient(180deg, #FAFAFA 0%, #FAFAFA 100%)",
+      "usage": "Off-white canvas with quiet lime/ink wash (Project One visual system)"
+    }
+  },
+  "colors": {
+    "primary": {
+      "value": "#131311",
+      "usage": "PO ink — headers, nav, primary buttons, hard shadows"
+    },
+    "primaryDark": {
+      "value": "#0A0A09",
+      "usage": "Deeper ink for hover states and footer"
+    },
+    "accent": {
+      "value": "#C6FD50",
+      "usage": "PO lime — primary CTA fill, punch cards, highlights"
+    },
+    "accentAlt": {
+      "value": "#B5EC3F",
+      "usage": "Slightly deeper lime — pressed / hover emphasis"
+    },
+    "brandCyan": {
+      "value": "#6B6B66",
+      "usage": "Muted ink gray for charts/legacy under PO system"
+    },
+    "brandYellow": {
+      "value": "#C6FD50",
+      "usage": "Lime — chart highlights, metrics"
+    },
+    "brandMint": {
+      "value": "#E8E8E3",
+      "usage": "Neutral warm gray under PO system"
+    },
+    "background": {
+      "value": "#FAFAFA",
+      "usage": "Off-white page canvas (Project One)"
+    },
+    "surface": {
+      "value": "#F3F3F0",
+      "usage": "Cards, alternate muted sections"
+    },
+    "surfaceMuted": {
+      "value": "#ECECE8",
+      "usage": "Table headers, disabled backgrounds"
+    },
+    "textPrimary": {
+      "value": "#131311",
+      "usage": "Body text, headings — PO ink"
+    },
+    "textSecondary": {
+      "value": "#6B6B66",
+      "usage": "Meta text, captions, supporting copy"
+    },
+    "textOnDark": {
+      "value": "#FFFFFF",
+      "usage": "Text on dark backgrounds and ink buttons"
+    },
+    "link": {
+      "value": "#131311",
+      "usage": "Text links — underline on hover"
+    },
+    "linkHover": {
+      "value": "#4A4A44",
+      "usage": "Link hover — muted ink"
+    },
+    "border": {
+      "value": "#D5D5D0",
+      "usage": "Dividers, input borders"
+    },
+    "borderStrong": {
+      "value": "#A2A29C",
+      "usage": "Emphasis dividers"
+    },
+    "success": {
+      "value": "#067D62",
+      "usage": "Form success states"
+    },
+    "error": {
+      "value": "#B12704",
+      "usage": "Form errors, validation"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "Satoshi, system-ui, -apple-system, sans-serif",
+      "display": "Satoshi, system-ui, -apple-system, sans-serif",
+      "mono": "IBM Plex Mono, ui-monospace, monospace"
+    },
+    "scale": {
+      "display": { "size": "44px", "weight": 700, "lineHeight": 1.1 },
+      "h1": { "size": "36px", "weight": 700, "lineHeight": 1.15 },
+      "h2": { "size": "28px", "weight": 700, "lineHeight": 1.2 },
+      "h3": { "size": "22px", "weight": 700, "lineHeight": 1.25 },
+      "h4": { "size": "18px", "weight": 700, "lineHeight": 1.3 },
+      "body": { "size": "16px", "weight": 400, "lineHeight": 1.6 },
+      "small": { "size": "14px", "weight": 400, "lineHeight": 1.5 },
+      "stat": { "size": "36px", "weight": 700, "lineHeight": 1.05 }
+    },
+    "notes": "Project One visual system — Satoshi display/sans (Fontshare). Content remains eCom Gliders."
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px",
+    "2xl": "48px",
+    "3xl": "64px",
+    "4xl": "96px"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px rgba(15, 17, 17, 0.05)",
+    "md": "0 2px 8px rgba(15, 17, 17, 0.08)",
+    "lg": "0 4px 16px rgba(15, 17, 17, 0.10)",
+    "header": "0 1px 0 rgba(15, 17, 17, 0.08)"
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "component": "PrimaryButton",
+        "bg": "primary",
+        "text": "textOnDark",
+        "hoverBg": "accent",
+        "hoverText": "primary",
+        "radius": "full",
+        "height": "44px",
+        "fill": "solid",
+        "rejected": ["border-beam", "body-gradient", "galaxy"],
+        "trailingIcon": {
+          "idle": "filled-dot",
+          "hover": "lucide-animated-ArrowRight",
+          "sizePx": 18,
+          "motion": "bounce-scale",
+          "layoutShift": false
+        },
+        "animation": "color-fill + icon-bounce",
+        "sitewide": true,
+        "usage": "All primary CTAs sitewide"
+      },
+      "accent": {
+        "component": "PrimaryButton",
+        "variant": "accent",
+        "bg": "accent",
+        "text": "primary",
+        "hoverBg": "accentAlt",
+        "hoverText": "textOnDark",
+        "radius": "full",
+        "height": "44px",
+        "trailingIcon": "same-as-primary",
+        "animation": "color-fill + icon-bounce",
+        "usage": "Punch CTA on dark chrome (header Free Audit) — orange fill = Project One lime role"
+      },
+      "onDark": {
+        "component": "PrimaryButton",
+        "variant": "onDark",
+        "bg": "textOnDark",
+        "text": "primary",
+        "hoverBg": "accent",
+        "hoverText": "primary",
+        "radius": "full",
+        "height": "44px",
+        "usage": "Optional light pill on navy surfaces"
+      },
+      "secondary": {
+        "bg": "transparent",
+        "text": "textPrimary",
+        "border": "none",
+        "underline": "always",
+        "hoverText": "linkHover",
+        "height": "auto",
+        "pattern": "underline-text",
+        "reference": "Amazon, Microsoft, Apple — text action, no filled box"
+      },
+      "link": {
+        "bg": "transparent",
+        "text": "link",
+        "hoverText": "linkHover",
+        "underline": "hover",
+        "height": "auto"
+      }
+    },
+    "badge": {
+      "default": {
+        "bg": "surface",
+        "text": "textPrimary",
+        "radius": "full"
+      },
+      "accent": {
+        "bg": "accent",
+        "text": "textOnDark",
+        "radius": "full"
+      }
+    },
+    "card": {
+      "stat": { "padding": "lg", "radius": "md", "shadow": "md" },
+      "service": { "padding": "lg", "radius": "md", "shadow": "sm" },
+      "caseStudy": { "padding": "lg", "radius": "md", "shadow": "md" },
+      "testimonial": { "padding": "lg", "radius": "lg", "shadow": "sm" }
+    },
+    "container": {
+      "sectionPadding": "3xl",
+      "maxWidth": "1320px",
+      "contentMaxWidth": "768px",
+      "gutter": {
+        "mobile": "16px",
+        "sm": "20px",
+        "md": "24px",
+        "lg": "32px",
+        "xl": "40px"
+      },
+      "reference": "AMZ Dudes shell max-width 1320px (top bar inner 1280px)"
+    },
+    "navigation": {
+      "height": "64px",
+      "sticky": true,
+      "style": "floating-dark-pill",
+      "surface": "primary",
+      "linkTone": "onDark",
+      "ctaLabel": "Free Audit",
+      "reference": "Project One floating charcoal pill — mapped to navy + orange punch CTA"
+    },
+    "footer": {
+      "columns": 4,
+      "preFooterBg": "primary"
+    },
+    "browserMockup": {
+      "chromeHeight": "40px",
+      "borderRadius": "lg",
+      "staticPreview": true,
+      "defaultVariant": "macos",
+      "variants": {
+        "ios": {
+          "label": "iOS Safari",
+          "usage": "Mobile hero, app-style sections, narrow layouts"
+        },
+        "macos": {
+          "label": "macOS Desktop",
+          "usage": "Desktop hero, wide layouts, service pages"
+        }
+      },
+      "tabs": ["PPC Dashboard", "Listing SEO", "Account Analytics"]
+    },
+    "form": {
+      "inputHeight": "44px",
+      "borderColor": "border",
+      "focusRing": "accent",
+      "errorColor": "error",
+      "successColor": "success"
+    }
+  },
+  "motion": {
+    "philosophy": "Minimal, sleek, elegant. Soft ambient page atmosphere allowed. No heavy Framer hero effects (shaders, staggered text, 3d).",
+    "pageAtmosphere": {
+      "style": "slow-drift-orbs",
+      "orbCount": 3,
+      "orbOpacity": [0.1, 0.12],
+      "durationRangeSec": [22, 30],
+      "respectReducedMotion": true,
+      "reference": "Canopy Gradient-Accent.svg fill-opacity 0.15–0.20; Olifant pastel wash intensity",
+      "rejected": ["shader", "particle-field", "video-loop", "cursor-follow", "high-opacity-orbs"]
+    },
+    "primaryButton": {
+      "style": "solid-fill-hover-accent",
+      "lift": -1,
+      "duration": 300,
+      "ease": [0.25, 0.1, 0.25, 1],
+      "rejected": ["shine-sweep", "3d-flip", "staggered-text", "shader", "rotation", "border-beam", "body-gradient", "soft-crossfade-icon"]
+    },
+    "primaryButtonIcon": {
+      "idle": "filled-dot",
+      "hover": "bounce-scale-to-glyph",
+      "glyph": "lucide-animated/ArrowRight",
+      "sizePx": 18,
+      "springEase": [0.34, 1.56, 0.64, 1],
+      "rejected": ["ltr-rtl-ttb-btt-slide", "soft-crossfade-only"]
+    },
+    "card": {
+      "style": "lift-border-shadow",
+      "lift": -2,
+      "duration": 300,
+      "ease": [0.25, 0.1, 0.25, 1],
+      "rejected": ["x-ray-hover", "parallax", "3d-tilt"]
+    },
+    "tabTransition": { "duration": 300, "ease": "easeOut" },
+    "fadeIn": { "duration": 300, "ease": "easeOut" },
+    "reducedMotion": "instant"
+  },
+  "icons": {
+    "library": "lucide-react",
+    "animatedLibrary": "lucide-animated",
+    "ctaTrailing": {
+      "component": "CtaArrowIcon",
+      "source": "lucide-animated/ArrowRight",
+      "sizePx": 18,
+      "idle": "filled-dot"
+    },
+    "size": { "sm": "16px", "md": "18px", "lg": "24px" }
+  },
+  "usage": {
+    "StatCard": ["homepage.stats", "service-page.stats"],
+    "ServiceCard": ["homepage.services", "service-page.related"],
+    "CaseStudyCard": ["homepage.caseStudies", "case-studies.index"],
+    "TestimonialCard": ["homepage.testimonials"],
+    "BrowserMockup": ["homepage.hero", "service-ppc.hero", "free-audit.preview"],
+    "PrimaryButton": ["header.cta", "homepage.hero", "homepage.cta", "contact.form", "free-audit.form", "pre-footer"],
+    "Button": ["secondary underline actions", "card text links"],
+    "MegaMenu": ["header.navigation"],
+    "Footer": ["site.footer"]
+  },
+  "accessibility": {
+    "target": "WCAG 2.1 AA",
+    "minTouchTarget": "44px",
+    "minBodyFontSize": "16px",
+    "skipLink": true,
+    "reducedMotion": true,
+    "focusVisible": true,
+    "fluidTypography": true,
+    "responsiveBreakpoints": ["375px", "768px", "1024px", "1280px"]
+  }
+}

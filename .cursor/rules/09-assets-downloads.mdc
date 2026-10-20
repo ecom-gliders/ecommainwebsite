@@ -1,0 +1,35 @@
+---
+description: Asset download validation and icon policy
+alwaysApply: true
+---
+
+# Assets and Downloads
+
+## Icon policy
+
+Never use emoji or Unicode symbols as UI icons.
+Use the approved design system icon library or download real assets to `assets/icons/`.
+Document source and license in `assets/licenses/`.
+
+## Before downloading
+
+Verify source, relevance, license, format, dimensions, quality, file size.
+
+## After downloading
+
+Meaningful filename, correct folder, provenance logged, file integrity validated.
+
+## Asset folders
+
+- `assets/source/` raw downloads
+- `assets/approved/` production-ready assets
+- `assets/icons/` icon files
+- `assets/images/` images
+- `assets/licenses/` license records
+
+## Brand assets from current site
+
+During migration audit, inventory all logos, badges, partner images, and client logos from ecomgliders.com.
+Download with provenance before using in the new site.
+
+Load skill `.cursor/skills/asset-management/SKILL.md` for workflow.

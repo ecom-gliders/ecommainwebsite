@@ -1,0 +1,65 @@
+# Dependencies
+
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.cache/
+
+# Environment / secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+auth.json
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Playwright local artifacts
+.playwright-mcp/
+test-results/
+playwright-report/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+*.tsbuildinfo
+.next/
+node_modules/
+dist/
+build/
+
+# Vercel local link / deploy cache
+.vercel/
+
+# Large site backup (local only)
+backup/pages/
+backup/blog/
+backup/assets/
+backup/raw/
+backup/scrape-log.txt
+
+# Obsidian local UI state only (vault notes stay tracked)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+obsidian/.obsidian/workspace.json
+obsidian/.obsidian/workspace-mobile.json
+
+# Temporary
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,36 @@
+---
+description: Professional copy standards no AI clichés no unprofessional wording
+alwaysApply: true
+---
+
+# Professional Copy
+
+## Replace unprofessional wording everywhere
+
+UI, templates, database labels, documentation, emails, notifications, headings, marketing text, error messages.
+
+## Bad to good examples
+
+- "Oops something went wrong" becomes "We could not complete the request. Please retry."
+- "Super powerful" becomes specific capability description
+- "Magic builder" becomes "Visual Builder"
+- "Stuff", "Things", "Do it", "Get started now!!!" become exact terminology
+
+## Avoid AI marketing patterns
+
+No exaggerated claims, generic buzzwords, repetitive wording, fake urgency, or capability inflation.
+
+## eCom Gliders tone
+
+Professional Amazon agency voice. Specific outcomes. Credible metrics only when verified.
+Current verified claims from site: helping sellers since 2018, 20+ in-house professionals, 95% retention, $112M+ revenue managed (verify before reusing).
+
+## Symbols in copy
+
+Use standard professional punctuation only.
+Do not use decorative Unicode arrows, bullets, or emoji in user-facing text.
+
+## Content audit during migration
+
+Review every page and blog post for unprofessional wording during content migration.
+Log replacements in `docs/project/CONTENT-AUDIT-LOG.md`.

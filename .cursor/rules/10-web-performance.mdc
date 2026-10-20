@@ -1,0 +1,28 @@
+---
+description: Web performance lazy loading caching Core Web Vitals
+globs: "**/*.{tsx,jsx,ts,js,html,css}"
+alwaysApply: false
+---
+
+# Web Performance
+
+## Defaults
+
+Lazy loading, code splitting, image optimization, responsive images, caching, minimal JavaScript, font optimization, compression.
+
+## Measure before optimizing
+
+Track LCP, CLS, INP, TTFB, bundle size, image weight, request count.
+
+## Critical content
+
+Do not lazy-load above-the-fold content that harms comprehension or accessibility.
+
+## Migration performance baseline
+
+Record current site performance metrics during audit in `docs/seo/TECHNICAL-SEO-AUDIT.md`.
+New site must meet or exceed baseline scores.
+
+## Images
+
+Use modern formats (WebP, AVIF where supported). Provide width and height attributes. Use srcset for responsive images.

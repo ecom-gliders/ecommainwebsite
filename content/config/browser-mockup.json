@@ -1,0 +1,110 @@
+{
+  "defaultTabByVariant": {
+    "macos": "ppc",
+    "ios": "analytics"
+  },
+  "previewDescription": "Static preview only — macOS shows PPC dashboard, iOS shows account analytics. No tab switching, auto-rotate, or row expansion.",
+  "variants": {
+    "macos": {
+      "label": "macOS Desktop"
+    },
+    "ios": {
+      "label": "iOS Safari"
+    }
+  },
+  "tabs": [
+    {
+      "id": "ppc",
+      "label": "Advertising",
+      "shortLabel": "Ads",
+      "url": "sellercentral.amazon.com/ppc/campaigns",
+      "chartLabel": "Weekly ad sales",
+      "stats": [
+        { "label": "ACOS", "value": "18.2%", "progress": 72 },
+        { "label": "Ad sales", "value": "$84.2K", "progress": 85 },
+        { "label": "ROAS", "value": "5.4x", "progress": 91 }
+      ],
+      "chart": [42, 58, 45, 72, 68, 84, 79, 92, 88, 95],
+      "chartPoints": [
+        { "label": "Mar 4", "value": "$62.4K", "raw": 42 },
+        { "label": "Mar 11", "value": "$71.8K", "raw": 58 },
+        { "label": "Mar 18", "value": "$65.2K", "raw": 45 },
+        { "label": "Mar 25", "value": "$78.9K", "raw": 72 },
+        { "label": "Apr 1", "value": "$76.1K", "raw": 68 },
+        { "label": "Apr 8", "value": "$84.2K", "raw": 84 },
+        { "label": "Apr 15", "value": "$81.5K", "raw": 79 },
+        { "label": "Apr 22", "value": "$89.7K", "raw": 92 },
+        { "label": "Apr 29", "value": "$87.3K", "raw": 88 },
+        { "label": "May 6", "value": "$92.1K", "raw": 95 }
+      ],
+      "table": [
+        { "label": "Brand defense", "value": "$12,400", "change": "+24%", "positive": true, "detail": "12 keywords, 8.2% ACOS" },
+        { "label": "Auto campaign", "value": "$8,920", "change": "+18%", "positive": true, "detail": "847 targets, 14.1% ACOS" },
+        { "label": "Exact match", "value": "$6,150", "change": "-4%", "positive": false, "detail": "34 keywords, 22.8% ACOS" },
+        { "label": "Product targeting", "value": "$4,280", "change": "+31%", "positive": true, "detail": "156 ASINs, 11.5% ACOS" }
+      ]
+    },
+    {
+      "id": "seo",
+      "label": "Listing SEO",
+      "shortLabel": "SEO",
+      "url": "sellercentral.amazon.com/listing/optimizer",
+      "chartLabel": "Listing score trend",
+      "stats": [
+        { "label": "Listing score", "value": "92/100", "progress": 92 },
+        { "label": "Indexed keywords", "value": "148", "progress": 74 },
+        { "label": "Organic rank", "value": "#3", "progress": 88 }
+      ],
+      "chart": [28, 35, 42, 55, 61, 68, 74, 82, 88, 92],
+      "chartPoints": [
+        { "label": "Mar 4", "value": "Score 68", "raw": 28 },
+        { "label": "Mar 11", "value": "Score 74", "raw": 35 },
+        { "label": "Mar 18", "value": "Score 79", "raw": 42 },
+        { "label": "Mar 25", "value": "Score 83", "raw": 55 },
+        { "label": "Apr 1", "value": "Score 86", "raw": 61 },
+        { "label": "Apr 8", "value": "Score 88", "raw": 68 },
+        { "label": "Apr 15", "value": "Score 90", "raw": 74 },
+        { "label": "Apr 22", "value": "Score 91", "raw": 82 },
+        { "label": "Apr 29", "value": "Score 92", "raw": 88 },
+        { "label": "May 6", "value": "Score 92", "raw": 92 }
+      ],
+      "table": [
+        { "label": "amazon ppc agency", "value": "Position 3", "change": "+2", "positive": true, "detail": "1,240 monthly searches" },
+        { "label": "amazon account management", "value": "Position 5", "change": "+4", "positive": true, "detail": "890 monthly searches" },
+        { "label": "full service amazon", "value": "Position 8", "change": "+1", "positive": true, "detail": "620 monthly searches" },
+        { "label": "amazon seller services", "value": "Position 12", "change": "-1", "positive": false, "detail": "410 monthly searches" }
+      ]
+    },
+    {
+      "id": "analytics",
+      "label": "Account overview",
+      "shortLabel": "Overview",
+      "url": "sellercentral.amazon.com/analytics/overview",
+      "chartLabel": "Revenue (30 days)",
+      "stats": [
+        { "label": "Revenue", "value": "$312K", "progress": 94 },
+        { "label": "Units sold", "value": "4,820", "progress": 78 },
+        { "label": "Buy Box", "value": "97%", "progress": 97 }
+      ],
+      "chart": [55, 62, 58, 71, 76, 82, 88, 91, 94, 97],
+      "chartPoints": [
+        { "label": "Mar 4", "value": "$248K", "raw": 55 },
+        { "label": "Mar 11", "value": "$261K", "raw": 62 },
+        { "label": "Mar 18", "value": "$255K", "raw": 58 },
+        { "label": "Mar 25", "value": "$272K", "raw": 71 },
+        { "label": "Apr 1", "value": "$281K", "raw": 76 },
+        { "label": "Apr 8", "value": "$294K", "raw": 82 },
+        { "label": "Apr 15", "value": "$302K", "raw": 88 },
+        { "label": "Apr 22", "value": "$308K", "raw": 91 },
+        { "label": "Apr 29", "value": "$310K", "raw": 94 },
+        { "label": "May 6", "value": "$312K", "raw": 97 }
+      ],
+      "table": [
+        { "label": "Top ASIN B09XYZ", "value": "$48,200", "change": "+42%", "positive": true, "detail": "1,240 units, 4.8 rating" },
+        { "label": "Category rank", "value": "#14", "change": "+6", "positive": true, "detail": "Sports and Outdoors" },
+        { "label": "Return rate", "value": "2.1%", "change": "-0.3%", "positive": true, "detail": "Below category average 3.8%" },
+        { "label": "Inventory health", "value": "Good", "change": "Stable", "positive": true, "detail": "42 days of cover, FBA" }
+      ]
+    }
+  ]
+}

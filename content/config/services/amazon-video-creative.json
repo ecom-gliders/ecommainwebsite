@@ -1,0 +1,446 @@
+{
+  "slug": "amazon-video-creative",
+  "breadcrumbLabel": "Video Creative",
+  "layout": "video-ops",
+  "hero": {
+    "title": "Amazon video with proof in the first seconds",
+    "subtitle": "Listing and ad cuts storyboarded for muted autoplay and placement specs—not recycled social films. No invented video CTR or CVR averages.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request Amazon video creative",
+      "subheading": "Share video use-case and product count so we can scope listing and ad creative.",
+      "submitLabel": "Request video support",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "videoNeed",
+          "label": "Video needed for",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "listing",
+              "label": "Listing / A+ video"
+            },
+            {
+              "value": "ads",
+              "label": "Sponsored Brands / video ads"
+            },
+            {
+              "value": "lifestyle",
+              "label": "Lifestyle / brand film"
+            },
+            {
+              "value": "full",
+              "label": "Multiple video types"
+            }
+          ]
+        },
+        {
+          "name": "asinCount",
+          "label": "Products in scope",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "1",
+              "label": "1 product"
+            },
+            {
+              "value": "2-5",
+              "label": "2 to 5 products"
+            },
+            {
+              "value": "6-plus",
+              "label": "6+ products"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-video-creative-service.jpg",
+      "alt": "Video Creative service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon video often fails to help sales",
+    "points": [
+      {
+        "title": "Polished but explains little",
+        "description": "Brand films ignore setup, scale, and feature proof shoppers need."
+      },
+      {
+        "title": "Wrong format for the placement",
+        "description": "Social cuts struggle on listing modules or Sponsored Brands video."
+      },
+      {
+        "title": "No connection to listing messaging",
+        "description": "Video claims diverge from bullets and A+, creating confusion."
+      },
+      {
+        "title": "One video for every objective",
+        "description": "Listing education and ad hooks rarely share the same cut equally well."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon video creative is for",
+    "points": [
+      {
+        "title": "Weak listing education",
+        "description": "Still images cannot show setup, usage, or scale clearly enough."
+      },
+      {
+        "title": "Sponsored Brands or DSP advertisers",
+        "description": "Placement-ready cuts for search, retargeting, or upper-funnel media."
+      },
+      {
+        "title": "Launches that need proof in motion",
+        "description": "Demonstration builds confidence faster than text alone."
+      },
+      {
+        "title": "Teams aligning video with still creative",
+        "description": "Images, A+, and video tell one consistent product story."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How Amazon video is produced",
+    "steps": [
+      {
+        "title": "Objective and placement brief",
+        "description": "Listing education, Sponsored Ads, DSP, or launch storytelling."
+      },
+      {
+        "title": "Script and storyboard",
+        "description": "Scenes around product proof and the first seconds of attention."
+      },
+      {
+        "title": "Production and edit",
+        "description": "Cuts sized and structured for Amazon listing and ad requirements."
+      },
+      {
+        "title": "Publish and iterate",
+        "description": "Packaged for upload and refined as performance indicates."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon video creative includes",
+    "items": [
+      {
+        "title": "Listing video",
+        "description": "Product education videos designed for Amazon product detail pages."
+      },
+      {
+        "title": "Advertising video cuts",
+        "description": "Versions structured for Sponsored Brands, DSP, or related placements."
+      },
+      {
+        "title": "Script and storyboard development",
+        "description": "Clear narrative plans before production starts."
+      },
+      {
+        "title": "Feature and demo sequences",
+        "description": "Shots that show setup, usage, scale, and differentiation."
+      },
+      {
+        "title": "Brand-safe messaging",
+        "description": "Claims and on-screen copy reviewed against product facts."
+      },
+      {
+        "title": "Launch video packages",
+        "description": "Creative sets for new ASINs and seasonal campaigns."
+      },
+      {
+        "title": "Coordination with still creative",
+        "description": "Visual language aligned with listing image and A+ design."
+      },
+      {
+        "title": "Placement and specs review",
+        "description": "Checks against Amazon listing and ad creative requirements."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders video creative differs",
+    "points": [
+      {
+        "title": "Built for Amazon placements, not social first",
+        "description": "Listing modules and Amazon ad formats instead of recycled social cuts."
+      },
+      {
+        "title": "Proof early, brand second",
+        "description": "Scripts prioritize demonstration and objection handling in the opening seconds."
+      },
+      {
+        "title": "Aligned with images, copy, and ads",
+        "description": "Coordinated with visual creativity, content writing, PPC, and DSP when in scope."
+      },
+      {
+        "title": "Audit-first scoping",
+        "description": "Free audit reviews listing and advertising video opportunities before production."
+      }
+    ]
+  },
+  "opsLanes": {
+    "heading": "Cut risks we fix before upload",
+    "subheading": "Beat and placement checks before video production.",
+    "note": "No video-only CTR or CVR averages are published. Case links below are creative conversion context, not video-attributed causation.",
+    "lanes": [
+      {
+        "title": "Late product reveal",
+        "issue": "Opening seconds are logo or lifestyle with no clear product-in-frame.",
+        "fix": "Lead with the ASIN, package, or demo action shoppers recognize immediately.",
+        "verify": "Muted first three seconds still communicate what is for sale."
+      },
+      {
+        "title": "Wrong placement cut",
+        "issue": "One social-length film is forced into listing and Sponsored Brands slots.",
+        "fix": "Plan separate hooks and lengths for listing education versus ad autoplay.",
+        "verify": "Each deliverable matches the intended Amazon placement specs."
+      },
+      {
+        "title": "Claims diverge from the listing",
+        "issue": "On-screen text overpromises or contradicts bullets and A+.",
+        "fix": "Lock approved claims with copy before final edit.",
+        "verify": "Voiceover and captions match publish-ready listing language."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "video-beat-board",
+      "type": "catalogHealthBoard",
+      "heading": "Storyboard beat board",
+      "subheading": "Time-boxed beats for listing and ad attention—cut risks sit in the ops lanes below.",
+      "urlLabel": "video.ecomgliders.com/beats",
+      "disclaimer": "Illustrative beat plan. Exact length and captions depend on placement and Amazon creative specs for your market.",
+      "columns": [
+        "Beat",
+        "Shopper job",
+        "Weak cut",
+        "Amazon-ready signal"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "0–3s",
+            "Hook / product ID",
+            "Slow logo open",
+            "Show product immediately"
+          ]
+        },
+        {
+          "cells": [
+            "3–8s",
+            "Problem or use case",
+            "Feature list voiceover only",
+            "Visual demo of the job"
+          ]
+        },
+        {
+          "cells": [
+            "8–15s",
+            "Proof / differentiator",
+            "Unproven claims",
+            "Show proof on screen"
+          ]
+        },
+        {
+          "cells": [
+            "15–25s",
+            "How it works",
+            "Too many cuts",
+            "One clear sequence"
+          ]
+        },
+        {
+          "cells": [
+            "End card",
+            "SKU / brand recall",
+            "No offer clarity",
+            "Readable end frame"
+          ]
+        },
+        {
+          "cells": [
+            "Placement crop",
+            "Safe zones per placement",
+            "Text cut off in SB/SD",
+            "Export per placement spec"
+          ]
+        }
+      ],
+      "variant": "mac",
+      "boardLabel": "Video · beats"
+    },
+    {
+      "id": "video-placement-priority",
+      "type": "metricChart",
+      "heading": "Where Amazon video effort usually lands first",
+      "subheading": "Placement priority index—not a video CTR average.",
+      "chartLabel": "Relative placement priority (index)",
+      "points": [
+        {
+          "label": "Listing / PDP education video",
+          "value": 100
+        },
+        {
+          "label": "Sponsored Brands video cut",
+          "value": 78
+        },
+        {
+          "label": "Feature / demo short",
+          "value": 64
+        },
+        {
+          "label": "DSP / upper-funnel cut",
+          "value": 42
+        },
+        {
+          "label": "Long lifestyle brand film",
+          "value": 28
+        }
+      ],
+      "footnote": "Priority index for production sequencing only. Creative conversion cases (NIKKETTA, GoSports) reinforce still + A+ standards video should match—not video-attributed lifts.",
+      "variant": "stack"
+    }
+  ],
+  "results": {
+    "heading": "Creative conversion standards video is built to reinforce",
+    "items": [
+      {
+        "metric": "CVR 11.3% to 22.1%",
+        "brand": "NIKKETTA (Pet grooming)",
+        "description": "Premium main images and A+ content nearly doubled conversion—the creative bar listing and ad video should reinforce. Not a video-attributed result.",
+        "href": "/case-study-4/"
+      },
+      {
+        "metric": "CVR 9.8% to 26.7%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Lifestyle imagery and A+ repositioned the listing with +310% monthly revenue. Video work is scoped to support the same product story—not claimed as the sole cause.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Where can Amazon video be used?",
+      "answer": "Video can support product detail pages and Amazon advertising placements such as Sponsored Brands and DSP, depending on eligibility and campaign setup."
+    },
+    {
+      "question": "Do you publish average video CTR or CVR lifts?",
+      "answer": "No. We do not invent video-specific performance averages. Success is scoped by placement, creative quality, and how video supports the listing and media plan."
+    },
+    {
+      "question": "Do you script videos before filming?",
+      "answer": "Yes. We start with objectives, proof points, and a storyboard so production time focuses on the scenes that matter."
+    },
+    {
+      "question": "Can you adapt existing footage?",
+      "answer": "Often yes. We review source footage for Amazon fit and identify what can be recut versus what needs new capture."
+    },
+    {
+      "question": "How long should Amazon listing videos be?",
+      "answer": "Length depends on product complexity and placement. We prioritize early clarity and shopper questions over long brand films."
+    },
+    {
+      "question": "Do videos need to match listing copy?",
+      "answer": "Yes. We align on-screen messaging with approved listing claims and A+ content so the page feels consistent."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support creative work for catalogs selling across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Placement availability can differ by market; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a placement brief, storyboard, then production and listing or ad upload support."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Visual Creativity",
+      "description": "Photography and A+ design that pair with video storytelling.",
+      "href": "/amazon-visual-creativity/",
+      "icon": "image"
+    },
+    {
+      "title": "TikTok Shop Ads",
+      "description": "Short-form discovery ads that can reuse product video learnings beside Amazon.",
+      "href": "/tiktok-shop-ads/",
+      "icon": "target"
+    },
+    {
+      "title": "Amazon PPC Management",
+      "description": "Sponsored campaigns that can use video where placements allow.",
+      "href": "/amazon-ppc-management-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request Amazon video creative",
+    "subheading": "We review listing and advertising video opportunities. No invented video CTR or CVR averages.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Video Creative Services | eCom Gliders",
+    "metaDescription": "Amazon video creative for listings and advertising. Product demos and brand cuts built for Amazon shoppers. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-video-creative/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

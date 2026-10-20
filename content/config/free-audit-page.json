@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "title": "Get your free Amazon account audit",
+    "subtitle": "Turn product listings into sales with a structured review from experienced Amazon strategists. No obligation."
+  },
+  "benefits": {
+    "heading": "What you receive",
+    "items": [
+      "Free personalized Amazon account audit with every qualified submission",
+      "Direct access to experienced strategists, not automated sales sequences",
+      "Tailored growth plan based on your brand goals and competitive landscape",
+      "PPC performance review with wasted spend and scaling opportunities identified",
+      "Listing optimization recommendations you can action immediately",
+      "100% confidentiality for your catalog and account data"
+    ]
+  },
+  "form": {
+    "heading": "Request your free audit",
+    "submitLabel": "Request free audit",
+    "successMessage": "Your audit request was received. A strategist will contact you within one business day.",
+    "errorMessage": "We could not submit the form. Review the fields below and try again.",
+    "consentLabel": "I agree to the privacy policy and consent to being contacted about my audit request.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Full name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Your name"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "placeholder": "you@company.com"
+      },
+      {
+        "name": "phone",
+        "label": "Phone number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "+1 (555) 000-0000"
+      },
+      {
+        "name": "brandName",
+        "label": "Brand name",
+        "type": "text",
+        "required": false,
+        "placeholder": "Your Amazon brand"
+      },
+      {
+        "name": "amazonStoreUrl",
+        "label": "Amazon store URL",
+        "type": "url",
+        "required": false,
+        "placeholder": "https://www.amazon.com/stores/..."
+      },
+      {
+        "name": "monthlyRevenue",
+        "label": "Monthly Amazon revenue",
+        "type": "select",
+        "required": false,
+        "options": [
+          { "value": "", "label": "Please select" },
+          { "value": "new", "label": "New on Amazon, no sales yet" },
+          { "value": "under-10k", "label": "$1 to $10,000" },
+          { "value": "10k-25k", "label": "$10,000 to $25,000" },
+          { "value": "25k-50k", "label": "$25,000 to $50,000" },
+          { "value": "50k-250k", "label": "$50,000 to $250,000" },
+          { "value": "250k-plus", "label": "$250,000+" }
+        ]
+      },
+      {
+        "name": "message",
+        "label": "Additional details",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "Share your primary goals, challenges, or ASIN count (optional)."
+      }
+    ]
+  },
+  "trustSignals": {
+    "heading": "Why sellers choose eCom Gliders",
+    "stats": [
+      { "value": "$112M+", "label": "Revenue managed" },
+      { "value": "95%", "label": "Client retention" },
+      { "value": "20+", "label": "In-house specialists" },
+      { "value": "2018", "label": "Managing Amazon accounts since" }
+    ],
+    "testimonial": {
+      "quote": "eCom Gliders delivered a clear audit and actionable PPC plan within days. Our ACOS dropped while sales scaled.",
+      "author": "Ecommerce Lead",
+      "role": "Consumer brand, US marketplace"
+    }
+  },
+  "fallbackContact": {
+    "heading": "Prefer to talk now?",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "faq": [
+    {
+      "question": "What is included in the free Amazon account audit?",
+      "answer": "We review account health, PPC structure, listing quality, and competitive positioning. You receive prioritized recommendations, not generic templates."
+    },
+    {
+      "question": "How long does the audit take?",
+      "answer": "Initial review typically completes within two to three business days after we receive your submission and account access details if required."
+    },
+    {
+      "question": "Is there any obligation after the audit?",
+      "answer": "No. The audit is provided to demonstrate our approach. You decide whether to proceed with ongoing management."
+    },
+    {
+      "question": "What account access do you need?",
+      "answer": "For a full audit we request read-only Seller Central and Amazon Ads access. We can start with a lighter review if you prefer to share details manually first."
+    },
+    {
+      "question": "Who will I speak with?",
+      "answer": "A senior Amazon strategist from our in-house team. We do not route audit requests through outsourced call centers."
+    }
+  ],
+  "seo": {
+    "metaTitle": "Free Amazon Account Audit | eCom Gliders",
+    "metaDescription": "Get a free audit of your Amazon account. PPC performance review, listing optimization opportunities, and actionable recommendations. No obligation.",
+    "canonical": "/free-audit-2/",
+    "schema": "FAQPage"
+  }
+}

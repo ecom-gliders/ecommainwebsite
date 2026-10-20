@@ -1,0 +1,446 @@
+{
+  "slug": "amazon-content-writing",
+  "breadcrumbLabel": "Content Writing",
+  "layout": "copy-ops",
+  "hero": {
+    "title": "Amazon copy with voice, claims, and conversion hierarchy",
+    "subtitle": "Titles, bullets, and A+ modules written for how shoppers actually scan—not keyword dumps. A+ does not directly raise search rank; it earns the click you already won.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request Amazon copy support",
+      "subheading": "Tell us what content you need so writers can scope titles, bullets, and A+ copy.",
+      "submitLabel": "Request content support",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "contentType",
+          "label": "Content needed",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "title-bullets",
+              "label": "Titles and bullets"
+            },
+            {
+              "value": "aplus-copy",
+              "label": "A+ Content copy"
+            },
+            {
+              "value": "brand-story",
+              "label": "Brand story / Store copy"
+            },
+            {
+              "value": "full",
+              "label": "Full listing copy set"
+            }
+          ]
+        },
+        {
+          "name": "asinCount",
+          "label": "Products needing copy",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "1-3",
+              "label": "1 to 3"
+            },
+            {
+              "value": "4-10",
+              "label": "4 to 10"
+            },
+            {
+              "value": "11-25",
+              "label": "11 to 25"
+            },
+            {
+              "value": "25-plus",
+              "label": "25+"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/content-writing-v2.png",
+      "alt": "Content Writing service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon product copy underperforms",
+    "points": [
+      {
+        "title": "Feature lists without buyer context",
+        "description": "Bullets catalog specs but skip use cases, objections, and proof."
+      },
+      {
+        "title": "Inconsistent brand voice",
+        "description": "ASINs sound disconnected when writers lack shared messaging standards."
+      },
+      {
+        "title": "Keyword stuffing that hurts readability",
+        "description": "Forced terms make titles harder to scan and weaken trust."
+      },
+      {
+        "title": "A+ that repeats the listing",
+        "description": "Modules restate bullets instead of educating and differentiating."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who Amazon content writing is for",
+    "points": [
+      {
+        "title": "Weak or inconsistent listing copy",
+        "description": "Titles and bullets that fail to explain benefits or drift by ASIN."
+      },
+      {
+        "title": "New product launches",
+        "description": "Launch-ready titles, bullets, and A+ before advertising scales."
+      },
+      {
+        "title": "Brand Registry A+ builds",
+        "description": "Module copy that educates—not a second set of the same bullets."
+      },
+      {
+        "title": "Operators aligning copy with SEO and ads",
+        "description": "Customer-facing language that matches keyword and PPC priorities."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How Amazon content writing runs",
+    "steps": [
+      {
+        "title": "Brief and research",
+        "description": "Product facts, competitor messaging, keyword priorities, and brand guidelines."
+      },
+      {
+        "title": "Draft and structure",
+        "description": "Titles, bullets, descriptions, and A+ modules with clear hierarchy."
+      },
+      {
+        "title": "Review and compliance check",
+        "description": "Claims, tone, and policy considerations before publishing."
+      },
+      {
+        "title": "Publish and iterate",
+        "description": "Support listing updates when performance or launches require revisions."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon content writing includes",
+    "items": [
+      {
+        "title": "Product titles",
+        "description": "Readable, keyword-aware titles structured for search and mobile scanning."
+      },
+      {
+        "title": "Bullet point writing",
+        "description": "Benefit-led bullets that address buyer questions and differentiation."
+      },
+      {
+        "title": "Product descriptions",
+        "description": "Supporting narrative for shoppers who want more detail before purchase."
+      },
+      {
+        "title": "A+ Content copy",
+        "description": "Module copy for Brand Registry listings that extends education and brand story."
+      },
+      {
+        "title": "Brand voice guidelines for Amazon",
+        "description": "Shared standards so future listing updates stay consistent."
+      },
+      {
+        "title": "Listing SEO collaboration",
+        "description": "Copy aligned with keyword strategy from listing optimization work."
+      },
+      {
+        "title": "Store and Brand Story copy",
+        "description": "Messaging for Store or Brand Story modules when scope includes them."
+      },
+      {
+        "title": "Launch and seasonal copy updates",
+        "description": "Rewrites for new ASINs, bundles, and seasonal messaging."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders content writing differs",
+    "points": [
+      {
+        "title": "Readable conversion copy, not keyword dumps",
+        "description": "Discoverability and clear benefits so shoppers and search both get usable language."
+      },
+      {
+        "title": "Connected to listing SEO and visuals",
+        "description": "Titles, images, and A+ tell one story with listing and creative teams."
+      },
+      {
+        "title": "Claim discipline before publish",
+        "description": "Draft from product facts you provide; flag unsupported claims for review."
+      },
+      {
+        "title": "In-house team with audit-first scoping",
+        "description": "Priority ASINs and deliverables set during a free audit."
+      }
+    ]
+  },
+  "opsLanes": {
+    "heading": "Draft risks we stop before publish",
+    "subheading": "Claim and narrative checks before copy ships.",
+    "note": "We draft from product facts you provide. Unsupported claims are flagged; we do not invent compliance outcomes.",
+    "lanes": [
+      {
+        "title": "Feature dumps",
+        "issue": "Bullets list specs without use cases, objections, or proof shoppers need.",
+        "fix": "Rewrite to benefit-first hierarchy with one proof point per priority bullet.",
+        "verify": "A cold reader can name the product job and differentiator in under a minute."
+      },
+      {
+        "title": "Voice drift",
+        "issue": "ASINs sound like different brands after multiple writers or vendors.",
+        "fix": "Lock voice rules from approved examples before the next ASIN batch.",
+        "verify": "Sample titles and bullets read as one brand across priority ASINs."
+      },
+      {
+        "title": "A+ that repeats bullets",
+        "issue": "Enhanced content restates the same lines instead of educating or comparing.",
+        "fix": "Map modules to education, comparison, and brand story—not bullet clones.",
+        "verify": "Each module adds information the above-fold copy does not already say."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "copy-claim-board",
+      "type": "catalogHealthBoard",
+      "heading": "Claim and voice board",
+      "subheading": "Surface-by-surface QA before publish. A+ educates—it does not directly raise rank.",
+      "urlLabel": "copy.ecomgliders.com/claims",
+      "disclaimer": "Illustrative claim board for copy QA. A+ Content supports education and conversion; it does not directly raise search rank.",
+      "columns": [
+        "Surface",
+        "Shopper read",
+        "Weak pattern",
+        "Publish gate"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Title",
+            "Identity + primary intent in one scan",
+            "Keyword pile with no brand clarity",
+            "Readable on mobile; core query covered"
+          ]
+        },
+        {
+          "cells": [
+            "Bullets",
+            "Benefits, proof, objection handling",
+            "Spec dump or hype without evidence",
+            "Each bullet earns its line; claims sourced"
+          ]
+        },
+        {
+          "cells": [
+            "Description",
+            "Deeper narrative for high-intent readers",
+            "Repeats bullets or filler paragraphs",
+            "Adds context bullets cannot hold"
+          ]
+        },
+        {
+          "cells": [
+            "A+ modules",
+            "Educate, compare, brand story",
+            "Same five bullets in larger fonts",
+            "New information per module; eligibility checked"
+          ]
+        },
+        {
+          "cells": [
+            "Store / Brand Story",
+            "Cross-ASIN trust and navigation",
+            "Generic about-us with no catalog link",
+            "Collections and proof tied to bestsellers"
+          ]
+        },
+        {
+          "cells": [
+            "Compliance claims",
+            "Health / performance language",
+            "Unsubstantiated absolutes",
+            "Source or remove before live"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Copy · publish gates"
+    },
+    {
+      "id": "copy-outcome-chart",
+      "type": "metricChart",
+      "heading": "Outcomes where stronger Amazon copy and A+ narrative mattered",
+      "subheading": "Case study conversion rates where copy and A+ narrative improved.",
+      "chartLabel": "Conversion rate (%) from eCom Gliders case studies",
+      "points": [
+        {
+          "label": "NIKKETTA CVR before (case study 4)",
+          "value": 11.3
+        },
+        {
+          "label": "NIKKETTA CVR after (case study 4)",
+          "value": 22.1
+        },
+        {
+          "label": "Kitchen Brand Store CVR before (case study 1)",
+          "value": 4.8
+        },
+        {
+          "label": "Kitchen Brand Store CVR after (case study 1)",
+          "value": 9.2
+        }
+      ],
+      "footnote": "NIKKETTA (/case-study-4/): lifestyle imagery and A+ narrative nearly doubled conversion (11.3% to 22.1%). Kitchen Brand Store (/case-study-1/): store CVR 4.8% to 9.2% with storefront and messaging work. Copy alone is not claimed as the sole cause.",
+      "variant": "columns"
+    }
+  ],
+  "results": {
+    "heading": "Results where stronger Amazon copy mattered",
+    "items": [
+      {
+        "metric": "CVR 11.3% to 22.1%",
+        "brand": "NIKKETTA (Pet grooming)",
+        "description": "Lifestyle imagery with A+ modules and a clearer brand story nearly doubled listing conversion.",
+        "href": "/case-study-4/"
+      },
+      {
+        "metric": "CVR 9.8% to 26.7%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Benefit-first copy and objection-handling bullets supported conversion gains with listing and advertising work.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What Amazon content do you write?",
+      "answer": "We write titles, bullets, descriptions, and A+ Content copy. Scope can also include brand story modules and launch messaging for priority ASINs."
+    },
+    {
+      "question": "Does A+ Content improve Amazon search ranking?",
+      "answer": "A+ Content does not directly improve organic search rank. Amazon ranking is driven mainly by sales velocity, conversion, relevance, and related performance signals. A+ helps educate shoppers and support conversion after they reach the page."
+    },
+    {
+      "question": "Do you research keywords before writing?",
+      "answer": "Yes. Copy is informed by keyword priorities and listing SEO strategy so discoverability and readability stay balanced."
+    },
+    {
+      "question": "Can you match our existing brand voice?",
+      "answer": "Yes. We work from brand guidelines and approved examples, then lock voice standards for ongoing Amazon copy."
+    },
+    {
+      "question": "How do you handle claim accuracy?",
+      "answer": "We draft from product facts you provide and flag unsupported claims for review before publishing."
+    },
+    {
+      "question": "How is content writing different from listing optimization?",
+      "answer": "Listing optimization covers keyword strategy and structural SEO priorities. Content writing produces the customer-facing copy that executes those priorities."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "We support content work across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a content gap review, priority ASIN plan, then drafting and publish support."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Keyword strategy and ranking-focused listing structure.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    },
+    {
+      "title": "Visual Creativity",
+      "description": "Photography and A+ design paired with conversion copy.",
+      "href": "/amazon-visual-creativity/",
+      "icon": "image"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Content priorities managed inside a full Amazon growth plan.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request Amazon copy support",
+    "subheading": "We review listing content gaps, voice consistency, and A+ module needs. No invented rank or average CVR guarantees.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Content Writing Services | eCom Gliders",
+    "metaDescription": "Amazon content writing for titles, bullets, descriptions, and A+ Content. Conversion-focused copy for growing sellers. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-content-writing/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

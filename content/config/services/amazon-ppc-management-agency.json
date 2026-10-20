@@ -1,0 +1,426 @@
+{
+  "slug": "amazon-ppc-management-agency",
+  "breadcrumbLabel": "PPC Management",
+  "layout": "ppc-ops",
+  "hero": {
+    "title": "Amazon PPC management for profitable growth",
+    "subtitle": "Sponsored Products, Brands, and Display with search-term discipline and listing alignment—led by an Amazon Ads Verified Partner. Case metrics only; no invented average ACoS cuts.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Get a free PPC audit",
+      "subheading": "Share spend and efficiency context so we can review Sponsored Ads structure and opportunities.",
+      "submitLabel": "Request a free PPC audit",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "amazonStoreUrl",
+          "label": "Amazon store URL",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://www.amazon.com/stores/..."
+        },
+        {
+          "name": "monthlyAdSpend",
+          "label": "Monthly ad spend",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "under-3k",
+              "label": "Under $3,000"
+            },
+            {
+              "value": "3k-10k",
+              "label": "$3,000 to $10,000"
+            },
+            {
+              "value": "10k-25k",
+              "label": "$10,000 to $25,000"
+            },
+            {
+              "value": "25k-75k",
+              "label": "$25,000 to $75,000"
+            },
+            {
+              "value": "75k-plus",
+              "label": "$75,000+"
+            }
+          ]
+        },
+        {
+          "name": "currentAcos",
+          "label": "Current ACOS range",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "under-20",
+              "label": "Under 20%"
+            },
+            {
+              "value": "20-35",
+              "label": "20% to 35%"
+            },
+            {
+              "value": "35-50",
+              "label": "35% to 50%"
+            },
+            {
+              "value": "50-plus",
+              "label": "50%+"
+            },
+            {
+              "value": "unknown",
+              "label": "Not sure yet"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/ppc-management-v2.png",
+      "alt": "PPC Management service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why Amazon PPC underperforms",
+    "points": [
+      {
+        "title": "Spend without returns",
+        "description": "ACoS climbs when targeting, bids, and search terms are not reviewed on a schedule."
+      },
+      {
+        "title": "Fragmented structure",
+        "description": "Auto, manual, brand, and display overlap without intent segmentation."
+      },
+      {
+        "title": "Limited in-house bandwidth",
+        "description": "Negatives, bids, and placements need weekly attention most teams cannot sustain."
+      },
+      {
+        "title": "Ads disconnected from listings",
+        "description": "Traffic wastes when titles, images, and stock cannot convert."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Sellers wasting spend on irrelevant searches",
+        "description": "Brands that need harvesting, negatives, and match-type control."
+      },
+      {
+        "title": "Operators past DIY ceilings",
+        "description": "Teams that need architecture and profit-tied reporting."
+      },
+      {
+        "title": "Launch and seasonal peaks",
+        "description": "Catalogs that need budget on hero ASINs and inventory-backed windows."
+      },
+      {
+        "title": "Multi-marketplace advertisers",
+        "description": "Sellers who need priorities by margin and catalog stage."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How PPC management runs",
+    "steps": [
+      {
+        "title": "Audit",
+        "description": "Review structure, ACoS/TACoS, search terms, and listing readiness."
+      },
+      {
+        "title": "Architecture",
+        "description": "Segment by intent, product line, and match type."
+      },
+      {
+        "title": "Optimize",
+        "description": "Bids, harvests, negatives, and placements against efficiency targets."
+      },
+      {
+        "title": "Report",
+        "description": "Connect PPC results to inventory, pricing, and listing updates."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What Amazon PPC management covers",
+    "items": [
+      {
+        "title": "Sponsored Products management",
+        "description": "Auto and manual campaigns with structured keyword and ASIN targeting."
+      },
+      {
+        "title": "Sponsored Brands and Display",
+        "description": "Brand visibility and retargeting aligned with catalog and launch priorities."
+      },
+      {
+        "title": "Search term and negative keyword management",
+        "description": "Ongoing query review to cut waste and expand converting terms."
+      },
+      {
+        "title": "Bid and placement optimization",
+        "description": "Data-led bid adjustments by placement, match type, and objective."
+      },
+      {
+        "title": "Budget allocation across SKUs",
+        "description": "Spend directed toward hero products, launches, and inventory-backed priorities."
+      },
+      {
+        "title": "Listing and PPC alignment",
+        "description": "Coordination so ad traffic lands on conversion-ready pages."
+      },
+      {
+        "title": "Performance reporting",
+        "description": "Reporting on ACoS, TACoS, ROAS, impressions, and attributed sales."
+      },
+      {
+        "title": "Dedicated account specialists",
+        "description": "In-house specialists with clear communication channels."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Sales movement from live account windows",
+      "subheading": "Unedited Seller app snapshots from growth.ecomgliders.com—account-specific examples, not a guarantee of ACoS or ROAS.",
+      "images": [
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year.",
+          "caption": "Peak-window sales snapshot (+152% YoY). Source: growth.ecomgliders.com."
+        },
+        {
+          "src": "/images/growth/sales-803k.avif",
+          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year.",
+          "caption": "30-day sales window (+241% YoY). Source: growth.ecomgliders.com."
+        }
+      ]
+    },
+    {
+      "id": "service-acos-chart",
+      "type": "metricChart",
+      "heading": "Verified ACoS from case restructures",
+      "subheading": "GoSports and VoltTech case numbers—paired with listing work where noted, not ads alone.",
+      "chartLabel": "ACoS (%) from eCom Gliders case studies",
+      "points": [
+        {
+          "label": "GoSports before",
+          "value": 52
+        },
+        {
+          "label": "GoSports after",
+          "value": 26.5
+        },
+        {
+          "label": "VoltTech before",
+          "value": 76
+        },
+        {
+          "label": "VoltTech after",
+          "value": 37
+        }
+      ],
+      "footnote": "GoSports (/case-study-9/): also +310% monthly revenue. VoltTech (/case-study-3/): spend fell 32% while ACoS improved. Paired with listing work where noted—not ads alone.",
+      "variant": "bars"
+    },
+    {
+      "id": "ppc-structure-board",
+      "type": "catalogHealthBoard",
+      "heading": "Campaign architecture board",
+      "subheading": "Intent lanes before automation spends. Competitors often sell “managed PPC” as black-box bids—we show the structure first.",
+      "urlLabel": "ads.ecomgliders.com/structure",
+      "disclaimer": "Illustrative architecture. Structure varies by catalog size, margin targets, and marketplace. Not a guarantee of efficiency.",
+      "columns": [
+        "Ad type",
+        "Primary job",
+        "Match / targeting focus",
+        "Waste control"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Sponsored Products",
+            "Convert high-intent search",
+            "Exact / phrase / ASIN",
+            "Search-term harvest + negatives"
+          ]
+        },
+        {
+          "cells": [
+            "Sponsored Brands",
+            "Defend brand + store entry",
+            "Brand / category queries",
+            "Brand defense + competitor filters"
+          ]
+        },
+        {
+          "cells": [
+            "Sponsored Brands Video",
+            "Stop-scroll on search",
+            "Hero ASIN demos",
+            "Creative QA before budget"
+          ]
+        },
+        {
+          "cells": [
+            "Sponsored Display",
+            "Retarget views / audiences",
+            "Views / ASIN / audiences",
+            "Frequency + ASIN exclusions"
+          ]
+        },
+        {
+          "cells": [
+            "Shared controls",
+            "Budget and placement",
+            "Hero SKU priority",
+            "Listing + inventory gate"
+          ]
+        },
+        {
+          "cells": [
+            "Waste watch",
+            "Non-converting terms",
+            "Weekly ST harvest",
+            "Negatives before bid hikes"
+          ]
+        }
+      ],
+      "variant": "mac",
+      "boardLabel": "Ads · structure"
+    }
+  ],
+  "results": {
+    "heading": "PPC results from client accounts",
+    "items": [
+      {
+        "metric": "ACOS 52% to 26.5%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "PPC restructure with listing and brand work improved ad efficiency while monthly revenue grew from $22.1K to $90.7K (+310%).",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "ACOS 76% to 37%; spend −32%",
+        "brand": "VoltTech Accessories (Electronics)",
+        "description": "60-day PPC rehab cut monthly ad spend from $4,950 to $3,370 while ACOS fell from 76% to 37% across US and UK.",
+        "href": "/case-study-3/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What Amazon ad types do you manage?",
+      "answer": "We manage Sponsored Products, Sponsored Brands, and Sponsored Display. Strategy and budget allocation depend on your catalog, margins, and growth stage. DSP is available as a separate service when appropriate."
+    },
+    {
+      "question": "How quickly can PPC improvements appear?",
+      "answer": "Bid, keyword, and placement adjustments often show impact within the first month. Larger structural rebuilds may take additional weeks as Amazon collects performance data."
+    },
+    {
+      "question": "Do you require a minimum ad spend?",
+      "answer": "Minimum spend depends on catalog size and competition in your category. We discuss targets during the free audit and recommend a budget aligned with realistic growth goals."
+    },
+    {
+      "question": "Will I retain access to my Seller Central account?",
+      "answer": "Yes. You retain full ownership. We work through authorized access with clear reporting on changes we make."
+    },
+    {
+      "question": "How do you measure PPC success?",
+      "answer": "We track ACoS, TACoS, ROAS, conversion rate, and attributed sales against agreed targets. Reporting also connects ad performance to inventory and listing health."
+    },
+    {
+      "question": "Can you manage PPC across multiple Amazon marketplaces?",
+      "answer": "Yes. We support advertising across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "Can you work alongside our internal team?",
+      "answer": "Yes. We collaborate with in-house operators on strategy, launches, and catalog updates while handling day-to-day campaign management."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a campaign review, strategy call with findings, then a management plan and onboarding."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Full Account Management",
+      "description": "End-to-end Amazon oversight including PPC, listings, and catalog health.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Keyword research, listing content, and organic ranking improvements.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    },
+    {
+      "title": "Amazon DSP Management",
+      "description": "Programmatic display and video for brands ready to expand beyond Sponsored Ads.",
+      "href": "/amazon-dsp-management/",
+      "icon": "megaphone"
+    }
+  ],
+  "cta": {
+    "heading": "Request a free PPC audit",
+    "subheading": "Share spend and ACoS context. We review structure and listing readiness—no invented average efficiency claims.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon PPC Management Agency | Cut ACOS | eCom Gliders",
+    "metaDescription": "Amazon PPC management agency across Sponsored Products, Brands, and Display. Lower ACoS and scale profitably with an Amazon Ads Verified Partner.",
+    "canonical": "https://ecomgliders.com/amazon-ppc-management-agency/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

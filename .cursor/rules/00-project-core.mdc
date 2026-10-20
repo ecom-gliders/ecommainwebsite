@@ -1,0 +1,47 @@
+---
+description: Core operating rules for eCom Gliders migration project
+alwaysApply: true
+---
+
+# eCom Gliders Project Core
+
+## Project scope
+
+Migrate https://ecomgliders.com/ from the current platform to custom code.
+Development must not start until planning and audit phases are approved.
+
+## Non-negotiables
+
+1. Read before changing. Search before opening large files.
+2. Research before deciding when external facts matter.
+3. Plan before multi-file or architectural work.
+4. Validate assumptions. Never fabricate progress, APIs, assets, or test results.
+5. Keep all project knowledge inside this repository, not global Cursor config.
+6. Use WHAT, WHY, HOW, EVIDENCE, RISK, VALIDATION before substantial decisions.
+7. One discovery pass, one plan pass, one implementation pass, one verification pass.
+8. Stop loops. Report exact blockers after one correction pass.
+
+## Evidence language
+
+Use only: Verified, Observed, Assumed, Proposed, Requires confirmation, Not yet tested.
+
+## Work modes
+
+- ASK: read-only, no file changes
+- PLAN: multi-file work, save plans to `.cursor/plans/`
+- AGENT: implement only after plan is consistent
+- DEBUG: reproduce, isolate, fix, regression test, document
+
+## Session memory
+
+When a chat produces a material decision, update `docs/ai/CHAT-SUMMARIES.md` and `docs/project/DECISIONS.md`.
+Never rely on chat history as the only source of truth.
+
+## Writing policy
+
+Professional, factual, concise. No emojis. No decorative Unicode symbols as UI icons.
+No AI marketing clichés. Replace unprofessional wording in UI, templates, and docs.
+
+## Token optimization
+
+Check existing docs before researching. Load only relevant files. Reuse documented decisions.

@@ -1,0 +1,43 @@
+---
+description: Clean code, file size limits, naming, folder structure
+alwaysApply: true
+---
+
+# Clean Code and Structure
+
+## Code quality
+
+Readable, cohesive, explicit, testable, maintainable, unsurprising.
+Prefer early returns. Avoid excessive nesting. No dead code or unused imports.
+
+## File size targets (heuristics)
+
+- UI components: under 200 to 300 lines
+- Services and repositories: under 250 lines
+- Split when distinct responsibilities emerge; do not split arbitrarily
+
+## Folder hierarchy
+
+Domain-oriented naming. One module, one responsibility.
+Read `obsidian/04-Development/Folder-Structure.md` before creating new directories.
+
+## Naming conventions
+
+- Directories: kebab-case
+- Variables and functions: camelCase
+- Classes, types, interfaces: PascalCase
+- Environment variables: UPPER_SNAKE_CASE
+- Database tables and columns: snake_case
+- API paths: lowercase kebab-case
+
+Inspect existing repository conventions before introducing new ones.
+
+## Forbidden names
+
+Avoid x, temp, data2, final2, testFunction, doStuff, helper1.
+Use domain-specific names.
+
+## Nesting
+
+Maximum practical depth is 4 levels for feature folders.
+Prefer flat feature modules over deep nesting.

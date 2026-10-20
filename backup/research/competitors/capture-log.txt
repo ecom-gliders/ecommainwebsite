@@ -1,0 +1,13 @@
+OK  myamazonguy-homepage.png <- https://myamazonguy.com/
+OK  amzdudes-homepage.png <- https://amzdudes.com/
+OK  canopymanagement-homepage.png <- https://canopymanagement.com/
+OK  amzonestep-homepage.png <- https://www.amzonestep.com/
+OK  olifantdigital-homepage.png <- https://olifantdigital.com/
+OK  sequencecommerce-homepage.png <- https://sequencecommerce.com/
+OK  salesduo-homepage.png <- https://salesduo.com/
+OK  incrementumdigital-homepage.png <- https://incrementumdigital.com/
+OK  evolveamz-homepage.png <- https://evolveamz.com/
+FAIL ecomgliders-homepage.png <- https://ecomgliders.com/: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://ecomgliders.com/", waiting until "networkidle"
+

@@ -1,0 +1,102 @@
+{
+  "name": "eCom Gliders",
+  "tagline": "Full-service Amazon account management",
+  "phone": {
+    "display": "+1 (360) 660-1210",
+    "tel": "+13606601210"
+  },
+  "email": "info@ecomgliders.com",
+  "address": {
+    "street": "1209 Mountain Rd NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "postalCode": "",
+    "country": "US",
+    "formatted": "1209 Mountain Rd NE, Albuquerque, NM"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/Ecom.Gliders/",
+    "linkedin": "https://www.linkedin.com/company/ecomgliders",
+    "instagram": "https://www.instagram.com/ecomgliders/"
+  },
+  "partnerBadges": [
+    {
+      "label": "Amazon Ads Verified Partner",
+      "image": "/images/amazon-verified-partner.png"
+    }
+  ],
+  "claims": {
+    "revenueManaged": "$112M+",
+    "retention": "95%",
+    "teamSize": "20+",
+    "since": "2018"
+  },
+  "announcementBar": {
+    "enabled": false,
+    "variant": "promo",
+    "promo": {
+      "headline": "Free Amazon Account Audit",
+      "body": "PPC, listings, and catalog reviewed — clear priorities, no obligation.",
+      "cta": {
+        "label": "Schedule Call",
+        "href": "/free-audit-2/"
+      },
+      "leftImage": "/images/promo/promo-team-cutout.png",
+      "leftImageAlt": "eCom Gliders Amazon specialists",
+      "badgeImage": "/images/promo/audit-stamp.png",
+      "badgeImageAlt": "Free account audit seal",
+      "rightImage": "/images/promo/promo-amazon-packages.png",
+      "rightImageAlt": "Amazon shipping packages ready for fulfillment"
+    },
+    "kicker": "Compare with AI",
+    "message": "Open ChatGPT, Claude, Gemini, or Perplexity with a ready prompt about working with eCom Gliders.",
+    "items": [],
+    "actions": [
+      {
+        "label": "ChatGPT",
+        "href": "https://chatgpt.com/?q=I%20run%20an%20Amazon%20brand%20and%20want%20to%20lower%20ACOS%20while%20scaling%20revenue.%20Ask%20me%20smart%20discovery%20questions%2C%20then%20recommend%20whether%20a%20full-service%20Amazon%20agency%20like%20eCom%20Gliders%20(ecomgliders.com)%20is%20a%20fit%2C%20and%20outline%20a%2030-day%20growth%20plan.",
+        "style": "ai",
+        "icon": "/images/ai/chatgpt.svg",
+        "external": true
+      },
+      {
+        "label": "Claude",
+        "href": "https://claude.ai/new?q=I%20run%20an%20Amazon%20brand%20and%20want%20to%20lower%20ACOS%20while%20scaling%20revenue.%20Ask%20me%20smart%20discovery%20questions%2C%20then%20recommend%20whether%20a%20full-service%20Amazon%20agency%20like%20eCom%20Gliders%20(ecomgliders.com)%20is%20a%20fit%2C%20and%20outline%20a%2030-day%20growth%20plan.",
+        "style": "ai",
+        "icon": "/images/ai/claude.svg",
+        "external": true
+      },
+      {
+        "label": "Gemini",
+        "href": "https://gemini.google.com/app?q=I%20run%20an%20Amazon%20brand%20and%20want%20to%20lower%20ACOS%20while%20scaling%20revenue.%20Ask%20me%20smart%20discovery%20questions%2C%20then%20recommend%20whether%20a%20full-service%20Amazon%20agency%20like%20eCom%20Gliders%20(ecomgliders.com)%20is%20a%20fit%2C%20and%20outline%20a%2030-day%20growth%20plan.",
+        "style": "ai",
+        "icon": "/images/ai/gemini.svg",
+        "external": true
+      },
+      {
+        "label": "Perplexity",
+        "href": "https://www.perplexity.ai/search/new?q=I%20run%20an%20Amazon%20brand%20and%20want%20to%20lower%20ACOS%20while%20scaling%20revenue.%20Ask%20me%20smart%20discovery%20questions%2C%20then%20recommend%20whether%20a%20full-service%20Amazon%20agency%20like%20eCom%20Gliders%20(ecomgliders.com)%20is%20a%20fit%2C%20and%20outline%20a%2030-day%20growth%20plan.",
+        "style": "ai",
+        "icon": "/images/ai/perplexity.svg",
+        "external": true
+      }
+    ]
+  },
+  "preFooter": {
+    "headline": "Ready to scale your Amazon business?",
+    "subheadline": "We turn Amazon potential into scalable profit for your brand.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "phone": {
+      "display": "+1 (360) 660-1210",
+      "tel": "+13606601210"
+    },
+    "email": "info@ecomgliders.com"
+  },
+  "copyright": {
+    "year": 2026,
+    "holder": "eCom Gliders"
+  }
+}

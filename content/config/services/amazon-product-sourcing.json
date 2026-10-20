@@ -1,0 +1,492 @@
+{
+  "slug": "amazon-product-sourcing",
+  "breadcrumbLabel": "Product Sourcing",
+  "layout": "sourcing-ops",
+  "hero": {
+    "title": "Amazon product sourcing for new ASINs",
+    "subtitle": "Supplier shortlists scored against your category criteria, sample decisions, and launch handoff into catalog work. We do not manufacture products.",
+    "cta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "form": {
+      "heading": "Request product sourcing support",
+      "subheading": "Share category and launch market so we can scope supplier research correctly.",
+      "submitLabel": "Request sourcing support",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter name"
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": true,
+          "placeholder": "201-555-0123"
+        },
+        {
+          "name": "brandName",
+          "label": "Brand / company",
+          "type": "text",
+          "required": false,
+          "placeholder": "Enter brand name"
+        },
+        {
+          "name": "productCategory",
+          "label": "Product category",
+          "type": "text",
+          "required": false,
+          "placeholder": "e.g. kitchen, outdoors, beauty"
+        },
+        {
+          "name": "launchMarket",
+          "label": "Target launch market",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "us",
+              "label": "United States"
+            },
+            {
+              "value": "uk-eu",
+              "label": "UK / EU"
+            },
+            {
+              "value": "multi",
+              "label": "Multiple marketplaces"
+            },
+            {
+              "value": "unsure",
+              "label": "Not sure yet"
+            }
+          ]
+        },
+        {
+          "name": "sourcingStage",
+          "label": "Sourcing stage",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "idea",
+              "label": "Idea / research stage"
+            },
+            {
+              "value": "samples",
+              "label": "Evaluating samples"
+            },
+            {
+              "value": "reorder",
+              "label": "Need new suppliers"
+            }
+          ]
+        }
+      ]
+    },
+    "atmosphere": {
+      "src": "/images/services/amazon-product-sourcing-service.jpg",
+      "alt": "Product Sourcing service atmosphere"
+    }
+  },
+  "stats": [],
+  "problem": {
+    "heading": "Why sourcing stalls expansion",
+    "points": [
+      {
+        "title": "Price-only supplier picks",
+        "description": "Low unit cost fails when quality, MOQ, or lead times erase margins."
+      },
+      {
+        "title": "Weak product-market fit",
+        "description": "Production starts without enough category and differentiation evidence."
+      },
+      {
+        "title": "Samples without decisions",
+        "description": "Rounds continue without comparable evaluation criteria."
+      },
+      {
+        "title": "Incomplete launch specs",
+        "description": "Missing packaging or compliance details delay ASIN and ads plans."
+      }
+    ]
+  },
+  "audience": {
+    "heading": "Who this is for",
+    "points": [
+      {
+        "title": "Brands adding ASINs",
+        "description": "Operators who need structured supplier research before catalog expansion."
+      },
+      {
+        "title": "Private-label launches with a brief",
+        "description": "Sellers ready to define category, margin, and differentiation before outreach."
+      },
+      {
+        "title": "Teams stuck in sample rounds",
+        "description": "Accounts that need comparable criteria instead of inconclusive loops."
+      },
+      {
+        "title": "Sellers connecting sourcing to launch",
+        "description": "Brands that want approved products handed into catalog, listing, and ads."
+      }
+    ]
+  },
+  "solution": {
+    "heading": "How sourcing support runs",
+    "steps": [
+      {
+        "title": "Brief",
+        "description": "Define category, margins, differentiation, and launch constraints."
+      },
+      {
+        "title": "Shortlist",
+        "description": "Compare suppliers on cost, MOQ, lead time, and capability notes."
+      },
+      {
+        "title": "Sample",
+        "description": "Structure evaluation so quality and packaging decisions are documented."
+      },
+      {
+        "title": "Launch handoff",
+        "description": "Package specs for catalog, listing, creative, and advertising work."
+      }
+    ]
+  },
+  "deliverables": {
+    "heading": "What product sourcing covers",
+    "items": [
+      {
+        "title": "Product brief development",
+        "description": "Requirements for category, features, packaging, and commercial targets."
+      },
+      {
+        "title": "Supplier shortlists",
+        "description": "Curated options with comparable cost and capability notes."
+      },
+      {
+        "title": "MOQ and lead time review",
+        "description": "Constraints evaluated against inventory and launch plans."
+      },
+      {
+        "title": "Sample coordination support",
+        "description": "Structured sample requests and evaluation checkpoints."
+      },
+      {
+        "title": "Quality and packaging considerations",
+        "description": "Review points that affect listing presentation, FBA fees, and CX."
+      },
+      {
+        "title": "Cost and margin framing",
+        "description": "Unit economics reviewed against Amazon fees and advertising needs."
+      },
+      {
+        "title": "Compliance documentation guidance",
+        "description": "Likely testing needs identified; formal testing via qualified providers when required."
+      },
+      {
+        "title": "Handoff to listing and launch teams",
+        "description": "Specs packaged for catalog creation, content, creative, and go-to-market work."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "supplier-shortlist-board",
+      "type": "catalogHealthBoard",
+      "heading": "Supplier shortlist matrix",
+      "subheading": "Same brief scored across capability, verification, and Amazon-ready packaging—not unit price alone. Competitors often stop at Alibaba quotes; we keep the decision evidence in one sheet.",
+      "urlLabel": "sourcing.ecomgliders.com/shortlist",
+      "boardLabel": "Shortlist · scored lanes",
+      "disclaimer": "Illustrative shortlist structure. Not a quote, MOQ, or factory guarantee. We do not manufacture products.",
+      "columns": [
+        "Lane",
+        "MOQ / lead",
+        "Sample + QC",
+        "Verify",
+        "Decision"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "A — category factory",
+            "Fits launch / 8–10 wk",
+            "Finish matches brief",
+            "Licence + export trail OK",
+            "Advance PO planning"
+          ]
+        },
+        {
+          "cells": [
+            "B — low unit quote",
+            "High MOQ / 10–12 wk",
+            "Packaging redo needed",
+            "Trading-co risk flagged",
+            "Hold for sample #2"
+          ]
+        },
+        {
+          "cells": [
+            "C — fast sample",
+            "Low MOQ / 6–8 wk",
+            "Comm delays on revisions",
+            "Bank beneficiary check open",
+            "Backup lane only"
+          ]
+        },
+        {
+          "cells": [
+            "Packaging / FBA marks",
+            "—",
+            "Insert, barcode, carton",
+            "Channel label rules listed",
+            "Attach to approved sample"
+          ]
+        },
+        {
+          "cells": [
+            "Compliance path",
+            "—",
+            "Category tests flagged",
+            "Lab via qualified provider",
+            "No marketplace guarantee"
+          ]
+        },
+        {
+          "cells": [
+            "Payment terms",
+            "—",
+            "Deposit vs balance gate",
+            "Beneficiary matches contract",
+            "Written before deposit"
+          ]
+        }
+      ],
+      "variant": "sheet"
+    },
+    {
+      "id": "landed-cost-waterfall",
+      "type": "metricChart",
+      "heading": "Landed-cost model (index, not a quote)",
+      "subheading": "Compare suppliers on identical assumptions: factory price is not your cost. Index weights only—real dollars set in your brief.",
+      "chartLabel": "Relative weight in a typical evaluation model",
+      "points": [
+        {
+          "label": "Ex-works / FOB unit",
+          "value": 40
+        },
+        {
+          "label": "Packaging and inserts",
+          "value": 8
+        },
+        {
+          "label": "Tooling (amortized)",
+          "value": 6
+        },
+        {
+          "label": "Freight and insurance",
+          "value": 18
+        },
+        {
+          "label": "Duties and import",
+          "value": 12
+        },
+        {
+          "label": "Pre-ship inspection",
+          "value": 5
+        },
+        {
+          "label": "FBA prep and inbound",
+          "value": 16
+        },
+        {
+          "label": "Ads / returns / margin buffer",
+          "value": 28
+        }
+      ],
+      "footnote": "Index structure for apples-to-apples supplier comparison. Shares vary by category, origin, season, and Incoterms. Not a landed-cost quote.",
+      "variant": "bars"
+    },
+    {
+      "id": "sample-scorecard",
+      "type": "catalogHealthBoard",
+      "heading": "Sample scorecard before production",
+      "subheading": "Physical samples scored side by side against the written brief—the step photos and first quotes skip.",
+      "urlLabel": "sourcing.ecomgliders.com/samples",
+      "boardLabel": "Sample scorecard",
+      "disclaimer": "Example evaluation sheet. Formal testing and certification go through qualified providers when required. We do not manufacture products.",
+      "columns": [
+        "Check",
+        "Brief target",
+        "Sample A",
+        "Sample B",
+        "Call"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Materials / finish",
+            "Spec locked in brief",
+            "Match",
+            "Soft variance",
+            "A preferred"
+          ]
+        },
+        {
+          "cells": [
+            "Dimensions / fit",
+            "Tolerance noted",
+            "Within range",
+            "Over on one edge",
+            "Revise B or drop"
+          ]
+        },
+        {
+          "cells": [
+            "Packaging integrity",
+            "Retail + FBA ready",
+            "Needs insert art",
+            "Carton marks missing",
+            "Files before PO"
+          ]
+        },
+        {
+          "cells": [
+            "Label / barcode path",
+            "FNSKU plan clear",
+            "Placeholders OK",
+            "Wrong barcode size",
+            "Fix before bulk"
+          ]
+        },
+        {
+          "cells": [
+            "Defect / return risk",
+            "Known failure modes",
+            "Low on sample",
+            "Edge finish rough",
+            "QC criteria written"
+          ]
+        },
+        {
+          "cells": [
+            "Approved reference",
+            "Keep golden sample",
+            "Retain A",
+            "—",
+            "Inspection baseline"
+          ]
+        }
+      ],
+      "variant": "sheet"
+    }
+  ],
+  "results": {
+    "heading": "Results from catalog-expansion growth work",
+    "items": [
+      {
+        "metric": "7-figure brand in 9 months",
+        "brand": "FocusForm (Office products)",
+        "description": "Multi-ASIN expansion to a 7-figure brand—the outcome sourcing supports when launches are planned correctly. Not a sourcing cost-cut claim.",
+        "href": "/case-study-8/"
+      },
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing, creative, and advertising grew monthly revenue from $22.1K to $90.7K with a clearer product and catalog foundation.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do you manufacture products yourselves?",
+      "answer": "No. We support supplier research, evaluation, and launch readiness. Manufacturing remains with the selected supplier."
+    },
+    {
+      "question": "Can you source only within specific categories?",
+      "answer": "Yes. We define category boundaries, constraints, and differentiation needs before outreach begins."
+    },
+    {
+      "question": "How do you evaluate suppliers?",
+      "answer": "We compare cost, MOQ, lead times, communication quality, and product fit against your brief rather than selecting on price alone."
+    },
+    {
+      "question": "Does sourcing include compliance certification?",
+      "answer": "We identify likely documentation and compliance considerations for the product type. Formal testing or certification is handled through qualified providers when required. We do not guarantee marketplace approval."
+    },
+    {
+      "question": "How does sourcing connect to Amazon launch?",
+      "answer": "Approved products hand off into catalog setup, listing content, creative, and advertising planning so sourcing does not end at sample approval."
+    },
+    {
+      "question": "Is this suitable for first-time Amazon sellers?",
+      "answer": "Yes, when there is a clear brief and budget for sampling. We set expectations on timelines and decision criteria during the free audit."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support for launches?",
+      "answer": "We support launch and catalog work across official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Supplier regions and compliance needs vary by product and market; scope is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. Typical next steps are a product brief, supplier shortlist, sample evaluation, then launch handoff."
+    }
+  ],
+  "relatedServices": [
+    {
+      "title": "Catalog Management",
+      "description": "New ASIN setup and listing health after sourcing decisions.",
+      "href": "/amazon-catalog-management/",
+      "icon": "layers"
+    },
+    {
+      "title": "Listing Optimization and SEO",
+      "description": "Keyword and conversion work for newly launched products.",
+      "href": "/amazon-listing-optimization/",
+      "icon": "search"
+    },
+    {
+      "title": "Full Account Management",
+      "description": "Launch priorities managed inside a broader Amazon growth plan.",
+      "href": "/full-service-amazon-agency/",
+      "icon": "briefcase"
+    }
+  ],
+  "cta": {
+    "heading": "Request product sourcing support",
+    "subheading": "Share category and stage. We outline brief, shortlist, and sample criteria.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Product Sourcing Services | eCom Gliders",
+    "metaDescription": "Amazon product sourcing support with supplier shortlists, sample evaluation, and launch readiness for new ASINs. Free audit.",
+    "canonical": "https://ecomgliders.com/amazon-product-sourcing/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "Service"
+  }
+}

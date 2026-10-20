@@ -1,0 +1,305 @@
+{
+  "hero": {
+    "title": "Amazon growth services for serious sellers",
+    "subtitle": "Advertising, catalog, brand operations, and complementary channels from one in-house team. Amazon remains the core growth engine.",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "secondaryCta": {
+      "label": "Call +1 (360) 660-1210",
+      "href": "tel:+13606601210"
+    },
+    "browser": {
+      "image": "/images/services/services-hub-hero-browser.jpg",
+      "imageAlt": "Amazon growth dashboard preview with revenue charts, listing performance, and PPC campaign metrics",
+      "url": "ecomgliders.com/services"
+    }
+  },
+  "flagship": {
+    "eyebrow": "Flagship engagement",
+    "heading": "Full-service Amazon account management",
+    "body": "One accountable team coordinates PPC, listings, creative, catalog health, and growth priorities so sellers are not stitching vendors together.",
+    "cta": {
+      "label": "Explore full-service management",
+      "href": "/full-service-amazon-agency/"
+    }
+  },
+  "categories": [
+    {
+      "id": "advertising-growth",
+      "title": "Advertising and Growth",
+      "description": "Paid media, account oversight, and reporting that keep spend tied to profitable growth.",
+      "services": [
+        {
+          "id": "full-service-amazon-agency",
+          "title": "Amazon Account Management",
+          "description": "Full-service growth and oversight across ads, listings, and catalog priorities.",
+          "href": "/full-service-amazon-agency/",
+          "icon": "briefcase",
+          "featured": true,
+          "image": "/images/services/amazon-account-management-service.jpg",
+          "imageAlt": "Dual-monitor workspace for Amazon account management services"
+        },
+        {
+          "id": "amazon-ppc-management-agency",
+          "title": "Amazon PPC Management",
+          "description": "Sponsored Products, Brands, and Display structured for ACOS control and scale.",
+          "href": "/amazon-ppc-management-agency/",
+          "icon": "target",
+          "image": "/images/services/amazon-ppc-management-service.jpg",
+          "imageAlt": "Laptop and tablet campaign charts for Amazon PPC management services"
+        },
+        {
+          "id": "amazon-dsp-management",
+          "title": "Amazon DSP",
+          "description": "Upper-funnel and retargeting campaigns coordinated with on-Amazon advertising.",
+          "href": "/amazon-dsp-management/",
+          "icon": "trending-up",
+          "image": "/images/services/amazon-dsp-management-service.jpg",
+          "imageAlt": "Laptop dashboard scene representing Amazon DSP display and retargeting campaigns"
+        },
+        {
+          "id": "amazon-reporting-analytics",
+          "title": "Reporting and Analytics",
+          "description": "Clear weekly and monthly metrics so decisions stay grounded in account performance.",
+          "href": "/amazon-reporting-analytics/",
+          "icon": "gauge",
+          "image": "/images/services/amazon-reporting-analytics-service.jpg",
+          "imageAlt": "Tablet and report sheets for Amazon reporting and analytics services"
+        }
+      ]
+    },
+    {
+      "id": "catalog-content",
+      "title": "Catalog and Content",
+      "description": "Listing, creative, and catalog work that improve visibility and conversion.",
+      "services": [
+        {
+          "id": "amazon-listing-optimization",
+          "title": "Listing Optimization and SEO",
+          "description": "Keyword research and listing content aligned to how shoppers search and convert.",
+          "href": "/amazon-listing-optimization/",
+          "icon": "search",
+          "image": "/images/services/amazon-listing-optimization-service.jpg",
+          "imageAlt": "Product package with magnifying glass for Amazon listing optimization and SEO"
+        },
+        {
+          "id": "amazon-content-writing",
+          "title": "Content Writing",
+          "description": "Titles, bullets, A+ narrative, and brand story written for Amazon shoppers.",
+          "href": "/amazon-content-writing/",
+          "icon": "file-text",
+          "image": "/images/services/amazon-content-writing-service.jpg",
+          "imageAlt": "Notebook, pen, and laptop for Amazon content writing services"
+        },
+        {
+          "id": "amazon-visual-creativity",
+          "title": "Visual Creativity",
+          "description": "Main images, secondary sets, infographics, and A+ layouts built for conversion.",
+          "href": "/amazon-visual-creativity/",
+          "icon": "image",
+          "image": "/images/services/amazon-visual-creativity-service.jpg",
+          "imageAlt": "Studio softbox product shoot for Amazon visual creativity services"
+        },
+        {
+          "id": "amazon-video-creative",
+          "title": "Video Creative",
+          "description": "Listing and advertising video produced for Amazon placements and shopper clarity.",
+          "href": "/amazon-video-creative/",
+          "icon": "image",
+          "image": "/images/services/amazon-video-creative-service.jpg",
+          "imageAlt": "Camera on tripod filming a product for Amazon video creative services"
+        },
+        {
+          "id": "amazon-catalog-management",
+          "title": "Catalog Management",
+          "description": "Listing health, suppressions, variations, and cleanup before issues stall sales.",
+          "href": "/amazon-catalog-management/",
+          "icon": "layers",
+          "image": "/images/services/amazon-catalog-management-service.jpg",
+          "imageAlt": "Warehouse shelves and tablet for Amazon catalog management services"
+        }
+      ]
+    },
+    {
+      "id": "brand-operations",
+      "title": "Brand and Operations",
+      "description": "Brand protection, entity readiness, and sourcing support that set launches up correctly.",
+      "services": [
+        {
+          "id": "amazon-trademark-brand-registry",
+          "title": "Trademark and Brand Registry",
+          "description": "USPTO trademark guidance and Brand Registry enrollment support for Amazon brands.",
+          "href": "/amazon-trademark-brand-registry/",
+          "icon": "shield-check",
+          "image": "/images/services/amazon-trademark-brand-registry-service.jpg",
+          "imageAlt": "Portfolio and stamp desk scene for Amazon trademark and Brand Registry services"
+        },
+        {
+          "id": "amazon-company-registration",
+          "title": "Company Registration",
+          "description": "US entity readiness guidance connected to Seller Central and Brand Registry next steps.",
+          "href": "/amazon-company-registration/",
+          "icon": "briefcase",
+          "image": "/images/services/amazon-company-registration-service.jpg",
+          "imageAlt": "Incorporation paperwork on a desk for US company registration for Amazon sellers"
+        },
+        {
+          "id": "amazon-product-sourcing",
+          "title": "Product Sourcing",
+          "description": "Supplier research and sample evaluation criteria for new ASINs and catalog expansion.",
+          "href": "/amazon-product-sourcing/",
+          "icon": "compass",
+          "image": "/images/services/amazon-product-sourcing-service.jpg",
+          "imageAlt": "Product samples and measuring tools for Amazon product sourcing services"
+        }
+      ]
+    },
+    {
+      "id": "channels-dtc",
+      "title": "Channels and DTC",
+      "description": "Owned-channel and discovery services that complement Amazon acquisition—not replace it.",
+      "services": [
+        {
+          "id": "shopify-website-development",
+          "title": "Shopify and Website Development",
+          "description": "Conversion-focused Shopify storefronts for Amazon brands building owned presence.",
+          "href": "/shopify-website-development/",
+          "icon": "briefcase",
+          "image": "/images/services/shopify-website-development-service.jpg",
+          "imageAlt": "Laptop and phone showing storefront design for Shopify website development"
+        },
+        {
+          "id": "tiktok-shop-ads",
+          "title": "TikTok Shop Ads",
+          "description": "Shop ads and product discovery tested beside Amazon, with creative before scale.",
+          "href": "/tiktok-shop-ads/",
+          "icon": "target",
+          "image": "/images/services/tiktok-shop-ads-service.jpg",
+          "imageAlt": "Smartphone product demo setup for TikTok Shop ads services"
+        },
+        {
+          "id": "email-retention-marketing",
+          "title": "Email and Retention Marketing",
+          "description": "Lifecycle email built on legitimate owned opt-in to support repeat purchase and launches.",
+          "href": "/email-retention-marketing/",
+          "icon": "file-text",
+          "image": "/images/services/email-retention-marketing-service.jpg",
+          "imageAlt": "Laptop email campaign workspace for email and retention marketing services"
+        }
+      ]
+    }
+  ],
+  "stack": {
+    "heading": "How the stack works together",
+    "subheading": "Services are delivered as one operating system so ads, listings, creative, and channel work reinforce each other.",
+    "steps": [
+      {
+        "title": "Audit the account",
+        "description": "We review advertising, catalog, creative, and channel readiness to define the highest-impact priorities."
+      },
+      {
+        "title": "Set the operating plan",
+        "description": "Scope which services run together—full-service or focused workstreams—with clear ownership."
+      },
+      {
+        "title": "Execute in parallel",
+        "description": "PPC, listings, creative, and operations move against the same product and keyword priorities."
+      },
+      {
+        "title": "Report and refine",
+        "description": "Weekly and monthly reporting guides the next round of tests, creative, and catalog work."
+      }
+    ]
+  },
+  "proof": {
+    "heading": "Built for Amazon brands that need accountable operators",
+    "items": [
+      {
+        "value": "$112M+",
+        "label": "Revenue managed"
+      },
+      {
+        "value": "95%",
+        "label": "Client retention"
+      },
+      {
+        "value": "20+",
+        "label": "In-house specialists"
+      },
+      {
+        "value": "2018",
+        "label": "Helping sellers since"
+      }
+    ]
+  },
+  "featuredResults": {
+    "heading": "Results from connected Amazon growth work",
+    "subheading": "Verified case outcomes from catalog, listing, and advertising execution—not invented hub metrics.",
+    "cta": {
+      "label": "View all case studies",
+      "href": "/case-studies/"
+    },
+    "items": [
+      {
+        "metric": "310% sales increase",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "Listing, creative, and advertising execution grew monthly revenue from $22.1K to $90.7K.",
+        "href": "/case-study-9/"
+      },
+      {
+        "metric": "73% sales growth",
+        "brand": "Kitchen brand",
+        "description": "Catalog optimization with listing and PPC restructuring moved a home and kitchen brand from stagnant sales to sustained growth.",
+        "href": "/case-study-1/"
+      },
+      {
+        "metric": "ACOS 52% to 26.5%",
+        "brand": "GoSports (Sports and Outdoors)",
+        "description": "PPC restructuring and listing improvements cut ACOS while revenue scaled on the same catalog foundation.",
+        "href": "/case-study-9/"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Do you only manage Amazon PPC?",
+      "answer": "No. PPC is one capability. We also support full account management, listing optimization, content, creative, catalog operations, brand foundations, and complementary channels such as Shopify, TikTok Shop ads, and email retention."
+    },
+    {
+      "question": "Can I buy one service or only full management?",
+      "answer": "Both. Some brands start with a focused workstream such as PPC or listing optimization. Others engage full-service account management so advertising, catalog, and creative stay coordinated."
+    },
+    {
+      "question": "Do Shopify or TikTok Shop ads replace Amazon?",
+      "answer": "No. We position Shopify, TikTok Shop ads, and email retention as complementary owned or discovery channels. Amazon remains the core growth engine for most brands we support."
+    },
+    {
+      "question": "Which Amazon marketplaces do you support?",
+      "answer": "Our Amazon growth work supports official Amazon Seller Central marketplaces: United States, Canada, Mexico, Brazil, United Kingdom, Germany, France, Italy, Spain, Netherlands, Belgium, Ireland, Sweden, Poland, Turkey, United Arab Emirates, Saudi Arabia, Egypt, South Africa, India, Japan, Australia, and Singapore. Channel-specific eligibility is confirmed during your audit consultation."
+    },
+    {
+      "question": "How does the free audit work?",
+      "answer": "Submit the free audit form or contact us at +1 (360) 660-1210 or info@ecomgliders.com. A strategist reviews your catalog and priorities, then follows up with next-step recommendations. There is no obligation."
+    }
+  ],
+  "cta": {
+    "heading": "Ready to choose the right Amazon services?",
+    "subheading": "Request a free audit. We review advertising, catalog, and channel fit with no obligation.",
+    "button": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon Growth Services | eCom Gliders",
+    "metaDescription": "Amazon growth services: PPC, account management, listings, creative, catalog, brand ops, Shopify, TikTok Shop ads, and email. Free audit.",
+    "canonical": "https://ecomgliders.com/services/",
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "schema": "FAQPage"
+  }
+}
