@@ -26,14 +26,22 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageSeoToMetadata(index.seo);
 }
 
-export default async function CaseStudiesIndexPage() {
+interface CaseStudiesIndexPageProps {
+  searchParams: Promise<{ service?: string }>;
+}
+
+export default async function CaseStudiesIndexPage({
+  searchParams,
+}: CaseStudiesIndexPageProps) {
   const repository = getContentRepository();
-  const [index, studies, filters, site] = await Promise.all([
-    repository.getCaseStudiesIndex(),
-    repository.getCaseStudies(),
-    repository.getCaseStudiesFilters(),
-    repository.getSiteConfig(),
-  ]);
+  const [{ service: serviceParam }, index, studies, filters, site] =
+    await Promise.all([
+      searchParams,
+      repository.getCaseStudiesIndex(),
+      repository.getCaseStudies(),
+      repository.getCaseStudiesFilters(),
+      repository.getSiteConfig(),
+    ]);
 
   if (!index) {
     notFound();
@@ -262,7 +270,11 @@ export default async function CaseStudiesIndexPage() {
               Filter by service. Every card shows a hard outcome, category, and engagement window.
             </p>
           </div>
-          <CaseStudiesGrid studies={studies} filters={filters} />
+          <CaseStudiesGrid
+            studies={studies}
+            filters={filters}
+            initialFilter={serviceParam}
+          />
         </SectionShell>
 
         {index.proofHeading ? (

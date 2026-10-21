@@ -1,0 +1,252 @@
+{
+  "generatedAt": "2026-10-21T22:57:29.452Z",
+  "postsScanned": 328,
+  "markdownLinks": 2228,
+  "htmlHrefsInMdx": 87,
+  "mdx": {
+    "externalTotal": 702,
+    "externalUnique": 472,
+    "internalBlogTotal": 76,
+    "internalBlogUnique": 33,
+    "internalKnownSitePages": 763,
+    "internalKnownSiteUnique": 13,
+    "unresolvedInternalTotal": 413,
+    "unresolvedInternalUnique": 37,
+    "anchors": 3,
+    "mailto": 104,
+    "imageRefs": 254,
+    "remainingWpUploadHrefRefs": 0
+  },
+  "wpSource": {
+    "posts": 328,
+    "wpHrefs": 10459,
+    "wpInternal": 9712,
+    "wpExternal": 747
+  },
+  "comparison": {
+    "note": "WP counts are hrefs in content.rendered (images/mailto/# excluded). MDX may use markdown links after HTML→MD conversion.",
+    "wpInternal": 9712,
+    "mdxInternalResolvedOrUnresolved": 1252,
+    "wpExternal": 747,
+    "mdxExternal": 702,
+    "internalDelta": -8460,
+    "externalDelta": -45
+  },
+  "samples": {
+    "unresolvedInternal": [
+      "https://ecomgliders.com/get-in-touch/",
+      "https://ecomgliders.com/amazon-ppc-management-agency/",
+      "https://ecomgliders.com/request-a-quote/",
+      "https://ecomgliders.com/full-service-amazon-agency/",
+      "_wp_link_placeholder",
+      "https://ecomgliders.com/reduce-amazo-acos-2025/",
+      "https://ecomgliders.com/services-2/#services_5",
+      "https://ecomgliders.com/author/bakhtawar/",
+      "https://ecomgliders.com/2025/12/10/",
+      "https://ecomgliders.com/category/amazon-compliance/",
+      "https://ecomgliders.com/category/amazon-fba-guide/",
+      "https://ecomgliders.com/category/amazon-market-analysis/",
+      "https://ecomgliders.com/category/amazon-ppc/",
+      "https://ecomgliders.com/category/amazon-ppc-advertising/",
+      "https://ecomgliders.com/category/amazon-seo/",
+      "https://ecomgliders.com/category/amazon-stock/",
+      "https://ecomgliders.com/category/amazon-tools/",
+      "https://ecomgliders.com/category/business-strategy/",
+      "https://ecomgliders.com/category/ecommerce/",
+      "https://ecomgliders.com/category/ecommerce-news-analysis/",
+      "https://ecomgliders.com/category/full-account-management-services/",
+      "https://ecomgliders.com/category/guide/",
+      "https://ecomgliders.com/category/guide-2025/",
+      "https://ecomgliders.com/category/guide-2026/",
+      "https://ecomgliders.com/category/news-2026/",
+      "https://ecomgliders.com/category/ppc-services/",
+      "https://ecomgliders.com/category/prime-day/",
+      "https://ecomgliders.com/category/technology-and-digital-services/",
+      "https://ecomgliders.com/category/top-agencies/",
+      "https://ecomgliders.com/category/top-ppc-tools/",
+      "https://ecomgliders.com/category/uncategorized/",
+      "https://ecomgliders.com/category/why-we-are-unique/",
+      "https://ecomgliders.com/tag/amazon-business-strategy/",
+      "https://ecomgliders.com/tag/amazon-growth/",
+      "https://ecomgliders.com/tag/amazon-seo/",
+      "https://ecomgliders.com/case-study-1/",
+      "https://ecomgliders.com/2025/12/19/"
+    ],
+    "unresolvedByPath": [
+      {
+        "path": "/request-a-quote",
+        "count": 219
+      },
+      {
+        "path": "/get-in-touch",
+        "count": 59
+      },
+      {
+        "path": "/case-study-1",
+        "count": 57
+      },
+      {
+        "path": "/amazon-ppc-management-agency",
+        "count": 9
+      },
+      {
+        "path": "/_wp_link_placeholder",
+        "count": 9
+      },
+      {
+        "path": "/full-service-amazon-agency",
+        "count": 2
+      },
+      {
+        "path": "/author/bakhtawar",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-compliance",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-fba-guide",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-market-analysis",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-ppc",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-ppc-advertising",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-seo",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-stock",
+        "count": 2
+      },
+      {
+        "path": "/category/amazon-tools",
+        "count": 2
+      },
+      {
+        "path": "/category/business-strategy",
+        "count": 2
+      },
+      {
+        "path": "/category/ecommerce",
+        "count": 2
+      },
+      {
+        "path": "/category/ecommerce-news-analysis",
+        "count": 2
+      },
+      {
+        "path": "/category/full-account-management-services",
+        "count": 2
+      },
+      {
+        "path": "/category/guide",
+        "count": 2
+      },
+      {
+        "path": "/category/guide-2025",
+        "count": 2
+      },
+      {
+        "path": "/category/guide-2026",
+        "count": 2
+      },
+      {
+        "path": "/category/news-2026",
+        "count": 2
+      },
+      {
+        "path": "/category/ppc-services",
+        "count": 2
+      },
+      {
+        "path": "/category/prime-day",
+        "count": 2
+      },
+      {
+        "path": "/category/technology-and-digital-services",
+        "count": 2
+      },
+      {
+        "path": "/category/top-agencies",
+        "count": 2
+      },
+      {
+        "path": "/category/top-ppc-tools",
+        "count": 2
+      },
+      {
+        "path": "/category/uncategorized",
+        "count": 2
+      },
+      {
+        "path": "/category/why-we-are-unique",
+        "count": 2
+      }
+    ],
+    "external": [
+      "https://sellercentral.amazon.com",
+      "https://www.junglescout.com",
+      "https://www.helium10.com",
+      "https://olifantdigital.com/",
+      "https://www.aihello.com/",
+      "https://myamazonguy.com/",
+      "https://www.searchnurture.com/amazon-advertising-agency/",
+      "https://www.tabs.com/blog/competitive-pricing",
+      "https://www.cliffsnotes.com/study-notes/27779991",
+      "https://www.reddit.com/r/FulfillmentByAmazon/comments/1di32zy/do_you_use_an_agency_whats_your_experience_been/",
+      "https://www.nexscope.ai/blog/5-ai-tools-amazon-sellers-2026",
+      "https://amzprep.com/best-ai-tools-amazon-sellers/",
+      "https://www.sellersprite.com/en/blog/Amazon-SEO-How-the-A10-Algorithm-Works-in-2026",
+      "https://e-compioneers.com/sellers-account-managment/",
+      "https://www.quiktekinfo.com/amazon-seller-central-management-services.html",
+      "https://munirahmad.pk/how-to-choose-the-right-amazon-account-management-service-provider/",
+      "https://www.jumpfly.com/blog/the-ins-and-outs-of-amazon-account-health-ratings/",
+      "https://sellerengine.com/amazon-account-health-rating-guide-sellerengine/",
+      "https://www.sellerassistant.app/blog/what-is-amazon-seller-account-health-rating",
+      "https://www.magicinfomedia.in/why-is-amazon-account-management-important-for-sales-growth/"
+    ],
+    "internalBlog": [
+      "https://ecomgliders.com/amazon-seller-central-bulk-listing/",
+      "https://ecomgliders.com/amazon-ppc-optimization-secrets-2025-fba-sellers-guide/",
+      "https://ecomgliders.com/amazon-compliance-documents-in-2025",
+      "https://ecomgliders.com/top-shopify-plugins-dtc-brands-2025-2/",
+      "http://ecomgliders.com/amazon-ppc-strategy-keyword-research-2025/",
+      "https://ecomgliders.com/2025-amazon-algorithm-updates-what-sellers-need-to-know/",
+      "https://ecomgliders.com/amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance/",
+      "https://ecomgliders.com/amazon-ppc-conversion-cost-calculator/",
+      "https://ecomgliders.com/amazon-ppc-advertising-guide/",
+      "https://ecomgliders.com/upc-codes-for-amazon/",
+      "https://ecomgliders.com/amazon-ppc-comparison-sponsored-products-vs-sponsored-brands/",
+      "https://ecomgliders.com/best-selling-amazon-products-in-the-us-you-should-know-about/",
+      "https://ecomgliders.com/amazon-compliance-documents-in-2025/",
+      "https://ecomgliders.com/how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory/",
+      "https://ecomgliders.com/amazon-listing-errors-fix-guide/"
+    ],
+    "sitePages": [
+      "https://www.ecomgliders.com/contact",
+      "http://www.ecomgliders.com",
+      "https://www.ecomgliders.com",
+      "https://ecomgliders.com/services/",
+      "https://ecomgliders.com/services/#service_5",
+      "https://ecomgliders.com/free-audit-2/",
+      "https://ecomgliders.com/services/#service_2",
+      "https://ecomgliders.com/contact/",
+      "https://ecomgliders.com/about-us/",
+      "https://ecomgliders.com/blog/",
+      "https://ecomgliders.com/case-studies/",
+      "http://ecomgliders.com",
+      "https://ecomgliders.com/case-studies"
+    ]
+  }
+}

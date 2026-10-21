@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { AccessibilityDock } from "@/components/accessibility/accessibility-dock";
 import { PageAtmosphere } from "@/components/layout/page-atmosphere";
 import { SkipLink } from "@/components/layout/skip-link";
 import { ThemeReset } from "@/components/layout/theme-reset";
@@ -75,6 +76,7 @@ export default function RootLayout({
         <ThemeReset />
         <SkipLink />
         {children}
+        <AccessibilityDock />
       </body>
     </html>
   );

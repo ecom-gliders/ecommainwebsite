@@ -1,8 +1,26 @@
 ## Current objective
 
-Contrast pairing shipped (lime-on-light ban). Next: PPC template proposal when ready. DNS cutover still pending Hostinger DNS.
+Spacious Apple/Amazon-style footer shipped (responsive). DNS cutover still pending Hostinger DNS.
 
-## Latest (2026-10-21) — Accent contrast (council)
+## Latest (2026-10-22) — Footer recent content
+
+- Footer keeps 4 service columns unchanged
+- Injects **Latest articles** (3 recent posts + All articles) and **Latest case studies** (featured/newest 3 + All case studies) before Company/Contact
+- Driven from `getRecentBlogPosts` + `getCaseStudies` via `select-footer-recent-links.ts`
+
+## Prior (2026-10-22) — Footer redesign
+
+- Brand band (logo, tagline, Free Audit, partner, social) + directory columns
+- Groups: Advertising, Catalog, Launch & Ops, Brand & Channels, Company, Contact
+- Legal in bottom bar; mobile stack with hairline dividers and min 44px tap targets
+
+## Prior (2026-10-21) — Service depth + mega menu balance
+
+- Services mega: 4 columns × 5 links; column 3 = Launch and Operations (council middle)
+- Depth upgrades: launch, inventory, seller-central, account-health, account-operations (proof + board + opsLanes + FAQ 6–7 + case cards)
+- Inventory layout moved to `account-ops`; slug-specific FAQ/related tails on account-ops template
+
+## Prior (2026-10-21) — Accent contrast (council)
 
 - Light metrics: ink + accent left rule (case outcomes, featured case, depth numbers, service grid light tiles)
 - Lime text kept on dark punch cards / ink sections

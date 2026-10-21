@@ -216,13 +216,8 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
     </>
   );
 
-  const isStack = presentation === "stack-light";
-
   const aside = (
-    <div
-      id="service-lead-form"
-      className={cn(formShellClass, isStack && "max-w-3xl")}
-    >
+    <div id="service-lead-form" className={cn(formShellClass, "h-full")}>
       {formInner}
     </div>
   );
@@ -274,18 +269,8 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
           )}
         />
 
-        <div
-          className={cn(
-            "relative z-10 grid items-stretch gap-7",
-            isStack ? "lg:grid-cols-1 lg:gap-8" : "lg:grid-cols-2 lg:gap-10",
-          )}
-        >
-          <div
-            className={cn(
-              "flex flex-col",
-              isStack ? "max-w-3xl" : "h-full",
-            )}
-          >
+        <div className="relative z-10 grid items-stretch gap-7 lg:grid-cols-2 lg:gap-10">
+          <div className="flex h-full flex-col">
             <p
               className={cn(
                 "inline-flex w-fit max-w-full items-center px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.14em] sm:text-[11px]",
@@ -313,7 +298,6 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
               className={cn(
                 "mt-4 max-w-lg text-base font-normal leading-relaxed text-pretty sm:mt-5 sm:text-lg",
                 onDark ? "text-text-on-dark/85" : "text-text-secondary",
-                isStack && "max-w-2xl",
               )}
             >
               {service.hero.subtitle}
@@ -338,12 +322,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
               </PrimaryButton>
             </div>
 
-            <div
-              className={cn(
-                "pt-7 sm:pt-8",
-                !isStack && "mt-auto",
-              )}
-            >
+            <div className="mt-auto pt-7 sm:pt-8">
               <p
                 className={cn(
                   "text-sm font-medium leading-relaxed",

@@ -192,6 +192,31 @@
       }
     ]
   },
+  "opsLanes": {
+    "heading": "Cross-service gaps we close on one board",
+    "subheading": "Alignment is weekly ownership—not a quarterly workshop. Ads, listings, and catalog share priorities.",
+    "note": "Scope is set during the free audit. Outcomes depend on catalog readiness and how many workstreams you consolidate.",
+    "lanes": [
+      {
+        "title": "Vendors with competing goals",
+        "issue": "PPC, creative, and catalog teams optimize different KPIs.",
+        "fix": "One priority board ranks ASINs and actions every specialist uses.",
+        "verify": "Weekly work traces to the shared roadmap—not separate vendor lists."
+      },
+      {
+        "title": "Hand-offs that stall",
+        "issue": "Listing fixes wait on ad pauses that never get requested.",
+        "fix": "Define triggers for pause, update, and catalog-first sequences.",
+        "verify": "Open hand-offs have owners and dated next actions."
+      },
+      {
+        "title": "Reporting without owners",
+        "issue": "Metrics appear, but nobody owns the next action.",
+        "fix": "Shared KPI language with assigned follow-ups in the operating review.",
+        "verify": "Each metric line maps to an owner and a completed or queued action."
+      }
+    ]
+  },
   "modules": [
     {
       "id": "service-browser-proof",
@@ -216,22 +241,84 @@
           "Weekly ownership instead of vendor drift"
         ]
       }
+    },
+    {
+      "id": "account-ops-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly cross-service ownership board",
+      "subheading": "One ranked workstream view across ads, listings, catalog, and hand-offs.",
+      "urlLabel": "account.ecomgliders.com/ops",
+      "disclaimer": "Illustrative weekly board. Exact workstreams are set during onboarding.",
+      "columns": [
+        "Workstream",
+        "Weekly focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Sponsored Ads",
+            "Structure and budget vs priorities",
+            "ACoS / wasted spend",
+            "Ship bid and query changes"
+          ]
+        },
+        {
+          "cells": [
+            "Listings",
+            "Hero ASIN conversion fixes",
+            "CVR and content gaps",
+            "Prioritize copy and image updates"
+          ]
+        },
+        {
+          "cells": [
+            "Catalog",
+            "Suppressions and variations",
+            "Buyability blockers",
+            "Clear before spend scales"
+          ]
+        },
+        {
+          "cells": [
+            "Hand-offs",
+            "Open tickets across teams",
+            "Stalled dependencies",
+            "Close or reassign same day"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Ops · weekly"
     }
   ],
   "results": {
     "heading": "Results from coordinated Amazon operations",
     "items": [
       {
-        "metric": "+310% monthly revenue",
-        "brand": "GoSports (Sports and Outdoors)",
+        "metric": "+310%",
+        "brand": "GoSports",
         "description": "Advertising and listing work under one plan moved monthly revenue from $22.1K to $90.7K while ACoS improved from 52% to 26.5%.",
-        "href": "/case-study-9/"
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon account management case study"
       },
       {
-        "metric": "ACOS 76% to 37%",
-        "brand": "VoltTech Accessories",
+        "metric": "76% → 37%",
+        "brand": "VoltTech",
         "description": "Restructure that connected advertising efficiency to listing and catalog context across US and UK.",
-        "href": "/case-study-3/"
+        "href": "/case-study-3/",
+        "image": "/images/cases/case-study-3.png",
+        "imageAlt": "VoltTech accessories from the Amazon PPC case study"
+      },
+      {
+        "metric": "+73%",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and advertising priorities coordinated for sustained sales growth.",
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account case study"
       }
     ]
   },
@@ -247,6 +334,14 @@
     {
       "question": "How often do alignment reviews run?",
       "answer": "Most accounts run a weekly operating board plus a monthly strategy review. Cadence is set during onboarding."
+    },
+    {
+      "question": "What sits on the priority board?",
+      "answer": "Ranked ASINs and actions across ads, listings, catalog, and open hand-offs—so every specialist works from the same list."
+    },
+    {
+      "question": "Do you replace our current agencies?",
+      "answer": "Not by default. We can align existing vendors first. Consolidation into full-service is an option when fragmented ownership is the blocker."
     },
     {
       "question": "How do I get started?",

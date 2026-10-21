@@ -7,10 +7,19 @@ import { CaseStudyCardItem } from "./case-study-card";
 interface CaseStudiesGridProps {
   studies: CaseStudyCard[];
   filters: string[];
+  /** Deep-link from mega menu, e.g. /case-studies/?service=PPC */
+  initialFilter?: string;
 }
 
-export function CaseStudiesGrid({ studies, filters }: CaseStudiesGridProps) {
-  const [activeFilter, setActiveFilter] = useState("All");
+export function CaseStudiesGrid({
+  studies,
+  filters,
+  initialFilter = "All",
+}: CaseStudiesGridProps) {
+  const resolvedInitial = filters.includes(initialFilter)
+    ? initialFilter
+    : "All";
+  const [activeFilter, setActiveFilter] = useState(resolvedInitial);
 
   const filteredStudies = useMemo(() => {
     if (activeFilter === "All") {
