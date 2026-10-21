@@ -63,3 +63,7 @@ obsidian/.obsidian/workspace-mobile.json
 tmp/
 temp/
 *.tmp
+
+# Agent skill install mirrors (canonical copies live under .cursor/skills/)
+.agents/
+skills-lock.json
