@@ -832,6 +832,54 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
       (m) => m.type === "infographicSpotlight",
     );
 
+    const accountOpsTail: Record<
+      string,
+      {
+        relatedSubheading: string;
+        faqHeading: string;
+        relatedHeading: string;
+      }
+    > = {
+      "full-service-amazon-agency": {
+        relatedSubheading:
+          "PPC, listing, and reporting work that run under the same account roadmap.",
+        faqHeading: "Full-account management questions",
+        relatedHeading: "Related services under full-account management",
+      },
+      "amazon-product-launch-services": {
+        relatedSubheading:
+          "PPC, inventory, and full-account work that continues after go-live.",
+        faqHeading: "Product launch questions",
+        relatedHeading: "Services that support a launch",
+      },
+      "amazon-inventory-management": {
+        relatedSubheading:
+          "Launch, PPC, and account work that depend on reliable stock cover.",
+        faqHeading: "Inventory management questions",
+        relatedHeading: "Work that pairs with inventory operations",
+      },
+      "amazon-seller-central-services": {
+        relatedSubheading:
+          "Account health, operations, and full-service work that builds on Seller Central ownership.",
+        faqHeading: "Seller Central services questions",
+        relatedHeading: "Related operational services",
+      },
+      "amazon-account-health": {
+        relatedSubheading:
+          "Seller Central, catalog, and full-account work that reduce repeat health risk.",
+        faqHeading: "Account health questions",
+        relatedHeading: "Services that support account health",
+      },
+      "amazon-account-operations": {
+        relatedSubheading:
+          "Full-service, Seller Central, and reporting work under one priority board.",
+        faqHeading: "Account operations questions",
+        relatedHeading: "Services aligned under account operations",
+      },
+    };
+    const tail =
+      accountOpsTail[service.slug] ?? accountOpsTail["full-service-amazon-agency"];
+
     return (
       <>
         <ServiceHero service={service} site={site} />
@@ -862,14 +910,14 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
           service={service}
           site={site}
           relatedPosts={relatedPosts}
-          relatedSubheading="PPC, listing, and reporting work that run under the same account roadmap."
+          relatedSubheading={tail.relatedSubheading}
           presentation={{
             deliverables: "omit",
             results: "omit",
             faq: "panel",
             related: "cards",
-            faqHeading: "Full-account management questions",
-            relatedHeading: "Related services under full-account management",
+            faqHeading: tail.faqHeading,
+            relatedHeading: tail.relatedHeading,
           }}
         />
       </>

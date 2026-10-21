@@ -24,6 +24,9 @@ interface FormSelectProps {
 /**
  * Themed select for forms. Native option lists cannot be branded
  * (OS/browser blue). Radix listbox + hidden input keeps FormData working.
+ *
+ * Uses position=popper + portal so the menu floats without expanding the
+ * form. Sitewide `scrollbar-gutter: stable` limits jump when the list opens.
  */
 export function FormSelect({
   id,
@@ -60,17 +63,28 @@ export function FormSelect({
         >
           <SelectPrimitive.Value placeholder={placeholder} />
           <SelectPrimitive.Icon asChild>
-            <ChevronDown className="h-4 w-4 shrink-0 text-text-secondary" aria-hidden="true" />
+            <ChevronDown
+              className="h-4 w-4 shrink-0 text-text-secondary"
+              aria-hidden="true"
+            />
           </SelectPrimitive.Icon>
         </SelectPrimitive.Trigger>
 
         <SelectPrimitive.Portal>
           <SelectPrimitive.Content
             position="popper"
+            side="bottom"
+            align="start"
             sideOffset={4}
-            className="z-50 max-h-72 min-w-[var(--radix-select-trigger-width)] overflow-hidden rounded-sm border border-border bg-background text-text-primary shadow-md"
+            collisionPadding={8}
+            className={cn(
+              "z-[80] max-h-72 overflow-hidden rounded-sm border border-border bg-background text-text-primary shadow-md",
+              "w-[var(--radix-select-trigger-width)]",
+              "data-[state=open]:animate-in data-[state=closed]:animate-out",
+              "data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",
+            )}
           >
-            <SelectPrimitive.Viewport className="p-1">
+            <SelectPrimitive.Viewport className="max-h-72 w-full p-1">
               {selectable.map((option) => (
                 <SelectPrimitive.Item
                   key={option.value}

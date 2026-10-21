@@ -1,0 +1,123 @@
+{
+  "generatedAt": "2026-10-21T22:58:02.500Z",
+  "definition": "Body links = hrefs in WP content.rendered / MDX body after excluding theme chrome (categories, authors, dates, related-post strip, common CTAs).",
+  "wp": {
+    "chromeHrefs": 9459,
+    "bodyInternalHrefs": 283,
+    "bodyExternalHrefs": 705
+  },
+  "mdx": {
+    "bodyInternalLinks": 54,
+    "bodyExternalLinks": 682
+  },
+  "gaps": {
+    "postsWithMissingBodyInternalPath": 115,
+    "missingBodyInternalOccurrences": 230,
+    "topMissingInternalPaths": [
+      {
+        "path": "/terms-conditions-2",
+        "count": 115
+      },
+      {
+        "path": "/privacy-policy-2",
+        "count": 115
+      }
+    ],
+    "missingBodyExternalOccurrences": 22,
+    "postsWithMissingExternal": 14,
+    "sampleMissingExternal": [
+      {
+        "post": "amazon-growth-partner-vs-diy-ppc-2026",
+        "href": "https://canopymanagement.com/why-you-should-use-an-amazon-ppc-management-service"
+      },
+      {
+        "post": "best-amazon-profit-analytics-for-amazon-sellers",
+        "href": "https://novadata.io/amazon-profit-calculator"
+      },
+      {
+        "post": "amazon-ppc-for-beginners-full-guide-2026",
+        "href": "http://www.sellersprite.com/en/blog/Amazon-PPC-Fundamentals-A-Beginner-Friendly-Course-Guide-(2026)"
+      },
+      {
+        "post": "from-decision-to-dominance-scalable-amazon-business-systems",
+        "href": "https://www.researchgate.net/publication/390558774_Analysis_of_Amazon"
+      },
+      {
+        "post": "amazon-as-a-system-strategic-architecture-market-leadership",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      },
+      {
+        "post": "amazon-boycott-losses-2026",
+        "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      },
+      {
+        "post": "boost-your-amazon-best-sellers-rank-with-12-proven-tips",
+        "href": "https://sell.amazon.com/programs/vine.html"
+      },
+      {
+        "post": "boost-your-amazon-best-sellers-rank-with-12-proven-tips",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose",
+        "href": "https://www.techradar.com/reviews/shopify?utm_source=chatgpt.com"
+      },
+      {
+        "post": "woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+        "href": "https://www.trade.gov/country-commercial-guides"
+      },
+      {
+        "post": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+        "href": "https://www.cbp.gov/trade"
+      },
+      {
+        "post": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "international-expansion-selling-on-amazon-global-marketplaces-in-2025",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "best-selling-amazon-products-in-the-us-you-should-know-about",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "amazon-compliance-documents-in-2025",
+        "href": "https://www.getsignify.com/blog/amazon-seller-compliance?utm_source=chatgpt.com"
+      },
+      {
+        "post": "amazon-compliance-documents-in-2025",
+        "href": "https://www.appealwizards.com/amazon-compliance-update-new-documentation-requirements-for-sellers-effective-september-30-2024/?utm_source=chatgpt.com"
+      },
+      {
+        "post": "amazon-compliance-documents-in-2025",
+        "href": "https://www.marketplaceops.com/sellers-beware-amazon-tightens-the-rules-on-listings-and-documentation/?utm_source=chatgpt.com"
+      },
+      {
+        "post": "amazon-compliance-documents-in-2025",
+        "href": "https://www.amazon.com/b?ie=UTF8&amp;node=21221608011"
+      },
+      {
+        "post": "amazon-compliance-documents-in-2025",
+        "href": "https://calendly.com/ecomgliders-llc/30min"
+      },
+      {
+        "post": "reselling-in-amazon-stores-guidelines-and-tips-for-success",
+        "href": "https://www.forbes.com/sites/forbestechcouncil/2020/12/16/e-commerce-trends-2021/?sh=312220fd2f85"
+      },
+      {
+        "post": "amazon-ppc-conversion-cost-calculator",
+        "href": "https://sites.google.com/view/ecom-gliders-llc/home"
+      }
+    ],
+    "mdxInternalTargetsNotInBlogSlugs": [
+      "/reduce-amazo-acos-2025"
+    ],
+    "mdxInternalTargetsNotInBlogSlugsCount": 1
+  }
+}

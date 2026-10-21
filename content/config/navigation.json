@@ -49,7 +49,7 @@
           "title": "Advertising and Growth",
           "links": [
             {
-              "label": "Amazon Account Management",
+              "label": "Full Amazon Account Management",
               "href": "/full-service-amazon-agency/",
               "description": "Full-service growth and oversight",
               "featured": true
@@ -68,12 +68,17 @@
               "label": "Reporting and Analytics",
               "href": "/amazon-reporting-analytics/",
               "description": "Clear weekly and monthly metrics"
+            },
+            {
+              "label": "Account Operations",
+              "href": "/amazon-account-operations/",
+              "description": "Cross-service alignment under one plan"
             }
           ]
         },
         {
-          "id": "catalog-content",
-          "title": "Catalog and Content",
+          "id": "catalog-creative",
+          "title": "Catalog and Creative",
           "links": [
             {
               "label": "Listing Optimization and SEO",
@@ -103,24 +108,9 @@
           ]
         },
         {
-          "id": "brand-operations",
-          "title": "Brand and Operations",
+          "id": "launch-operations",
+          "title": "Launch and Operations",
           "links": [
-            {
-              "label": "Trademark and Brand Registry",
-              "href": "/amazon-trademark-brand-registry/",
-              "description": "USPTO and Brand Registry"
-            },
-            {
-              "label": "Company Registration",
-              "href": "/amazon-company-registration/",
-              "description": "US entity setup for sellers"
-            },
-            {
-              "label": "Product Sourcing",
-              "href": "/amazon-product-sourcing/",
-              "description": "Supplier research for new ASINs"
-            },
             {
               "label": "Product Launch Services",
               "href": "/amazon-product-launch-services/",
@@ -142,16 +132,26 @@
               "description": "Policy notices and performance monitoring"
             },
             {
-              "label": "Account Operations",
-              "href": "/amazon-account-operations/",
-              "description": "Cross-service alignment under one plan"
+              "label": "Product Sourcing",
+              "href": "/amazon-product-sourcing/",
+              "description": "Supplier research for new ASINs"
             }
           ]
         },
         {
-          "id": "channels-dtc",
-          "title": "Channels and DTC",
+          "id": "brand-setup-channels",
+          "title": "Brand Setup and Channels",
           "links": [
+            {
+              "label": "Trademark and Brand Registry",
+              "href": "/amazon-trademark-brand-registry/",
+              "description": "USPTO and Brand Registry"
+            },
+            {
+              "label": "Company Registration",
+              "href": "/amazon-company-registration/",
+              "description": "US entity setup for sellers"
+            },
             {
               "label": "Shopify and Website Development",
               "href": "/shopify-website-development/",
@@ -193,49 +193,60 @@
       "compact": true,
       "columns": [
         {
-          "id": "featured-results",
-          "title": "Featured results",
+          "id": "latest-results",
+          "title": "Latest results",
           "links": [
             {
               "label": "GoSports — 310% sales increase",
               "href": "/case-study-9/",
-              "description": "PPC and account management"
+              "description": "PPC and full account management",
+              "featured": true
             },
             {
-              "label": "Kitchen brand — 73% sales growth",
+              "label": "FARBERWARE — 73% sales growth",
               "href": "/case-study-1/",
-              "description": "Catalog and listing optimization"
+              "description": "Listing optimization and PPC"
             },
             {
-              "label": "Supplement launch — 500 units in 30 days",
+              "label": "FocusForm — $118K monthly revenue",
+              "href": "/case-study-8/",
+              "description": "Account management at scale"
+            },
+            {
+              "label": "CULTURELLE — 502 units in 30 days",
               "href": "/case-study-2/",
-              "description": "Product launch and PPC"
+              "description": "High-competition product launch"
+            },
+            {
+              "label": "VoltTech — 32% ad spend reduction",
+              "href": "/case-study-3/",
+              "description": "PPC recovery and ACOS control"
             }
           ]
         },
         {
-          "id": "by-focus",
-          "title": "Browse by focus",
+          "id": "more-results",
+          "title": "More results",
           "links": [
             {
-              "label": "PPC case studies",
-              "href": "/case-studies/",
-              "description": "Advertising efficiency and scale"
+              "label": "NIKKETTA — 2X conversion",
+              "href": "/case-study-4/",
+              "description": "Visual creative and A+ redesign"
             },
             {
-              "label": "Account management",
-              "href": "/case-studies/",
-              "description": "Full-service growth programs"
+              "label": "Safefine — 28.9% conversion rate",
+              "href": "/case-study-7/",
+              "description": "Listing optimization"
             },
             {
-              "label": "Listing optimization",
-              "href": "/case-studies/",
-              "description": "Conversion and ranking wins"
+              "label": "FOCUS DESIGN — 1,038 units in 17 days",
+              "href": "/case-study-5/",
+              "description": "Seasonal product launch"
             },
             {
-              "label": "Product launches",
-              "href": "/case-studies/",
-              "description": "New ASIN go-to-market results"
+              "label": "TIME TIMER — €18.4K EU launch",
+              "href": "/case-study-6/",
+              "description": "International expansion"
             }
           ]
         }
@@ -243,6 +254,20 @@
       "footerLink": {
         "label": "View all case studies",
         "href": "/case-studies/"
+      },
+      "ctaPanel": {
+        "eyebrow": "Client results",
+        "metric": "310% peak sales lift",
+        "title": "Want results like these?",
+        "body": "Request a free Amazon audit. A strategist reviews PPC, listings, and catalog priorities.",
+        "button": {
+          "label": "Get Free Audit",
+          "href": "/free-audit-2/"
+        },
+        "phone": {
+          "display": "+1 (360) 660-1210",
+          "tel": "+13606601210"
+        }
       }
     },
     "blog": {
@@ -254,29 +279,34 @@
           "links": [
             {
               "label": "Amazon PPC",
-              "href": "/blog/",
-              "description": "Campaign structure and ACOS"
+              "href": "/blog/#topic-ppc",
+              "description": "Campaigns and ACOS"
             },
             {
               "label": "Amazon SEO",
-              "href": "/blog/",
-              "description": "Ranking and listing strategy"
+              "href": "/blog/#topic-seo",
+              "description": "Rankings and listings"
             },
             {
-              "label": "Account management",
-              "href": "/blog/",
-              "description": "Operations and growth systems"
+              "label": "Account Management",
+              "href": "/blog/#topic-account",
+              "description": "Full-account operations"
             },
             {
-              "label": "Brand growth",
-              "href": "/blog/",
-              "description": "Scaling and marketplace strategy"
+              "label": "Guides",
+              "href": "/blog/#topic-guides",
+              "description": "Seller playbooks"
+            },
+            {
+              "label": "Market and News",
+              "href": "/blog/#topic-market",
+              "description": "Updates and analysis"
             }
           ]
         },
         {
-          "id": "recent",
-          "title": "Recent articles",
+          "id": "latest",
+          "title": "Latest articles",
           "links": [
             {
               "label": "When Should You Use Sponsored Display Ads?",
@@ -292,6 +322,16 @@
               "label": "How to Launch a New Product with Strong Amazon SEO",
               "href": "/launch-new-product-amazon-seo-2026/",
               "description": "July 16, 2026"
+            },
+            {
+              "label": "Amazon PPC Hacks That Actually Increase Profit",
+              "href": "/amazon-ppc-hacks-that-actually-increase-profit/",
+              "description": "July 15, 2026"
+            },
+            {
+              "label": "Stop Chasing Rankings — Build a Brand Amazon Rewards",
+              "href": "/amazon-brand-growth-guide/",
+              "description": "July 14, 2026"
             }
           ]
         }
@@ -299,6 +339,20 @@
       "footerLink": {
         "label": "View all articles",
         "href": "/blog/"
+      },
+      "ctaPanel": {
+        "eyebrow": "Seller insights",
+        "metric": "328 articles",
+        "title": "Need strategy, not just content?",
+        "body": "Pair these playbooks with a free audit of your PPC, listings, and catalog.",
+        "button": {
+          "label": "Get Free Audit",
+          "href": "/free-audit-2/"
+        },
+        "phone": {
+          "display": "+1 (360) 660-1210",
+          "tel": "+13606601210"
+        }
       }
     }
   },
@@ -310,15 +364,15 @@
         "type": "brand"
       },
       {
-        "id": "services",
-        "title": "Services",
+        "id": "advertising-growth",
+        "title": "Advertising and Growth",
         "links": [
           {
             "label": "All services",
             "href": "/services/"
           },
           {
-            "label": "Amazon Account Management",
+            "label": "Full Amazon Account Management",
             "href": "/full-service-amazon-agency/"
           },
           {
@@ -326,8 +380,78 @@
             "href": "/amazon-ppc-management-agency/"
           },
           {
+            "label": "Amazon DSP",
+            "href": "/amazon-dsp-management/"
+          },
+          {
+            "label": "Reporting and Analytics",
+            "href": "/amazon-reporting-analytics/"
+          }
+        ]
+      },
+      {
+        "id": "catalog-creative",
+        "title": "Catalog and Creative",
+        "links": [
+          {
             "label": "Listing Optimization and SEO",
             "href": "/amazon-listing-optimization/"
+          },
+          {
+            "label": "Content Writing",
+            "href": "/amazon-content-writing/"
+          },
+          {
+            "label": "Visual Creativity",
+            "href": "/amazon-visual-creativity/"
+          },
+          {
+            "label": "Video Creative",
+            "href": "/amazon-video-creative/"
+          },
+          {
+            "label": "Catalog Management",
+            "href": "/amazon-catalog-management/"
+          }
+        ]
+      },
+      {
+        "id": "launch-operations",
+        "title": "Launch and Operations",
+        "links": [
+          {
+            "label": "Product Launch Services",
+            "href": "/amazon-product-launch-services/"
+          },
+          {
+            "label": "Inventory Management",
+            "href": "/amazon-inventory-management/"
+          },
+          {
+            "label": "Seller Central Services",
+            "href": "/amazon-seller-central-services/"
+          },
+          {
+            "label": "Account Health",
+            "href": "/amazon-account-health/"
+          },
+          {
+            "label": "Product Sourcing",
+            "href": "/amazon-product-sourcing/"
+          }
+        ]
+      },
+      {
+        "id": "brand-channels",
+        "title": "Brand and Channels",
+        "links": [
+          {
+            "label": "Trademark and Brand Registry",
+            "href": "/amazon-trademark-brand-registry/"
+          },
+          {
+            "label": "Company Registration",
+            "href": "/amazon-company-registration/"
           },
           {
             "label": "Shopify and Website Development",
@@ -338,8 +462,8 @@
             "href": "/tiktok-shop-ads/"
           },
           {
-            "label": "Trademark and Brand Registry",
-            "href": "/amazon-trademark-brand-registry/"
+            "label": "Email and Retention Marketing",
+            "href": "/email-retention-marketing/"
           }
         ]
       },
@@ -352,20 +476,20 @@
             "href": "/about-us/"
           },
           {
-            "label": "Case Studies",
-            "href": "/case-studies/"
-          },
-          {
-            "label": "Blog",
-            "href": "/blog/"
-          },
-          {
             "label": "Contact",
             "href": "/contact/"
           },
           {
             "label": "Free Audit",
             "href": "/free-audit-2/"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies/"
           }
         ]
       },

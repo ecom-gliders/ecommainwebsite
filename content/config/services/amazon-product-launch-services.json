@@ -191,6 +191,31 @@
       }
     ]
   },
+  "opsLanes": {
+    "heading": "Launch issues we close before spend scales",
+    "subheading": "Go-live is not three separate vendors. Listing, ads, and stock share one calendar.",
+    "note": "Scope is set during the free audit. Early results depend on listing quality, inventory, and category competition—not a fixed 30-day sales guarantee.",
+    "lanes": [
+      {
+        "title": "Spend before conversion readiness",
+        "issue": "Launch ads start while titles, images, or offer setup are incomplete.",
+        "fix": "Gate paid traffic on a listing readiness checklist with named owners.",
+        "verify": "First campaigns launch only after conversion blockers are cleared."
+      },
+      {
+        "title": "Demand without cover",
+        "issue": "Traffic arrives while inbound inventory cannot fulfill early orders.",
+        "fix": "Align go-live and ad budgets to days-of-cover and ship windows.",
+        "verify": "Launch spend matches stock that can support the planned window."
+      },
+      {
+        "title": "No early decision gates",
+        "issue": "Teams watch order count without ranking, conversion, or ACoS thresholds.",
+        "fix": "Set week-one metrics that decide scale, pause, or listing fixes.",
+        "verify": "Weekly reviews cite gates—not vanity order totals alone."
+      }
+    ]
+  },
   "modules": [
     {
       "id": "service-browser-proof",
@@ -215,22 +240,84 @@
           "Live Seller tool windows, not mock charts"
         ]
       }
+    },
+    {
+      "id": "launch-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Launch readiness board",
+      "subheading": "Listing, ads, and inventory gates on one plan before go-live.",
+      "urlLabel": "account.ecomgliders.com/launch",
+      "disclaimer": "Illustrative launch board. Exact gates and cadence are set during onboarding.",
+      "columns": [
+        "Workstream",
+        "Pre-launch focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Listing",
+            "Title, images, offer completeness",
+            "Conversion blockers",
+            "Clear PDP gaps before spend"
+          ]
+        },
+        {
+          "cells": [
+            "Advertising",
+            "Campaign structure and budget gates",
+            "Early ACoS and query waste",
+            "Scale, pause, or restructure"
+          ]
+        },
+        {
+          "cells": [
+            "Inventory",
+            "Inbound and days of cover",
+            "Stockout risk at go-live",
+            "Hold or release launch spend"
+          ]
+        },
+        {
+          "cells": [
+            "Promotions",
+            "Coupons and deal timing",
+            "Offer vs margin",
+            "Align deals to stock and ads"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Launch · readiness"
     }
   ],
   "results": {
     "heading": "Results from coordinated Amazon growth work",
     "items": [
       {
-        "metric": "+310% monthly revenue",
-        "brand": "GoSports (Sports and Outdoors)",
+        "metric": "+310%",
+        "brand": "GoSports",
         "description": "Advertising and listing work under one plan moved monthly revenue from $22.1K to $90.7K while ACoS improved from 52% to 26.5%.",
-        "href": "/case-study-9/"
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon account management case study"
       },
       {
-        "metric": "73% sales growth",
+        "metric": "+73%",
         "brand": "Kitchen brand",
         "description": "Catalog, listing, and advertising priorities coordinated for a home and kitchen brand with sustained sales growth.",
-        "href": "/case-study-1/"
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account management case study"
+      },
+      {
+        "metric": "500 units / 30 days",
+        "brand": "Supplement launch",
+        "description": "Product launch and PPC coordination that moved early unit velocity under a structured go-live plan.",
+        "href": "/case-study-2/",
+        "image": "/images/cases/case-study-2.png",
+        "imageAlt": "Supplement brand products from the Amazon launch case study"
       }
     ]
   },
@@ -250,6 +337,14 @@
     {
       "question": "Is this available without full-service management?",
       "answer": "Yes. Product launch support can run as a focused engagement or as part of full-service account management."
+    },
+    {
+      "question": "What does the launch readiness review include?",
+      "answer": "We review listing quality, offer setup, inventory cover, advertising prerequisites, and the first-week success gates before recommending spend."
+    },
+    {
+      "question": "How long does a typical launch engagement run?",
+      "answer": "Most launches run a readiness phase plus early stabilization weeks. Exact length depends on catalog readiness and stock lead times—confirmed during the audit."
     },
     {
       "question": "How do I get started?",

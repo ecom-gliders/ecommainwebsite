@@ -1,7 +1,7 @@
 {
   "slug": "amazon-inventory-management",
   "breadcrumbLabel": "Inventory Management",
-  "layout": "sourcing-ops",
+  "layout": "account-ops",
   "hero": {
     "title": "Amazon inventory management that protects ad spend",
     "subtitle": "FBA stock signals, restock follow-through, and launch timing so top SKUs stay available while advertising demand rises.",
@@ -192,21 +192,133 @@
       }
     ]
   },
-  "modules": [],
+  "opsLanes": {
+    "heading": "Inventory issues we close with advertising and ops",
+    "subheading": "Stock work is not a separate spreadsheet. Coverage, inbound, and spend decisions share one board.",
+    "note": "Scope is set during the free audit. Outcomes depend on supplier lead times, FBA capacity, and demand—not a fixed stockout guarantee.",
+    "lanes": [
+      {
+        "title": "Ads into stockouts",
+        "issue": "Sponsored spend continues while hero ASINs go unavailable.",
+        "fix": "Coverage thresholds trigger pause or reallocation recommendations before waste compounds.",
+        "verify": "Spend and days-of-cover move together on priority SKUs."
+      },
+      {
+        "title": "Reactive restocks",
+        "issue": "Purchase orders start after the stockout, not before.",
+        "fix": "Inbound and restock follow-through with owners against a ranked SKU list.",
+        "verify": "Open inbound items have dates, owners, and next actions."
+      },
+      {
+        "title": "Launch without cover",
+        "issue": "Go-live and ads start before inbound can support early demand.",
+        "fix": "Launch calendars include stock gates alongside listing and ad readiness.",
+        "verify": "Launch spend starts only when cover can support the planned window."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Growth windows that need inventory cover",
+      "subheading": "Live Seller tool windows. Stock readiness decides whether spend can hold.",
+      "images": [
+        {
+          "src": "/images/growth/sales-primeday.avif",
+          "alt": "Amazon Seller app showing $1.583M in product sales over 7 days, up 152% versus last year."
+        },
+        {
+          "src": "/images/growth/sales-803k.avif",
+          "alt": "Amazon Seller app showing $803.9K in product sales over 30 days, up 241% versus last year."
+        }
+      ],
+      "callout": {
+        "metric": "+152%",
+        "metricLabel": "Peak sales window vs prior year",
+        "points": [
+          "Demand spikes need days-of-cover, not ads alone",
+          "Live Seller tool windows, not mock inventory charts"
+        ]
+      }
+    },
+    {
+      "id": "inventory-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly inventory ownership board",
+      "subheading": "Hero SKU cover, inbound, and ad sync on one operating view.",
+      "urlLabel": "account.ecomgliders.com/inventory",
+      "disclaimer": "Illustrative weekly board. Exact thresholds and cadence are set during onboarding.",
+      "columns": [
+        "Workstream",
+        "Weekly focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Hero cover",
+            "Days of cover by ASIN",
+            "Stockout risk window",
+            "Flag restock or pause spend"
+          ]
+        },
+        {
+          "cells": [
+            "Inbound",
+            "Shipments and ETA",
+            "Delayed or stranded units",
+            "Chase logistics and update plan"
+          ]
+        },
+        {
+          "cells": [
+            "Aged stock",
+            "Overstock and slow movers",
+            "Capital and storage pressure",
+            "Recommend promo or rebalance"
+          ]
+        },
+        {
+          "cells": [
+            "Ad sync",
+            "Spend vs available units",
+            "ACoS risk from stockouts",
+            "Pause or reallocate campaigns"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Inventory · weekly"
+    }
+  ],
   "results": {
     "heading": "Results from inventory-aware Amazon execution",
     "items": [
       {
-        "metric": "+310% monthly revenue",
-        "brand": "GoSports (Sports and Outdoors)",
+        "metric": "+310%",
+        "brand": "GoSports",
         "description": "Growth work that kept advertising and catalog priorities aligned while monthly revenue rose from $22.1K to $90.7K.",
-        "href": "/case-study-9/"
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon growth case study"
       },
       {
-        "metric": "73% sales growth",
+        "metric": "+73%",
         "brand": "Kitchen brand",
         "description": "Catalog and advertising priorities reviewed together so demand generation stayed commercially grounded.",
-        "href": "/case-study-1/"
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account case study"
+      },
+      {
+        "metric": "76% → 37%",
+        "brand": "VoltTech",
+        "description": "ACoS cut while ad spend fell 32% across US and UK—efficiency work that depends on buyable inventory.",
+        "href": "/case-study-3/",
+        "image": "/images/cases/case-study-3.png",
+        "imageAlt": "VoltTech accessories from the Amazon PPC case study"
       }
     ]
   },
@@ -226,6 +338,14 @@
     {
       "question": "Can inventory support run without full-service management?",
       "answer": "Yes. It can be a focused workstream or included under full-service account management."
+    },
+    {
+      "question": "Do you manage multi-marketplace inventory?",
+      "answer": "Yes. Priority markets and cover targets are confirmed during the audit so attention stays on commercially ready catalogs."
+    },
+    {
+      "question": "What reports do we receive?",
+      "answer": "Weekly operating notes cover days-of-cover risk, inbound status, and ad sync recommendations. Exact cadence is set in onboarding."
     },
     {
       "question": "How do I get started?",

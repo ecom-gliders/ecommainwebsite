@@ -35,7 +35,11 @@ export function BrandLogo({
       alt={alt}
       width={width}
       height={height}
-      className={cn(surface === "onDark" && "brightness-0 invert", className)}
+      className={cn(
+        "max-w-full object-contain",
+        surface === "onDark" && "brightness-0 invert",
+        className,
+      )}
       priority={priority}
       sizes={`${width}px`}
       quality={85}

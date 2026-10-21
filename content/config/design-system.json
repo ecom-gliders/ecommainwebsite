@@ -62,8 +62,8 @@
       "usage": "Headings and readable metrics on light surfaces — PO ink"
     },
     "textSecondary": {
-      "value": "#6B6B66",
-      "usage": "Supporting body/meta on light — must stay distinct from textPrimary (weight + color), never lime"
+      "value": "#4F4F4A",
+      "usage": "Supporting body/meta on light — WCAG-friendlier than mid-gray; must stay distinct from textPrimary (weight + color), never lime"
     },
     "textOnDark": {
       "value": "#FFFFFF",

@@ -192,21 +192,131 @@
       }
     ]
   },
-  "modules": [],
+  "opsLanes": {
+    "heading": "Account health issues we catch before they compound",
+    "subheading": "Notices and performance metrics need owners. Monitoring sits beside growth work—not in a separate inbox.",
+    "note": "Amazon decides account status. We do not promise reinstatement. Scope and response plans are set during the free audit.",
+    "lanes": [
+      {
+        "title": "Notices without owners",
+        "issue": "Policy or IP emails sit unread while advertising continues.",
+        "fix": "Track notices with owners, evidence needs, and response timelines.",
+        "verify": "Open notices have dated status and documented next actions."
+      },
+      {
+        "title": "Metric drift",
+        "issue": "ODR, late shipment, or related metrics rise without weekly review.",
+        "fix": "Monitor performance thresholds on a fixed operating cadence.",
+        "verify": "Health status appears in the same review as growth priorities."
+      },
+      {
+        "title": "Suppressions treated as SEO only",
+        "issue": "Detail-page blockers are missed until sales drop.",
+        "fix": "Escalate listing suppressions to catalog work with clear priority.",
+        "verify": "Buyability issues leave the health board only when resolved or owned."
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "service-browser-proof",
+      "type": "browserProof",
+      "heading": "Account scale that still needs health discipline",
+      "subheading": "Live Seller tool windows. Growth does not replace Account Health monitoring.",
+      "images": [
+        {
+          "src": "/images/growth/sales-brand-yoy.avif",
+          "alt": "Sellerboard dashboard showing one brand growing from $2.06M in 2023 to $24.83M in 2025, net profit up 504%."
+        },
+        {
+          "src": "/images/growth/sales-dashboard-2yr.avif",
+          "alt": "Seller Central dashboard showing $51.38M in ordered product sales from December 2023 to December 2025."
+        }
+      ],
+      "callout": {
+        "metric": "$24.8M+",
+        "metricLabel": "Scaled accounts still need health owners",
+        "points": [
+          "Notices and metrics reviewed with growth work",
+          "Documented response trail—not scramble mode"
+        ]
+      }
+    },
+    {
+      "id": "account-health-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly account health board",
+      "subheading": "Notices, performance metrics, and suppressions with owners and next actions.",
+      "urlLabel": "account.ecomgliders.com/health",
+      "disclaimer": "Illustrative health board. Exact monitoring scope is set during onboarding.",
+      "columns": [
+        "Workstream",
+        "Weekly focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Notices",
+            "Policy and IP messages",
+            "Open response deadlines",
+            "Document and submit follow-up"
+          ]
+        },
+        {
+          "cells": [
+            "Performance",
+            "ODR and shipment metrics",
+            "Threshold drift",
+            "Escalate root-cause owners"
+          ]
+        },
+        {
+          "cells": [
+            "Suppressions",
+            "Listing buyability blockers",
+            "Sales-impacting detail pages",
+            "Hand off to catalog work"
+          ]
+        },
+        {
+          "cells": [
+            "Prevention",
+            "Process changes after close",
+            "Repeat notice risk",
+            "Update operating checklist"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Health · weekly"
+    }
+  ],
   "results": {
     "heading": "Results from disciplined Amazon account work",
     "items": [
       {
-        "metric": "95% client retention",
+        "metric": "+310%",
+        "brand": "GoSports",
+        "description": "Growth work delivered under accountable account management with listing and advertising coordination.",
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon account management case study"
+      },
+      {
+        "metric": "+73%",
+        "brand": "Kitchen brand",
+        "description": "Catalog and advertising priorities coordinated so operational issues do not stall growth work.",
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account case study"
+      },
+      {
+        "metric": "95% retention",
         "brand": "eCom Gliders clients",
         "description": "Verified company claim: high retention reflects ongoing account care, including operational and health follow-through where scoped.",
         "href": "/about-us/"
-      },
-      {
-        "metric": "+310% monthly revenue",
-        "brand": "GoSports (Sports and Outdoors)",
-        "description": "Growth work delivered under accountable account management with listing and advertising coordination.",
-        "href": "/case-study-9/"
       }
     ]
   },
@@ -222,6 +332,18 @@
     {
       "question": "Do you monitor health only, or also fix listings?",
       "answer": "Monitoring and response planning are core. Listing and catalog fixes may be handled here or through catalog management depending on scope."
+    },
+    {
+      "question": "How often do you review Account Health?",
+      "answer": "Most engagements include a fixed weekly health check plus immediate triage when new notices arrive. Cadence is confirmed in onboarding."
+    },
+    {
+      "question": "Can this run without full-service management?",
+      "answer": "Yes. Account health can be a focused workstream or included under full-service account management."
+    },
+    {
+      "question": "What documentation do you keep?",
+      "answer": "We keep status notes on open notices, submissions, and next actions so evidence is available when Amazon requests it."
     },
     {
       "question": "How do I get started?",

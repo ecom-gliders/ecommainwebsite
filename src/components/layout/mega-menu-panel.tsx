@@ -46,6 +46,7 @@ export function MegaMenuPanel({ megaMenu, className }: MegaMenuPanelProps) {
                       <NavLinkItem
                         link={link}
                         compact={compact}
+                        showDescription={false}
                       />
                     </li>
                   ))}

@@ -466,6 +466,8 @@
   html {
     background-color: var(--color-background);
     overflow-x: clip;
+    /* Prevent horizontal jump when overlays/dropdowns toggle the scrollbar */
+    scrollbar-gutter: stable;
   }
 
   body {
@@ -902,4 +904,29 @@
       0 0 24px color-mix(in srgb, var(--color-accent) 52%, transparent),
       0 1px 0 color-mix(in srgb, var(--color-accent) 32%, transparent);
   }
+}
+
+/* Visitor accessibility dock (font size / contrast / reduced motion) */
+html[data-a11y-text="lg"] {
+  font-size: 112.5%;
+}
+
+html[data-a11y-text="xl"] {
+  font-size: 125%;
+}
+
+html[data-a11y-contrast="high"] {
+  --color-textSecondary: #2f2f2c;
+  --color-text-secondary: #2f2f2c;
+  --color-border: #9a9a94;
+  --color-borderStrong: #5c5c56;
+}
+
+html[data-a11y-motion="reduce"] *,
+html[data-a11y-motion="reduce"] *::before,
+html[data-a11y-motion="reduce"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
 }

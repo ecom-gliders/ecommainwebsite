@@ -192,6 +192,31 @@
       }
     ]
   },
+  "opsLanes": {
+    "heading": "Seller Central issues we close between strategy calls",
+    "subheading": "Day-to-day work needs owners. Cases, promotions, and listing tasks stay on one queue.",
+    "note": "Scope is set during the free audit. You retain Seller Central ownership. Outcomes depend on Amazon response times and catalog complexity.",
+    "lanes": [
+      {
+        "title": "Open cases without owners",
+        "issue": "Support tickets stall while advertising and listings continue.",
+        "fix": "Assign case follow-through with documented status in the weekly ops review.",
+        "verify": "Open cases have owners, next actions, and dated updates."
+      },
+      {
+        "title": "Promotions without a calendar",
+        "issue": "Coupons and deals launch without inventory or ad alignment.",
+        "fix": "Promotion planning sits beside stock cover and campaign priorities.",
+        "verify": "Deals launch only when cover and spend plans support them."
+      },
+      {
+        "title": "Audit gaps between weeks",
+        "issue": "Strategy calls end without a queue for day-to-day Seller Central work.",
+        "fix": "Maintain an agreed task list with completion notes each operating week.",
+        "verify": "Reviews show completed ops work—not only high-level metrics."
+      }
+    ]
+  },
   "modules": [
     {
       "id": "service-browser-proof",
@@ -216,22 +241,84 @@
           "Ops status tied to growth reviews"
         ]
       }
+    },
+    {
+      "id": "seller-central-weekly-board",
+      "type": "catalogHealthBoard",
+      "heading": "Weekly Seller Central ownership board",
+      "subheading": "Cases, listing tasks, and promotions with clear owners—not a ticket dump.",
+      "urlLabel": "account.ecomgliders.com/seller-central",
+      "disclaimer": "Illustrative weekly board. Exact task scope is set during onboarding.",
+      "columns": [
+        "Workstream",
+        "Weekly focus",
+        "Signal watched",
+        "Owner action"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Cases",
+            "Open support tickets",
+            "Aging and blockers",
+            "Follow up and document status"
+          ]
+        },
+        {
+          "cells": [
+            "Listing ops",
+            "Catalog and PDP tasks",
+            "Revenue-impact priority",
+            "Complete or escalate updates"
+          ]
+        },
+        {
+          "cells": [
+            "Promotions",
+            "Coupons and deals queue",
+            "Stock and margin fit",
+            "Schedule or hold offers"
+          ]
+        },
+        {
+          "cells": [
+            "Account tasks",
+            "Recurring Seller Central work",
+            "Incomplete handoffs",
+            "Close or reassign same week"
+          ]
+        }
+      ],
+      "variant": "sheet",
+      "boardLabel": "Seller Central · weekly"
     }
   ],
   "results": {
     "heading": "Results from accountable Amazon operations",
     "items": [
       {
-        "metric": "$24.8M+",
-        "brand": "Full-account managed brands",
-        "description": "Verified Seller tool windows from accounts where advertising, listings, and operations run under one plan.",
-        "href": "/full-service-amazon-agency/"
+        "metric": "+310%",
+        "brand": "GoSports",
+        "description": "Coordinated account work improved advertising efficiency while monthly revenue grew from $22.1K to $90.7K.",
+        "href": "/case-study-9/",
+        "image": "/images/cases/gosports.png",
+        "imageAlt": "GoSports products from the Amazon account management case study"
       },
       {
-        "metric": "+310% monthly revenue",
-        "brand": "GoSports (Sports and Outdoors)",
-        "description": "Coordinated account work improved advertising efficiency while monthly revenue grew from $22.1K to $90.7K.",
-        "href": "/case-study-9/"
+        "metric": "+73%",
+        "brand": "Kitchen brand",
+        "description": "Catalog, listing, and advertising priorities coordinated under accountable operations.",
+        "href": "/case-study-1/",
+        "image": "/images/cases/case-study-1.png",
+        "imageAlt": "Kitchen brand products from the Amazon account case study"
+      },
+      {
+        "metric": "76% → 37%",
+        "brand": "VoltTech",
+        "description": "ACoS cut while ad spend fell 32% across US and UK with listing and catalog context in the same plan.",
+        "href": "/case-study-3/",
+        "image": "/images/cases/case-study-3.png",
+        "imageAlt": "VoltTech accessories from the Amazon PPC case study"
       }
     ]
   },
@@ -251,6 +338,14 @@
     {
       "question": "Which marketplaces do you support?",
       "answer": "We support official Amazon Seller Central marketplaces. Scope for a specific account is confirmed during your audit consultation."
+    },
+    {
+      "question": "How do you report completed ops work?",
+      "answer": "Weekly status covers completed tasks, open blockers, and next actions so growth reviews are not limited to ad metrics alone."
+    },
+    {
+      "question": "Can you work alongside our internal team?",
+      "answer": "Yes. Onboarding defines what we own versus what stays internal so responsibilities do not overlap or drop."
     },
     {
       "question": "How do I get started?",
