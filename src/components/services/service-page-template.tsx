@@ -167,7 +167,7 @@ function ServiceCustomTail({
                   <h3 className="text-body font-semibold text-primary">
                     {item.title}
                   </h3>
-                  <p className="mt-1 max-w-2xl text-small text-text-secondary">
+                  <p className="mt-1 max-w-2xl text-small font-medium text-text-secondary">
                     {item.description}
                   </p>
                 </li>
@@ -193,7 +193,7 @@ function ServiceCustomTail({
                       </td>
                       <td className="px-4 py-3 font-semibold text-primary sm:px-5">
                         {item.title}
-                        <p className="mt-1 font-normal text-text-secondary sm:hidden">
+                        <p className="mt-1 font-medium text-text-secondary sm:hidden">
                           {item.description}
                         </p>
                       </td>
@@ -236,7 +236,7 @@ function ServiceCustomTail({
                         <h3 className="text-body font-semibold text-primary">
                           {item.title}
                         </h3>
-                        <p className="mt-1 text-small text-text-secondary">
+                        <p className="mt-1 text-small font-medium text-text-secondary">
                           {item.description}
                         </p>
                       </div>
@@ -272,7 +272,7 @@ function ServiceCustomTail({
                     <h3 className="text-body font-semibold text-primary">
                       {item.brand}
                     </h3>
-                    <p className="mt-1 text-small text-text-secondary">
+                    <p className="mt-1 text-small font-medium text-text-secondary">
                       {item.description}
                     </p>
                   </div>
@@ -294,7 +294,7 @@ function ServiceCustomTail({
                       {item.metric}
                     </p>
                     <h3 className="mt-3 text-h4 text-primary">{item.brand}</h3>
-                    <p className="mt-2 text-body text-text-secondary">
+                    <p className="mt-2 text-body font-medium text-text-secondary">
                       {item.description}
                     </p>
                     <Link
@@ -1223,7 +1223,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
                     <h3 className="text-body font-semibold text-primary">
                       {item.title}
                     </h3>
-                    <p className="mt-1 text-small text-text-secondary">
+                    <p className="mt-1 text-small font-medium text-text-secondary">
                       {item.description}
                     </p>
                   </div>
@@ -1313,7 +1313,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
                   {item.metric}
                 </p>
                 <h3 className="mt-3 text-h4 text-primary">{item.brand}</h3>
-                <p className="mt-2 text-body text-text-secondary">
+                <p className="mt-2 text-body font-medium text-text-secondary">
                   {item.description}
                 </p>
                 <Link

@@ -42,7 +42,7 @@ export function BlogFigure({ src, alt, caption }: BlogFigureProps) {
         )}
       </div>
       {caption ? (
-        <figcaption className="mt-2 text-center text-small text-text-secondary">
+        <figcaption className="mt-2 text-center text-small font-medium text-text-secondary">
           {caption}
         </figcaption>
       ) : null}

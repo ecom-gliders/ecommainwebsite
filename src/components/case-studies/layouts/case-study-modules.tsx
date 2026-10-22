@@ -69,7 +69,7 @@ export function KeyIssuesList({ study }: { study: CaseStudyDetail }) {
       {study.keyIssues.map((issue, index) => (
         <li
           key={issue}
-          className={cn(caseStudyHardPanel, "flex gap-3 bg-background px-4 py-3 text-body text-text-secondary")}
+          className={cn(caseStudyHardPanel, "flex gap-3 bg-background px-4 py-3 text-body font-medium text-text-secondary")}
         >
           <span
             aria-hidden="true"
@@ -109,7 +109,7 @@ export function StrategyStages({ study }: { study: CaseStudyDetail }) {
               <div className="min-w-0 flex-1">
                 <h3 className="text-h4">{stage.title}</h3>
                 {stage.bullets.length > 0 ? (
-                  <ul className="mt-3 list-disc space-y-2 pl-5 text-body text-text-secondary">
+                  <ul className="mt-3 list-disc space-y-2 pl-5 text-body font-medium text-text-secondary">
                     {stage.bullets.map((bullet) => (
                       <li key={bullet.slice(0, 48)}>{bullet}</li>
                     ))}
@@ -172,7 +172,7 @@ export function ResultsGrid({ study }: { study: CaseStudyDetail }) {
       <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {study.results.metrics.map((metric) => (
           <li key={`${metric.label}-${metric.value}`} className={cn(caseStudyHardPanel, "bg-background p-6")}>
-            <p className="text-small text-text-secondary">{metric.label}</p>
+            <p className="text-small font-medium text-text-secondary">{metric.label}</p>
             <p className="mt-2 text-3xl font-black tracking-tight text-primary">{metric.value}</p>
           </li>
         ))}
@@ -262,7 +262,7 @@ export function LaunchTimeline({ study }: { study: CaseStudyDetail }) {
               Step {index + 1}
             </p>
             <p className="mt-2 text-h4">{item.value}</p>
-            <p className="mt-1 text-small text-text-secondary">{item.label}</p>
+            <p className="mt-1 text-small font-medium text-text-secondary">{item.label}</p>
           </li>
         ))}
       </ol>

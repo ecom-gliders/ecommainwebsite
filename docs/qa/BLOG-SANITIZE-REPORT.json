@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-22T01:17:02.421Z",
+  "mode": "write",
+  "total": 328,
+  "changedCount": 20,
+  "backupDir": "D:\\Desktop\\Project\\ecomgliders-site\\backup\\blog-mdx-sanitize\\2026-10-22T01-17-02-168Z",
+  "transformCounts": {
+    "promoCta": 20
+  },
+  "priorityChanged": [],
+  "allChanged": [
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 5436,
+      "afterLen": 5448
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 19875,
+      "afterLen": 19887
+    },
+    {
+      "slug": "amazon-full-account-management-maximizes-sales-roi",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 2696,
+      "afterLen": 2708
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 3762,
+      "afterLen": 3773
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 6782,
+      "afterLen": 6650
+    },
+    {
+      "slug": "amazon-ppc-framework-launch-to-scale",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 12211,
+      "afterLen": 12220
+    },
+    {
+      "slug": "amazon-sales-down-since-boycott",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 11948,
+      "afterLen": 11960
+    },
+    {
+      "slug": "amazon-seller-management-services-that-actually-work",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 2534,
+      "afterLen": 2546
+    },
+    {
+      "slug": "amazon-store-management-services-drive-sales",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 5041,
+      "afterLen": 5052
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 8473,
+      "afterLen": 8485
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 9624,
+      "afterLen": 9597
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 4905,
+      "afterLen": 4917
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 10754,
+      "afterLen": 10766
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 20572,
+      "afterLen": 20575
+    },
+    {
+      "slug": "long-term-amazon-ppc-strategy-2026-2030",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 10205,
+      "afterLen": 10217
+    },
+    {
+      "slug": "mastering-amazon-account-management-strategies",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 999,
+      "afterLen": 1011
+    },
+    {
+      "slug": "number-one-selling-product-amazon",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 14602,
+      "afterLen": 14614
+    },
+    {
+      "slug": "scale-your-brand-with-export-amazon-full-account-management",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 3022,
+      "afterLen": 3034
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 16694,
+      "afterLen": 16706
+    },
+    {
+      "slug": "why-amazon-sellers-fail-product-research",
+      "changed": true,
+      "transforms": [
+        "promoCta:1"
+      ],
+      "beforeLen": 4439,
+      "afterLen": 4450
+    }
+  ]
+}

@@ -8,7 +8,7 @@ interface BlogBreadcrumbProps {
 export function BlogBreadcrumb({ title }: BlogBreadcrumbProps) {
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
-      <ol className="flex flex-wrap items-center gap-1 text-small text-text-secondary">
+      <ol className="flex flex-wrap items-center gap-1 text-small font-medium text-text-secondary">
         <li>
           <Link href="/" className="hover:text-link-hover hover:underline">
             Home

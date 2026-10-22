@@ -42,7 +42,7 @@ export function ServicesIndexResults({ results }: ServicesIndexResultsProps) {
                 </div>
                 <div className="flex flex-col justify-center px-7 py-8 sm:px-10 sm:py-10">
                   <h3 className="text-h3 text-primary">{item.brand}</h3>
-                  <p className="mt-4 max-w-xl text-body text-text-secondary">
+                  <p className="mt-4 max-w-xl text-body font-medium text-text-secondary">
                     {item.description}
                   </p>
                   <Link

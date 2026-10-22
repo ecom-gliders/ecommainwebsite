@@ -127,7 +127,7 @@ export function ServiceDepthBand({
             {service.differ.points.map((point) => (
               <li key={point.title} className={cn(serviceHardPanel, "p-6")}>
                 <h3 className="text-h4 text-primary">{point.title}</h3>
-                <p className="mt-2 text-body text-text-secondary">
+                <p className="mt-2 text-body font-medium text-text-secondary">
                   {point.description}
                 </p>
               </li>

@@ -147,7 +147,7 @@ export function BlogDesignSystemPage() {
                   <li key={item.id}>
                     <a
                       href={`#${item.id}`}
-                      className="flex gap-2 py-1 text-small text-text-secondary hover:text-text-primary"
+                      className="flex gap-2 py-1 text-small font-medium text-text-secondary hover:text-text-primary"
                     >
                       <span className="w-5 shrink-0 text-[10px] font-bold text-text-secondary">
                         {index + 1}
@@ -166,7 +166,7 @@ export function BlogDesignSystemPage() {
               className="scroll-mt-24 border-2 border-primary bg-surface p-6 shadow-[4px_4px_0_0_#131311] md:p-8"
             >
               <h2 className="text-h2">Overview</h2>
-              <p className="mt-3 text-body text-text-secondary">
+              <p className="mt-3 text-body font-medium text-text-secondary">
                 Blog bodies are MDX. Visual patterns become fenced code blocks
                 (`feature-grid`, `tip`, `chart-cards`, …) rendered by the blog
                 block registry. GFM tables stay markdown tables. No{" "}
@@ -199,7 +199,7 @@ export function BlogDesignSystemPage() {
               purpose="Forbes-like reading frame: hero, sticky TOC, body column, right rail."
               when="Every blog detail page."
             >
-              <div className="grid gap-3 border-2 border-dashed border-border p-4 text-small text-text-secondary md:grid-cols-3">
+              <div className="grid gap-3 border-2 border-dashed border-border p-4 text-small font-medium text-text-secondary md:grid-cols-3">
                 <div className="border border-border bg-surface p-3">
                   <p className="font-semibold text-text-primary">Left</p>
                   Compact TOC + free-audit CTA under it (EG theming)
@@ -225,7 +225,7 @@ export function BlogDesignSystemPage() {
                 <h2 className="text-h2">Section heading (H2)</h2>
                 <h3 className="text-h3">Subsection (H3)</h3>
                 <h4 className="text-h4">Detail heading (H4)</h4>
-                <p className="text-body text-text-secondary">
+                <p className="text-body font-medium text-text-secondary">
                   Body copy uses EG text tokens. Bold lead-ins in lists are fine.
                   Horizontal rules map to subtle dividers.
                 </p>
@@ -924,7 +924,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                 label="Open free audit"
                 href="/free-audit-2/"
               />
-              <p className="mt-3 text-small text-text-secondary">
+              <p className="mt-3 text-small font-medium text-text-secondary">
                 Free consultation landing page: deferred. Use Contact / Free
                 Audit for now.
               </p>
@@ -955,7 +955,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                   </p>
                 </div>
               </div>
-              <ul className="mt-4 space-y-2 text-small text-text-secondary">
+              <ul className="mt-4 space-y-2 text-small font-medium text-text-secondary">
                 <li>
                   <strong className="text-text-primary">TOC:</strong> main
                   sections numbered; numbered sub-points nested underneath.
@@ -991,7 +991,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                     <p className="font-semibold text-text-primary">
                       Sample related title sits on one editorial row
                     </p>
-                    <p className="text-small text-text-secondary">
+                    <p className="text-small font-medium text-text-secondary">
                       May 8, 2025 · 8 min read
                     </p>
                   </div>
@@ -1012,7 +1012,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
               className="scroll-mt-24 border-2 border-primary bg-background p-6 shadow-[4px_4px_0_0_#131311] md:p-8"
             >
               <h2 className="text-h2">Fence cheat sheet (all shipped)</h2>
-              <p className="mt-2 text-body text-text-secondary">
+              <p className="mt-2 text-body font-medium text-text-secondary">
                 Allowlisted in{" "}
                 <code className="text-small">content/config/blog-blocks.json</code>
                 . Deferred only: interactive before/after slider and audio TTS
@@ -1092,7 +1092,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                 </li>
               </ol>
               <h3 className="mt-8 text-h3">Canonical media (locked)</h3>
-              <p className="mt-2 text-small text-text-secondary">
+              <p className="mt-2 text-small font-medium text-text-secondary">
                 Source:{" "}
                 <code className="text-[11px]">
                   content/config/blog-blocks.json#canonical

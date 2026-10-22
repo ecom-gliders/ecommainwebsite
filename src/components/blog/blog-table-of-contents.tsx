@@ -3,7 +3,10 @@
 import { ListTree } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BlogTocRailCta } from "@/components/blog/blog-toc-rail-cta";
-import type { TocItem } from "@/lib/blog/extract-table-of-contents";
+import {
+  stripLeadingOutlineNumber,
+  type TocItem,
+} from "@/lib/blog/extract-table-of-contents";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 
 interface BlogTableOfContentsProps {
@@ -24,7 +27,7 @@ function TocList({
 }) {
   if (items.length === 0) {
     return (
-      <p className="text-[12px] text-text-secondary">
+      <p className="text-sm font-medium text-text-secondary">
         No sections available for this article.
       </p>
     );
@@ -38,6 +41,12 @@ function TocList({
         const isActive = activeId === item.id;
         const isChild = item.depth > 0;
         if (!isChild) mainIndex += 1;
+        // Top-level rows get a TOC index badge — strip any heading `1.` prefix
+        // so labels never read as "2. 1. Tip title". Nested tips keep their
+        // own outline number in the label (no badge).
+        const label = isChild
+          ? item.text
+          : stripLeadingOutlineNumber(item.text);
 
         return (
           <li
@@ -55,11 +64,11 @@ function TocList({
               className={
                 isActive
                   ? isChild
-                    ? "block py-0.5 pl-1 text-[11px] font-semibold text-primary"
-                    : "flex gap-1.5 bg-accent/30 py-1 pl-1.5 pr-1.5 text-[12px] font-semibold text-primary"
+                    ? "block py-1 pl-1.5 text-[13px] font-semibold text-primary"
+                    : "flex gap-2 bg-accent/30 py-1.5 pl-1.5 pr-2 text-sm font-semibold text-primary"
                   : isChild
-                    ? "block py-0.5 pl-1 text-[11px] text-text-secondary hover:text-text-primary"
-                    : "flex gap-1.5 py-1 pl-1.5 pr-1.5 text-[12px] text-text-secondary hover:bg-surface-muted hover:text-text-primary"
+                    ? "block py-1 pl-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary"
+                    : "flex gap-2 py-1.5 pl-1.5 pr-2 text-sm font-medium text-text-secondary hover:bg-surface-muted hover:text-text-primary"
               }
               aria-current={isActive ? "location" : undefined}
             >
@@ -67,15 +76,15 @@ function TocList({
                 <span
                   className={
                     isActive
-                      ? "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center bg-primary text-[9px] font-bold text-text-on-dark"
-                      : "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center border border-border text-[9px] font-semibold text-text-secondary"
+                      ? "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center bg-primary text-[11px] font-bold text-text-on-dark"
+                      : "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center border border-border text-[11px] font-semibold text-text-secondary"
                   }
                   aria-hidden="true"
                 >
                   {mainIndex}
                 </span>
               ) : null}
-              <span className="min-w-0 leading-snug">{item.text}</span>
+              <span className="min-w-0 leading-snug">{label}</span>
             </a>
           </li>
         );
@@ -134,11 +143,11 @@ export function BlogTableOfContents({
   if (items.length === 0) return null;
 
   const header = (
-    <div className="mb-2 flex items-center gap-2">
-      <span className="flex h-7 w-7 items-center justify-center bg-accent text-primary">
-        <ListTree className="h-3.5 w-3.5" aria-hidden="true" />
+    <div className="mb-3 flex items-center gap-2">
+      <span className="flex h-8 w-8 items-center justify-center bg-accent text-primary">
+        <ListTree className="h-4 w-4" aria-hidden="true" />
       </span>
-      <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
         On this page
       </p>
     </div>

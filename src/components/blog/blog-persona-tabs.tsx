@@ -51,7 +51,7 @@ export function BlogPersonaTabs({ tabs }: BlogPersonaTabsProps) {
         role="tabpanel"
         id={`persona-panel-${current.id}`}
         aria-labelledby={`persona-tab-${current.id}`}
-        className="p-5 text-body text-text-secondary"
+        className="p-5 text-body font-medium text-text-secondary"
       >
         {current.body}
       </div>

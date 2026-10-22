@@ -75,18 +75,18 @@ export function CaseStudyCardItem({ study }: CaseStudyCardItemProps) {
 
         <div className="flex flex-1 flex-col px-4 py-4 sm:px-5 sm:py-5">
           <h3 className="text-lg font-bold tracking-tight text-primary sm:text-xl">{displayName}</h3>
-          <p className="mt-1 text-sm font-normal text-text-secondary">
+          <p className="mt-1 text-sm font-semibold leading-snug text-text-secondary">
             {[study.category, study.service, study.duration].filter(Boolean).join(" · ")}
           </p>
           {study.secondaryMetric ? (
             <p className="mt-2 text-sm font-semibold text-primary">
               {study.secondaryMetric}
               {study.secondaryMetricLabel ? (
-                <span className="font-normal text-text-secondary"> · {study.secondaryMetricLabel}</span>
+                <span className="font-medium text-text-secondary"> · {study.secondaryMetricLabel}</span>
               ) : null}
             </p>
           ) : null}
-          <p className="mt-3 line-clamp-2 flex-1 text-sm font-normal leading-relaxed text-text-secondary">
+          <p className="mt-3 line-clamp-2 flex-1 text-[0.9375rem] font-medium leading-relaxed text-text-primary/80 sm:text-base">
             {study.excerpt}
           </p>
           <Link

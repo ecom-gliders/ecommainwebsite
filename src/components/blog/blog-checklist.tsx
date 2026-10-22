@@ -1,4 +1,5 @@
 import { SquareCheck } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 
 interface BlogChecklistProps {
   title?: string;
@@ -16,13 +17,24 @@ export function BlogChecklist({ title, items }: BlogChecklistProps) {
         </p>
       ) : null}
       <ul className="m-0 list-none space-y-2.5 p-0">
-        {items.map((item) => (
-          <li key={item} className="flex gap-2.5 text-small text-text-primary">
+        {items.map((item, index) => (
+          <li
+            key={`${index}-${item.slice(0, 48)}`}
+            className="flex gap-2.5 text-small text-text-primary"
+          >
             <SquareCheck
               className="mt-0.5 h-4 w-4 shrink-0 text-primary"
               aria-hidden="true"
             />
-            <span>{item}</span>
+            <span className="min-w-0 [&_a]:font-medium [&_a]:text-primary [&_a]:underline-offset-2 hover:[&_a]:underline [&_p]:mb-0 [&_p]:inline [&_strong]:font-semibold">
+              <ReactMarkdown
+                components={{
+                  p: ({ children }) => <>{children}</>,
+                }}
+              >
+                {item}
+              </ReactMarkdown>
+            </span>
           </li>
         ))}
       </ul>

@@ -31,7 +31,7 @@ export function ServicesIndexStack({ engagement }: ServicesIndexStackProps) {
               {index + 1}
             </span>
             <h3 className="mt-4 text-h3 text-primary">{step.title}</h3>
-            <p className="mt-3 text-body text-text-secondary">{step.description}</p>
+            <p className="mt-3 text-body font-medium text-text-secondary">{step.description}</p>
           </li>
         ))}
       </ol>

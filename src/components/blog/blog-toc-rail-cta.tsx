@@ -23,15 +23,15 @@ export function BlogTocRailCta({
       aria-label="Free account audit"
       className="border-2 border-primary bg-accent/35 p-3.5 shadow-[3px_3px_0_0_#131311]"
     >
-      <p className="text-[13px] font-bold leading-snug tracking-tight text-text-primary">
+      <p className="text-sm font-bold leading-snug tracking-tight text-text-primary">
         {headline}
       </p>
-      <p className="mt-1.5 text-[11px] leading-snug text-text-secondary">
+      <p className="mt-1.5 text-[13px] font-medium leading-snug text-text-secondary">
         {body}
       </p>
       <Link
         href={href}
-        className="mt-3 inline-flex w-full items-center justify-center gap-1.5 border-2 border-primary bg-primary px-3 py-2 text-[12px] font-bold text-text-on-dark shadow-[2px_2px_0_0_#131311] transition-colors hover:bg-accent hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+        className="mt-3 inline-flex w-full items-center justify-center gap-1.5 border-2 border-primary bg-primary px-3 py-2.5 text-sm font-bold text-text-on-dark shadow-[2px_2px_0_0_#131311] transition-colors hover:bg-accent hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
       >
         {label}
         <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />

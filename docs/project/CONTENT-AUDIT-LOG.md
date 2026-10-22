@@ -87,3 +87,14 @@ Nav chrome keeps short label "Free Audit" (header space).
 | Hero primaryCta href | `/free-audit-2/` | `#hero-lead-form` | Scroll to on-page form | pending |
 
 Browser mockup retained in `homepage.json` → `deferredVisual` for a later section/services placement.
+
+---
+
+## 2026-10-22 — Blog body sanitize (WP visual blocks)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog MDX bodies (328) | Elementor HTML, share/Recent Posts/Categories chrome, Beehiiv iframes, FAQ scripts | Stripped or converted via `sanitizeBlogMarkdown` | Safe themed markdown; no `rehype-raw` | yes |
+| Feature CSS grids | Inline `display:grid` + WP SVG colors `#0066ff` / `#ff6633` | ` ```feature-grid ` + `BlogFeatureGrid` (ink/lime tokens) | Preserve structure; drop WP hex | yes |
+| `.glider-btn` CSS dumps | Royal blue `#2A4FFF` button CSS as plain text | Removed; markdown links + page `BlogPostCta` | No WP color passthrough | yes |
+| Colored spans | `style="color: #ff6600"` | Plain markdown links/strong | Design-system tokens only | yes |

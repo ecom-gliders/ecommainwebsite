@@ -21,7 +21,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
           <h1 id="about-hero-heading" className="text-h1">
             {page.hero.title}
           </h1>
-          <p className="mt-4 text-body text-text-secondary">{page.hero.subtitle}</p>
+          <p className="mt-4 text-body font-medium text-text-secondary">{page.hero.subtitle}</p>
         </div>
       </SectionShell>
 
@@ -29,7 +29,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
         <SectionHeading heading={page.story.heading} headingId="about-story-heading" />
         <div className="mx-auto mt-8 max-w-3xl space-y-4">
           {page.story.paragraphs.map((paragraph) => (
-            <p key={paragraph.slice(0, 48)} className="text-body text-text-secondary">
+            <p key={paragraph.slice(0, 48)} className="text-body font-medium text-text-secondary">
               {paragraph}
             </p>
           ))}
@@ -43,7 +43,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
               <Card className="h-full border-border bg-surface">
                 <CardContent className="p-6">
                   <p className="text-stat text-text-primary">{stat.value}</p>
-                  <p className="mt-2 text-small text-text-secondary">{stat.label}</p>
+                  <p className="mt-2 text-small font-medium text-text-secondary">{stat.label}</p>
                 </CardContent>
               </Card>
             </li>
@@ -60,7 +60,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
               className="rounded-lg border border-border bg-background p-6"
             >
               <h3 className="text-h4">{item.title}</h3>
-              <p className="mt-2 text-body text-text-secondary">{item.description}</p>
+              <p className="mt-2 text-body font-medium text-text-secondary">{item.description}</p>
             </li>
           ))}
         </ul>
@@ -77,7 +77,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
             <li key={step.number} className="rounded-md border border-border bg-surface p-6">
               <p className="text-small font-mono font-medium text-primary">{step.number}</p>
               <h3 className="mt-3 text-h4">{step.title}</h3>
-              <p className="mt-2 text-body text-text-secondary">{step.description}</p>
+              <p className="mt-2 text-body font-medium text-text-secondary">{step.description}</p>
             </li>
           ))}
         </ol>
@@ -96,7 +96,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
                 <CardContent className="p-6">
                   <h3 className="text-h4">{member.name}</h3>
                   <p className="mt-1 text-small font-medium text-text-secondary">{member.role}</p>
-                  <p className="mt-3 text-body text-text-secondary">{member.bio}</p>
+                  <p className="mt-3 text-body font-medium text-text-secondary">{member.bio}</p>
                 </CardContent>
               </Card>
             </li>
@@ -109,7 +109,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
           <h2 id="about-certifications-heading" className="text-h2">
             {page.certifications.heading}
           </h2>
-          <p className="mt-4 text-body text-text-secondary">
+          <p className="mt-4 text-body font-medium text-text-secondary">
             {page.certifications.description}
           </p>
           {partnerBadge ? (

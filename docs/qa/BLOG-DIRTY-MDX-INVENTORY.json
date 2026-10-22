@@ -1,0 +1,3911 @@
+{
+  "generatedAt": "2026-10-22T00:20:53.239Z",
+  "totalMdx": 328,
+  "dirtyCount": 311,
+  "byFlag": {
+    "chrome": 185,
+    "h5h6": 213,
+    "bodyH1": 127,
+    "css": 8,
+    "htmlTags": 8,
+    "elementor": 2,
+    "inlineStyle": 2,
+    "faqScript": 2,
+    "iframe": 2
+  },
+  "priority": [
+    {
+      "slug": "fba-inventory-management-stockouts-to-stability",
+      "flags": [
+        "h5h6",
+        "elementor",
+        "css",
+        "inlineStyle",
+        "htmlTags",
+        "faqScript",
+        "chrome",
+        "iframe"
+      ],
+      "bodyLen": 65355
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "flags": [
+        "elementor",
+        "css",
+        "inlineStyle",
+        "htmlTags",
+        "faqScript",
+        "chrome",
+        "iframe"
+      ],
+      "bodyLen": 58675
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 22222
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 21496
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 20622
+    },
+    {
+      "slug": "amazon-boycott-losses-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 20327
+    },
+    {
+      "slug": "amazon-inventory-forecasting",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 19642
+    },
+    {
+      "slug": "amazon-seller-issues-solutions",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 18577
+    },
+    {
+      "slug": "amazon-fba-growth-scaling-mistakes",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 18314
+    },
+    {
+      "slug": "amazon-account-management",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 17421
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 17276
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16804
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 16648
+    },
+    {
+      "slug": "invested-100000-in-amazon-10-years-ago",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16486
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16442
+    },
+    {
+      "slug": "why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through",
+      "flags": [
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 16335
+    },
+    {
+      "slug": "make-one-thousand-dollars-a-month-selling-on-amazon",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16201
+    },
+    {
+      "slug": "why-people-are-leaving-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 15841
+    },
+    {
+      "slug": "is-amazon-prime-losing-customers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15650
+    },
+    {
+      "slug": "amazon-store-optimization-guide",
+      "flags": [
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 15491
+    },
+    {
+      "slug": "amazon-sales-after-boycott-analysis",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15169
+    },
+    {
+      "slug": "number-one-selling-product-amazon",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15155
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 15029
+    },
+    {
+      "slug": "amazon-ppc-campaign-beginners-guide",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 14622
+    },
+    {
+      "slug": "future-of-amazon-ppc-scalable-advertising-frameworks-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 14566
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 13615
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 13538
+    },
+    {
+      "slug": "amazon-ppc-hacks",
+      "flags": [
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 13159
+    },
+    {
+      "slug": "amazon-sales-down-since-boycott",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 13040
+    },
+    {
+      "slug": "do-i-have-to-pay-40-dollars-to-sell-on-amazon",
+      "flags": [
+        "h5h6",
+        "css",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 12958
+    },
+    {
+      "slug": "amazon-ppc-framework-launch-to-scale",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12804
+    },
+    {
+      "slug": "never-run-out-of-stock-amazon-fba-inventory-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12788
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockouts",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12767
+    },
+    {
+      "slug": "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12683
+    },
+    {
+      "slug": "amazon-ppc-strategy-keyword-research-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12678
+    },
+    {
+      "slug": "zero-to-ten-thousand-dollars-amazon-income-roadmap",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12664
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12528
+    },
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12503
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12498
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12288
+    },
+    {
+      "slug": "beyond-optimization-systematic-amazon-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12070
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12042
+    },
+    {
+      "slug": "amazon-ppc-campaign-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11972
+    },
+    {
+      "slug": "fix-high-acos-amazon-ppc-2025",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 11803
+    },
+    {
+      "slug": "amazon-ppc-optimization-tips",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11786
+    },
+    {
+      "slug": "are-amazon-sales-growing",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11520
+    },
+    {
+      "slug": "why-everyone-is-boycotting-amazon-prime",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 11325
+    },
+    {
+      "slug": "amazon-ppc-strategies",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11292
+    },
+    {
+      "slug": "amazon-seo-optimization-increase-sales",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11272
+    },
+    {
+      "slug": "amazon-ppc-campaign-types-explained",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11246
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11114
+    },
+    {
+      "slug": "long-term-amazon-ppc-strategy-2026-2030",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11098
+    },
+    {
+      "slug": "amazon-seller-problems-fix-guide-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11036
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10922
+    },
+    {
+      "slug": "architecting-seo-success-2026-strategy-before-execution",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10877
+    },
+    {
+      "slug": "audience-targeting-intent-amazon-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10871
+    },
+    {
+      "slug": "scalable-amazon-business-systems",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10854
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10819
+    },
+    {
+      "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10805
+    },
+    {
+      "slug": "amazon-listing-errors-fix-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10801
+    },
+    {
+      "slug": "best-amazon-deals-of-the-week-save-big-today",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10724
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically-2",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10699
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10348
+    },
+    {
+      "slug": "amazon-seo-2026-ranking-factors",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10301
+    },
+    {
+      "slug": "scaling-amazon-fba-business-failure-mistakes",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 10222
+    },
+    {
+      "slug": "fix-stagnant-amazon-sales",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10218
+    },
+    {
+      "slug": "amazon-suppressed-listings-fix",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10118
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "flags": [
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 10093
+    },
+    {
+      "slug": "amazon-ppc-optimization-secrets-2025-fba-sellers-guide",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9924
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9588
+    },
+    {
+      "slug": "designing-growth-on-amazon-strategy-before-scale",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9484
+    },
+    {
+      "slug": "why-amazon-sellers-plateau-system-led-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9474
+    },
+    {
+      "slug": "hidden-amazon-ppc-tax",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9406
+    },
+    {
+      "slug": "strategy-layer-amazon-success-high-growth-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 9166
+    },
+    {
+      "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9124
+    },
+    {
+      "slug": "when-should-you-use-sponsored-display-ads",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9072
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9005
+    },
+    {
+      "slug": "amazon-ppc-comparison-sponsored-products-vs-sponsored-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9000
+    },
+    {
+      "slug": "amazon-seller-central-bulk-listing",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8951
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8948
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 8805
+    },
+    {
+      "slug": "amazon-ppc-advertising-guide",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 8788
+    },
+    {
+      "slug": "amazon-ppc-hack-slash-acos",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8757
+    },
+    {
+      "slug": "are-amazon-sales-increasing",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8725
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8577
+    },
+    {
+      "slug": "top-amazon-seller-growth-hacks-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8334
+    },
+    {
+      "slug": "amazon-sellers-overpaying-for-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8269
+    },
+    {
+      "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8191
+    },
+    {
+      "slug": "system-first-business-strategy-scalable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8136
+    },
+    {
+      "slug": "upc-codes-for-amazon",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7799
+    },
+    {
+      "slug": "amazon-full-account-management-vs-partial-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 7694
+    },
+    {
+      "slug": "lower-amazon-acos-without-losing-sales",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7291
+    },
+    {
+      "slug": "review-manipulation-on-amazon",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 7265
+    },
+    {
+      "slug": "overlooked-amazon-seo-factors-affecting-product-rankings",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7196
+    },
+    {
+      "slug": "long-term-amazon-account-growth-plan",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7176
+    },
+    {
+      "slug": "from-traffic-to-trust-seo-blueprint-for-authority-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 7093
+    },
+    {
+      "slug": "benefits-of-amazon-brand-registry-for-private-label-sellers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7027
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6983
+    },
+    {
+      "slug": "end-to-end-amazon-seller-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6793
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6616
+    },
+    {
+      "slug": "top-shopify-plugins-dtc-brands-2025-2",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6595
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6559
+    },
+    {
+      "slug": "what-sets-ecom-gliders-apart-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6545
+    },
+    {
+      "slug": "increase-sales-on-amazon-2025",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 6518
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6509
+    },
+    {
+      "slug": "choose-winning-products-without-guesswork",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6389
+    },
+    {
+      "slug": "seo-in-the-age-of-ai-search-2026",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 6388
+    },
+    {
+      "slug": "manage-multiple-amazon-seller-accounts-without-risk",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6289
+    },
+    {
+      "slug": "why-hiring-amazon-seo-ppc-agency-is-worth-it-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6231
+    },
+    {
+      "slug": "amazon-customer-image-playbook-2025",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 6210
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6170
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6148
+    },
+    {
+      "slug": "amazon-ppc-campaign-structure",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6086
+    },
+    {
+      "slug": "hidden-signal-amazon-product-success",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6019
+    },
+    {
+      "slug": "managed-amazon-seller-services-long-term-success",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6009
+    },
+    {
+      "slug": "from-features-to-frameworks-amazon-tools-architecture-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5980
+    },
+    {
+      "slug": "amazon-ppc-wasting-money-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5961
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5961
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5804
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5661
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5633
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5578
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5509
+    },
+    {
+      "slug": "amazon-store-management-services-drive-sales",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5500
+    },
+    {
+      "slug": "amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5477
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5475
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5439
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5426
+    },
+    {
+      "slug": "grow-faster-with-amazon-full-account-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5402
+    },
+    {
+      "slug": "ecom-gliders-vs-canopy-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5350
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5335
+    },
+    {
+      "slug": "amazon-seller-central-management-services-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5318
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5287
+    },
+    {
+      "slug": "how-amazon-account-managers-improve-buy-box-wins",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5255
+    },
+    {
+      "slug": "benefits-of-amazon-full-account-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5242
+    },
+    {
+      "slug": "professional-amazon-account-managers-handle-policy-violations",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5241
+    },
+    {
+      "slug": "amazon-tools-growth-system-seller-software",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5226
+    },
+    {
+      "slug": "full-service-amazon-seller-account-handling",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5194
+    },
+    {
+      "slug": "ecom-gliders-vs-velocity-sellers-amazon-store-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5182
+    },
+    {
+      "slug": "architecting-amazon-success-2026-strategy-first-tools",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5180
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5174
+    },
+    {
+      "slug": "decision-driven-seo-winning-search-visibility",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5092
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5059
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5040
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5021
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5013
+    },
+    {
+      "slug": "step-by-step-method-to-validate-products-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5008
+    },
+    {
+      "slug": "common-amazon-seller-mistakes-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4976
+    },
+    {
+      "slug": "scaling-seo-like-a-business-2026-framework",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4883
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4848
+    },
+    {
+      "slug": "how-amazon-account-manager-improves-buy-box-wins",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4824
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4819
+    },
+    {
+      "slug": "why-amazon-sellers-fail-product-research",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4787
+    },
+    {
+      "slug": "why-your-amazon-listing-looks-perfect-but-still-doesnt-rank",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4769
+    },
+    {
+      "slug": "outsourced-amazon-account-management-worth-it-2",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4768
+    },
+    {
+      "slug": "amazon_a_plus_content_seo_2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4739
+    },
+    {
+      "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4718
+    },
+    {
+      "slug": "top-amazon-sellers-niche-research-guide",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4704
+    },
+    {
+      "slug": "high-demand-low-competition-products-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4621
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4574
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4527
+    },
+    {
+      "slug": "business-of-seo-2026-predictable-growth",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4360
+    },
+    {
+      "slug": "how-to-find-profitable-products-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4338
+    },
+    {
+      "slug": "scale-your-brand-with-export-amazon-full-account-management",
+      "flags": [
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 4279
+    },
+    {
+      "slug": "smart-way-to-research-demand-and-competition-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4185
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4088
+    },
+    {
+      "slug": "amazon-growth-partner-vs-diy-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4084
+    },
+    {
+      "slug": "amazon-full-account-management-with-ppc-listing-brand-protection",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4038
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3881
+    },
+    {
+      "slug": "amazon-product-launch-strategy-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3866
+    },
+    {
+      "slug": "ecom-gliders-vs-sophie-society-amazon-ppc-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3865
+    },
+    {
+      "slug": "amazon-brand-growth-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3857
+    },
+    {
+      "slug": "best-amazon-profit-analytics-for-amazon-sellers",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3846
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3839
+    },
+    {
+      "slug": "amazon-ppc-hacks-that-actually-increase-profit",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3795
+    },
+    {
+      "slug": "amazons-silent-ranking-factors-what-top-sellers-know-that-most-brands-dont",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3683
+    },
+    {
+      "slug": "reduce-amazon-acos-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3649
+    },
+    {
+      "slug": "ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 3555
+    },
+    {
+      "slug": "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3553
+    },
+    {
+      "slug": "avoid-saturated-niche-price-wars-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3481
+    },
+    {
+      "slug": "reselling-in-amazon-stores-guidelines-and-tips-for-success",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 3273
+    },
+    {
+      "slug": "international-expansion-selling-on-amazon-global-marketplaces-in-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3260
+    },
+    {
+      "slug": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3000
+    },
+    {
+      "slug": "best-selling-amazon-products-in-the-us-you-should-know-about",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 2651
+    },
+    {
+      "slug": "woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 2632
+    }
+  ],
+  "allDirty": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12503
+    },
+    {
+      "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9124
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5335
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3881
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8577
+    },
+    {
+      "slug": "amazon_a_plus_content_seo_2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4739
+    },
+    {
+      "slug": "amazon-a10-algorithm-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2105
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6170
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6559
+    },
+    {
+      "slug": "amazon-account-management",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 17421
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6509
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5475
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5578
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6148
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5661
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5013
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4527
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5040
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6616
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 13538
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12288
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16442
+    },
+    {
+      "slug": "amazon-boycott-losses-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 20327
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 15029
+    },
+    {
+      "slug": "amazon-brand-growth-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3857
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9588
+    },
+    {
+      "slug": "amazon-compliance-documents-in-2025",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 6945
+    },
+    {
+      "slug": "amazon-customer-image-playbook-2025",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 6210
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 21496
+    },
+    {
+      "slug": "amazon-fba-growth-scaling-mistakes",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 18314
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16804
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5021
+    },
+    {
+      "slug": "amazon-full-account-management-maximizes-sales-roi",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2877
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3839
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4088
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5804
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4848
+    },
+    {
+      "slug": "amazon-full-account-management-vs-partial-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 7694
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5287
+    },
+    {
+      "slug": "amazon-full-account-management-with-ppc-listing-brand-protection",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4038
+    },
+    {
+      "slug": "amazon-growth-partner-vs-diy-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4084
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6983
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12528
+    },
+    {
+      "slug": "amazon-inventory-forecasting",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 19642
+    },
+    {
+      "slug": "amazon-keyword-research-2026-guide",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2508
+    },
+    {
+      "slug": "amazon-listing-errors-fix-guide",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10801
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5509
+    },
+    {
+      "slug": "amazon-listing-optimization-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3646
+    },
+    {
+      "slug": "amazon-negative-keywords-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2741
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5633
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5439
+    },
+    {
+      "slug": "amazon-ppc-advertising-guide",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 8788
+    },
+    {
+      "slug": "amazon-ppc-campaign-beginners-guide",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 14622
+    },
+    {
+      "slug": "amazon-ppc-campaign-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11972
+    },
+    {
+      "slug": "amazon-ppc-campaign-structure",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6086
+    },
+    {
+      "slug": "amazon-ppc-campaign-types-explained",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11246
+    },
+    {
+      "slug": "amazon-ppc-comparison-sponsored-products-vs-sponsored-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9000
+    },
+    {
+      "slug": "amazon-ppc-draining-your-wallet",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2181
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8948
+    },
+    {
+      "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8191
+    },
+    {
+      "slug": "amazon-ppc-framework-launch-to-scale",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12804
+    },
+    {
+      "slug": "amazon-ppc-hack-slash-acos",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8757
+    },
+    {
+      "slug": "amazon-ppc-hacks",
+      "flags": [
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 13159
+    },
+    {
+      "slug": "amazon-ppc-hacks-that-actually-increase-profit",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3795
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alabama-al-a-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 8865
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 8910
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales-2",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 8907
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 9957
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 9953
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 9824
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9990
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9961
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9908
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10049
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 11420
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9990
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9902
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9946
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9771
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9924
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10122
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9903
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9947
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10035
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9908
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9859
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9908
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9718
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10128
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9996
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10006
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-york-a-path-to-maximizing-your-sales",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 8353
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9913
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10174
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10083
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10611
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9731
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9907
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9819
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10253
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10039
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10184
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9623
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9756
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10060
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9800
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9886
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10043
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9850
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9764
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9962
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10063
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9974
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 10040
+    },
+    {
+      "slug": "amazon-ppc-no-conversions-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 2149
+    },
+    {
+      "slug": "amazon-ppc-optimization-secrets-2025-fba-sellers-guide",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9924
+    },
+    {
+      "slug": "amazon-ppc-optimization-tips",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11786
+    },
+    {
+      "slug": "amazon-ppc-strategies",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11292
+    },
+    {
+      "slug": "amazon-ppc-strategy-keyword-research-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12678
+    },
+    {
+      "slug": "amazon-ppc-wasting-money-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5961
+    },
+    {
+      "slug": "amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5477
+    },
+    {
+      "slug": "amazon-product-launch-strategy-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3866
+    },
+    {
+      "slug": "amazon-sales-after-boycott-analysis",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15169
+    },
+    {
+      "slug": "amazon-sales-down-since-boycott",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 13040
+    },
+    {
+      "slug": "amazon-seller-central-bulk-listing",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8951
+    },
+    {
+      "slug": "amazon-seller-central-management-services-explained",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5318
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4574
+    },
+    {
+      "slug": "amazon-seller-issues-solutions",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 18577
+    },
+    {
+      "slug": "amazon-seller-problems-fix-guide-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11036
+    },
+    {
+      "slug": "amazon-seller-support-account-management-services",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3924
+    },
+    {
+      "slug": "amazon-sellers-overpaying-for-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8269
+    },
+    {
+      "slug": "amazon-seo-2026-keywords-no-longer-matter",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 4310
+    },
+    {
+      "slug": "amazon-seo-2026-ranking-factors",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10301
+    },
+    {
+      "slug": "amazon-seo-optimization-increase-sales",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11272
+    },
+    {
+      "slug": "amazon-sponsored-brands-vs-products",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3243
+    },
+    {
+      "slug": "amazon-store-management-services-drive-sales",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5500
+    },
+    {
+      "slug": "amazon-store-optimization-guide",
+      "flags": [
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 15491
+    },
+    {
+      "slug": "amazon-suppressed-listings-fix",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10118
+    },
+    {
+      "slug": "amazon-tools-growth-system-seller-software",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5226
+    },
+    {
+      "slug": "amazons-silent-ranking-factors-what-top-sellers-know-that-most-brands-dont",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3683
+    },
+    {
+      "slug": "architecting-amazon-success-2026-strategy-first-tools",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5180
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "flags": [
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 10093
+    },
+    {
+      "slug": "architecting-seo-success-2026-strategy-before-execution",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10877
+    },
+    {
+      "slug": "are-amazon-sales-growing",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11520
+    },
+    {
+      "slug": "are-amazon-sales-increasing",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8725
+    },
+    {
+      "slug": "audience-targeting-intent-amazon-ppc-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10871
+    },
+    {
+      "slug": "avoid-saturated-niche-price-wars-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3481
+    },
+    {
+      "slug": "benefits-of-amazon-brand-registry-for-private-label-sellers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7027
+    },
+    {
+      "slug": "benefits-of-amazon-full-account-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5242
+    },
+    {
+      "slug": "best-amazon-deals-of-the-week-save-big-today",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10724
+    },
+    {
+      "slug": "best-amazon-profit-analytics-for-amazon-sellers",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 3846
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10348
+    },
+    {
+      "slug": "best-selling-amazon-products-in-the-us-you-should-know-about",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 2651
+    },
+    {
+      "slug": "beyond-optimization-systematic-amazon-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12070
+    },
+    {
+      "slug": "business-of-seo-2026-predictable-growth",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4360
+    },
+    {
+      "slug": "choose-winning-products-without-guesswork",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6389
+    },
+    {
+      "slug": "common-amazon-seller-mistakes-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4976
+    },
+    {
+      "slug": "decision-driven-seo-winning-search-visibility",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5092
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 20622
+    },
+    {
+      "slug": "designing-growth-on-amazon-strategy-before-scale",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9484
+    },
+    {
+      "slug": "do-i-have-to-pay-40-dollars-to-sell-on-amazon",
+      "flags": [
+        "h5h6",
+        "css",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 12958
+    },
+    {
+      "slug": "ecom-gliders-vs-canopy-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5350
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4819
+    },
+    {
+      "slug": "ecom-gliders-vs-gno-partners-amazon-growth-comparison",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3042
+    },
+    {
+      "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4718
+    },
+    {
+      "slug": "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3553
+    },
+    {
+      "slug": "ecom-gliders-vs-salesduo-amazon-seller-support",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 4794
+    },
+    {
+      "slug": "ecom-gliders-vs-sophie-society-amazon-ppc-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3865
+    },
+    {
+      "slug": "ecom-gliders-vs-teikametrics-amazon-ppc-management",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 4564
+    },
+    {
+      "slug": "ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 3555
+    },
+    {
+      "slug": "ecom-gliders-vs-velocity-sellers-amazon-store-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5182
+    },
+    {
+      "slug": "elementor-992655",
+      "flags": [
+        "bodyH1"
+      ],
+      "bodyLen": 9736
+    },
+    {
+      "slug": "end-to-end-amazon-seller-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6793
+    },
+    {
+      "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10805
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5961
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 16648
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockouts",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12767
+    },
+    {
+      "slug": "fba-inventory-management-stockouts-to-stability",
+      "flags": [
+        "h5h6",
+        "elementor",
+        "css",
+        "inlineStyle",
+        "htmlTags",
+        "faqScript",
+        "chrome",
+        "iframe"
+      ],
+      "bodyLen": 65355
+    },
+    {
+      "slug": "fix-high-acos-amazon-ppc-2025",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 11803
+    },
+    {
+      "slug": "fix-stagnant-amazon-sales",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10218
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11114
+    },
+    {
+      "slug": "from-features-to-frameworks-amazon-tools-architecture-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5980
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5059
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 13615
+    },
+    {
+      "slug": "from-traffic-to-trust-seo-blueprint-for-authority-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 7093
+    },
+    {
+      "slug": "full-service-amazon-seller-account-handling",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5194
+    },
+    {
+      "slug": "future-of-amazon-ppc-scalable-advertising-frameworks-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 14566
+    },
+    {
+      "slug": "grow-faster-with-amazon-full-account-management-services",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5402
+    },
+    {
+      "slug": "hidden-amazon-ppc-tax",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9406
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12042
+    },
+    {
+      "slug": "hidden-signal-amazon-product-success",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6019
+    },
+    {
+      "slug": "high-demand-low-competition-products-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4621
+    },
+    {
+      "slug": "how-amazon-account-manager-improves-buy-box-wins",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4824
+    },
+    {
+      "slug": "how-amazon-account-managers-improve-buy-box-wins",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5255
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 22222
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10819
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically-2",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10699
+    },
+    {
+      "slug": "how-to-find-profitable-products-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4338
+    },
+    {
+      "slug": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3000
+    },
+    {
+      "slug": "increase-sales-on-amazon-2025",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 6518
+    },
+    {
+      "slug": "international-expansion-selling-on-amazon-global-marketplaces-in-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3260
+    },
+    {
+      "slug": "invested-100000-in-amazon-10-years-ago",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16486
+    },
+    {
+      "slug": "is-amazon-prime-losing-customers",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15650
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12498
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9005
+    },
+    {
+      "slug": "long-term-amazon-account-growth-plan",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7176
+    },
+    {
+      "slug": "long-term-amazon-ppc-strategy-2026-2030",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 11098
+    },
+    {
+      "slug": "lower-amazon-acos-without-losing-sales",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7291
+    },
+    {
+      "slug": "make-one-thousand-dollars-a-month-selling-on-amazon",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 16201
+    },
+    {
+      "slug": "manage-multiple-amazon-seller-accounts-without-risk",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6289
+    },
+    {
+      "slug": "managed-amazon-seller-services-long-term-success",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6009
+    },
+    {
+      "slug": "never-run-out-of-stock-amazon-fba-inventory-management",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 12788
+    },
+    {
+      "slug": "number-one-selling-product-amazon",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 15155
+    },
+    {
+      "slug": "outsourced-amazon-account-management-worth-it-2",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4768
+    },
+    {
+      "slug": "overlooked-amazon-seo-factors-affecting-product-rankings",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7196
+    },
+    {
+      "slug": "predict-amazon-product-success",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3181
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-alabama-al-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-alaska-ak-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10064
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-american-samoa-as-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10384
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-arizona-az-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 9995
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-arkansas-ar-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-california-ca-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10224
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-colorado-co-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-connecticut-ct-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10128
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-delaware-de-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-district-of-columbia-dc-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10624
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-florida-fl-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-georgia-ga-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-guam-gu-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 9984
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-hawaii-hi-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10063
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-idaho-id-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10024
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-illinois-il-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-iowa-ia-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 9984
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-kansas-ks-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10069
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-kentucky-ky-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-louisiana-la-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10184
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-maine-me-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10024
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-maryland-md-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 8853
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-massachusetts-ma-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10344
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-michigan-mi-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-minnesota-mn-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10184
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-mississippi-ms-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10264
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-missouri-mo-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-montana-mt-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-nebraska-ne-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-nevada-nv-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10064
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-hampshire-nh-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10344
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-jersey-nj-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10224
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-mexico-nm-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10224
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-york-ny-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-north-carolina-nc-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10384
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-north-dakota-nd-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10303
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10784
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential-2",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 9991
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-oklahoma-ok-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10155
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-oregon-or-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10064
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-pennsylvania-pa-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10304
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-puerto-rico-pr-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10264
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-rhode-island-ri-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10309
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-south-carolina-sc-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10384
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-south-dakota-sd-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10304
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-tennessee-tn-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10184
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-texas-tx-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10024
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-trust-territories-tt-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10504
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-utah-ut-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 9984
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-vermont-vt-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-virgin-islands-vi-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10384
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-virginia-va-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10144
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-washington-wa-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10224
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-west-virginia-wv-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10344
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-wisconsin-wi-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10184
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-wyoming-wy-maximize-your-online-potential",
+      "flags": [
+        "bodyH1",
+        "h5h6"
+      ],
+      "bodyLen": 10104
+    },
+    {
+      "slug": "professional-amazon-account-managers-handle-policy-violations",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5241
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5174
+    },
+    {
+      "slug": "reduce-amazon-acos-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 3649
+    },
+    {
+      "slug": "reduce-amazon-ad-spend-with-seo-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 1988
+    },
+    {
+      "slug": "reselling-in-amazon-stores-guidelines-and-tips-for-success",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 3273
+    },
+    {
+      "slug": "review-manipulation-on-amazon",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 7265
+    },
+    {
+      "slug": "scalable-amazon-business-systems",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 10854
+    },
+    {
+      "slug": "scale-your-brand-with-export-amazon-full-account-management",
+      "flags": [
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 4279
+    },
+    {
+      "slug": "scaling-amazon-fba-business-failure-mistakes",
+      "flags": [
+        "bodyH1",
+        "chrome"
+      ],
+      "bodyLen": 10222
+    },
+    {
+      "slug": "scaling-seo-like-a-business-2026-framework",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4883
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 8805
+    },
+    {
+      "slug": "seo-in-the-age-of-ai-search-2026",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 6388
+    },
+    {
+      "slug": "smart-way-to-research-demand-and-competition-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4185
+    },
+    {
+      "slug": "step-by-step-method-to-validate-products-on-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 5008
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "flags": [
+        "h5h6",
+        "htmlTags",
+        "chrome"
+      ],
+      "bodyLen": 17276
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "flags": [
+        "elementor",
+        "css",
+        "inlineStyle",
+        "htmlTags",
+        "faqScript",
+        "chrome",
+        "iframe"
+      ],
+      "bodyLen": 58675
+    },
+    {
+      "slug": "strategy-layer-amazon-success-high-growth-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 9166
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 5426
+    },
+    {
+      "slug": "system-first-business-strategy-scalable-growth",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8136
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 10922
+    },
+    {
+      "slug": "top-amazon-seller-growth-hacks-2025",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 8334
+    },
+    {
+      "slug": "top-amazon-sellers-niche-research-guide",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4704
+    },
+    {
+      "slug": "top-shopify-plugins-dtc-brands-2025-2",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6595
+    },
+    {
+      "slug": "upc-codes-for-amazon",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 7799
+    },
+    {
+      "slug": "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12683
+    },
+    {
+      "slug": "what-sets-ecom-gliders-apart-amazon-account-management",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6545
+    },
+    {
+      "slug": "when-should-you-use-sponsored-display-ads",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9072
+    },
+    {
+      "slug": "why-amazon-sellers-fail-product-research",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 4787
+    },
+    {
+      "slug": "why-amazon-sellers-plateau-system-led-brands",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 9474
+    },
+    {
+      "slug": "why-everyone-is-boycotting-amazon-prime",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 11325
+    },
+    {
+      "slug": "why-hiring-amazon-seo-ppc-agency-is-worth-it-2026",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 6231
+    },
+    {
+      "slug": "why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through",
+      "flags": [
+        "h5h6",
+        "css",
+        "chrome"
+      ],
+      "bodyLen": 16335
+    },
+    {
+      "slug": "why-people-are-leaving-amazon",
+      "flags": [
+        "chrome"
+      ],
+      "bodyLen": 15841
+    },
+    {
+      "slug": "why-your-amazon-listing-looks-perfect-but-still-doesnt-rank",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 4769
+    },
+    {
+      "slug": "why-your-amazon-organic-rank-dropped-suddenly",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 1998
+    },
+    {
+      "slug": "why-your-amazon-ppc-is-wasting-money-in-2026",
+      "flags": [
+        "h5h6"
+      ],
+      "bodyLen": 3957
+    },
+    {
+      "slug": "woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose",
+      "flags": [
+        "bodyH1",
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 2632
+    },
+    {
+      "slug": "zero-to-ten-thousand-dollars-amazon-income-roadmap",
+      "flags": [
+        "h5h6",
+        "chrome"
+      ],
+      "bodyLen": 12664
+    }
+  ]
+}

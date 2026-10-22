@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { BlogPost } from "@/domain/content/schemas";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { formatPublishedDate } from "@/components/sections/format-date";
 
 interface BlogRelatedPostsProps {
@@ -46,16 +46,13 @@ export function BlogRelatedPosts({ posts }: BlogRelatedPostsProps) {
               className="group flex gap-4 p-4 transition-colors hover:bg-accent/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-inset sm:gap-5 sm:p-5"
             >
               {post.featuredImage ? (
-                <span className="relative hidden h-20 w-28 shrink-0 overflow-hidden border border-border sm:block">
-                  <Image
-                    src={post.featuredImage}
-                    alt=""
-                    fill
-                    className="object-cover"
-                    sizes="112px"
-                    quality={70}
-                  />
-                </span>
+                <BlogFeaturedImage
+                  src={post.featuredImage}
+                  alt=""
+                  className="relative hidden h-20 w-28 shrink-0 border border-border sm:block"
+                  sizes="112px"
+                  quality={70}
+                />
               ) : (
                 <span
                   className="hidden h-20 w-28 shrink-0 border border-border bg-accent/40 sm:block"
@@ -71,7 +68,7 @@ export function BlogRelatedPosts({ posts }: BlogRelatedPostsProps) {
                 <span className="mt-1 block text-body font-semibold text-text-primary group-hover:underline">
                   {post.title}
                 </span>
-                <span className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-small text-text-secondary">
+                <span className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-small font-medium text-text-secondary">
                   <time dateTime={post.publishedAt}>
                     {formatPublishedDate(post.publishedAt)}
                   </time>

@@ -79,7 +79,7 @@ export function CaseStudiesSection({ id, data }: CaseStudiesSectionProps) {
             {heading}
           </h2>
           {subheading ? (
-            <p className="mt-4 text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+            <p className="mt-4 text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
               {subheading}
             </p>
           ) : null}
@@ -178,7 +178,7 @@ export function CaseStudiesSection({ id, data }: CaseStudiesSectionProps) {
                   ) : null}
 
                   {(item.category || item.service) && (
-                    <p className="mt-1 text-sm font-normal text-text-secondary">
+                    <p className="mt-1 text-sm font-semibold leading-snug text-text-secondary">
                       {[item.category, item.service]
                         .filter(Boolean)
                         .join(" · ")}
@@ -186,7 +186,7 @@ export function CaseStudiesSection({ id, data }: CaseStudiesSectionProps) {
                   )}
 
                   {item.description ? (
-                    <p className="mt-3 line-clamp-2 flex-1 text-sm font-normal leading-relaxed text-text-secondary">
+                    <p className="mt-3 line-clamp-2 flex-1 text-[0.9375rem] font-medium leading-relaxed text-text-primary/80 sm:text-base">
                       {item.description}
                     </p>
                   ) : null}

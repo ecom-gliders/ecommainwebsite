@@ -28,7 +28,7 @@ export function ServicesIndexAudience({ audience }: ServicesIndexAudienceProps) 
               {item.points.map((point) => (
                 <li
                   key={point}
-                  className="flex gap-3 text-body text-text-secondary"
+                  className="flex gap-3 text-body font-medium text-text-secondary"
                 >
                   <span
                     className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-success"

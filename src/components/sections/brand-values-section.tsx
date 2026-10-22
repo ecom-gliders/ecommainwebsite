@@ -59,7 +59,7 @@ export function BrandValuesSection({ id, data }: BrandValuesSectionProps) {
             {heading}
           </h2>
           {subheading ? (
-            <p className="mt-4 max-w-md text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+            <p className="mt-4 max-w-md text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
               {subheading}
             </p>
           ) : null}
@@ -103,7 +103,7 @@ export function BrandValuesSection({ id, data }: BrandValuesSectionProps) {
                   {item.description ? (
                     <p
                       className={cn(
-                        "mt-2.5 text-sm font-normal leading-relaxed",
+                        "mt-2.5 text-sm font-medium leading-relaxed",
                         punch ? "text-primary/80" : "text-text-secondary",
                       )}
                     >

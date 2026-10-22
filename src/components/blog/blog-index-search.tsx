@@ -205,7 +205,7 @@ export function BlogIndexSearch({
               </li>
             </ul>
           ) : (
-            <p className="px-4 py-3 text-small text-text-secondary">
+            <p className="px-4 py-3 text-small font-medium text-text-secondary">
               No matching articles. Press Search to look across the full library.
             </p>
           )}
@@ -213,7 +213,7 @@ export function BlogIndexSearch({
       ) : null}
 
       {query ? (
-        <p className="mt-2 text-center text-small text-text-secondary sm:text-left">
+        <p className="mt-2 text-center text-small font-medium text-text-secondary sm:text-left">
           <Link
             href="/blog/"
             className="font-semibold text-primary underline decoration-accent decoration-2 underline-offset-4 hover:text-link-hover"

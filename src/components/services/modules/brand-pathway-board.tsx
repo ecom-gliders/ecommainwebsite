@@ -113,7 +113,7 @@ export function BrandPathwayBoard({
               <h3 className="mt-2 text-body font-semibold text-primary">
                 {stage.label}
               </h3>
-              <p className="mt-1.5 text-small text-text-secondary">
+              <p className="mt-1.5 text-small font-medium text-text-secondary">
                 {stage.detail}
               </p>
             </li>
@@ -176,7 +176,7 @@ export function BrandPathwayBoard({
                     : "Next"}
               </p>
               <h3 className="mt-2 text-h4 text-primary">{stage.label}</h3>
-              <p className="mt-2 text-small text-text-secondary">{stage.detail}</p>
+              <p className="mt-2 text-small font-medium text-text-secondary">{stage.detail}</p>
             </li>
           ))}
         </ol>

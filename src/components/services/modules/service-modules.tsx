@@ -108,7 +108,7 @@ export function ServiceModules({
                           {row.values.map((value, valueIndex) => (
                             <td
                               key={`${row.label}-${valueIndex}`}
-                              className="py-3 pr-4 text-small text-text-secondary last:pr-0"
+                              className="py-3 pr-4 text-small font-medium text-text-secondary last:pr-0"
                             >
                               {value}
                             </td>
@@ -282,7 +282,7 @@ export function ServiceModules({
                         {group.items.map((item) => (
                           <li
                             key={item}
-                            className="flex gap-2 text-body text-text-secondary"
+                            className="flex gap-2 text-body font-medium text-text-secondary"
                           >
                             <span
                               aria-hidden="true"

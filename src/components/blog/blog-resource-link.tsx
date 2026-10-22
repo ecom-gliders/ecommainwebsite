@@ -40,7 +40,7 @@ export function BlogResourceLink({
       </p>
       <p className="mt-1 text-h4 text-text-primary">{title}</p>
       {description ? (
-        <p className="mt-2 text-small text-text-secondary">{description}</p>
+        <p className="mt-2 text-small font-medium text-text-secondary">{description}</p>
       ) : null}
       {isInternal(href) ? (
         <Link href={href} className={className}>

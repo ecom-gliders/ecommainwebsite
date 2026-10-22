@@ -55,7 +55,7 @@ export function ServiceRelatedArticles({ posts }: ServiceRelatedArticlesProps) {
               <article className="flex flex-1 flex-col p-5 sm:p-6">
                 <time
                   dateTime={post.publishedAt}
-                  className="text-small text-text-secondary"
+                  className="text-small font-medium text-text-secondary"
                 >
                   {formatPublishedDate(post.publishedAt)}
                 </time>

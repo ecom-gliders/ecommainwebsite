@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-22T01:17:15.506Z",
+  "offset": 0,
+  "limit": 10,
+  "totalFiles": 328,
+  "batch": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "promoHeadingLoose"
+      ],
+      "linkCount": 5,
+      "internalLinks": 2,
+      "externalLinks": 3
+    },
+    {
+      "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+      "flags": [],
+      "linkCount": 15,
+      "internalLinks": 7,
+      "externalLinks": 8
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [],
+      "linkCount": 3,
+      "internalLinks": 1,
+      "externalLinks": 2
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "flags": [],
+      "linkCount": 4,
+      "internalLinks": 3,
+      "externalLinks": 1
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [],
+      "linkCount": 6,
+      "internalLinks": 4,
+      "externalLinks": 2
+    },
+    {
+      "slug": "amazon-a10-algorithm-2026",
+      "flags": [],
+      "linkCount": 3,
+      "internalLinks": 2,
+      "externalLinks": 1
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [],
+      "linkCount": 4,
+      "internalLinks": 1,
+      "externalLinks": 3
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [],
+      "linkCount": 4,
+      "internalLinks": 1,
+      "externalLinks": 3
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [],
+      "linkCount": 3,
+      "internalLinks": 1,
+      "externalLinks": 2
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [],
+      "linkCount": 3,
+      "internalLinks": 0,
+      "externalLinks": 3
+    }
+  ]
+}

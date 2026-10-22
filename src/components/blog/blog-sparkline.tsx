@@ -67,7 +67,7 @@ export function BlogSparkline({ title, series }: BlogSparklineProps) {
                   strokeLinecap="round"
                 />
               </svg>
-              <span className="w-12 shrink-0 text-right text-small text-text-secondary">
+              <span className="w-12 shrink-0 text-right text-small font-medium text-text-secondary">
                 {last}
               </span>
             </li>

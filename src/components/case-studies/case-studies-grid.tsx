@@ -60,7 +60,7 @@ export function CaseStudiesGrid({
       </ul>
 
       {filteredStudies.length === 0 ? (
-        <p className="mt-10 text-body text-text-secondary">
+        <p className="mt-10 text-body font-medium text-text-secondary">
           No case studies match this filter. Select another service category.
         </p>
       ) : null}

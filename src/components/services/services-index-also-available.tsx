@@ -32,7 +32,7 @@ export function ServicesIndexAlsoAvailable({
               <span className="text-body font-semibold text-primary">
                 {item.title}
               </span>
-              <span className="mt-2 text-small text-text-secondary">
+              <span className="mt-2 text-small font-medium text-text-secondary">
                 {item.description}
               </span>
             </Link>

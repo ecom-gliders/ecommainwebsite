@@ -2,7 +2,14 @@
 
 Blog detail editorial shell + config-driven block registry shipped. DNS cutover still pending Hostinger DNS.
 
-## Latest (2026-10-22) — Canonical media locked + deployed
+## Latest (2026-10-23) — Secondary copy thickened sitewide
+
+- Case cards + ~60 components: `font-normal` secondary → `font-medium`
+- SectionHeading / CardDescription default medium
+- textSecondary darkened `#4F4F4A` → `#3F3F3A`
+- Prior: global body 18/500 scale (AMZ Dudes-like)
+
+## Prior (2026-10-22) — Canonical media locked + deployed
 
 - Canonical: `blog-blocks.json#canonical` + `design-system.json#blogEditorial`
 - Charts: `chart-cards` = column bars + notes; figures = ink frame; video = YT/Vimeo embed

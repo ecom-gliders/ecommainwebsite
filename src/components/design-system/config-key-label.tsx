@@ -11,7 +11,7 @@ export function ConfigKeyLabel({ configKey, usedOn }: ConfigKeyLabelProps) {
         <span className="font-semibold text-text-primary">{configKey}</span>
       </p>
       {usedOn && usedOn.length > 0 && (
-        <p className="text-small text-text-secondary">
+        <p className="text-small font-medium text-text-secondary">
           Used on: {usedOn.join(", ")}
         </p>
       )}

@@ -16,7 +16,7 @@ export function BlogCaseSnapshot({
           Case snapshot
         </p>
         <p className="mt-1 text-h4 text-text-primary">{niche}</p>
-        <p className="mt-2 text-small text-text-secondary">{detail}</p>
+        <p className="mt-2 text-small font-medium text-text-secondary">{detail}</p>
       </div>
       <div className="flex items-center justify-center border-2 border-primary bg-accent px-5 py-3 text-center">
         <p className="text-xl font-black tracking-tight text-primary">{metric}</p>

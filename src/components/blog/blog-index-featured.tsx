@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { BlogPostFrontmatter } from "@/domain/content/schemas";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { formatPublishedDate } from "@/components/sections/format-date";
 import { SectionShell } from "@/components/sections/section-shell";
 
@@ -44,21 +44,21 @@ export function BlogIndexFeatured({ lead, secondary }: BlogIndexFeaturedProps) {
             href={`/${lead.slug}/`}
             className="flex h-full flex-col focus-visible:outline-none"
           >
-            <div className="relative aspect-[16/10] overflow-hidden border border-border bg-surface-muted lg:aspect-auto lg:min-h-[280px] lg:flex-1">
-              {lead.featuredImage ? (
-                <Image
-                  src={lead.featuredImage}
-                  alt=""
-                  fill
-                  priority
-                  className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                  sizes="(max-width: 1024px) 100vw, 55vw"
-                  quality={85}
-                />
-              ) : null}
-            </div>
+            {lead.featuredImage ? (
+              <BlogFeaturedImage
+                src={lead.featuredImage}
+                alt=""
+                priority
+                className="aspect-[16/10] w-full border border-border lg:aspect-auto lg:min-h-[280px] lg:flex-1"
+                imageClassName="transition-transform duration-300 group-hover:scale-[1.02]"
+                sizes="(max-width: 1024px) 100vw, 55vw"
+                quality={85}
+              />
+            ) : (
+              <div className="relative aspect-[16/10] w-full overflow-hidden border border-border bg-surface-muted lg:aspect-auto lg:min-h-[280px] lg:flex-1" />
+            )}
             <div className="mt-5">
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-small text-text-secondary">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-small font-medium text-text-secondary">
                 {leadCategory ? (
                   <span className="font-semibold uppercase tracking-wide text-primary">
                     {leadCategory}
@@ -75,7 +75,7 @@ export function BlogIndexFeatured({ lead, secondary }: BlogIndexFeaturedProps) {
                 {lead.title}
               </h3>
               {lead.excerpt ? (
-                <p className="mt-3 line-clamp-2 text-body text-text-secondary">
+                <p className="mt-3 line-clamp-2 text-body font-medium text-text-secondary">
                   {lead.excerpt}
                 </p>
               ) : null}
@@ -96,18 +96,18 @@ export function BlogIndexFeatured({ lead, secondary }: BlogIndexFeaturedProps) {
                     href={`/${post.slug}/`}
                     className="group grid w-full grid-cols-[96px_minmax(0,1fr)] items-center gap-3 px-3 py-3 sm:grid-cols-[112px_minmax(0,1fr)] sm:gap-4 sm:px-4 sm:py-3.5"
                   >
-                    <div className="relative aspect-[4/3] overflow-hidden border border-border bg-surface-muted">
-                      {post.featuredImage ? (
-                        <Image
-                          src={post.featuredImage}
-                          alt=""
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                          sizes="112px"
-                          quality={75}
-                        />
-                      ) : null}
-                    </div>
+                    {post.featuredImage ? (
+                      <BlogFeaturedImage
+                        src={post.featuredImage}
+                        alt=""
+                        className="aspect-[4/3] w-full border border-border"
+                        imageClassName="transition-transform duration-300 group-hover:scale-[1.02]"
+                        sizes="112px"
+                        quality={75}
+                      />
+                    ) : (
+                      <div className="relative aspect-[4/3] w-full overflow-hidden border border-border bg-surface-muted" />
+                    )}
                     <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-text-secondary">
                         {category ? (

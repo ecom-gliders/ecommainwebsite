@@ -150,7 +150,7 @@ export function CaseStudyDetailTemplate({
             <SectionHeading heading={study.background.heading} headingId="case-study-background-heading" />
             <div className="space-y-4">
               {study.background.paragraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 40)} className="text-body text-text-secondary">
+                <p key={paragraph.slice(0, 40)} className="text-body font-medium text-text-secondary">
                   {paragraph}
                 </p>
               ))}
@@ -165,7 +165,7 @@ export function CaseStudyDetailTemplate({
             <SectionHeading heading={study.challenge.heading} headingId="case-study-challenge-heading" />
             <div className="mt-6 space-y-4">
               {study.challenge.paragraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 40)} className="text-body text-text-secondary">
+                <p key={paragraph.slice(0, 40)} className="text-body font-medium text-text-secondary">
                   {paragraph}
                 </p>
               ))}
@@ -207,7 +207,7 @@ export function CaseStudyDetailTemplate({
                 <h2 id="case-study-visual-heading" className="text-h3">
                   Engagement snapshot
                 </h2>
-                <p className="mt-3 text-body text-text-secondary">
+                <p className="mt-3 text-body font-medium text-text-secondary">
                   {displayName} · {study.category}
                   {study.market ? ` · ${study.market}` : null}
                 </p>
@@ -217,7 +217,7 @@ export function CaseStudyDetailTemplate({
                       key={`snap-${metric.label}`}
                       className="flex items-baseline justify-between gap-4 border-b border-primary/15 pb-3"
                     >
-                      <span className="text-small text-text-secondary">{metric.label}</span>
+                      <span className="text-small font-medium text-text-secondary">{metric.label}</span>
                       <span className="text-right text-h4 text-primary">{metric.value}</span>
                     </li>
                   ))}
@@ -234,7 +234,7 @@ export function CaseStudyDetailTemplate({
             <p id="case-study-quote-heading" className="text-h3 text-text-primary">
               &ldquo;{study.quote.text}&rdquo;
             </p>
-            <footer className="mt-6 flex items-center gap-3 text-body text-text-secondary">
+            <footer className="mt-6 flex items-center gap-3 text-body font-medium text-text-secondary">
               {study.featuredImage ? (
                 <span className="relative h-10 w-10 overflow-hidden rounded-[5px] border-2 border-primary bg-background">
                   <Image

@@ -33,7 +33,7 @@ export default async function ContactPage() {
             <h1 id="contact-hero-heading" className="text-h1">
               {page.hero.title}
             </h1>
-            <p className="mt-4 text-body text-text-secondary">{page.hero.subtitle}</p>
+            <p className="mt-4 text-body font-medium text-text-secondary">{page.hero.subtitle}</p>
           </div>
         </SectionShell>
 
