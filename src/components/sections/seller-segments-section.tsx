@@ -209,7 +209,7 @@ export function SellerSegmentsSection({ id, data }: SellerSegmentsSectionProps) 
                   </p>
                   <h3 className="mt-1 text-h4 text-primary">{segment.title}</h3>
 
-                  <p className="mt-3 flex-1 text-small leading-relaxed text-text-secondary sm:text-body">
+                  <p className="mt-3 flex-1 text-small font-medium leading-relaxed text-text-secondary sm:text-body">
                     {segment.description}
                   </p>
 

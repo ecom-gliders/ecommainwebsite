@@ -121,7 +121,7 @@ export function TypographyPairSwitcher() {
         })}
       </div>
 
-      <p className="text-small text-text-secondary">
+      <p className="text-small font-medium text-text-secondary">
         Selecting a pair updates the samples below and the rest of this page.
         Production stays on IBM Plex until you approve a change.
       </p>

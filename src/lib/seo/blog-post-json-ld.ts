@@ -37,7 +37,32 @@ export function buildBlogPostJsonLd({
     url: pageUrl,
   };
 
-  const graph: Record<string, unknown>[] = [blogPosting];
+  const graph: Record<string, unknown>[] = [
+    blogPosting,
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: getSiteUrl(),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: absoluteUrl("/blog/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: post.title,
+          item: pageUrl,
+        },
+      ],
+    },
+  ];
 
   if (faqItems.length > 0) {
     graph.push({

@@ -1,0 +1,3797 @@
+{
+  "generatedAt": "2026-10-22T00:11:37.505Z",
+  "postCount": 328,
+  "breakage": {
+    "withStyle": 167,
+    "withIframe": 223,
+    "withElementorWidget": 328,
+    "withShareChrome": 212,
+    "headingCounts": {
+      "h1": 128,
+      "h2": 3188,
+      "h3": 671,
+      "h4": 2242,
+      "h5": 1501,
+      "h6": 359
+    },
+    "letterSpacedHeading": 1
+  },
+  "topWidgetTypes": [
+    {
+      "type": "text-editor.default",
+      "count": 2830
+    },
+    {
+      "type": "heading.default",
+      "count": 2103
+    },
+    {
+      "type": "divider.default",
+      "count": 840
+    },
+    {
+      "type": "image.default",
+      "count": 462
+    },
+    {
+      "type": "html.default",
+      "count": 433
+    },
+    {
+      "type": "share-buttons.default",
+      "count": 342
+    },
+    {
+      "type": "button.default",
+      "count": 213
+    },
+    {
+      "type": "wpr-grid.default",
+      "count": 210
+    },
+    {
+      "type": "wpr-promo-box.default",
+      "count": 210
+    },
+    {
+      "type": "wpr-taxonomy-list.default",
+      "count": 210
+    },
+    {
+      "type": "post-info.default",
+      "count": 170
+    },
+    {
+      "type": "wpr-post-info.default",
+      "count": 170
+    },
+    {
+      "type": "elementskit-blog-posts.default",
+      "count": 170
+    },
+    {
+      "type": "wpforms.default",
+      "count": 115
+    },
+    {
+      "type": "eae-timeline.skin3",
+      "count": 115
+    },
+    {
+      "type": "elementskit-faq.default",
+      "count": 92
+    },
+    {
+      "type": "tp-adv-text-block.default",
+      "count": 60
+    },
+    {
+      "type": "tp-table.default",
+      "count": 3
+    },
+    {
+      "type": "shortcode.default",
+      "count": 1
+    },
+    {
+      "type": "eae-comparisontable.default",
+      "count": 1
+    },
+    {
+      "type": "htmega-calendly-addons.default",
+      "count": 1
+    }
+  ],
+  "restorePriority": [
+    {
+      "slug": "fba-inventory-management-stockouts-to-stability",
+      "renderedLen": 82446,
+      "extractedLen": 73820,
+      "extractedTextLen": 64860,
+      "mdxBodyLen": 65353,
+      "ratioExtracted": 0.895,
+      "ratioMdxVsExtractedText": 1.008,
+      "hasMdx": true
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "renderedLen": 78253,
+      "extractedLen": 68023,
+      "extractedTextLen": 57962,
+      "mdxBodyLen": 58673,
+      "ratioExtracted": 0.869,
+      "ratioMdxVsExtractedText": 1.012,
+      "hasMdx": true
+    },
+    {
+      "slug": "scaling-seo-like-a-business-2026-framework",
+      "renderedLen": 61956,
+      "extractedLen": 5903,
+      "extractedTextLen": 4674,
+      "mdxBodyLen": 4881,
+      "ratioExtracted": 0.095,
+      "ratioMdxVsExtractedText": 1.044,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "renderedLen": 61217,
+      "extractedLen": 6130,
+      "extractedTextLen": 5552,
+      "mdxBodyLen": 5802,
+      "ratioExtracted": 0.1,
+      "ratioMdxVsExtractedText": 1.045,
+      "hasMdx": true
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "renderedLen": 86876,
+      "extractedLen": 23519,
+      "extractedTextLen": 19667,
+      "mdxBodyLen": 20620,
+      "ratioExtracted": 0.271,
+      "ratioMdxVsExtractedText": 1.048,
+      "hasMdx": true
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "renderedLen": 83117,
+      "extractedLen": 20457,
+      "extractedTextLen": 15771,
+      "mdxBodyLen": 16646,
+      "ratioExtracted": 0.246,
+      "ratioMdxVsExtractedText": 1.055,
+      "hasMdx": true
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "renderedLen": 76349,
+      "extractedLen": 15090,
+      "extractedTextLen": 8326,
+      "mdxBodyLen": 8803,
+      "ratioExtracted": 0.198,
+      "ratioMdxVsExtractedText": 1.057,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-people-are-leaving-amazon",
+      "renderedLen": 82000,
+      "extractedLen": 20119,
+      "extractedTextLen": 14984,
+      "mdxBodyLen": 15839,
+      "ratioExtracted": 0.245,
+      "ratioMdxVsExtractedText": 1.057,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "renderedLen": 81689,
+      "extractedLen": 18775,
+      "extractedTextLen": 12677,
+      "mdxBodyLen": 13536,
+      "ratioExtracted": 0.23,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "renderedLen": 84228,
+      "extractedLen": 21698,
+      "extractedTextLen": 14070,
+      "mdxBodyLen": 15027,
+      "ratioExtracted": 0.258,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sales-after-boycott-analysis",
+      "renderedLen": 80910,
+      "extractedLen": 19406,
+      "extractedTextLen": 14195,
+      "mdxBodyLen": 15167,
+      "ratioExtracted": 0.24,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "overlooked-amazon-seo-factors-affecting-product-rankings",
+      "renderedLen": 64557,
+      "extractedLen": 9456,
+      "extractedTextLen": 6736,
+      "mdxBodyLen": 7194,
+      "ratioExtracted": 0.146,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "renderedLen": 62141,
+      "extractedLen": 6416,
+      "extractedTextLen": 4910,
+      "mdxBodyLen": 5285,
+      "ratioExtracted": 0.103,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically-2",
+      "renderedLen": 77919,
+      "extractedLen": 15490,
+      "extractedTextLen": 9941,
+      "mdxBodyLen": 10697,
+      "ratioExtracted": 0.199,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "never-run-out-of-stock-amazon-fba-inventory-management",
+      "renderedLen": 79980,
+      "extractedLen": 17062,
+      "extractedTextLen": 11885,
+      "mdxBodyLen": 12786,
+      "ratioExtracted": 0.213,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "renderedLen": 91010,
+      "extractedLen": 23304,
+      "extractedTextLen": 16058,
+      "mdxBodyLen": 17274,
+      "ratioExtracted": 0.256,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+      "renderedLen": 68302,
+      "extractedLen": 12208,
+      "extractedTextLen": 7603,
+      "mdxBodyLen": 8189,
+      "ratioExtracted": 0.179,
+      "ratioMdxVsExtractedText": 1.077,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "renderedLen": 80194,
+      "extractedLen": 17466,
+      "extractedTextLen": 11392,
+      "mdxBodyLen": 12286,
+      "ratioExtracted": 0.218,
+      "ratioMdxVsExtractedText": 1.078,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sellers-overpaying-for-ppc-2026",
+      "renderedLen": 67244,
+      "extractedLen": 10159,
+      "extractedTextLen": 7650,
+      "mdxBodyLen": 8267,
+      "ratioExtracted": 0.151,
+      "ratioMdxVsExtractedText": 1.081,
+      "hasMdx": true
+    },
+    {
+      "slug": "business-of-seo-2026-predictable-growth",
+      "renderedLen": 60705,
+      "extractedLen": 5604,
+      "extractedTextLen": 4030,
+      "mdxBodyLen": 4358,
+      "ratioExtracted": 0.092,
+      "ratioMdxVsExtractedText": 1.081,
+      "hasMdx": true
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "renderedLen": 81347,
+      "extractedLen": 18305,
+      "extractedTextLen": 11115,
+      "mdxBodyLen": 12040,
+      "ratioExtracted": 0.225,
+      "ratioMdxVsExtractedText": 1.083,
+      "hasMdx": true
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "renderedLen": 80354,
+      "extractedLen": 17895,
+      "extractedTextLen": 10087,
+      "mdxBodyLen": 10920,
+      "ratioExtracted": 0.223,
+      "ratioMdxVsExtractedText": 1.083,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "renderedLen": 65515,
+      "extractedLen": 8764,
+      "extractedTextLen": 5194,
+      "mdxBodyLen": 5631,
+      "ratioExtracted": 0.134,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "renderedLen": 64745,
+      "extractedLen": 9886,
+      "extractedTextLen": 8250,
+      "mdxBodyLen": 8946,
+      "ratioExtracted": 0.153,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "renderedLen": 70360,
+      "extractedLen": 13316,
+      "extractedTextLen": 8303,
+      "mdxBodyLen": 9003,
+      "ratioExtracted": 0.189,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "renderedLen": 61776,
+      "extractedLen": 5079,
+      "extractedTextLen": 4213,
+      "mdxBodyLen": 4572,
+      "ratioExtracted": 0.082,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "architecting-amazon-success-2026-strategy-first-tools",
+      "renderedLen": 61936,
+      "extractedLen": 6022,
+      "extractedTextLen": 4771,
+      "mdxBodyLen": 5178,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "lower-amazon-acos-without-losing-sales",
+      "renderedLen": 63591,
+      "extractedLen": 8180,
+      "extractedTextLen": 6719,
+      "mdxBodyLen": 7289,
+      "ratioExtracted": 0.129,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "seo-in-the-age-of-ai-search-2026",
+      "renderedLen": 63120,
+      "extractedLen": 7398,
+      "extractedTextLen": 5883,
+      "mdxBodyLen": 6386,
+      "ratioExtracted": 0.117,
+      "ratioMdxVsExtractedText": 1.086,
+      "hasMdx": true
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "renderedLen": 62892,
+      "extractedLen": 6510,
+      "extractedTextLen": 4906,
+      "mdxBodyLen": 5333,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "decision-driven-seo-winning-search-visibility",
+      "renderedLen": 62033,
+      "extractedLen": 5997,
+      "extractedTextLen": 4682,
+      "mdxBodyLen": 5090,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "renderedLen": 82385,
+      "extractedLen": 20143,
+      "extractedTextLen": 12522,
+      "mdxBodyLen": 13613,
+      "ratioExtracted": 0.244,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "renderedLen": 62379,
+      "extractedLen": 7275,
+      "extractedTextLen": 4759,
+      "mdxBodyLen": 5172,
+      "ratioExtracted": 0.117,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "renderedLen": 63024,
+      "extractedLen": 6396,
+      "extractedTextLen": 4990,
+      "mdxBodyLen": 5424,
+      "ratioExtracted": 0.101,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-campaign-structure",
+      "renderedLen": 61691,
+      "extractedLen": 6757,
+      "extractedTextLen": 5590,
+      "mdxBodyLen": 6084,
+      "ratioExtracted": 0.11,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seo-2026-keywords-no-longer-matter",
+      "renderedLen": 60891,
+      "extractedLen": 4829,
+      "extractedTextLen": 3861,
+      "mdxBodyLen": 4201,
+      "ratioExtracted": 0.079,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seo-2026-ranking-factors",
+      "renderedLen": 65696,
+      "extractedLen": 10893,
+      "extractedTextLen": 9465,
+      "mdxBodyLen": 10299,
+      "ratioExtracted": 0.166,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "renderedLen": 64955,
+      "extractedLen": 5945,
+      "extractedTextLen": 4426,
+      "mdxBodyLen": 4817,
+      "ratioExtracted": 0.092,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "renderedLen": 80219,
+      "extractedLen": 15726,
+      "extractedTextLen": 11483,
+      "mdxBodyLen": 12496,
+      "ratioExtracted": 0.196,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "renderedLen": 61648,
+      "extractedLen": 6519,
+      "extractedTextLen": 4645,
+      "mdxBodyLen": 5057,
+      "ratioExtracted": 0.106,
+      "ratioMdxVsExtractedText": 1.089,
+      "hasMdx": true
+    }
+  ],
+  "summary": {
+    "matched_ok": 301,
+    "matched_damaged": 27,
+    "wp_only": 0,
+    "mdx_only": 0,
+    "url_mismatch": 0,
+    "seo_gap": 0
+  },
+  "rows": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "renderedLen": 57153,
+      "extractedLen": 14896,
+      "extractedTextLen": 11421,
+      "mdxBodyLen": 12501,
+      "ratioExtracted": 0.261,
+      "ratioMdxVsExtractedText": 1.095,
+      "hasMdx": true
+    },
+    {
+      "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+      "renderedLen": 112311,
+      "extractedLen": 19207,
+      "extractedTextLen": 7928,
+      "mdxBodyLen": 9122,
+      "ratioExtracted": 0.171,
+      "ratioMdxVsExtractedText": 1.151,
+      "hasMdx": true
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "renderedLen": 62892,
+      "extractedLen": 6510,
+      "extractedTextLen": 4906,
+      "mdxBodyLen": 5333,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "renderedLen": 64262,
+      "extractedLen": 6985,
+      "extractedTextLen": 3328,
+      "mdxBodyLen": 3879,
+      "ratioExtracted": 0.109,
+      "ratioMdxVsExtractedText": 1.166,
+      "hasMdx": true
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "renderedLen": 74158,
+      "extractedLen": 16408,
+      "extractedTextLen": 7393,
+      "mdxBodyLen": 8575,
+      "ratioExtracted": 0.221,
+      "ratioMdxVsExtractedText": 1.16,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon_a_plus_content_seo_2026",
+      "renderedLen": 60101,
+      "extractedLen": 5296,
+      "extractedTextLen": 3959,
+      "mdxBodyLen": 4737,
+      "ratioExtracted": 0.088,
+      "ratioMdxVsExtractedText": 1.197,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-a10-algorithm-2026",
+      "renderedLen": 57286,
+      "extractedLen": 2568,
+      "extractedTextLen": 1598,
+      "mdxBodyLen": 1997,
+      "ratioExtracted": 0.045,
+      "ratioMdxVsExtractedText": 1.25,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "renderedLen": 64413,
+      "extractedLen": 9319,
+      "extractedTextLen": 5488,
+      "mdxBodyLen": 6168,
+      "ratioExtracted": 0.145,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "renderedLen": 65926,
+      "extractedLen": 10847,
+      "extractedTextLen": 5677,
+      "mdxBodyLen": 6557,
+      "ratioExtracted": 0.165,
+      "ratioMdxVsExtractedText": 1.155,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management",
+      "renderedLen": 87077,
+      "extractedLen": 39112,
+      "extractedTextLen": 14199,
+      "mdxBodyLen": 17419,
+      "ratioExtracted": 0.449,
+      "ratioMdxVsExtractedText": 1.227,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "renderedLen": 65903,
+      "extractedLen": 10181,
+      "extractedTextLen": 5808,
+      "mdxBodyLen": 6507,
+      "ratioExtracted": 0.154,
+      "ratioMdxVsExtractedText": 1.12,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "renderedLen": 62775,
+      "extractedLen": 8014,
+      "extractedTextLen": 4942,
+      "mdxBodyLen": 5473,
+      "ratioExtracted": 0.128,
+      "ratioMdxVsExtractedText": 1.107,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "renderedLen": 65056,
+      "extractedLen": 10292,
+      "extractedTextLen": 4734,
+      "mdxBodyLen": 5576,
+      "ratioExtracted": 0.158,
+      "ratioMdxVsExtractedText": 1.178,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "renderedLen": 63206,
+      "extractedLen": 7802,
+      "extractedTextLen": 5639,
+      "mdxBodyLen": 6146,
+      "ratioExtracted": 0.123,
+      "ratioMdxVsExtractedText": 1.09,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "renderedLen": 62595,
+      "extractedLen": 7519,
+      "extractedTextLen": 5142,
+      "mdxBodyLen": 5659,
+      "ratioExtracted": 0.12,
+      "ratioMdxVsExtractedText": 1.101,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "renderedLen": 64058,
+      "extractedLen": 9295,
+      "extractedTextLen": 4178,
+      "mdxBodyLen": 5011,
+      "ratioExtracted": 0.145,
+      "ratioMdxVsExtractedText": 1.199,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "renderedLen": 62188,
+      "extractedLen": 5483,
+      "extractedTextLen": 3956,
+      "mdxBodyLen": 4525,
+      "ratioExtracted": 0.088,
+      "ratioMdxVsExtractedText": 1.144,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "renderedLen": 62356,
+      "extractedLen": 7594,
+      "extractedTextLen": 4425,
+      "mdxBodyLen": 5038,
+      "ratioExtracted": 0.122,
+      "ratioMdxVsExtractedText": 1.139,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "renderedLen": 67451,
+      "extractedLen": 12670,
+      "extractedTextLen": 5344,
+      "mdxBodyLen": 6614,
+      "ratioExtracted": 0.188,
+      "ratioMdxVsExtractedText": 1.238,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "renderedLen": 81689,
+      "extractedLen": 18775,
+      "extractedTextLen": 12677,
+      "mdxBodyLen": 13536,
+      "ratioExtracted": 0.23,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "renderedLen": 80194,
+      "extractedLen": 17466,
+      "extractedTextLen": 11392,
+      "mdxBodyLen": 12286,
+      "ratioExtracted": 0.218,
+      "ratioMdxVsExtractedText": 1.078,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "renderedLen": 83309,
+      "extractedLen": 20551,
+      "extractedTextLen": 15009,
+      "mdxBodyLen": 16440,
+      "ratioExtracted": 0.247,
+      "ratioMdxVsExtractedText": 1.095,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-boycott-losses-2026",
+      "renderedLen": 91993,
+      "extractedLen": 28385,
+      "extractedTextLen": 17660,
+      "mdxBodyLen": 20325,
+      "ratioExtracted": 0.309,
+      "ratioMdxVsExtractedText": 1.151,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "renderedLen": 84228,
+      "extractedLen": 21698,
+      "extractedTextLen": 14070,
+      "mdxBodyLen": 15027,
+      "ratioExtracted": 0.258,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-brand-growth-guide",
+      "renderedLen": 61484,
+      "extractedLen": 6044,
+      "extractedTextLen": 3489,
+      "mdxBodyLen": 3855,
+      "ratioExtracted": 0.098,
+      "ratioMdxVsExtractedText": 1.105,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "renderedLen": 65381,
+      "extractedLen": 21559,
+      "extractedTextLen": 7959,
+      "mdxBodyLen": 9586,
+      "ratioExtracted": 0.33,
+      "ratioMdxVsExtractedText": 1.204,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-compliance-documents-in-2025",
+      "renderedLen": 63681,
+      "extractedLen": 6989,
+      "extractedTextLen": 1732,
+      "mdxBodyLen": 2219,
+      "ratioExtracted": 0.11,
+      "ratioMdxVsExtractedText": 1.281,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-customer-image-playbook-2025",
+      "renderedLen": 54399,
+      "extractedLen": 12257,
+      "extractedTextLen": 5208,
+      "mdxBodyLen": 6208,
+      "ratioExtracted": 0.225,
+      "ratioMdxVsExtractedText": 1.192,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "renderedLen": 104605,
+      "extractedLen": 40531,
+      "extractedTextLen": 18507,
+      "mdxBodyLen": 21494,
+      "ratioExtracted": 0.387,
+      "ratioMdxVsExtractedText": 1.161,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-fba-growth-scaling-mistakes",
+      "renderedLen": 87251,
+      "extractedLen": 38415,
+      "extractedTextLen": 14876,
+      "mdxBodyLen": 18312,
+      "ratioExtracted": 0.44,
+      "ratioMdxVsExtractedText": 1.231,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "renderedLen": 83629,
+      "extractedLen": 22238,
+      "extractedTextLen": 15390,
+      "mdxBodyLen": 16802,
+      "ratioExtracted": 0.266,
+      "ratioMdxVsExtractedText": 1.092,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "renderedLen": 62153,
+      "extractedLen": 5778,
+      "extractedTextLen": 4574,
+      "mdxBodyLen": 5019,
+      "ratioExtracted": 0.093,
+      "ratioMdxVsExtractedText": 1.097,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-maximizes-sales-roi",
+      "renderedLen": 61346,
+      "extractedLen": 4647,
+      "extractedTextLen": 3262,
+      "mdxBodyLen": 3769,
+      "ratioExtracted": 0.076,
+      "ratioMdxVsExtractedText": 1.155,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "renderedLen": 61119,
+      "extractedLen": 5072,
+      "extractedTextLen": 3446,
+      "mdxBodyLen": 3837,
+      "ratioExtracted": 0.083,
+      "ratioMdxVsExtractedText": 1.113,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "renderedLen": 61205,
+      "extractedLen": 5153,
+      "extractedTextLen": 3717,
+      "mdxBodyLen": 4086,
+      "ratioExtracted": 0.084,
+      "ratioMdxVsExtractedText": 1.099,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "renderedLen": 61217,
+      "extractedLen": 6130,
+      "extractedTextLen": 5552,
+      "mdxBodyLen": 5802,
+      "ratioExtracted": 0.1,
+      "ratioMdxVsExtractedText": 1.045,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "renderedLen": 63617,
+      "extractedLen": 6906,
+      "extractedTextLen": 4217,
+      "mdxBodyLen": 4846,
+      "ratioExtracted": 0.109,
+      "ratioMdxVsExtractedText": 1.149,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-partial-management",
+      "renderedLen": 65907,
+      "extractedLen": 9193,
+      "extractedTextLen": 6691,
+      "mdxBodyLen": 7692,
+      "ratioExtracted": 0.139,
+      "ratioMdxVsExtractedText": 1.15,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "renderedLen": 62141,
+      "extractedLen": 6416,
+      "extractedTextLen": 4910,
+      "mdxBodyLen": 5285,
+      "ratioExtracted": 0.103,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-with-ppc-listing-brand-protection",
+      "renderedLen": 61799,
+      "extractedLen": 5363,
+      "extractedTextLen": 3646,
+      "mdxBodyLen": 4036,
+      "ratioExtracted": 0.087,
+      "ratioMdxVsExtractedText": 1.107,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-full-account-management-worth-it-2026",
+      "renderedLen": 60814,
+      "extractedLen": 4440,
+      "extractedTextLen": 3145,
+      "mdxBodyLen": 3737,
+      "ratioExtracted": 0.073,
+      "ratioMdxVsExtractedText": 1.188,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-growth-partner-vs-diy-ppc-2026",
+      "renderedLen": 67904,
+      "extractedLen": 9137,
+      "extractedTextLen": 3543,
+      "mdxBodyLen": 4082,
+      "ratioExtracted": 0.135,
+      "ratioMdxVsExtractedText": 1.152,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "renderedLen": 71414,
+      "extractedLen": 14645,
+      "extractedTextLen": 6041,
+      "mdxBodyLen": 6981,
+      "ratioExtracted": 0.205,
+      "ratioMdxVsExtractedText": 1.156,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "renderedLen": 83885,
+      "extractedLen": 21781,
+      "extractedTextLen": 11276,
+      "mdxBodyLen": 12526,
+      "ratioExtracted": 0.26,
+      "ratioMdxVsExtractedText": 1.111,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-inventory-forecasting",
+      "renderedLen": 88580,
+      "extractedLen": 26359,
+      "extractedTextLen": 17312,
+      "mdxBodyLen": 19640,
+      "ratioExtracted": 0.298,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-keyword-research-2026-guide",
+      "renderedLen": 58004,
+      "extractedLen": 2928,
+      "extractedTextLen": 2108,
+      "mdxBodyLen": 2480,
+      "ratioExtracted": 0.05,
+      "ratioMdxVsExtractedText": 1.176,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-listing-errors-fix-guide",
+      "renderedLen": 68864,
+      "extractedLen": 24852,
+      "extractedTextLen": 8307,
+      "mdxBodyLen": 10799,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.3,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "renderedLen": 64039,
+      "extractedLen": 6220,
+      "extractedTextLen": 4941,
+      "mdxBodyLen": 5507,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.115,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-listing-optimization-2026",
+      "renderedLen": 59149,
+      "extractedLen": 4055,
+      "extractedTextLen": 3184,
+      "mdxBodyLen": 3584,
+      "ratioExtracted": 0.069,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-negative-keywords-2026",
+      "renderedLen": 57979,
+      "extractedLen": 3220,
+      "extractedTextLen": 2223,
+      "mdxBodyLen": 2656,
+      "ratioExtracted": 0.056,
+      "ratioMdxVsExtractedText": 1.195,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "renderedLen": 65515,
+      "extractedLen": 8764,
+      "extractedTextLen": 5194,
+      "mdxBodyLen": 5631,
+      "ratioExtracted": 0.134,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "renderedLen": 64420,
+      "extractedLen": 9660,
+      "extractedTextLen": 4628,
+      "mdxBodyLen": 5437,
+      "ratioExtracted": 0.15,
+      "ratioMdxVsExtractedText": 1.175,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-advertising-guide",
+      "renderedLen": 62360,
+      "extractedLen": 20096,
+      "extractedTextLen": 6978,
+      "mdxBodyLen": 8786,
+      "ratioExtracted": 0.322,
+      "ratioMdxVsExtractedText": 1.259,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-campaign-beginners-guide",
+      "renderedLen": 82805,
+      "extractedLen": 35002,
+      "extractedTextLen": 11374,
+      "mdxBodyLen": 14620,
+      "ratioExtracted": 0.423,
+      "ratioMdxVsExtractedText": 1.285,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-campaign-management",
+      "renderedLen": 66692,
+      "extractedLen": 26360,
+      "extractedTextLen": 9459,
+      "mdxBodyLen": 11970,
+      "ratioExtracted": 0.395,
+      "ratioMdxVsExtractedText": 1.265,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-campaign-structure",
+      "renderedLen": 61691,
+      "extractedLen": 6757,
+      "extractedTextLen": 5590,
+      "mdxBodyLen": 6084,
+      "ratioExtracted": 0.11,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-campaign-types-explained",
+      "renderedLen": 68826,
+      "extractedLen": 25980,
+      "extractedTextLen": 8828,
+      "mdxBodyLen": 11244,
+      "ratioExtracted": 0.377,
+      "ratioMdxVsExtractedText": 1.274,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-comparison-sponsored-products-vs-sponsored-brands",
+      "renderedLen": 67127,
+      "extractedLen": 22735,
+      "extractedTextLen": 6594,
+      "mdxBodyLen": 8998,
+      "ratioExtracted": 0.339,
+      "ratioMdxVsExtractedText": 1.365,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-conversion-cost-calculator",
+      "renderedLen": 7090,
+      "extractedLen": 5477,
+      "extractedTextLen": 3480,
+      "mdxBodyLen": 3998,
+      "ratioExtracted": 0.772,
+      "ratioMdxVsExtractedText": 1.149,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-draining-your-wallet",
+      "renderedLen": 59351,
+      "extractedLen": 4233,
+      "extractedTextLen": 1971,
+      "mdxBodyLen": 2282,
+      "ratioExtracted": 0.071,
+      "ratioMdxVsExtractedText": 1.158,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "renderedLen": 64745,
+      "extractedLen": 9886,
+      "extractedTextLen": 8250,
+      "mdxBodyLen": 8946,
+      "ratioExtracted": 0.153,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+      "renderedLen": 68302,
+      "extractedLen": 12208,
+      "extractedTextLen": 7603,
+      "mdxBodyLen": 8189,
+      "ratioExtracted": 0.179,
+      "ratioMdxVsExtractedText": 1.077,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-framework-launch-to-scale",
+      "renderedLen": 86559,
+      "extractedLen": 24289,
+      "extractedTextLen": 11253,
+      "mdxBodyLen": 12802,
+      "ratioExtracted": 0.281,
+      "ratioMdxVsExtractedText": 1.138,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-hack-slash-acos",
+      "renderedLen": 69548,
+      "extractedLen": 11774,
+      "extractedTextLen": 7707,
+      "mdxBodyLen": 8755,
+      "ratioExtracted": 0.169,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-hacks",
+      "renderedLen": 69850,
+      "extractedLen": 25603,
+      "extractedTextLen": 10244,
+      "mdxBodyLen": 13157,
+      "ratioExtracted": 0.367,
+      "ratioMdxVsExtractedText": 1.284,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-hacks-that-actually-increase-profit",
+      "renderedLen": 61536,
+      "extractedLen": 6435,
+      "extractedTextLen": 3403,
+      "mdxBodyLen": 3793,
+      "ratioExtracted": 0.105,
+      "ratioMdxVsExtractedText": 1.115,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alabama-al-a-path-to-maximizing-your-sales",
+      "renderedLen": 47703,
+      "extractedLen": 15473,
+      "extractedTextLen": 7600,
+      "mdxBodyLen": 8863,
+      "ratioExtracted": 0.324,
+      "ratioMdxVsExtractedText": 1.166,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales",
+      "renderedLen": 46680,
+      "extractedLen": 14483,
+      "extractedTextLen": 7711,
+      "mdxBodyLen": 8908,
+      "ratioExtracted": 0.31,
+      "ratioMdxVsExtractedText": 1.155,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales-2",
+      "renderedLen": 46632,
+      "extractedLen": 14424,
+      "extractedTextLen": 7659,
+      "mdxBodyLen": 8905,
+      "ratioExtracted": 0.309,
+      "ratioMdxVsExtractedText": 1.163,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-american-samoa-as-path-to-maximizing-your-sales",
+      "renderedLen": 46846,
+      "extractedLen": 14645,
+      "extractedTextLen": 7819,
+      "mdxBodyLen": 9009,
+      "ratioExtracted": 0.313,
+      "ratioMdxVsExtractedText": 1.152,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-arkansas-ar-path-to-maximizing-your-sales",
+      "renderedLen": 46674,
+      "extractedLen": 14469,
+      "extractedTextLen": 7711,
+      "mdxBodyLen": 8901,
+      "ratioExtracted": 0.31,
+      "ratioMdxVsExtractedText": 1.154,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-california-ca-path-to-maximizing-your-sales",
+      "renderedLen": 46710,
+      "extractedLen": 14505,
+      "extractedTextLen": 7747,
+      "mdxBodyLen": 8937,
+      "ratioExtracted": 0.311,
+      "ratioMdxVsExtractedText": 1.154,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales",
+      "renderedLen": 46737,
+      "extractedLen": 14537,
+      "extractedTextLen": 7711,
+      "mdxBodyLen": 8901,
+      "ratioExtracted": 0.311,
+      "ratioMdxVsExtractedText": 1.154,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales-2",
+      "renderedLen": 46780,
+      "extractedLen": 14539,
+      "extractedTextLen": 7765,
+      "mdxBodyLen": 9433,
+      "ratioExtracted": 0.311,
+      "ratioMdxVsExtractedText": 1.215,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-delaware-de-path-to-maximizing-your-sales",
+      "renderedLen": 46739,
+      "extractedLen": 14532,
+      "extractedTextLen": 7711,
+      "mdxBodyLen": 9309,
+      "ratioExtracted": 0.311,
+      "ratioMdxVsExtractedText": 1.207,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-district-of-columbia-dc-path-to-maximizing-your-sales",
+      "renderedLen": 46881,
+      "extractedLen": 14675,
+      "extractedTextLen": 7927,
+      "mdxBodyLen": 9117,
+      "ratioExtracted": 0.313,
+      "ratioMdxVsExtractedText": 1.15,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales",
+      "renderedLen": 44969,
+      "extractedLen": 16703,
+      "extractedTextLen": 8600,
+      "mdxBodyLen": 9955,
+      "ratioExtracted": 0.371,
+      "ratioMdxVsExtractedText": 1.158,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales",
+      "renderedLen": 44950,
+      "extractedLen": 16669,
+      "extractedTextLen": 8600,
+      "mdxBodyLen": 9951,
+      "ratioExtracted": 0.371,
+      "ratioMdxVsExtractedText": 1.157,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales",
+      "renderedLen": 44860,
+      "extractedLen": 16579,
+      "extractedTextLen": 8471,
+      "mdxBodyLen": 9822,
+      "ratioExtracted": 0.37,
+      "ratioMdxVsExtractedText": 1.159,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales",
+      "renderedLen": 45339,
+      "extractedLen": 16794,
+      "extractedTextLen": 8633,
+      "mdxBodyLen": 9988,
+      "ratioExtracted": 0.37,
+      "ratioMdxVsExtractedText": 1.157,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales",
+      "renderedLen": 45051,
+      "extractedLen": 16500,
+      "extractedTextLen": 8576,
+      "mdxBodyLen": 9959,
+      "ratioExtracted": 0.366,
+      "ratioMdxVsExtractedText": 1.161,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales",
+      "renderedLen": 46739,
+      "extractedLen": 16305,
+      "extractedTextLen": 8738,
+      "mdxBodyLen": 9906,
+      "ratioExtracted": 0.349,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales",
+      "renderedLen": 45289,
+      "extractedLen": 16732,
+      "extractedTextLen": 8663,
+      "mdxBodyLen": 10047,
+      "ratioExtracted": 0.369,
+      "ratioMdxVsExtractedText": 1.16,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales",
+      "renderedLen": 45181,
+      "extractedLen": 19870,
+      "extractedTextLen": 9819,
+      "mdxBodyLen": 11418,
+      "ratioExtracted": 0.44,
+      "ratioMdxVsExtractedText": 1.163,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales",
+      "renderedLen": 45356,
+      "extractedLen": 16797,
+      "extractedTextLen": 8633,
+      "mdxBodyLen": 9988,
+      "ratioExtracted": 0.37,
+      "ratioMdxVsExtractedText": 1.157,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales",
+      "renderedLen": 44666,
+      "extractedLen": 16238,
+      "extractedTextLen": 8732,
+      "mdxBodyLen": 9900,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales",
+      "renderedLen": 44714,
+      "extractedLen": 16295,
+      "extractedTextLen": 8776,
+      "mdxBodyLen": 9944,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.133,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales",
+      "renderedLen": 44547,
+      "extractedLen": 16114,
+      "extractedTextLen": 8601,
+      "mdxBodyLen": 9769,
+      "ratioExtracted": 0.362,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales",
+      "renderedLen": 44702,
+      "extractedLen": 16322,
+      "extractedTextLen": 8734,
+      "mdxBodyLen": 9922,
+      "ratioExtracted": 0.365,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales",
+      "renderedLen": 44888,
+      "extractedLen": 16464,
+      "extractedTextLen": 8952,
+      "mdxBodyLen": 10120,
+      "ratioExtracted": 0.367,
+      "ratioMdxVsExtractedText": 1.13,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales",
+      "renderedLen": 44674,
+      "extractedLen": 16239,
+      "extractedTextLen": 8733,
+      "mdxBodyLen": 9901,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales",
+      "renderedLen": 44711,
+      "extractedLen": 16282,
+      "extractedTextLen": 8777,
+      "mdxBodyLen": 9945,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.133,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales",
+      "renderedLen": 44808,
+      "extractedLen": 16378,
+      "extractedTextLen": 8865,
+      "mdxBodyLen": 10033,
+      "ratioExtracted": 0.366,
+      "ratioMdxVsExtractedText": 1.132,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales",
+      "renderedLen": 44711,
+      "extractedLen": 16286,
+      "extractedTextLen": 8734,
+      "mdxBodyLen": 9906,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales",
+      "renderedLen": 44617,
+      "extractedLen": 16194,
+      "extractedTextLen": 8689,
+      "mdxBodyLen": 9857,
+      "ratioExtracted": 0.363,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales",
+      "renderedLen": 44674,
+      "extractedLen": 16253,
+      "extractedTextLen": 8733,
+      "mdxBodyLen": 9906,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales",
+      "renderedLen": 44597,
+      "extractedLen": 16107,
+      "extractedTextLen": 8632,
+      "mdxBodyLen": 9716,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales",
+      "renderedLen": 44890,
+      "extractedLen": 16460,
+      "extractedTextLen": 8953,
+      "mdxBodyLen": 10126,
+      "ratioExtracted": 0.367,
+      "ratioMdxVsExtractedText": 1.131,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales",
+      "renderedLen": 44799,
+      "extractedLen": 16380,
+      "extractedTextLen": 8821,
+      "mdxBodyLen": 9994,
+      "ratioExtracted": 0.366,
+      "ratioMdxVsExtractedText": 1.133,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales",
+      "renderedLen": 45037,
+      "extractedLen": 16637,
+      "extractedTextLen": 8827,
+      "mdxBodyLen": 10004,
+      "ratioExtracted": 0.369,
+      "ratioMdxVsExtractedText": 1.133,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-york-a-path-to-maximizing-your-sales",
+      "renderedLen": 49997,
+      "extractedLen": 14410,
+      "extractedTextLen": 7351,
+      "mdxBodyLen": 8351,
+      "ratioExtracted": 0.288,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales",
+      "renderedLen": 45272,
+      "extractedLen": 16495,
+      "extractedTextLen": 8738,
+      "mdxBodyLen": 9911,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales",
+      "renderedLen": 44979,
+      "extractedLen": 16545,
+      "extractedTextLen": 8999,
+      "mdxBodyLen": 10172,
+      "ratioExtracted": 0.368,
+      "ratioMdxVsExtractedText": 1.13,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales",
+      "renderedLen": 44843,
+      "extractedLen": 16415,
+      "extractedTextLen": 8908,
+      "mdxBodyLen": 10081,
+      "ratioExtracted": 0.366,
+      "ratioMdxVsExtractedText": 1.132,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales",
+      "renderedLen": 45368,
+      "extractedLen": 16943,
+      "extractedTextLen": 9436,
+      "mdxBodyLen": 10609,
+      "ratioExtracted": 0.373,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales",
+      "renderedLen": 44498,
+      "extractedLen": 16070,
+      "extractedTextLen": 8556,
+      "mdxBodyLen": 9729,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.137,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales",
+      "renderedLen": 44863,
+      "extractedLen": 16454,
+      "extractedTextLen": 8736,
+      "mdxBodyLen": 9905,
+      "ratioExtracted": 0.367,
+      "ratioMdxVsExtractedText": 1.134,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales",
+      "renderedLen": 44585,
+      "extractedLen": 16158,
+      "extractedTextLen": 8644,
+      "mdxBodyLen": 9817,
+      "ratioExtracted": 0.362,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales",
+      "renderedLen": 45616,
+      "extractedLen": 17058,
+      "extractedTextLen": 8895,
+      "mdxBodyLen": 10251,
+      "ratioExtracted": 0.374,
+      "ratioMdxVsExtractedText": 1.152,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales",
+      "renderedLen": 44800,
+      "extractedLen": 16371,
+      "extractedTextLen": 8864,
+      "mdxBodyLen": 10037,
+      "ratioExtracted": 0.365,
+      "ratioMdxVsExtractedText": 1.132,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales",
+      "renderedLen": 44910,
+      "extractedLen": 16398,
+      "extractedTextLen": 9094,
+      "mdxBodyLen": 10182,
+      "ratioExtracted": 0.365,
+      "ratioMdxVsExtractedText": 1.12,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales",
+      "renderedLen": 44358,
+      "extractedLen": 15840,
+      "extractedTextLen": 8534,
+      "mdxBodyLen": 9621,
+      "ratioExtracted": 0.357,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales",
+      "renderedLen": 44483,
+      "extractedLen": 15970,
+      "extractedTextLen": 8666,
+      "mdxBodyLen": 9754,
+      "ratioExtracted": 0.359,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales",
+      "renderedLen": 45341,
+      "extractedLen": 16482,
+      "extractedTextLen": 8974,
+      "mdxBodyLen": 10058,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.121,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales",
+      "renderedLen": 44526,
+      "extractedLen": 16013,
+      "extractedTextLen": 8710,
+      "mdxBodyLen": 9798,
+      "ratioExtracted": 0.36,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales",
+      "renderedLen": 44805,
+      "extractedLen": 16308,
+      "extractedTextLen": 8800,
+      "mdxBodyLen": 9884,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales",
+      "renderedLen": 45180,
+      "extractedLen": 16292,
+      "extractedTextLen": 8929,
+      "mdxBodyLen": 10041,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales",
+      "renderedLen": 44575,
+      "extractedLen": 16069,
+      "extractedTextLen": 8759,
+      "mdxBodyLen": 9848,
+      "ratioExtracted": 0.36,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales",
+      "renderedLen": 44453,
+      "extractedLen": 15942,
+      "extractedTextLen": 8676,
+      "mdxBodyLen": 9762,
+      "ratioExtracted": 0.359,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales",
+      "renderedLen": 44685,
+      "extractedLen": 16176,
+      "extractedTextLen": 8872,
+      "mdxBodyLen": 9960,
+      "ratioExtracted": 0.362,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales",
+      "renderedLen": 44800,
+      "extractedLen": 16290,
+      "extractedTextLen": 8972,
+      "mdxBodyLen": 10061,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.121,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales",
+      "renderedLen": 44707,
+      "extractedLen": 16188,
+      "extractedTextLen": 8884,
+      "mdxBodyLen": 9972,
+      "ratioExtracted": 0.362,
+      "ratioMdxVsExtractedText": 1.122,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales",
+      "renderedLen": 44858,
+      "extractedLen": 16348,
+      "extractedTextLen": 8935,
+      "mdxBodyLen": 10038,
+      "ratioExtracted": 0.364,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-no-conversions-2026",
+      "renderedLen": 58154,
+      "extractedLen": 3395,
+      "extractedTextLen": 1704,
+      "mdxBodyLen": 2031,
+      "ratioExtracted": 0.058,
+      "ratioMdxVsExtractedText": 1.192,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-optimization-secrets-2025-fba-sellers-guide",
+      "renderedLen": 71077,
+      "extractedLen": 25603,
+      "extractedTextLen": 7250,
+      "mdxBodyLen": 9922,
+      "ratioExtracted": 0.36,
+      "ratioMdxVsExtractedText": 1.369,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-optimization-tips",
+      "renderedLen": 72313,
+      "extractedLen": 27699,
+      "extractedTextLen": 8869,
+      "mdxBodyLen": 11784,
+      "ratioExtracted": 0.383,
+      "ratioMdxVsExtractedText": 1.329,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-strategies",
+      "renderedLen": 71038,
+      "extractedLen": 25419,
+      "extractedTextLen": 8997,
+      "mdxBodyLen": 11290,
+      "ratioExtracted": 0.358,
+      "ratioMdxVsExtractedText": 1.255,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-strategy-keyword-research-2025",
+      "renderedLen": 72333,
+      "extractedLen": 27376,
+      "extractedTextLen": 10078,
+      "mdxBodyLen": 12676,
+      "ratioExtracted": 0.378,
+      "ratioMdxVsExtractedText": 1.258,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-ppc-wasting-money-2026",
+      "renderedLen": 61563,
+      "extractedLen": 6801,
+      "extractedTextLen": 4930,
+      "mdxBodyLen": 5959,
+      "ratioExtracted": 0.11,
+      "ratioMdxVsExtractedText": 1.209,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance",
+      "renderedLen": 49430,
+      "extractedLen": 8906,
+      "extractedTextLen": 4953,
+      "mdxBodyLen": 5475,
+      "ratioExtracted": 0.18,
+      "ratioMdxVsExtractedText": 1.105,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-product-launch-strategy-2026",
+      "renderedLen": 62241,
+      "extractedLen": 6819,
+      "extractedTextLen": 3328,
+      "mdxBodyLen": 3864,
+      "ratioExtracted": 0.11,
+      "ratioMdxVsExtractedText": 1.161,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sales-after-boycott-analysis",
+      "renderedLen": 80910,
+      "extractedLen": 19406,
+      "extractedTextLen": 14195,
+      "mdxBodyLen": 15167,
+      "ratioExtracted": 0.24,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sales-down-since-boycott",
+      "renderedLen": 88928,
+      "extractedLen": 25245,
+      "extractedTextLen": 11021,
+      "mdxBodyLen": 13038,
+      "ratioExtracted": 0.284,
+      "ratioMdxVsExtractedText": 1.183,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-central-bulk-listing",
+      "renderedLen": 64883,
+      "extractedLen": 21176,
+      "extractedTextLen": 6769,
+      "mdxBodyLen": 8949,
+      "ratioExtracted": 0.326,
+      "ratioMdxVsExtractedText": 1.322,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-central-management-services-explained",
+      "renderedLen": 62754,
+      "extractedLen": 7657,
+      "extractedTextLen": 4799,
+      "mdxBodyLen": 5316,
+      "ratioExtracted": 0.122,
+      "ratioMdxVsExtractedText": 1.108,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "renderedLen": 61776,
+      "extractedLen": 5079,
+      "extractedTextLen": 4213,
+      "mdxBodyLen": 4572,
+      "ratioExtracted": 0.082,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-issues-solutions",
+      "renderedLen": 87358,
+      "extractedLen": 40165,
+      "extractedTextLen": 14785,
+      "mdxBodyLen": 18575,
+      "ratioExtracted": 0.46,
+      "ratioMdxVsExtractedText": 1.256,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-management-services-that-actually-work",
+      "renderedLen": 59796,
+      "extractedLen": 4713,
+      "extractedTextLen": 3153,
+      "mdxBodyLen": 3551,
+      "ratioExtracted": 0.079,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-problems-fix-guide-2025",
+      "renderedLen": 68330,
+      "extractedLen": 24756,
+      "extractedTextLen": 8647,
+      "mdxBodyLen": 11034,
+      "ratioExtracted": 0.362,
+      "ratioMdxVsExtractedText": 1.276,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seller-support-account-management-services",
+      "renderedLen": 60421,
+      "extractedLen": 4374,
+      "extractedTextLen": 3516,
+      "mdxBodyLen": 3918,
+      "ratioExtracted": 0.072,
+      "ratioMdxVsExtractedText": 1.114,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sellers-overpaying-for-ppc-2026",
+      "renderedLen": 67244,
+      "extractedLen": 10159,
+      "extractedTextLen": 7650,
+      "mdxBodyLen": 8267,
+      "ratioExtracted": 0.151,
+      "ratioMdxVsExtractedText": 1.081,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seo-2026-keywords-no-longer-matter",
+      "renderedLen": 60891,
+      "extractedLen": 4829,
+      "extractedTextLen": 3861,
+      "mdxBodyLen": 4201,
+      "ratioExtracted": 0.079,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seo-2026-ranking-factors",
+      "renderedLen": 65696,
+      "extractedLen": 10893,
+      "extractedTextLen": 9465,
+      "mdxBodyLen": 10299,
+      "ratioExtracted": 0.166,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-seo-optimization-increase-sales",
+      "renderedLen": 73744,
+      "extractedLen": 26933,
+      "extractedTextLen": 8569,
+      "mdxBodyLen": 11270,
+      "ratioExtracted": 0.365,
+      "ratioMdxVsExtractedText": 1.315,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-sponsored-brands-vs-products",
+      "renderedLen": 58495,
+      "extractedLen": 3664,
+      "extractedTextLen": 2901,
+      "mdxBodyLen": 3193,
+      "ratioExtracted": 0.063,
+      "ratioMdxVsExtractedText": 1.101,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-store-management-services-drive-sales",
+      "renderedLen": 66144,
+      "extractedLen": 11050,
+      "extractedTextLen": 4548,
+      "mdxBodyLen": 5498,
+      "ratioExtracted": 0.167,
+      "ratioMdxVsExtractedText": 1.209,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-store-optimization-guide",
+      "renderedLen": 93103,
+      "extractedLen": 27858,
+      "extractedTextLen": 13267,
+      "mdxBodyLen": 15489,
+      "ratioExtracted": 0.299,
+      "ratioMdxVsExtractedText": 1.167,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-suppressed-listings-fix",
+      "renderedLen": 68763,
+      "extractedLen": 24006,
+      "extractedTextLen": 8006,
+      "mdxBodyLen": 10116,
+      "ratioExtracted": 0.349,
+      "ratioMdxVsExtractedText": 1.264,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazon-tools-growth-system-seller-software",
+      "renderedLen": 62899,
+      "extractedLen": 6517,
+      "extractedTextLen": 4739,
+      "mdxBodyLen": 5224,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.102,
+      "hasMdx": true
+    },
+    {
+      "slug": "amazons-silent-ranking-factors-what-top-sellers-know-that-most-brands-dont",
+      "renderedLen": 60125,
+      "extractedLen": 5014,
+      "extractedTextLen": 3334,
+      "mdxBodyLen": 3681,
+      "ratioExtracted": 0.083,
+      "ratioMdxVsExtractedText": 1.104,
+      "hasMdx": true
+    },
+    {
+      "slug": "architecting-amazon-success-2026-strategy-first-tools",
+      "renderedLen": 61936,
+      "extractedLen": 6022,
+      "extractedTextLen": 4771,
+      "mdxBodyLen": 5178,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "renderedLen": 80150,
+      "extractedLen": 18343,
+      "extractedTextLen": 8883,
+      "mdxBodyLen": 10091,
+      "ratioExtracted": 0.229,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "architecting-seo-success-2026-strategy-before-execution",
+      "renderedLen": 82132,
+      "extractedLen": 19372,
+      "extractedTextLen": 9874,
+      "mdxBodyLen": 10875,
+      "ratioExtracted": 0.236,
+      "ratioMdxVsExtractedText": 1.101,
+      "hasMdx": true
+    },
+    {
+      "slug": "are-amazon-sales-growing",
+      "renderedLen": 87850,
+      "extractedLen": 25484,
+      "extractedTextLen": 9384,
+      "mdxBodyLen": 11518,
+      "ratioExtracted": 0.29,
+      "ratioMdxVsExtractedText": 1.227,
+      "hasMdx": true
+    },
+    {
+      "slug": "are-amazon-sales-increasing",
+      "renderedLen": 79406,
+      "extractedLen": 17891,
+      "extractedTextLen": 7410,
+      "mdxBodyLen": 8723,
+      "ratioExtracted": 0.225,
+      "ratioMdxVsExtractedText": 1.177,
+      "hasMdx": true
+    },
+    {
+      "slug": "audience-targeting-intent-amazon-ppc-2026",
+      "renderedLen": 80993,
+      "extractedLen": 19032,
+      "extractedTextLen": 9870,
+      "mdxBodyLen": 10869,
+      "ratioExtracted": 0.235,
+      "ratioMdxVsExtractedText": 1.101,
+      "hasMdx": true
+    },
+    {
+      "slug": "automation-tools-amazon-account-management",
+      "renderedLen": 56862,
+      "extractedLen": 2102,
+      "extractedTextLen": 1652,
+      "mdxBodyLen": 1822,
+      "ratioExtracted": 0.037,
+      "ratioMdxVsExtractedText": 1.103,
+      "hasMdx": true
+    },
+    {
+      "slug": "avoid-saturated-niche-price-wars-amazon",
+      "renderedLen": 61732,
+      "extractedLen": 5014,
+      "extractedTextLen": 2851,
+      "mdxBodyLen": 3479,
+      "ratioExtracted": 0.081,
+      "ratioMdxVsExtractedText": 1.22,
+      "hasMdx": true
+    },
+    {
+      "slug": "benefits-of-amazon-brand-registry-for-private-label-sellers",
+      "renderedLen": 74593,
+      "extractedLen": 13709,
+      "extractedTextLen": 6184,
+      "mdxBodyLen": 7025,
+      "ratioExtracted": 0.184,
+      "ratioMdxVsExtractedText": 1.136,
+      "hasMdx": true
+    },
+    {
+      "slug": "benefits-of-amazon-full-account-management",
+      "renderedLen": 63945,
+      "extractedLen": 6914,
+      "extractedTextLen": 4616,
+      "mdxBodyLen": 5240,
+      "ratioExtracted": 0.108,
+      "ratioMdxVsExtractedText": 1.135,
+      "hasMdx": true
+    },
+    {
+      "slug": "best-amazon-deals-of-the-week-save-big-today",
+      "renderedLen": 75576,
+      "extractedLen": 14567,
+      "extractedTextLen": 9708,
+      "mdxBodyLen": 10722,
+      "ratioExtracted": 0.193,
+      "ratioMdxVsExtractedText": 1.104,
+      "hasMdx": true
+    },
+    {
+      "slug": "best-amazon-profit-analytics-for-amazon-sellers",
+      "renderedLen": 68054,
+      "extractedLen": 5500,
+      "extractedTextLen": 3419,
+      "mdxBodyLen": 3844,
+      "ratioExtracted": 0.081,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "renderedLen": 87935,
+      "extractedLen": 26239,
+      "extractedTextLen": 7697,
+      "mdxBodyLen": 10346,
+      "ratioExtracted": 0.298,
+      "ratioMdxVsExtractedText": 1.344,
+      "hasMdx": true
+    },
+    {
+      "slug": "best-selling-amazon-products-in-the-us-you-should-know-about",
+      "renderedLen": 54124,
+      "extractedLen": 4859,
+      "extractedTextLen": 2249,
+      "mdxBodyLen": 2649,
+      "ratioExtracted": 0.09,
+      "ratioMdxVsExtractedText": 1.178,
+      "hasMdx": true
+    },
+    {
+      "slug": "beyond-optimization-systematic-amazon-growth",
+      "renderedLen": 82687,
+      "extractedLen": 20395,
+      "extractedTextLen": 10579,
+      "mdxBodyLen": 12068,
+      "ratioExtracted": 0.247,
+      "ratioMdxVsExtractedText": 1.141,
+      "hasMdx": true
+    },
+    {
+      "slug": "beyond-rankings-ai-driven-seo-strategy",
+      "renderedLen": 60251,
+      "extractedLen": 4519,
+      "extractedTextLen": 3044,
+      "mdxBodyLen": 3379,
+      "ratioExtracted": 0.075,
+      "ratioMdxVsExtractedText": 1.11,
+      "hasMdx": true
+    },
+    {
+      "slug": "boost-your-amazon-best-sellers-rank-with-12-proven-tips",
+      "renderedLen": 54997,
+      "extractedLen": 4183,
+      "extractedTextLen": 2171,
+      "mdxBodyLen": 2605,
+      "ratioExtracted": 0.076,
+      "ratioMdxVsExtractedText": 1.2,
+      "hasMdx": true
+    },
+    {
+      "slug": "business-of-seo-2026-predictable-growth",
+      "renderedLen": 60705,
+      "extractedLen": 5604,
+      "extractedTextLen": 4030,
+      "mdxBodyLen": 4358,
+      "ratioExtracted": 0.092,
+      "ratioMdxVsExtractedText": 1.081,
+      "hasMdx": true
+    },
+    {
+      "slug": "choose-winning-products-without-guesswork",
+      "renderedLen": 64764,
+      "extractedLen": 7755,
+      "extractedTextLen": 5777,
+      "mdxBodyLen": 6387,
+      "ratioExtracted": 0.12,
+      "ratioMdxVsExtractedText": 1.106,
+      "hasMdx": true
+    },
+    {
+      "slug": "common-amazon-seller-mistakes-account-management",
+      "renderedLen": 61633,
+      "extractedLen": 6174,
+      "extractedTextLen": 4376,
+      "mdxBodyLen": 4974,
+      "ratioExtracted": 0.1,
+      "ratioMdxVsExtractedText": 1.137,
+      "hasMdx": true
+    },
+    {
+      "slug": "decision-driven-seo-winning-search-visibility",
+      "renderedLen": 62033,
+      "extractedLen": 5997,
+      "extractedTextLen": 4682,
+      "mdxBodyLen": 5090,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "renderedLen": 86876,
+      "extractedLen": 23519,
+      "extractedTextLen": 19667,
+      "mdxBodyLen": 20620,
+      "ratioExtracted": 0.271,
+      "ratioMdxVsExtractedText": 1.048,
+      "hasMdx": true
+    },
+    {
+      "slug": "designing-growth-on-amazon-strategy-before-scale",
+      "renderedLen": 75991,
+      "extractedLen": 15366,
+      "extractedTextLen": 8680,
+      "mdxBodyLen": 9482,
+      "ratioExtracted": 0.202,
+      "ratioMdxVsExtractedText": 1.092,
+      "hasMdx": true
+    },
+    {
+      "slug": "do-i-have-to-pay-40-dollars-to-sell-on-amazon",
+      "renderedLen": 87966,
+      "extractedLen": 23598,
+      "extractedTextLen": 11220,
+      "mdxBodyLen": 12956,
+      "ratioExtracted": 0.268,
+      "ratioMdxVsExtractedText": 1.155,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-canopy-amazon-account-management",
+      "renderedLen": 70592,
+      "extractedLen": 10482,
+      "extractedTextLen": 4485,
+      "mdxBodyLen": 5348,
+      "ratioExtracted": 0.148,
+      "ratioMdxVsExtractedText": 1.192,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "renderedLen": 64955,
+      "extractedLen": 5945,
+      "extractedTextLen": 4426,
+      "mdxBodyLen": 4817,
+      "ratioExtracted": 0.092,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-gno-partners-amazon-growth-comparison",
+      "renderedLen": 59586,
+      "extractedLen": 4463,
+      "extractedTextLen": 3312,
+      "mdxBodyLen": 3707,
+      "ratioExtracted": 0.075,
+      "ratioMdxVsExtractedText": 1.119,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+      "renderedLen": 65504,
+      "extractedLen": 5807,
+      "extractedTextLen": 4135,
+      "mdxBodyLen": 4716,
+      "ratioExtracted": 0.089,
+      "ratioMdxVsExtractedText": 1.141,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+      "renderedLen": 71544,
+      "extractedLen": 7176,
+      "extractedTextLen": 2893,
+      "mdxBodyLen": 3551,
+      "ratioExtracted": 0.1,
+      "ratioMdxVsExtractedText": 1.227,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-salesduo-amazon-seller-support",
+      "renderedLen": 66901,
+      "extractedLen": 5223,
+      "extractedTextLen": 2806,
+      "mdxBodyLen": 3348,
+      "ratioExtracted": 0.078,
+      "ratioMdxVsExtractedText": 1.193,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-sophie-society-amazon-ppc-account-management",
+      "renderedLen": 69424,
+      "extractedLen": 7220,
+      "extractedTextLen": 3239,
+      "mdxBodyLen": 3863,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.193,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-teikametrics-amazon-ppc-management",
+      "renderedLen": 66979,
+      "extractedLen": 5033,
+      "extractedTextLen": 2813,
+      "mdxBodyLen": 3331,
+      "ratioExtracted": 0.075,
+      "ratioMdxVsExtractedText": 1.184,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison",
+      "renderedLen": 68513,
+      "extractedLen": 5758,
+      "extractedTextLen": 2800,
+      "mdxBodyLen": 3553,
+      "ratioExtracted": 0.084,
+      "ratioMdxVsExtractedText": 1.269,
+      "hasMdx": true
+    },
+    {
+      "slug": "ecom-gliders-vs-velocity-sellers-amazon-store-management",
+      "renderedLen": 70158,
+      "extractedLen": 7995,
+      "extractedTextLen": 3945,
+      "mdxBodyLen": 5180,
+      "ratioExtracted": 0.114,
+      "ratioMdxVsExtractedText": 1.313,
+      "hasMdx": true
+    },
+    {
+      "slug": "elementor-992655",
+      "renderedLen": 44499,
+      "extractedLen": 16069,
+      "extractedTextLen": 8561,
+      "mdxBodyLen": 9734,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.137,
+      "hasMdx": true
+    },
+    {
+      "slug": "end-to-end-amazon-seller-account-management",
+      "renderedLen": 62592,
+      "extractedLen": 7508,
+      "extractedTextLen": 6195,
+      "mdxBodyLen": 6791,
+      "ratioExtracted": 0.12,
+      "ratioMdxVsExtractedText": 1.096,
+      "hasMdx": true
+    },
+    {
+      "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+      "renderedLen": 85612,
+      "extractedLen": 23912,
+      "extractedTextLen": 9140,
+      "mdxBodyLen": 10803,
+      "ratioExtracted": 0.279,
+      "ratioMdxVsExtractedText": 1.182,
+      "hasMdx": true
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "renderedLen": 63297,
+      "extractedLen": 8189,
+      "extractedTextLen": 5437,
+      "mdxBodyLen": 5959,
+      "ratioExtracted": 0.129,
+      "ratioMdxVsExtractedText": 1.096,
+      "hasMdx": true
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "renderedLen": 83117,
+      "extractedLen": 20457,
+      "extractedTextLen": 15771,
+      "mdxBodyLen": 16646,
+      "ratioExtracted": 0.246,
+      "ratioMdxVsExtractedText": 1.055,
+      "hasMdx": true
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockouts",
+      "renderedLen": 86255,
+      "extractedLen": 24878,
+      "extractedTextLen": 10904,
+      "mdxBodyLen": 12765,
+      "ratioExtracted": 0.288,
+      "ratioMdxVsExtractedText": 1.171,
+      "hasMdx": true
+    },
+    {
+      "slug": "fba-inventory-management-stockouts-to-stability",
+      "renderedLen": 82446,
+      "extractedLen": 73820,
+      "extractedTextLen": 64860,
+      "mdxBodyLen": 65353,
+      "ratioExtracted": 0.895,
+      "ratioMdxVsExtractedText": 1.008,
+      "hasMdx": true
+    },
+    {
+      "slug": "fix-high-acos-amazon-ppc-2025",
+      "renderedLen": 68699,
+      "extractedLen": 23749,
+      "extractedTextLen": 9440,
+      "mdxBodyLen": 11801,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.25,
+      "hasMdx": true
+    },
+    {
+      "slug": "fix-stagnant-amazon-sales",
+      "renderedLen": 69949,
+      "extractedLen": 26405,
+      "extractedTextLen": 7527,
+      "mdxBodyLen": 10216,
+      "ratioExtracted": 0.377,
+      "ratioMdxVsExtractedText": 1.357,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "renderedLen": 78439,
+      "extractedLen": 17202,
+      "extractedTextLen": 10178,
+      "mdxBodyLen": 11112,
+      "ratioExtracted": 0.219,
+      "ratioMdxVsExtractedText": 1.092,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-features-to-frameworks-amazon-tools-architecture-2026",
+      "renderedLen": 66289,
+      "extractedLen": 6946,
+      "extractedTextLen": 5419,
+      "mdxBodyLen": 5978,
+      "ratioExtracted": 0.105,
+      "ratioMdxVsExtractedText": 1.103,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "renderedLen": 61648,
+      "extractedLen": 6519,
+      "extractedTextLen": 4645,
+      "mdxBodyLen": 5057,
+      "ratioExtracted": 0.106,
+      "ratioMdxVsExtractedText": 1.089,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "renderedLen": 82385,
+      "extractedLen": 20143,
+      "extractedTextLen": 12522,
+      "mdxBodyLen": 13613,
+      "ratioExtracted": 0.244,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "from-traffic-to-trust-seo-blueprint-for-authority-brands",
+      "renderedLen": 65050,
+      "extractedLen": 8661,
+      "extractedTextLen": 5119,
+      "mdxBodyLen": 7091,
+      "ratioExtracted": 0.133,
+      "ratioMdxVsExtractedText": 1.385,
+      "hasMdx": true
+    },
+    {
+      "slug": "full-amazon-account-management-services-2026",
+      "renderedLen": 61227,
+      "extractedLen": 4784,
+      "extractedTextLen": 2823,
+      "mdxBodyLen": 3285,
+      "ratioExtracted": 0.078,
+      "ratioMdxVsExtractedText": 1.164,
+      "hasMdx": true
+    },
+    {
+      "slug": "full-service-amazon-seller-account-handling",
+      "renderedLen": 63598,
+      "extractedLen": 8843,
+      "extractedTextLen": 4514,
+      "mdxBodyLen": 5192,
+      "ratioExtracted": 0.139,
+      "ratioMdxVsExtractedText": 1.15,
+      "hasMdx": true
+    },
+    {
+      "slug": "future-of-amazon-ppc-scalable-advertising-frameworks-2026",
+      "renderedLen": 84441,
+      "extractedLen": 22048,
+      "extractedTextLen": 13165,
+      "mdxBodyLen": 14564,
+      "ratioExtracted": 0.261,
+      "ratioMdxVsExtractedText": 1.106,
+      "hasMdx": true
+    },
+    {
+      "slug": "grow-faster-with-amazon-full-account-management-services",
+      "renderedLen": 63275,
+      "extractedLen": 6579,
+      "extractedTextLen": 4917,
+      "mdxBodyLen": 5400,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.098,
+      "hasMdx": true
+    },
+    {
+      "slug": "hidden-amazon-ppc-tax",
+      "renderedLen": 65176,
+      "extractedLen": 10100,
+      "extractedTextLen": 8485,
+      "mdxBodyLen": 9404,
+      "ratioExtracted": 0.155,
+      "ratioMdxVsExtractedText": 1.108,
+      "hasMdx": true
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "renderedLen": 81347,
+      "extractedLen": 18305,
+      "extractedTextLen": 11115,
+      "mdxBodyLen": 12040,
+      "ratioExtracted": 0.225,
+      "ratioMdxVsExtractedText": 1.083,
+      "hasMdx": true
+    },
+    {
+      "slug": "hidden-signal-amazon-product-success",
+      "renderedLen": 62353,
+      "extractedLen": 7265,
+      "extractedTextLen": 5517,
+      "mdxBodyLen": 6017,
+      "ratioExtracted": 0.117,
+      "ratioMdxVsExtractedText": 1.091,
+      "hasMdx": true
+    },
+    {
+      "slug": "high-demand-low-competition-products-amazon",
+      "renderedLen": 62188,
+      "extractedLen": 5803,
+      "extractedTextLen": 4055,
+      "mdxBodyLen": 4619,
+      "ratioExtracted": 0.093,
+      "ratioMdxVsExtractedText": 1.139,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-amazon-account-manager-improves-buy-box-wins",
+      "renderedLen": 62993,
+      "extractedLen": 5977,
+      "extractedTextLen": 4322,
+      "mdxBodyLen": 4822,
+      "ratioExtracted": 0.095,
+      "ratioMdxVsExtractedText": 1.116,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-amazon-account-managers-improve-buy-box-wins",
+      "renderedLen": 65309,
+      "extractedLen": 9564,
+      "extractedTextLen": 4587,
+      "mdxBodyLen": 5253,
+      "ratioExtracted": 0.146,
+      "ratioMdxVsExtractedText": 1.145,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "renderedLen": 104391,
+      "extractedLen": 38085,
+      "extractedTextLen": 19258,
+      "mdxBodyLen": 22220,
+      "ratioExtracted": 0.365,
+      "ratioMdxVsExtractedText": 1.154,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically",
+      "renderedLen": 81130,
+      "extractedLen": 19116,
+      "extractedTextLen": 9631,
+      "mdxBodyLen": 10817,
+      "ratioExtracted": 0.236,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically-2",
+      "renderedLen": 77919,
+      "extractedLen": 15490,
+      "extractedTextLen": 9941,
+      "mdxBodyLen": 10697,
+      "ratioExtracted": 0.199,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-to-find-profitable-products-on-amazon",
+      "renderedLen": 62204,
+      "extractedLen": 5815,
+      "extractedTextLen": 3805,
+      "mdxBodyLen": 4336,
+      "ratioExtracted": 0.093,
+      "ratioMdxVsExtractedText": 1.14,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-to-reduce-acos-and-grow-sales-for-your-ecommerce-business-2",
+      "renderedLen": 56214,
+      "extractedLen": 4364,
+      "extractedTextLen": 2742,
+      "mdxBodyLen": 3192,
+      "ratioExtracted": 0.078,
+      "ratioMdxVsExtractedText": 1.164,
+      "hasMdx": true
+    },
+    {
+      "slug": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+      "renderedLen": 47478,
+      "extractedLen": 4412,
+      "extractedTextLen": 2368,
+      "mdxBodyLen": 2998,
+      "ratioExtracted": 0.093,
+      "ratioMdxVsExtractedText": 1.266,
+      "hasMdx": true
+    },
+    {
+      "slug": "increase-sales-on-amazon-2025",
+      "renderedLen": 54388,
+      "extractedLen": 12510,
+      "extractedTextLen": 5542,
+      "mdxBodyLen": 6516,
+      "ratioExtracted": 0.23,
+      "ratioMdxVsExtractedText": 1.176,
+      "hasMdx": true
+    },
+    {
+      "slug": "international-expansion-selling-on-amazon-global-marketplaces-in-2025",
+      "renderedLen": 47859,
+      "extractedLen": 4776,
+      "extractedTextLen": 2553,
+      "mdxBodyLen": 3258,
+      "ratioExtracted": 0.1,
+      "ratioMdxVsExtractedText": 1.276,
+      "hasMdx": true
+    },
+    {
+      "slug": "invested-100000-in-amazon-10-years-ago",
+      "renderedLen": 85425,
+      "extractedLen": 22989,
+      "extractedTextLen": 14758,
+      "mdxBodyLen": 16484,
+      "ratioExtracted": 0.269,
+      "ratioMdxVsExtractedText": 1.117,
+      "hasMdx": true
+    },
+    {
+      "slug": "is-amazon-prime-losing-customers",
+      "renderedLen": 97730,
+      "extractedLen": 35247,
+      "extractedTextLen": 12422,
+      "mdxBodyLen": 15648,
+      "ratioExtracted": 0.361,
+      "ratioMdxVsExtractedText": 1.26,
+      "hasMdx": true
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "renderedLen": 80219,
+      "extractedLen": 15726,
+      "extractedTextLen": 11483,
+      "mdxBodyLen": 12496,
+      "ratioExtracted": 0.196,
+      "ratioMdxVsExtractedText": 1.088,
+      "hasMdx": true
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "renderedLen": 70360,
+      "extractedLen": 13316,
+      "extractedTextLen": 8303,
+      "mdxBodyLen": 9003,
+      "ratioExtracted": 0.189,
+      "ratioMdxVsExtractedText": 1.084,
+      "hasMdx": true
+    },
+    {
+      "slug": "long-term-amazon-account-growth-plan",
+      "renderedLen": 62671,
+      "extractedLen": 7915,
+      "extractedTextLen": 5769,
+      "mdxBodyLen": 7174,
+      "ratioExtracted": 0.126,
+      "ratioMdxVsExtractedText": 1.244,
+      "hasMdx": true
+    },
+    {
+      "slug": "long-term-amazon-ppc-strategy-2026-2030",
+      "renderedLen": 80286,
+      "extractedLen": 18118,
+      "extractedTextLen": 9969,
+      "mdxBodyLen": 11096,
+      "ratioExtracted": 0.226,
+      "ratioMdxVsExtractedText": 1.113,
+      "hasMdx": true
+    },
+    {
+      "slug": "lower-amazon-acos-without-losing-sales",
+      "renderedLen": 63591,
+      "extractedLen": 8180,
+      "extractedTextLen": 6719,
+      "mdxBodyLen": 7289,
+      "ratioExtracted": 0.129,
+      "ratioMdxVsExtractedText": 1.085,
+      "hasMdx": true
+    },
+    {
+      "slug": "make-one-thousand-dollars-a-month-selling-on-amazon",
+      "renderedLen": 92027,
+      "extractedLen": 29457,
+      "extractedTextLen": 14157,
+      "mdxBodyLen": 16199,
+      "ratioExtracted": 0.32,
+      "ratioMdxVsExtractedText": 1.144,
+      "hasMdx": true
+    },
+    {
+      "slug": "manage-multiple-amazon-seller-accounts-without-risk",
+      "renderedLen": 66502,
+      "extractedLen": 11723,
+      "extractedTextLen": 5260,
+      "mdxBodyLen": 6287,
+      "ratioExtracted": 0.176,
+      "ratioMdxVsExtractedText": 1.195,
+      "hasMdx": true
+    },
+    {
+      "slug": "managed-amazon-seller-services-long-term-success",
+      "renderedLen": 65099,
+      "extractedLen": 10016,
+      "extractedTextLen": 5199,
+      "mdxBodyLen": 6007,
+      "ratioExtracted": 0.154,
+      "ratioMdxVsExtractedText": 1.155,
+      "hasMdx": true
+    },
+    {
+      "slug": "mastering-amazon-account-management-strategies",
+      "renderedLen": 57592,
+      "extractedLen": 2507,
+      "extractedTextLen": 1800,
+      "mdxBodyLen": 2017,
+      "ratioExtracted": 0.044,
+      "ratioMdxVsExtractedText": 1.121,
+      "hasMdx": true
+    },
+    {
+      "slug": "never-run-out-of-stock-amazon-fba-inventory-management",
+      "renderedLen": 79980,
+      "extractedLen": 17062,
+      "extractedTextLen": 11885,
+      "mdxBodyLen": 12786,
+      "ratioExtracted": 0.213,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "number-one-selling-product-amazon",
+      "renderedLen": 82995,
+      "extractedLen": 20530,
+      "extractedTextLen": 13826,
+      "mdxBodyLen": 15153,
+      "ratioExtracted": 0.247,
+      "ratioMdxVsExtractedText": 1.096,
+      "hasMdx": true
+    },
+    {
+      "slug": "outsourced-amazon-account-management-worth-it-2",
+      "renderedLen": 61021,
+      "extractedLen": 5287,
+      "extractedTextLen": 4115,
+      "mdxBodyLen": 4766,
+      "ratioExtracted": 0.087,
+      "ratioMdxVsExtractedText": 1.158,
+      "hasMdx": true
+    },
+    {
+      "slug": "overlooked-amazon-seo-factors-affecting-product-rankings",
+      "renderedLen": 64557,
+      "extractedLen": 9456,
+      "extractedTextLen": 6736,
+      "mdxBodyLen": 7194,
+      "ratioExtracted": 0.146,
+      "ratioMdxVsExtractedText": 1.068,
+      "hasMdx": true
+    },
+    {
+      "slug": "predict-amazon-product-success",
+      "renderedLen": 59620,
+      "extractedLen": 4549,
+      "extractedTextLen": 2823,
+      "mdxBodyLen": 3401,
+      "ratioExtracted": 0.076,
+      "ratioMdxVsExtractedText": 1.205,
+      "hasMdx": true
+    },
+    {
+      "slug": "products-research-strategies-used-by-successful-amazon-sellers",
+      "renderedLen": 59245,
+      "extractedLen": 3847,
+      "extractedTextLen": 2993,
+      "mdxBodyLen": 3347,
+      "ratioExtracted": 0.065,
+      "ratioMdxVsExtractedText": 1.118,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-alabama-al-maximize-your-online-potential",
+      "renderedLen": 46892,
+      "extractedLen": 16157,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-alaska-ak-maximize-your-online-potential",
+      "renderedLen": 46864,
+      "extractedLen": 16110,
+      "extractedTextLen": 8931,
+      "mdxBodyLen": 10062,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-american-samoa-as-maximize-your-online-potential",
+      "renderedLen": 47195,
+      "extractedLen": 16431,
+      "extractedTextLen": 9251,
+      "mdxBodyLen": 10382,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.122,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-arizona-az-maximize-your-online-potential",
+      "renderedLen": 46790,
+      "extractedLen": 16063,
+      "extractedTextLen": 8862,
+      "mdxBodyLen": 9993,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-arkansas-ar-maximize-your-online-potential",
+      "renderedLen": 46947,
+      "extractedLen": 16191,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-california-ca-maximize-your-online-potential",
+      "renderedLen": 47023,
+      "extractedLen": 16284,
+      "extractedTextLen": 9091,
+      "mdxBodyLen": 10222,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-colorado-co-maximize-your-online-potential",
+      "renderedLen": 46957,
+      "extractedLen": 16204,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-connecticut-ct-maximize-your-online-potential",
+      "renderedLen": 46941,
+      "extractedLen": 16175,
+      "extractedTextLen": 8995,
+      "mdxBodyLen": 10126,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-delaware-de-maximize-your-online-potential",
+      "renderedLen": 46943,
+      "extractedLen": 16191,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-district-of-columbia-dc-maximize-your-online-potential",
+      "renderedLen": 47424,
+      "extractedLen": 16671,
+      "extractedTextLen": 9491,
+      "mdxBodyLen": 10622,
+      "ratioExtracted": 0.352,
+      "ratioMdxVsExtractedText": 1.119,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-florida-fl-maximize-your-online-potential",
+      "renderedLen": 46915,
+      "extractedLen": 16151,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-georgia-ga-maximize-your-online-potential",
+      "renderedLen": 46867,
+      "extractedLen": 16164,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-guam-gu-maximize-your-online-potential",
+      "renderedLen": 46792,
+      "extractedLen": 16031,
+      "extractedTextLen": 8851,
+      "mdxBodyLen": 9982,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-hawaii-hi-maximize-your-online-potential",
+      "renderedLen": 46863,
+      "extractedLen": 16110,
+      "extractedTextLen": 8930,
+      "mdxBodyLen": 10061,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-idaho-id-maximize-your-online-potential",
+      "renderedLen": 46822,
+      "extractedLen": 16071,
+      "extractedTextLen": 8891,
+      "mdxBodyLen": 10022,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-illinois-il-maximize-your-online-potential",
+      "renderedLen": 46917,
+      "extractedLen": 16157,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential",
+      "renderedLen": 46919,
+      "extractedLen": 16164,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-iowa-ia-maximize-your-online-potential",
+      "renderedLen": 46777,
+      "extractedLen": 16031,
+      "extractedTextLen": 8851,
+      "mdxBodyLen": 9982,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-kansas-ks-maximize-your-online-potential",
+      "renderedLen": 46914,
+      "extractedLen": 16158,
+      "extractedTextLen": 8932,
+      "mdxBodyLen": 10067,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-kentucky-ky-maximize-your-online-potential",
+      "renderedLen": 46941,
+      "extractedLen": 16191,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-louisiana-la-maximize-your-online-potential",
+      "renderedLen": 47006,
+      "extractedLen": 16270,
+      "extractedTextLen": 9051,
+      "mdxBodyLen": 10182,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-maine-me-maximize-your-online-potential",
+      "renderedLen": 46828,
+      "extractedLen": 16084,
+      "extractedTextLen": 8891,
+      "mdxBodyLen": 10022,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-maryland-md-maximize-your-online-potential",
+      "renderedLen": 45252,
+      "extractedLen": 14820,
+      "extractedTextLen": 7722,
+      "mdxBodyLen": 8851,
+      "ratioExtracted": 0.327,
+      "ratioMdxVsExtractedText": 1.146,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-massachusetts-ma-maximize-your-online-potential",
+      "renderedLen": 47140,
+      "extractedLen": 16391,
+      "extractedTextLen": 9211,
+      "mdxBodyLen": 10342,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-michigan-mi-maximize-your-online-potential",
+      "renderedLen": 46951,
+      "extractedLen": 16191,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-minnesota-mn-maximize-your-online-potential",
+      "renderedLen": 46995,
+      "extractedLen": 16231,
+      "extractedTextLen": 9051,
+      "mdxBodyLen": 10182,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-mississippi-ms-maximize-your-online-potential",
+      "renderedLen": 47071,
+      "extractedLen": 16311,
+      "extractedTextLen": 9131,
+      "mdxBodyLen": 10262,
+      "ratioExtracted": 0.347,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-missouri-mo-maximize-your-online-potential",
+      "renderedLen": 47320,
+      "extractedLen": 16204,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.342,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-montana-mt-maximize-your-online-potential",
+      "renderedLen": 46909,
+      "extractedLen": 16151,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-nebraska-ne-maximize-your-online-potential",
+      "renderedLen": 46952,
+      "extractedLen": 16204,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-nevada-nv-maximize-your-online-potential",
+      "renderedLen": 46868,
+      "extractedLen": 16111,
+      "extractedTextLen": 8931,
+      "mdxBodyLen": 10062,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-hampshire-nh-maximize-your-online-potential",
+      "renderedLen": 47148,
+      "extractedLen": 16391,
+      "extractedTextLen": 9211,
+      "mdxBodyLen": 10342,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-jersey-nj-maximize-your-online-potential",
+      "renderedLen": 47032,
+      "extractedLen": 16271,
+      "extractedTextLen": 9091,
+      "mdxBodyLen": 10222,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-mexico-nm-maximize-your-online-potential",
+      "renderedLen": 47029,
+      "extractedLen": 16271,
+      "extractedTextLen": 9091,
+      "mdxBodyLen": 10222,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-new-york-ny-maximize-your-online-potential",
+      "renderedLen": 46953,
+      "extractedLen": 16191,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-north-carolina-nc-maximize-your-online-potential",
+      "renderedLen": 47560,
+      "extractedLen": 16431,
+      "extractedTextLen": 9251,
+      "mdxBodyLen": 10382,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.122,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-north-dakota-nd-maximize-your-online-potential",
+      "renderedLen": 47479,
+      "extractedLen": 16351,
+      "extractedTextLen": 9171,
+      "mdxBodyLen": 10301,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential",
+      "renderedLen": 47585,
+      "extractedLen": 16830,
+      "extractedTextLen": 9651,
+      "mdxBodyLen": 10782,
+      "ratioExtracted": 0.354,
+      "ratioMdxVsExtractedText": 1.117,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential-2",
+      "renderedLen": 46868,
+      "extractedLen": 16116,
+      "extractedTextLen": 8858,
+      "mdxBodyLen": 9989,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-oklahoma-ok-maximize-your-online-potential",
+      "renderedLen": 47037,
+      "extractedLen": 16280,
+      "extractedTextLen": 9022,
+      "mdxBodyLen": 10153,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-oregon-or-maximize-your-online-potential",
+      "renderedLen": 46826,
+      "extractedLen": 16111,
+      "extractedTextLen": 8931,
+      "mdxBodyLen": 10062,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-pennsylvania-pa-maximize-your-online-potential",
+      "renderedLen": 47115,
+      "extractedLen": 16351,
+      "extractedTextLen": 9171,
+      "mdxBodyLen": 10302,
+      "ratioExtracted": 0.347,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-puerto-rico-pr-maximize-your-online-potential",
+      "renderedLen": 47071,
+      "extractedLen": 16312,
+      "extractedTextLen": 9131,
+      "mdxBodyLen": 10262,
+      "ratioExtracted": 0.347,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-rhode-island-ri-maximize-your-online-potential",
+      "renderedLen": 47154,
+      "extractedLen": 16398,
+      "extractedTextLen": 9172,
+      "mdxBodyLen": 10307,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-south-carolina-sc-maximize-your-online-potential",
+      "renderedLen": 47193,
+      "extractedLen": 16444,
+      "extractedTextLen": 9251,
+      "mdxBodyLen": 10382,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.122,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-south-dakota-sd-maximize-your-online-potential",
+      "renderedLen": 47110,
+      "extractedLen": 16351,
+      "extractedTextLen": 9171,
+      "mdxBodyLen": 10302,
+      "ratioExtracted": 0.347,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-tennessee-tn-maximize-your-online-potential",
+      "renderedLen": 46993,
+      "extractedLen": 16231,
+      "extractedTextLen": 9051,
+      "mdxBodyLen": 10182,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-texas-tx-maximize-your-online-potential",
+      "renderedLen": 46824,
+      "extractedLen": 16072,
+      "extractedTextLen": 8891,
+      "mdxBodyLen": 10022,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-trust-territories-tt-maximize-your-online-potential",
+      "renderedLen": 47304,
+      "extractedLen": 16551,
+      "extractedTextLen": 9371,
+      "mdxBodyLen": 10502,
+      "ratioExtracted": 0.35,
+      "ratioMdxVsExtractedText": 1.121,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-utah-ut-maximize-your-online-potential",
+      "renderedLen": 46779,
+      "extractedLen": 16031,
+      "extractedTextLen": 8851,
+      "mdxBodyLen": 9982,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-vermont-vt-maximize-your-online-potential",
+      "renderedLen": 46903,
+      "extractedLen": 16151,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.344,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-virgin-islands-vi-maximize-your-online-potential",
+      "renderedLen": 47190,
+      "extractedLen": 16430,
+      "extractedTextLen": 9251,
+      "mdxBodyLen": 10382,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.122,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-virginia-va-maximize-your-online-potential",
+      "renderedLen": 46941,
+      "extractedLen": 16190,
+      "extractedTextLen": 9011,
+      "mdxBodyLen": 10142,
+      "ratioExtracted": 0.345,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-washington-wa-maximize-your-online-potential",
+      "renderedLen": 47028,
+      "extractedLen": 16270,
+      "extractedTextLen": 9091,
+      "mdxBodyLen": 10222,
+      "ratioExtracted": 0.346,
+      "ratioMdxVsExtractedText": 1.124,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-west-virginia-wv-maximize-your-online-potential",
+      "renderedLen": 47148,
+      "extractedLen": 16390,
+      "extractedTextLen": 9211,
+      "mdxBodyLen": 10342,
+      "ratioExtracted": 0.348,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-wisconsin-wi-maximize-your-online-potential",
+      "renderedLen": 47358,
+      "extractedLen": 16243,
+      "extractedTextLen": 9051,
+      "mdxBodyLen": 10182,
+      "ratioExtracted": 0.343,
+      "ratioMdxVsExtractedText": 1.125,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-management-services-in-wyoming-wy-maximize-your-online-potential",
+      "renderedLen": 48928,
+      "extractedLen": 16151,
+      "extractedTextLen": 8971,
+      "mdxBodyLen": 10102,
+      "ratioExtracted": 0.33,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-account-managers-handle-policy-violations",
+      "renderedLen": 61478,
+      "extractedLen": 6392,
+      "extractedTextLen": 4378,
+      "mdxBodyLen": 5239,
+      "ratioExtracted": 0.104,
+      "ratioMdxVsExtractedText": 1.197,
+      "hasMdx": true
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "renderedLen": 62379,
+      "extractedLen": 7275,
+      "extractedTextLen": 4759,
+      "mdxBodyLen": 5172,
+      "ratioExtracted": 0.117,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "reduce-amazon-acos-2025",
+      "renderedLen": 60053,
+      "extractedLen": 7648,
+      "extractedTextLen": 2684,
+      "mdxBodyLen": 3647,
+      "ratioExtracted": 0.127,
+      "ratioMdxVsExtractedText": 1.359,
+      "hasMdx": true
+    },
+    {
+      "slug": "reduce-amazon-ad-spend-with-seo-2026",
+      "renderedLen": 59784,
+      "extractedLen": 5031,
+      "extractedTextLen": 1735,
+      "mdxBodyLen": 1906,
+      "ratioExtracted": 0.084,
+      "ratioMdxVsExtractedText": 1.099,
+      "hasMdx": true
+    },
+    {
+      "slug": "reselling-in-amazon-stores-guidelines-and-tips-for-success",
+      "renderedLen": 48747,
+      "extractedLen": 5940,
+      "extractedTextLen": 2899,
+      "mdxBodyLen": 3271,
+      "ratioExtracted": 0.122,
+      "ratioMdxVsExtractedText": 1.128,
+      "hasMdx": true
+    },
+    {
+      "slug": "review-manipulation-on-amazon",
+      "renderedLen": 59461,
+      "extractedLen": 16599,
+      "extractedTextLen": 5490,
+      "mdxBodyLen": 7263,
+      "ratioExtracted": 0.279,
+      "ratioMdxVsExtractedText": 1.323,
+      "hasMdx": true
+    },
+    {
+      "slug": "scalable-amazon-business-systems",
+      "renderedLen": 81252,
+      "extractedLen": 18139,
+      "extractedTextLen": 9856,
+      "mdxBodyLen": 10852,
+      "ratioExtracted": 0.223,
+      "ratioMdxVsExtractedText": 1.101,
+      "hasMdx": true
+    },
+    {
+      "slug": "scale-your-brand-with-export-amazon-full-account-management",
+      "renderedLen": 62202,
+      "extractedLen": 5180,
+      "extractedTextLen": 3596,
+      "mdxBodyLen": 4277,
+      "ratioExtracted": 0.083,
+      "ratioMdxVsExtractedText": 1.189,
+      "hasMdx": true
+    },
+    {
+      "slug": "scaling-amazon-fba-business-failure-mistakes",
+      "renderedLen": 69125,
+      "extractedLen": 23540,
+      "extractedTextLen": 7891,
+      "mdxBodyLen": 10220,
+      "ratioExtracted": 0.341,
+      "ratioMdxVsExtractedText": 1.295,
+      "hasMdx": true
+    },
+    {
+      "slug": "scaling-seo-like-a-business-2026-framework",
+      "renderedLen": 61956,
+      "extractedLen": 5903,
+      "extractedTextLen": 4674,
+      "mdxBodyLen": 4881,
+      "ratioExtracted": 0.095,
+      "ratioMdxVsExtractedText": 1.044,
+      "hasMdx": true
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "renderedLen": 76349,
+      "extractedLen": 15090,
+      "extractedTextLen": 8326,
+      "mdxBodyLen": 8803,
+      "ratioExtracted": 0.198,
+      "ratioMdxVsExtractedText": 1.057,
+      "hasMdx": true
+    },
+    {
+      "slug": "seo-in-the-age-of-ai-search-2026",
+      "renderedLen": 63120,
+      "extractedLen": 7398,
+      "extractedTextLen": 5883,
+      "mdxBodyLen": 6386,
+      "ratioExtracted": 0.117,
+      "ratioMdxVsExtractedText": 1.086,
+      "hasMdx": true
+    },
+    {
+      "slug": "smart-way-to-research-demand-and-competition-on-amazon",
+      "renderedLen": 61997,
+      "extractedLen": 5614,
+      "extractedTextLen": 3724,
+      "mdxBodyLen": 4183,
+      "ratioExtracted": 0.091,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "step-by-step-method-to-validate-products-on-amazon",
+      "renderedLen": 62982,
+      "extractedLen": 6598,
+      "extractedTextLen": 4456,
+      "mdxBodyLen": 5006,
+      "ratioExtracted": 0.105,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "renderedLen": 91010,
+      "extractedLen": 23304,
+      "extractedTextLen": 16058,
+      "mdxBodyLen": 17274,
+      "ratioExtracted": 0.256,
+      "ratioMdxVsExtractedText": 1.076,
+      "hasMdx": true
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "renderedLen": 78253,
+      "extractedLen": 68023,
+      "extractedTextLen": 57962,
+      "mdxBodyLen": 58673,
+      "ratioExtracted": 0.869,
+      "ratioMdxVsExtractedText": 1.012,
+      "hasMdx": true
+    },
+    {
+      "slug": "strategy-layer-amazon-success-high-growth-brands",
+      "renderedLen": 78097,
+      "extractedLen": 15423,
+      "extractedTextLen": 8381,
+      "mdxBodyLen": 9164,
+      "ratioExtracted": 0.197,
+      "ratioMdxVsExtractedText": 1.093,
+      "hasMdx": true
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "renderedLen": 63024,
+      "extractedLen": 6396,
+      "extractedTextLen": 4990,
+      "mdxBodyLen": 5424,
+      "ratioExtracted": 0.101,
+      "ratioMdxVsExtractedText": 1.087,
+      "hasMdx": true
+    },
+    {
+      "slug": "system-first-business-strategy-scalable-growth",
+      "renderedLen": 76744,
+      "extractedLen": 13935,
+      "extractedTextLen": 7246,
+      "mdxBodyLen": 8134,
+      "ratioExtracted": 0.182,
+      "ratioMdxVsExtractedText": 1.123,
+      "hasMdx": true
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "renderedLen": 80354,
+      "extractedLen": 17895,
+      "extractedTextLen": 10087,
+      "mdxBodyLen": 10920,
+      "ratioExtracted": 0.223,
+      "ratioMdxVsExtractedText": 1.083,
+      "hasMdx": true
+    },
+    {
+      "slug": "top-amazon-seller-growth-hacks-2025",
+      "renderedLen": 61039,
+      "extractedLen": 17479,
+      "extractedTextLen": 6997,
+      "mdxBodyLen": 8332,
+      "ratioExtracted": 0.286,
+      "ratioMdxVsExtractedText": 1.191,
+      "hasMdx": true
+    },
+    {
+      "slug": "top-amazon-sellers-niche-research-guide",
+      "renderedLen": 63635,
+      "extractedLen": 6189,
+      "extractedTextLen": 4285,
+      "mdxBodyLen": 4702,
+      "ratioExtracted": 0.097,
+      "ratioMdxVsExtractedText": 1.097,
+      "hasMdx": true
+    },
+    {
+      "slug": "top-shopify-plugins-dtc-brands-2025-2",
+      "renderedLen": 55134,
+      "extractedLen": 12561,
+      "extractedTextLen": 5117,
+      "mdxBodyLen": 6593,
+      "ratioExtracted": 0.228,
+      "ratioMdxVsExtractedText": 1.288,
+      "hasMdx": true
+    },
+    {
+      "slug": "upc-codes-for-amazon",
+      "renderedLen": 58120,
+      "extractedLen": 15552,
+      "extractedTextLen": 6397,
+      "mdxBodyLen": 7797,
+      "ratioExtracted": 0.268,
+      "ratioMdxVsExtractedText": 1.219,
+      "hasMdx": true
+    },
+    {
+      "slug": "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+      "renderedLen": 73827,
+      "extractedLen": 28830,
+      "extractedTextLen": 10129,
+      "mdxBodyLen": 12681,
+      "ratioExtracted": 0.391,
+      "ratioMdxVsExtractedText": 1.252,
+      "hasMdx": true
+    },
+    {
+      "slug": "what-sets-ecom-gliders-apart-amazon-account-management",
+      "renderedLen": 62010,
+      "extractedLen": 7223,
+      "extractedTextLen": 5789,
+      "mdxBodyLen": 6543,
+      "ratioExtracted": 0.116,
+      "ratioMdxVsExtractedText": 1.13,
+      "hasMdx": true
+    },
+    {
+      "slug": "when-should-you-use-sponsored-display-ads",
+      "renderedLen": 74181,
+      "extractedLen": 17815,
+      "extractedTextLen": 7882,
+      "mdxBodyLen": 9070,
+      "ratioExtracted": 0.24,
+      "ratioMdxVsExtractedText": 1.151,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-amazon-sellers-fail-product-research",
+      "renderedLen": 62296,
+      "extractedLen": 5933,
+      "extractedTextLen": 4331,
+      "mdxBodyLen": 4785,
+      "ratioExtracted": 0.095,
+      "ratioMdxVsExtractedText": 1.105,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-amazon-sellers-plateau-system-led-brands",
+      "renderedLen": 76178,
+      "extractedLen": 14846,
+      "extractedTextLen": 8404,
+      "mdxBodyLen": 9472,
+      "ratioExtracted": 0.195,
+      "ratioMdxVsExtractedText": 1.127,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-everyone-is-boycotting-amazon-prime",
+      "renderedLen": 80853,
+      "extractedLen": 19023,
+      "extractedTextLen": 10230,
+      "mdxBodyLen": 11323,
+      "ratioExtracted": 0.235,
+      "ratioMdxVsExtractedText": 1.107,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-hiring-amazon-seo-ppc-agency-is-worth-it-2026",
+      "renderedLen": 68345,
+      "extractedLen": 11311,
+      "extractedTextLen": 5459,
+      "mdxBodyLen": 6229,
+      "ratioExtracted": 0.165,
+      "ratioMdxVsExtractedText": 1.141,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through",
+      "renderedLen": 85494,
+      "extractedLen": 24789,
+      "extractedTextLen": 14823,
+      "mdxBodyLen": 16333,
+      "ratioExtracted": 0.29,
+      "ratioMdxVsExtractedText": 1.102,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-people-are-leaving-amazon",
+      "renderedLen": 82000,
+      "extractedLen": 20119,
+      "extractedTextLen": 14984,
+      "mdxBodyLen": 15839,
+      "ratioExtracted": 0.245,
+      "ratioMdxVsExtractedText": 1.057,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-your-amazon-listing-looks-perfect-but-still-doesnt-rank",
+      "renderedLen": 61059,
+      "extractedLen": 5625,
+      "extractedTextLen": 4233,
+      "mdxBodyLen": 4767,
+      "ratioExtracted": 0.092,
+      "ratioMdxVsExtractedText": 1.126,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-your-amazon-organic-rank-dropped-suddenly",
+      "renderedLen": 57207,
+      "extractedLen": 2452,
+      "extractedTextLen": 1568,
+      "mdxBodyLen": 1919,
+      "ratioExtracted": 0.043,
+      "ratioMdxVsExtractedText": 1.224,
+      "hasMdx": true
+    },
+    {
+      "slug": "why-your-amazon-ppc-is-wasting-money-in-2026",
+      "renderedLen": 59350,
+      "extractedLen": 4610,
+      "extractedTextLen": 3261,
+      "mdxBodyLen": 3899,
+      "ratioExtracted": 0.078,
+      "ratioMdxVsExtractedText": 1.196,
+      "hasMdx": true
+    },
+    {
+      "slug": "woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose",
+      "renderedLen": 59275,
+      "extractedLen": 6131,
+      "extractedTextLen": 2232,
+      "mdxBodyLen": 2630,
+      "ratioExtracted": 0.103,
+      "ratioMdxVsExtractedText": 1.178,
+      "hasMdx": true
+    },
+    {
+      "slug": "zero-to-ten-thousand-dollars-amazon-income-roadmap",
+      "renderedLen": 88964,
+      "extractedLen": 25949,
+      "extractedTextLen": 10533,
+      "mdxBodyLen": 12662,
+      "ratioExtracted": 0.292,
+      "ratioMdxVsExtractedText": 1.202,
+      "hasMdx": true
+    }
+  ]
+}

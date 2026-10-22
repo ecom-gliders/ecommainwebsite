@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { readNavLink, readRecordArray, readString } from "./section-data";
 import { formatPublishedDate } from "./format-date";
@@ -40,25 +40,21 @@ export function BlogPreviewSection({ id, data }: BlogPreviewSectionProps) {
           return (
             <li key={key}>
               <article className="flex h-full flex-col overflow-hidden rounded-[10px] border-2 border-primary bg-background shadow-[4px_4px_0_0_#131311]">
-                <div className="relative aspect-[16/10] border-b-2 border-primary bg-surface">
-                  {image ? (
-                    <Image
-                      src={image}
-                      alt={imageAlt || title}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 1024px) 100vw, 33vw"
-                      quality={75}
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="flex h-full items-end bg-gradient-to-br from-accent/40 via-surface to-primary/10 px-5 py-4">
-                      <span className="text-small font-bold uppercase tracking-[0.1em] text-primary">
-                        Article
-                      </span>
-                    </div>
-                  )}
-                </div>
+                {image ? (
+                  <BlogFeaturedImage
+                    src={image}
+                    alt={imageAlt || title}
+                    className="aspect-[16/10] w-full border-b-2 border-primary"
+                    sizes="(max-width: 1024px) 100vw, 33vw"
+                    quality={75}
+                  />
+                ) : (
+                  <div className="relative flex aspect-[16/10] items-end overflow-hidden border-b-2 border-primary bg-gradient-to-br from-accent/40 via-surface to-primary/10 px-5 py-4">
+                    <span className="text-small font-bold uppercase tracking-[0.1em] text-primary">
+                      Article
+                    </span>
+                  </div>
+                )}
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
                   {date ? (
                     <time
@@ -76,7 +72,7 @@ export function BlogPreviewSection({ id, data }: BlogPreviewSectionProps) {
                       {title}
                     </Link>
                   </h3>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-text-secondary">
+                  <p className="mt-3 flex-1 text-sm font-medium leading-relaxed text-text-secondary">
                     {excerpt}
                   </p>
                   <Link

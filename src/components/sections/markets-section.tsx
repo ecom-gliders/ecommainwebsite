@@ -60,7 +60,7 @@ export function MarketsSection({ id, data }: MarketsSectionProps) {
           {heading}
         </h2>
         {subheading ? (
-          <p className="mx-auto mt-3 max-w-2xl text-base font-normal leading-relaxed text-text-secondary sm:mt-4 sm:text-lg">
+          <p className="mx-auto mt-3 max-w-2xl text-base font-medium leading-relaxed text-text-secondary sm:mt-4 sm:text-lg">
             {subheading}
           </p>
         ) : null}

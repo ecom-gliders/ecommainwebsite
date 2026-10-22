@@ -17,6 +17,22 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-23 — Global typography denser (AMZ Dudes-like)
+
+**WHAT:** Raise sitewide Satoshi scale and default body weight so copy no longer reads thin: body **18px / 500**, small **16px / 500**, headings larger with display/h1/stat at **900** (Fontshare-available weights only).
+
+**WHY:** Stakeholder feedback that body/text sizes felt too fine; council (Brand-SEO, A11y, Pragmatist) voted SHIP WITH CHANGES referencing AMZ Dudes density and existing `/services/` 18px demographic research — without changing font family or colors.
+
+**OPTIONS:** (A) Hub-only bump (B) Switch to Inter/system (C) Global token pass on Satoshi
+
+**CHOSEN:** C
+
+**TRADEOFFS:** Long blog posts and dense chrome may need spacing follow-ups; services-hub type overrides largely inherit globals now.
+
+**IMPACT:** `design-system.json` typography.scale + accessibility.minBodyFontSize; `globals.css` body + `.text-*` utilities; Fontshare still `400,500,700,900`.
+
+---
+
 ## 2026-10-22 — Canonical blog chart / figure / video
 
 **WHAT:** Lock three media patterns as the single canonical approach for blog templates: (1) `chart-cards` renders column bars + notes when percentages exist, (2) figures use ink-border 16:9 frames (fence + markdown images), (3) `video-card` embeds YouTube/Vimeo in-page; other hosts use link+poster.

@@ -208,7 +208,7 @@ export default async function CaseStudiesIndexPage({
                   {featured.metricLabel}
                 </p>
                 <p className="mt-4 text-h4">{featured.clientDisplayName ?? featured.client}</p>
-                <p className="mt-4 max-w-lg text-body text-text-secondary">{featured.excerpt}</p>
+                <p className="mt-4 max-w-lg text-body font-medium text-text-secondary">{featured.excerpt}</p>
                 {featured.results?.metrics?.length ? (
                   <ul className="mt-6 grid grid-cols-2 gap-3">
                     {featured.results.metrics.slice(0, 4).map((metric) => (
@@ -266,7 +266,7 @@ export default async function CaseStudiesIndexPage({
         <SectionShell id="case-studies-grid" tone="muted" className="py-12 sm:py-16">
           <div className="mb-8 max-w-2xl">
             <h2 className="text-h2">All case studies</h2>
-            <p className="mt-2 text-body text-text-secondary">
+            <p className="mt-2 text-body font-medium text-text-secondary">
               Filter by service. Every card shows a hard outcome, category, and engagement window.
             </p>
           </div>

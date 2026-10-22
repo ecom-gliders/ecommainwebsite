@@ -162,7 +162,7 @@ export function HeroSection({ id, data }: HeroSectionProps) {
           </h1>
 
           {subheadline ? (
-            <p className="mt-5 max-w-xl text-base font-normal leading-relaxed text-text-secondary text-pretty sm:mt-6 sm:text-lg">
+            <p className="mt-5 max-w-xl text-base font-medium leading-relaxed text-text-secondary text-pretty sm:mt-6 sm:text-lg">
               {subheadline}
             </p>
           ) : null}

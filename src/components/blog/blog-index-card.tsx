@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { BlogPostFrontmatter } from "@/domain/content/schemas";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { formatPublishedDate } from "@/components/sections/format-date";
 import { caseStudyHardPanel } from "@/components/case-studies/case-study-hard-panel";
 import { cn } from "@/lib/utils";
@@ -23,26 +23,26 @@ export function BlogIndexCard({ post }: BlogIndexCardProps) {
         href={`/${post.slug}/`}
         className="group flex h-full flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
       >
-        <div className="relative aspect-[16/10] overflow-hidden border-b-2 border-primary bg-surface-muted">
-          {post.featuredImage ? (
-            <Image
-              src={post.featuredImage}
-              alt=""
-              fill
-              className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              quality={75}
-            />
-          ) : (
-            <div className="flex h-full items-center justify-center text-small text-text-secondary">
+        {post.featuredImage ? (
+          <BlogFeaturedImage
+            src={post.featuredImage}
+            alt=""
+            className="aspect-[16/10] w-full border-b-2 border-primary"
+            imageClassName="transition-transform duration-300 group-hover:scale-[1.02]"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            quality={75}
+          />
+        ) : (
+          <div className="relative flex aspect-[16/10] items-center justify-center overflow-hidden border-b-2 border-primary bg-surface-muted">
+            <span className="text-small font-medium text-text-secondary">
               No image
-            </div>
-          )}
-        </div>
+            </span>
+          </div>
+        )}
         <div className="flex flex-1 flex-col p-5">
           <time
             dateTime={post.publishedAt}
-            className="text-small text-text-secondary"
+            className="text-small font-medium text-text-secondary"
           >
             {formatPublishedDate(post.publishedAt)}
           </time>
@@ -50,7 +50,7 @@ export function BlogIndexCard({ post }: BlogIndexCardProps) {
             {post.title}
           </h3>
           {post.excerpt ? (
-            <p className="mt-2 line-clamp-3 flex-1 text-body text-text-secondary">
+            <p className="mt-2 line-clamp-3 flex-1 text-body font-medium text-text-secondary">
               {post.excerpt}
             </p>
           ) : null}

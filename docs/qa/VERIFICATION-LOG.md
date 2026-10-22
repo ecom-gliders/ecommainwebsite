@@ -4,24 +4,50 @@ Record of verification results for project tasks.
 
 ---
 
-## 2026-10-20 — `/services/` hub redesign
+## 2026-10-22 ? Blog convert-all + editorial shell
+
+**Task:** Config-driven blocks; convert-not-delete sanitize across 328; editorial hero/TOC/share  
+**Verification method:** `npm run build`; Playwright `:3001` on sponsored-display + FBA  
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** `blog-blocks.json` registry; sanitize plugins; batch write; editorial shell + share rail + smooth TOC  
+**VERIFIED:** Build OK; sponsored-display: no CSS dump, feature-grid, share + TOC + hero; FBA: feature-grid + FAQ + share  
+**DOCUMENTED:** `BLOG-BLOCKS.md`, `BLOG-TEMPLATES.md`, `SESSION-STATE.md`  
+**REMAINING:** None for this plan  
+**NEXT ACTION:** Optional commit when requested  
+
+---
+
+## 2026-10-22 — Blog detail sanitize + themed blocks
+
+**Task:** Sanitize MDX chrome/grids; themed FeatureGrid/Callout/tables; no rehype-raw  
+**Verification method:** `npm run build`; Playwright on `:3001` for FBA inventory, 40-dollar fee, strategic-leverage posts  
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Inventory script; `sanitizeBlogMarkdown`; batch write 325/328; `BlogFeatureGrid`/`BlogCallout`/GFM tables; docs  
+**VERIFIED:** Build OK; no `elementor-` / `.glider-btn` / beehiiv in rendered HTML; feature grid list present on FBA post; FAQ accordion 3 items; single H1  
+**DOCUMENTED:** `BLOG-TEMPLATES.md`, `CONTENT-AUDIT-LOG.md`, `BLOG-DIRTY-MDX-INVENTORY.json`, `BLOG-SANITIZE-REPORT.json`  
+**REMAINING:** None for this plan  
+**NEXT ACTION:** Optional commit when requested  
+
+---
+
+## 2026-10-20 â `/services/` hub redesign
 
 **Task:** Rebuild services index from AMZ Dudes IA + consultant plan  
 **Verification method:** tsc; next build; Playwright localhost DOM + computed styles  
 
 **STATUS:** IMPLEMENTED (local)  
-**IMPLEMENTED:** Full-Service parent, 01–08 rail, green metric results rows, Also available, hub type scale, pre-footer suppress on `/services`  
-**VERIFIED:** tsc clean; build includes `/services`; metric `310%` = `rgb(6,125,98)` / `72px` / `800`; no duplicate “Ready to scale” H2  
+**IMPLEMENTED:** Full-Service parent, 01â08 rail, green metric results rows, Also available, hub type scale, pre-footer suppress on `/services`  
+**VERIFIED:** tsc clean; build includes `/services`; metric `310%` = `rgb(6,125,98)` / `72px` / `800`; no duplicate âReady to scaleâ H2  
 **NEXT ACTION:** User review http://localhost:3000/services/; deploy when ready  
 
 ---
 
-## 2026-10-20 — Pass 2 visual grammar variants (all 15)
+## 2026-10-20 â Pass 2 visual grammar variants (all 15)
 
 **Task:** Break shared macOS browser + lime horizontal bar look across services  
 **Verification method:** tsc; Playwright sample screenshots  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX on Pass 2 series  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX on Pass 2 series  
 **IMPLEMENTED:**
 - `catalogHealthBoard.variant`: mac | seller-console | sheet
 - `brandPathwayBoard.variant`: mac | rail | stamp
@@ -34,91 +60,91 @@ Record of verification results for project tasks.
 
 ---
 
-## 2026-10-20 — Per-service unique layouts series close (1–15)
+## 2026-10-20 â Per-service unique layouts series close (1â15)
 
 **Task:** Confirm all 15 services have distinct layouts and resolve locally after TikTok KEEP  
 **Verification method:** curl HTTP status for each slug on localhost:3000  
 
-**STATUS:** VERIFIED (local) — series complete  
-**VERIFIED:** 15/15 HTTP 200; each JSON has unique `layout` (catalog-ops … tiktok-ops)  
+**STATUS:** VERIFIED (local) â series complete  
+**VERIFIED:** 15/15 HTTP 200; each JSON has unique `layout` (catalog-ops â¦ tiktok-ops)  
 **DOCUMENTED:** SESSION-STATE, CHAT-SUMMARIES  
 **REMAINING:** Vercel next/font deploy retry; production cutover  
 **NEXT ACTION:** Deploy staging when font loader fixed, or user-directed FIX pass  
 
 ---
 
-## 2026-10-20 — TikTok Shop ads layout tiktok-ops (Service 15)
+## 2026-10-20 â TikTok Shop ads layout tiktok-ops (Service 15)
 
-**Task:** Unique TikTok page — channel-fit board + creative-before-scale chart + Shop-ad opsLanes (Amazon complementary; no GMV/ROAS invent; no 4-card gallery)  
+**Task:** Unique TikTok page â channel-fit board + creative-before-scale chart + Shop-ad opsLanes (Amazon complementary; no GMV/ROAS invent; no 4-card gallery)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
 **Evidence:** Live `/tiktok-shop-ads/` 404. D2 gate: no Viral Brand Works / Sequence GMV claims. Amazon cases framed as foundations only.  
-**VERIFIED order:** Hero → Channel-fit board → Creative-before-scale chart → Shop-ad risks → Complementary path → Flow spotlight  
+**VERIFIED order:** Hero â Channel-fit board â Creative-before-scale chart â Shop-ad risks â Complementary path â Flow spotlight  
 **Local:** http://localhost:3000/tiktok-shop-ads/  
-**NEXT ACTION:** User KEEP/FIX → series complete (services 1–15 unique layouts local)  
+**NEXT ACTION:** User KEEP/FIX â series complete (services 1â15 unique layouts local)  
 
 ---
 
-## 2026-10-20 — Video creative layout video-ops (Service 14)
+## 2026-10-20 â Video creative layout video-ops (Service 14)
 
-**Task:** Unique video page — storyboard beat board + cut-risk opsLanes + placement priority chart (no invented video CTR; no 3-card gallery)  
+**Task:** Unique video page â storyboard beat board + cut-risk opsLanes + placement priority chart (no invented video CTR; no 3-card gallery)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
 **Evidence:** Live `/amazon-video-creative/` 404. C1 gate: no video-attributed primary metrics. Cases framed as creative standards to reinforce.  
-**VERIFIED order:** Hero → Beat board → Cut risks → Placement chart → Path → Storyboard spotlight  
+**VERIFIED order:** Hero â Beat board â Cut risks â Placement chart â Path â Storyboard spotlight  
 **Local:** http://localhost:3000/amazon-video-creative/  
-**NEXT ACTION:** User KEEP/FIX → Service 15 TikTok Shop Ads  
+**NEXT ACTION:** User KEEP/FIX â Service 15 TikTok Shop Ads  
 
 ---
 
-## 2026-10-20 — Visual creativity layout visual-ops (Service 13)
+## 2026-10-20 â Visual creativity layout visual-ops (Service 13)
 
-**Task:** Unique visual page — physical before/after + PDP sequence board + production priority chart (not CVR clone; not 5-card gallery)  
+**Task:** Unique visual page â physical before/after + PDP sequence board + production priority chart (not CVR clone; not 5-card gallery)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
-**Evidence:** Live `/amazon-visual-creativity/` 404. Creative library before/after Verified. Competitor “89% order increase” not copied. Case results NIKKETTA / GoSports retained in Results.  
-**VERIFIED order:** Hero → Physical before/after (single) → Sequence board → Priority chart → Path → A+ spotlight  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
+**Evidence:** Live `/amazon-visual-creativity/` 404. Creative library before/after Verified. Competitor â89% order increaseâ not copied. Case results NIKKETTA / GoSports retained in Results.  
+**VERIFIED order:** Hero â Physical before/after (single) â Sequence board â Priority chart â Path â A+ spotlight  
 **Local:** http://localhost:3000/amazon-visual-creativity/  
-**NEXT ACTION:** User KEEP/FIX → Service 14 Video Creative  
+**NEXT ACTION:** User KEEP/FIX â Service 14 Video Creative  
 
 ---
 
-## 2026-10-20 — Content writing layout copy-ops (Service 12)
+## 2026-10-20 â Content writing layout copy-ops (Service 12)
 
-**Task:** Unique copy page — claim/voice board + draft-risk opsLanes + A+/Store CVR chart (not listing field scorecard; no 3-card gallery)  
+**Task:** Unique copy page â claim/voice board + draft-risk opsLanes + A+/Store CVR chart (not listing field scorecard; no 3-card gallery)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
-**Evidence:** Live `/amazon-content-writing/` 404; A+ blog confirms A+ does not directly rank (Verified). Cases: NIKKETTA 11.3→22.1; Kitchen Brand Store 4.8→9.2. Competitor CVR guarantees not copied.  
-**VERIFIED order:** Hero → Claim/voice board → Draft risks → Outcome chart → Path → Structure spotlight  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
+**Evidence:** Live `/amazon-content-writing/` 404; A+ blog confirms A+ does not directly rank (Verified). Cases: NIKKETTA 11.3â22.1; Kitchen Brand Store 4.8â9.2. Competitor CVR guarantees not copied.  
+**VERIFIED order:** Hero â Claim/voice board â Draft risks â Outcome chart â Path â Structure spotlight  
 **Local:** http://localhost:3000/amazon-content-writing/  
-**NEXT ACTION:** User KEEP/FIX → Service 13 Visual Creativity  
+**NEXT ACTION:** User KEEP/FIX â Service 13 Visual Creativity  
 
 ---
 
-## 2026-10-20 — Listing layout listing-seo (Service 11)
+## 2026-10-20 â Listing layout listing-seo (Service 11)
 
-**Task:** Unique listing SEO page — field scorecard + verified CVR chart (not PSA cards; not catalog suppressions; not account weekly board)  
+**Task:** Unique listing SEO page â field scorecard + verified CVR chart (not PSA cards; not catalog suppressions; not account weekly board)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
-**Evidence used:** GoSports CVR 9.8→26.7; Safefine 10.1→28.9 (case studies). Live `/amazon-listing-optimization/` redirects to blog with unverified 20% rank claim — not reused.  
-**VERIFIED order:** Hero → Field scorecard → CVR chart → ASIN path → Anatomy spotlight → Deliverables/Results/FAQ  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
+**Evidence used:** GoSports CVR 9.8â26.7; Safefine 10.1â28.9 (case studies). Live `/amazon-listing-optimization/` redirects to blog with unverified 20% rank claim â not reused.  
+**VERIFIED order:** Hero â Field scorecard â CVR chart â ASIN path â Anatomy spotlight â Deliverables/Results/FAQ  
 **Absent (intended):** Problem/Audience/Solution card stack; 3-card creative gallery (removed as dabba stack)  
 **Local:** http://localhost:3000/amazon-listing-optimization/  
-**NEXT ACTION:** User KEEP/FIX → Service 12 Content Writing  
+**NEXT ACTION:** User KEEP/FIX â Service 12 Content Writing  
 
 ---
 
-## 2026-10-20 — Full-service layout account-ops (Service 10)
+## 2026-10-20 â Full-service layout account-ops (Service 10)
 
-**Task:** Unique full-account page — weekly ownership board + cross-pod Issue/Fix/Verify + named outcome chart (not PSA card stack; not DSP readiness)  
+**Task:** Unique full-account page â weekly ownership board + cross-pod Issue/Fix/Verify + named outcome chart (not PSA card stack; not DSP readiness)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting KEEP/FIX  
+**STATUS:** IMPLEMENTED (local) â awaiting KEEP/FIX  
 **IMPLEMENTED:**
 - `layout: "account-ops"` on `full-service-amazon-agency.json`
 - Modules: browserProof, weekly ownership `catalogHealthBoard`, metricChart, pathway, pod-map spotlight
@@ -126,61 +152,61 @@ Record of verification results for project tasks.
 - Live-site unprofessional 90-day claims not reused
 
 **VERIFIED (local region order):**
-Hero → Account-scale proof → Weekly ownership board → Cross-pod Issue/Fix/Verify → Named outcomes chart → Engagement path → Pod map → Deliverables → Results → FAQ
+Hero â Account-scale proof â Weekly ownership board â Cross-pod Issue/Fix/Verify â Named outcomes chart â Engagement path â Pod map â Deliverables â Results â FAQ
 
 **Local:** http://localhost:3000/full-service-amazon-agency/  
-**NEXT ACTION:** User KEEP/FIX → Service 11 Listing Optimization  
+**NEXT ACTION:** User KEEP/FIX â Service 11 Listing Optimization  
 
 ---
 
-## 2026-10-20 — DSP layout dsp-ops (Service 9)
+## 2026-10-20 â DSP layout dsp-ops (Service 9)
 
-**Task:** Unique DSP page — readiness board + funnel role chart + path (no Brand Registry unlock card stack)  
+**Task:** Unique DSP page â readiness board + funnel role chart + path (no Brand Registry unlock card stack)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — counsel KEEP  
-**VERIFIED:** Hero → browser proof → readiness board → funnel role chart → engagement path → audience spotlight  
+**STATUS:** IMPLEMENTED (local) â counsel KEEP  
+**VERIFIED:** Hero â browser proof â readiness board â funnel role chart â engagement path â audience spotlight  
 **Absent (intended):** Problem/Audience/Solution card stack; invented AMC/min-spend/DSP-ROAS  
 **Local:** http://localhost:3000/amazon-dsp-management/  
 **Screenshots:** `.playwright-mcp/service-audit/counsel-09-dsp-*.png`  
 
 ---
 
-## 2026-10-20 — Trademark layout brand-pathway (Service 2)
+## 2026-10-20 â Trademark layout brand-pathway (Service 2)
 
-**Task:** Unique Brand Registry page — pathway browser board + unlock grid (not Catalog ASIN table)  
+**Task:** Unique Brand Registry page â pathway browser board + unlock grid (not Catalog ASIN table)  
 **Verification method:** tsc; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — Vercel deploy failed (`next/font` Google loader) this session  
-**VERIFIED H2 order:** Pipeline → Unlock grid → Pathway diagram → Scope → Results → FAQ  
+**STATUS:** IMPLEMENTED (local) â Vercel deploy failed (`next/font` Google loader) this session  
+**VERIFIED H2 order:** Pipeline â Unlock grid â Pathway diagram â Scope â Results â FAQ  
 **Absent (intended):** Service credentials, Why sellers delay, Who it is for, How we support (4-card solution)  
 **Local:** http://localhost:3000/amazon-trademark-brand-registry/  
-**NEXT ACTION:** User KEEP/FIX → retry deploy → Service 3 counsel  
+**NEXT ACTION:** User KEEP/FIX â retry deploy â Service 3 counsel  
 
 ---
 
-## 2026-10-20 — Catalog layout catalog-ops (Service 1)
+## 2026-10-20 â Catalog layout catalog-ops (Service 1)
 
 **Task:** Break shared PSA card stack; browser health board + Issue/Fix/Verify + case metricChart  
 **Verification method:** tsc; Zod parse; Playwright localhost:3000  
 
-**STATUS:** IMPLEMENTED (local) — awaiting user KEEP/FIX  
+**STATUS:** IMPLEMENTED (local) â awaiting user KEEP/FIX  
 **IMPLEMENTED:**
 - `layout: "catalog-ops"` on `amazon-catalog-management.json`
 - Modules: `catalogHealthBoard`, `metricChart`, one `infographicSpotlight`
 - `opsLanes` section; empty `stats`; template branch skips problem/audience/solution/differ
 
 **VERIFIED (local H2 order):**
-Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked outcomes → How catalog health work is structured → What catalog management covers → Results → FAQ → Related
+Hero form â Catalog health board â Issue, fix, and verify â Catalog-linked outcomes â How catalog health work is structured â What catalog management covers â Results â FAQ â Related
 
 **Absent (intended):** Service credentials stats, Why catalogs break, Who it is for, How we manage (4-card solution), Why us differ board
 
 **Local:** http://localhost:3000/amazon-catalog-management/  
-**NEXT ACTION:** User KEEP/FIX → deploy staging → Service 2 counsel  
+**NEXT ACTION:** User KEEP/FIX â deploy staging â Service 2 counsel  
 
 ---
 
-## 2026-10-17 — Per-service graphics + body layouts
+## 2026-10-17 â Per-service graphics + body layouts
 
 **Task:** P0 spotlight quality; ContainedMedia spotlight variant; Wave D body grammars + early/late modules; Wave A/B diagrams; Wave C gallery reuse  
 **Verification method:** tsc; Vercel preview + alias `ecom-gliders.vercel.app`; Playwright DOM  
@@ -194,9 +220,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Listing/content gallery: `search-ranking-optimization.png`
 
 **VERIFIED (catalog 1440):**
-- Order: stats → problem → audience → solution → spotlight → spotlight-2 → deliverables → differ → process → checklist
+- Order: stats â problem â audience â solution â spotlight â spotlight-2 â deliverables â differ â process â checklist
 - Spotlights: q=85, sharp `nw=1200`, blurSpot=0, q90=0
-- Problem primary width 1240; satellites 3×403; Solution spine widths 768 (not twin 612×134)
+- Problem primary width 1240; satellites 3Ã403; Solution spine widths 768 (not twin 612Ã134)
 - Stats lead `.bg-accent` present; audience chips 4; FAQ lime chrome
 - PPC: browserProof + spotlight before deliverables; chart present
 - Shopify: spotlight-2 + sync mechanics heading
@@ -207,7 +233,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-17 — Service body sections visual redesign
+## 2026-10-17 â Service body sections visual redesign
 
 **Task:** Break Problem/Audience Fit Matrix twins; early stats; Solution stage cards; processSteps timeline; section kickers  
 **Verification method:** tsc; Vercel deploy + alias; fetch + Playwright DOM heights  
@@ -220,7 +246,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Section kickers via `SectionHeading` `kicker` prop
 
 **VERIFIED (catalog desktop 1440):**
-- Order: hero → stats → problem → audience → solution…
+- Order: hero â stats â problem â audience â solutionâ¦
 - Kickers present; Problem 4 panels vs Audience 1 strip; heights 510 vs 490 (no longer identical twin chrome)
 - https://ecom-gliders.vercel.app/amazon-catalog-management/
 
@@ -228,9 +254,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-16 — Services niche visual density
+## 2026-10-16 â Services niche visual density
 
-**Task:** Unfilter modules, stats strip, infographicSpotlight, gallery fix, metricChart weight, hero atmosphere — all 15 services  
+**Task:** Unfilter modules, stats strip, infographicSpotlight, gallery fix, metricChart weight, hero atmosphere â all 15 services  
 **Verification method:** Zod/tsc; Vercel remote build; fetch all 15 staging URLs; H2/module spot-check  
 
 **STATUS:** COMPLETE (staging)  
@@ -251,9 +277,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-16 — Case studies visual density pass
+## 2026-10-16 â Case studies visual density pass
 
-**Task:** Fix empty hub/detail chrome — atmospheres, proof cards, denser heroes  
+**Task:** Fix empty hub/detail chrome â atmospheres, proof cards, denser heroes  
 **Verification method:** Localhost screenshots + Vercel staging fetch  
 
 **STATUS:** COMPLETE (staging)  
@@ -271,7 +297,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-15 — Case studies enterprise presentation
+## 2026-10-15 â Case studies enterprise presentation
 
 **Task:** Rebuild hub + detail layouts; port live content; mirror assets; staging deploy  
 **Verification method:** Zod parse; localhost:3010 fetch checks; Vercel Linux build  
@@ -290,7 +316,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **VERIFIED:**
 - Zod: 9 studies parse OK
 - Local HTTP 200: `/case-studies/`, `/case-study-1|3|5|9/`
-- Hub H1 “Turning goals into growth”; FARBERWARE + GoSports + 310%; local `/images/cases/` (no WP CDN in HTML)
+- Hub H1 âTurning goals into growthâ; FARBERWARE + GoSports + 310%; local `/images/cases/` (no WP CDN in HTML)
 - case-study-5 body: no melatonin contamination (Culturelle only in related cards)
 - case-study-9: key issues + Free Audit + Related
 - Vercel build SUCCESS; preview `https://ecom-gliders-8z01694bc-faizanmayo786s-projects.vercel.app` (Deployment Protection may require auth)
@@ -303,7 +329,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-15 — Staging deploy (video reviews reels)
+## 2026-10-15 â Staging deploy (video reviews reels)
 
 **Task:** Deploy homepage video reviews (covers, metrics, hover loop, arrows/drag) to Vercel  
 **Verification method:** `npx vercel --prod --yes`; HTTP check  
@@ -314,11 +340,11 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Inspect: https://vercel.com/faizanmayo786s-projects/ecom-gliders/3exa1PiLfsfzrdTkvSrs9v6QzTZB (Verified)
 - Deployment: https://ecom-gliders-d4ozifqnp-faizanmayo786s-projects.vercel.app (Verified)
 **STATUS:** Staging deploy COMPLETE  
-**NEXT ACTION:** Spot-check video reviews on staging; production DNS cutover — Requires confirmation
+**NEXT ACTION:** Spot-check video reviews on staging; production DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-15 — Video review AI covers + hover muted preview
+## 2026-10-15 â Video review AI covers + hover muted preview
 
 **Task:** AI cover images from Vumbnail frames; hover muted Vimeo background preview  
 **Verification method:** Playwright hover + image naturalWidth on `http://localhost:3002/`  
@@ -331,11 +357,11 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshot: `docs/qa/screenshots/video-reviews-hover-preview.png` (Verified)
 **Notes:** Local MP4 hover clips unavailable (Vimeo login/403). Iframe preview is the working alternative.  
 **STATUS:** COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Client video reviews (Favrick-style reels)
+## 2026-10-15 â Client video reviews (Favrick-style reels)
 
 **Task:** Homepage `videoReviews` reel strip + Vimeo lightbox  
 **Verification method:** Playwright on `http://localhost:3002/` (desktop 1440 + mobile 390)  
@@ -350,67 +376,67 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Text `#testimonials` still present (Verified)
 - Screenshots: `docs/qa/screenshots/video-reviews-strip-desktop.png`, `video-reviews-strip-mobile.png`, `video-reviews-lightbox.png` (Verified)
 **STATUS:** Video reviews COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-09-02 — Phase 0 design system gate
+## 2026-09-02 â Phase 0 design system gate
 
-**Task:** P0-02 through P0-06 — design system implementation  
+**Task:** P0-02 through P0-06 â design system implementation  
 **Verification method:** TypeScript compile, grep for hardcoded hex, HTTP status, Playwright page load  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `curl http://localhost:3001/design-system` — HTTP 200
-- Playwright navigate to `/design-system` — page title "Design System — eCom Gliders"
-- Grep `src/` for hex — only macOS traffic-light chrome (#FF5F57, #FFBD2E, #28C840) and documentation copy strings
-- `content/config/design-system.json` — single source of truth for brand colors
-- `src/app/design-system/page.tsx` — `robots: { index: false }`
+- `npx tsc --noEmit` â exit 0
+- `curl http://localhost:3001/design-system` â HTTP 200
+- Playwright navigate to `/design-system` â page title "Design System â eCom Gliders"
+- Grep `src/` for hex â only macOS traffic-light chrome (#FF5F57, #FFBD2E, #28C840) and documentation copy strings
+- `content/config/design-system.json` â single source of truth for brand colors
+- `src/app/design-system/page.tsx` â `robots: { index: false }`
 - 16 core sections + accessibility + motion decision on review page
 
 **Notes:**
 - Production `npm run build` may fail on Windows with EISDIR; dev server verified
-- P0-07 user approval not yet given — blocks Phase 1
+- P0-07 user approval not yet given â blocks Phase 1
 
 ---
 
-## 2026-09-02 — Token pipeline
+## 2026-09-02 â Token pipeline
 
-**Task:** P0-05 — design-tokens.ts + CSS variable injection  
+**Task:** P0-05 â design-tokens.ts + CSS variable injection  
 **Verification method:** Code review, layout.tsx inline style injection  
 **Result:** pass  
 **Evidence:**
-- `src/lib/design-tokens.ts` — Zod schema validates `design-system.json`
+- `src/lib/design-tokens.ts` â Zod schema validates `design-system.json`
 - `buildCssVariables()` exports color, spacing, radius, shadow, typography vars
-- `src/app/layout.tsx` — injects vars on `<html style={...}>`
-- `src/app/globals.css` — `@theme inline` maps Tailwind tokens to CSS vars
+- `src/app/layout.tsx` â injects vars on `<html style={...}>`
+- `src/app/globals.css` â `@theme inline` maps Tailwind tokens to CSS vars
 
-**Notes:** Change hex in JSON → restart dev → swatch updates (manual test recommended)
+**Notes:** Change hex in JSON â restart dev â swatch updates (manual test recommended)
 
 ---
 
-## 2026-09-02 — Brand token extraction
+## 2026-09-02 â Brand token extraction
 
-**Task:** P0-03 — logo and design-system.json  
+**Task:** P0-03 â logo and design-system.json  
 **Verification method:** File existence, DOWNLOAD-LOG cross-check  
 **Result:** pass  
 **Evidence:**
-- `public/images/logo.png` — 729×216, 15 KB
-- `docs/research/DOWNLOAD-LOG.md` — provenance recorded
-- `content/config/design-system.json` — brand, colors, typography, spacing, components, motion, usage
+- `public/images/logo.png` â 729Ã216, 15 KB
+- `docs/research/DOWNLOAD-LOG.md` â provenance recorded
+- `content/config/design-system.json` â brand, colors, typography, spacing, components, motion, usage
 
 **Notes:** Logo colors refined to navy #0B1B3A and Amazon orange #E47911 during review iterations
 
 ---
 
-## 2026-09-02 — P1-05 site and navigation config
+## 2026-09-02 â P1-05 site and navigation config
 
-**Task:** P1-05 — site.json + navigation.json with Zod validation  
+**Task:** P1-05 â site.json + navigation.json with Zod validation  
 **Verification method:** TypeScript compile, runtime Zod parse via tsx import  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `npx tsx` import of `site-navigation-config.ts` — site name "eCom Gliders", 5 header nav items
+- `npx tsc --noEmit` â exit 0
+- `npx tsx` import of `site-navigation-config.ts` â site name "eCom Gliders", 5 header nav items
 - Schemas: `src/domain/content/schemas/site-config.schema.ts`, `navigation.schema.ts`
 - Config files: `content/config/site.json`, `content/config/navigation.json`
 
@@ -418,59 +444,59 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P1-06 ContentRepository and adapters
+## 2026-09-02 â P1-06 ContentRepository and adapters
 
-**Task:** P1-06 — ContentRepository interface + JSON adapter  
+**Task:** P1-06 â ContentRepository interface + JSON adapter  
 **Verification method:** TypeScript compile, runtime repository smoke test  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `createContentRepository()` — site "eCom Gliders", 5 nav items, 0 blog slugs
-- `getHomepage()` — throws `ContentNotFoundError` (homepage.json not yet created; expected)
+- `npx tsc --noEmit` â exit 0
+- `createContentRepository()` â site "eCom Gliders", 5 nav items, 0 blog slugs
+- `getHomepage()` â throws `ContentNotFoundError` (homepage.json not yet created; expected)
 - Files: `content-repository.ts`, `json-file-content-repository.ts`, `mdx-blog-repository.ts`, `composite-content-repository.ts`, `create-content-repository.ts`
 
 **Notes:** Blog MDX parsing deferred to P3-01; MdxBlogRepository returns null/empty until then
 
 ---
 
-## 2026-09-02 — P1-07 Header and mega menu
+## 2026-09-02 â P1-07 Header and mega menu
 
-**Task:** P1-07 — Header + mega menu per Navigation-Footer-Spec  
+**Task:** P1-07 â Header + mega menu per Navigation-Footer-Spec  
 **Verification method:** TypeScript compile, Playwright page load, hover interaction, desktop + mobile screenshots  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- Playwright navigate to `http://localhost:3002/` — page title "eCom Gliders"
+- `npx tsc --noEmit` â exit 0
+- Playwright navigate to `http://localhost:3002/` â page title "eCom Gliders"
 - Accessibility snapshot: `banner`, `navigation "Main"`, Services button `aria-expanded`, mega menu with Core Services / Other Services / CTA panel
 - Screenshots: `p1-07-header-desktop.png`, `p1-07-header-mobile.png`, `p1-07-mega-menu-desktop.png`
 - No hardcoded hex in `src/components/layout/` (grep verified)
 
-**Notes:** Next.js Link renders URLs without trailing slash in DOM; `trailingSlash` config not yet set — requires confirmation before production cutover
+**Notes:** Next.js Link renders URLs without trailing slash in DOM; `trailingSlash` config not yet set â requires confirmation before production cutover
 
 ---
 
-## 2026-09-02 — P1-08 Footer
+## 2026-09-02 â P1-08 Footer
 
-**Task:** P1-08 — Footer (4-column + pre-footer CTA)  
+**Task:** P1-08 â Footer (4-column + pre-footer CTA)  
 **Verification method:** TypeScript compile, Playwright snapshot after scroll, desktop + mobile screenshots  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright snapshot: `contentinfo` landmark with pre-footer heading, 4 columns (brand/services/company/contact), legal links
 - Screenshots: `p1-08-footer-desktop.png`, `p1-08-footer-mobile.png`
 - No hardcoded hex in `src/components/layout/` (grep verified)
 
-**Notes:** Partner badge image `/images/amazon-verified-partner.png` not yet in `public/` — text Badge fallback used
+**Notes:** Partner badge image `/images/amazon-verified-partner.png` not yet in `public/` â text Badge fallback used
 
 ---
 
-## 2026-09-02 — P1-09 Mobile navigation
+## 2026-09-02 â P1-09 Mobile navigation
 
-**Task:** P1-09 — Mobile nav sheet drawer  
+**Task:** P1-09 â Mobile nav sheet drawer  
 **Verification method:** TypeScript compile, Playwright mobile viewport interaction  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright 390px viewport: hamburger `Open navigation menu` visible; dialog opens with `aria-hidden` on page content
 - Services accordion expands; links for Case Studies, About, Blog, Contact; Free Audit + phone + email in drawer
 - Close button labeled `Close navigation menu` per `navigation.json`
@@ -480,13 +506,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P2-01 BrowserMockup component
+## 2026-09-02 â P2-01 BrowserMockup component
 
-**Task:** P2-01 — Production BrowserMockup component  
+**Task:** P2-01 â Production BrowserMockup component  
 **Verification method:** TypeScript compile, Playwright on `/design-system#browser-mockup`  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright snapshot: macOS "PPC Dashboard" + iOS "Account Analytics" figures with `role="img"` and descriptive aria-labels
 - Config key `components.browserMockup` label visible in section 13
 - Screenshot: `p2-01-browser-mockup-desktop.png`
@@ -496,28 +522,28 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P2-02 homepage.json
+## 2026-09-02 â P2-02 homepage.json
 
-**Task:** P2-02 — Homepage config + Zod validation  
+**Task:** P2-02 â Homepage config + Zod validation  
 **Verification method:** TypeScript compile, ContentRepository parse via tsx  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `JsonFileContentRepository.getHomepage()` — 12 sections, types: hero, trustBar, stats, services, sellerSegments, caseStudies, process, comparison, testimonials, blogPreview, faq, cta
+- `npx tsc --noEmit` â exit 0
+- `JsonFileContentRepository.getHomepage()` â 12 sections, types: hero, trustBar, stats, services, sellerSegments, caseStudies, process, comparison, testimonials, blogPreview, faq, cta
 - SEO metaTitle: `Amazon Account Management Agency | eCom Gliders`
 
 **Notes:** Five named testimonials in config; sixth required per brief before launch. Trust bar logo assets not yet in `public/images/`.
 
 ---
 
-## 2026-09-02 — P2-03 homepage section components
+## 2026-09-02 â P2-03 homepage section components
 
-**Task:** P2-03 — 12 homepage section components  
+**Task:** P2-03 â 12 homepage section components  
 **Verification method:** TypeScript compile, Playwright on `/design-system#homepage-sections`, desktop + mobile viewport  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- Playwright snapshot: hero H1, Agency vs DIY heading, config key `homepage.json → sections[]`
+- `npx tsc --noEmit` â exit 0
+- Playwright snapshot: hero H1, Agency vs DIY heading, config key `homepage.json â sections[]`
 - Screenshots: `p2-03-homepage-sections-desktop.png`, `p2-03-homepage-sections-mobile.png`
 - No hardcoded brand hex in `src/components/sections/` (grep verified)
 - Expected 404 for trust bar images pending asset migration; Badge text fallback observed
@@ -526,28 +552,28 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P2-04 homepage assembly
+## 2026-09-02 â P2-04 homepage assembly
 
-**Task:** P2-04 — Assemble homepage at `/`  
+**Task:** P2-04 â Assemble homepage at `/`  
 **Verification method:** TypeScript compile, Playwright desktop + mobile  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright at `http://localhost:3002/`: H1 "Full-service Amazon growth for ambitious FBA brands", 12 sections (hero through final CTA), header + footer
 - Screenshots: `p2-04-homepage-desktop.png`, `p2-04-homepage-mobile.png`
-- Page title still root default "eCom Gliders" — P2-05 scope
+- Page title still root default "eCom Gliders" â P2-05 scope
 
 **Notes:** Trust bar image 404s unchanged; Badge fallback active
 
 ---
 
-## 2026-09-02 — P2-05 homepage SEO + FAQPage schema
+## 2026-09-02 â P2-05 homepage SEO + FAQPage schema
 
-**Task:** P2-05 — Homepage metadata and structured data  
+**Task:** P2-05 â Homepage metadata and structured data  
 **Verification method:** TypeScript compile, Playwright DOM inspection  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright evaluate at `/`: title `Amazon Account Management Agency | eCom Gliders`
 - Meta description matches `homepage.json`
 - Canonical `https://ecomgliders.com/`
@@ -557,46 +583,46 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P3-01 WP-to-MDX blog migration
+## 2026-09-02 â P3-01 WP-to-MDX blog migration
 
-**Task:** P3-01 — Generate MDX blog posts from WordPress backup  
+**Task:** P3-01 â Generate MDX blog posts from WordPress backup  
 **Verification method:** Script execution, slug inventory comparison, TypeScript compile, frontmatter schema validation  
 **Result:** pass  
 **Evidence:**
-- `npm run migrate:blog` — 328/328 MDX files written, 0 failures
-- `docs/qa/blog-migration-report.json` — `writtenCount: 328`, `expectedCount: 328`
-- Slug diff vs `backup/metadata/blog-inventory.json` — missing 0, extra 0
-- `npx tsc --noEmit` — exit 0
-- Sample: `content/blog/when-should-you-use-sponsored-display-ads.mdx` — frontmatter validates against `blogPostFrontmatterSchema`
+- `npm run migrate:blog` â 328/328 MDX files written, 0 failures
+- `docs/qa/blog-migration-report.json` â `writtenCount: 328`, `expectedCount: 328`
+- Slug diff vs `backup/metadata/blog-inventory.json` â missing 0, extra 0
+- `npx tsc --noEmit` â exit 0
+- Sample: `content/blog/when-should-you-use-sponsored-display-ads.mdx` â frontmatter validates against `blogPostFrontmatterSchema`
 
 **Notes:** Body extracted from Elementor widgets in `posts-all.json` (text-editor, heading, image, html). Excerpt/metaDescription cleaned of WP social-share boilerplate where possible. Featured images still reference live wp-content URLs (asset migration deferred). Blog routes not wired (P3-02).
 
 ---
 
-## 2026-09-02 — P3-02 blog catch-all route
+## 2026-09-02 â P3-02 blog catch-all route
 
-**Task:** P3-02 — Serve 328 blog posts at root-level `/{slug}/`  
+**Task:** P3-02 â Serve 328 blog posts at root-level `/{slug}/`  
 **Verification method:** TypeScript compile, repository slug count, Playwright desktop + mobile  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `getAllBlogSlugs()` — 328 slugs; `getBlogPost()` returns parsed MDX with Zod-validated frontmatter
-- Playwright `http://localhost:3002/when-should-you-use-sponsored-display-ads`: title matches Yoast metaTitle, H1 matches post title, Article JSON-LD, meta line "July 20, 2026 · 8 min read · Mary", header/footer present
-- Unknown slug `/nonexistent-blog-slug-test` — HTTP 404 (dynamicParams false)
+- `npx tsc --noEmit` â exit 0
+- `getAllBlogSlugs()` â 328 slugs; `getBlogPost()` returns parsed MDX with Zod-validated frontmatter
+- Playwright `http://localhost:3002/when-should-you-use-sponsored-display-ads`: title matches Yoast metaTitle, H1 matches post title, Article JSON-LD, meta line "July 20, 2026 Â· 8 min read Â· Mary", header/footer present
+- Unknown slug `/nonexistent-blog-slug-test` â HTTP 404 (dynamicParams false)
 - Second sample post renders at `/why-your-amazon-ppc-is-wasting-money-in-2026`
 - Screenshots: `p3-02-blog-post-desktop.png`, `p3-02-blog-post-mobile.png`
 
-**Notes:** Minimal article layout only — TOC, author box, related posts deferred to P3-03. Markdown rendered via react-markdown + remark-gfm.
+**Notes:** Minimal article layout only â TOC, author box, related posts deferred to P3-03. Markdown rendered via react-markdown + remark-gfm.
 
 ---
 
-## 2026-09-02 — P3-03 blog post template
+## 2026-09-02 â P3-03 blog post template
 
-**Task:** P3-03 — Full blog template per Page-Templates.md  
+**Task:** P3-03 â Full blog template per Page-Templates.md  
 **Verification method:** TypeScript compile, Playwright desktop + mobile, JSON-LD inspection  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright desktop `/when-should-you-use-sponsored-display-ads`: breadcrumb (Home > Blog), sticky TOC ("On this page", 8 links), author box, 3 related cards, CTA band, BlogPosting JSON-LD
 - Playwright mobile: collapsible TOC via `<details>`
 - Playwright `/amazon_a_plus_content_seo_2026`: FAQ accordion + FAQPage JSON-LD (1 valid extracted FAQ)
@@ -606,14 +632,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P3-04 blog URL verification (328)
+## 2026-09-02 â P3-04 blog URL verification (328)
 
-**Task:** P3-04 — Verify all 328 blog URLs resolve with identical root-level paths  
+**Task:** P3-04 â Verify all 328 blog URLs resolve with identical root-level paths  
 **Verification method:** Playwright test suite against local dev server  
 **Result:** pass  
 **Evidence:**
-- `npm run test:blog-urls` — 4/4 tests passed
-- `docs/qa/blog-url-verification-report.json` — `passedCount: 328`, `failedCount: 0`
+- `npm run test:blog-urls` â 4/4 tests passed
+- `docs/qa/blog-url-verification-report.json` â `passedCount: 328`, `failedCount: 0`
 - Static checks: inventory count 328, MDX file match 328/328
 - HTTP checks: all URLs return 200 with `main#main-content`, H1, and site branding
 - Browser sample: first, middle, last inventory posts render with expected titles
@@ -622,13 +648,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P3-05 service page template (PPC)
+## 2026-09-02 â P3-05 service page template (PPC)
 
-**Task:** P3-05 — Dedicated service page layout with Service schema  
+**Task:** P3-05 â Dedicated service page layout with Service schema  
 **Verification method:** TypeScript compile, Playwright desktop + mobile  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
+- `npx tsc --noEmit` â exit 0
 - Playwright `/amazon-ppc-management-agency`: H1 matches SEO map, breadcrumb Home > Services > PPC Management
 - Sections present: stats, problem, solution, deliverables, results, FAQ (6), related services (3), CTA
 - JSON-LD `@graph`: Service, FAQPage
@@ -639,49 +665,49 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P3-06 case study pages
+## 2026-09-02 â P3-06 case study pages
 
-**Task:** P3-06 — Case study index + 9 detail pages with URL preservation  
+**Task:** P3-06 â Case study index + 9 detail pages with URL preservation  
 **Verification method:** TypeScript compile, curl HTTP, Playwright desktop + mobile  
 **Result:** pass  
 **Evidence:**
-- `npx tsx scripts/migration/generate-case-studies-config.ts` — 9 case studies in `content/config/case-studies.json`
-- `npx tsc --noEmit` — exit 0
-- curl `-L` — HTTP 200 at `/case-studies/` and `/case-study-9/`
-- Playwright `/case-studies/` — H1 "Client Success Stories", 7 filter buttons, 9 case study cards
-- Playwright `/case-study-9/` — title includes GoSports and 310%; breadcrumb Home > Case studies > GoSports
+- `npx tsx scripts/migration/generate-case-studies-config.ts` â 9 case studies in `content/config/case-studies.json`
+- `npx tsc --noEmit` â exit 0
+- curl `-L` â HTTP 200 at `/case-studies/` and `/case-study-9/`
+- Playwright `/case-studies/` â H1 "Client Success Stories", 7 filter buttons, 9 case study cards
+- Playwright `/case-study-9/` â title includes GoSports and 310%; breadcrumb Home > Case studies > GoSports
 - JSON-LD: CollectionPage (index), Article (detail)
 
-**Notes:** Featured images still reference live `ecomgliders.com/wp-content` URLs. Solution copy for studies 1–8 uses template steps; challenge text extracted from backup HTML. Production build with 337+ static pages not yet verified.
+**Notes:** Featured images still reference live `ecomgliders.com/wp-content` URLs. Solution copy for studies 1â8 uses template steps; challenge text extracted from backup HTML. Production build with 337+ static pages not yet verified.
 
 ---
 
-## 2026-09-02 — P3-07 contact and audit forms
+## 2026-09-02 â P3-07 contact and audit forms
 
-**Task:** P3-07 — Contact + audit forms with Server Actions + Zod  
+**Task:** P3-07 â Contact + audit forms with Server Actions + Zod  
 **Verification method:** TypeScript compile, HTTP check, Playwright form submit + mobile viewport  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- curl `-L` — HTTP 200 at `/contact/` and `/free-audit-2/`
-- Playwright contact form submit — status message "Your message was received. We will respond within one business day."
-- Playwright `/free-audit-2/` — H1, benefits, audit form, 5 FAQ items, trust stats
+- `npx tsc --noEmit` â exit 0
+- curl `-L` â HTTP 200 at `/contact/` and `/free-audit-2/`
+- Playwright contact form submit â status message "Your message was received. We will respond within one business day."
+- Playwright `/free-audit-2/` â H1, benefits, audit form, 5 FAQ items, trust stats
 - JSON-LD: ContactPage (contact), WebPage + FAQPage (audit)
 - Screenshot: `p3-07-contact-mobile.png`
 
-**Notes:** Email delivery requires `RESEND_API_KEY` + `FORM_NOTIFICATION_EMAIL` env vars; dev mode logs submissions to server console. React Hook Form not installed — deferred in favor of Server Actions + useActionState.
+**Notes:** Email delivery requires `RESEND_API_KEY` + `FORM_NOTIFICATION_EMAIL` env vars; dev mode logs submissions to server console. React Hook Form not installed â deferred in favor of Server Actions + useActionState.
 
 ---
 
-## 2026-09-02 — P3-08 about page
+## 2026-09-02 â P3-08 about page
 
-**Task:** P3-08 — About page at `/about-us/` with AboutPage schema  
+**Task:** P3-08 â About page at `/about-us/` with AboutPage schema  
 **Verification method:** TypeScript compile, HTTP check, Playwright desktop + mobile  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- curl `-L` — HTTP 200 at `/about-us/`
-- Playwright — H1 "About eCom Gliders", $112M+ stat, team section, certifications, CTA link to `/free-audit-2/`
+- `npx tsc --noEmit` â exit 0
+- curl `-L` â HTTP 200 at `/about-us/`
+- Playwright â H1 "About eCom Gliders", $112M+ stat, team section, certifications, CTA link to `/free-audit-2/`
 - Title: "About eCom Gliders | Amazon Account Management Agency"
 - JSON-LD: AboutPage + Organization
 - Screenshot: `p3-08-about-mobile.png`
@@ -690,46 +716,46 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P4-01 sitemap and robots
+## 2026-09-02 â P4-01 sitemap and robots
 
-**Task:** P4-01 — Generate sitemap for all indexable routes  
+**Task:** P4-01 â Generate sitemap for all indexable routes  
 **Verification method:** TypeScript compile, verify script, curl XML/robots  
 **Result:** pass  
 **Evidence:**
-- `npx tsc --noEmit` — exit 0
-- `npm run verify:sitemap` — 343 URLs (328 blog + 15 static/service/case study)
-- curl `/sitemap.xml` — HTTP 200, valid XML urlset namespace
-- curl `/robots.txt` — HTTP 200, disallows `/api/` and `/design-system`, references sitemap
+- `npx tsc --noEmit` â exit 0
+- `npm run verify:sitemap` â 343 URLs (328 blog + 15 static/service/case study)
+- curl `/sitemap.xml` â HTTP 200, valid XML urlset namespace
+- curl `/robots.txt` â HTTP 200, disallows `/api/` and `/design-system`, references sitemap
 - Report: `docs/qa/sitemap-verification-report.json`
 
 **Notes:** Used Next.js native sitemap/robots routes instead of `next-sitemap` package. Unimplemented routes (`/blog/`, legal pages, nav-only service URLs) excluded until pages exist.
 
 ---
 
-## 2026-09-02 — P4-02 Lighthouse audit
+## 2026-09-02 â P4-02 Lighthouse audit
 
-**Task:** P4-02 — Lighthouse 90+ on homepage, service page, and blog post  
+**Task:** P4-02 â Lighthouse 90+ on homepage, service page, and blog post  
 **Verification method:** Lighthouse CLI against production `next start`; reports saved to `docs/qa/`  
 **Result:** pass  
 **Evidence:**
-- Production build on NTFS (`C:/temp/ecom-gliders-build`) — 349 static pages compiled
-- `npm run audit:lighthouse http://localhost:3003` — all targets 90+:
+- Production build on NTFS (`C:/temp/ecom-gliders-build`) â 349 static pages compiled
+- `npm run audit:lighthouse http://localhost:3003` â all targets 90+:
   - Home: performance 91, accessibility 96, best-practices 96, SEO 92
   - Service (`/amazon-ppc-management-agency/`): performance 91, accessibility 96, best-practices 96, SEO 92
   - Blog (`/when-should-you-use-sponsored-display-ads/`): performance 91, accessibility 95, best-practices 96, SEO 100
 - Reports: `docs/qa/lighthouse-home.json`, `lighthouse-service.json`, `lighthouse-blog.json`, `lighthouse-summary.json`
 
-**Notes:** Dev server (Turbopack) scores 69–73 performance due to compile latency — not representative. E: exFAT project drive blocks `npm run build` locally (EISDIR readlink); Vercel/CI builds unaffected. Trust badge images downloaded to `public/images/`. `trailingSlash: true` added to `next.config.ts`.
+**Notes:** Dev server (Turbopack) scores 69â73 performance due to compile latency â not representative. E: exFAT project drive blocks `npm run build` locally (EISDIR readlink); Vercel/CI builds unaffected. Trust badge images downloaded to `public/images/`. `trailingSlash: true` added to `next.config.ts`.
 
 ---
 
-## 2026-09-02 — P4-03 accessibility WCAG AA audit
+## 2026-09-02 â P4-03 accessibility WCAG AA audit
 
-**Task:** P4-03 — WCAG 2.1 Level AA audit (axe clean)  
+**Task:** P4-03 â WCAG 2.1 Level AA audit (axe clean)  
 **Verification method:** Playwright + `@axe-core/playwright` with wcag2aa tags; per-page JSON reports  
 **Result:** pass  
 **Evidence:**
-- `npm run test:a11y` — 6/6 pages pass with 0 violations:
+- `npm run test:a11y` â 6/6 pages pass with 0 violations:
   - Homepage, service page, blog post, contact, about, case studies index
 - Reports: `docs/qa/axe-*.json`, summary at `docs/qa/accessibility-audit-summary.json`
 - Fixes applied: blog heading normalization, contrast on CTAs/checkboxes/step labels, featured image alt text
@@ -738,9 +764,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — P4-04 staging deploy (Vercel)
+## 2026-09-02 â P4-04 staging deploy (Vercel)
 
-**Task:** P4-04 — Staging deploy with live preview URL  
+**Task:** P4-04 â Staging deploy with live preview URL  
 **Verification method:** Vercel CLI deploy, HTTP checks, axe audit on staging  
 **Result:** pass  
 **Evidence:**
@@ -748,44 +774,44 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Staging URL: https://ecom-gliders.vercel.app
 - Build: 350 static pages, READY in iad1
 - curl HTTP 200: `/`, `/sitemap.xml`, `/amazon-ppc-management-agency/`, sample blog post
-- `PLAYWRIGHT_BASE_URL=https://ecom-gliders.vercel.app npm run test:a11y` — 6/6 pass
+- `PLAYWRIGHT_BASE_URL=https://ecom-gliders.vercel.app npm run test:a11y` â 6/6 pass
 - Report: `docs/qa/staging-deployment-report.json`
 
 **Notes:** `NEXT_PUBLIC_SITE_URL=https://ecom-gliders.vercel.app` set on Vercel production env. Change to `https://ecomgliders.com` at DNS cutover. `.vercelignore` reduces upload from ~537MB to ~12KB. Form email requires `RESEND_API_KEY` on Vercel for production notifications.
 
 ---
 
-## 2026-09-02 — P4-05 Search Console readiness (submit blocked)
+## 2026-09-02 â P4-05 Search Console readiness (submit blocked)
 
-**Task:** P4-05 — Submit sitemap in Google Search Console  
+**Task:** P4-05 â Submit sitemap in Google Search Console  
 **Verification method:** `npm run verify:gsc-readiness`; runbook review  
-**Result:** partial — ready for submit; actual GSC submission not performed (no API access)  
+**Result:** partial â ready for submit; actual GSC submission not performed (no API access)  
 **Evidence:**
-- `npm run verify:gsc-readiness` — 7/7 checks pass on staging
+- `npm run verify:gsc-readiness` â 7/7 checks pass on staging
 - Sitemap: `https://ecom-gliders.vercel.app/sitemap.xml` (343 URLs)
 - Report: `docs/qa/search-console-readiness.json`
 - Runbook: `docs/seo/SEARCH-CONSOLE-SUBMIT.md`
 
-**Notes:** Q6 open — user must log into Search Console and submit sitemap. Save confirmation to `docs/qa/search-console-submission.json` after submit. Run `npm run verify:gsc-submission` to close P4-05. Template: `docs/qa/search-console-submission.template.json`. Production property `ecomgliders.com` submit after DNS cutover.
+**Notes:** Q6 open â user must log into Search Console and submit sitemap. Save confirmation to `docs/qa/search-console-submission.json` after submit. Run `npm run verify:gsc-submission` to close P4-05. Template: `docs/qa/search-console-submission.template.json`. Production property `ecomgliders.com` submit after DNS cutover.
 
 ---
 
-## 2026-09-02 — Navbar mega menu redesign
+## 2026-09-02 â Navbar mega menu redesign
 
 **Task:** Services mega menu IA + UI redesign (4 categories + Channels & DTC)  
 **Verification method:** Zod parse of `navigation.json`; Playwright desktop + mobile  
 **Result:** pass (nav shell)  
 **Evidence:**
-- Schema parse OK — 4 columns; featured Amazon Account Management; footerLink + CTA metric present
+- Schema parse OK â 4 columns; featured Amazon Account Management; footerLink + CTA metric present
 - Desktop snapshot: Advertising / Catalog / Brand / Channels + Flagship + Shopify + TikTok + CTA `$112M+`
 - Announcement bar region visible (Verified Partner / $112M+ / 95% retention)
 - Screenshots: `docs/qa/mega-menu-desktop.png`, `docs/qa/mega-menu-mobile.png`
 
-**Notes:** Destination service pages for new/proposed URLs not built in this pass — expect 404 until service templates exist. No Core/Other labels remain in nav config.
+**Notes:** Destination service pages for new/proposed URLs not built in this pass â expect 404 until service templates exist. No Core/Other labels remain in nav config.
 
 ---
 
-## 2026-09-02 — Mega item hover underline + service pages
+## 2026-09-02 â Mega item hover underline + service pages
 
 **Task:** Accent underline under mega menu item labels on hover; create missing service destination pages  
 **Verification method:** Playwright hover CSS check; Zod parse; curl HTTP status  
@@ -796,11 +822,11 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Zod: 15/15 service JSON files pass `servicePageConfigSchema`
 - curl HTTP 200: `/full-service-amazon-agency/`, `/amazon-listing-optimization/`, `/shopify-website-development/`, `/tiktok-shop-ads/`, `/email-retention-marketing/`, `/amazon-dsp-management/`
 
-**Notes:** Staging redeploy still required for Vercel. Service copy is lean professional baseline — deepen per page in later content pass. Industries page intentionally not added.
+**Notes:** Staging redeploy still required for Vercel. Service copy is lean professional baseline â deepen per page in later content pass. Industries page intentionally not added.
 
 ---
 
-## 2026-09-02 — Header CTA + ribbon (competitor-backed)
+## 2026-09-02 â Header CTA + ribbon (competitor-backed)
 
 **Task:** Research competitor nav/ribbon/CTA; polish Free Audit button and announcement bar with lucide icons  
 **Verification method:** Playwright live competitor pass; local CSS/DOM checks  
@@ -816,7 +842,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-02 — Mobile nav drawer rebuild
+## 2026-09-02 â Mobile nav drawer rebuild
 
 **Task:** Professional mobile sidebar (was sparse / misaligned / navy block CTA)  
 **Verification method:** Playwright 390x844 screenshots  
@@ -831,7 +857,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Homepage hero enterprise redesign
+## 2026-09-03 â Homepage hero enterprise redesign
 
 **Task:** Implement screenshot-audited hero (Canopy/MAG/Cursor/Dudes synthesis)  
 **Verification method:** Playwright desktop 1440 + mobile 390  
@@ -848,7 +874,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Homepage CTA and landing copy pass
+## 2026-09-03 â Homepage CTA and landing copy pass
 
 **Task:** Align hero + final CTA + mid-page soft copy to competitor CTA patterns  
 **Verification method:** Playwright live competitor extract + local page evaluate + viewport screenshots  
@@ -863,7 +889,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Global page atmosphere gradient
+## 2026-09-03 â Global page atmosphere gradient
 
 **Task:** Light brand-aligned page background wash (competitor-style, theme colors)  
 **Verification method:** Playwright evaluate + viewport screenshot  
@@ -879,14 +905,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Atmosphere opacity matched to competitors
+## 2026-09-03 â Atmosphere opacity matched to competitors
 
 **Task:** Soften global gradient/orbs to Canopy / Olifant light intensity  
 **Verification method:** Playwright CSS on live competitors + local token update  
 **Result:** implemented (user visual review pending)  
 **Evidence:**
 - Research: `docs/research/COMPETITOR-PAGE-ATMOSPHERE-2026-09-03.md`
-- Canopy SVG fill-opacity 0.15–0.20 verified
+- Canopy SVG fill-opacity 0.15â0.20 verified
 - Wash tints reduced to ~12% / 10% / 6%; orbs to 3 at ~0.12 / 0.10 / 0.07
 - Files: `content/config/design-system.json`, `src/components/layout/page-atmosphere.tsx`
 
@@ -894,30 +920,30 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Hero lead form (conversion)
+## 2026-09-03 â Hero lead form (conversion)
 
-**Task:** Replace hero BrowserMockup with AMZ Dudes–style lead form  
+**Task:** Replace hero BrowserMockup with AMZ Dudesâstyle lead form  
 **Verification method:** Playwright evaluate on localhost:3001  
 **Result:** pass (local)  
 **Evidence:**
 - `#hero-lead-form` present; BrowserMockup absent
 - Fields: name, email, brandName, phone, amazonStoreUrl, monthlyRevenue, message, consent
 - Submit wired to `submitAuditForm` (same as `/free-audit-2/`)
-- Browser config retained in `homepage.json` → `deferredVisual`
+- Browser config retained in `homepage.json` â `deferredVisual`
 
 **Notes:** User to place BrowserMockup in a later section/services page.
 
 ---
 
-## 2026-09-03 — Wave E hero fold re-verify
+## 2026-09-03 â Wave E hero fold re-verify
 
 **Task:** B1 acceptance after announcement bar + denser trust (Wave B)  
 **Verification method:** Playwright `browser_evaluate` / viewport matrix on `http://localhost:3001/`  
 **Result:** pass (local)  
 **Evidence:**
-- 1440×900: submit overflow 0; form bottom above fold; chrome ≈126px (announcement + sticky header)
-- 1366×768 / 1280×720 / 1024×768: submit overflow 0 (1280×720 headroom ~100px after short-viewport pad tighten)
-- 375×812: no horizontal overflow; stacked form below fold (expected); CTAs/inputs ≥40px; partner badge link min-height 40px
+- 1440Ã900: submit overflow 0; form bottom above fold; chrome â126px (announcement + sticky header)
+- 1366Ã768 / 1280Ã720 / 1024Ã768: submit overflow 0 (1280Ã720 headroom ~100px after short-viewport pad tighten)
+- 375Ã812: no horizontal overflow; stacked form below fold (expected); CTAs/inputs â¥40px; partner badge link min-height 40px
 - Sticky header does not cover `#hero-lead-form` on load; `scroll-mt-24` retained
 - Screenshots: `docs/qa/screenshots/wave-e-hero-fold-1440x900.png`, `docs/qa/screenshots/wave-e-hero-fold-375x812.png`
 - Free-audit revenue select options aligned to hero values (shared `submitAuditForm` string field)
@@ -926,13 +952,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Wave F homepage docs + QA
+## 2026-09-03 â Wave F homepage docs + QA
 
-**Task:** Part C Wave F — Current-Site-Audit lists, verification matrix, screenshots, axe, form smoke  
+**Task:** Part C Wave F â Current-Site-Audit lists, verification matrix, screenshots, axe, form smoke  
 **Verification method:** Playwright on `http://localhost:3001/` + `tsc --noEmit`  
 **Result:** pass with documented remaining gaps  
 **Evidence:**
-- Section order Verified: hero → trust-bar → stats → services → creative-showcase → seller-segments → case-studies → brand-values → process → comparison → testimonials → blog-preview → faq → final-cta
+- Section order Verified: hero â trust-bar â stats â services â creative-showcase â seller-segments â case-studies â brand-values â process â comparison â testimonials â blog-preview â faq â final-cta
 - Meta title unchanged: `Amazon Account Management Agency | eCom Gliders`
 - FAQPage JSON-LD matches 12 visible FAQ questions 1:1
 - Rejected old slogans: none found in body text
@@ -953,7 +979,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-03 — Image / asset performance pass
+## 2026-09-03 â Image / asset performance pass
 
 **Task:** Follow web-performance + asset rules for all in-app images  
 **Verification method:** Code audit of Image/img call sites + next.config  
@@ -967,7 +993,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Stats section polish (proof strip)
+## 2026-09-08 â Stats section polish (proof strip)
 
 **Task:** Soften Stats after Trust into quiet proof strip (plan: stats_section_polish)  
 **Verification method:** Code review + Playwright MCP evaluate on http://localhost:3000/  
@@ -977,7 +1003,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Stats values: `$112M+`, `95%`, `20+`, `2018` with locked labels (Verified)
 - `hasShadow: false`, `hasAccentBar: false`, value color `rgb(11, 27, 58)` navy (Verified)
 - Desktop 1440: `gridTemplateColumns` four equal tracks; mobile 390: two tracks (Verified)
-- UI: [stats-section.tsx](src/components/sections/stats-section.tsx) — border-y strip, hairline divides, `text-primary` values, `py-12/14`
+- UI: [stats-section.tsx](src/components/sections/stats-section.tsx) â border-y strip, hairline divides, `text-primary` values, `py-12/14`
 
 **STATUS:** IMPLEMENTED + VERIFIED (Playwright evaluate)  
 **REMAINING:** Optional repo screenshots if MCP output path is wired later  
@@ -985,7 +1011,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Services section polish
+## 2026-09-08 â Services section polish
 
 **Task:** Visual polish of homepage Services (plan: services_section_polish)  
 **Verification method:** Code review + curl hrefs + Playwright MCP evaluate  
@@ -996,7 +1022,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Desktop 1440: 3-column grid; mobile 390: 1-column (Verified)
 - `tone="muted"` section bg translucent (`oklab(... / 0.35)`) (Verified)
 - Framed icons navy/primary tint (border/bg alpha on primary) (Verified)
-- Watermark numbers 01–06 present; whole-card links (6 anchors) (Verified)
+- Watermark numbers 01â06 present; whole-card links (6 anchors) (Verified)
 - Files: [services-section.tsx](src/components/sections/services-section.tsx), [section-icon.tsx](src/components/sections/section-icon.tsx) `tone` prop
 
 **STATUS:** IMPLEMENTED + VERIFIED  
@@ -1004,7 +1030,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Services media cards (old-site imagery)
+## 2026-09-08 â Services media cards (old-site imagery)
 
 **Task:** Replace flat Lucide-only Services grid with top-media cards using backup Amazon mockups  
 **Verification method:** Asset copy + Playwright evaluate on `#services`  
@@ -1013,29 +1039,29 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Six PNGs in `public/images/services/` from `backup/.../2025/04/` (+ visual from creative before/after)
 - Provenance: `docs/research/DOWNLOAD-LOG.md` (2026-09-08)
 - Playwright: 6 cards, 6 images, `naturalWidth > 0` all; desktop 3-col; alts present
-- UI: [services-section.tsx](src/components/sections/services-section.tsx) — aspect 4/3 media + copy; whole-card links; locked copy unchanged
+- UI: [services-section.tsx](src/components/sections/services-section.tsx) â aspect 4/3 media + copy; whole-card links; locked copy unchanged
 
 **STATUS:** IMPLEMENTED + VERIFIED  
 **NEXT ACTION:** User visual review of media cards; then Creative showcase
 
 ---
 
-## 2026-09-08 — Services horizontal layout + AI imagery
+## 2026-09-08 â Services horizontal layout + AI imagery
 
 **Task:** Fix boring tall black-mockup cards; generate relevant AI editorial images  
 **Verification method:** Asset install + code update (layout)  
 **Result:** implemented (user visual review pending)  
 **Evidence:**
-- Six AI PNGs 1536×1024 in `public/images/services/`
+- Six AI PNGs 1536Ã1024 in `public/images/services/`
 - Layout: horizontal media+copy in [services-section.tsx](src/components/sections/services-section.tsx)
 - Alts updated in `homepage.json`; DOWNLOAD-LOG entry added
 
-**STATUS:** IMPLEMENTED — visual sign-off pending  
+**STATUS:** IMPLEMENTED â visual sign-off pending  
 **NEXT ACTION:** User review at `/#services`
 
 ---
 
-## 2026-09-08 — Creative showcase AI mosaic polish
+## 2026-09-08 â Creative showcase AI mosaic polish
 
 **Task:** Research-backed Creative Showcase polish (plan: creative_showcase_polish)  
 **Verification method:** AI asset install + Playwright evaluate on `#creative-showcase`  
@@ -1051,15 +1077,15 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Seller segments Growth Journey
+## 2026-09-08 â Seller segments Growth Journey
 
 **Task:** Rebuild `#seller-segments` as connected Growth Journey (plan: seller_segments_journey)  
 **Verification method:** Playwright evaluate + hover + keyboard on `http://localhost:3000/#seller-segments`  
 **Result:** pass  
 **Evidence:**
 - 3 stages: New sellers / Scaling brands / Multi-ASIN catalogs; default active = Scaling brands (index 1)
-- Hover New sellers → active 0, CTA "Get a launch audit" → `#hero-lead-form`, progress width 0%
-- Keyboard ArrowRight from stage 01 → Scaling (focus moves), then Multi-ASIN; CTAs "Get a growth audit" / "Get a catalog audit" all `#hero-lead-form`
+- Hover New sellers â active 0, CTA "Get a launch audit" â `#hero-lead-form`, progress width 0%
+- Keyboard ArrowRight from stage 01 â Scaling (focus moves), then Multi-ASIN; CTAs "Get a growth audit" / "Get a catalog audit" all `#hero-lead-form`
 - Focus each stage: all three locked CTA labels + hrefs confirmed
 - Journey markup: `.seller-journey` + `.seller-journey-progress`; inactive panels `grid-rows-[0fr]` height 0
 - Mobile 390px: vertical stack + connector; one expanded CTA at a time
@@ -1071,16 +1097,16 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Creative showcase listing frame
+## 2026-09-08 â Creative showcase listing frame
 
 **Task:** Replace mosaic card grid with Amazon listing-preview frame (user: easier to convey, not same as other sections)  
 **Verification method:** Playwright evaluate on `#creative-showcase`  
 **Result:** pass  
 **Evidence:**
 - Listing frame present (`.creative-listing-frame`); 5 stage images + 5 thumbs; images `naturalWidth > 0`
-- Click thumb 0 → caption "Listing-ready main image craft"; ArrowRight → "Secondary and infographic frames"
-- Click last thumb → "Lifestyle supporting imagery"
-- CTA "Explore visual creativity" → `/amazon-visual-creativity/`
+- Click thumb 0 â caption "Listing-ready main image craft"; ArrowRight â "Secondary and infographic frames"
+- Click last thumb â "Lifestyle supporting imagery"
+- CTA "Explore visual creativity" â `/amazon-visual-creativity/`
 - Locked heading unchanged; no JSON copy changes
 - Distinct from Services explorer (list+panel) and Seller journey (stages)
 
@@ -1089,14 +1115,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Creative + Segments fill / CLS / responsive fix
+## 2026-09-08 â Creative + Segments fill / CLS / responsive fix
 
 **Task:** User reported both sections empty (narrow), not responsive, heavy layout shift  
 **Verification method:** Playwright evaluate at ~1440 desktop  
 **Result:** pass  
 **Evidence:**
 - Creative listing frame fill ratio **0.939** of container (was max-w-3xl hollow); stage height stable on thumb swap; PDP layout thumbs + full-width stage
-- Seller journey fill ratio **0.939**; all 3 stages **equal height 296px**; ol height **328** unchanged across hover 0→2 (no CLS); all CTAs always rendered (active emphasized)
+- Seller journey fill ratio **0.939**; all 3 stages **equal height 296px**; ol height **328** unchanged across hover 0â2 (no CLS); all CTAs always rendered (active emphasized)
 - CSS: creative `grid-cols-5` below `lg`, vertical thumbs at `lg+`; segments `grid-cols-1` / `md:grid-cols-3` with `items-stretch`
 - Removed expand/collapse height animation and translate-y from stages
 
@@ -1105,7 +1131,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Case studies metric-led proof board
+## 2026-09-08 â Case studies metric-led proof board
 
 **Task:** Rebuild `#case-studies` as metric-led proof board (plan: case_studies_polish)  
 **Verification method:** Playwright evaluate + screenshot on `http://localhost:3000/#case-studies`  
@@ -1123,7 +1149,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Case studies atmosphere blur + zoom
+## 2026-09-08 â Case studies atmosphere blur + zoom
 
 **Task:** Atmosphere proof cards with AI scenes, blur depth, hover zoom (plan: cases_blur_zoom)  
 **Verification method:** Playwright evaluate + hover on `#case-studies`  
@@ -1131,7 +1157,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **Evidence:**
 - 3 atmosphere JPGs in `public/images/cases/*-atmosphere.jpg`; DOWNLOAD-LOG updated
 - Per card: blur layer + `media-hover-zoom` cover + logo badge + metric overlay
-- Hover transform `matrix(1.05…)` (zoom active); card heights 526px stable (no CLS)
+- Hover transform `matrix(1.05â¦)` (zoom active); card heights 526px stable (no CLS)
 - Metrics locked; hrefs `/case-study-9|1|2/` + `/case-studies/`; 9 images naturalWidth > 0
 
 **STATUS:** IMPLEMENTED + VERIFIED  
@@ -1139,7 +1165,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-08 — Brand values editorial principles board
+## 2026-09-08 â Brand values editorial principles board
 
 **Task:** Rebuild `#brand-values` as calm editorial 2x2 (plan: brand_values_polish)  
 **Verification method:** Playwright evaluate on `http://localhost:3000/#brand-values`  
@@ -1158,9 +1184,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 
 
-## 2026-09-12 — PO Pass 0: tokens + header chrome
+## 2026-09-12 â PO Pass 0: tokens + header chrome
 
-**Task:** Project One restyle Pass 0 — 2-color tokens, floating dark nav pill, punch CTA, kill cyan wash
+**Task:** Project One restyle Pass 0 â 2-color tokens, floating dark nav pill, punch CTA, kill cyan wash
 **Verification method:** Playwright (local chromium) 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1175,33 +1201,33 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **Fonts vs Project One (Observed):** PO uses Satoshi/Inter on Framer; we keep IBM Plex Sans (agency lock). Match is weight/size/tracking on chrome, not swapping family this pass.
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve Pass 0 → Pass 1 Hero
+**NEXT ACTION:** User approve Pass 0 â Pass 1 Hero
 
 ---
 
-## 2026-09-12 — PO Pass 1: Hero
+## 2026-09-12 â PO Pass 1: Hero
 
-**Task:** Project One restyle Pass 1 — hero type scale, dual punch CTAs, soft audit card
+**Task:** Project One restyle Pass 1 â hero type scale, dual punch CTAs, soft audit card
 **Verification method:** Playwright chromium 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
 - H1: IBM Plex Sans 76px / 700 / lh ~1.02 / tracking -0.035em (PO analog Satoshi 76px / 900)
 - Eyebrow: 12px / 700 / tracking 0.16em uppercase
 - Sub: 18px / 600
-- CTAs: orange primary → `#hero-lead-form`; navy secondary → `/case-studies/`; both pill 48px
+- CTAs: orange primary â `#hero-lead-form`; navy secondary â `/case-studies/`; both pill 48px
 - Form card radius ~21.6px soft panel; content/claims unchanged in homepage.json
 - Mobile 390: h1 44px; overflowX false
 - Screenshots: `docs/qa/screenshots/po-pass1-ours-hero-after-1440.png`, `...-390.png`, `po-pass1-projectone-hero-fold-1440.png`
 - Files: `hero-section.tsx`, `globals.css` (.text-hero only)
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 2 Checklist ticker
+**NEXT ACTION:** User approve â Pass 2 Checklist ticker
 
 ---
 
-## 2026-09-12 — PO Pass 2: Checklist ticker
+## 2026-09-12 â PO Pass 2: Checklist ticker
 
-**Task:** Project One restyle Pass 2 — dark dual-row scrolling ops checklist
+**Task:** Project One restyle Pass 2 â dark dual-row scrolling ops checklist
 **Verification method:** Playwright 1440 + 390; animation transform; screenshots
 **Result:** pass
 **Evidence:**
@@ -1214,21 +1240,21 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `docs/qa/screenshots/po-pass2-ours-ticker-after-1440.png`, `...-390.png`, `po-pass2-projectone-ticker-1440.png`
 - Files: checklist-ticker-section.tsx, homepage.json, homepage.schema.ts, homepage-section-renderer.tsx, globals.css
 
-**Fonts vs Project One:** PO Satoshi ~14px/500 muted on charcoal; we IBM Plex 14px/500 on navy + orange check (lime→orange).
+**Fonts vs Project One:** PO Satoshi ~14px/500 muted on charcoal; we IBM Plex 14px/500 on navy + orange check (limeâorange).
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 3 Pain strip
+**NEXT ACTION:** User approve â Pass 3 Pain strip
 
 ---
 
-## 2026-09-12 — PO Pass 3: Pain strip
+## 2026-09-12 â PO Pass 3: Pain strip
 
-**Task:** Project One restyle Pass 3 — dark split “friction” card (checklist UI + headline)
+**Task:** Project One restyle Pass 3 â dark split âfrictionâ card (checklist UI + headline)
 **Verification method:** Playwright 1440 + 390; animation transform; screenshots
 **Result:** pass
 **Evidence:**
 - New `#pain-strip` after checklist ticker; type `painStrip`
-- Split navy card; vertical scrolling pain rows (16 li = 8×2); orange callout chip
+- Split navy card; vertical scrolling pain rows (16 li = 8Ã2); orange callout chip
 - H2: IBM Plex 44px / 700 / white / lh ~1.08 (PO Satoshi heavy white)
 - Callout: bg `#E47911`, navy text, 14px / 600
 - Animation `pain-checklist` transform Y moving; no PO verbatim strings
@@ -1237,13 +1263,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: pain-strip-section.tsx, homepage.json, homepage.schema.ts, homepage-section-renderer.tsx, globals.css
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 4 Brand values
+**NEXT ACTION:** User approve â Pass 4 Brand values
 
 ---
 
-## 2026-09-12 — PO Pass 4: Brand values
+## 2026-09-12 â PO Pass 4: Brand values
 
-**Task:** Project One restyle Pass 4 — ONE-style simple value cards
+**Task:** Project One restyle Pass 4 â ONE-style simple value cards
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1254,16 +1280,16 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `docs/qa/screenshots/po-pass4-ours-values-after-1440.png`, `...-390.png`
 - Files: brand-values-section.tsx, homepage.json (eyebrow only)
 
-**Fonts vs Project One:** PO Satoshi ~18px/700 on lime cards; we IBM Plex 20px/700 on orange/canvas (lime→orange).
+**Fonts vs Project One:** PO Satoshi ~18px/700 on lime cards; we IBM Plex 20px/700 on orange/canvas (limeâorange).
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 5 Process
+**NEXT ACTION:** User approve â Pass 5 Process
 
 ---
 
-## 2026-09-12 — PO Pass 5: Process
+## 2026-09-12 â PO Pass 5: Process
 
-**Task:** Project One restyle Pass 5 — numbered dark process panels
+**Task:** Project One restyle Pass 5 â numbered dark process panels
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1275,33 +1301,33 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: process-section.tsx, homepage.json (eyebrow)
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 6 Free audit conversion card
+**NEXT ACTION:** User approve â Pass 6 Free audit conversion card
 
 ---
 
-## 2026-09-12 — PO Pass 6: Free audit conversion card
+## 2026-09-12 â PO Pass 6: Free audit conversion card
 
-**Task:** Project One restyle Pass 6 — pricing-card UI mapped to Free audit (no $ pricing)
+**Task:** Project One restyle Pass 6 â pricing-card UI mapped to Free audit (no $ pricing)
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
 - New `#free-audit-card` after process; type `freeAuditCard`
-- Navy card radius 24px; “Free” 72px/700 white; CTA orange → `#hero-lead-form`
-- Secondary → `/case-studies/`; 6 inclusions; no `$` /mo / PO plan copy
+- Navy card radius 24px; âFreeâ 72px/700 white; CTA orange â `#hero-lead-form`
+- Secondary â `/case-studies/`; 6 inclusions; no `$` /mo / PO plan copy
 - Mobile 390: Free ~60px; overflowX false
 - Screenshots: `docs/qa/screenshots/po-pass6-ours-audit-card-after-1440.png`, `...-390.png`
 - Files: free-audit-card-section.tsx, homepage.json, homepage.schema.ts, homepage-section-renderer.tsx
 
-**Fonts vs Project One:** PO large $100 on dark plan card; we IBM Plex 72px “Free” + 24px title (lime CTA → orange).
+**Fonts vs Project One:** PO large $100 on dark plan card; we IBM Plex 72px âFreeâ + 24px title (lime CTA â orange).
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 7 Portfolio
+**NEXT ACTION:** User approve â Pass 7 Portfolio
 
 ---
 
-## 2026-09-12 — PO Pass 7: Portfolio (creative + cases)
+## 2026-09-12 â PO Pass 7: Portfolio (creative + cases)
 
-**Task:** Project One restyle Pass 7 — work/portfolio UI on creative showcase + case studies
+**Task:** Project One restyle Pass 7 â work/portfolio UI on creative showcase + case studies
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1313,13 +1339,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: creative-showcase-section.tsx, case-studies-section.tsx, homepage.json eyebrows
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 8 Comparison + stats + trust
+**NEXT ACTION:** User approve â Pass 8 Comparison + stats + trust
 
 ---
 
-## 2026-09-12 — PO Pass 8: Comparison + stats + trust
+## 2026-09-12 â PO Pass 8: Comparison + stats + trust
 
-**Task:** Project One restyle Pass 8 — Smarter Way table + trust metrics + trust strip
+**Task:** Project One restyle Pass 8 â Smarter Way table + trust metrics + trust strip
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1331,13 +1357,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: comparison-section.tsx, stats-section.tsx, trust-bar-section.tsx, homepage.json eyebrows
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 9 Testimonials + FAQ
+**NEXT ACTION:** User approve â Pass 9 Testimonials + FAQ
 
 ---
 
-## 2026-09-12 — PO Pass 9: Testimonials + FAQ
+## 2026-09-12 â PO Pass 9: Testimonials + FAQ
 
-**Task:** Project One restyle Pass 9 — quote cards + oversized FAQ accordion
+**Task:** Project One restyle Pass 9 â quote cards + oversized FAQ accordion
 **Verification method:** Playwright 1440 + 390; accordion open; screenshots
 **Result:** pass
 **Evidence:**
@@ -1348,13 +1374,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: testimonials-section.tsx, faq-section.tsx, faq-accordion.tsx, homepage.json eyebrows
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → Pass 10 Final CTA + footer
+**NEXT ACTION:** User approve â Pass 10 Final CTA + footer
 
 ---
 
-## 2026-09-12 — PO Pass 10: Final CTA + Footer
+## 2026-09-12 â PO Pass 10: Final CTA + Footer
 
-**Task:** Project One restyle Pass 10 — final CTA + dark footer chrome
+**Task:** Project One restyle Pass 10 â final CTA + dark footer chrome
 **Verification method:** Playwright 1440 + 390; CTAs/links; fonts; overflow; screenshots
 **Result:** pass
 **Evidence:**
@@ -1366,13 +1392,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: cta-section.tsx, pre-footer-cta.tsx, site-footer.tsx, footer-main/bottom/brand/contact/link.tsx, homepage.json
 
 **STATUS:** IMPLEMENTED + VERIFIED (awaiting user visual approve)
-**NEXT ACTION:** User approve → homepage polish / visual compare loop (Pass queue 0–10 complete)
+**NEXT ACTION:** User approve â homepage polish / visual compare loop (Pass queue 0â10 complete)
 
 ---
 
-## 2026-09-12 — PO gap fix: buttons + pain spawn bubbles
+## 2026-09-12 â PO gap fix: buttons + pain spawn bubbles
 
-**Task:** Closer Project One chrome — soft-rect buttons + animated pain speech bubbles
+**Task:** Closer Project One chrome â soft-rect buttons + animated pain speech bubbles
 **Verification method:** Playwright 1440 + 390
 **Result:** pass
 **Evidence:**
@@ -1386,7 +1412,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-12 — PO chrome alignment (shared components)
+## 2026-09-12 â PO chrome alignment (shared components)
 
 **Task:** Match Project One soft-rect / hard-border language across shared + homepage components
 **Verification method:** Playwright 1440 + 390 spot-check
@@ -1406,14 +1432,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-12 — PrimaryButton PO anatomy rebuild
+## 2026-09-12 â PrimaryButton PO anatomy rebuild
 
 **Task:** Match Project One CTA structure (asymmetric pad + always-on square arrow chip)
 **Verification method:** Playwright computed styles vs PO RESERVE SPOT
 **Result:** pass
 **Evidence:**
-- Header Free Audit: h40, pad `8px 8px 8px 16px`, chip 24×24 radius 5px navy on orange (matches PO dark/lime roles)
-- Hero accent: h48, pad `8px 8px 8px 24px`, gap 10px, chip 32×32 radius 4px
+- Header Free Audit: h40, pad `8px 8px 8px 16px`, chip 24Ã24 radius 5px navy on orange (matches PO dark/lime roles)
+- Hero accent: h48, pad `8px 8px 8px 24px`, gap 10px, chip 32Ã32 radius 4px
 - Hero secondary: navy shell + orange chip
 - ArrowUpRight always visible (removed hover-dot / manual chips)
 - Screenshots: `po-btn-fixed-header-1440.png`, `po-btn-fixed-hero-1440.png`
@@ -1423,7 +1449,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-12 — PrimaryButton hard shadow + hover upright arrow
+## 2026-09-12 â PrimaryButton hard shadow + hover upright arrow
 
 **Task:** Match PO solid offset shadow + hover arrow rotate on all 3 button types
 **Verification method:** Playwright computed styles + hover
@@ -1432,14 +1458,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Shadow: `rgb(11, 27, 58) 4px 4px 0px 0px` (no blur) on header + hero CTAs
 - Border: `2px solid navy`
 - Accent: square navy chip; Primary: white circle chip (`9999px`)
-- Hover arrow: matrix -45deg (→ becomes ↗); CSS `.po-btn-arrow`
+- Hover arrow: matrix -45deg (â becomes â); CSS `.po-btn-arrow`
 - Soft blur shadows removed from header/hero/free-audit overrides
 
 **STATUS:** IMPLEMENTED + VERIFIED
 
 ---
 
-## 2026-09-12 — OS-independent PO animations
+## 2026-09-12 â OS-independent PO animations
 
 **Task:** Button arrow + pain bubbles must run when Windows prefers-reduced-motion is on
 **Verification method:** Playwright `reducedMotion: 'reduce'`
@@ -1454,7 +1480,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-12 — Full floating header + mega menu fix
+## 2026-09-12 â Full floating header + mega menu fix
 
 **Task:** Logo + CTA inside one navy floating bar; fix Services mega column overlap
 **Verification method:** Playwright 1440
@@ -1468,7 +1494,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-14 — Services section PO card grid
+## 2026-09-14 â Services section PO card grid
 
 **Task:** Restyle homepage services to Project One hard-border card format
 **Verification method:** Playwright 1440 + 390
@@ -1483,7 +1509,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-09-14 — RE-PASS A Trust bar (quiet proof strip)
+## 2026-09-14 â RE-PASS A Trust bar (quiet proof strip)
 
 **Task:** Reduce trust-bar density to PO-sparse proof language (single marquee, no soft-shadow frames)
 **Verification method:** Playwright 1440 + 390
@@ -1492,73 +1518,73 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Eyebrow + sub preserved (eCom copy only; no PO/KHULA)
 - Marquee rows: 1 (was 2); soft-shadow els: 0; overflowX: false
 - Client tiles frameless; cert tiles 1px border, radius 10px, shadow none
-- Tile DOM count 28 = 14 logos × 2 for seamless loop (single ribbon)
+- Tile DOM count 28 = 14 logos Ã 2 for seamless loop (single ribbon)
 - Screenshots: `po-repass-a-ours-trust-after-1440.png`, `po-repass-a-ours-trust-after-390.png`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
 
 ---
 
-## 2026-09-14 — RE-PASS B Hero (quieter type + PO badge chrome)
+## 2026-09-14 â RE-PASS B Hero (quieter type + PO badge chrome)
 
 **Task:** Hero fidelity vs Project One fold UI language (keep eCom 2-col lead form)
 **Verification method:** Playwright 1440 + 390; computed fonts/styles; screenshots
 **Result:** pass
 **Evidence:**
 - Before gaps: plain gray eyebrow vs PO dark soft-rect badge; sub `600` navy-tint vs PO quiet body; H1 lh 1.02 / tracking -0.035em vs PO lh 1 / normal tracking; form fields soft `/25` borders
-- After 1440: H1 IBM Plex 76px/800/lh 76px/tracking -1.52px; eyebrow navy soft-rect 10px + border-2; sub 18px/400 muted gray; form card 10px + border-2 + hard 6px offset; accent CTA chip radius 4px (square); secondary chip circle; CTAs → `#hero-lead-form`, `/case-studies/`
+- After 1440: H1 IBM Plex 76px/800/lh 76px/tracking -1.52px; eyebrow navy soft-rect 10px + border-2; sub 18px/400 muted gray; form card 10px + border-2 + hard 6px offset; accent CTA chip radius 4px (square); secondary chip circle; CTAs â `#hero-lead-form`, `/case-studies/`
 - Mobile 390: H1 44px/lh 44; overflowX false; no PO copy
 - Fonts: IBM Plex Sans on H1, eyebrow, sub, form H2
 - Screenshots: `po-repass-b-projectone-hero-1440.png`, `po-repass-b-ours-hero-before-1440.png`, `po-repass-b-ours-hero-after-1440.png`, `po-repass-b-ours-hero-after-390.png`
 - Files: `hero-section.tsx`, `globals.css` (`.text-hero` only)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS C Checklist ticker
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS C Checklist ticker
 
 ---
 
-## 2026-09-14 — RE-PASS C Checklist ticker (hard chrome)
+## 2026-09-14 â RE-PASS C Checklist ticker (hard chrome)
 
-**Task:** Checklist ticker fidelity — replace soft blur/pillow radius with PO hard chrome
+**Task:** Checklist ticker fidelity â replace soft blur/pillow radius with PO hard chrome
 **Verification method:** Playwright 1440 + 390; motion transform; fonts; screenshots
 **Result:** pass
 **Evidence:**
 - Before: panel radius 32px; soft shadow `0 18px 50px rgba`; glass chip fill
 - After: panel radius 10px; border-2 navy; hard offset `6px 6px 0 #0B1B3A`; softBlurish 0
-- Chips: soft-rect 10px; orange check square 5px `#E47911`; IBM Plex 14–16px/500–400
+- Chips: soft-rect 10px; orange check square 5px `#E47911`; IBM Plex 14â16px/500â400
 - Eyebrow: 12px/700 tracking 0.16em; eCom ops copy only
 - Dual marquees running; transform moved true (42s / 48s); overflowX false @1440+390
 - Screenshots: `po-repass-c-projectone-checklist-card-1440.png`, `po-repass-c-ours-ticker-before-1440.png`, `po-repass-c-ours-ticker-after-1440.png`, `po-repass-c-ours-ticker-after-390.png`
 - File: `checklist-ticker-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS D Pain strip
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS D Pain strip
 
 ---
 
-## 2026-09-14 — RE-PASS D Pain strip (hard chrome + quieter list)
+## 2026-09-14 â RE-PASS D Pain strip (hard chrome + quieter list)
 
-**Task:** Pain strip fidelity vs PO dark split card — kill soft blur, flatten checklist rows, harden bubbles
+**Task:** Pain strip fidelity vs PO dark split card â kill soft blur, flatten checklist rows, harden bubbles
 **Verification method:** Playwright 1440 + 390; list motion; bubble spawn; fonts; screenshots
 **Result:** pass
 **Evidence:**
 - Before: panel 32px + soft `18px/50px` blur; glass list cards; bubble glow `0 10px 24px` orange
 - After 1440: panel 10px + border-2 + hard `6px 6px 0 #0B1B3A`; softBlurish 0
 - List: hairline `border-b` rows (no glass cards); 14px IBM Plex; checklist transform moving
-- Bubbles: orange soft-rect 10px + hard `3px 3px 0` navy; spawn count ≥3; eCom friction quotes only
+- Bubbles: orange soft-rect 10px + hard `3px 3px 0` navy; spawn count â¥3; eCom friction quotes only
 - H2: 44px/800 IBM Plex; eyebrow 12px/700 tracking 0.16em; no PO copy; overflowX false
 - Mobile 390: H2 ~29.6/800; bubbles spawning; list motion; overflow false
 - Screenshots: `po-repass-d-projectone-pain-1440.png`, `po-repass-d-ours-pain-before-1440.png`, `po-repass-d-ours-pain-after-1440.png`, `po-repass-d-ours-pain-after-390.png`
 - Files: `pain-strip-section.tsx`, `pain-spawn-bubbles.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS E Brand values
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS E Brand values
 
 ---
 
-## 2026-09-14 — RE-PASS E Brand values (hard card shadows)
+## 2026-09-14 â RE-PASS E Brand values (hard card shadows)
 
-**Task:** Brand values fidelity — match PO simple-prop cards hard offset shadows
+**Task:** Brand values fidelity â match PO simple-prop cards hard offset shadows
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1569,14 +1595,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-repass-e-projectone-values-1440.png`, `po-repass-e-ours-values-before-1440.png`, `po-repass-e-ours-values-after-1440.png`, `po-repass-e-ours-values-after-390.png`
 - File: `brand-values-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS F Process
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS F Process
 
 ---
 
-## 2026-09-14 — RE-PASS F Process (assurances + mockup chrome)
+## 2026-09-14 â RE-PASS F Process (assurances + mockup chrome)
 
-**Task:** Process fidelity vs PO how-it-works hard chrome — quiet type, harden assurances, soft-rect mockup
+**Task:** Process fidelity vs PO how-it-works hard chrome â quiet type, harden assurances, soft-rect mockup
 **Verification method:** Playwright 1440 + 390; computed styles; screenshots
 **Result:** pass
 **Evidence:**
@@ -1589,14 +1615,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-repass-f-projectone-process-1440.png`, `po-repass-f-ours-process-before-1440.png`, `po-repass-f-ours-process-after-1440.png`, `po-repass-f-ours-process-after-390.png`
 - File: `process-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS G Free audit conversion
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS G Free audit conversion
 
 ---
 
-## 2026-09-14 — RE-PASS G Free audit (card chrome + status browsers)
+## 2026-09-14 â RE-PASS G Free audit (card chrome + status browsers)
 
-**Task:** Free audit conversion fidelity — soft-rect hard card + PO-style floating mini status browsers (eCom mockups)
+**Task:** Free audit conversion fidelity â soft-rect hard card + PO-style floating mini status browsers (eCom mockups)
 **Verification method:** Playwright 1440 + 390; CTAs; fonts; screenshots
 **Result:** pass
 **Evidence:**
@@ -1604,18 +1630,18 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - After: card 10px + border-2 + hard 6px navy; badge orange + hard 3px; checks 5px; Free 72px/800 IBM Plex
 - Floats (lg+): 2 tilted mini BrowserMockups (`ppc`, `analytics`) soft-rect 10px + hard 4px; hidden on 390
 - CTAs: `#hero-lead-form`, `/case-studies/`; no PO pricing/$ copy; overflowX false
-- Colors locked navy `#0B1B3A` + orange `#E47911` (PO lime→orange)
+- Colors locked navy `#0B1B3A` + orange `#E47911` (PO limeâorange)
 - Screenshots: `po-repass-g-ours-audit-before-1440.png`, `po-repass-g-ours-audit-after-1440.png`, `po-repass-g-ours-audit-after-390.png`
 - File: `free-audit-card-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS H Portfolio
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS H Portfolio
 
 ---
 
-## 2026-09-14 — RE-PASS H Portfolio creative showcase
+## 2026-09-14 â RE-PASS H Portfolio creative showcase
 
-**Task:** Creative showcase fidelity — soft-rect listing frame + hard thumb chrome (one section)
+**Task:** Creative showcase fidelity â soft-rect listing frame + hard thumb chrome (one section)
 **Verification method:** Playwright 1440 + 390; CTA; fonts; screenshots
 **Result:** pass
 **Evidence:**
@@ -1625,14 +1651,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-repass-h-projectone-work-1440.png`, `po-repass-h-ours-creative-before-1440.png`, `po-repass-h-ours-creative-after-1440.png`, `po-repass-h-ours-creative-after-390.png`
 - File: `creative-showcase-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → Case studies (portfolio) then Comparison
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â Case studies (portfolio) then Comparison
 
 ---
 
-## 2026-09-14 — RE-PASS H2 Case studies (hard tiles)
+## 2026-09-14 â RE-PASS H2 Case studies (hard tiles)
 
-**Task:** Case studies fidelity — always-on hard card/logo chrome + quieter type
+**Task:** Case studies fidelity â always-on hard card/logo chrome + quieter type
 **Verification method:** Playwright 1440 + 390; links; fonts; screenshots
 **Result:** pass
 **Evidence:**
@@ -1643,14 +1669,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-repass-h2-projectone-work-1440.png`, `po-repass-h2-ours-cases-before-1440.png`, `po-repass-h2-ours-cases-after-1440.png`, `po-repass-h2-ours-cases-after-390.png`
 - File: `case-studies-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS I Comparison
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS I Comparison
 
 ---
 
-## 2026-09-14 — RE-PASS I Comparison (soft-rect table)
+## 2026-09-14 â RE-PASS I Comparison (soft-rect table)
 
-**Task:** Comparison table fidelity — 10px hard frame + quieter type + hard mobile cards
+**Task:** Comparison table fidelity â 10px hard frame + quieter type + hard mobile cards
 **Verification method:** Playwright 1440 + 390; link; fonts; screenshots
 **Result:** pass
 **Evidence:**
@@ -1660,12 +1686,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-repass-i-projectone-compare-1440.png`, `po-repass-i-ours-compare-before-1440.png`, `po-repass-i-ours-compare-after-1440.png`, `po-repass-i-ours-compare-after-390.png`
 - File: `comparison-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → RE-PASS J Testimonials
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â RE-PASS J Testimonials
 
 ---
 
-## 2026-09-15 — PASS 0 Foundation (PO visual rebuild)
+## 2026-09-15 â PASS 0 Foundation (PO visual rebuild)
 
 **Task:** Unlock navy/orange + IBM; adopt PO lime `#C6FD50` / ink `#131311` / Satoshi; shared chrome
 **Verification method:** Playwright 1440 + 390; computed tokens; screenshots
@@ -1680,28 +1706,28 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Files: `design-system.json`, `layout.tsx`, `globals.css`, `primary-button.tsx`, `site-header-shell.tsx`, `po-chrome.ts`, src hex remap
 - Docs: ADR in `DECISIONS.md`, `.cursor/prompts/PO-VISUAL-REBUILD-MASTER.md`, `.cursor/plans/2026-09-15-po-visual-rebuild.md`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 1 Hero (centered + orbit Polaroids; keep `#hero-lead-form`)
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 1 Hero (centered + orbit Polaroids; keep `#hero-lead-form`)
 
 ---
 
-## 2026-09-15 — PASS 1 Hero (centered + orbit)
+## 2026-09-15 â PASS 1 Hero (centered + orbit)
 
 **Task:** PO-centered hero + orbit Polaroids; eCom content; preserve `#hero-lead-form`
 **Verification method:** Playwright 1440 + 390; computed type/colors; CTA hrefs; overflow; screenshots
 **Result:** pass
-**Evidence (gaps → after):**
+**Evidence (gaps â after):**
 - Before: left-aligned 2-col + side form; no orbit
 - After: centered H1 (76/900 Satoshi, text-align center); lime CTA `rgb(198,253,80)` + hard ink shadow; 5 orbit figures @lg (hidden @390); form `#hero-lead-form` under fold; primary href `#hero-lead-form`; secondary `/case-studies/`; tokens ink/lime; no PO copy leak; overflowX false
 - Screenshots: `po-v1-projectone-hero-1440.png`, `po-v1-ours-hero-before-1440.png`, `po-v1-ours-hero-after-1440.png`, `po-v1-ours-hero-after-390.png`
 - Files: `hero-section.tsx`, `hero-orbit-media.tsx`, `globals.css` (hero-orbit-float)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 2 Pain strip
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 2 Pain strip
 
 ---
 
-## 2026-09-15 — PASS 2 Pain strip (dark split)
+## 2026-09-15 â PASS 2 Pain strip (dark split)
 
 **Task:** Match PO dark pain split chrome (16px panel, lime pill bubbles, H2 40/900); eCom copy only
 **Verification method:** Playwright 1440 + 390; computed type/colors; overflow; screenshots
@@ -1712,45 +1738,45 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v2-projectone-pain-1440.png`, `po-v2-ours-pain-before-1440.png`, `po-v2-ours-pain-after-1440.png`, `po-v2-ours-pain-after-390.png`
 - Files: `pain-strip-section.tsx`, `pain-spawn-bubbles.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 3 Brand values 3×2
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 3 Brand values 3Ã2
 
 ---
 
-## 2026-09-15 — PASS 3 Brand values (left copy + hard props)
+## 2026-09-15 â PASS 3 Brand values (left copy + hard props)
 
-**Task:** PO left-copy + hard alternating prop cards; eCom pillars only (4 → 2×2, not invented 3×2)
+**Task:** PO left-copy + hard alternating prop cards; eCom pillars only (4 â 2Ã2, not invented 3Ã2)
 **Verification method:** Playwright 1440 + 390; computed type/colors; CTA; overflow; screenshots
 **Result:** pass
 **Evidence:**
 - Gaps: flat 4-col row vs PO left stack + prop grid; square check chips vs circles; H2 44/800
-- After @1440: split layout; H2 Satoshi 40/900; 2×2 cards lime/canvas; hard `4px` ink shadow; circle icons; CTA `#hero-lead-form` lime; no PO copy leak; overflowX false
-- Note: PO reference is 3×2/6 cards; eCom has 4 verified pillars — kept 2×2 (no invented props)
+- After @1440: split layout; H2 Satoshi 40/900; 2Ã2 cards lime/canvas; hard `4px` ink shadow; circle icons; CTA `#hero-lead-form` lime; no PO copy leak; overflowX false
+- Note: PO reference is 3Ã2/6 cards; eCom has 4 verified pillars â kept 2Ã2 (no invented props)
 - Screenshots: `po-v3-projectone-props-1440.png`, `po-v3-ours-values-before-1440.png`, `po-v3-ours-values-after-1440.png`, `po-v3-ours-values-after-390.png`
 - File: `brand-values-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 4 Staggered process
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 4 Staggered process
 
 ---
 
-## 2026-09-15 — PASS 4 Staggered process
+## 2026-09-15 â PASS 4 Staggered process
 
 **Task:** PO lime staircase process cards + phase headers; eCom 4 steps only
 **Verification method:** Playwright 1440 + 390; computed type/colors; stagger margins; overflow; screenshots
 **Result:** pass
 **Evidence:**
 - Gaps: flat 4-col dark ink cards vs PO lime staggered staircase + phase headers; H2 44/800 left vs 40/900 centered
-- After @1440: H2 Satoshi 40/900 center; 4 lime cards; hard `4px` shadow; mt 0/40/80/120 staircase; number pills; eCom Audit→Report only; no PO step copy in cards; overflowX false
+- After @1440: H2 Satoshi 40/900 center; 4 lime cards; hard `4px` shadow; mt 0/40/80/120 staircase; number pills; eCom AuditâReport only; no PO step copy in cards; overflowX false
 - Screenshots: `po-v4-projectone-process-1440.png`, `po-v4-ours-process-before-1440.png`, `po-v4-ours-process-after-1440.png`, `po-v4-ours-process-after-390.png`
 - File: `process-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 5 Lime USP marquee
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 5 Lime USP marquee
 
 ---
 
-## 2026-09-15 — PASS 5 Lime USP marquee
+## 2026-09-15 â PASS 5 Lime USP marquee
 
 **Task:** Full-bleed lime USP ticker matching PO marquee chrome; eCom ops phrases only
 **Verification method:** Playwright 1440 + 390; computed colors/type; overflow; screenshots
@@ -1761,14 +1787,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v5-projectone-marquee-1440.png`, `po-v5-ours-marquee-before-1440.png`, `po-v5-ours-marquee-after-1440.png`, `po-v5-ours-marquee-after-390.png`
 - File: `checklist-ticker-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 6 Dark mid CTA
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 6 Dark mid CTA
 
 ---
 
-## 2026-09-15 — PASS 6 Dark mid CTA
+## 2026-09-15 â PASS 6 Dark mid CTA
 
-**Task:** Dark mid CTA band (stats → ink band + lime Free Audit); verified metrics only
+**Task:** Dark mid CTA band (stats â ink band + lime Free Audit); verified metrics only
 **Verification method:** Playwright 1440 + 390; CTA href; computed type/colors; overflow; screenshots
 **Result:** pass
 **Evidence:**
@@ -1777,12 +1803,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v6-projectone-midcta-1440.png`, `po-v6-ours-midcta-before-1440.png`, `po-v6-ours-midcta-after-1440.png`, `po-v6-ours-midcta-after-390.png`
 - Files: `stats-section.tsx`, `homepage.json` (stats heading/cta)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 7 Free audit pricing-chrome
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 7 Free audit pricing-chrome
 
 ---
 
-## 2026-09-15 — PASS 7 Free audit pricing-chrome
+## 2026-09-15 â PASS 7 Free audit pricing-chrome
 
 **Task:** PO pricing-card chrome for Free Audit offer; eCom content only (no $ plans)
 **Verification method:** Playwright 1440 + 390; computed type/colors; CTA href; overflow; PO leak check; screenshots
@@ -1794,12 +1820,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v7-projectone-pricing-1440.png`, `po-v7-ours-audit-before-1440.png`, `po-v7-ours-audit-after-1440.png`, `po-v7-ours-audit-after-390.png`
 - File: `free-audit-card-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 8 See Work
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 8 See Work
 
 ---
 
-## 2026-09-15 — PASS 8 See Work
+## 2026-09-15 â PASS 8 See Work
 
 **Task:** PO See Work chrome for creative + case studies; eCom media/brands only
 **Verification method:** Playwright 1440 + 390; computed type/colors; CTAs; overflow; PO leak check; screenshots
@@ -1812,12 +1838,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v8-projectone-seework-1440.png`, `po-v8-ours-creative-before-1440.png`, `po-v8-ours-cases-before-1440.png`, `po-v8-ours-creative-after-1440.png`, `po-v8-ours-cases-after-1440.png`, `po-v8-ours-creative-after-390.png`, `po-v8-ours-cases-after-390.png`
 - Files: `creative-showcase-section.tsx`, `case-studies-section.tsx`, `homepage.json` (creative eyebrow)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 9 Comparison
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 9 Comparison
 
 ---
 
-## 2026-09-15 — PASS 9 Comparison
+## 2026-09-15 â PASS 9 Comparison
 
 **Task:** PO quiet comparison table chrome; eCom Agency vs DIY copy only
 **Verification method:** Playwright 1440 + 390; computed type/colors; CTA; overflow; PO leak check; screenshots
@@ -1829,12 +1855,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v9-projectone-comparison-1440.png`, `po-v9-ours-comparison-before-1440.png`, `po-v9-ours-comparison-after-1440.png`, `po-v9-ours-comparison-after-390.png`
 - File: `comparison-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 10 Trust
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 10 Trust
 
 ---
 
-## 2026-09-15 — PASS 10 Trust
+## 2026-09-15 â PASS 10 Trust
 
 **Task:** PO dark trust bento (lime soft-rect metrics + logo tiles); eCom verified claims/assets only
 **Verification method:** Playwright 1440 + 390; computed type/colors; links; overflow; PO leak check; screenshots
@@ -1846,12 +1872,12 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v10-projectone-trust-1440.png`, `po-v10-ours-trust-before-1440.png`, `po-v10-ours-trust-after-1440.png`, `po-v10-ours-trust-after-390.png`
 - Files: `trust-bar-section.tsx`, `homepage.json` (trust heading/metrics)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 11 Testimonials
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 11 Testimonials
 
 ---
 
-## 2026-09-15 — PASS 11 Testimonials
+## 2026-09-15 â PASS 11 Testimonials
 
 **Task:** PO dark testimonial band + cream hard quote cards; eCom quotes only
 **Verification method:** Playwright 1440 + 390; computed type/colors; overflow; PO leak check; screenshots
@@ -1860,16 +1886,16 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Gaps: light canvas H2 44/700 + border-2 alternating ink/white cards vs PO dark band, cream `#F3F2EA` soft-rect 10px cards, hard `4px` shadow, bold quotes, Name | Company
 - After @1440: section `rgb(19,19,17)`; H2 Satoshi 48/900 white; cards `rgb(243,242,234)` radius 10px hard `4px` shadow; 5 eCom quotes; no PO client/copy leak; accent `#C6FD50`; overflowX false
 - After @390: H2 29.6/900; cream cards + hard shadow; horizontal scroll; overflowX false
-- Note: quote type kept ~16–18/700 (eCom quotes are longer than PO punch lines)
+- Note: quote type kept ~16â18/700 (eCom quotes are longer than PO punch lines)
 - Screenshots: `po-v11-projectone-testimonials-1440.png`, `po-v11-ours-testimonials-before-1440.png`, `po-v11-ours-testimonials-after-1440.png`, `po-v11-ours-testimonials-after-390.png`
 - File: `testimonials-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 12 FAQ
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 12 FAQ
 
 ---
 
-## 2026-09-15 — PASS 12 FAQ
+## 2026-09-15 â PASS 12 FAQ
 
 **Task:** PO lime FAQ panel + ink accordion; eCom Q&A only
 **Verification method:** Playwright 1440 + 390; accordion open; computed type/colors; overflow; PO leak check; screenshots
@@ -1881,56 +1907,56 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshots: `po-v12-projectone-faq-1440.png`, `po-v12-ours-faq-before-1440.png`, `po-v12-ours-faq-after-1440.png`, `po-v12-ours-faq-after-390.png`
 - Files: `faq-section.tsx`, `faq-accordion.tsx` (`variant="lime"`)
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 13 Final CTA
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 13 Final CTA
 
 ---
 
-## 2026-09-15 — PASS 13 Final CTA
+## 2026-09-15 â PASS 13 Final CTA
 
-**Task:** PO final CTA chrome — centered oversized H2 + lime hard card; eCom Free Audit only
+**Task:** PO final CTA chrome â centered oversized H2 + lime hard card; eCom Free Audit only
 **Verification method:** Playwright 1440 + 390; CTAs/links; computed type/colors; overflow; PO leak check; screenshots
 **Result:** pass
 **Evidence:**
-- Gaps: H2 44/700 + 24px/6px card chrome vs PO centered H2 ~61/900 + lime card 16px hard `4px` shadow (Contact Us form on PO — not copied)
+- Gaps: H2 44/700 + 24px/6px card chrome vs PO centered H2 ~61/900 + lime card 16px hard `4px` shadow (Contact Us form on PO â not copied)
 - After @1440: H2 Satoshi 60.8/900 center; lime card `#C6FD50` radius 16px hard `4px`; primary `/free-audit-2/` ink; secondary `#hero-lead-form`; tel/mailto intact; no money-back/PO leak; overflowX false
 - After @390: H2 29.6/900; card chrome holds; overflowX false
 - Screenshots: `po-v13-projectone-finalcta-1440.png`, `po-v13-ours-finalcta-before-1440.png`, `po-v13-ours-finalcta-after-1440.png`, `po-v13-ours-finalcta-after-390.png`
 - File: `cta-section.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** User approve → PASS 14 Footer
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** User approve â PASS 14 Footer
 
 ---
 
-## 2026-09-15 — PASS 14 Footer
+## 2026-09-15 â PASS 14 Footer
 
-**Task:** PO ink footer chrome — 20px top radius, bold columns, lime CTA, watermark; eCom links only
+**Task:** PO ink footer chrome â 20px top radius, bold columns, lime CTA, watermark; eCom links only
 **Verification method:** Playwright 1440 + 390; CTAs/links; computed type/colors; overflow; PO leak check; screenshots
 **Result:** pass
 **Evidence:**
 - Gaps: denser muted link columns vs PO sparse bold white nav, lime CTA, underlined legal, 20px top radius, giant brand watermark
-- After @1440: footer ink `rgb(19,19,17)` radius `20px 20px 0 0`; H2 Satoshi 40/900; CTA `/free-audit-2/` lime; service links 16/700; privacy underlined; watermark “eCom Gliders”; no KHULA/Framer leak; overflowX false
+- After @1440: footer ink `rgb(19,19,17)` radius `20px 20px 0 0`; H2 Satoshi 40/900; CTA `/free-audit-2/` lime; service links 16/700; privacy underlined; watermark âeCom Glidersâ; no KHULA/Framer leak; overflowX false
 - After @390: radius/CTA hold; overflowX false
 - Screenshots: `po-v14-projectone-footer-1440.png`, `po-v14-ours-footer-before-1440.png`, `po-v14-ours-footer-after-1440.png`, `po-v14-ours-footer-after-390.png`
 - Files: `site-footer.tsx`, `pre-footer-cta.tsx`, `footer-main.tsx`, `footer-bottom.tsx`, `footer-contact-column.tsx`, `footer-brand-column.tsx`
 
-**STATUS:** IMPLEMENTED + VERIFIED — stop for approve
-**NEXT ACTION:** Queue complete (Passes 0–14). User approve closes PO visual rebuild protocol.
+**STATUS:** IMPLEMENTED + VERIFIED â stop for approve
+**NEXT ACTION:** Queue complete (Passes 0â14). User approve closes PO visual rebuild protocol.
 
 ---
 
-## 2026-09-15 — PO visual rebuild queue closed
+## 2026-09-15 â PO visual rebuild queue closed
 
 **Task:** Protocol continue with no pending pass
 **Result:** complete
-**Evidence:** Plan queue Passes 0–14 all IMPLEMENTED + VERIFIED in this log; no first pending pass remains
-**STATUS:** COMPLETE — protocol closed
+**Evidence:** Plan queue Passes 0â14 all IMPLEMENTED + VERIFIED in this log; no first pending pass remains
+**STATUS:** COMPLETE â protocol closed
 **NEXT ACTION:** Optional out-of-queue polish only if user names a section (e.g. seller-segments, blog-preview)
 
 ---
 
-## 2026-09-15 — Homepage visual bugfix (user feedback)
+## 2026-09-15 â Homepage visual bugfix (user feedback)
 
 **Task:** Fix free badges, free-audit card, mockup table, comparison, testimonials, blog images, hero overlay/form color, oversized background media
 **Verification method:** Playwright @1440; computed styles; image naturalWidth; overflowX
@@ -1950,13 +1976,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **NEXT ACTION:** User visual review on http://localhost:3000/
 
 
-## 2026-09-15 — Comparison PO table + swing note
+## 2026-09-15 â Comparison PO table + swing note
 
 **Task:** Restyle `#comparison` toward Project One partner table; add handwritten swing note + curved arrow
 **Verification method:** Playwright @1440; DOM headers/swing font; overflowX
 **Result:** pass (local)
 **Evidence:**
-- Eyebrow ink badge “Why partner with us?”; H2 “The smarter way to grow on Amazon.”
+- Eyebrow ink badge âWhy partner with us?â; H2 âThe smarter way to grow on Amazon.â
 - Swing note Caveat font + SVG arrow; `comparison-swing` motion-safe animation; visible @xl
 - 4 columns: eCom Gliders (lime border) | Typical agency | Freelancer | DIY / In-house
 - Row labels ink soft-rects; hairline rows; check/X cells; eCom copy only
@@ -1967,9 +1993,9 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-04 — Services Master Program Phase 0 foundation
+## 2026-10-04 â Services Master Program Phase 0 foundation
 
-**Task:** Phase 0 — prompt file, URL inventory, redirect notes, schema audience/differ, PO service template, multi-market Service JSON-LD  
+**Task:** Phase 0 â prompt file, URL inventory, redirect notes, schema audience/differ, PO service template, multi-market Service JSON-LD  
 **Verification method:** `npx tsc --noEmit`; Playwright desktop + mobile on `/full-service-amazon-agency/`  
 **Result:** pass (local)  
 **Evidence:**
@@ -1981,14 +2007,14 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Hard chrome shadow panels present (27 nodes with `shadow-[4px_4px_0_0_#131311]`) (Observed)
 - Related links: `/amazon-ppc-management-agency/`, `/amazon-listing-optimization/`, `/amazon-reporting-analytics/` (Verified)
 - No PO copy leak / lorem (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 - `tsc --noEmit` exit 0 (Verified)
 **STATUS:** Phase 0 COMPLETE  
-**NEXT ACTION:** CONTINUE → A1 rewrite `full-service-amazon-agency` JSON + SEO map row
+**NEXT ACTION:** CONTINUE â A1 rewrite `full-service-amazon-agency` JSON + SEO map row
 
 ---
 
-## 2026-10-04 — A1 full-service-amazon-agency conversion rewrite
+## 2026-10-04 â A1 full-service-amazon-agency conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/full-service-amazon-agency/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2000,18 +2026,18 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - H1: `Full-service Amazon account management for growing brands` (Verified)
 - Sections present: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQ entities; areaServed = 23 (Verified)
-- Markets FAQ answer lists US/CA/MX/BR… (Verified in schema; matches homepage FAQ)
+- Markets FAQ answer lists US/CA/MX/BRâ¦ (Verified in schema; matches homepage FAQ)
 - Internal links present: `/free-audit-2/`, PPC, listing, reporting, `/case-study-9/`, `/case-study-1/` (Verified)
 - No competitor metric leak (84% / $500M+) and no PO copy leak (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 - Claims limited to verified site stats + case-study-1 / case-study-9 metrics (Verified against config)
 **STATUS:** A1 COMPLETE  
-**NEXT ACTION:** CONTINUE → A2 `amazon-ppc-management-agency`
+**NEXT ACTION:** CONTINUE â A2 `amazon-ppc-management-agency`
 
 ---
 
-## 2026-10-04 — A2 amazon-ppc-management-agency conversion rewrite
+## 2026-10-04 â A2 amazon-ppc-management-agency conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-ppc-management-agency/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2022,18 +2048,18 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta: SP/SB/SD + ACoS + Verified Partner (Verified)
 - H1: `Amazon PPC management agency for profitable growth` (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
-- JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists US/CA/MX/BR… (Verified)
-- Results: GoSports ACOS 52%→26.5% → `/case-study-9/`; VoltTech profitable recovery → `/case-study-3/` (Verified vs case-studies.json)
+- JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists US/CA/MX/BRâ¦ (Verified)
+- Results: GoSports ACOS 52%â26.5% â `/case-study-9/`; VoltTech profitable recovery â `/case-study-3/` (Verified vs case-studies.json)
 - Internal links: free audit, full-service, listing, DSP, both case studies (Verified)
-- No PO leak; removed unverified “Top seller in category” claim (Verified)
+- No PO leak; removed unverified âTop seller in categoryâ claim (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** A2 COMPLETE  
-**NEXT ACTION:** CONTINUE → A3 `amazon-listing-optimization`
+**NEXT ACTION:** CONTINUE â A3 `amazon-listing-optimization`
 
 ---
 
-## 2026-10-04 — A3 amazon-listing-optimization conversion rewrite
+## 2026-10-04 â A3 amazon-listing-optimization conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-listing-optimization/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2044,17 +2070,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ aligned (Verified)
-- Results: GoSports CVR 9.8%→26.7% → `/case-study-9/`; Kitchen 73% → `/case-study-1/` (Verified vs case-studies.json)
+- Results: GoSports CVR 9.8%â26.7% â `/case-study-9/`; Kitchen 73% â `/case-study-1/` (Verified vs case-studies.json)
 - Internal links: free audit, content writing, PPC, visual, both case studies (Verified)
 - No PO leak; no competitor YOY/guarantee copy (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** A3 COMPLETE  
-**NEXT ACTION:** CONTINUE → A4 `amazon-content-writing`
+**NEXT ACTION:** CONTINUE â A4 `amazon-content-writing`
 
 ---
 
-## 2026-10-04 — A4 amazon-content-writing conversion rewrite
+## 2026-10-04 â A4 amazon-content-writing conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-content-writing/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2065,17 +2091,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ aligned (Verified)
-- Results: GoSports CVR → `/case-study-9/`; Pet grooming 2X with A+ → `/case-study-4/` (Verified vs case-studies.json)
+- Results: GoSports CVR â `/case-study-9/`; Pet grooming 2X with A+ â `/case-study-4/` (Verified vs case-studies.json)
 - Internal links: free audit, listing, visual, full-service, both case studies (Verified)
 - No PO leak; no competitor 38%/guarantee claims (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** A4 COMPLETE  
-**NEXT ACTION:** CONTINUE → A5 `amazon-visual-creativity`
+**NEXT ACTION:** CONTINUE â A5 `amazon-visual-creativity`
 
 ---
 
-## 2026-10-04 — A5 amazon-visual-creativity conversion rewrite
+## 2026-10-04 â A5 amazon-visual-creativity conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-visual-creativity/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2086,17 +2112,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ aligned (Verified)
-- Results: Pet grooming 2X → `/case-study-4/`; GoSports CVR/lifestyle A+ → `/case-study-9/` (Verified vs case-studies.json)
+- Results: Pet grooming 2X â `/case-study-4/`; GoSports CVR/lifestyle A+ â `/case-study-9/` (Verified vs case-studies.json)
 - Internal links: free audit, video, content writing, listing, both case studies (Verified)
 - No PO leak; no competitor 89%/38% claims (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** A5 COMPLETE  
-**NEXT ACTION:** CONTINUE → A6 `amazon-catalog-management`
+**NEXT ACTION:** CONTINUE â A6 `amazon-catalog-management`
 
 ---
 
-## 2026-10-04 — A6 amazon-catalog-management conversion rewrite
+## 2026-10-04 â A6 amazon-catalog-management conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-catalog-management/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2108,18 +2134,18 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ aligned (Verified)
 - Suppression FAQ includes no reinstatement guarantee (Verified)
-- Results: Kitchen 73% → `/case-study-1/`; FocusForm 7-figure catalog expansion → `/case-study-8/` (Verified)
-- Removed unverified “Top seller in category” claim (Verified absent)
+- Results: Kitchen 73% â `/case-study-1/`; FocusForm 7-figure catalog expansion â `/case-study-8/` (Verified)
+- Removed unverified âTop seller in categoryâ claim (Verified absent)
 - Internal links: free audit, listing, full-service, trademark, both case studies (Verified)
 - No PO leak; no competitor $500M/285% claims (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** A6 COMPLETE (Wave A Core 6 done)  
-**NEXT ACTION:** CONTINUE → B1 `amazon-dsp-management`
+**NEXT ACTION:** CONTINUE â B1 `amazon-dsp-management`
 
 ---
 
-## 2026-10-04 — B1 amazon-dsp-management conversion rewrite
+## 2026-10-04 â B1 amazon-dsp-management conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-dsp-management/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2130,17 +2156,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ notes DSP availability varies (Verified)
-- Results framed as advertising foundation (GoSports ACOS; VoltTech PPC recovery)—not DSP-attributed causation (Verified)
-- No competitor AMC-powered / $5K–$35K min / ROAS multiples (Verified absent)
+- Results framed as advertising foundation (GoSports ACOS; VoltTech PPC recovery)ânot DSP-attributed causation (Verified)
+- No competitor AMC-powered / $5Kâ$35K min / ROAS multiples (Verified absent)
 - Internal links: free audit, PPC, video, full-service, both case studies (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** B1 COMPLETE  
-**NEXT ACTION:** CONTINUE → B2 `amazon-reporting-analytics`
+**NEXT ACTION:** CONTINUE â B2 `amazon-reporting-analytics`
 
 ---
 
-## 2026-10-04 — B2 amazon-reporting-analytics conversion rewrite
+## 2026-10-04 â B2 amazon-reporting-analytics conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-reporting-analytics/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2152,17 +2178,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ aligned (Verified)
 - FAQ states not a software dashboard product (Verified; aligns homepage positioning)
-- Results: GoSports ACOS → `/case-study-9/`; Kitchen 73% → `/case-study-1/` (Verified)
+- Results: GoSports ACOS â `/case-study-9/`; Kitchen 73% â `/case-study-1/` (Verified)
 - No DataOwl/SalesDuo product-claim leak (Verified)
 - Internal links: free audit, PPC, full-service, listing, both case studies (Verified)
 - Hard chrome panels present (Observed)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** B2 COMPLETE (Wave B done)  
-**NEXT ACTION:** CONTINUE → C1 `amazon-video-creative`
+**NEXT ACTION:** CONTINUE â C1 `amazon-video-creative`
 
 ---
 
-## 2026-10-04 — C1 amazon-video-creative conversion rewrite
+## 2026-10-04 â C1 amazon-video-creative conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-video-creative/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2173,17 +2199,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets (Verified in schema)
-- Results framed as creative conversion reinforcement (case-study-4 2X; case-study-9 CVR)—not video-attributed causation (Verified)
+- Results framed as creative conversion reinforcement (case-study-4 2X; case-study-9 CVR)ânot video-attributed causation (Verified)
 - No invented video CTR / AMC / min-spend claims (Verified absent)
 - Internal links: free audit, visual creativity, DSP, PPC, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** C1 COMPLETE  
-**NEXT ACTION:** CONTINUE → C2 `amazon-trademark-brand-registry`
+**NEXT ACTION:** CONTINUE â C2 `amazon-trademark-brand-registry`
 
 ---
 
-## 2026-10-04 — C2 amazon-trademark-brand-registry conversion rewrite
+## 2026-10-04 â C2 amazon-trademark-brand-registry conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-trademark-brand-registry/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2195,39 +2221,39 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets + country-specific trademark note (Verified)
 - FAQ states not a law firm / attorney when required (Verified)
-- Results framed as brand-ready growth (case-study-8 7-figure + brand defense; case-study-1 73%)—not trademark-approval causation (Verified)
+- Results framed as brand-ready growth (case-study-8 7-figure + brand defense; case-study-1 73%)ânot trademark-approval causation (Verified)
 - No competitor fee/claim leak ($200 attorney, 89% order, guaranteed approval) (Verified absent)
 - Internal links: free audit, company registration, content writing, catalog, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** C2 COMPLETE  
-**NEXT ACTION:** CONTINUE → C3 `amazon-company-registration`
+**NEXT ACTION:** CONTINUE â C3 `amazon-company-registration`
 
 ---
 
-## 2026-10-04 — C3 amazon-company-registration conversion rewrite
+## 2026-10-04 â C3 amazon-company-registration conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-company-registration/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
 **Result:** pass (local)  
 **Evidence:**
-- Research: no dedicated WP slug HTML (Observed); services-2 Company Registration with India PAN/TAN / 100% compliant copy (Verified — replaced); StarterX Amazon LLC (Verified Playwright); StartGlobal Amazon FBA LLC (Observed fetch)
+- Research: no dedicated WP slug HTML (Observed); services-2 Company Registration with India PAN/TAN / 100% compliant copy (Verified â replaced); StarterX Amazon LLC (Verified Playwright); StartGlobal Amazon FBA LLC (Observed fetch)
 - Title: `US Company Registration for Amazon Sellers | eCom Gliders` (Verified)
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets + US-entity focus note (Verified)
 - FAQ states not legal/tax advice (Verified)
-- Results framed as foundation-ready growth (case-study-1 73%; case-study-9 310%)—not entity-formation causation (Verified)
+- Results framed as foundation-ready growth (case-study-1 73%; case-study-9 310%)ânot entity-formation causation (Verified)
 - No PAN/TAN / 100% compliant / first-attempt / competitor fee claims (Verified absent)
 - Internal links: free audit, trademark, full-service, product sourcing, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** C3 COMPLETE  
-**NEXT ACTION:** CONTINUE → C4 `amazon-product-sourcing`
+**NEXT ACTION:** CONTINUE â C4 `amazon-product-sourcing`
 
 ---
 
-## 2026-10-04 — C4 amazon-product-sourcing conversion rewrite
+## 2026-10-04 â C4 amazon-product-sourcing conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/amazon-product-sourcing/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2239,17 +2265,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets (Verified)
 - FAQ states not a manufacturer; compliance via qualified providers; no marketplace approval guarantee (Verified)
-- Results framed as catalog-expansion growth (case-study-8 7-figure; case-study-9 310%)—not sourcing cost-cut causation (Verified)
+- Results framed as catalog-expansion growth (case-study-8 7-figure; case-study-9 310%)ânot sourcing cost-cut causation (Verified)
 - No 35% cost reduction / 100% compliant / competitor factory-count claims (Verified absent)
 - Internal links: free audit, catalog, listing, full-service, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** C4 COMPLETE (Wave C done)  
-**NEXT ACTION:** CONTINUE → D1 `shopify-website-development`
+**NEXT ACTION:** CONTINUE â D1 `shopify-website-development`
 
 ---
 
-## 2026-10-04 — D1 shopify-website-development conversion rewrite
+## 2026-10-04 â D1 shopify-website-development conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/shopify-website-development/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
@@ -2261,95 +2287,95 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets + Shopify scope note (Verified)
 - FAQ states Shopify does not replace Amazon (Verified)
-- Results framed as brand-channel growth (case-study-9 310%; case-study-1 73%)—not Shopify CVR causation (Verified)
+- Results framed as brand-channel growth (case-study-9 310%; case-study-1 73%)ânot Shopify CVR causation (Verified)
 - No competitor 27% CVR / Shop Pay 50% / $4B / $1,499 pricing claims (Verified absent)
 - Internal links: free audit, email retention, full-service, visual creativity, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** D1 COMPLETE  
-**NEXT ACTION:** CONTINUE → D2 `tiktok-shop-ads`
+**NEXT ACTION:** CONTINUE â D2 `tiktok-shop-ads`
 
 ---
 
-## 2026-10-04 — D2 tiktok-shop-ads conversion rewrite
+## 2026-10-04 â D2 tiktok-shop-ads conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/tiktok-shop-ads/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
 **Result:** pass (local)  
 **Evidence:**
-- Research: no dedicated WP service HTML (Observed); EG TikTok external-traffic blogs (Observed); Viral Brand Works Amazon-to-TikTok agency (Verified Playwright); Sequence Amazon×TikTok (Observed fetch); Desverto Cloudflare-blocked (Observed)
+- Research: no dedicated WP service HTML (Observed); EG TikTok external-traffic blogs (Observed); Viral Brand Works Amazon-to-TikTok agency (Verified Playwright); Sequence AmazonÃTikTok (Observed fetch); Desverto Cloudflare-blocked (Observed)
 - Title: `TikTok Shop Ads for Amazon Brands | eCom Gliders` (Verified)
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets + TikTok Shop eligibility varies (Verified)
 - FAQ states TikTok does not replace Amazon advertising (Verified)
-- Results framed as advertising-led Amazon growth (case-study-9 ACOS 52% to 26.5%; case-study-1 73%)—not TikTok ROAS/GMV causation (Verified)
+- Results framed as advertising-led Amazon growth (case-study-9 ACOS 52% to 26.5%; case-study-1 73%)ânot TikTok ROAS/GMV causation (Verified)
 - No competitor $50k+/mo, 500+ creators, $500M, 285%, GMV Max scale claims (Verified absent)
 - Internal links: free audit, PPC, video, Shopify, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
 **STATUS:** D2 COMPLETE  
-**NEXT ACTION:** CONTINUE → D3 `email-retention-marketing`
+**NEXT ACTION:** CONTINUE â D3 `email-retention-marketing`
 
 ---
 
-## 2026-10-04 — D3 email-retention-marketing conversion rewrite
+## 2026-10-04 â D3 email-retention-marketing conversion rewrite
 
 **Task:** Research gate + SITE-SEO-MAP + full conversion JSON for `/email-retention-marketing/`  
 **Verification method:** Playwright desktop + mobile; JSON-LD evaluate; internal link presence  
 **Result:** pass (local)  
 **Evidence:**
-- Research: no dedicated WP service HTML (Observed); EG Shopify plugins / algorithm blogs mention email (Observed); Chronos retention agency $400M / 500 brands (Verified Playwright); EvolveAMZ Klaviyo Amazon playbook $30–$50/$1 claims (Observed) — not copied
+- Research: no dedicated WP service HTML (Observed); EG Shopify plugins / algorithm blogs mention email (Observed); Chronos retention agency $400M / 500 brands (Verified Playwright); EvolveAMZ Klaviyo Amazon playbook $30â$50/$1 claims (Observed) â not copied
 - Title: `Email and Retention Marketing for Amazon Brands | eCom Gliders` (Verified)
 - Meta + H1 match SEO map (Verified)
 - Sections: problem, audience, solution, deliverables, differ, results, FAQ, related, CTA (Verified)
 - JSON-LD: Service + FAQPage; 8 FAQs; areaServed = 23; markets FAQ lists Seller Central markets + email compliance note (Verified)
 - FAQ states email does not replace Amazon advertising (Verified)
-- Results framed as brand-retention growth (case-study-9 310%; case-study-1 73%)—not email ROI causation (Verified)
-- No competitor Master Elite / $400M / $30–$50 email ROI / 30–50% revenue claims (Verified absent)
+- Results framed as brand-retention growth (case-study-9 310%; case-study-1 73%)ânot email ROI causation (Verified)
+- No competitor Master Elite / $400M / $30â$50 email ROI / 30â50% revenue claims (Verified absent)
 - Internal links: free audit, Shopify, full-service, content writing, both case studies (Verified)
 - Ink/lime tokens present; no PO copy leak (Verified)
-- Mobile 390×844: H1 visible; overflowX false (Verified)
-**STATUS:** D3 COMPLETE (Wave D done; Services Master queue A1–D3 complete)  
+- Mobile 390Ã844: H1 visible; overflowX false (Verified)
+**STATUS:** D3 COMPLETE (Wave D done; Services Master queue A1âD3 complete)  
 **NEXT ACTION:** Cross-link audit, staging deploy, docs closeout (await CONTINUE / APPROVE)
 
 ---
 
-## 2026-10-04 — Services Master closeout: cross-link audit
+## 2026-10-04 â Services Master closeout: cross-link audit
 
 **Task:** Queue complete; cross-link audit across all 15 service JSONs + local HTTP checks  
 **Verification method:** Node inventory of related/CTA/result hrefs; curl status matrix; Playwright spot-check  
 **Result:** pass (local) with one remediation  
 **Evidence:**
-- All 15 service configs have full conversion sections including audience + differ + ≥8 FAQs (Verified)
+- All 15 service configs have full conversion sections including audience + differ + â¥8 FAQs (Verified)
 - All relatedServices, hero CTA, section CTA, and results hrefs resolve to known service/case/free-audit paths (Verified)
 - Local HTTP 200 for all 15 services + `/free-audit-2/` + case-study-1/3/4/8/9 (Verified curl)
-- Orphan inbound relatedServices: `tiktok-shop-ads` had 0 inbound (Observed) — remediated by adding related link from `/amazon-video-creative/` (Verified Playwright)
+- Orphan inbound relatedServices: `tiktok-shop-ads` had 0 inbound (Observed) â remediated by adding related link from `/amazon-video-creative/` (Verified Playwright)
 - DSP retains inbound related from PPC after video related swap (Verified)
 - No PO copy leak on video page spot-check (Verified)
-- Staging deploy: Not yet tested — Requires confirmation
+- Staging deploy: Not yet tested â Requires confirmation
 **STATUS:** Cross-link audit COMPLETE  
 **NEXT ACTION:** Staging deploy + final docs closeout (await APPROVE / deploy instruction)
 
 ---
 
-## 2026-10-04 — Services Master final docs closeout (local)
+## 2026-10-04 â Services Master final docs closeout (local)
 
-**Task:** Docs closeout after A1–D3 + cross-link; no staging deploy without approval  
+**Task:** Docs closeout after A1âD3 + cross-link; no staging deploy without approval  
 **Verification method:** Status reconciliation across SITE-SEO-MAP, plan, DECISIONS, SESSION-STATE  
 **Result:** pass (documentation)  
 **Evidence:**
-- Incomplete service slugs: none (Verified SITE-SEO-MAP summary table — 15/15 Implemented)
+- Incomplete service slugs: none (Verified SITE-SEO-MAP summary table â 15/15 Implemented)
 - Plan status updated to local COMPLETE; staging Requires confirmation (Verified `.cursor/plans/2026-10-04-services-pages-master-program.md`)
 - DECISIONS entry for local program completion + deploy hold (Verified `docs/project/DECISIONS.md`)
-- Staging deploy: Not executed — Requires confirmation
+- Staging deploy: Not executed â Requires confirmation
 - Production cutover: Not started
 **STATUS:** Local Services Master Program COMPLETE (docs)  
 **NEXT ACTION:** APPROVE staging deploy (explicit) before any host/environment push
 
 ---
 
-## 2026-10-04 — Service hero PO redesign (shared template)
+## 2026-10-04 â Service hero PO redesign (shared template)
 
 **Task:** Improve service page hero visual (user feedback: hero not strong enough)  
 **Verification method:** Playwright desktop + mobile on `/full-service-amazon-agency/`  
@@ -2358,13 +2384,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - New `ServiceHero`: centered fold, `text-hero`, lime accent CTA + secondary `#service-results`, soft ring atmosphere, partner badge, verified trust line from `site.claims` (Verified)
 - Applies to all 15 service pages via shared template (Assumed for non-spot-checked slugs; spot-checked A1)
 - Desktop + mobile: H1 visible; overflowX false; no PO copy leak (Verified)
-- Trust line uses only verified site claims (2018 / 20+ / 95%) — no invented metrics (Verified)
+- Trust line uses only verified site claims (2018 / 20+ / 95%) â no invented metrics (Verified)
 **STATUS:** Service hero redesign COMPLETE (local)  
 **NEXT ACTION:** User visual review; then APPROVE staging if ready
 
 ---
 
-## 2026-10-04 — Service hero breadcrumb + lead form
+## 2026-10-04 â Service hero breadcrumb + lead form
 
 **Task:** Fix breadcrumb placement; add per-service lead form in hero  
 **Verification method:** Playwright desktop + mobile on `/amazon-ppc-management-agency/`  
@@ -2380,7 +2406,7 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-04 — Per-service researched forms + hero balance
+## 2026-10-04 â Per-service researched forms + hero balance
 
 **Task:** Research-backed form fields per service; larger fonts; left/right visual balance  
 **Verification method:** Playwright on PPC + Trademark; height measure; research note  
@@ -2391,13 +2417,13 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Trademark form: Trademark status + Primary goal (Verified spot-check)
 - Left/right heights equal on PPC (547px / 547px) with 3 hard-chrome stat tiles (Verified)
 - H1 ~42px; subtitle/form labels larger (Verified)
-- Research recorded in `docs/research/SERVICE-FORM-FIELDS.md` (Proposed → implemented)
+- Research recorded in `docs/research/SERVICE-FORM-FIELDS.md` (Proposed â implemented)
 **STATUS:** Per-service forms + balance COMPLETE (local)  
 **NEXT ACTION:** User visual review
 
 ---
 
-## 2026-10-04 — Visual Differentiation Phase 0 + A1
+## 2026-10-04 â Visual Differentiation Phase 0 + A1
 
 **Task:** Phase 0 module system + growth inventory; A1 full-service mid-page modules  
 **Verification method:** Playwright localhost A1; growth DOM inventory; schema load  
@@ -2408,105 +2434,105 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Recipes + CONTINUE prompt: `docs/project/SERVICE-LAYOUT-RECIPES.md`, `.cursor/prompts/SERVICES-VISUAL-CONTINUE.md` (Verified)
 - A1 modules present: browserProof (2 imgs), comparisonTable, checklistMatrix (Verified)
 - Form intact; Service+FAQPage schema; no PO leak; mobile overflowX false (Verified)
-- Research: growth proofs Observed; competitor layout patterns (agency service pages use dashboard proof + comparison) Assumed from prior PPC/full-service competitive notes — not re-crawled this turn
+- Research: growth proofs Observed; competitor layout patterns (agency service pages use dashboard proof + comparison) Assumed from prior PPC/full-service competitive notes â not re-crawled this turn
 **STATUS:** Phase 0 COMPLETE; A1 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → A2 `amazon-ppc-management-agency`
+**NEXT ACTION:** CONTINUE â A2 `amazon-ppc-management-agency`
 
 ---
 
-## 2026-10-04 — Visual Differentiation A2 amazon-ppc-management-agency
+## 2026-10-04 â Visual Differentiation A2 amazon-ppc-management-agency
 
 **Task:** Research gate + modules for `/amazon-ppc-management-agency/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes; growth inventory match  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Emerging Ads / Merxpert / ProfitPixel PPC pages emphasize dashboards + efficiency proof (Observed web search 2026-10-04); growth sales-primeday + sales-803k mapped (Verified inventory)
-- Modules: browserProof (2 imgs), metricChart GoSports ACoS 52→26.5 with case-study-9 footnote, comparisonTable DIY vs managed (Verified)
-- No new asset download — reused growth proofs already logged (Verified)
-- Form “Get a free PPC audit” intact; Service+FAQPage; H1/title match; no PO leak; mobile overflowX false (Verified)
+- Modules: browserProof (2 imgs), metricChart GoSports ACoS 52â26.5 with case-study-9 footnote, comparisonTable DIY vs managed (Verified)
+- No new asset download â reused growth proofs already logged (Verified)
+- Form âGet a free PPC auditâ intact; Service+FAQPage; H1/title match; no PO leak; mobile overflowX false (Verified)
 - Chart footnote states not a promise for other accounts (Verified)
 **STATUS:** A2 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → A3 `amazon-listing-optimization`
+**NEXT ACTION:** CONTINUE â A3 `amazon-listing-optimization`
 
 ---
 
-## 2026-10-04 — Visual Differentiation A3 amazon-listing-optimization
+## 2026-10-04 â Visual Differentiation A3 amazon-listing-optimization
 
 **Task:** Research gate + modules for `/amazon-listing-optimization/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes; asset provenance  
 **Result:** pass (local)  
 **Evidence:**
 - Research: ShopHowell / My Amazon Guy listing pages use before-after creative + process (Observed web search 2026-10-04)
-- Growth: no listing crop — used existing creative assets already in DOWNLOAD-LOG (Verified explicit no-growth-asset path)
+- Growth: no listing crop â used existing creative assets already in DOWNLOAD-LOG (Verified explicit no-growth-asset path)
 - Modules: proofGallery (3 imgs), processSteps (4), checklistMatrix (2 groups) (Verified)
-- Form “Request a listing review” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- Form âRequest a listing reviewâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** A3 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → A4 `amazon-content-writing`
+**NEXT ACTION:** CONTINUE â A4 `amazon-content-writing`
 
 ---
 
-## 2026-10-04 — Visual Differentiation A4 amazon-content-writing
+## 2026-10-04 â Visual Differentiation A4 amazon-content-writing
 
 **Task:** Research gate + modules for `/amazon-content-writing/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes  
 **Result:** pass (local)  
 **Evidence:**
 - Research: AMZDudes / Shaazford content pages emphasize deliverable lists + SEO vs persuasion (Observed web search 2026-10-04)
-- Growth: no content-writing crop — existing service/creative assets (Verified no-growth-asset path)
+- Growth: no content-writing crop â existing service/creative assets (Verified no-growth-asset path)
 - Modules: proofGallery (3), checklistMatrix, comparisonTable (Verified)
-- Form “Request Amazon copy support” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- Form âRequest Amazon copy supportâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** A4 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → A5 `amazon-visual-creativity`
+**NEXT ACTION:** CONTINUE â A5 `amazon-visual-creativity`
 
 ---
 
-## 2026-10-04 — Visual Differentiation A5 amazon-visual-creativity
+## 2026-10-04 â Visual Differentiation A5 amazon-visual-creativity
 
 **Task:** Research gate + modules for `/amazon-visual-creativity/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes  
 **Result:** pass (local)  
 **Evidence:**
 - Research: WeSpark / ProductPhoto / Amplifyr creative pages lead with galleries + brief-first process (Observed web search 2026-10-04)
-- Growth: no visual-creative crop — reused homepage creative showcase assets (Verified no-growth-asset path)
+- Growth: no visual-creative crop â reused homepage creative showcase assets (Verified no-growth-asset path)
 - Modules: proofGallery (5 imgs), processSteps, checklistMatrix (Verified)
-- Form “Request visual creative support” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- Form âRequest visual creative supportâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** A5 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → A6 `amazon-catalog-management`
+**NEXT ACTION:** CONTINUE â A6 `amazon-catalog-management`
 
 ---
 
-## 2026-10-04 — Visual Differentiation A6 amazon-catalog-management
+## 2026-10-04 â Visual Differentiation A6 amazon-catalog-management
 
 **Task:** Research gate + modules for `/amazon-catalog-management/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes  
 **Result:** pass (local)  
 **Evidence:**
 - Research: CaptenAMZ / Qubeq / GrowithAmazon catalog pages use suppression/variation checklists + problem/fix tables (Observed web search 2026-10-04)
-- Growth: no catalog crop — structural modules only (Verified no-growth-asset path)
+- Growth: no catalog crop â structural modules only (Verified no-growth-asset path)
 - Modules: checklistMatrix, comparisonTable, processSteps (Verified)
-- No competitor 24–48h SLA copy (Verified absent)
-- Form “Request a catalog health review” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- No competitor 24â48h SLA copy (Verified absent)
+- Form âRequest a catalog health reviewâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** A6 visual COMPLETE (Wave A visual done)  
-**NEXT ACTION:** CONTINUE → B1 `amazon-dsp-management`
+**NEXT ACTION:** CONTINUE â B1 `amazon-dsp-management`
 
 ---
 
-## 2026-10-04 — Visual Differentiation B1 amazon-dsp-management
+## 2026-10-04 â Visual Differentiation B1 amazon-dsp-management
 
 **Task:** Research gate + modules for `/amazon-dsp-management/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes; growth inventory  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Marknology / Velocity / Eva DSP pages use Sponsored vs DSP comparison tables + readiness framing (Observed web search 2026-10-04)
-- Growth proofs reused: sales-primeday + sales-brand-yoy with “not DSP-only attribution” caption (Verified)
+- Growth proofs reused: sales-primeday + sales-brand-yoy with ânot DSP-only attributionâ caption (Verified)
 - Modules: browserProof (2), comparisonTable, checklistMatrix (Verified)
-- Form “Request a DSP strategy review” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- Form âRequest a DSP strategy reviewâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** B1 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → B2 `amazon-reporting-analytics`
+**NEXT ACTION:** CONTINUE â B2 `amazon-reporting-analytics`
 
 ---
 
-## 2026-10-04 — Visual Differentiation B2 amazon-reporting-analytics
+## 2026-10-04 â Visual Differentiation B2 amazon-reporting-analytics
 
 **Task:** Research gate + modules for `/amazon-reporting-analytics/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes; growth inventory  
@@ -2514,136 +2540,136 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **Evidence:**
 - Research: Amplivus / Push-Pull reporting pages emphasize dashboards + sales/TACoS context (Observed web search 2026-10-04)
 - Growth proofs: sales-dashboard-2yr + sales-90day (Verified reuse)
-- Modules: browserProof (2), metricChart GoSports ACoS 52→26.5 with case footnote, checklistMatrix (Verified)
-- Form “Request a reporting setup review” intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
+- Modules: browserProof (2), metricChart GoSports ACoS 52â26.5 with case footnote, checklistMatrix (Verified)
+- Form âRequest a reporting setup reviewâ intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** B2 visual COMPLETE (Wave B visual done)  
-**NEXT ACTION:** CONTINUE → C1 `amazon-video-creative`
+**NEXT ACTION:** CONTINUE â C1 `amazon-video-creative`
 
 ---
 
-## 2026-10-04 — Visual Differentiation C1 amazon-video-creative
+## 2026-10-04 â Visual Differentiation C1 amazon-video-creative
 
 **Task:** Research gate + modules for `/amazon-video-creative/`  
 **Verification method:** Playwright desktop + mobile; competitor layout notes  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Envy / Evolve / Caldera video pages organize by placement + production process (Observed web search 2026-10-04)
-- Growth: no video crop — creative stills used with “Not finished video files” disclaimer (Verified)
+- Growth: no video crop â creative stills used with âNot finished video filesâ disclaimer (Verified)
 - Modules: proofGallery (3), processSteps, checklistMatrix (Verified)
 - Form intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** C1 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → C2 `amazon-trademark-brand-registry`
+**NEXT ACTION:** CONTINUE â C2 `amazon-trademark-brand-registry`
 
 ---
 
-## 2026-10-04 — Visual Differentiation C2 amazon-trademark-brand-registry
+## 2026-10-04 â Visual Differentiation C2 amazon-trademark-brand-registry
 
 **Task:** Research gate + modules for `/amazon-trademark-brand-registry/`  
 **Verification method:** Playwright desktop + mobile; Amazon Brand Registry official steps  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Amazon Brand Registry enrollment requirements/process (Verified sell.amazon.com docs via web search 2026-10-04)
-- Growth: no Brand Registry crop — structural modules only (Verified no-growth-asset path)
-- Modules: processSteps, checklistMatrix, comparisonTable with “No promise of approval” (Verified)
+- Growth: no Brand Registry crop â structural modules only (Verified no-growth-asset path)
+- Modules: processSteps, checklistMatrix, comparisonTable with âNo promise of approvalâ (Verified)
 - Form intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** C2 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → C3 `amazon-company-registration`
+**NEXT ACTION:** CONTINUE â C3 `amazon-company-registration`
 
 ---
 
-## 2026-10-04 — Visual Differentiation C3 amazon-company-registration
+## 2026-10-04 â Visual Differentiation C3 amazon-company-registration
 
 **Task:** Research gate + modules for `/amazon-company-registration/`  
 **Verification method:** Playwright desktop + mobile; competitor + Amazon registration notes  
 **Result:** pass (local)  
 **Evidence:**
 - Research: StarterX / StartGlobal LLC-for-Amazon process pages + Amazon seller registration guide (Observed web search 2026-10-04)
-- Growth: no company-registration crop — structural modules only (Verified no-growth-asset path)
-- Modules: processSteps, checklistMatrix, comparisonTable; “Not legal advice” present (Verified)
+- Growth: no company-registration crop â structural modules only (Verified no-growth-asset path)
+- Modules: processSteps, checklistMatrix, comparisonTable; âNot legal adviceâ present (Verified)
 - Form intact; Service+FAQPage; no PO leak; mobile overflowX false (Verified)
 **STATUS:** C3 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → C4 `amazon-product-sourcing`
+**NEXT ACTION:** CONTINUE â C4 `amazon-product-sourcing`
 
 ---
 
-## 2026-10-04 — Visual Differentiation C4 amazon-product-sourcing
+## 2026-10-04 â Visual Differentiation C4 amazon-product-sourcing
 
 **Task:** Research gate + modules for `/amazon-product-sourcing/`  
 **Verification method:** Playwright desktop + mobile; competitor layout patterns  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Private Label Supply / iNNOVEX / BSA process + shortlist patterns (Observed web search 2026-10-04); prior AMZ Verse / NexoFetch gate in COMPETITIVE-RESEARCH (Verified)
-- Growth: no product-sourcing crop — structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
+- Growth: no product-sourcing crop â structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
 - Modules: processSteps, checklistMatrix, comparisonTable; not-manufacturer + no cost-reduction guarantee; no competitor cost-cut copy (Verified)
 - Form intact; H1/title match; Service+FAQPage; no PO leak; mobile overflowX false; modules visible (Verified)
 **STATUS:** C4 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → D1 `shopify-website-development`
+**NEXT ACTION:** CONTINUE â D1 `shopify-website-development`
 
 ---
 
-## 2026-10-04 — Visual Differentiation D1 shopify-website-development
+## 2026-10-04 â Visual Differentiation D1 shopify-website-development
 
 **Task:** Research gate + modules for `/shopify-website-development/`  
 **Verification method:** Playwright desktop + mobile; competitor layout patterns  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Split Development / Gaea Shopify process pages (Observed web search 2026-10-04); prior Velocity Sellers / Krolog gate in COMPETITIVE-RESEARCH (Verified)
-- Growth: no Shopify storefront crop — structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
+- Growth: no Shopify storefront crop â structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
 - Modules: processSteps, checklistMatrix, comparisonTable; complementary-not-replacement + no CVR guarantee; no competitor CVR copy (Verified)
 - Form intact; H1/title match; Service+FAQPage; no PO leak; mobile overflowX false; modules visible (Verified)
 **STATUS:** D1 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → D2 `tiktok-shop-ads`
+**NEXT ACTION:** CONTINUE â D2 `tiktok-shop-ads`
 
 ---
 
-## 2026-10-04 — Visual Differentiation D2 tiktok-shop-ads
+## 2026-10-04 â Visual Differentiation D2 tiktok-shop-ads
 
 **Task:** Research gate + modules for `/tiktok-shop-ads/`  
 **Verification method:** Playwright desktop + mobile; competitor layout patterns  
 **Result:** pass (local)  
 **Evidence:**
 - Research: Viral Brand Works Amazon-to-TikTok process + Brand Buddies GMV Max/Spark patterns (Observed web search 2026-10-04); prior Sequence/Desverto gate in COMPETITIVE-RESEARCH (Verified)
-- Growth: no TikTok crop — proofGallery reuses local creative showcase stills with honest captions; DOWNLOAD-LOG note (Verified no-growth-asset path)
+- Growth: no TikTok crop â proofGallery reuses local creative showcase stills with honest captions; DOWNLOAD-LOG note (Verified no-growth-asset path)
 - Modules: proofGallery, processSteps, comparisonTable; complementary-not-replacement + no GMV guarantee; no competitor GMV/creator-volume copy (Verified)
 - Gallery images HTTP 200 and naturalWidth > 0 after scroll (Verified)
 - Form intact; H1/title match; Service+FAQPage; no PO leak; mobile overflowX false; modules visible (Verified)
 **STATUS:** D2 visual COMPLETE  
-**NEXT ACTION:** CONTINUE → D3 `email-retention-marketing`
+**NEXT ACTION:** CONTINUE â D3 `email-retention-marketing`
 
 ---
 
-## 2026-10-04 — Visual Differentiation D3 email-retention-marketing
+## 2026-10-04 â Visual Differentiation D3 email-retention-marketing
 
 **Task:** Research gate + modules for `/email-retention-marketing/`  
 **Verification method:** Playwright desktop + mobile; competitor layout patterns  
 **Result:** pass (local)  
 **Evidence:**
 - Research: EvolveAMZ Amazon-seller flow map + YOCTO/Chronos lifecycle agency patterns (Observed web search 2026-10-04); prior D3 Chronos/EvolveAMZ gate in COMPETITIVE-RESEARCH (Verified)
-- Growth: no email/Klaviyo crop — structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
+- Growth: no email/Klaviyo crop â structural modules only; DOWNLOAD-LOG provenance note (Verified no-growth-asset path)
 - Modules: processSteps, checklistMatrix, comparisonTable; Amazon-does-not-provide-emails + not-replace-ads + no ROI invent (Verified)
 - Form intact; H1/title match; Service+FAQPage; no PO leak; mobile overflowX false; modules visible (Verified)
-**STATUS:** D3 visual COMPLETE — Services Visual Differentiation queue A1–D3 COMPLETE  
-**NEXT ACTION:** Staging deploy — Requires APPROVE
+**STATUS:** D3 visual COMPLETE â Services Visual Differentiation queue A1âD3 COMPLETE  
+**NEXT ACTION:** Staging deploy â Requires APPROVE
 
 ---
 
-## 2026-10-05 — Staging deploy after visual wave (user APPROVE)
+## 2026-10-05 â Staging deploy after visual wave (user APPROVE)
 
 **Task:** Build check + deploy visual modules wave to Vercel staging  
 **Verification method:** Local build attempt; Vercel remote build; HTTP spot-check on staging  
 **Result:** pass (staging)  
 **Evidence:**
-- Local `npm run build`: fail — Windows/exFAT `EISDIR` on `src/app/robots.txt/route.ts` (Observed; known environment issue)
+- Local `npm run build`: fail â Windows/exFAT `EISDIR` on `src/app/robots.txt/route.ts` (Observed; known environment issue)
 - Vercel remote build: Compiled successfully; 365 static pages (Verified)
 - Production alias: https://ecom-gliders.vercel.app (Verified Age: 0 after `--prod`)
 - Inspect: https://vercel.com/faizanmayo786s-projects/ecom-gliders/4suPQ4HS7B3x6uJYgjwsPthNxmWK
 - Spot-check HTTP 200 + module IDs present: full-service (browser/checklist/comparison), PPC (browser/comparison), email (process/checklist/comparison), Shopify (process/checklist/comparison), TikTok (gallery/process/comparison) (Verified)
 **STATUS:** Staging deploy COMPLETE  
-**NEXT ACTION:** Production DNS cutover — Requires confirmation
+**NEXT ACTION:** Production DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-05 — All Services hub `/services/`
+## 2026-10-05 â All Services hub `/services/`
 
 **Task:** Implement All Services hub page per plan  
 **Verification method:** Playwright desktop + mobile on localhost:3001  
@@ -2653,15 +2679,15 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Schema: CollectionPage + FAQPage (Verified)
 - All 15 root service links present in main; free-audit CTA present (Verified)
 - Four category sections present; mobile overflowX false (Verified)
-- Homepage “View all services”, footer “All services”, mega “View all services” → `/services/` (Verified)
+- Homepage âView all servicesâ, footer âAll servicesâ, mega âView all servicesâ â `/services/` (Verified)
 - Sitemap includes `/services/` (Verified)
 - No PO leak; no invented competitor ROI claims (Verified)
 **STATUS:** All Services hub COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-05 — Services Hub Layout Refresh
+## 2026-10-05 â Services Hub Layout Refresh
 
 **Task:** Typography-led ink hero + soft sticky text rail + featured-with-list catalog  
 **Verification method:** Playwright desktop (1440) + mobile (390) on `http://localhost:3000/services/`  
@@ -2669,49 +2695,49 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 **Evidence:**
 - Hero ink stage `rgb(19, 19, 17)`; BrandLogo in hero; no inventory eyebrow; no collage (Verified)
 - Primary accent CTA + quiet tel; flagship as slim text link only (Verified)
-- Standalone `#services-flagship` and “Browse by capability” pill strip removed (Verified)
+- Standalone `#services-flagship` and âBrowse by capabilityâ pill strip removed (Verified)
 - Sticky text rail `nav[aria-label="Service capability groups"]`; anchor `#catalog-content` works (Verified)
 - Four category IDs present; 15/15 root service links; 4 featured images + 11 compact editorial rows (Verified)
 - Stack + FAQ retained; screenshots in `docs/qa/screenshots/services-hub-refresh-*.png` (Verified)
 **STATUS:** Layout refresh COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-05 — E0 browserProof stage + E-wave infographics
+## 2026-10-05 â E0 browserProof stage + E-wave infographics
 
 **Task:** Hero Stage + Corroborating Device for `browserProof`; AI system infographics on debt/craft service pages  
 **Verification method:** Playwright + HTTP spot-check on localhost:3000  
 **Result:** pass (local)  
 **Evidence:**
-- E0 on `/amazon-ppc-management-agency/`: no twin `md:grid-cols-2` cards; ink stage present; old “Seller Central / Ads proof” chrome label removed; disclaimer outside frames (Verified)
+- E0 on `/amazon-ppc-management-agency/`: no twin `md:grid-cols-2` cards; ink stage present; old âSeller Central / Ads proofâ chrome label removed; disclaimer outside frames (Verified)
 - E1 `/amazon-catalog-management/` HTTP 200 + catalog-health infographic module (Verified)
 - Debt pages HTTP 200: trademark, Shopify (Verified)
 - Modules capped at 4; AI captions use illustrative/conceptual language (Verified)
 - Master prompt: `.cursor/prompts/SERVICES-INFOGRAPHIC-CONTINUE.md` (Verified)
 **STATUS:** E0 + E-wave QUEUE COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-05 — Service section layout rewrite (non-image)
+## 2026-10-05 â Service section layout rewrite (non-image)
 
 **Task:** Replace nested card walls on problem/audience/solution/deliverables/differ with four distinct layout grammars  
 **Verification method:** Playwright desktop 1440 + mobile 390 on `http://localhost:3000/shopify-website-development/`  
 **Result:** pass (local)  
 **Evidence:**
-- Audience Fit Matrix: single shell `ul.border-2`, hairline cells, 01–04 indexes — no nested hard panels (Verified)
+- Audience Fit Matrix: single shell `ul.border-2`, hairline cells, 01â04 indexes â no nested hard panels (Verified)
 - Process Spine: 4 lime numbered discs + vertical connector; no step cards (Verified)
 - Spec Sheet: Includes bar + lime top edge + 2-col zebra ledger (Verified)
 - Contrast Board: ink board, first cell lime "Lead difference" (Verified)
 - Screenshots: `docs/qa/screenshots/service-sections-*.png` (+ `-mobile`) (Verified)
-- Content JSON unchanged — renderer-only (Assumed from prior write; Observed template classes)
+- Content JSON unchanged â renderer-only (Assumed from prior write; Observed template classes)
 **STATUS:** Section layout COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Campaign slider image/GIF slide support
+## 2026-10-15 â Campaign slider image/GIF slide support
 
 **Task:** Allow GIF/image banners in promoCampaignSlider; download live-site GIF  
 **Verification method:** Playwright on `http://localhost:3000/`  
@@ -2722,42 +2748,42 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Screenshot: `promo-slider-gif-slide.png` (Verified)
 - Image slides use `unoptimized` for `.gif` animation (Observed in code)
 **STATUS:** COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Promo campaign slider (MAG under-hero slot)
+## 2026-10-15 â Promo campaign slider (MAG under-hero slot)
 
 **Task:** Move promo out of topbar into post-hero campaign carousel  
 **Verification method:** Playwright 1440 + 390 on `http://localhost:3002/`  
 **Result:** pass (local)  
 **Evidence:**
-- `announcementBar.enabled: false` — no header promo / Schedule Call in header (Verified)
+- `announcementBar.enabled: false` â no header promo / Schedule Call in header (Verified)
 - `#promo-campaign-slider` after `#hero`; height ~153px; 3 dots (Verified)
-- Slide 1 label Free Amazon Account Audit; click slide 2 → PPC headline (Verified)
+- Slide 1 label Free Amazon Account Audit; click slide 2 â PPC headline (Verified)
 - Screenshots: `promo-slider-under-hero.png`, `promo-slider-band.png`, `promo-slider-mobile.png` (Verified)
 - Research: MAG uses under-hero `exad-logo-carousel` with 4 campaign slides (Verified earlier)
 **STATUS:** COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Promo compact CTA + copy counsel
+## 2026-10-15 â Promo compact CTA + copy counsel
 
 **Task:** Fix bad CTA, shorten bar, counsel on eyebrow/microcopy  
 **Verification method:** Playwright 1440 + 390 on `http://localhost:3002/`  
 **Result:** pass (local)  
 **Evidence:**
 - Counsel: remove "No obligation" pill (coupon-y); fold into body (Verified in FAQ sitewide)
-- Counsel: remove "Takes under 2 minutes" — unverified claim (Verified absent)
+- Counsel: remove "Takes under 2 minutes" â unverified claim (Verified absent)
 - Bar height ~77px desktop; equal rails 144px; CTA lime chip present (Verified)
 - Screenshots: `promo-cta-compact-bar.png`, `promo-cta-compact-mobile.png` (Verified)
 **STATUS:** COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Promo bar symmetry + clean flash
+## 2026-10-15 â Promo bar symmetry + clean flash
 
 **Task:** Rebuild promo strip to equal rails, 3 zones, trim AI-stack effects  
 **Verification method:** Playwright desktop 1440 + mobile 390 on `http://localhost:3002/`  
@@ -2770,11 +2796,11 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Assets: `promo-team.png` + `promo-amazon-packages.png` cutouts (Verified)
 - Screenshots: `promo-sym-v1-bar.png`, `promo-sym-v2-bar.png`, `promo-sym-v2-mobile.png` (Verified)
 **STATUS:** Promo symmetry COMPLETE (local)  
-**NEXT ACTION:** Staging redeploy — Requires APPROVE
+**NEXT ACTION:** Staging redeploy â Requires APPROVE
 
 ---
 
-## 2026-10-15 — Promo flash bar (team + packages)
+## 2026-10-15 â Promo flash bar (team + packages)
 
 **Task:** Flash-premium promo top bar with live-site team PNG + AI packages  
 **Verification method:** Playwright desktop 1440 + mobile 390 on `http://localhost:3002/`  
@@ -2789,194 +2815,194 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 
 ---
 
-## 2026-10-20 — Pass 8 Brand permissions sheet
+## 2026-10-20 â Pass 8 Brand permissions sheet
 
 **Task:** Brand unlock sheet + omit deliverables/results dabbas; densify Entity/Shopify/DSP  
 **Verification method:** Playwright Brand page a11y tree  
 **Result:** pass (local)  
 **Evidence:**
-- Unlock items show OPEN/LOCKED rows — Verified
-- No “What Brand Registry support covers” deliverables region — Verified
-- Inline “Brand-ready growth outcomes” metric links — Verified  
-- Production: https://ecom-gliders.vercel.app — Verified READY  
+- Unlock items show OPEN/LOCKED rows â Verified
+- No âWhat Brand Registry support coversâ deliverables region â Verified
+- Inline âBrand-ready growth outcomesâ metric links â Verified  
+- Production: https://ecom-gliders.vercel.app â Verified READY  
 **STATUS:** Pass 8 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 7 flat bands + Catalog densify
+## 2026-10-20 â Pass 7 flat bands + Catalog densify
 
 **Task:** Remove zebra muted sections; Catalog inline cases; tighter density  
 **Verification method:** Playwright Catalog a11y tree on localhost:3000  
 **Result:** pass (local)  
 **Evidence:**
-- Region order includes “Catalog-linked case outcomes” with metric links — Verified
-- No separate results strip heading after triage — Verified
-- Module band default flat — Verified in code  
-- Production: https://ecom-gliders.vercel.app — Verified READY  
+- Region order includes âCatalog-linked case outcomesâ with metric links â Verified
+- No separate results strip heading after triage â Verified
+- Module band default flat â Verified in code  
+- Production: https://ecom-gliders.vercel.app â Verified READY  
 **STATUS:** Pass 7 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 6 per-layout hero presentations
+## 2026-10-20 â Pass 6 per-layout hero presentations
 
 **Task:** Break shared lime-form hero; ops-sheet / panel / accent / stack-light by layout  
 **Verification method:** Playwright Catalog + PPC + Entity on localhost:3000  
 **Result:** pass (local)  
 **Evidence:**
-- Catalog: light hero, “Request intake” sheet form (not lime dabba) — Observed
-- PPC: still split-accent dark + lime form (intentional) — Observed
-- Entity: stack-light single-column form — Observed via a11y tree  
-- Production: https://ecom-gliders.vercel.app — Verified READY  
+- Catalog: light hero, âRequest intakeâ sheet form (not lime dabba) â Observed
+- PPC: still split-accent dark + lime form (intentional) â Observed
+- Entity: stack-light single-column form â Observed via a11y tree  
+- Production: https://ecom-gliders.vercel.app â Verified READY  
 **STATUS:** Pass 6 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 5 remove shared conceptual infographic
+## 2026-10-20 â Pass 5 remove shared conceptual infographic
 
 **Task:** Strip identical teaching-diagram spotlight; Catalog proof-first reorder  
 **Verification method:** Playwright `localhost:3000/amazon-catalog-management/` section order via CDP  
 **Result:** pass (local)  
 **Evidence:**
-- Section order: hero → catalog-browser-proof → catalog-health-board → ops-lanes → results → faq — Verified
-- Infographic removed from 14 services; Visual keeps physical A+ — Verified via grep  
-- Production: https://ecom-gliders.vercel.app — Verified READY  
+- Section order: hero â catalog-browser-proof â catalog-health-board â ops-lanes â results â faq â Verified
+- Infographic removed from 14 services; Visual keeps physical A+ â Verified via grep  
+- Production: https://ecom-gliders.vercel.app â Verified READY  
 **STATUS:** Pass 5 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 4 unique tails (anti dabba stack)
+## 2026-10-20 â Pass 4 unique tails (anti dabba stack)
 
 **Task:** Per-layout deliverables/results/FAQ/related presentation; tickets ops lanes  
 **Verification method:** Playwright on `http://localhost:3001` Catalog + PPC  
 **Result:** pass (local); deploy pending/complete below  
 **Evidence:**
-- Catalog: `NO_DELIVERABLES`; results strip Kitchen/FocusForm; related numbered links — Verified
-- Catalog ops: Triage queue tickets (not 3-up cards) — Observed
-- PPC: no deliverables/results sections; proof + ACoS chart + path + FAQ + related links — Verified
-- All 15 layouts assigned unique presentation combos — Verified in template  
-- Production: https://ecom-gliders.vercel.app — Verified READY  
+- Catalog: `NO_DELIVERABLES`; results strip Kitchen/FocusForm; related numbered links â Verified
+- Catalog ops: Triage queue tickets (not 3-up cards) â Observed
+- PPC: no deliverables/results sections; proof + ACoS chart + path + FAQ + related links â Verified
+- All 15 layouts assigned unique presentation combos â Verified in template  
+- Production: https://ecom-gliders.vercel.app â Verified READY  
 **STATUS:** Pass 4 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — DNS cutover (Vercel attach)
+## 2026-10-20 â DNS cutover (Vercel attach)
 
-**Task:** Production DNS cutover ecomgliders.com → Vercel  
+**Task:** Production DNS cutover ecomgliders.com â Vercel  
 **Verification method:** Vercel domains API + `vercel domains verify`  
-**Result:** partial — domains attached; DNS not verified  
+**Result:** partial â domains attached; DNS not verified  
 **Evidence:**
-- Apex + www attached to `ecom-gliders` — Verified API  
-- www redirect 308 → ecomgliders.com — Verified API  
-- `vercel domains verify` invalid-configuration — Observed (parking NS + missing TXT)  
-- Hostinger login page — Observed (cannot edit DNS without user)  
-- Runbook: `docs/seo/DNS-CUTOVER.md` — Documented  
+- Apex + www attached to `ecom-gliders` â Verified API  
+- www redirect 308 â ecomgliders.com â Verified API  
+- `vercel domains verify` invalid-configuration â Observed (parking NS + missing TXT)  
+- Hostinger login page â Observed (cannot edit DNS without user)  
+- Runbook: `docs/seo/DNS-CUTOVER.md` â Documented  
 **STATUS:** CUTOVER IN PROGRESS (DNS blocker)  
-**NEXT ACTION:** User adds Hostinger DNS records → agent runs verify + env + redeploy  
+**NEXT ACTION:** User adds Hostinger DNS records â agent runs verify + env + redeploy  
 
 ---
 
-## 2026-10-20 — Pass 13 hero console/proof-lead
+## 2026-10-20 â Pass 13 hero console/proof-lead
 
 **Task:** Break shared hero intake-form dabba; Catalog console-lead; proof-lead for PPC/Email/Account/Visual  
 **Verification method:** Playwright Catalog + PPC heroes; Vercel prod  
 **Result:** pass (remote)  
 **Evidence:**
-- Catalog: heroForm false; consoleInHero true; deferred form present — Observed
-- PPC: heroForm false; hasCapture true — Observed
-- Remote build Compiled successfully; alias READY — Verified
-- Counsel Catalog #1 KEEP (console-first) — Observed
+- Catalog: heroForm false; consoleInHero true; deferred form present â Observed
+- PPC: heroForm false; hasCapture true â Observed
+- Remote build Compiled successfully; alias READY â Verified
+- Counsel Catalog #1 KEEP (console-first) â Observed
 **STATUS:** Pass 13 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 12 shared-tail sameness kill
+## 2026-10-20 â Pass 12 shared-tail sameness kill
 
 **Task:** Suppress Ready-to-scale footer on services; strip unlock spam; diversify FAQ/Related; Catalog densify  
 **Verification method:** Playwright on Catalog/PPC/Entity/Email/Full-service; Vercel prod  
 **Result:** pass (remote)  
 **Evidence:**
-- Ready to scale H2 absent on sampled service pages — Observed
-- FAQ headings unique (Catalog operations / Amazon PPC / US entity / Email / Full-account) — Observed
-- Entity + Email `#service-related` omitted — Observed
-- PPC openCount/lockedCount 0 after unlock strip — Observed
-- Email capture sheet still OPEN/LOCKED (intentional) — Observed
-- workbook H2 absent — Observed
-- Middleware present in build output (34 kB) — Verified
-- Production alias READY — Verified
+- Ready to scale H2 absent on sampled service pages â Observed
+- FAQ headings unique (Catalog operations / Amazon PPC / US entity / Email / Full-account) â Observed
+- Entity + Email `#service-related` omitted â Observed
+- PPC openCount/lockedCount 0 after unlock strip â Observed
+- Email capture sheet still OPEN/LOCKED (intentional) â Observed
+- workbook H2 absent â Observed
+- Middleware present in build output (34 kB) â Verified
+- Production alias READY â Verified
 **STATUS:** Pass 12 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 11 kill engagement-path dabba (7–15)
+## 2026-10-20 â Pass 11 kill engagement-path dabba (7â15)
 
 **Task:** Remove shared pathway dabba; densify unique mid-pages for PPC through TikTok  
 **Verification method:** Module inventory script; `tsc --noEmit`; Vercel prod; Playwright H2 audit  
 **Result:** pass (remote)  
 **Evidence:**
-- `brandPathwayBoard` absent on services 7–15 — Verified via inventory script
-- Pathways remain Brand/Entity/Shopify only — Verified
-- Unique stacks per service documented in SESSION-STATE — Verified
-- `tsc --noEmit` exit 0 — Verified
-- Remote build Compiled successfully; 366 pages; alias READY — Verified
-- Playwright: zero “engagement/cadence/creative path” H2s on 9 pages — Observed
-- Playwright mid stacks unique per service (PPC ACoS→architecture→gates; Listing CVR→scorecard; etc.) — Observed
-- Counsel 7–15: KEEP — Observed
+- `brandPathwayBoard` absent on services 7â15 â Verified via inventory script
+- Pathways remain Brand/Entity/Shopify only â Verified
+- Unique stacks per service documented in SESSION-STATE â Verified
+- `tsc --noEmit` exit 0 â Verified
+- Remote build Compiled successfully; 366 pages; alias READY â Verified
+- Playwright: zero âengagement/cadence/creative pathâ H2s on 9 pages â Observed
+- Playwright mid stacks unique per service (PPC ACoSâarchitectureâgates; Listing CVRâscorecard; etc.) â Observed
+- Counsel 7â15: KEEP â Observed
 **STATUS:** Pass 11 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 10 Sourcing / Shopify / Email + cascade
+## 2026-10-20 â Pass 10 Sourcing / Shopify / Email + cascade
 
 **Task:** Deep densify Sourcing, Shopify, Email; kill shared rail dabbas; flat-band cascade  
 **Verification method:** `tsc --noEmit`; JSON parse of edited services; Vercel prod deploy  
 **Result:** pass (remote)  
 **Evidence:**
-- Sourcing modules: shortlist (6 rows) + landed-cost bars (8 points) + sample scorecard — Verified in JSON
-- Shopify: mac ops (7 rows) + stamp path + scope unlock (5 items) — Verified in JSON
-- Email: calendar (6 days, 5 cols) + stack priority + capture unlock — Verified in JSON
-- Live WP `/amazon-product-sourcing/` 404 — Observed Playwright
-- Competitors studied (Xorora/BSA/Plutonia patterns) — structure only, no cost-cut claims copied
-- `tsc --noEmit` exit 0 — Verified
-- Remote build Compiled successfully; 366 pages — Verified
-- Production alias https://ecom-gliders.vercel.app READY — Verified
-- Playwright headings: Supplier shortlist workbook / Landed-cost model / Sample scorecard — Observed
-- Playwright headings Shopify: Amazon ↔ Shopify ops sheet / Build stamps / Storefront scope sheet — Observed
-- Playwright headings Email: Lifecycle calendar / Automation launch order / Capture readiness — Observed
-- Counsel Sourcing/Shopify/Email: KEEP — Observed
+- Sourcing modules: shortlist (6 rows) + landed-cost bars (8 points) + sample scorecard â Verified in JSON
+- Shopify: mac ops (7 rows) + stamp path + scope unlock (5 items) â Verified in JSON
+- Email: calendar (6 days, 5 cols) + stack priority + capture unlock â Verified in JSON
+- Live WP `/amazon-product-sourcing/` 404 â Observed Playwright
+- Competitors studied (Xorora/BSA/Plutonia patterns) â structure only, no cost-cut claims copied
+- `tsc --noEmit` exit 0 â Verified
+- Remote build Compiled successfully; 366 pages â Verified
+- Production alias https://ecom-gliders.vercel.app READY â Verified
+- Playwright headings: Supplier shortlist workbook / Landed-cost model / Sample scorecard â Observed
+- Playwright headings Shopify: Amazon â Shopify ops sheet / Build stamps / Storefront scope sheet â Observed
+- Playwright headings Email: Lifecycle calendar / Automation launch order / Capture readiness â Observed
+- Counsel Sourcing/Shopify/Email: KEEP â Observed
 **STATUS:** Pass 10 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-20 — Pass 3 service differentiation + Vercel deploy
+## 2026-10-20 â Pass 3 service differentiation + Vercel deploy
 
 **Task:** Stamp path strip, meta copy cleanup, next/font removal, remote build/deploy  
 **Verification method:** Local Playwright counsel on Catalog console / PPC ACoS chart / Full-service stamp strip; Vercel remote `next build`  
 **Result:** pass (remote)  
 **Evidence:**
-- Stamp strip horizontal (not 2×2 dabba) — Observed counsel KEEP
-- Catalog seller-console dark ops board — Observed
-- PPC ACoS bars GoSports/VoltTech case metrics — Observed
-- Meta AI subheadings cleaned across services — Verified via grep
-- Fonts: no `next/font/google` in layout — Verified
-- Remote build: Compiled successfully; 366 static pages — Verified
-- Preview READY: https://ecom-gliders-pu8jn92sm-faizanmayo786s-projects.vercel.app — Verified
-- Production alias: https://ecom-gliders.vercel.app — Verified READY
-- Local Windows production build: EISDIR on `robots.ts` — Observed (non-blocking; Vercel is source of truth)
+- Stamp strip horizontal (not 2Ã2 dabba) â Observed counsel KEEP
+- Catalog seller-console dark ops board â Observed
+- PPC ACoS bars GoSports/VoltTech case metrics â Observed
+- Meta AI subheadings cleaned across services â Verified via grep
+- Fonts: no `next/font/google` in layout â Verified
+- Remote build: Compiled successfully; 366 static pages â Verified
+- Preview READY: https://ecom-gliders-pu8jn92sm-faizanmayo786s-projects.vercel.app â Verified
+- Production alias: https://ecom-gliders.vercel.app â Verified READY
+- Local Windows production build: EISDIR on `robots.ts` â Observed (non-blocking; Vercel is source of truth)
 **STATUS:** Pass 3 COMPLETE  
-**NEXT ACTION:** DNS cutover — Requires confirmation
+**NEXT ACTION:** DNS cutover â Requires confirmation
 
 ---
 
-## 2026-10-05 — Staging deploy (duplicate counsel + section layouts)
+## 2026-10-05 â Staging deploy (duplicate counsel + section layouts)
 
 **Task:** Deploy service UI cleanup (layouts, KPI removal, module/CTA dedupe) to Vercel staging  
 **Verification method:** `npx vercel --prod --yes`; `vercel curl` HTTP + HTML spot-check  
@@ -2987,17 +3013,17 @@ Hero form → Catalog health board → Issue, fix, and verify → Catalog-linked
 - Inspect: https://vercel.com/faizanmayo786s-projects/ecom-gliders/HXFLfukZtqcbLFp7NmX4U5P2Hutz (Verified)
 - HTTP 200: `/shopify-website-development/`, `/amazon-ppc-management-agency/`, `/services/` (Verified)
 **STATUS:** Staging deploy COMPLETE  
-**NEXT ACTION:** Production DNS cutover — Requires confirmation
+**NEXT ACTION:** Production DNS cutover â Requires confirmation
 
 
-## 2026-10-21 � Faizan four jobs (localhost:3000)
+## 2026-10-21  Faizan four jobs (localhost:3000)
 
 | Check | Result |
 |-------|--------|
-| Hero form on full-service | Verified � formInHero true, heading ""Request a full-account audit"" |
-| Hero form sample layouts | Verified � PPC, catalog (ops-sheet), listing, content, visual |
-| Callout before | Observed � 72px, rgb(198,253,80), weight 800 |
-| Callout after | Verified � 100px, rgb(212,255,106), weight 900 |
-| Block images | Verified � 12/12 audience+includes imgs naturalWidth > 0 |
-| Next template | Documented � PPC plan file |
+| Hero form on full-service | Verified  formInHero true, heading ""Request a full-account audit"" |
+| Hero form sample layouts | Verified  PPC, catalog (ops-sheet), listing, content, visual |
+| Callout before | Observed  72px, rgb(198,253,80), weight 800 |
+| Callout after | Verified  100px, rgb(212,255,106), weight 900 |
+| Block images | Verified  12/12 audience+includes imgs naturalWidth > 0 |
+| Next template | Documented  PPC plan file |
 

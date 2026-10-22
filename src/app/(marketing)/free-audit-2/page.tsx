@@ -35,7 +35,7 @@ export default async function FreeAuditPage() {
             <h1 id="audit-hero-heading" className="text-h1">
               {page.hero.title}
             </h1>
-            <p className="mt-4 text-body text-text-secondary">{page.hero.subtitle}</p>
+            <p className="mt-4 text-body font-medium text-text-secondary">{page.hero.subtitle}</p>
           </div>
         </SectionShell>
 
@@ -45,7 +45,7 @@ export default async function FreeAuditPage() {
             {page.benefits.items.map((item) => (
               <li
                 key={item.slice(0, 40)}
-                className="rounded-lg border border-border bg-background p-5 text-body text-text-secondary"
+                className="rounded-lg border border-border bg-background p-5 text-body font-medium text-text-secondary"
               >
                 {item}
               </li>
@@ -82,7 +82,7 @@ export default async function FreeAuditPage() {
                       <Card className="h-full border-border bg-background">
                         <CardContent className="p-4">
                           <p className="text-stat text-text-primary">{stat.value}</p>
-                          <p className="mt-1 text-small text-text-secondary">{stat.label}</p>
+                          <p className="mt-1 text-small font-medium text-text-secondary">{stat.label}</p>
                         </CardContent>
                       </Card>
                     </li>
@@ -92,10 +92,10 @@ export default async function FreeAuditPage() {
 
               {page.trustSignals.testimonial ? (
                 <blockquote className="rounded-lg border border-border bg-background p-6">
-                  <p className="text-body text-text-secondary">
+                  <p className="text-body font-medium text-text-secondary">
                     &ldquo;{page.trustSignals.testimonial.quote}&rdquo;
                   </p>
-                  <footer className="mt-4 text-small text-text-secondary">
+                  <footer className="mt-4 text-small font-medium text-text-secondary">
                     <cite className="not-italic font-medium text-text-primary">
                       {page.trustSignals.testimonial.author}
                     </cite>
@@ -110,7 +110,7 @@ export default async function FreeAuditPage() {
                 <h3 className="text-h4">{page.fallbackContact.heading}</h3>
                 <div className="mt-4 space-y-3">
                   <div>
-                    <p className="text-small text-text-secondary">{page.fallbackContact.phoneLabel}</p>
+                    <p className="text-small font-medium text-text-secondary">{page.fallbackContact.phoneLabel}</p>
                     <a
                       href={`tel:${site.phone.tel}`}
                       className="inline-flex min-h-11 items-center font-medium text-text-primary hover:text-link-hover hover:underline"
@@ -119,7 +119,7 @@ export default async function FreeAuditPage() {
                     </a>
                   </div>
                   <div>
-                    <p className="text-small text-text-secondary">{page.fallbackContact.emailLabel}</p>
+                    <p className="text-small font-medium text-text-secondary">{page.fallbackContact.emailLabel}</p>
                     <a
                       href={`mailto:${site.email}`}
                       className="inline-flex min-h-11 items-center font-medium text-text-primary hover:text-link-hover hover:underline"

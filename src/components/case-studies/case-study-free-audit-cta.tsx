@@ -20,9 +20,9 @@ export function CaseStudyFreeAuditCta({
         <h2 id="case-study-cta-heading" className="text-h3 text-primary">
           {heading}
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-body text-text-secondary">{body}</p>
+        <p className="mx-auto mt-4 max-w-xl text-body font-medium text-text-secondary">{body}</p>
         {serviceHint ? (
-          <p className="mt-2 text-small text-text-secondary">Related focus: {serviceHint}</p>
+          <p className="mt-2 text-small font-medium text-text-secondary">Related focus: {serviceHint}</p>
         ) : null}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <PrimaryButton asChild variant="accent">

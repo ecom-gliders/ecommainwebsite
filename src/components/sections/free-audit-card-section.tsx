@@ -67,7 +67,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
           {title}
         </h2>
         {priceNote ? (
-          <p className="mx-auto mt-4 max-w-md text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+          <p className="mx-auto mt-4 max-w-md text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
             {priceNote}
           </p>
         ) : null}
@@ -90,7 +90,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
             {cardTitle}
           </p>
           {cardSupport ? (
-            <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+            <p className="mt-2 text-sm font-medium leading-relaxed text-text-secondary">
               {cardSupport}
             </p>
           ) : null}
@@ -184,7 +184,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
                 </h3>
               ) : null}
               {proofBody ? (
-                <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                <p className="mt-2 text-sm font-medium leading-relaxed text-text-secondary">
                   {proofBody}
                 </p>
               ) : null}

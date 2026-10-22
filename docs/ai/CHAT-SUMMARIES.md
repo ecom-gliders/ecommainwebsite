@@ -15,6 +15,34 @@ Next action:
 
 ---
 
+## 2026-10-22 — Blog convert-all + editorial shell
+
+Session topic: Convert WP visual classes across 328 posts into configurable blocks; Forbes-like detail chrome.
+
+Key decisions: Convert-first (never delete card copy); `blog-blocks.json` registry; no rehype-raw; share = LI/X/FB/copy; smooth TOC.
+
+Key discoveries: Prior sanitize missed `.class descendant{}` and `::after`; letter-spaced titles join via capital split; lucide dropped Facebook/Linkedin icons.
+
+Files updated: block registry, sanitize plugins, 174+ MDX rewrites, `blog-post-article`, share rail, TOC client, docs.
+
+Next action: Commit when requested.
+
+---
+
+## 2026-10-22 — Blog detail sanitize + themed blocks
+
+Session topic: Harden blog detail body for WP Elementor/CSS/HTML leftovers without rebuilding shell.
+
+Key decisions: No `rehype-raw`; sanitize MDX once; map grids to `feature-grid` fences; WP colors → design tokens; keep FAQ via extractor.
+
+Key discoveries: 2 severe Elementor dumps; Turndown escaped `data-widget\_type`; bare ``` fences eaten by Turndown HTML parser (placeholder fix); FAQ questions demote to `###` after heading normalize.
+
+Files updated: `sanitize-blog-markdown.ts`, `sanitize-blog-mdx.ts`, `blog-markdown.tsx`, `blog-feature-grid.tsx`, `blog-callout.tsx`, 325 MDX, `BLOG-TEMPLATES.md`, QA reports.
+
+Next action: Commit when requested.
+
+---
+
 ## 2026-10-21 — Related cards type scale (AMZ Dudes)
 
 Session topic: Related-service cards still felt tiny; compare AMZ Dudes sizes.

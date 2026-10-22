@@ -52,7 +52,7 @@ export function ServiceOpsLanes({
                     <dt className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
                       Issue
                     </dt>
-                    <dd className="mt-1 text-small text-text-secondary">
+                    <dd className="mt-1 text-small font-medium text-text-secondary">
                       {lane.issue}
                     </dd>
                   </div>
@@ -68,7 +68,7 @@ export function ServiceOpsLanes({
                     <dt className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
                       Verify
                     </dt>
-                    <dd className="mt-1 text-small text-text-secondary">
+                    <dd className="mt-1 text-small font-medium text-text-secondary">
                       {lane.verify}
                     </dd>
                   </div>
@@ -121,7 +121,7 @@ export function ServiceOpsLanes({
         </div>
       )}
       {opsLanes.note ? (
-        <p className="mt-4 text-small text-text-secondary">{opsLanes.note}</p>
+        <p className="mt-4 text-small font-medium text-text-secondary">{opsLanes.note}</p>
       ) : null}
     </SectionShell>
   );

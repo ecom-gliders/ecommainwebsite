@@ -40,7 +40,7 @@ export function ServicesIndexCapabilityRail({
                 <h3 className="text-h3 text-primary group-hover:underline group-hover:underline-offset-4">
                   {item.title}
                 </h3>
-                <p className="mt-2 max-w-3xl text-body text-text-secondary">
+                <p className="mt-2 max-w-3xl text-body font-medium text-text-secondary">
                   {item.description}
                 </p>
               </div>

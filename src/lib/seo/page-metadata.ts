@@ -42,6 +42,11 @@ export function pageSeoToMetadata(
       card: seo.ogImage ? "summary_large_image" : "summary",
       title: seo.metaTitle,
       description: seo.metaDescription,
+      ...(seo.ogImage
+        ? {
+            images: [absoluteUrl(seo.ogImage)],
+          }
+        : {}),
     },
   };
 }

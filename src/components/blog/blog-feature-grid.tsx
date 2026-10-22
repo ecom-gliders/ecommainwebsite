@@ -42,7 +42,7 @@ export function BlogFeatureGrid({ cards }: BlogFeatureGridProps) {
               <Icon className="h-5 w-5" aria-hidden="true" strokeWidth={2} />
             </div>
             <h3 className="text-h4 mb-2 text-text-primary">{card.title}</h3>
-            <p className="text-body text-text-secondary">{card.description}</p>
+            <p className="text-body font-medium text-text-secondary">{card.description}</p>
           </li>
         );
       })}

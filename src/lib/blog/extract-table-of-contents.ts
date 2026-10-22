@@ -9,7 +9,17 @@ export interface TocItem {
 }
 
 const SKIP_HEADINGS = /^recent posts$|^conclusion:?$/i;
+/** Leading outline markers like `1. ` / `2) ` (after MD escape normalization). */
 const NUMBERED = /^\d+[.)]\s+/;
+
+/**
+ * Strip a leading `1.` / `2)` outline prefix from TOC label text.
+ * Used when the TOC renders its own index badge so entries do not double-number.
+ */
+export function stripLeadingOutlineNumber(text: string): string {
+  const stripped = text.replace(NUMBERED, "").trim();
+  return stripped.length >= 3 ? stripped : text;
+}
 
 /**
  * Full outline: major sections + nested numbered sub-points.
@@ -65,9 +75,11 @@ export function extractTableOfContents(markdown: string): TocItem[] {
     raw.shift();
   }
 
-  // Depth: numbered H4s nest under the nearest prior non-numbered section
+  // Depth: numbered H3/H4 tips nest under the nearest prior non-numbered section.
+  // (Previously only H4+ nested, so numbered H3 tips became top-level and
+  // double-numbered with the TOC index badge.)
   const items: TocItem[] = raw.map((item) => {
-    const isSub = NUMBERED.test(item.text) && item.level >= 4;
+    const isSub = NUMBERED.test(item.text) && item.level >= 3;
     return {
       ...item,
       depth: isSub ? 1 : 0,

@@ -97,7 +97,7 @@ export function CatalogHealthBoard({
                     <td
                       key={`${rowIndex}-${cellIndex}`}
                       className={cn(
-                        "px-4 py-3 text-small text-text-secondary",
+                        "px-4 py-3 text-small font-medium text-text-secondary",
                         cellIndex === 0 && "font-semibold text-primary",
                         cellIndex === 1 && statusClass(cell),
                       )}
@@ -168,7 +168,7 @@ function SheetBoard({
                     <td
                       key={`${rowIndex}-${cellIndex}`}
                       className={cn(
-                        "px-4 py-3 text-small text-text-secondary",
+                        "px-4 py-3 text-small font-medium text-text-secondary",
                         cellIndex === 0 && "font-semibold text-primary",
                       )}
                     >

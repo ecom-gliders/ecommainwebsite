@@ -48,7 +48,7 @@ export function ProposedCards() {
       <article className="rounded-xl border border-border bg-background p-6 shadow-sm">
         <p className="text-small font-medium text-text-secondary">A · Current</p>
         <h3 className="mt-2 text-h4">Flat bordered card</h3>
-        <p className="mt-2 text-body text-text-secondary">
+        <p className="mt-2 text-body font-medium text-text-secondary">
           Simple border + white fill. Clean, but low hierarchy.
         </p>
       </article>
@@ -56,7 +56,7 @@ export function ProposedCards() {
       <article className="rounded-xl border border-border/80 bg-background/80 p-6 shadow-[0_10px_30px_rgba(11,27,58,0.06)] backdrop-blur-sm ring-1 ring-brand-cyan/20">
         <p className="text-small font-medium text-brand-cyan">B · Glass lift</p>
         <h3 className="mt-2 text-h4">Soft brand ring</h3>
-        <p className="mt-2 text-body text-text-secondary">
+        <p className="mt-2 text-body font-medium text-text-secondary">
           Slight blur + cyan ring. Good for service grids on atmosphere.
         </p>
       </article>
@@ -72,7 +72,7 @@ export function ProposedCards() {
         />
         <p className="text-small font-medium text-accent">C · Accent rail</p>
         <h3 className="mt-2 text-h4">Brand streak header</h3>
-        <p className="mt-2 text-body text-text-secondary">
+        <p className="mt-2 text-body font-medium text-text-secondary">
           Logo gradient rail. Stronger identity without loud fills.
         </p>
       </article>

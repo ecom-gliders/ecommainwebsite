@@ -62,7 +62,7 @@ export function ServiceProblemSection({ problem }: ServiceProblemSectionProps) {
                     <h3 className="text-body font-semibold text-primary">
                       {point.title}
                     </h3>
-                    <p className="mt-1.5 text-small text-text-secondary">
+                    <p className="mt-1.5 text-small font-medium text-text-secondary">
                       {point.description}
                     </p>
                   </div>

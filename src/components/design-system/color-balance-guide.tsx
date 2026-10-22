@@ -43,7 +43,7 @@ export function ColorBalanceGuide() {
         </div>
       </div>
 
-      <ul className="mt-4 grid gap-3 text-small text-text-secondary sm:grid-cols-3">
+      <ul className="mt-4 grid gap-3 text-small font-medium text-text-secondary sm:grid-cols-3">
         <li>
           <span className="font-medium text-text-primary">Neutrals</span>
           <br />

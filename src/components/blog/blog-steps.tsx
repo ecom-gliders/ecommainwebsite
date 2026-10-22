@@ -26,7 +26,7 @@ export function BlogSteps({ steps }: BlogStepsProps) {
           <div className="min-w-0">
             <p className="text-h4 mb-1 text-text-primary">{step.title}</p>
             {step.description ? (
-              <p className="text-body text-text-secondary">{step.description}</p>
+              <p className="text-body font-medium text-text-secondary">{step.description}</p>
             ) : null}
           </div>
         </li>

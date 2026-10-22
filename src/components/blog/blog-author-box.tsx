@@ -29,8 +29,8 @@ export function BlogAuthorBox({ author }: BlogAuthorBoxProps) {
         </div>
         <div>
           <p className="text-body font-semibold text-text-primary">{author.name}</p>
-          <p className="text-small text-text-secondary">{author.title}</p>
-          <p className="mt-2 text-body text-text-secondary">{author.bio}</p>
+          <p className="text-small font-medium text-text-secondary">{author.title}</p>
+          <p className="mt-2 text-body font-medium text-text-secondary">{author.bio}</p>
         </div>
       </div>
     </section>

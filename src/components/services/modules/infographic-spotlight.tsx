@@ -40,7 +40,7 @@ export function InfographicSpotlight({ image }: InfographicSpotlightProps) {
           />
         </button>
         {image.caption ? (
-          <figcaption className="mt-3 text-small text-text-secondary">
+          <figcaption className="mt-3 text-small font-medium text-text-secondary">
             {image.caption}
           </figcaption>
         ) : null}

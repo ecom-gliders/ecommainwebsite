@@ -135,7 +135,7 @@ export default async function BlogIndexPage({ searchParams }: BlogIndexPageProps
                     : `Page ${currentPage}`}
               </h2>
             </div>
-            <p className="text-small text-text-secondary">
+            <p className="text-small font-medium text-text-secondary">
               {totalCount} articles total
             </p>
           </div>
@@ -149,7 +149,7 @@ export default async function BlogIndexPage({ searchParams }: BlogIndexPageProps
               ))}
             </ul>
           ) : (
-            <p className="text-body text-text-secondary">
+            <p className="text-body font-medium text-text-secondary">
               No articles matched “{query}”.{" "}
               <Link
                 href="/blog/"
@@ -173,7 +173,7 @@ export default async function BlogIndexPage({ searchParams }: BlogIndexPageProps
                   Previous
                 </Link>
               ) : null}
-              <p className="text-small text-text-secondary">
+              <p className="text-small font-medium text-text-secondary">
                 Page {currentPage} of {totalPages}
               </p>
               {currentPage < totalPages ? (

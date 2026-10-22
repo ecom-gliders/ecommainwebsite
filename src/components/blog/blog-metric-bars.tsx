@@ -22,7 +22,7 @@ export function BlogMetricBars({ items }: BlogMetricBarsProps) {
                 {item.label}
               </span>
               {labelHasPct ? null : (
-                <span className="shrink-0 text-small text-text-secondary">
+                <span className="shrink-0 text-small font-medium text-text-secondary">
                   {clamped}%
                 </span>
               )}

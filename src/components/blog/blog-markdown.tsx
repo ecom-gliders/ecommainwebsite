@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import {
+  Children,
+  isValidElement,
+  type ReactElement,
+  type ReactNode,
+} from "react";
 import type { Components } from "react-markdown";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -8,6 +14,26 @@ import { renderBlogBlock } from "@/lib/blog/blocks/registry";
 import { createHeadingId } from "@/lib/blog/slugify-heading";
 import { normalizeHeadingLevels } from "@/lib/blog/normalize-heading-levels";
 import { splitBlogBlocks } from "@/lib/blog/split-blog-blocks";
+
+/**
+ * react-markdown nests custom `img` under `p` before render. Our img returns
+ * <figure>, which is invalid inside <p>. Detect image nodes via `src` prop.
+ */
+function containsBlockMedia(node: ReactNode): boolean {
+  return Children.toArray(node).some((child) => {
+    if (!isValidElement(child)) return false;
+    const el = child as ReactElement<{
+      src?: unknown;
+      children?: ReactNode;
+      "data-blog-figure"?: string;
+    }>;
+    if (el.type === "figure" || el.type === "img") return true;
+    if (typeof el.props.src === "string") return true;
+    if (el.props["data-blog-figure"] != null) return true;
+    if (el.props.children) return containsBlockMedia(el.props.children);
+    return false;
+  });
+}
 
 function getNodeText(node: React.ReactNode): string {
   if (typeof node === "string" || typeof node === "number") {
@@ -95,14 +121,23 @@ function createMarkdownComponents(): Components {
     h3: createHeading("h3", "text-h3 mt-8 mb-3 scroll-mt-24"),
     h4: createHeading("h4", "text-h4 mt-6 mb-2 scroll-mt-24"),
     h5: createHeading("h5", "text-body mt-5 mb-2 font-semibold scroll-mt-24"),
-    p: ({ children }) => (
-      <p className="text-body mb-4 text-text-primary">{children}</p>
-    ),
+    p: ({ children }) => {
+      // GFM/commonmark puts standalone images inside <p>; our img → <figure>.
+      if (containsBlockMedia(children)) {
+        return <>{children}</>;
+      }
+      return <p className="text-body mb-4 text-text-primary">{children}</p>;
+    },
     ul: ({ children }) => (
       <ul className="text-body mb-4 list-disc space-y-2 pl-6">{children}</ul>
     ),
-    ol: ({ children }) => (
-      <ol className="text-body mb-4 list-decimal space-y-2 pl-6">{children}</ol>
+    ol: ({ children, start }) => (
+      <ol
+        start={typeof start === "number" ? start : undefined}
+        className="text-body mb-4 list-decimal space-y-2 pl-6"
+      >
+        {children}
+      </ol>
     ),
     li: ({ children }) => <li className="text-text-primary">{children}</li>,
     a: ({ href, children }) => {
@@ -190,7 +225,7 @@ function createMarkdownComponents(): Components {
       const imageClassName = "object-cover";
 
       return (
-        <figure className="my-8">
+        <figure data-blog-figure="" className="my-8">
           <div className="relative aspect-[16/9] overflow-hidden border-2 border-primary bg-surface-muted shadow-[3px_3px_0_0_#131311]">
             {isOptimizableImageSrc(src) ? (
               <Image
@@ -213,7 +248,7 @@ function createMarkdownComponents(): Components {
             )}
           </div>
           {caption ? (
-            <figcaption className="mt-2 text-center text-small text-text-secondary">
+            <figcaption className="mt-2 text-center text-small font-medium text-text-secondary">
               {caption}
             </figcaption>
           ) : null}

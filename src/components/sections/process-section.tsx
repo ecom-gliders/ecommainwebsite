@@ -76,7 +76,7 @@ export function ProcessSection({ id, data }: ProcessSectionProps) {
           {heading}
         </h2>
         {subheading ? (
-          <p className="mt-4 text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+          <p className="mt-4 text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
             {subheading}
           </p>
         ) : null}
@@ -185,7 +185,7 @@ function ProcessCard({
         {step.title}
       </h3>
       {step.description ? (
-        <p className="mt-2 text-sm font-normal leading-relaxed text-primary/80">
+        <p className="mt-2 text-sm font-medium leading-relaxed text-primary/80">
           {step.description}
         </p>
       ) : null}

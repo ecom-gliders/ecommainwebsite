@@ -58,7 +58,7 @@ export function BlogIndexMasthead({
         </h1>
         <p
           className={cn(
-            "mt-4 text-body text-text-secondary",
+            "mt-4 text-body font-medium text-text-secondary",
             !compact && "mx-auto max-w-2xl sm:text-lg",
           )}
         >

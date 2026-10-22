@@ -20,7 +20,7 @@ export function BlogDefinitionList({ items }: BlogDefinitionListProps) {
           <dt className="text-small font-bold uppercase tracking-[0.08em] text-primary">
             {item.term}
           </dt>
-          <dd className="mt-1 text-body text-text-secondary">{item.definition}</dd>
+          <dd className="mt-1 text-body font-medium text-text-secondary">{item.definition}</dd>
         </div>
       ))}
     </dl>

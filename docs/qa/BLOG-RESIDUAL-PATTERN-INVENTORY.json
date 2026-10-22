@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-10-22T00:55:45.421Z",
+  "totalMdx": 328,
+  "patterns": [
+    {
+      "pattern": "1a.sd-card",
+      "files": 1,
+      "hits": 2,
+      "fileList": [
+        "when-should-you-use-sponsored-display-ads"
+      ],
+      "samples": [
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "loyalty. .sd-card h3{ margin:0 0 10px; font-size:20px; }"
+        },
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "e:20px; } .sd-card p{ font-size:15px; line-height:1.6; mar"
+        }
+      ]
+    },
+    {
+      "pattern": "1c.aam-",
+      "files": 1,
+      "hits": 14,
+      "fileList": [
+        "amazon-account-management"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-account-management",
+          "excerpt": ": 1.25; } .aam-card { background: #ffffff; border: 1px"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "Table \\*/ .aam-table { width: 100%; border-collapse: se"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": ".95rem; } .aam-table thead th { background: linear-grad"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "dex: 1; } .aam-table tbody td { padding: 12px; border-t"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "eef2f6; } .aam-table tbody tr:nth-child(odd) { backgrou"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "fbfefd; } .aam-table tbody tr:hover { background: #f0ff"
+        }
+      ]
+    },
+    {
+      "pattern": "1d.insight-card",
+      "files": 1,
+      "hits": 1,
+      "fileList": [
+        "strategic-leverage-amazon-brand-growth"
+      ],
+      "samples": [
+        {
+          "slug": "strategic-leverage-amazon-brand-growth",
+          "excerpt": "mization .insight-card { padding: 28px; border-radius: 18px; c"
+        }
+      ]
+    },
+    {
+      "pattern": "1e.display-grid",
+      "files": 3,
+      "hits": 5,
+      "fileList": [
+        "amazon-account-management",
+        "amazon-as-a-system-strategic-architecture-market-leadership",
+        "architecting-amazon-success-sustainable-scale"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "aam-row { display: grid; grid-template-columns: 260px 1fr; gap:"
+        },
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "am-bars { display: grid; grid-template-columns: 1fr 1fr; gap: 1"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "stemRow { display: grid; grid-template-columns: 60px 1fr 2fr; a"
+        },
+        {
+          "slug": "architecting-amazon-success-sustainable-scale",
+          "excerpt": "ramework{ display:grid; grid-template-columns:repeat(auto-fit,"
+        },
+        {
+          "slug": "architecting-amazon-success-sustainable-scale",
+          "excerpt": "contrast{ display:grid; grid-template-columns:1fr 1fr; gap:20p"
+        }
+      ]
+    },
+    {
+      "pattern": "1h.orphan-css-rule",
+      "files": 18,
+      "hits": 20,
+      "fileList": [
+        "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+        "agency-vs-diy-amazon-ppc-hidden-costs",
+        "amazon-account-management-brand-growth",
+        "amazon-as-a-system-strategic-architecture-market-leadership",
+        "amazon-brand-architecture-outlast-algorithm-changes",
+        "amazon-data-driven-growth",
+        "amazon-full-account-management-featured-services",
+        "amazon-new-seller-seo-ppc-plan-2026",
+        "amazon-ppc-formula-that-scales-without-wasting-budget",
+        "amazon-ppc-strategy-keyword-research-2025",
+        "amazon-sales-down-since-boycott",
+        "are-amazon-sales-increasing",
+        "expert-amazon-seller-management-services",
+        "how-to-build-a-scalable-amazon-business-strategically",
+        "is-amazon-prime-losing-customers",
+        "overlooked-amazon-seo-factors-affecting-product-rankings",
+        "scale-your-brand-with-export-amazon-full-account-management",
+        "strategic-leverage-amazon-brand-growth"
+      ],
+      "samples": [
+        {
+          "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+          "excerpt": "-agency/) ![searchnaturebanner](/images/blog/searchnaturebanner-1024x575-1553424e.png) .eg-wrap { font-family: -apple-system, Bl"
+        },
+        {
+          "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+          "excerpt": "n-touch/) .amazon-ppc-cta p { font-size: 18px; margin: 8px 0; } .cta-btn { display: inline-block; margin-top: 20px; background: #"
+        },
+        {
+          "slug": "amazon-account-management-brand-growth",
+          "excerpt": "a-quote/) /\\* Animated Button \\*/ .cta-button { display: inline-block; padding: 14px 34px; font-size: 16px; font-weight: 600; col"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "l threat. Request a Quote Button .blogIntro { text-align: center; font-family: Arial, sans-serif; margin-top: 30px; color: #333;"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "echanism. Amazon System Architecture Table .systemTable { max-width: 900px; margin: 40px auto; font-family: Arial, sans-serif;"
+        },
+        {
+          "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+          "excerpt": "evolve.​ .pros-cons-table td { width: 50%; vertical-align: top; } .box { padding: 18px 16px; border-radius: 10px; color: #0b1721"
+        }
+      ]
+    },
+    {
+      "pattern": "2.letter-spaced-heading",
+      "files": 1,
+      "hits": 4,
+      "fileList": [
+        "when-should-you-use-sponsored-display-ads"
+      ],
+      "samples": [
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "ROI. 👀 ### R e t a r g e t V i s i t o r Reconnect with shoppers who viewed your"
+        },
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "ase. 🚀 ### L a u n c h P r o d u c t Generate awareness and accelerate sales"
+        },
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "es. 🛡️ ### P r o t e c t L i s t i n g s Keep competitors from stealing customer"
+        },
+        {
+          "slug": "when-should-you-use-sponsored-display-ads",
+          "excerpt": "ges. 📈 ### S c a l e S a l e s Increase conversions with audience and"
+        }
+      ]
+    },
+    {
+      "pattern": "3a.emoji-alone-line",
+      "files": 8,
+      "hits": 29,
+      "fileList": [
+        "amazon-growth-system-strategic-frameworks",
+        "amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales",
+        "audience-targeting-intent-amazon-ppc-2026",
+        "designing-growth-on-amazon-strategy-before-scale",
+        "number-one-selling-product-amazon",
+        "seo-as-a-growth-system-search-strategy",
+        "system-first-selling-amazon-brands",
+        "when-should-you-use-sponsored-display-ads"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-growth-system-strategic-frameworks",
+          "excerpt": "levels. 📊 ### System-Driven Growth Move beyond i"
+        },
+        {
+          "slug": "amazon-growth-system-strategic-frameworks",
+          "excerpt": "system. 🧠 ### Strategic Market Intelligence Adva"
+        },
+        {
+          "slug": "amazon-growth-system-strategic-frameworks",
+          "excerpt": "reveal. 🚀 ### Scalable Advertising Architecture"
+        },
+        {
+          "slug": "amazon-growth-system-strategic-frameworks",
+          "excerpt": "erosion. 🔒 ### Defensible Brand Assets Brand is e"
+        },
+        {
+          "slug": "amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales",
+          "excerpt": "-quote/) 📧 For further information, explore these"
+        },
+        {
+          "slug": "audience-targeting-intent-amazon-ppc-2026",
+          "excerpt": "in 2026 🎯 ### Audience Intelligence Amazon analy"
+        }
+      ]
+    },
+    {
+      "pattern": "3b.emoji-in-heading",
+      "files": 117,
+      "hits": 139,
+      "fileList": [
+        "amazon-boycott-losses-2026",
+        "amazon-compliance-documents-in-2025",
+        "amazon-fba-growth-scaling-mistakes",
+        "amazon-keyword-research-2026-guide",
+        "amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales",
+        "amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales",
+        "beyond-optimization-systematic-amazon-growth",
+        "boost-your-amazon-best-sellers-rank-with-12-proven-tips",
+        "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+        "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+        "ecom-gliders-vs-salesduo-amazon-seller-support",
+        "elementor-992655",
+        "fix-stagnant-amazon-sales",
+        "how-to-build-a-scalable-amazon-business-strategically-2",
+        "professional-amazon-account-management-services-in-alabama-al-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-alaska-ak-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-american-samoa-as-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-arizona-az-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-arkansas-ar-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-california-ca-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-colorado-co-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-connecticut-ct-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-delaware-de-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-district-of-columbia-dc-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-florida-fl-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-georgia-ga-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-guam-gu-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-hawaii-hi-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-idaho-id-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-illinois-il-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-iowa-ia-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-kansas-ks-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-kentucky-ky-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-louisiana-la-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-maine-me-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-maryland-md-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-massachusetts-ma-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-michigan-mi-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-minnesota-mn-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-mississippi-ms-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-missouri-mo-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-montana-mt-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-nebraska-ne-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-nevada-nv-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-new-hampshire-nh-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-new-jersey-nj-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-new-mexico-nm-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-new-york-ny-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-north-carolina-nc-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-north-dakota-nd-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential-2",
+        "professional-amazon-account-management-services-in-oklahoma-ok-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-oregon-or-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-pennsylvania-pa-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-puerto-rico-pr-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-rhode-island-ri-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-south-carolina-sc-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-south-dakota-sd-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-tennessee-tn-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-texas-tx-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-trust-territories-tt-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-utah-ut-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-vermont-vt-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-virgin-islands-vi-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-virginia-va-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-washington-wa-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-west-virginia-wv-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-wisconsin-wi-maximize-your-online-potential",
+        "professional-amazon-account-management-services-in-wyoming-wy-maximize-your-online-potential",
+        "reduce-amazon-acos-2025",
+        "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+        "what-sets-ecom-gliders-apart-amazon-account-management"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-boycott-losses-2026",
+          "excerpt": "appened: ##### **✅ What We** ***Can*** **Conclude:** *"
+        },
+        {
+          "slug": "amazon-boycott-losses-2026",
+          "excerpt": ". ##### **⚠️ What the Data** ***Cannot*** **Show —"
+        },
+        {
+          "slug": "amazon-compliance-documents-in-2025",
+          "excerpt": ". * * * #### ✅ Next Steps * ✅ **Schedule a free PPC"
+        },
+        {
+          "slug": "amazon-fba-growth-scaling-mistakes",
+          "excerpt": "margins. #### **✅ Diversification Strategies:** * **Pr"
+        },
+        {
+          "slug": "amazon-fba-growth-scaling-mistakes",
+          "excerpt": "oo late. #### **🔹 Common Suspension Triggers:** * Sell"
+        },
+        {
+          "slug": "amazon-fba-growth-scaling-mistakes",
+          "excerpt": "s #### **🔹 Prevention Tips:** * Regularly audit"
+        }
+      ]
+    },
+    {
+      "pattern": "3c.pointer-emoji-line",
+      "files": 21,
+      "hits": 37,
+      "fileList": [
+        "amazon-account-management",
+        "amazon-branded-listing-contributions-guide",
+        "amazon-fba-growth-scaling-mistakes",
+        "amazon-full-account-management-vs-inhouse-team",
+        "amazon-ppc-campaign-management",
+        "amazon-ppc-campaign-types-explained",
+        "amazon-ppc-comparison-sponsored-products-vs-sponsored-brands",
+        "amazon-ppc-hacks",
+        "amazon-ppc-optimization-secrets-2025-fba-sellers-guide",
+        "amazon-ppc-strategies",
+        "amazon-seller-central-bulk-listing",
+        "amazon-seller-issues-solutions",
+        "amazon-seller-problems-fix-guide-2025",
+        "amazon-seo-optimization-increase-sales",
+        "avoid-saturated-niche-price-wars-amazon",
+        "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+        "fix-stagnant-amazon-sales",
+        "how-to-reduce-acos-and-grow-sales-for-your-ecommerce-business-2",
+        "scaling-amazon-fba-business-failure-mistakes",
+        "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+        "why-your-amazon-ppc-is-wasting-money-in-2026"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-account-management",
+          "excerpt": "rney. 🚀 👉 Start today—simplify your account, save"
+        },
+        {
+          "slug": "amazon-branded-listing-contributions-guide",
+          "excerpt": "Amazon. 👉 Share this guide with fellow sellers, d"
+        },
+        {
+          "slug": "amazon-fba-growth-scaling-mistakes",
+          "excerpt": ". 👉 Think of compliance as “insurance” for"
+        },
+        {
+          "slug": "amazon-fba-growth-scaling-mistakes",
+          "excerpt": ". 👉 If you’re serious about **Amazon FBA gr"
+        },
+        {
+          "slug": "amazon-full-account-management-vs-inhouse-team",
+          "excerpt": "mmitment 👉 Insight: Agencies appear more expensive"
+        },
+        {
+          "slug": "amazon-full-account-management-vs-inhouse-team",
+          "excerpt": "ll level 👉 Insight: Agencies often outperform in c"
+        }
+      ]
+    },
+    {
+      "pattern": "5.feature-grid-fence",
+      "files": 1,
+      "hits": 1,
+      "fileList": [
+        "fba-inventory-management-stockouts-to-stability"
+      ],
+      "samples": [
+        {
+          "slug": "fba-inventory-management-stockouts-to-stability",
+          "excerpt": "ability. ```feature-grid Advanced Forecast Insight | Gain clarit"
+        }
+      ]
+    },
+    {
+      "pattern": "6b.any-custom-fence",
+      "files": 1,
+      "hits": 1,
+      "fileList": [
+        "fba-inventory-management-stockouts-to-stability"
+      ],
+      "samples": [
+        {
+          "slug": "fba-inventory-management-stockouts-to-stability",
+          "excerpt": "ability. ```feature-grid Advanced Forecast Insight | Gain clarit"
+        }
+      ]
+    },
+    {
+      "pattern": "8.faq-heading",
+      "files": 2,
+      "hits": 2,
+      "fileList": [
+        "fba-inventory-management-stockouts-to-stability",
+        "strategic-leverage-amazon-brand-growth"
+      ],
+      "samples": [
+        {
+          "slug": "fba-inventory-management-stockouts-to-stability",
+          "excerpt": "mitment. ## FAQ ### What is the most important factor"
+        },
+        {
+          "slug": "strategic-leverage-amazon-brand-growth",
+          "excerpt": "guessed. ## FAQ #### What is the biggest mistake brand"
+        }
+      ]
+    },
+    {
+      "pattern": "9b.comparison-widget",
+      "files": 1,
+      "hits": 2,
+      "fileList": [
+        "ecom-gliders-vs-million-dollar-sellers-amazon-account-management"
+      ],
+      "samples": [
+        {
+          "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+          "excerpt": "gement. .comparison-table th { background-color: #0F172A; /\\* Dee"
+        },
+        {
+          "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+          "excerpt": "left; } .comparison-table td { padding: 10px; border-bottom: 1px"
+        }
+      ]
+    },
+    {
+      "pattern": "9c.framework-css",
+      "files": 2,
+      "hits": 12,
+      "fileList": [
+        "amazon-as-a-system-strategic-architecture-market-leadership",
+        "architecting-amazon-success-sustainable-scale"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "re Table .systemTable { max-width: 900px; margin: 40px auto;"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "-serif; } .systemRow { display: grid; grid-template-columns:"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": ",0.08); } .systemRow i { font-size: 26px; color: #ff9900; te"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "700px) { .systemRow { grid-template-columns: 1fr; text-alig"
+        },
+        {
+          "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+          "excerpt": "center; } .systemRow i { margin-bottom: 10px; } } System Ar"
+        },
+        {
+          "slug": "architecting-amazon-success-sustainable-scale",
+          "excerpt": ":20px; } .framework-box{ background:#ffffff; padding:25px; bord"
+        }
+      ]
+    },
+    {
+      "pattern": "9e.bullet-check-emoji",
+      "files": 3,
+      "hits": 13,
+      "fileList": [
+        "amazon-compliance-documents-in-2025",
+        "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+        "scale-your-brand-with-export-amazon-full-account-management"
+      ],
+      "samples": [
+        {
+          "slug": "amazon-compliance-documents-in-2025",
+          "excerpt": "xt Steps * ✅ **Schedule a free PPC & compliance audi"
+        },
+        {
+          "slug": "amazon-compliance-documents-in-2025",
+          "excerpt": "/)** * ✅ **Request a compliance quote or consult"
+        },
+        {
+          "slug": "amazon-compliance-documents-in-2025",
+          "excerpt": "/)** * ✅ **Book a strategy meeting**: **[Schedul"
+        },
+        {
+          "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+          "excerpt": "### Pros * ✔ Strategies remain effective for years,"
+        },
+        {
+          "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+          "excerpt": "ot months * ✔ Reduces dependency on short-term PPC ha"
+        },
+        {
+          "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+          "excerpt": "PPC hacks * ✔ Helps build stable, predictable adverti"
+        }
+      ]
+    }
+  ]
+}

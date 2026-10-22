@@ -49,7 +49,7 @@ export function ServiceSolutionSection({
                 {!alignRight ? (
                   <div className="ml-auto max-w-md rounded-[14px] border-2 border-primary bg-background p-5 text-right shadow-[4px_4px_0_0_#131311] sm:p-6">
                     <h3 className="text-h4 text-primary">{step.title}</h3>
-                    <p className="mt-2 text-body text-text-secondary">
+                    <p className="mt-2 text-body font-medium text-text-secondary">
                       {step.description}
                     </p>
                   </div>
@@ -73,7 +73,7 @@ export function ServiceSolutionSection({
               >
                 <div className="max-w-md rounded-[14px] border-2 border-primary bg-background p-5 shadow-[4px_4px_0_0_#131311] sm:p-6 md:max-w-none">
                   <h3 className="text-h4 text-primary">{step.title}</h3>
-                  <p className="mt-2 text-body text-text-secondary">
+                  <p className="mt-2 text-body font-medium text-text-secondary">
                     {step.description}
                   </p>
                 </div>

@@ -77,7 +77,7 @@ export function DesignSystemPage() {
         <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md shadow-header">
           <div className="container-page flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="text-small text-text-secondary">{header.subtitle}</p>
+              <p className="text-small font-medium text-text-secondary">{header.subtitle}</p>
               <h1 className="text-h3">{header.title}</h1>
             </div>
             <Badge variant="accent" className="w-fit shrink-0">
@@ -184,7 +184,7 @@ export function DesignSystemPage() {
               <h3 className="text-h3">{String(typographySamples.h3 ?? "")}</h3>
               <h4 className="text-h4">{String(typographySamples.h4 ?? "")}</h4>
               <p className="text-body max-w-prose">{String(typographySamples.body ?? "")}</p>
-              <p className="text-small text-text-secondary">
+              <p className="text-small font-medium text-text-secondary">
                 {String(typographySamples.small ?? "")}
               </p>
               <p className="text-stat text-text-primary">{String(typographySamples.stat ?? "")}</p>
@@ -209,7 +209,7 @@ export function DesignSystemPage() {
                         className="h-4 bg-accent"
                         style={{ width: value }}
                       />
-                      <span className="text-small text-text-secondary">
+                      <span className="text-small font-medium text-text-secondary">
                         {value}
                       </span>
                     </div>
@@ -365,7 +365,7 @@ export function DesignSystemPage() {
                 title={String(cardsCopy.serviceTitle ?? "")}
                 description={String(cardsCopy.serviceDescription ?? "")}
               >
-                <p className="text-body text-text-secondary">
+                <p className="text-body font-medium text-text-secondary">
                   {String(cardsCopy.serviceBody ?? "")}
                 </p>
                 <Button variant="link" className="mt-4">
@@ -464,8 +464,8 @@ export function DesignSystemPage() {
                 {footerColumns.map((col) => (
                   <div key={col}>
                     <p className="text-small mb-2 font-medium">{col}</p>
-                    <p className="text-small text-text-secondary">{String(footerCopy.linkPlaceholder ?? "")}</p>
-                    <p className="text-small text-text-secondary">{String(footerCopy.linkPlaceholder ?? "")}</p>
+                    <p className="text-small font-medium text-text-secondary">{String(footerCopy.linkPlaceholder ?? "")}</p>
+                    <p className="text-small font-medium text-text-secondary">{String(footerCopy.linkPlaceholder ?? "")}</p>
                   </div>
                 ))}
               </div>
@@ -531,7 +531,7 @@ export function DesignSystemPage() {
               />
               <div className="flex flex-col items-start justify-center gap-4 rounded-md border border-border p-6">
                 <p className="text-h4">{String(motionCopy.primaryTitle ?? "")}</p>
-                <p className="text-small text-text-secondary">
+                <p className="text-small font-medium text-text-secondary">
                   {String(motionCopy.primaryDetail ?? "")}
                 </p>
                 <PrimaryButton>{String(motionCopy.primaryCta ?? "")}</PrimaryButton>
@@ -628,7 +628,7 @@ export function DesignSystemPage() {
                 <div className="rounded-sm bg-accent px-4 py-2 text-text-on-dark text-small">
                   {String(contrastSamples.accent ?? "")}
                 </div>
-                <div className="text-small text-text-secondary">
+                <div className="text-small font-medium text-text-secondary">
                   {String(contrastSamples.secondary ?? "")}
                 </div>
               </div>
@@ -656,7 +656,7 @@ export function DesignSystemPage() {
               ))}
               <div className="rounded-md border border-border p-4 sm:col-span-2">
                 <Badge className="mb-2">Rejected</Badge>
-                <p className="text-small text-text-secondary">
+                <p className="text-small font-medium text-text-secondary">
                   {String(animationCopy.rejected ?? "")}
                 </p>
               </div>

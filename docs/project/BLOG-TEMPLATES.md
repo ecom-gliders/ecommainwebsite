@@ -30,15 +30,23 @@ Editorial detail shell (Forbes-like, EG tokens):
 |---------|------|
 | Breadcrumb | Home / Blog / Title |
 | Hero | Category eyebrow, large H1, excerpt dek, meta (date · read time · author), wide featured image (`aspect-[21/9]`, ink border + hard shadow) |
-| Share | Mobile: horizontal under meta. Desktop xl+: sticky right rail — LinkedIn, X, Facebook, Copy link |
-| TOC | Left rail; smooth scroll (respects `prefers-reduced-motion`); active section highlight |
+| Share | Mobile: horizontal under meta. Desktop xl+: sticky right rail — primary icons + overflow “more” menu |
+| Ask AI | Sticky right rail under Share — compact prompts about this article (`BlogAskAi`). Shell UI, not an MDX fence |
+| Key takeaways | Sticky right rail under Ask AI (`BlogKeyTakeaways`). Auto-extracted from article wording (prefers `tip` fences with `TITLE: Impact on Sellers`, then numbered strategy headings). Max 3. **Not** an MDX `keynote` block — there is no keynotes fence |
+| TOC | Left rail (“On this page”); smooth scroll (respects `prefers-reduced-motion`); active section highlight |
 | Body column | ~65–72ch reading width; markdown via `BlogMarkdown` |
 | Body blocks | Config-driven fences — see [`BLOG-BLOCKS.md`](BLOG-BLOCKS.md). No `rehype-raw` |
 | FAQ | Extracted `## FAQ` + question headings → `BlogPostFaq` |
 | Author / Related / CTA | Unchanged bands |
 | SEO | Article schema; canonical = preserved root URL |
 
-Grid (xl+): `200px TOC | article | 56px share`.
+Grid (xl+): `200px TOC | article | sticky right rail (Share → Ask AI → Key takeaways)`.
+
+### Right-rail content rules (per post)
+
+- Do not invent a `keynote` / `keynotes` fence. Feed takeaways by preserving or converting existing impact/summary lines into `tip` fences with `TITLE: Impact on Sellers` when that pattern already exists in the article.
+- If a post has no extractable impact lines or numbered strategy headings, the Key takeaways region stays empty — that is correct.
+- Layout-only loop work must not invent takeaway copy.
 
 ## Frontmatter schema
 

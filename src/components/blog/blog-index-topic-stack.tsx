@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { BlogIndexTopicStack } from "@/lib/blog/build-blog-index-model";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { formatPublishedDate } from "@/components/sections/format-date";
 import { SectionShell } from "@/components/sections/section-shell";
 
@@ -69,18 +69,18 @@ export function BlogIndexTopicStacks({ topics }: BlogIndexTopicStacksProps) {
                     href={`/${post.slug}/`}
                     className="group grid grid-cols-[88px_minmax(0,1fr)] gap-3 sm:grid-cols-[104px_minmax(0,1fr)] sm:gap-4"
                   >
-                    <div className="relative aspect-[4/3] overflow-hidden border border-border bg-background">
-                      {post.featuredImage ? (
-                        <Image
-                          src={post.featuredImage}
-                          alt=""
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                          sizes="104px"
-                          quality={70}
-                        />
-                      ) : null}
-                    </div>
+                    {post.featuredImage ? (
+                      <BlogFeaturedImage
+                        src={post.featuredImage}
+                        alt=""
+                        className="aspect-[4/3] w-full border border-border"
+                        imageClassName="transition-transform duration-300 group-hover:scale-[1.02]"
+                        sizes="104px"
+                        quality={70}
+                      />
+                    ) : (
+                      <div className="relative aspect-[4/3] w-full overflow-hidden border border-border bg-background" />
+                    )}
                     <div className="min-w-0">
                       <time
                         dateTime={post.publishedAt}

@@ -13,6 +13,18 @@
 3. Wording stays the same; only layout chrome is standardized to eCom Gliders tokens.
 4. New WP class: add `wpMatchers` in JSON + optional sanitize plugin under `src/lib/blog/blocks/sanitize/plugins/`, then re-run sanitize.
 
+## Shell UI (not body fences)
+
+These appear on every post template via `BlogPostArticle` — they are **not** allowlisted MDX fences and must not be authored as ```keynote blocks:
+
+| Shell element | Source |
+|---------------|--------|
+| Key takeaways | `extractKeyTakeaways` from body tips/headings → `BlogKeyTakeaways` |
+| Ask AI | `BlogAskAi` (article-scoped prompts) |
+| Share | `BlogShareRail` |
+
+Reference post with populated takeaways: `2025-amazon-algorithm-updates-what-sellers-need-to-know` (`tip` + `TITLE: Impact on Sellers`).
+
 ## Canonical chart / figure / video (required)
 
 | Pattern | Fence | Rule |

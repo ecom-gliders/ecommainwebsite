@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-10-22T00:58:00.000Z",
+  "corpusMdx": 328,
+  "evidence": {
+    "dirtyInventory": "docs/qa/BLOG-DIRTY-MDX-INVENTORY.json",
+    "sanitizeReport": "docs/qa/BLOG-SANITIZE-REPORT.json",
+    "breakageCatalog": "wordpress-blog-export/breakage-catalog.md",
+    "patternInventory": "docs/qa/BLOG-RESIDUAL-PATTERN-INVENTORY.json",
+    "sanitizeBackup": "backup/blog-mdx-sanitize/2026-10-22T00-27-54-779Z"
+  },
+  "sanitizeTransformsApplied": {
+    "cutChromeTail": 210,
+    "normalizeHeadings": 293,
+    "stripOrphanCss": 48,
+    "stripResidualHtml": 8,
+    "stripGliderBtnCss": 2,
+    "featureGrid": 1,
+    "faqWidgetToMarkdown": 2,
+    "elementorToMarkdown": 2
+  },
+  "keyPostContentLoss": {
+    "fba-inventory-management-stockouts-to-stability": {
+      "byteCollapse": "65355 -> 15161 (mostly Elementor HTML chrome)",
+      "readableWords": "2180 -> 1946 (~11% phrase churn vs sanitize backup)",
+      "converted": ["feature-grid 2 cards", "FAQ 3 QAs", "elementorToMarkdown"],
+      "residualRisk": "low structural loss; chrome removed successfully",
+      "recovery": "not required for body; WP optional if more FAQ/timeline widgets desired"
+    },
+    "strategic-leverage-amazon-brand-growth": {
+      "byteCollapse": "58675 -> 11250",
+      "readableWords": "1811 -> 1480 (~21% phrase churn; samples dominated by CSS/chrome)",
+      "converted": ["FAQ 3 QAs", "elementorToMarkdown"],
+      "residualRisk": "orphan .insight-card CSS remains; pillar titles kept as headings",
+      "recovery": "strip CSS in place; WP only if insight-card HTML bodies needed beyond titles"
+    },
+    "when-should-you-use-sponsored-display-ads": {
+      "byteCollapse": "9072 -> 8109",
+      "readableWords": "1155 -> 1103 (almost all lost phrases were CSS tokens)",
+      "converted": ["stripOrphanCss partial", "cutChromeTail", "normalizeHeadings"],
+      "residualRisk": "letter-spaced headings + emoji icons + .sd-card CSS leftover; card copy intact",
+      "recovery": "in-place normalize to feature-grid; backup/WP not needed for prose"
+    }
+  }
+}

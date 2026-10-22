@@ -122,7 +122,7 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
               <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
                 {h2 ?? "Notes"}
               </p>
-              <p className="mt-1 text-small text-text-secondary">
+              <p className="mt-1 text-small font-medium text-text-secondary">
                 {row.secondary}
               </p>
             </div>

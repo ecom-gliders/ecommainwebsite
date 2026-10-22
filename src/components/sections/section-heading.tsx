@@ -40,7 +40,7 @@ export function SectionHeading({
       {subheading ? (
         <p
           className={cn(
-            "mt-3 text-body",
+            "mt-3 text-body font-medium",
             inverted ? "text-text-on-dark/90" : "text-text-secondary",
           )}
         >

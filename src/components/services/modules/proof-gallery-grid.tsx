@@ -59,7 +59,7 @@ export function ProofGalleryGrid({ items }: ProofGalleryGridProps) {
               />
             </button>
             {item.caption ? (
-              <p className="mt-3 text-small text-text-secondary">
+              <p className="mt-3 text-small font-medium text-text-secondary">
                 {item.caption}
               </p>
             ) : null}

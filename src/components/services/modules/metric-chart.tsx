@@ -78,7 +78,7 @@ export function MetricChart({
               <span className="flex h-8 w-8 shrink-0 items-center justify-center border-2 border-primary bg-accent text-xs font-black text-primary">
                 {String(index + 1).padStart(2, "0")}
               </span>
-              <span className="min-w-0 flex-1 text-small text-text-secondary">
+              <span className="min-w-0 flex-1 text-small font-medium text-text-secondary">
                 {point.label}
               </span>
               <span className="text-stat font-black tabular-nums text-primary">
@@ -103,7 +103,7 @@ export function MetricChart({
           return (
             <li key={point.label}>
               <div className="mb-2 flex items-end justify-between gap-3">
-                <span className="text-small text-text-secondary">
+                <span className="text-small font-medium text-text-secondary">
                   {point.label}
                 </span>
                 <span className="text-stat font-black tracking-tight text-primary">

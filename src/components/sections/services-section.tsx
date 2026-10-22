@@ -66,7 +66,7 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
           {heading}
         </h2>
         {subheading ? (
-          <p className="mt-4 text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+          <p className="mt-4 text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
             {subheading}
           </p>
         ) : null}

@@ -296,7 +296,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
 
             <p
               className={cn(
-                "mt-4 max-w-lg text-base font-normal leading-relaxed text-pretty sm:mt-5 sm:text-lg",
+                "mt-4 max-w-lg text-base font-medium leading-relaxed text-pretty sm:mt-5 sm:text-lg",
                 onDark ? "text-text-on-dark/85" : "text-text-secondary",
               )}
             >

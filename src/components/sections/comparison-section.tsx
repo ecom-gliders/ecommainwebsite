@@ -82,7 +82,7 @@ function CellContent({ cell }: { cell: ComparisonCell }) {
           "text-sm leading-snug",
           cell.positive
             ? "font-bold text-primary"
-            : "font-normal text-text-secondary",
+            : "font-medium text-text-secondary",
         )}
       >
         {cell.text}
@@ -132,7 +132,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
 
         {subheading ? (
           <div className="relative mx-auto mt-5 max-w-xl">
-            <p className="text-base font-normal leading-relaxed text-text-secondary sm:text-lg">
+            <p className="text-base font-medium leading-relaxed text-text-secondary sm:text-lg">
               {subheading}
             </p>
             {swingNote ? (

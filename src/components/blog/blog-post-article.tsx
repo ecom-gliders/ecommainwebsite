@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { CalendarDays, Clock3, UserRound } from "lucide-react";
 import type { BlogPost, FaqItem, SiteConfig } from "@/domain/content/schemas";
 import { BlogAskAi } from "@/components/blog/blog-ask-ai";
 import { BlogAuthorBox } from "@/components/blog/blog-author-box";
 import { BlogBreadcrumb } from "@/components/blog/blog-breadcrumb";
+import { BlogFeaturedImage } from "@/components/blog/blog-featured-image";
 import { BlogKeyTakeaways } from "@/components/blog/blog-key-takeaways";
 import { BlogMarkdown } from "@/components/blog/blog-markdown";
 import { BlogPostCta } from "@/components/blog/blog-post-cta";
@@ -78,7 +78,7 @@ export function BlogPostArticle({
               ) : null}
 
               <div className="mb-6 flex flex-col gap-4 border-y border-border py-4 sm:mb-8 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-x-6 sm:gap-y-3">
-                <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 text-small text-text-secondary">
+                <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 text-small font-medium text-text-secondary">
                   <li className="inline-flex items-center gap-2">
                     <CalendarDays
                       className="h-4 w-4 text-primary"
@@ -118,17 +118,14 @@ export function BlogPostArticle({
 
           {post.featuredImage ? (
             <div className="container-page pb-8 md:pb-12">
-              <div className="relative mx-auto aspect-[16/9] w-full max-w-6xl overflow-hidden border-2 border-primary bg-surface-muted shadow-[5px_5px_0_0_#131311] md:aspect-[2.2/1]">
-                <Image
-                  src={post.featuredImage}
-                  alt={post.title}
-                  fill
-                  priority
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 1152px"
-                  quality={80}
-                />
-              </div>
+              <BlogFeaturedImage
+                src={post.featuredImage}
+                alt={post.title}
+                priority
+                className="mx-auto aspect-[16/9] w-full max-w-6xl border-2 border-primary shadow-[5px_5px_0_0_#131311] md:aspect-[2.2/1]"
+                sizes="(max-width: 768px) 100vw, 1152px"
+                quality={80}
+              />
             </div>
           ) : (
             <div className="h-6 md:h-10" />
