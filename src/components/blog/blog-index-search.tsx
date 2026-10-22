@@ -101,7 +101,7 @@ export function BlogIndexSearch({
   }
 
   return (
-    <div ref={rootRef} className={cn("relative", className)}>
+    <div ref={rootRef} className={cn("relative z-50", className)}>
       <form action="/blog/" method="get" role="search" onSubmit={onSubmit}>
         <label htmlFor="blog-search" className="sr-only">
           Search articles
@@ -165,7 +165,7 @@ export function BlogIndexSearch({
         <div
           id={listId}
           role="listbox"
-          className="absolute left-0 right-0 z-30 mt-2 overflow-hidden rounded-[10px] border-2 border-primary bg-background text-left shadow-[4px_4px_0_0_#131311]"
+          className="absolute left-0 right-0 z-50 mt-2 max-h-[min(24rem,70vh)] overflow-y-auto rounded-[10px] border-2 border-primary bg-background text-left shadow-[4px_4px_0_0_#131311]"
         >
           {matches.length > 0 ? (
             <ul>

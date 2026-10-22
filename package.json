@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "migrate:blog": "tsx scripts/migration/wp-to-mdx.ts",
+    "sanitize:blog-mdx": "tsx scripts/migration/sanitize-blog-mdx.ts",
+    "inventory:dirty-mdx": "node scripts/migration/inventory-dirty-mdx.mjs",
     "test:blog-urls": "playwright test tests/blog-url-preservation.spec.ts",
     "verify:sitemap": "tsx scripts/verify-sitemap.ts",
     "verify:gsc-readiness": "tsx scripts/verify-gsc-readiness.ts",

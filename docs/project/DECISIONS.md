@@ -17,6 +17,22 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-22 — Canonical blog chart / figure / video
+
+**WHAT:** Lock three media patterns as the single canonical approach for blog templates: (1) `chart-cards` renders column bars + notes when percentages exist, (2) figures use ink-border 16:9 frames (fence + markdown images), (3) `video-card` embeds YouTube/Vimeo in-page; other hosts use link+poster.
+
+**WHY:** Chart captions were rendering as text-only cards; figure/video treatment was inconsistent between DS catalog and live posts.
+
+**OPTIONS:** (A) Ad-hoc per-post HTML (B) Third-party chart library (C) Config-driven SVG/EG-token components + allowlisted embeds
+
+**CHOSEN:** C
+
+**TRADEOFFS:** No arbitrary iframe hosts; advanced charts stay SVG (no Recharts). Writers must use fences, not Elementor widgets.
+
+**IMPACT:** `blog-blocks.json#canonical`, `design-system.json#blogEditorial`, `BlogChartCards`, `BlogVideoCard`, `BlogMarkdown` img, `/design-system/blog`, sample post `2025-amazon-algorithm-updates-what-sellers-need-to-know`.
+
+---
+
 ## 2026-10-21 — Accent contrast pairing (lime vs ink)
 
 **WHAT:** Ban `#C6FD50` (`text-accent`) as body/metric text on light surfaces. Light metrics use `text-primary` plus an accent left rule or chip fill (`bg-accent` + `text-primary`). Keep lime text on dark/ink stages.

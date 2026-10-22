@@ -325,7 +325,32 @@
     "PrimaryButton": ["header.cta", "homepage.hero", "homepage.cta", "contact.form", "free-audit.form", "pre-footer"],
     "Button": ["secondary underline actions", "card text links"],
     "MegaMenu": ["header.navigation"],
-    "Footer": ["site.footer"]
+    "Footer": ["site.footer"],
+    "BlogChartCards": ["blog.post.body", "design-system.blog"],
+    "BlogBarChart": ["blog.post.body", "design-system.blog"],
+    "BlogFigure": ["blog.post.body", "design-system.blog"],
+    "BlogVideoCard": ["blog.post.body", "design-system.blog"]
+  },
+  "blogEditorial": {
+    "sourceOfTruth": "content/config/blog-blocks.json#canonical",
+    "catalog": "/design-system/blog",
+    "charts": {
+      "multiColumnWithPct": "chart-cards → column bars + notes (canonical for Chart: captions with %)",
+      "explicitSeries": "bar-chart vertical|horizontal",
+      "forbidden": "Plain text-only card grids for Chart: captions when percentages exist; raw HTML chart widgets"
+    },
+    "figure": {
+      "fence": "figure",
+      "markdownImages": "Same ink-border frame as BlogFigure; optional title → caption",
+      "frame": "aspect-16/9, border-2 primary, hard shadow 3px"
+    },
+    "video": {
+      "fence": "video-card",
+      "defaultMode": "embed",
+      "hosts": ["youtube.com", "youtu.be", "vimeo.com"],
+      "fallback": "MODE: link + poster for non-allowlisted hosts",
+      "forbidden": "Raw iframe / script embeds in MDX"
+    }
   },
   "accessibility": {
     "target": "WCAG 2.1 AA",

@@ -3,7 +3,16 @@
  * starts at H2 and never skips levels (WCAG 2.4.10 / Lighthouse heading-order).
  */
 export function normalizeHeadingLevels(content: string): string {
-  const lines = content.split("\n");
+  // Page template already renders a single H1 from frontmatter — demote body H1s first.
+  const withoutBodyH1 = content
+    .split("\n")
+    .map((line) => {
+      const match = line.match(/^#(\s+.*)$/);
+      return match ? `##${match[1]}` : line;
+    })
+    .join("\n");
+
+  const lines = withoutBodyH1.split("\n");
   const headingLevels: number[] = [];
 
   for (const line of lines) {
@@ -14,7 +23,7 @@ export function normalizeHeadingLevels(content: string): string {
   }
 
   if (headingLevels.length === 0) {
-    return content;
+    return withoutBodyH1;
   }
 
   const uniqueLevels = [...new Set(headingLevels)].sort((a, b) => a - b);

@@ -1,8 +1,40 @@
 ## Current objective
 
-Spacious Apple/Amazon-style footer shipped (responsive). DNS cutover still pending Hostinger DNS.
+Blog detail editorial shell + config-driven block registry shipped. DNS cutover still pending Hostinger DNS.
 
-## Latest (2026-10-22) — Footer recent content
+## Latest (2026-10-22) — Canonical media locked + deployed
+
+- Canonical: `blog-blocks.json#canonical` + `design-system.json#blogEditorial`
+- Charts: `chart-cards` = column bars + notes; figures = ink frame; video = YT/Vimeo embed
+- Build: clean (`next build` exit 0)
+- Deploy: https://ecomgliders-site.vercel.app (READY; Vercel auth protection on)
+- Inspect: https://vercel.com/faizanmayo786s-projects/ecomgliders-site/7jSYmBX3tAeTPF1E2myZoLqki6Ts
+
+## Prior (2026-10-22) — Blog shell v2 + design catalog
+
+- Rail: Share first → Ask AI (article prompt) → 3 compact takeaways
+- TOC: major sections when many numbered subs; nested when sparse
+- Charts: `chart-cards` / `chart-ranked` / `metric-bars` / `stat-row` / `compare-columns`
+- Related articles: editorial list (not card grid)
+- Catalog (noindex): `/design-system/blog`
+- Free consultation page: deferred; CTAs stay Contact/Free Audit
+- Sample: http://localhost:3003/2025-amazon-algorithm-updates-what-sellers-need-to-know/
+
+## Prior (2026-10-22) — Blog convert-all + editorial shell
+
+- Config: `content/config/blog-blocks.json` + `src/lib/blog/blocks/` registry
+- Sanitize plugins (convert-first): feature-grid, steps, tips, CSS strip, emoji cleanup; batch on 328 MDX
+- Shell: editorial hero, smooth TOC, sticky share rail
+- Docs: `BLOG-BLOCKS.md`, updated `BLOG-TEMPLATES.md`
+
+## Prior (2026-10-22) — Blog body sanitize / themed blocks
+
+- Inventory: `scripts/migration/inventory-dirty-mdx.mjs` → `docs/qa/BLOG-DIRTY-MDX-INVENTORY.json`
+- Sanitize lib + batch: `sanitizeBlogMarkdown` + `sanitize-blog-mdx.ts --write` (backup under `backup/blog-mdx-sanitize/`)
+- Renderer: GFM tables, `BlogFeatureGrid`, `BlogCallout`; no `rehype-raw`
+- Verified: production build; Playwright spot-check FBA / fee / strategic-leverage posts
+
+## Prior (2026-10-22) — Footer recent content
 
 - Footer keeps 4 service columns unchanged
 - Injects **Latest articles** (3 recent posts + All articles) and **Latest case studies** (featured/newest 3 + All case studies) before Company/Contact

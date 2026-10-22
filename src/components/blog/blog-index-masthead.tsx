@@ -23,12 +23,12 @@ export function BlogIndexMasthead({
       id="blog-index-masthead"
       ariaLabelledBy="blog-index-heading"
       className={cn(
-        "relative overflow-hidden",
+        "relative z-20 overflow-visible",
         compact ? "py-10 sm:py-12" : "py-14 sm:py-16 lg:py-20",
       )}
     >
       <div
-        className="pointer-events-none absolute inset-0 -z-10 opacity-[0.06]"
+        className="pointer-events-none absolute inset-0 -z-10 overflow-hidden opacity-[0.06]"
         aria-hidden="true"
         style={{
           backgroundImage:
@@ -36,7 +36,12 @@ export function BlogIndexMasthead({
           backgroundSize: "28px 28px",
         }}
       />
-      <div className={cn(compact ? "max-w-3xl" : "mx-auto max-w-4xl text-center")}>
+      <div
+        className={cn(
+          "relative z-20",
+          compact ? "max-w-3xl" : "mx-auto max-w-4xl text-center",
+        )}
+      >
         <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
           eCom Gliders Insights
         </p>

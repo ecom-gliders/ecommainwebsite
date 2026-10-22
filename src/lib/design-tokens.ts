@@ -50,6 +50,7 @@ export const designSystemSchema = z.object({
   motion: z.record(z.string(), z.unknown()),
   icons: z.record(z.string(), z.unknown()),
   usage: z.record(z.string(), z.array(z.string())),
+  blogEditorial: z.record(z.string(), z.unknown()).optional(),
   accessibility: z.record(z.string(), z.unknown()).optional(),
 });
 

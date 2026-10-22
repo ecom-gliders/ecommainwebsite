@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "allowlistOnly": true,
+  "rehypeRaw": false,
+  "canonical": {
+    "multiColumnChart": {
+      "fence": "chart-cards",
+      "component": "BlogChartCards",
+      "rule": "When rows include percentages, render column bars plus secondary notes (e.g. cost). Do not use plain text-only cards for Chart: captions.",
+      "examplePost": "2025-amazon-algorithm-updates-what-sellers-need-to-know"
+    },
+    "singleSeriesBars": {
+      "fence": "bar-chart",
+      "component": "BlogBarChart",
+      "rule": "Use for explicit numeric series with ORIENTATION vertical|horizontal."
+    },
+    "figure": {
+      "fence": "figure",
+      "component": "BlogFigure",
+      "also": "Markdown images (![]()) render with the same ink-border figure frame; title attribute becomes caption.",
+      "frame": "aspect-16/9, border-2 primary, hard shadow"
+    },
+    "video": {
+      "fence": "video-card",
+      "component": "BlogVideoCard",
+      "rule": "YouTube and Vimeo URLs embed in-page by default (MODE: embed). Other hosts use MODE: link with poster. No raw iframes in MDX.",
+      "allowlistedHosts": ["youtube.com", "youtu.be", "youtube-nocookie.com", "vimeo.com", "player.vimeo.com"]
+    }
+  },
+  "blocks": [
+    {
+      "patternId": "feature-grid",
+      "fenceLanguage": "feature-grid",
+      "componentId": "BlogFeatureGrid",
+      "sanitizeRuleId": "featureGrid",
+      "bodyFormat": "lines-title-pipe-desc",
+      "wpMatchers": {
+        "classContains": [
+          "insight-card",
+          "sd-card",
+          "framework",
+          "framework-box",
+          "systemRow"
+        ],
+        "styleContains": ["display:grid", "display: grid", "grid-template"]
+      }
+    },
+    {
+      "patternId": "callout",
+      "fenceLanguage": "callout",
+      "componentId": "BlogCallout",
+      "sanitizeRuleId": "calloutBox",
+      "bodyFormat": "optional-title-then-markdown",
+      "componentProps": { "variant": "default" },
+      "wpMatchers": {
+        "classContains": ["insight", "scenario", "aam-card"]
+      }
+    },
+    {
+      "patternId": "tip",
+      "fenceLanguage": "tip",
+      "componentId": "BlogCallout",
+      "sanitizeRuleId": "tipBox",
+      "bodyFormat": "optional-title-then-markdown",
+      "componentProps": { "variant": "tip" },
+      "wpMatchers": {
+        "textPatterns": ["👉"]
+      }
+    },
+    {
+      "patternId": "warning",
+      "fenceLanguage": "warning",
+      "componentId": "BlogCallout",
+      "sanitizeRuleId": "warningBox",
+      "bodyFormat": "optional-title-then-markdown",
+      "componentProps": { "variant": "warning" }
+    },
+    {
+      "patternId": "steps",
+      "fenceLanguage": "steps",
+      "componentId": "BlogSteps",
+      "sanitizeRuleId": "stepsList",
+      "bodyFormat": "numbered-lines-or-title-pipe-desc",
+      "wpMatchers": {
+        "classContains": ["elementor-icon-list", "ekit-icon-list"],
+        "textPatterns": ["action-packed steps"]
+      }
+    },
+    {
+      "patternId": "timeline",
+      "fenceLanguage": "timeline",
+      "componentId": "BlogTimeline",
+      "sanitizeRuleId": "eaeTimeline",
+      "bodyFormat": "lines-label-pipe-body",
+      "wpMatchers": {
+        "classContains": ["sd-timeline", "eae-timeline"],
+        "elementorWidgetTypes": ["eae-timeline.skin3"]
+      }
+    },
+    {
+      "patternId": "metric-bars",
+      "fenceLanguage": "metric-bars",
+      "componentId": "BlogMetricBars",
+      "sanitizeRuleId": "metricBars",
+      "bodyFormat": "lines-label-pipe-pct",
+      "wpMatchers": {
+        "classContains": ["aam-row", "aam-bars", "aam-table"]
+      }
+    },
+    {
+      "patternId": "chart-cards",
+      "fenceLanguage": "chart-cards",
+      "componentId": "BlogChartCards",
+      "sanitizeRuleId": "chartCards",
+      "bodyFormat": "optional-headers-then-pipe-rows"
+    },
+    {
+      "patternId": "chart-ranked",
+      "fenceLanguage": "chart-ranked",
+      "componentId": "BlogChartRanked",
+      "sanitizeRuleId": "chartRanked",
+      "bodyFormat": "lines-label-detail-pipe-pct"
+    },
+    {
+      "patternId": "bar-chart",
+      "fenceLanguage": "bar-chart",
+      "componentId": "BlogBarChart",
+      "sanitizeRuleId": "barChart",
+      "bodyFormat": "title-orientation-label-pipe-value"
+    },
+    {
+      "patternId": "pie-chart",
+      "fenceLanguage": "pie-chart",
+      "componentId": "BlogPieChart",
+      "sanitizeRuleId": "pieChart",
+      "bodyFormat": "title-variant-label-pipe-value"
+    },
+    {
+      "patternId": "histogram",
+      "fenceLanguage": "histogram",
+      "componentId": "BlogHistogram",
+      "sanitizeRuleId": "histogram",
+      "bodyFormat": "title-y-label-pipe-value"
+    },
+    {
+      "patternId": "line-chart",
+      "fenceLanguage": "line-chart",
+      "componentId": "BlogLineChart",
+      "sanitizeRuleId": "lineChart",
+      "bodyFormat": "title-variant-label-pipe-value"
+    },
+    {
+      "patternId": "radial-gauge",
+      "fenceLanguage": "radial-gauge",
+      "componentId": "BlogRadialGauge",
+      "sanitizeRuleId": "radialGauge",
+      "bodyFormat": "title-label-pipe-percent"
+    },
+    {
+      "patternId": "sparkline",
+      "fenceLanguage": "sparkline",
+      "componentId": "BlogSparkline",
+      "sanitizeRuleId": "sparkline",
+      "bodyFormat": "title-label-pipe-comma-values"
+    },
+    {
+      "patternId": "video-card",
+      "fenceLanguage": "video-card",
+      "componentId": "BlogVideoCard",
+      "sanitizeRuleId": "videoCard",
+      "bodyFormat": "title-pipe-href-pipe-poster-pipe-caption"
+    },
+    {
+      "patternId": "stat-row",
+      "fenceLanguage": "stat-row",
+      "componentId": "BlogStatRow",
+      "sanitizeRuleId": "statRow",
+      "bodyFormat": "lines-value-pipe-label"
+    },
+    {
+      "patternId": "compare-columns",
+      "fenceLanguage": "compare-columns",
+      "componentId": "BlogCompareColumns",
+      "sanitizeRuleId": "compareColumns",
+      "bodyFormat": "markdown-h2-columns-with-bullets"
+    },
+    {
+      "patternId": "pros-cons",
+      "fenceLanguage": "pros-cons",
+      "componentId": "BlogProsCons",
+      "sanitizeRuleId": "prosCons",
+      "bodyFormat": "markdown-h2-pros-cons-bullets"
+    },
+    {
+      "patternId": "media-compare",
+      "fenceLanguage": "media-compare",
+      "componentId": "BlogMediaCompare",
+      "sanitizeRuleId": "mediaCompare",
+      "bodyFormat": "markdown-h2-image-text-sides"
+    },
+    {
+      "patternId": "definition-list",
+      "fenceLanguage": "definition-list",
+      "componentId": "BlogDefinitionList",
+      "sanitizeRuleId": "definitionList",
+      "bodyFormat": "lines-term-pipe-definition"
+    },
+    {
+      "patternId": "checklist",
+      "fenceLanguage": "checklist",
+      "componentId": "BlogChecklist",
+      "sanitizeRuleId": "checklist",
+      "bodyFormat": "optional-title-bullet-lines"
+    },
+    {
+      "patternId": "pull-quote",
+      "fenceLanguage": "pull-quote",
+      "componentId": "BlogPullQuote",
+      "sanitizeRuleId": "pullQuote",
+      "bodyFormat": "quote-optional-attribution"
+    },
+    {
+      "patternId": "insight",
+      "fenceLanguage": "insight",
+      "componentId": "BlogInsightChip",
+      "sanitizeRuleId": "insightChip",
+      "bodyFormat": "optional-title-then-text"
+    },
+    {
+      "patternId": "figure",
+      "fenceLanguage": "figure",
+      "componentId": "BlogFigure",
+      "sanitizeRuleId": "figureCaption",
+      "bodyFormat": "src-pipe-alt-pipe-caption"
+    },
+    {
+      "patternId": "formula",
+      "fenceLanguage": "formula",
+      "componentId": "BlogFormula",
+      "sanitizeRuleId": "formula",
+      "bodyFormat": "expression-optional-note"
+    },
+    {
+      "patternId": "markets",
+      "fenceLanguage": "markets",
+      "componentId": "BlogMarketplaceChips",
+      "sanitizeRuleId": "marketplaceChips",
+      "bodyFormat": "comma-or-newline-markets"
+    },
+    {
+      "patternId": "case-snapshot",
+      "fenceLanguage": "case-snapshot",
+      "componentId": "BlogCaseSnapshot",
+      "sanitizeRuleId": "caseSnapshot",
+      "bodyFormat": "niche-pipe-metric-pipe-detail"
+    },
+    {
+      "patternId": "resource",
+      "fenceLanguage": "resource",
+      "componentId": "BlogResourceLink",
+      "sanitizeRuleId": "resourceLink",
+      "bodyFormat": "title-pipe-desc-pipe-label-pipe-href"
+    },
+    {
+      "patternId": "persona-tabs",
+      "fenceLanguage": "persona-tabs",
+      "componentId": "BlogPersonaTabs",
+      "sanitizeRuleId": "personaTabs",
+      "bodyFormat": "markdown-h2-persona-bodies"
+    },
+    {
+      "patternId": "comparison-table",
+      "fenceLanguage": null,
+      "renderMode": "gfm-table",
+      "componentId": null,
+      "sanitizeRuleId": "comparisonTableToGfm",
+      "wpMatchers": {
+        "classContains": ["comparison-table", "pros-cons-table"],
+        "elementorWidgetTypes": [
+          "eae-comparisontable.default",
+          "tp-table.default"
+        ]
+      }
+    },
+    {
+      "patternId": "cta",
+      "fenceLanguage": "cta",
+      "componentId": "BlogCtaBlock",
+      "sanitizeRuleId": "promoCta",
+      "bodyFormat": "title-pipe-desc-pipe-label-pipe-href",
+      "wpMatchers": {
+        "classContains": ["glider-btn", "cta-btn"],
+        "textPatterns": ["Book a Call", "Stay Ahead", "Get Your Free"]
+      }
+    },
+    {
+      "patternId": "cta-link",
+      "fenceLanguage": null,
+      "renderMode": "markdown-link",
+      "componentId": null,
+      "sanitizeRuleId": "stripGliderBtnCss",
+      "wpMatchers": {
+        "classContains": ["glider-btn", "cta-btn"]
+      }
+    }
+  ]
+}

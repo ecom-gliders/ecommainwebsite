@@ -49,9 +49,11 @@ build/
 # Large site backup (local only)
 backup/pages/
 backup/blog/
+backup/blog-mdx-sanitize/
 backup/assets/
 backup/raw/
 backup/scrape-log.txt
+tmp-*.js
 
 # Obsidian local UI state only (vault notes stay tracked)
 .obsidian/workspace.json
@@ -67,3 +69,10 @@ temp/
 # Agent skill install mirrors (canonical copies live under .cursor/skills/)
 .agents/
 skills-lock.json
+
+# Live WP export payloads (large); keep CSV/manifest via force-add if needed
+wordpress-blog-export/posts/
+wordpress-blog-export/posts-all.json
+wordpress-blog-export/mdx-backup-before-restore/
+
+.vercel

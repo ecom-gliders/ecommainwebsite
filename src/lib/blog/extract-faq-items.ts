@@ -1,7 +1,8 @@
 import type { FaqItem } from "@/domain/content/schemas";
 
 const FAQ_SECTION_HEADING = /^#{2,6}\s+.*\bFAQ/i;
-const QUESTION_HEADING = /^#{4,6}\s+(.+\?)\s*$/;
+// After normalizeHeadingLevels, FAQ questions are often ### (was #### in WP)
+const QUESTION_HEADING = /^#{3,6}\s+(.+\?)\s*$/;
 const BOLD_QUESTION_LINE = /^\s*\*\*([^*]+\?)\*\*\s*$/;
 const INVALID_ANSWER_PATTERN = /[{]|class=|\.sd-|@media|<div|<style/i;
 
