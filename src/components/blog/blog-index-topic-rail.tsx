@@ -11,7 +11,7 @@ export function BlogIndexTopicRail({ topics }: BlogIndexTopicRailProps) {
 
   return (
     <nav
-      className="border-y border-border bg-background"
+      className="relative z-0 border-y border-border bg-background"
       aria-label="Blog topics"
     >
       <div className="container-page">

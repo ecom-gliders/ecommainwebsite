@@ -1,63 +1,181 @@
+"use client";
+
+import { ListTree } from "lucide-react";
+import { useEffect, useState } from "react";
+import { BlogTocRailCta } from "@/components/blog/blog-toc-rail-cta";
 import type { TocItem } from "@/lib/blog/extract-table-of-contents";
+import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 
 interface BlogTableOfContentsProps {
   items: TocItem[];
+  /** Show compact free-audit CTA under desktop TOC */
+  showRailCta?: boolean;
+  ctaHref?: string;
 }
 
-function TocList({ items }: BlogTableOfContentsProps) {
+function TocList({
+  items,
+  activeId,
+  onNavigate,
+}: {
+  items: TocItem[];
+  activeId: string | null;
+  onNavigate: (id: string) => void;
+}) {
   if (items.length === 0) {
     return (
-      <p className="text-small text-text-secondary">
+      <p className="text-[12px] text-text-secondary">
         No sections available for this article.
       </p>
     );
   }
 
+  let mainIndex = 0;
+
   return (
-    <ul className="space-y-2">
-      {items.map((item) => (
-        <li
-          key={item.id}
-          style={{ paddingLeft: `${(item.level - 2) * 0.75}rem` }}
-        >
-          <a
-            href={`#${item.id}`}
-            className="text-small text-text-secondary hover:text-link-hover hover:underline"
+    <ol className="m-0 list-none space-y-0 p-0">
+      {items.map((item) => {
+        const isActive = activeId === item.id;
+        const isChild = item.depth > 0;
+        if (!isChild) mainIndex += 1;
+
+        return (
+          <li
+            key={item.id}
+            className={
+              isChild ? "ml-2.5 border-l-2 border-accent/60 pl-2" : undefined
+            }
           >
-            {item.text}
-          </a>
-        </li>
-      ))}
-    </ul>
+            <a
+              href={`#${item.id}`}
+              onClick={(event) => {
+                event.preventDefault();
+                onNavigate(item.id);
+              }}
+              className={
+                isActive
+                  ? isChild
+                    ? "block py-0.5 pl-1 text-[11px] font-semibold text-primary"
+                    : "flex gap-1.5 bg-accent/30 py-1 pl-1.5 pr-1.5 text-[12px] font-semibold text-primary"
+                  : isChild
+                    ? "block py-0.5 pl-1 text-[11px] text-text-secondary hover:text-text-primary"
+                    : "flex gap-1.5 py-1 pl-1.5 pr-1.5 text-[12px] text-text-secondary hover:bg-surface-muted hover:text-text-primary"
+              }
+              aria-current={isActive ? "location" : undefined}
+            >
+              {!isChild ? (
+                <span
+                  className={
+                    isActive
+                      ? "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center bg-primary text-[9px] font-bold text-text-on-dark"
+                      : "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center border border-border text-[9px] font-semibold text-text-secondary"
+                  }
+                  aria-hidden="true"
+                >
+                  {mainIndex}
+                </span>
+              ) : null}
+              <span className="min-w-0 leading-snug">{item.text}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
   );
 }
 
-export function BlogTableOfContents({ items }: BlogTableOfContentsProps) {
-  if (items.length === 0) {
-    return null;
+function resolveActiveHeadingId(items: TocItem[]): string | null {
+  if (items.length === 0) return null;
+  const marker = 140;
+  let current = items[0].id;
+  for (const item of items) {
+    const el = document.getElementById(item.id);
+    if (!el) continue;
+    if (el.getBoundingClientRect().top <= marker) {
+      current = item.id;
+    }
   }
+  return current;
+}
+
+export function BlogTableOfContents({
+  items,
+  showRailCta = true,
+  ctaHref = "/free-audit-2/",
+}: BlogTableOfContentsProps) {
+  const prefersReducedMotion = usePrefersReducedMotion();
+  const [activeId, setActiveId] = useState<string | null>(
+    items[0]?.id ?? null,
+  );
+
+  useEffect(() => {
+    if (items.length === 0) return;
+    const sync = () => setActiveId(resolveActiveHeadingId(items));
+    sync();
+    window.addEventListener("scroll", sync, { passive: true });
+    window.addEventListener("resize", sync);
+    return () => {
+      window.removeEventListener("scroll", sync);
+      window.removeEventListener("resize", sync);
+    };
+  }, [items]);
+
+  function navigateTo(id: string) {
+    const target = document.getElementById(id);
+    if (!target) return;
+    target.scrollIntoView({
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+      block: "start",
+    });
+    window.history.replaceState(null, "", `#${id}`);
+    setActiveId(id);
+  }
+
+  if (items.length === 0) return null;
+
+  const header = (
+    <div className="mb-2 flex items-center gap-2">
+      <span className="flex h-7 w-7 items-center justify-center bg-accent text-primary">
+        <ListTree className="h-3.5 w-3.5" aria-hidden="true" />
+      </span>
+      <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        On this page
+      </p>
+    </div>
+  );
 
   return (
     <>
-      <details className="mb-8 rounded-lg border border-border bg-surface p-4 lg:hidden">
-        <summary className="cursor-pointer text-body font-semibold text-text-primary">
+      <details className="mb-8 border-2 border-primary bg-surface p-3 shadow-[3px_3px_0_0_#131311] lg:hidden">
+        <summary className="cursor-pointer text-small font-semibold text-text-primary">
           Table of contents
         </summary>
-        <nav aria-label="Table of contents" className="mt-4">
-          <TocList items={items} />
+        <nav aria-label="Table of contents" className="mt-3">
+          {header}
+          <TocList items={items} activeId={activeId} onNavigate={navigateTo} />
         </nav>
+        {showRailCta ? (
+          <div className="mt-4">
+            <BlogTocRailCta href={ctaHref} />
+          </div>
+        ) : null}
       </details>
 
       <aside className="hidden lg:block">
-        <nav
-          aria-label="Table of contents"
-          className="sticky top-24 rounded-lg border border-border bg-surface p-4"
-        >
-          <p className="mb-3 text-small font-semibold uppercase tracking-wide text-text-secondary">
-            On this page
-          </p>
-          <TocList items={items} />
-        </nav>
+        <div className="sticky top-28 flex max-h-[calc(100vh-7.5rem)] flex-col gap-3">
+          <nav
+            aria-label="Table of contents"
+            className="min-h-0 flex-1 overflow-y-auto border-2 border-primary bg-surface p-3 shadow-[3px_3px_0_0_#131311]"
+          >
+            {header}
+            <TocList
+              items={items}
+              activeId={activeId}
+              onNavigate={navigateTo}
+            />
+          </nav>
+          {showRailCta ? <BlogTocRailCta href={ctaHref} /> : null}
+        </div>
       </aside>
     </>
   );

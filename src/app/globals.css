@@ -1071,3 +1071,27 @@ html[data-a11y-motion="reduce"] main img[src$=".gif"],
 html[data-a11y-motion="reduce"] main img[src*=".gif?"] {
   animation: none !important;
 }
+
+@media print {
+  header,
+  footer,
+  nav,
+  aside,
+  [aria-label="Share, ask AI, and key takeaways"],
+  [aria-label="Free account audit"],
+  #blog-post-cta,
+  .sticky {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  main,
+  article {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
