@@ -4,7 +4,7 @@
     "subtitle": "Pick full-service account management, or start with a focused workstream. Free audit. Clear next steps.",
     "primaryCta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "secondaryCta": {
       "label": "Call +1 (360) 660-1210",
@@ -186,7 +186,7 @@
         "href": "/case-study-1/"
       },
       {
-        "metric": "52% → 26.5%",
+        "metric": "52% ? 26.5%",
         "metricUnit": "ACOS",
         "brand": "GoSports · Sports and Outdoors",
         "description": "PPC restructuring with listing improvements cut ACOS while revenue scaled.",
@@ -277,7 +277,7 @@
     "subheading": "We review advertising, listings, and catalog priorities, then recommend full-service or a focused start.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

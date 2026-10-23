@@ -7,7 +7,7 @@
     "subtitle": "Structured handling of account tasks, cases, promotions, and operational requests—so Seller Central work keeps moving between audits.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a Seller Central operations review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -55,12 +55,30 @@
           "type": "select",
           "required": false,
           "options": [
-            { "value": "", "label": "Please select" },
-            { "value": "cases", "label": "Cases and support tickets" },
-            { "value": "listings-ops", "label": "Listing and catalog tasks" },
-            { "value": "promotions", "label": "Promotions and coupons" },
-            { "value": "day-to-day", "label": "Day-to-day account ops" },
-            { "value": "full-handoff", "label": "Full operational handoff" }
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "cases",
+              "label": "Cases and support tickets"
+            },
+            {
+              "value": "listings-ops",
+              "label": "Listing and catalog tasks"
+            },
+            {
+              "value": "promotions",
+              "label": "Promotions and coupons"
+            },
+            {
+              "value": "day-to-day",
+              "label": "Day-to-day account ops"
+            },
+            {
+              "value": "full-handoff",
+              "label": "Full operational handoff"
+            }
           ]
         }
       ]
@@ -313,7 +331,7 @@
         "imageAlt": "Kitchen brand products from the Amazon account case study"
       },
       {
-        "metric": "76% → 37%",
+        "metric": "76% ? 37%",
         "brand": "VoltTech",
         "description": "ACoS cut while ad spend fell 32% across US and UK with listing and catalog context in the same plan.",
         "href": "/case-study-3/",
@@ -377,14 +395,17 @@
     "subheading": "Share what is falling behind. We outline ownership, cadence, and first-week priorities.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {
     "metaTitle": "Amazon Seller Central Services | eCom Gliders",
     "metaDescription": "Amazon Seller Central services for cases, promotions, listing ops tasks, and day-to-day account ownership. You keep the account. Free audit.",
     "canonical": "https://ecomgliders.com/amazon-seller-central-services/",
-    "robots": { "index": true, "follow": true },
+    "robots": {
+      "index": true,
+      "follow": true
+    },
     "schema": "Service"
   }
 }

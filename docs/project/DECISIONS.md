@@ -17,6 +17,50 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-23 — Service pages: no text-only sections + hero form + shell width
+
+**WHAT:** Every service section must include a distinct visual (diagram, chart, graph, map, timeline, matrix, sparkline, or image). Hero must include the intake form. Sections share `ServicePageShell` gutters. Applied first to Full-Service (`fullServiceCommand`) and PPC (`ppcCockpit`); remaining 18 follow the same rules as each dedicated template ships.
+
+**WHY:** Text-only blocks read as template clones; mid-page-only forms hide conversion; inconsistent max-widths made sections jump.
+
+**CHOSEN:** Per-page visual vocabulary + shared shell + hero form. Pattern register forbids repeating primary devices across services.
+
+**IMPACT:** `ServicePageShell`; Full-Service and PPC dedicated templates; `SERVICES-PATTERN-REGISTER.md` global rules.
+
+---
+
+## 2026-10-23 — Services unique pages program
+
+**WHAT:** Redesign all 20 root service pages one at a time so each has a unique section composition. Start with Full-Service Account Management (`layout: fullServiceCommand` + dedicated template). Shared template variants alone are not enough.
+
+**WHY:** About and Contact proved each marketing page can own a standout look. Current service pages still read as one stack with light layout toggles. Visitor removing the H1 should not confuse one service page for another (or for About/Contact/Free Audit).
+
+**OPTIONS:** (A) Global shared template polish (B) Per-slug dedicated compositions with a pattern register
+
+**CHOSEN:** B
+
+**TRADEOFFS:** More components and longer calendar; slower than a single template pass.
+
+**IMPACT:** `service-page.schema.ts` layout enum; per-service templates under `src/components/services/`; JSON content blocks; SESSION-STATE pattern register; SITE-SEO-MAP status per page as completed.
+
+---
+
+## 2026-10-23 — Strip WordPress -2 suffixes (audit, privacy, terms)
+
+**WHAT:** Canonical URLs become `/free-audit/`, `/privacy-policy/`, and `/terms-conditions/`. Permanent redirects from live WordPress paths `/free-audit-2/`, `/privacy-policy-2/`, and `/terms-conditions-2/`.
+
+**WHY:** WordPress duplicate-slug suffixes are unprofessional and weaken brand URL quality. Stakeholder approved cleaning these three paths only (with 301s).
+
+**OPTIONS:** (A) Keep `-2` forever for exact path parity (B) Clean slugs + 301 from old paths
+
+**CHOSEN:** B
+
+**TRADEOFFS:** Brief SEO crawl lag until Google consolidates; old bookmarks still work via 301.
+
+**IMPACT:** `next.config.ts` redirects; route folders; all internal hrefs; sitemap; SITE-SEO-MAP; URL-INVENTORY; consent/footer links; Privacy + Terms pages implemented on clean paths.
+
+---
+
 ## 2026-10-23 — Global typography denser (AMZ Dudes-like)
 
 **WHAT:** Raise sitewide Satoshi scale and default body weight so copy no longer reads thin: body **18px / 500**, small **16px / 500**, headings larger with display/h1/stat at **900** (Fontshare-available weights only).

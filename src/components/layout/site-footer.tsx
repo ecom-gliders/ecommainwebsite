@@ -31,6 +31,9 @@ export async function SiteFooter() {
     slug === "services" ||
     slug === "about-us" ||
     slug === "contact" ||
+    slug === "free-audit" ||
+    slug === "privacy-policy" ||
+    slug === "terms-conditions" ||
     serviceSlugs.includes(slug);
 
   const recentBlogLinks = selectFooterRecentBlogLinks(

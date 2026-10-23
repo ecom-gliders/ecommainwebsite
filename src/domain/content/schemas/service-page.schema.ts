@@ -219,8 +219,84 @@ export const servicePageConfigSchema = z.object({
       "visual-ops",
       "video-ops",
       "tiktok-ops",
+      /** Full-service dedicated command-board composition */
+      "fullServiceCommand",
+      /** PPC dedicated ads-cockpit composition */
+      "ppcCockpit",
+      /** DSP dedicated reach-lattice / audience-orbit composition */
+      "dspReachLattice",
+      /** Reporting dedicated decision-ledger composition */
+      "reportingLedger",
+      /** Account operations dedicated shift-board / handoff-rail composition */
+      "accountOpsShift",
+      /** Listing optimization dedicated PDP field-stack composition */
+      "listingPdpStack",
+      /** Content writing dedicated copy-desk / manuscript composition */
+      "contentCopyDesk",
     ])
     .default("default"),
+  /**
+   * Full-service-only content blocks (command page).
+   * Other layouts ignore this object.
+   */
+  fullService: z
+    .object({
+      commandBoard: z.object({
+        eyebrow: z.string().optional(),
+        lanes: z
+          .array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+            }),
+          )
+          .min(4)
+          .max(5),
+      }),
+      manifesto: z.object({
+        heading: z.string(),
+        statements: z
+          .array(
+            z.object({
+              title: z.string(),
+              description: z.string(),
+            }),
+          )
+          .min(3)
+          .max(4),
+        metrics: z
+          .array(
+            z.object({
+              value: z.string(),
+              label: z.string(),
+            }),
+          )
+          .max(4)
+          .optional(),
+      }),
+      fitContinuum: z.object({
+        heading: z.string(),
+        fitHeading: z.string(),
+        fitBullets: z.array(z.string()).min(2).max(6),
+        notFitHeading: z.string(),
+        notFitBullets: z.array(z.string()).min(2).max(6),
+      }),
+      cadence: z.object({
+        heading: z.string(),
+        subheading: z.string().optional(),
+        phases: z
+          .array(
+            z.object({
+              marker: z.string(),
+              title: z.string(),
+              description: z.string(),
+            }),
+          )
+          .min(3)
+          .max(5),
+      }),
+    })
+    .optional(),
   hero: z.object({
     title: z.string(),
     subtitle: z.string(),

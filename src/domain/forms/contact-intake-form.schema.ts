@@ -13,19 +13,23 @@ export const contactIntakeFormSchema = z.object({
     .max(254, "Email must be 254 characters or fewer."),
   services: z
     .array(z.string().trim().min(1))
-    .min(1, "Select at least one service area.")
-    .max(10),
+    .min(1, "Select at least one service.")
+    .max(25),
   brandName: z
     .string()
     .trim()
     .min(2, "Enter your brand or company name.")
     .max(150, "Brand name must be 150 characters or fewer."),
-  storeOrAsin: z.string().trim().max(500).optional(),
-  marketplace: z
+  amazonStoreUrl: z
     .string()
     .trim()
-    .min(1, "Select a marketplace focus.")
-    .max(50),
+    .min(1, "Enter your Amazon storefront URL.")
+    .url("Enter a valid Amazon storefront URL.")
+    .max(500),
+  marketplaces: z
+    .array(z.string().trim().min(1))
+    .min(1, "Select at least one marketplace.")
+    .max(25),
   monthlyRevenue: z
     .string()
     .trim()

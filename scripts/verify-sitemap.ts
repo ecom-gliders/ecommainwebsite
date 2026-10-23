@@ -15,7 +15,9 @@ async function main() {
         "/",
         "/about-us/",
         "/contact/",
-        "/free-audit-2/",
+        "/free-audit/",
+        "/privacy-policy/",
+        "/terms-conditions/",
         "/case-studies/",
         "/amazon-ppc-management-agency/",
       ].includes(path)

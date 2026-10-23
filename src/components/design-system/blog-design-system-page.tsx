@@ -922,7 +922,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                 title="Free account audit"
                 description="Keep linking to the live audit flow until a consultation page ships."
                 label="Open free audit"
-                href="/free-audit-2/"
+                href="/free-audit/"
               />
               <p className="mt-3 text-small font-medium text-text-secondary">
                 Free consultation landing page: deferred. Use Contact / Free

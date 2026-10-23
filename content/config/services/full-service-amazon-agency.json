@@ -1,13 +1,96 @@
 {
   "slug": "full-service-amazon-agency",
   "breadcrumbLabel": "Account Management",
-  "layout": "account-ops",
+  "layout": "fullServiceCommand",
+  "fullService": {
+    "commandBoard": {
+      "eyebrow": "Account command board",
+      "lanes": [
+        {
+          "title": "Ads",
+          "description": "Sponsored structure, bids, and search-term hygiene tied to account goals."
+        },
+        {
+          "title": "Listings",
+          "description": "Conversion-ready titles, bullets, A+, and images on hero ASINs."
+        },
+        {
+          "title": "Catalog",
+          "description": "Variations, attributes, and suppressions cleared before spend scales."
+        },
+        {
+          "title": "Reporting",
+          "description": "One weekly pack: sales, efficiency, and open owners—not export dumps."
+        }
+      ]
+    },
+    "manifesto": {
+      "heading": "Why full-service ownership",
+      "statements": [
+        {
+          "title": "One accountable lead",
+          "description": "A named in-house owner coordinates specialists so ads, listings, and catalog share the same priority list."
+        },
+        {
+          "title": "Workstreams on one board",
+          "description": "PPC changes land with listing and catalog work in the same week—not as separate vendor tickets."
+        },
+        {
+          "title": "Proof before spend scales",
+          "description": "Buyability and conversion readiness are checked before media volume increases."
+        }
+      ],
+      "metrics": [
+        { "value": "$112M+", "label": "Revenue managed" },
+        { "value": "95%", "label": "Client retention" },
+        { "value": "20+", "label": "In-house specialists" },
+        { "value": "2018", "label": "Helping sellers since" }
+      ]
+    },
+    "fitContinuum": {
+      "heading": "Who this engagement fits",
+      "fitHeading": "Strong fit",
+      "fitBullets": [
+        "FBA brands ready to scale ads, listings, and catalog under one plan",
+        "Teams stuck with a PPC-only agency while conversion and catalog lag",
+        "Multi-marketplace sellers who need shared priorities across markets",
+        "Founders who want named in-house specialists, not a rotating freelance bench"
+      ],
+      "notFitHeading": "Not a fit right now",
+      "notFitBullets": [
+        "Brands that only need a one-off creative asset with no account ownership",
+        "Sellers unwilling to share Seller Central or Ads access for coordinated work",
+        "Accounts that want guaranteed ranking or ACoS outcomes in a fixed number of days"
+      ]
+    },
+    "cadence": {
+      "heading": "How the engagement runs",
+      "subheading": "Cadence is set in onboarding. Scope depends on catalog size and marketplace conditions.",
+      "phases": [
+        {
+          "marker": "Week 1",
+          "title": "Discovery and baseline",
+          "description": "Audit Seller Central health, advertising, listings, and catalog. Align goals and owners."
+        },
+        {
+          "marker": "Weekly",
+          "title": "Execution loop",
+          "description": "Specialists ship ads, listing, catalog, and ops work against one shared board."
+        },
+        {
+          "marker": "Monthly",
+          "title": "Strategy review",
+          "description": "Performance pack plus roadmap reset for launches, margin, and marketplace focus."
+        }
+      ]
+    }
+  },
   "hero": {
     "title": "Full-service Amazon account management",
     "subtitle": "PPC, listings, catalog health, and Seller Central operations under one accountable team—so media, conversion, and inventory stay aligned.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a full-account audit",
@@ -44,9 +127,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -407,7 +490,7 @@
         "imageAlt": "Kitchen brand products from the Amazon account management case study"
       },
       {
-        "metric": "76% → 37%",
+        "metric": "76% ? 37%",
         "brand": "VoltTech",
         "description": "ACoS cut while ad spend fell 32% across US and UK.",
         "href": "/case-study-3/",
@@ -493,7 +576,7 @@
     "subheading": "We review account health, advertising, and growth opportunities. No invented 90-day turnaround claims.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

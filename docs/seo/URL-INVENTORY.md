@@ -7,6 +7,18 @@ Critical for blog SEO preservation during migration.
 
 Blog posts scraped. Service pages inventoried 2026-10-04 for Services Pages Master Program.
 
+## Approved redirects (2026-10-23)
+
+WordPress `-2` suffix cleanup. New site serves clean paths; old live paths 301.
+
+| Old path | New path | Type |
+|----------|----------|------|
+| `/free-audit-2/` | `/free-audit/` | 301 |
+| `/privacy-policy-2/` | `/privacy-policy/` | 301 |
+| `/terms-conditions-2/` | `/terms-conditions/` | 301 |
+
+Implemented in `next.config.ts` `redirects()`.
+
 ## Template per URL
 
 ```

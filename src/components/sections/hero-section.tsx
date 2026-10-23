@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { submitAuditForm } from "@/app/(marketing)/free-audit-2/actions";
+import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { initialFormActionState } from "@/domain/forms/form-action-state";

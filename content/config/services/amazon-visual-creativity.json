@@ -7,7 +7,7 @@
     "subtitle": "Main images, secondary frames, lifestyle, and A+ design planned as a shopper path—not a random photo dump. Physical creative from our library; no invented order-increase percentages.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request visual creative support",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -429,7 +429,7 @@
     "subheading": "We review listing imagery and A+ opportunities. No invented order-increase percentages.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

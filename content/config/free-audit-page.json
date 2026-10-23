@@ -1,25 +1,118 @@
 {
   "hero": {
-    "title": "Get your free Amazon account audit",
-    "subtitle": "Turn product listings into sales with a structured review from experienced Amazon strategists. No obligation."
+    "title": "Free Amazon audit",
+    "subtitle": "We check ads, listings, and catalog health — then tell you what to fix first.",
+    "ctaLabel": "Start the audit",
+    "scorecardCaption": "Sample scores. Yours will look different."
   },
-  "benefits": {
-    "heading": "What you receive",
+  "scorecard": {
+    "title": "Sample scores",
+    "pillars": [
+      { "label": "Ads", "scoreLabel": "58", "scorePercent": 58 },
+      { "label": "Listings", "scoreLabel": "71", "scorePercent": 71 },
+      { "label": "Catalog", "scoreLabel": "64", "scorePercent": 64 },
+      { "label": "Creative", "scoreLabel": "49", "scorePercent": 49 }
+    ]
+  },
+  "scope": {
+    "heading": "What we open",
+    "subheading": "Four areas. Clear notes. No filler deck.",
+    "pillars": [
+      {
+        "id": "ppc",
+        "label": "Ads",
+        "summary": "Where spend is wasted and what to cut or scale.",
+        "checks": [
+          "Search terms that burn budget",
+          "Bids and match types by ASIN",
+          "Budget vs what actually converts",
+          "Placements worth a test"
+        ]
+      },
+      {
+        "id": "listings",
+        "label": "Listings",
+        "summary": "Titles, bullets, and A+ vs what shoppers actually click.",
+        "checks": [
+          "Keywords competitors already own",
+          "Bullet order and clarity",
+          "Image stack conversion risks",
+          "A+ modules that help or hurt"
+        ]
+      },
+      {
+        "id": "catalog",
+        "label": "Catalog",
+        "summary": "Variations and suppressions that hide good ASINs.",
+        "checks": [
+          "Variation theme consistency",
+          "Suppressed or stranded stock",
+          "Duplicate ASIN issues",
+          "Buy Box pressure notes"
+        ]
+      },
+      {
+        "id": "creative",
+        "label": "Creative",
+        "summary": "Images and video measured on conversion, not looks.",
+        "checks": [
+          "Main image in the SERP",
+          "Lifestyle and infographic order",
+          "Video presence",
+          "Store and A+ cohesion"
+        ]
+      }
+    ]
+  },
+  "findings": {
+    "heading": "What a finding looks like",
+    "subheading": "Sample rows so you know the format. Yours will be about your account.",
     "items": [
-      "Free personalized Amazon account audit with every qualified submission",
-      "Direct access to experienced strategists, not automated sales sequences",
-      "Tailored growth plan based on your brand goals and competitive landscape",
-      "PPC performance review with wasted spend and scaling opportunities identified",
-      "Listing optimization recommendations you can action immediately",
-      "100% confidentiality for your catalog and account data"
+      {
+        "severity": "high",
+        "title": "Broad match eating mid-tier ASINs",
+        "impact": "Roughly one-fifth of ad spend with no sales in the last 30 days."
+      },
+      {
+        "severity": "medium",
+        "title": "Title thinner than category leaders",
+        "impact": "Two high-intent modifiers missing vs top organic competitors."
+      },
+      {
+        "severity": "medium",
+        "title": "Size pack variation attributes incomplete",
+        "impact": "Child ASINs missing size data — browse clarity suffers."
+      },
+      {
+        "severity": "low",
+        "title": "Main image blends into the SERP",
+        "impact": "Compliant white crop, low separation vs peers."
+      }
+    ]
+  },
+  "turnaround": {
+    "heading": "How it runs",
+    "steps": [
+      {
+        "title": "You send the store",
+        "description": "Name, email, phone, optional URL. About two minutes."
+      },
+      {
+        "title": "We dig in",
+        "description": "Initial review in two to three business days."
+      },
+      {
+        "title": "We walk you through it",
+        "description": "Priorities and next steps. No obligation after that."
+      }
     ]
   },
   "form": {
-    "heading": "Request your free audit",
+    "heading": "Send the account",
     "submitLabel": "Request free audit",
-    "successMessage": "Your audit request was received. A strategist will contact you within one business day.",
-    "errorMessage": "We could not submit the form. Review the fields below and try again.",
-    "consentLabel": "I agree to the privacy policy and consent to being contacted about my audit request.",
+    "successMessage": "Got it. Someone from the team will reply within one business day.",
+    "errorMessage": "We could not submit the form. Check the fields and try again.",
+    "consentLabel": "I agree to the privacy policy and being contacted about this audit.",
     "fields": [
       {
         "name": "name",
@@ -37,23 +130,23 @@
       },
       {
         "name": "phone",
-        "label": "Phone number",
+        "label": "Phone",
         "type": "tel",
         "required": true,
         "placeholder": "+1 (555) 000-0000"
       },
       {
         "name": "brandName",
-        "label": "Brand name",
+        "label": "Brand",
         "type": "text",
         "required": false,
-        "placeholder": "Your Amazon brand"
+        "placeholder": "Brand on Amazon"
       },
       {
         "name": "amazonStoreUrl",
-        "label": "Amazon store URL",
+        "label": "Amazon storefront URL",
         "type": "url",
-        "required": false,
+        "required": true,
         "placeholder": "https://www.amazon.com/stores/..."
       },
       {
@@ -62,8 +155,8 @@
         "type": "select",
         "required": false,
         "options": [
-          { "value": "", "label": "Please select" },
-          { "value": "new", "label": "New on Amazon, no sales yet" },
+          { "value": "", "label": "Select a range" },
+          { "value": "new", "label": "New — no sales yet" },
           { "value": "under-10k", "label": "$1 to $10,000" },
           { "value": "10k-25k", "label": "$10,000 to $25,000" },
           { "value": "25k-50k", "label": "$25,000 to $50,000" },
@@ -73,58 +166,114 @@
       },
       {
         "name": "message",
-        "label": "Additional details",
+        "label": "Anything else",
         "type": "textarea",
         "required": false,
-        "placeholder": "Share your primary goals, challenges, or ASIN count (optional)."
+        "placeholder": "Goals, headaches, ASIN count — optional."
       }
     ]
   },
-  "trustSignals": {
-    "heading": "Why sellers choose eCom Gliders",
-    "stats": [
-      { "value": "$112M+", "label": "Revenue managed" },
-      { "value": "95%", "label": "Client retention" },
-      { "value": "20+", "label": "In-house specialists" },
-      { "value": "2018", "label": "Managing Amazon accounts since" }
+  "funnel": {
+    "services": [
+      { "value": "full-account-management", "label": "Full Amazon Account Management" },
+      { "value": "ppc", "label": "Amazon PPC Management" },
+      { "value": "dsp", "label": "Amazon DSP" },
+      { "value": "reporting-analytics", "label": "Reporting and Analytics" },
+      { "value": "account-operations", "label": "Account Operations" },
+      { "value": "listing-optimization", "label": "Listing Optimization and SEO" },
+      { "value": "content-writing", "label": "Content Writing" },
+      { "value": "visual-creativity", "label": "Visual Creativity" },
+      { "value": "video-creative", "label": "Video Creative" },
+      { "value": "catalog-management", "label": "Catalog Management" },
+      { "value": "product-launch", "label": "Product Launch Services" },
+      { "value": "inventory-management", "label": "Inventory Management" },
+      { "value": "seller-central", "label": "Seller Central Services" },
+      { "value": "account-health", "label": "Account Health" },
+      { "value": "product-sourcing", "label": "Product Sourcing" },
+      { "value": "trademark-brand-registry", "label": "Trademark and Brand Registry" },
+      { "value": "company-registration", "label": "Company Registration" },
+      { "value": "shopify-website", "label": "Shopify and Website Development" },
+      { "value": "tiktok-shop-ads", "label": "TikTok Shop Ads" },
+      { "value": "email-retention", "label": "Email and Retention Marketing" },
+      { "value": "not-sure", "label": "Not sure yet" }
     ],
-    "testimonial": {
-      "quote": "eCom Gliders delivered a clear audit and actionable PPC plan within days. Our ACOS dropped while sales scaled.",
-      "author": "Ecommerce Lead",
-      "role": "Consumer brand, US marketplace"
-    }
+    "marketplaces": [
+      { "value": "us", "label": "United States" },
+      { "value": "ca", "label": "Canada" },
+      { "value": "mx", "label": "Mexico" },
+      { "value": "br", "label": "Brazil" },
+      { "value": "uk", "label": "United Kingdom" },
+      { "value": "de", "label": "Germany" },
+      { "value": "fr", "label": "France" },
+      { "value": "it", "label": "Italy" },
+      { "value": "es", "label": "Spain" },
+      { "value": "nl", "label": "Netherlands" },
+      { "value": "be", "label": "Belgium" },
+      { "value": "ie", "label": "Ireland" },
+      { "value": "se", "label": "Sweden" },
+      { "value": "pl", "label": "Poland" },
+      { "value": "tr", "label": "Turkey" },
+      { "value": "ae", "label": "United Arab Emirates" },
+      { "value": "sa", "label": "Saudi Arabia" },
+      { "value": "eg", "label": "Egypt" },
+      { "value": "za", "label": "South Africa" },
+      { "value": "in", "label": "India" },
+      { "value": "jp", "label": "Japan" },
+      { "value": "au", "label": "Australia" },
+      { "value": "sg", "label": "Singapore" }
+    ]
+  },
+  "trustSignals": {
+    "heading": "Since 2018",
+    "stats": [
+      { "value": "$112M+", "label": "revenue managed" },
+      { "value": "95%", "label": "retention" },
+      { "value": "20+", "label": "in-house" }
+    ]
+  },
+  "caseProof": {
+    "metric": "310%",
+    "metricLabel": "sales lift — GoSports",
+    "summary": "Listings, ads, and positioning over 90 days.",
+    "href": "/case-study-9/",
+    "label": "See the case"
   },
   "fallbackContact": {
-    "heading": "Prefer to talk now?",
+    "heading": "Rather call?",
     "phoneLabel": "Phone",
-    "emailLabel": "Email"
+    "emailLabel": "Email",
+    "contactCtaLabel": "Contact page",
+    "contactCtaHref": "/contact/"
   },
-  "faq": [
-    {
-      "question": "What is included in the free Amazon account audit?",
-      "answer": "We review account health, PPC structure, listing quality, and competitive positioning. You receive prioritized recommendations, not generic templates."
-    },
-    {
-      "question": "How long does the audit take?",
-      "answer": "Initial review typically completes within two to three business days after we receive your submission and account access details if required."
-    },
-    {
-      "question": "Is there any obligation after the audit?",
-      "answer": "No. The audit is provided to demonstrate our approach. You decide whether to proceed with ongoing management."
-    },
-    {
-      "question": "What account access do you need?",
-      "answer": "For a full audit we request read-only Seller Central and Amazon Ads access. We can start with a lighter review if you prefer to share details manually first."
-    },
-    {
-      "question": "Who will I speak with?",
-      "answer": "A senior Amazon strategist from our in-house team. We do not route audit requests through outsourced call centers."
-    }
-  ],
+  "faq": {
+    "heading": "Quick answers",
+    "items": [
+      {
+        "question": "What do I get?",
+        "answer": "Notes on ads, listings, catalog, and competition — ranked by what to fix first."
+      },
+      {
+        "question": "How long?",
+        "answer": "Usually two to three business days after we have what we need."
+      },
+      {
+        "question": "Do I have to hire you after?",
+        "answer": "No. The audit stands on its own."
+      },
+      {
+        "question": "Do you need Seller Central access?",
+        "answer": "Read-only Ads and Seller Central helps. We can start lighter if you only share a store URL and notes."
+      },
+      {
+        "question": "Who replies?",
+        "answer": "Someone on our in-house Amazon team — not an outsourced call center."
+      }
+    ]
+  },
   "seo": {
     "metaTitle": "Free Amazon Account Audit | eCom Gliders",
-    "metaDescription": "Get a free audit of your Amazon account. PPC performance review, listing optimization opportunities, and actionable recommendations. No obligation.",
-    "canonical": "/free-audit-2/",
+    "metaDescription": "Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. No obligation.",
+    "canonical": "/free-audit/",
     "schema": "FAQPage"
   }
 }

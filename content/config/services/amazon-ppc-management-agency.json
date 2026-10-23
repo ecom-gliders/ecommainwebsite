@@ -1,13 +1,13 @@
 {
   "slug": "amazon-ppc-management-agency",
   "breadcrumbLabel": "PPC Management",
-  "layout": "ppc-ops",
+  "layout": "ppcCockpit",
   "hero": {
     "title": "Amazon PPC management for profitable growth",
-    "subtitle": "Sponsored Products, Brands, and Display with search-term discipline and listing alignment—led by an Amazon Ads Verified Partner. Case metrics only; no invented average ACoS cuts.",
+    "subtitle": "Sponsored Products, Brands, and Display—structured by an Amazon Ads Verified Partner.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Get a free PPC audit",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -371,7 +371,7 @@
         "href": "/case-study-9/"
       },
       {
-        "metric": "ACOS 76% to 37%; spend −32%",
+        "metric": "ACOS 76% to 37%; spend -32%",
         "brand": "VoltTech Accessories (Electronics)",
         "description": "60-day PPC rehab cut monthly ad spend from $4,950 to $3,370 while ACOS fell from 76% to 37% across US and UK.",
         "href": "/case-study-3/"
@@ -437,7 +437,7 @@
     "subheading": "Share spend and ACoS context. We review structure and listing readiness—no invented average efficiency claims.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

@@ -210,7 +210,7 @@ export function ConfigurableForm({
           >
             {consentLabel}{" "}
             <Link
-              href="/privacy-policy-2/"
+              href="/privacy-policy/"
               className="text-primary underline underline-offset-2 hover:text-accent"
             >
               Privacy policy

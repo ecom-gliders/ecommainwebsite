@@ -13,12 +13,14 @@ interface StaticRouteConfig {
 
 const STATIC_ROUTES: StaticRouteConfig[] = [
   { path: "/", changeFrequency: "weekly", priority: 1 },
-  { path: "/free-audit-2/", changeFrequency: "monthly", priority: 0.9 },
+  { path: "/free-audit/", changeFrequency: "monthly", priority: 0.9 },
   { path: "/services/", changeFrequency: "weekly", priority: 0.9 },
   { path: "/about-us/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/contact/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/case-studies/", changeFrequency: "weekly", priority: 0.8 },
   { path: "/blog/", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/privacy-policy/", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/terms-conditions/", changeFrequency: "yearly", priority: 0.3 },
 ];
 
 function normalizePath(path: string): string {

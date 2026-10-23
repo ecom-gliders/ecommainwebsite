@@ -1,0 +1,104 @@
+{
+  "seo": {
+    "metaTitle": "Privacy Policy | eCom Gliders",
+    "metaDescription": "How eCom Gliders collects, uses, and protects personal and business information when you visit our website or use our Amazon agency services.",
+    "canonical": "/privacy-policy/",
+    "robots": { "index": true, "follow": true }
+  },
+  "eyebrow": "Legal",
+  "h1": "Privacy Policy",
+  "dateLabel": "Effective date",
+  "dateValue": "01 January 2025",
+  "intro": "At eCom Gliders, your privacy matters. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, use our services, or interact with our team.",
+  "sections": [
+    {
+      "heading": "1. Information we collect",
+      "paragraphs": [
+        "We may collect the following types of information:"
+      ],
+      "bullets": [
+        "Personal information: name, email address, phone number, billing address, and other details you voluntarily provide when contacting us or signing up for services.",
+        "Business information: Amazon seller account details, store name, ASINs, advertising data, product listings, and performance metrics you share with us.",
+        "Technical information: IP address, browser type, device details, referral sources, and browsing behavior on our website.",
+        "Payment information: for invoicing and processing payments, we may collect billing details. We do not store credit card numbers; payments are handled through secure third-party processors (Stripe)."
+      ]
+    },
+    {
+      "heading": "2. How we use your information",
+      "paragraphs": [
+        "We use your information to:"
+      ],
+      "bullets": [
+        "Provide and manage our Amazon agency services",
+        "Communicate with you about your account or inquiries",
+        "Improve our website, services, and client experience",
+        "Analyze data to optimize your Amazon performance",
+        "Send important updates, newsletters, or marketing (you can opt out at any time)",
+        "Comply with legal obligations"
+      ]
+    },
+    {
+      "heading": "3. Information sharing",
+      "paragraphs": [
+        "We do not sell, rent, or trade your personal or business data. We only share your information in the following cases:"
+      ],
+      "bullets": [
+        "With trusted third-party tools and partners who help us provide our services (for example analytics platforms, advertising tools, and invoicing software)",
+        "When required by law, court order, or to protect our legal rights",
+        "With your explicit permission"
+      ]
+    },
+    {
+      "heading": "4. Data security",
+      "paragraphs": [
+        "We take data protection seriously. Your information is stored securely and protected using industry-standard security measures. While no online system is fully secure, we work to safeguard your data against unauthorized access, misuse, or loss."
+      ]
+    },
+    {
+      "heading": "5. Your rights",
+      "paragraphs": [
+        "You have the right to:"
+      ],
+      "bullets": [
+        "Access the personal data we hold about you",
+        "Request correction or deletion of your data",
+        "Withdraw consent for marketing communications at any time",
+        "Ask us to stop processing your data (subject to legal or contractual obligations)"
+      ]
+    },
+    {
+      "heading": "6. Cookies and tracking",
+      "paragraphs": [
+        "Our website may use cookies and similar tracking technologies to enhance user experience and analyze website traffic. You can adjust your browser settings to refuse cookies, but this may affect site functionality."
+      ]
+    },
+    {
+      "heading": "7. Third-party links",
+      "paragraphs": [
+        "Our site may contain links to external websites. We are not responsible for the privacy practices or content of those sites. Please review their privacy policies before submitting any data."
+      ]
+    },
+    {
+      "heading": "8. Updates to this policy",
+      "paragraphs": [
+        "We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised effective date."
+      ]
+    },
+    {
+      "heading": "9. Contact us",
+      "paragraphs": [
+        "If you have questions or concerns about this Privacy Policy or how your data is handled, contact us using the details below."
+      ]
+    }
+  ],
+  "contact": {
+    "heading": "Contact",
+    "email": "info@ecomgliders.com",
+    "phone": "+1 (360) 660-1210",
+    "address": "1209 Mountain Road Pl NE 5913, Albuquerque, NM 87110"
+  },
+  "relatedLink": {
+    "label": "Terms and Conditions",
+    "href": "/terms-conditions/"
+  }
+}

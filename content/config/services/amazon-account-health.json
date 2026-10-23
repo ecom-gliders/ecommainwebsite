@@ -7,7 +7,7 @@
     "subtitle": "Monitoring for policy notices, performance issues, and cases that need prompt, documented response—so account health does not become a surprise suspension risk.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request an account health review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -55,12 +55,30 @@
           "type": "select",
           "required": false,
           "options": [
-            { "value": "", "label": "Please select" },
-            { "value": "policy-notice", "label": "Policy or IP notice" },
-            { "value": "odr", "label": "Order defect / performance metrics" },
-            { "value": "listing-suppression", "label": "Listing suppressions" },
-            { "value": "monitoring", "label": "Ongoing monitoring only" },
-            { "value": "other", "label": "Other / not sure" }
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "policy-notice",
+              "label": "Policy or IP notice"
+            },
+            {
+              "value": "odr",
+              "label": "Order defect / performance metrics"
+            },
+            {
+              "value": "listing-suppression",
+              "label": "Listing suppressions"
+            },
+            {
+              "value": "monitoring",
+              "label": "Ongoing monitoring only"
+            },
+            {
+              "value": "other",
+              "label": "Other / not sure"
+            }
           ]
         }
       ]
@@ -375,14 +393,17 @@
     "subheading": "Share open notices or metric concerns. We outline monitoring cadence and response priorities.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {
     "metaTitle": "Amazon Account Health Management | eCom Gliders",
     "metaDescription": "Amazon account health monitoring for policy notices, performance metrics, and documented case response. No false reinstatement guarantees. Free audit.",
     "canonical": "https://ecomgliders.com/amazon-account-health/",
-    "robots": { "index": true, "follow": true },
+    "robots": {
+      "index": true,
+      "follow": true
+    },
     "schema": "Service"
   }
 }

@@ -7,7 +7,7 @@
     "subtitle": "FBA stock signals, restock follow-through, and launch timing so top SKUs stay available while advertising demand rises.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request an inventory operations review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -55,12 +55,30 @@
           "type": "select",
           "required": false,
           "options": [
-            { "value": "", "label": "Please select" },
-            { "value": "stockouts", "label": "Stockouts on hero SKUs" },
-            { "value": "overstock", "label": "Overstock / aged inventory" },
-            { "value": "inbound-delays", "label": "Inbound and restock delays" },
-            { "value": "launch-timing", "label": "Launch timing vs stock" },
-            { "value": "multi-market", "label": "Multi-marketplace balance" }
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "stockouts",
+              "label": "Stockouts on hero SKUs"
+            },
+            {
+              "value": "overstock",
+              "label": "Overstock / aged inventory"
+            },
+            {
+              "value": "inbound-delays",
+              "label": "Inbound and restock delays"
+            },
+            {
+              "value": "launch-timing",
+              "label": "Launch timing vs stock"
+            },
+            {
+              "value": "multi-market",
+              "label": "Multi-marketplace balance"
+            }
           ]
         }
       ]
@@ -313,7 +331,7 @@
         "imageAlt": "Kitchen brand products from the Amazon account case study"
       },
       {
-        "metric": "76% → 37%",
+        "metric": "76% ? 37%",
         "brand": "VoltTech",
         "description": "ACoS cut while ad spend fell 32% across US and UK—efficiency work that depends on buyable inventory.",
         "href": "/case-study-3/",
@@ -377,14 +395,17 @@
     "subheading": "Share stockout or overstock context. We outline coverage priorities and ad sync points.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {
     "metaTitle": "Amazon Inventory Management Services | eCom Gliders",
     "metaDescription": "Amazon inventory management for FBA stock signals, restock follow-through, and launch timing tied to advertising demand. Free audit.",
     "canonical": "https://ecomgliders.com/amazon-inventory-management/",
-    "robots": { "index": true, "follow": true },
+    "robots": {
+      "index": true,
+      "follow": true
+    },
     "schema": "Service"
   }
 }

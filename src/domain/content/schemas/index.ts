@@ -89,3 +89,8 @@ export {
   type ContactPageConfig,
   type FreeAuditPageConfig,
 } from "./form-page.schema";
+
+export {
+  legalPageConfigSchema,
+  type LegalPageConfig,
+} from "./legal-page.schema";

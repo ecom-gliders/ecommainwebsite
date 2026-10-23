@@ -1,4 +1,4 @@
-import { submitAuditForm } from "@/app/(marketing)/free-audit-2/actions";
+import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { SectionShell } from "@/components/sections/section-shell";
 import type { ServicePageConfig } from "@/domain/content/schemas";

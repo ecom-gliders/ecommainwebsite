@@ -13,7 +13,7 @@ interface BlogTocRailCtaProps {
  * EG theming: accent panel, ink border, offset shadow.
  */
 export function BlogTocRailCta({
-  href = "/free-audit-2/",
+  href = "/free-audit/",
   headline = "See what your campaigns are missing",
   body = "Get a free audit of your account — wasted spend, missed keywords, and what to fix first.",
   label = "Get my free audit",

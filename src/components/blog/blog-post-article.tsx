@@ -144,7 +144,7 @@ export function BlogPostArticle({
               <BlogTableOfContents
                 items={tocItems}
                 showRailCta
-                ctaHref={site.preFooter?.cta?.href ?? "/free-audit-2/"}
+                ctaHref={site.preFooter?.cta?.href ?? "/free-audit/"}
               />
 
               <div className="min-w-0 xl:max-w-[46rem]">

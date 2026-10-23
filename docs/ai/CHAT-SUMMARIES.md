@@ -15,6 +15,20 @@ Next action:
 
 ---
 
+## 2026-10-23 — Service pages visuals + Full-Service/PPC ship
+
+Session topic: Never text-only service sections; hero form + shared shell; ship Full-Service and PPC.
+
+Key decisions: Every section needs a distinct visual; vary types across pages; hero form required; `ServicePageShell` for width; PPC uses ads-cockpit metaphor (`ppcCockpit`), not command board.
+
+Key discoveries: Full-Service JSON uses `solution`/`deliverables`/`results`/`faq[]` plus `fullService` blocks — no separate coverageMap/proof objects.
+
+Files updated: `src/components/services/full-service/*`, `src/components/services/ppc/*`, `service-page-shell.tsx`, schema layout, PPC JSON layout, pattern register, DECISIONS, SESSION-STATE, VERIFICATION-LOG.
+
+Next action: Listing optimization unique template with new visual vocabulary.
+
+---
+
 ## 2026-10-22 — Blog convert-all + editorial shell
 
 Session topic: Convert WP visual classes across 328 posts into configurable blocks; Forbes-like detail chrome.

@@ -29,7 +29,7 @@ Per-page SEO records for all indexable pages.
 | Amazon catalog management services | Commercial | Dedicated service page |
 | Amazon content writing services | Commercial | Dedicated service page |
 | Amazon A+ content design | Commercial | Visual Creativity service page |
-| Free Amazon account audit | Transactional | /free-audit-2/ |
+| Free Amazon account audit | Transactional | /free-audit/ |
 
 ### 2026 emerging terms
 
@@ -63,7 +63,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Indexability | Index |
 | Schema | Organization, WebSite, FAQPage |
 | Internal links | Services, case studies, blog, free audit |
-| Audit status | Implemented (P2-05) — `generateMetadata` + JSON-LD `@graph` |
+| Audit status | Implemented (P2-05) � `generateMetadata` + JSON-LD `@graph` |
 | Verification | Playwright 2026-09-02: title, meta, canonical, 10 FAQ entities in FAQPage schema |
 
 ---
@@ -85,10 +85,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/services/ |
 | Indexability | Index |
 | Schema | CollectionPage + ItemList + FAQPage |
-| Internal links | All 15 root service pages, /free-audit-2/, /case-studies/, /case-study-9/, /case-study-1/ |
+| Internal links | All 15 root service pages, /free-audit/, /case-studies/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers only-PPC, one vs full management, complementary channels, marketplaces, free audit |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | Verified site stats + existing case studies only — no invented hub ROI |
+| Claims source | Verified site stats + existing case studies only � no invented hub ROI |
 | Competitors reviewed | Seller Sage /services/ (Observed); Desverto / AMZcentric stack framing (Observed); live WP /services/ (Verified Playwright 2026-10-05) |
 | Config | `content/config/services-index.json` |
 | Audit status | Implemented (2026-10-05) |
@@ -113,10 +113,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-ppc-management-agency/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /full-service-amazon-agency/, /amazon-listing-optimization/, /amazon-dsp-management/, /case-study-9/, /case-study-3/ |
+| Internal links | /free-audit/, /full-service-amazon-agency/, /amazon-listing-optimization/, /amazon-dsp-management/, /case-study-9/, /case-study-3/ |
 | AEO | FAQ covers ad types, timeline, spend, ownership, metrics, marketplaces, collaboration, getting started |
 | GEO | Verified partner + since 2018 + 20+ in-house + 95% retention + $112M+ |
-| Claims source | case-study-9 ACOS 52%→26.5% and +310% revenue; case-study-3 profitable PPC recovery — Verified in case-studies.json |
+| Claims source | case-study-9 ACOS 52%?26.5% and +310% revenue; case-study-3 profitable PPC recovery � Verified in case-studies.json |
 | Competitors reviewed | Incrementum Amazon Advertising (2026-10-04); AMZ Dudes PPC guide (2026-10-04); backup WP page |
 | Config | `content/config/services/amazon-ppc-management-agency.json` |
 | Audit status | Implemented + Verified (A2, 2026-10-04) |
@@ -129,7 +129,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 |-------|-------|
 | URL | https://ecomgliders.com/email-retention-marketing/ |
 | Purpose | Convert commercial email / lifecycle retention intent from Amazon brands into free-audit leads |
-| Audience | Amazon brands building owned audiences; weak-flow Shopify operators; ASIN launch warm lists; Amazon–retention aligners |
+| Audience | Amazon brands building owned audiences; weak-flow Shopify operators; ASIN launch warm lists; Amazon�retention aligners |
 | Search intent | Commercial |
 | Primary keyword | email retention marketing |
 | Secondary keywords | email marketing for Amazon brands, lifecycle email ecommerce, retention email Amazon sellers, post-purchase email flows |
@@ -140,14 +140,14 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/email-retention-marketing/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; email compliance varies) |
-| Internal links | /free-audit-2/, /shopify-website-development/, /full-service-amazon-agency/, /amazon-content-writing/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /shopify-website-development/, /full-service-amazon-agency/, /amazon-content-writing/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers not replacing Amazon ads, Shopify need, platforms, first flows, measurement, Amazon bestsellers, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No email ROI invent ($30–$50/$1, 30–50% revenue). Results use brand-retention growth cases (case-study-9 310%; case-study-1 73%) — Verified |
+| Claims source | No email ROI invent ($30�$50/$1, 30�50% revenue). Results use brand-retention growth cases (case-study-9 310%; case-study-1 73%) � Verified |
 | Competitors reviewed | Chronos retention agency (2026-10-04 Verified); EvolveAMZ Klaviyo for Amazon sellers playbook (2026-10-04 Observed); EG Shopify plugins / algorithm blogs mentioning email (Observed) |
 | Config | `content/config/services/email-retention-marketing.json` |
 | Audit status | Implemented + Verified (D3, 2026-10-04) |
-| Notes | Dedicated WP service HTML not found. No Chronos $400M / 500 brands or EvolveAMZ $30–$50 email ROI claims copied. |
+| Notes | Dedicated WP service HTML not found. No Chronos $400M / 500 brands or EvolveAMZ $30�$50 email ROI claims copied. |
 
 ---
 
@@ -168,11 +168,11 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/tiktok-shop-ads/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; TikTok Shop eligibility varies) |
-| Internal links | /free-audit-2/, /amazon-ppc-management-agency/, /amazon-video-creative/, /shopify-website-development/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-video-creative/, /shopify-website-development/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers not replacing Amazon, SKU fit, creative, timing, measurement, Amazon insight handoff, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No TikTok ROAS/GMV invent. Results use advertising-led Amazon cases (case-study-9 ACOS 52% to 26.5%; case-study-1 73%) with complementary framing — Verified |
-| Competitors reviewed | Viral Brand Works Amazon-to-TikTok Shop agency (2026-10-04 Verified); Sequence Amazon×TikTok program (2026-10-04 Observed); Desverto TikTok Shop for Amazon sellers (Observed search; Cloudflare blocked Playwright); EG blogs on TikTok external traffic (Observed) |
+| Claims source | No TikTok ROAS/GMV invent. Results use advertising-led Amazon cases (case-study-9 ACOS 52% to 26.5%; case-study-1 73%) with complementary framing � Verified |
+| Competitors reviewed | Viral Brand Works Amazon-to-TikTok Shop agency (2026-10-04 Verified); Sequence Amazon�TikTok program (2026-10-04 Observed); Desverto TikTok Shop for Amazon sellers (Observed search; Cloudflare blocked Playwright); EG blogs on TikTok external traffic (Observed) |
 | Config | `content/config/services/tiktok-shop-ads.json` |
 | Audit status | Implemented + Verified (D2, 2026-10-04) |
 | Notes | Dedicated WP service HTML not found. No competitor $50k+/mo, 500+ creators, $500M, or 285% claims copied. |
@@ -185,7 +185,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 |-------|-------|
 | URL | https://ecomgliders.com/shopify-website-development/ |
 | Purpose | Convert commercial Shopify / DTC storefront intent from Amazon brands into free-audit leads |
-| Audience | Amazon brands launching DTC; conversion rebuilds; Amazon–DTC messaging aligners; retention-ready operators |
+| Audience | Amazon brands launching DTC; conversion rebuilds; Amazon�DTC messaging aligners; retention-ready operators |
 | Search intent | Commercial |
 | Primary keyword | Shopify website development |
 | Secondary keywords | Shopify for Amazon brands, Shopify DTC storefront, Shopify store development, Amazon to Shopify |
@@ -196,10 +196,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/shopify-website-development/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; Shopify scope separate) |
-| Internal links | /free-audit-2/, /email-retention-marketing/, /full-service-amazon-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /email-retention-marketing/, /full-service-amazon-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers not replacing Amazon, rebuilds, content alignment, plans, ongoing updates, email, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No Shopify CVR invent. Results use brand-channel growth cases (case-study-9 310%; case-study-1 73%) with complementary framing — Verified |
+| Claims source | No Shopify CVR invent. Results use brand-channel growth cases (case-study-9 310%; case-study-1 73%) with complementary framing � Verified |
 | Competitors reviewed | Velocity Sellers Shopify DTC (2026-10-04); Krolog Grow on Shopify (2026-10-04 Observed); EG services-2 Website Development + WooCommerce vs Shopify blog (Verified backup) |
 | Config | `content/config/services/shopify-website-development.json` |
 | Audit status | Implemented + Verified (D1, 2026-10-04) |
@@ -224,10 +224,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-product-sourcing/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-catalog-management/, /amazon-listing-optimization/, /full-service-amazon-agency/, /case-study-8/, /case-study-9/ |
+| Internal links | /free-audit/, /amazon-catalog-management/, /amazon-listing-optimization/, /full-service-amazon-agency/, /case-study-8/, /case-study-9/ |
 | AEO | FAQ covers manufacturing boundary, categories, supplier evaluation, compliance, launch handoff, first-timers, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No sourcing cost-cut invent. Results use catalog-expansion cases (case-study-8 7-figure; case-study-9 310%) with launch-support framing — Verified |
+| Claims source | No sourcing cost-cut invent. Results use catalog-expansion cases (case-study-8 7-figure; case-study-9 310%) with launch-support framing � Verified |
 | Competitors reviewed | AMZ Verse manufacturing/sourcing (2026-10-04); NexoFetch Amazon FBA sourcing agent (2026-10-04); EG services #service_7 Product Sourcing & Shipping (Verified backup) |
 | Config | `content/config/services/amazon-product-sourcing.json` |
 | Audit status | Implemented + Verified (C4, 2026-10-04) |
@@ -252,10 +252,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-company-registration/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-trademark-brand-registry/, /full-service-amazon-agency/, /amazon-product-sourcing/, /case-study-1/, /case-study-9/ |
+| Internal links | /free-audit/, /amazon-trademark-brand-registry/, /full-service-amazon-agency/, /amazon-product-sourcing/, /case-study-1/, /case-study-9/ |
 | AEO | FAQ covers audience, not legal/tax advice, Amazon relation, post-formation help, timelines, necessity, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No formation-approval invent. Results use foundation-ready growth cases (case-study-1 73%; case-study-9 310%) — Verified. Backup India PAN/TAN/100% compliant copy replaced — Verified |
+| Claims source | No formation-approval invent. Results use foundation-ready growth cases (case-study-1 73%; case-study-9 310%) � Verified. Backup India PAN/TAN/100% compliant copy replaced � Verified |
 | Competitors reviewed | StarterX Amazon LLC formation (2026-10-04); StartGlobal Amazon FBA LLC (2026-10-04); EG services-2 Company Registration (Verified backup) |
 | Config | `content/config/services/amazon-company-registration.json` |
 | Audit status | Implemented + Verified (C3, 2026-10-04) |
@@ -280,10 +280,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-trademark-brand-registry/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-company-registration/, /amazon-content-writing/, /amazon-catalog-management/, /case-study-8/, /case-study-1/ |
+| Internal links | /free-audit/, /amazon-company-registration/, /amazon-content-writing/, /amazon-catalog-management/, /case-study-8/, /case-study-1/ |
 | AEO | FAQ covers trademark requirement, not-a-law-firm boundary, timelines, unlocks, rejections, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No trademark-approval-rate invent. Results use brand-ready growth cases (case-study-8 7-figure + brand defense; case-study-1 73%) with foundation framing — Verified |
+| Claims source | No trademark-approval-rate invent. Results use brand-ready growth cases (case-study-8 7-figure + brand defense; case-study-1 73%) with foundation framing � Verified |
 | Competitors reviewed | Seller Interactive brand protection (2026-10-04); Global Trademark Company Brand Registry filing (2026-10-04); Amazon Brand Registry eligibility (Observed); EG services-2 USPTO + Brand Registry sections (Verified backup) |
 | Config | `content/config/services/amazon-trademark-brand-registry.json` |
 | Audit status | Implemented + Verified (C2, 2026-10-04) |
@@ -308,10 +308,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-video-creative/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-visual-creativity/, /tiktok-shop-ads/, /amazon-ppc-management-agency/, /case-study-4/, /case-study-9/ |
+| Internal links | /free-audit/, /amazon-visual-creativity/, /tiktok-shop-ads/, /amazon-ppc-management-agency/, /case-study-4/, /case-study-9/ |
 | AEO | FAQ covers placements, scripting, footage reuse, length, copy alignment, DSP, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No video-attributed case metrics in config. Results use creative conversion cases (case-study-4 2X; case-study-9 CVR) with reinforcement framing — Verified |
+| Claims source | No video-attributed case metrics in config. Results use creative conversion cases (case-study-4 2X; case-study-9 CVR) with reinforcement framing � Verified |
 | Competitors reviewed | Canopy photography/video (2026-10-04); Seller Interactive storefront/video coordination (2026-10-04); Amazon Ads SB video guidance (Observed) |
 | Config | `content/config/services/amazon-video-creative.json` |
 | Audit status | Implemented + Verified (C1, 2026-10-04) |
@@ -336,10 +336,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-reporting-analytics/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-ppc-management-agency/, /full-service-amazon-agency/, /amazon-listing-optimization/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /amazon-ppc-management-agency/, /full-service-amazon-agency/, /amazon-listing-optimization/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers data sources, cadence, scope beyond ads, internal teams, dashboards, service connection, marketplaces, getting started |
 | GEO | Aligns with homepage: specialists + reporting tied to sales/ACOS/catalog; measure success KPIs |
-| Claims source | Homepage FAQ measure-success + process reporting claims; case-study-9 ACOS; case-study-1 73% — Verified. No proprietary BI product claimed. |
+| Claims source | Homepage FAQ measure-success + process reporting claims; case-study-9 ACOS; case-study-1 73% � Verified. No proprietary BI product claimed. |
 | Competitors reviewed | Incrementum DataOwl (2026-10-04); SalesDuo BI dashboard (2026-10-04); EG profit-analytics blog backup |
 | Config | `content/config/services/amazon-reporting-analytics.json` |
 | Audit status | Implemented + Verified (B2, 2026-10-04) |
@@ -364,10 +364,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-dsp-management/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets (DSP inventory varies by market) |
-| Internal links | /free-audit-2/, /amazon-ppc-management-agency/, /amazon-video-creative/, /full-service-amazon-agency/, /case-study-9/, /case-study-3/ |
+| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-video-creative/, /full-service-amazon-agency/, /case-study-9/, /case-study-3/ |
 | AEO | FAQ covers what DSP is, Brand Registry, Sponsored Ads relation, budget, measurement, creative, marketplaces, getting started |
 | GEO | Amazon Ads Verified Partner; since 2018; 20+ in-house; 95% retention; $112M+ |
-| Claims source | No DSP-attributed case metrics in config. Results use advertising foundation cases (GoSports ACOS; VoltTech PPC recovery) with explicit full-funnel-readiness framing — Verified |
+| Claims source | No DSP-attributed case metrics in config. Results use advertising foundation cases (GoSports ACOS; VoltTech PPC recovery) with explicit full-funnel-readiness framing � Verified |
 | Competitors reviewed | Sequence DSP agency (2026-10-04); Canopy DSP page (2026-10-04); EG Sponsored Display blog as related backup |
 | Config | `content/config/services/amazon-dsp-management.json` |
 | Audit status | Implemented + Verified (B1, 2026-10-04) |
@@ -392,10 +392,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-catalog-management/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-listing-optimization/, /full-service-amazon-agency/, /amazon-trademark-brand-registry/, /case-study-1/, /case-study-8/ |
+| Internal links | /free-audit/, /amazon-listing-optimization/, /full-service-amazon-agency/, /amazon-trademark-brand-registry/, /case-study-1/, /case-study-8/ |
 | AEO | FAQ covers scope, suppressions, variations, PPC link, catalog size, marketplaces, cadence, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-1 catalog optimization + 73%; case-study-8 catalog expansion to 7-figure — Verified |
+| Claims source | case-study-1 catalog optimization + 73%; case-study-8 catalog expansion to 7-figure � Verified |
 | Competitors reviewed | Olifant account audit/catalog (2026-10-04); Sequence Amazon account ops (2026-10-04); EG suppression/error blogs as backup |
 | Config | `content/config/services/amazon-catalog-management.json` |
 | Audit status | Implemented + Verified (A6, 2026-10-04) |
@@ -420,10 +420,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-visual-creativity/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-video-creative/, /amazon-content-writing/, /amazon-listing-optimization/, /case-study-4/, /case-study-9/ |
+| Internal links | /free-audit/, /amazon-video-creative/, /amazon-content-writing/, /amazon-listing-optimization/, /case-study-4/, /case-study-9/ |
 | AEO | FAQ covers assets, samples, Amazon requirements, refresh vs reshoot, conversion role, video handoff, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-4 2X conversion (visual + A+); case-study-9 lifestyle/A+ + CVR — Verified |
+| Claims source | case-study-4 2X conversion (visual + A+); case-study-9 lifestyle/A+ + CVR � Verified |
 | Competitors reviewed | Seller Interactive storefront/A+ design (2026-10-04); Canopy photography/A+ listing package (2026-10-04 prior); EG image/A+ blogs as backup |
 | Config | `content/config/services/amazon-visual-creativity.json` |
 | Audit status | Implemented + Verified (A5, 2026-10-04) |
@@ -448,10 +448,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-content-writing/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-listing-optimization/, /amazon-visual-creativity/, /full-service-amazon-agency/, /case-study-9/, /case-study-4/ |
+| Internal links | /free-audit/, /amazon-listing-optimization/, /amazon-visual-creativity/, /full-service-amazon-agency/, /case-study-9/, /case-study-4/ |
 | AEO | FAQ covers deliverables, keywords, voice, claims, Store/Brand Story, vs listing SEO, marketplaces, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-9 CVR + benefit-first copy; case-study-4 2X conversion with A+ content — Verified |
+| Claims source | case-study-9 CVR + benefit-first copy; case-study-4 2X conversion with A+ content � Verified |
 | Competitors reviewed | Olifant listing optimization/copy (2026-10-04); Canopy listing copywriting package (2026-10-04); EG A+ SEO blog backup |
 | Config | `content/config/services/amazon-content-writing.json` |
 | Audit status | Implemented + Verified (A4, 2026-10-04) |
@@ -476,10 +476,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/amazon-listing-optimization/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-content-writing/, /amazon-ppc-management-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /amazon-content-writing/, /amazon-ppc-management-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers scope, timeline, prioritization, PPC impact, A+, marketplaces, metrics, getting started |
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-9 CVR 9.8%→26.7% + 310% revenue; case-study-1 73% growth (listing optimization) — Verified |
+| Claims source | case-study-9 CVR 9.8%?26.7% + 310% revenue; case-study-1 73% growth (listing optimization) � Verified |
 | Competitors reviewed | Canopy product listing optimization (2026-10-04); SalesDuo listing optimization agency (2026-10-04); EG listing blogs as backup |
 | Config | `content/config/services/amazon-listing-optimization.json` |
 | Audit status | Implemented + Verified (A3, 2026-10-04) |
@@ -504,10 +504,10 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Canonical | https://ecomgliders.com/full-service-amazon-agency/ |
 | Indexability | Index |
 | Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit-2/, /amazon-ppc-management-agency/, /amazon-listing-optimization/, /amazon-reporting-analytics/, /case-study-9/, /case-study-1/ |
+| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-listing-optimization/, /amazon-reporting-analytics/, /case-study-9/, /case-study-1/ |
 | AEO | FAQ covers scope, ownership, PPC vs full-service, marketplaces, pricing, getting started |
 | GEO | Consistent claims: since 2018, 20+ in-house, 95% retention, $112M+ revenue managed |
-| Claims source | Homepage FAQ + case-studies.json (GoSports 310%, Kitchen 73%) — Verified in config |
+| Claims source | Homepage FAQ + case-studies.json (GoSports 310%, Kitchen 73%) � Verified in config |
 | Competitors reviewed | Canopy full-service AM (2026-10-04); Sequence Commerce Amazon (2026-10-04); backup WP page |
 | Config | `content/config/services/full-service-amazon-agency.json` |
 | Audit status | Implemented + Verified (A1, 2026-10-04) |
@@ -518,17 +518,19 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 | Field | Value |
 |-------|-------|
-| URL | https://ecomgliders.com/free-audit-2/ |
+| URL | https://ecomgliders.com/free-audit/ |
 | Primary keyword | Free Amazon account audit |
 | Secondary keywords | Amazon PPC audit, Amazon account review |
 | Search intent | Transactional |
 | Title | Free Amazon Account Audit \| eCom Gliders |
 | Meta description | Get a free audit of your Amazon account. PPC performance review, listing optimization opportunities, and actionable recommendations. No obligation. |
-| H1 | Get Your Free Amazon Account Audit |
-| Canonical | https://ecomgliders.com/free-audit-2/ |
+| H1 | Free Amazon audit |
+| Canonical | https://ecomgliders.com/free-audit/ |
 | Indexability | Index |
 | Schema | WebPage, FAQPage |
-| Audit status | Implemented (2026-09-02) |
+| Sections | Lime hero + score tiles; ink/canvas scope mosaic; ink findings tickets; lime turnaround ribbon; open split form; proof strip + FAQ |
+| Audit status | Redesigned (2026-10-23); URL cleaned from /free-audit/ (301) |
+| Redirect | /free-audit/ ? /free-audit/ (301) |
 
 ---
 
@@ -548,7 +550,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Schema | CollectionPage |
 | Audit status | Implemented (2026-09-02) |
 
-**Detail pages:** `/case-study-1/` through `/case-study-9/` — root-level URLs preserved. Article JSON-LD per page. Config: `content/config/case-studies.json`.
+**Detail pages:** `/case-study-1/` through `/case-study-9/` � root-level URLs preserved. Article JSON-LD per page. Config: `content/config/case-studies.json`.
 
 ---
 
@@ -586,7 +588,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Schema | ContactPage, Organization (@id), ContactPoint, BreadcrumbList, FAQPage |
 | Sections | Hero + hours/SLA; path cards (message / strategy intake / free audit); short message form + NAP; 5-step strategy intake wizard; process; FAQ; internal links |
 | Internal links | Free Audit, About, Services, Case Studies, Privacy |
-| Audit status | Redesigned (2026-10-23) — AMZ contact + book-a-call patterns on one URL |
+| Audit status | Redesigned (2026-10-23) � AMZ contact + book-a-call patterns on one URL |
 
 ---
 
@@ -616,7 +618,7 @@ Content rewrite status: incomplete until each wave CONTINUE pass.
 
 | Page | Primary keyword | URL | Status |
 |------|----------------|-----|--------|
-| Full Service / Account Management | Full service Amazon agency | /full-service-amazon-agency/ | Implemented (A1, 2026-10-04) |
+| Full Service / Account Management | Full service Amazon agency | /full-service-amazon-agency/ | Unique composition shipped (fullServiceCommand, 2026-10-23) |
 | Amazon PPC Management | Amazon PPC management agency | /amazon-ppc-management-agency/ | Implemented (A2, 2026-10-04) |
 | Listing Optimization and SEO | Amazon listing optimization services | /amazon-listing-optimization/ | Implemented (A3, 2026-10-04) |
 | Content Writing | Amazon content writing services | /amazon-content-writing/ | Implemented (A4, 2026-10-04) |
@@ -643,8 +645,30 @@ Content rewrite status: incomplete until each wave CONTINUE pass.
 
 | URL | Indexability | Audit status |
 |-----|-------------|-------------|
-| /privacy-policy-2/ | Index | Not started |
-| /terms-conditions-2/ | Index | Not started |
+| /privacy-policy/ | Index | Implemented (2026-10-23); 301 from /privacy-policy-2/ |
+| /terms-conditions/ | Index | Implemented (2026-10-23); 301 from /terms-conditions-2/ |
+
+### Privacy Policy
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/privacy-policy/ |
+| Title | Privacy Policy \| eCom Gliders |
+| H1 | Privacy Policy |
+| Canonical | https://ecomgliders.com/privacy-policy/ |
+| Schema | WebPage, BreadcrumbList |
+| Redirect | /privacy-policy-2/ ? /privacy-policy/ (301) |
+
+### Terms and Conditions
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/terms-conditions/ |
+| Title | Terms and Conditions \| eCom Gliders |
+| H1 | Terms and Conditions |
+| Canonical | https://ecomgliders.com/terms-conditions/ |
+| Schema | WebPage, BreadcrumbList |
+| Redirect | /terms-conditions-2/ ? /terms-conditions/ (301) |
 
 ---
 

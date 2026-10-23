@@ -7,7 +7,7 @@
     "subtitle": "Listing readiness, launch advertising, and early performance tracking coordinated from day one—so spend, stock, and conversion stay aligned.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a launch readiness review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -55,11 +55,26 @@
           "type": "select",
           "required": false,
           "options": [
-            { "value": "", "label": "Please select" },
-            { "value": "research", "label": "Still researching the ASIN" },
-            { "value": "listing-build", "label": "Building the listing" },
-            { "value": "ready-to-advertise", "label": "Listing ready, need ads" },
-            { "value": "already-live", "label": "Already live, relaunch needed" }
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "research",
+              "label": "Still researching the ASIN"
+            },
+            {
+              "value": "listing-build",
+              "label": "Building the listing"
+            },
+            {
+              "value": "ready-to-advertise",
+              "label": "Listing ready, need ads"
+            },
+            {
+              "value": "already-live",
+              "label": "Already live, relaunch needed"
+            }
           ]
         }
       ]
@@ -376,14 +391,17 @@
     "subheading": "Share your ASIN timeline. We outline listing, ads, and inventory gates before spend scales.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {
     "metaTitle": "Amazon Product Launch Services | eCom Gliders",
     "metaDescription": "Amazon product launch services with listing readiness, launch advertising, and inventory coordination under one plan. Request a free audit.",
     "canonical": "https://ecomgliders.com/amazon-product-launch-services/",
-    "robots": { "index": true, "follow": true },
+    "robots": {
+      "index": true,
+      "follow": true
+    },
     "schema": "Service"
   }
 }

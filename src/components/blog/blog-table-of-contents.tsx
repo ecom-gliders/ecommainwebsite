@@ -110,7 +110,7 @@ function resolveActiveHeadingId(items: TocItem[]): string | null {
 export function BlogTableOfContents({
   items,
   showRailCta = true,
-  ctaHref = "/free-audit-2/",
+  ctaHref = "/free-audit/",
 }: BlogTableOfContentsProps) {
   const prefersReducedMotion = usePrefersReducedMotion();
   const [activeId, setActiveId] = useState<string | null>(

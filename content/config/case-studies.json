@@ -12,7 +12,7 @@
       "heading": "Want results like these?",
       "body": "Request a free Amazon audit. A strategist reviews PPC, listings, and catalog priorities and follows up within one business day.",
       "primaryLabel": "Get your free audit",
-      "primaryHref": "/free-audit-2/",
+      "primaryHref": "/free-audit/",
       "secondaryLabel": "Contact us",
       "secondaryHref": "/contact/"
     },
@@ -398,7 +398,7 @@
       "clientDisplayName": "VoltTech Accessories",
       "metric": "32%",
       "metricLabel": "Ad spend reduction",
-      "secondaryMetric": "76% → 37%",
+      "secondaryMetric": "76% ? 37%",
       "secondaryMetricLabel": "ACOS",
       "excerpt": "Clean PPC structure cut waste and improved profitability across Amazon US and UK for an electronics accessories brand.",
       "featuredImage": "/images/cases/case-study-3.png",
@@ -490,7 +490,7 @@
           },
           {
             "label": "Monthly ad spend",
-            "value": "$4,950 to $3,370 (−32%)"
+            "value": "$4,950 to $3,370 (-32%)"
           },
           {
             "label": "Organic sales ratio",
@@ -560,7 +560,7 @@
       "clientDisplayName": "NIKKETTA",
       "metric": "2X",
       "metricLabel": "Higher conversions",
-      "secondaryMetric": "11.3% → 22.1%",
+      "secondaryMetric": "11.3% ? 22.1%",
       "secondaryMetricLabel": "CVR",
       "excerpt": "Visual rebrand and rich A+ content transformed a basic dog grooming tool into a premium listing that converts.",
       "featuredImage": "/images/cases/case-study-4.png",
@@ -976,7 +976,7 @@
       "clientDisplayName": "Safefine",
       "metric": "28.9%",
       "metricLabel": "Conversion rate",
-      "secondaryMetric": "10.1% → 28.9%",
+      "secondaryMetric": "10.1% ? 28.9%",
       "secondaryMetricLabel": "CVR lift",
       "excerpt": "Listing makeover with emotional visuals and review trust signals turned organic traffic into sales.",
       "featuredImage": "/images/cases/case-study-7.png",
@@ -1116,7 +1116,7 @@
       "clientDisplayName": "FocusForm",
       "metric": "$118K",
       "metricLabel": "Monthly revenue",
-      "secondaryMetric": "1 → 7",
+      "secondaryMetric": "1 ? 7",
       "secondaryMetricLabel": "SKUs",
       "excerpt": "Smart bundling and storefront expansion grew a solo productivity planner into a full brand ecosystem.",
       "featuredImage": "/images/cases/case-study-8.png",
@@ -1346,7 +1346,7 @@
             "Objection-handling bullets for weight, portability, durability",
             "FAQ and review overlays in main images"
           ],
-          "outcome": "CVR to 26.7%; return rate −28%; AOV $114.70 with bag upsells."
+          "outcome": "CVR to 26.7%; return rate -28%; AOV $114.70 with bag upsells."
         },
         {
           "title": "PPC restructure and seasonal scaling",

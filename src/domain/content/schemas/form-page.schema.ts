@@ -115,39 +115,100 @@ export const freeAuditPageConfigSchema = z.object({
   hero: z.object({
     title: z.string(),
     subtitle: z.string(),
+    ctaLabel: z.string(),
+    scorecardCaption: z.string(),
   }),
-  benefits: z.object({
+  scorecard: z.object({
+    title: z.string(),
+    pillars: z
+      .array(
+        z.object({
+          label: z.string(),
+          scoreLabel: z.string(),
+          scorePercent: z.number().min(0).max(100),
+        }),
+      )
+      .min(1),
+  }),
+  scope: z.object({
     heading: z.string(),
-    items: z.array(z.string()),
+    subheading: z.string(),
+    pillars: z
+      .array(
+        z.object({
+          id: z.string(),
+          label: z.string(),
+          summary: z.string(),
+          checks: z.array(z.string()).min(1),
+        }),
+      )
+      .min(1),
+  }),
+  findings: z.object({
+    heading: z.string(),
+    subheading: z.string(),
+    items: z
+      .array(
+        z.object({
+          severity: z.enum(["high", "medium", "low"]),
+          title: z.string(),
+          impact: z.string(),
+        }),
+      )
+      .min(1),
+  }),
+  turnaround: z.object({
+    heading: z.string(),
+    steps: z
+      .array(
+        z.object({
+          title: z.string(),
+          description: z.string(),
+        }),
+      )
+      .min(1),
   }),
   form: formConfigSchema,
+  funnel: z.object({
+    services: z.array(optionSchema).min(1),
+    marketplaces: z.array(optionSchema).min(1),
+  }),
   trustSignals: z.object({
     heading: z.string(),
-    stats: z.array(
-      z.object({
-        value: z.string(),
-        label: z.string(),
-      }),
-    ),
-    testimonial: z
-      .object({
-        quote: z.string(),
-        author: z.string(),
-        role: z.string(),
-      })
-      .optional(),
+    stats: z
+      .array(
+        z.object({
+          value: z.string(),
+          label: z.string(),
+        }),
+      )
+      .min(1),
+  }),
+  caseProof: z.object({
+    metric: z.string(),
+    metricLabel: z.string(),
+    summary: z.string(),
+    href: z.string(),
+    label: z.string(),
   }),
   fallbackContact: z.object({
     heading: z.string(),
     phoneLabel: z.string(),
     emailLabel: z.string(),
+    contactCtaLabel: z.string(),
+    contactCtaHref: z.string(),
   }),
-  faq: z.array(
-    z.object({
-      question: z.string(),
-      answer: z.string(),
-    }),
-  ),
+  faq: z.object({
+    heading: z.string(),
+    items: z
+      .array(
+        z.object({
+          question: z.string(),
+          answer: z.string(),
+        }),
+      )
+      .min(1),
+  }),
   seo: pageSeoSchema,
 });
 

@@ -37,7 +37,7 @@
     ],
     "cta": {
       "label": "Free Audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "megaMenus": {
@@ -181,7 +181,7 @@
         "body": "PPC, listings, and growth opportunities reviewed by our in-house team.",
         "button": {
           "label": "Get Free Audit",
-          "href": "/free-audit-2/"
+          "href": "/free-audit/"
         },
         "phone": {
           "display": "+1 (360) 660-1210",
@@ -262,7 +262,7 @@
         "body": "Request a free Amazon audit. A strategist reviews PPC, listings, and catalog priorities.",
         "button": {
           "label": "Get Free Audit",
-          "href": "/free-audit-2/"
+          "href": "/free-audit/"
         },
         "phone": {
           "display": "+1 (360) 660-1210",
@@ -347,7 +347,7 @@
         "body": "Pair these playbooks with a free audit of your PPC, listings, and catalog.",
         "button": {
           "label": "Get Free Audit",
-          "href": "/free-audit-2/"
+          "href": "/free-audit/"
         },
         "phone": {
           "display": "+1 (360) 660-1210",
@@ -481,7 +481,7 @@
           },
           {
             "label": "Free Audit",
-            "href": "/free-audit-2/"
+            "href": "/free-audit/"
           },
           {
             "label": "Blog",
@@ -502,11 +502,11 @@
     "legal": [
       {
         "label": "Privacy Policy",
-        "href": "/privacy-policy-2/"
+        "href": "/privacy-policy/"
       },
       {
         "label": "Terms and Conditions",
-        "href": "/terms-conditions-2/"
+        "href": "/terms-conditions/"
       }
     ]
   },

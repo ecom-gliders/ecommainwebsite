@@ -60,9 +60,9 @@
             },
             {
               "name": "amazonStoreUrl",
-              "label": "Amazon store",
+              "label": "Amazon storefront URL",
               "type": "url",
-              "required": false,
+              "required": true,
               "placeholder": "Enter store URL"
             },
             {
@@ -145,7 +145,7 @@
             "body": "PPC, listings, and catalog reviewed — clear priorities, no obligation.",
             "cta": {
               "label": "Schedule Call",
-              "href": "/free-audit-2/"
+              "href": "/free-audit/"
             },
             "leftImage": "/images/promo/promo-team-cutout.png",
             "leftImageAlt": "eCom Gliders Amazon specialists",
@@ -159,7 +159,7 @@
             "kind": "image",
             "image": "/images/promo/amazon-big-prime-is-coming.gif",
             "imageAlt": "Amazon Big Prime is coming — prepare your Amazon FBA business",
-            "href": "/free-audit-2/",
+            "href": "/free-audit/",
             "backgroundColor": "#d4d5d5"
           },
           {
@@ -339,29 +339,144 @@
         "heading": "Marketplaces we manage",
         "subheading": "All official Amazon Seller Central marketplaces across North America, Europe, Middle East, Africa, and Asia-Pacific.",
         "markets": [
-          { "code": "US", "name": "United States", "flag": "/images/flags/us.png", "flagAlt": "United States flag" },
-          { "code": "CA", "name": "Canada", "flag": "/images/flags/ca.png", "flagAlt": "Canada flag" },
-          { "code": "MX", "name": "Mexico", "flag": "/images/flags/mx.png", "flagAlt": "Mexico flag" },
-          { "code": "BR", "name": "Brazil", "flag": "/images/flags/br.png", "flagAlt": "Brazil flag" },
-          { "code": "UK", "name": "United Kingdom", "flag": "/images/flags/gb.png", "flagAlt": "United Kingdom flag" },
-          { "code": "DE", "name": "Germany", "flag": "/images/flags/de.png", "flagAlt": "Germany flag" },
-          { "code": "FR", "name": "France", "flag": "/images/flags/fr.png", "flagAlt": "France flag" },
-          { "code": "IT", "name": "Italy", "flag": "/images/flags/it.png", "flagAlt": "Italy flag" },
-          { "code": "ES", "name": "Spain", "flag": "/images/flags/es.png", "flagAlt": "Spain flag" },
-          { "code": "NL", "name": "Netherlands", "flag": "/images/flags/nl.png", "flagAlt": "Netherlands flag" },
-          { "code": "BE", "name": "Belgium", "flag": "/images/flags/be.png", "flagAlt": "Belgium flag" },
-          { "code": "IE", "name": "Ireland", "flag": "/images/flags/ie.png", "flagAlt": "Ireland flag" },
-          { "code": "SE", "name": "Sweden", "flag": "/images/flags/se.png", "flagAlt": "Sweden flag" },
-          { "code": "PL", "name": "Poland", "flag": "/images/flags/pl.png", "flagAlt": "Poland flag" },
-          { "code": "TR", "name": "Turkey", "flag": "/images/flags/tr.png", "flagAlt": "Turkey flag" },
-          { "code": "AE", "name": "United Arab Emirates", "flag": "/images/flags/ae.png", "flagAlt": "United Arab Emirates flag" },
-          { "code": "SA", "name": "Saudi Arabia", "flag": "/images/flags/sa.png", "flagAlt": "Saudi Arabia flag" },
-          { "code": "EG", "name": "Egypt", "flag": "/images/flags/eg.png", "flagAlt": "Egypt flag" },
-          { "code": "ZA", "name": "South Africa", "flag": "/images/flags/za.png", "flagAlt": "South Africa flag" },
-          { "code": "IN", "name": "India", "flag": "/images/flags/in.png", "flagAlt": "India flag" },
-          { "code": "JP", "name": "Japan", "flag": "/images/flags/jp.png", "flagAlt": "Japan flag" },
-          { "code": "AU", "name": "Australia", "flag": "/images/flags/au.png", "flagAlt": "Australia flag" },
-          { "code": "SG", "name": "Singapore", "flag": "/images/flags/sg.png", "flagAlt": "Singapore flag" }
+          {
+            "code": "US",
+            "name": "United States",
+            "flag": "/images/flags/us.png",
+            "flagAlt": "United States flag"
+          },
+          {
+            "code": "CA",
+            "name": "Canada",
+            "flag": "/images/flags/ca.png",
+            "flagAlt": "Canada flag"
+          },
+          {
+            "code": "MX",
+            "name": "Mexico",
+            "flag": "/images/flags/mx.png",
+            "flagAlt": "Mexico flag"
+          },
+          {
+            "code": "BR",
+            "name": "Brazil",
+            "flag": "/images/flags/br.png",
+            "flagAlt": "Brazil flag"
+          },
+          {
+            "code": "UK",
+            "name": "United Kingdom",
+            "flag": "/images/flags/gb.png",
+            "flagAlt": "United Kingdom flag"
+          },
+          {
+            "code": "DE",
+            "name": "Germany",
+            "flag": "/images/flags/de.png",
+            "flagAlt": "Germany flag"
+          },
+          {
+            "code": "FR",
+            "name": "France",
+            "flag": "/images/flags/fr.png",
+            "flagAlt": "France flag"
+          },
+          {
+            "code": "IT",
+            "name": "Italy",
+            "flag": "/images/flags/it.png",
+            "flagAlt": "Italy flag"
+          },
+          {
+            "code": "ES",
+            "name": "Spain",
+            "flag": "/images/flags/es.png",
+            "flagAlt": "Spain flag"
+          },
+          {
+            "code": "NL",
+            "name": "Netherlands",
+            "flag": "/images/flags/nl.png",
+            "flagAlt": "Netherlands flag"
+          },
+          {
+            "code": "BE",
+            "name": "Belgium",
+            "flag": "/images/flags/be.png",
+            "flagAlt": "Belgium flag"
+          },
+          {
+            "code": "IE",
+            "name": "Ireland",
+            "flag": "/images/flags/ie.png",
+            "flagAlt": "Ireland flag"
+          },
+          {
+            "code": "SE",
+            "name": "Sweden",
+            "flag": "/images/flags/se.png",
+            "flagAlt": "Sweden flag"
+          },
+          {
+            "code": "PL",
+            "name": "Poland",
+            "flag": "/images/flags/pl.png",
+            "flagAlt": "Poland flag"
+          },
+          {
+            "code": "TR",
+            "name": "Turkey",
+            "flag": "/images/flags/tr.png",
+            "flagAlt": "Turkey flag"
+          },
+          {
+            "code": "AE",
+            "name": "United Arab Emirates",
+            "flag": "/images/flags/ae.png",
+            "flagAlt": "United Arab Emirates flag"
+          },
+          {
+            "code": "SA",
+            "name": "Saudi Arabia",
+            "flag": "/images/flags/sa.png",
+            "flagAlt": "Saudi Arabia flag"
+          },
+          {
+            "code": "EG",
+            "name": "Egypt",
+            "flag": "/images/flags/eg.png",
+            "flagAlt": "Egypt flag"
+          },
+          {
+            "code": "ZA",
+            "name": "South Africa",
+            "flag": "/images/flags/za.png",
+            "flagAlt": "South Africa flag"
+          },
+          {
+            "code": "IN",
+            "name": "India",
+            "flag": "/images/flags/in.png",
+            "flagAlt": "India flag"
+          },
+          {
+            "code": "JP",
+            "name": "Japan",
+            "flag": "/images/flags/jp.png",
+            "flagAlt": "Japan flag"
+          },
+          {
+            "code": "AU",
+            "name": "Australia",
+            "flag": "/images/flags/au.png",
+            "flagAlt": "Australia flag"
+          },
+          {
+            "code": "SG",
+            "name": "Singapore",
+            "flag": "/images/flags/sg.png",
+            "flagAlt": "Singapore flag"
+          }
         ]
       }
     },
@@ -728,10 +843,18 @@
         "eyebrow": "Engagement flow",
         "swingNote": "Clear steps. No black box.",
         "phases": [
-          { "label": "Discovery" },
-          { "label": "Strategy" },
-          { "label": "Execution" },
-          { "label": "Reporting" }
+          {
+            "label": "Discovery"
+          },
+          {
+            "label": "Strategy"
+          },
+          {
+            "label": "Execution"
+          },
+          {
+            "label": "Reporting"
+          }
         ],
         "steps": [
           {
@@ -803,20 +926,38 @@
         },
         "inclusionsHeading": "What the audit covers",
         "inclusions": [
-          { "label": "PPC structure and waste indicators" },
-          { "label": "Listing conversion and keyword coverage" },
-          { "label": "Catalog and account health risks" },
-          { "label": "Creative and content gaps vs competitors" },
-          { "label": "Priority actions for the next 30 days" },
-          { "label": "Strategist follow-up within one business day" }
+          {
+            "label": "PPC structure and waste indicators"
+          },
+          {
+            "label": "Listing conversion and keyword coverage"
+          },
+          {
+            "label": "Catalog and account health risks"
+          },
+          {
+            "label": "Creative and content gaps vs competitors"
+          },
+          {
+            "label": "Priority actions for the next 30 days"
+          },
+          {
+            "label": "Strategist follow-up within one business day"
+          }
         ],
         "sideEyebrow": "After you submit",
         "sideTitle": "What happens next",
         "sideBody": "You get a clear read on the account before any paid engagement.",
         "sideItems": [
-          { "label": "We review the details you share" },
-          { "label": "A strategist prepares written priorities" },
-          { "label": "Follow-up within one business day" }
+          {
+            "label": "We review the details you share"
+          },
+          {
+            "label": "A strategist prepares written priorities"
+          },
+          {
+            "label": "Follow-up within one business day"
+          }
         ],
         "proofTitle": "Prefer proof first?",
         "proofBody": "See how brands grew with assigned specialists, clear reporting, and catalog work that holds up under review."
@@ -833,61 +974,137 @@
         "swingNote": "It's a no-brainer — why wouldn't you?!",
         "columns": {
           "agency": "eCom Gliders",
-          "competitors": ["Typical agency", "Freelancer", "DIY / In-house"]
+          "competitors": [
+            "Typical agency",
+            "Freelancer",
+            "DIY / In-house"
+          ]
         },
         "rows": [
           {
             "feature": "Account owner",
             "values": [
-              { "text": "Assigned specialist", "positive": true },
-              { "text": "Shared or rotated", "positive": false },
-              { "text": "Often part-time", "positive": false },
-              { "text": "No dedicated owner", "positive": false }
+              {
+                "text": "Assigned specialist",
+                "positive": true
+              },
+              {
+                "text": "Shared or rotated",
+                "positive": false
+              },
+              {
+                "text": "Often part-time",
+                "positive": false
+              },
+              {
+                "text": "No dedicated owner",
+                "positive": false
+              }
             ]
           },
           {
             "feature": "PPC optimization",
             "values": [
-              { "text": "Active in-house daily", "positive": true },
-              { "text": "Weekly batch common", "positive": false },
-              { "text": "When time allows", "positive": false },
-              { "text": "Manual / ad hoc", "positive": false }
+              {
+                "text": "Active in-house daily",
+                "positive": true
+              },
+              {
+                "text": "Weekly batch common",
+                "positive": false
+              },
+              {
+                "text": "When time allows",
+                "positive": false
+              },
+              {
+                "text": "Manual / ad hoc",
+                "positive": false
+              }
             ]
           },
           {
             "feature": "Listings and SEO",
             "values": [
-              { "text": "In-house listing specialists", "positive": true },
-              { "text": "Mixed or outsourced", "positive": false },
-              { "text": "Variable skill", "positive": false },
-              { "text": "Steep learning curve", "positive": false }
+              {
+                "text": "In-house listing specialists",
+                "positive": true
+              },
+              {
+                "text": "Mixed or outsourced",
+                "positive": false
+              },
+              {
+                "text": "Variable skill",
+                "positive": false
+              },
+              {
+                "text": "Steep learning curve",
+                "positive": false
+              }
             ]
           },
           {
             "feature": "Catalog health",
             "values": [
-              { "text": "Included in full-service work", "positive": true },
-              { "text": "Often limited scope", "positive": false },
-              { "text": "Rarely full coverage", "positive": false },
-              { "text": "Easy to defer", "positive": false }
+              {
+                "text": "Included in full-service work",
+                "positive": true
+              },
+              {
+                "text": "Often limited scope",
+                "positive": false
+              },
+              {
+                "text": "Rarely full coverage",
+                "positive": false
+              },
+              {
+                "text": "Easy to defer",
+                "positive": false
+              }
             ]
           },
           {
             "feature": "Reporting",
             "values": [
-              { "text": "Weekly and monthly reporting", "positive": true },
-              { "text": "Monthly deck typical", "positive": false },
-              { "text": "Ad-hoc updates", "positive": false },
-              { "text": "Self-built dashboards", "positive": false }
+              {
+                "text": "Weekly and monthly reporting",
+                "positive": true
+              },
+              {
+                "text": "Monthly deck typical",
+                "positive": false
+              },
+              {
+                "text": "Ad-hoc updates",
+                "positive": false
+              },
+              {
+                "text": "Self-built dashboards",
+                "positive": false
+              }
             ]
           },
           {
             "feature": "Cost model",
             "values": [
-              { "text": "Predictable retainer", "positive": true },
-              { "text": "Variable / markup risk", "positive": false },
-              { "text": "Hourly uncertainty", "positive": false },
-              { "text": "Hidden cost of time", "positive": false }
+              {
+                "text": "Predictable retainer",
+                "positive": true
+              },
+              {
+                "text": "Variable / markup risk",
+                "positive": false
+              },
+              {
+                "text": "Hourly uncertainty",
+                "positive": false
+              },
+              {
+                "text": "Hidden cost of time",
+                "positive": false
+              }
             ]
           }
         ],

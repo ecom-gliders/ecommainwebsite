@@ -1,13 +1,13 @@
 {
   "slug": "amazon-content-writing",
   "breadcrumbLabel": "Content Writing",
-  "layout": "copy-ops",
+  "layout": "contentCopyDesk",
   "hero": {
     "title": "Amazon copy with voice, claims, and conversion hierarchy",
     "subtitle": "Titles, bullets, and A+ modules written for how shoppers actually scan—not keyword dumps. A+ does not directly raise search rank; it earns the click you already won.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request Amazon copy support",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -117,20 +117,20 @@
     "heading": "Why Amazon product copy underperforms",
     "points": [
       {
-        "title": "Feature lists without buyer context",
-        "description": "Bullets catalog specs but skip use cases, objections, and proof."
+        "title": "Spec lists without buyer context",
+        "description": "Bullets skip use cases, objections, and proof."
       },
       {
-        "title": "Inconsistent brand voice",
-        "description": "ASINs sound disconnected when writers lack shared messaging standards."
+        "title": "Voice drifts across ASINs",
+        "description": "No shared messaging standards for writers."
       },
       {
-        "title": "Keyword stuffing that hurts readability",
-        "description": "Forced terms make titles harder to scan and weaken trust."
+        "title": "Keyword stuffing hurts scan",
+        "description": "Forced terms weaken trust on mobile."
       },
       {
         "title": "A+ that repeats the listing",
-        "description": "Modules restate bullets instead of educating and differentiating."
+        "description": "Modules restate bullets instead of teaching."
       }
     ]
   },
@@ -430,7 +430,7 @@
     "subheading": "We review listing content gaps, voice consistency, and A+ module needs. No invented rank or average CVR guarantees.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

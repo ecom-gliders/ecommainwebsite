@@ -4,6 +4,124 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-23 — Amazon Content Writing unique template (contentCopyDesk)
+
+**Task:** Ship `/amazon-content-writing/` as dedicated copy-desk / manuscript page  
+**Verification method:** `tsc --noEmit`; Playwright section inventory  
+
+**STATUS:** COMPLETE  
+**VERIFIED:** Layout `contentCopyDesk` wired; paper hero + form; draft vs scan; claim gates; paired outcomes  
+**REMAINING:** Caller visual OK  
+
+---
+
+## 2026-10-23 — Amazon Listing Optimization unique template (listingPdpStack)
+
+**Task:** Ship `/amazon-listing-optimization/` as dedicated SERP→PDP page (rebuild after sameness feedback)  
+**Verification method:** `tsc --noEmit`; Playwright section inventory + hero screenshot  
+
+**STATUS:** COMPLETE  
+**VERIFIED:** Light search-bar hero + mini PDP; index heatmap; buyer path; zigzag pipeline; placement matrix; 6 field meters; vertical CVR; form present  
+**REMAINING:** Caller visual OK  
+
+---
+
+## 2026-10-23 — Amazon Account Operations unique template (accountOpsShift)
+
+**Task:** Ship `/amazon-account-operations/` as dedicated shift-board page  
+**Verification method:** `tsc --noEmit`; Playwright section inventory  
+
+**STATUS:** COMPLETE  
+**VERIFIED:** Title OK; hero form + 4 workstream cells; layout `accountOpsShift` wired  
+**REMAINING:** Caller visual OK  
+
+---
+
+## 2026-10-23 — Amazon Reporting unique template (reportingLedger)
+
+**Task:** Ship `/amazon-reporting-analytics/` as dedicated decision-ledger page  
+**Verification method:** `tsc --noEmit`; Playwright navigate + section inventory  
+
+**STATUS:** COMPLETE  
+**VERIFIED:** Title OK; hero form present; 4 pulse bars; 10 sections (`hero`→`close`); left/form bottoms ~aligned (gap −3px); layout `reportingLedger` wired  
+**REMAINING:** Caller visual OK  
+
+---
+
+## 2026-10-23 — PPC hero density + form column + dark contrast fix
+
+**Task:** Fill sparse PPC hero; ~26rem form column with 2-col fields (all fields kept); white text on dark sections  
+**Verification method:** Playwright evaluate + screenshots (`ppc-hero-fixed.png`, `ppc-funnel-contrast.png`)  
+
+**STATUS:** COMPLETE  
+**VERIFIED:** Form width ~520px; shell 1320; all 7 fields present; hero left filled (dials + 4 lanes); dark hero/funnel h1–h3 = white; form heading black on lime (correct)  
+**REMAINING:** Caller visual OK  
+
+---
+
+## 2026-10-23 — Amazon DSP unique template (dspReachLattice)
+
+**Task:** Ship `/amazon-dsp-management/` as dedicated reach-lattice page (skip listing for now)  
+**Verification method:** `npx tsc --noEmit`; Playwright evaluate 1440px  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** `dspReachLattice` layout; `DspPageTemplate` (orbit hero + signal leak + audience orbit + altitude bands + coverage lattice + readiness gates + role chart + area proof + FAQ gates + close); JSON layout switch; pattern register  
+**VERIFIED:**
+- tsc exit 0; no console errors
+- 10 sections; form in hero (name/email/phone/brand/URL/DSP budget/Brand Registry)
+- Shell widths all 1320; no adjacent sections share background
+- Dark section h2 colors white (`rgb(255,255,255)`)
+**DOCUMENTED:** SERVICES-PATTERN-REGISTER, SESSION-STATE  
+**REMAINING:** Listing and other queued services  
+**NEXT ACTION:** Caller visual OK on DSP; then next queued service  
+
+---
+
+## 2026-10-23 — Full-Service caller revision (hero length, V, sections 4–5, density)
+
+**Task:** Shorten hero; remove hero V/pod-map; diversify sections 4–5; balance FAQ/cadence density; keep 2, 3, 6  
+**Verification method:** `npx tsc --noEmit`; Playwright evaluate 1440px  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Compact lane-strip hero (no pod map); continuum axis fit; lime issue/fix/verify runway; full-width decision strip + 2-col FAQ; equal cadence columns; proof rows  
+**VERIFIED:** tsc exit 0; form in hero; shell widths 1320; hero shorter than prior ~1131px; sections 4/5 distinct layouts and backgrounds from neighbors; no console errors  
+**DOCUMENTED:** SERVICES-PATTERN-REGISTER  
+**REMAINING:** Caller visual OK  
+**NEXT ACTION:** Continue remaining service pages after caller sign-off  
+
+---
+
+## 2026-10-23 — Full-Service + PPC unique templates (hero form, shell, visuals)
+
+**Task:** Full-Service and PPC dedicated pages with consistent `container-page` shell, hero intake form, and no text-only sections  
+**Verification method:** `npx tsc --noEmit`; Playwright localhost evaluate at 1440px  
+
+**STATUS:** COMPLETE (pages 1–2 of 20)  
+**IMPLEMENTED:** `ServicePageShell`; Full-Service rewrite (hero form + visuals); `PpcPageTemplate` (`ppcCockpit`); schema layout enum; pattern register global rules  
+**VERIFIED:**
+- tsc exit 0
+- Full-Service: 10 sections; form in `#service-hero`; all shells 1320px; hero pod-map image present
+- PPC: 9 sections; form in `#service-hero` (“Get a free PPC audit”); all shells 1320px; no console errors  
+**DOCUMENTED:** SERVICES-PATTERN-REGISTER, DECISIONS, SESSION-STATE  
+**REMAINING:** 18 service pages under same rules  
+**NEXT ACTION:** Listing optimization unique template  
+
+---
+
+## 2026-10-23 — Free Audit deliverable redesign
+
+**Task:** Rebuild `/free-audit-2/` as scorecard/report page distinct from About/Contact  
+**Verification method:** `npx tsc --noEmit`; Playwright localhost section walkthrough  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Extended `freeAuditPageConfigSchema` + `free-audit-page.json`; `FreeAuditPageTemplate` + scorecard/scope/findings pieces; pre-footer suppressed on `free-audit-2`; SITE-SEO-MAP H1/sections updated  
+**VERIFIED:** tsc clean; H1 Free Amazon account audit; sections hero/scope/findings/turnaround/form/proof+faq present; form fields name/email/phone/brandName/amazonStoreUrl/monthlyRevenue/message/consent; scope Listings tab switches panel; JSON-LD WebPage + FAQPage; header Free Audit CTA still `/free-audit-2/`; no pre-footer Ready-to-scale strip  
+**DOCUMENTED:** SITE-SEO-MAP Free Audit row; SESSION-STATE  
+**REMAINING:** Caller visual OK  
+**NEXT ACTION:** None for this plan  
+
+---
+
 ## 2026-10-23 ? Contact page dual-section intake
 
 **Task:** Single `/contact/` with AMZ contact-us + book-a-call patterns (short form + 5-step wizard)  
@@ -3042,14 +3160,54 @@ Hero form â Catalog health board â Issue, fix, and verify â Catal
 | Next template | Documented  PPC plan file |
 
 
-## 2026-10-23 � About page redesign (entity hub)
+## 2026-10-23 — Full-service unique page (services program page 1/20)
 
-**Task:** About page redesign per research plan � section order, team photos, schema, FAQ, outcomes
+**Task:** Dedicated Full-Service command-board composition; start services unique-pages program
+**Verification method:** `npx tsc --noEmit`; Playwright desktop 1440 + mobile 390
+**Result:** pass
+**Evidence:**
+- `/full-service-amazon-agency/` 200; H1 Full-service Amazon account management
+- All 11 section ids present: hero, manifesto, problem, audience, ops, coverage, cadence, results, lead-form, faq, close
+- Command board 4 lanes; problem tickets 4; lead form present; no About team heading
+- `layout: fullServiceCommand` + `FullServicePageTemplate`; other services still on shared template
+- Docs: SESSION-STATE, DECISIONS, SERVICES-PATTERN-REGISTER, SITE-SEO-MAP updated
+
+**NEXT:** Page 2 — `/amazon-ppc-management-agency/` with a different primary metaphor (not command board).
+
+## 2026-10-23 — Legal pages + URL -2 cleanup
+
+**Task:** Serve `/free-audit/`, `/privacy-policy/`, `/terms-conditions/`; 301/308 from `*-2` paths; build Privacy + Terms pages
+**Verification method:** `npx tsc --noEmit`; Playwright on localhost:3000
+**Result:** pass
+**Evidence:**
+- New pages 200: `/free-audit/` H1 Free Amazon audit; `/privacy-policy/` H1 Privacy Policy; `/terms-conditions/` H1 Terms and Conditions
+- Redirects 308: `/free-audit-2/` → `/free-audit/`; `/privacy-policy-2/` → `/privacy-policy/`; `/terms-conditions-2/` → `/terms-conditions/`
+- Contact footer legal: `/privacy-policy/`, `/terms-conditions/`; consent link `/privacy-policy/`
+- Docs: SITE-SEO-MAP, URL-INVENTORY, DECISIONS, SESSION-STATE updated
+
+**Notes:** Next.js `permanent: true` emits 308 (permanent). Encoding fix applied after a bad PowerShell bulk replace corrupted UTF-8 ellipses.
+
+## 2026-10-23 — Forms endpoint audit + select layout shift
+
+**Task:** Confirm all forms share one email path; fix dropdown header shift; re-test submits
+**Verification method:** Code audit of actions + form-notifier; Playwright E2E on localhost:3000
+**Result:** pass
+**Evidence:**
+- Delivery path: `submitContactForm` / `submitContactIntakeForm` / `submitAuditForm` → `notifyFormSubmission` → Resend `/emails` → `FORM_NOTIFICATION_EMAIL` ?? `CONTACT_FORM_TO`
+- Layout fix: `globals.css` `html body[data-scroll-locked]` zeros margin/padding compensation and keeps overflow visible (RemoveScroll still blocks wheel)
+- Playwright header width delta while select open: 0px (home, contact, PPC service)
+- Submits POST 200: hero audit, contact classic, contact intake funnel, free-audit-2 funnel, PPC service lead form
+
+**Notes:** Blog search GET form excluded (not a lead form). Email templates remain separate subjects, shared plain-text body.
+
+## 2026-10-23 � About page redesign (entity hub)
+
+**Task:** About page redesign per research plan � section order, team photos, schema, FAQ, outcomes
 **Verification method:** TypeScript compile, localhost Playwright/CDP snapshot, JSON-LD graph inspect, image HTTP check
 **Result:** pass
 **Evidence:**
-- `npx tsc --noEmit` � exit 0
-- `http://localhost:3000/about-us/` � H1 About eCom Gliders; breadcrumb Home/About; hero CTAs; stats + partner badge; story + milestones; values; growth framework with service links; markets; team portraits (6); outcomes (GoSports/FocusForm/Safefine); certifications; FAQ (5); final CTA
+- `npx tsc --noEmit` � exit 0
+- `http://localhost:3000/about-us/` � H1 About eCom Gliders; breadcrumb Home/About; hero CTAs; stats + partner badge; story + milestones; values; growth framework with service links; markets; team portraits (6); outcomes (GoSports/FocusForm/Safefine); certifications; FAQ (5); final CTA
 - JSON-LD `@graph` types: AboutPage, BreadcrumbList, Organization, Person x6, FAQPage
 - Team images HTTP 200 at `/images/about/team/*`; portraits visible in UI
 - SITE-SEO-MAP About row updated (schema + sections)

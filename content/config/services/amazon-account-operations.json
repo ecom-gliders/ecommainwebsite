@@ -1,13 +1,13 @@
 {
   "slug": "amazon-account-operations",
   "breadcrumbLabel": "Account Operations",
-  "layout": "account-ops",
+  "layout": "accountOpsShift",
   "hero": {
     "title": "Amazon account operations across ads, listings, and catalog",
-    "subtitle": "Cross-service alignment so creative, catalog, PPC, and analytics share one account strategy—not separate vendor priorities.",
+    "subtitle": "Cross-service alignment so ads, listings, catalog, and analytics share one priority board—not separate vendor lists.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request an account operations review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -55,12 +55,30 @@
           "type": "select",
           "required": false,
           "options": [
-            { "value": "", "label": "Please select" },
-            { "value": "ads-listings", "label": "Ads vs listings" },
-            { "value": "catalog-ads", "label": "Catalog vs advertising" },
-            { "value": "vendors", "label": "Too many vendors" },
-            { "value": "reporting", "label": "Reporting without owners" },
-            { "value": "all", "label": "Full account alignment" }
+            {
+              "value": "",
+              "label": "Please select"
+            },
+            {
+              "value": "ads-listings",
+              "label": "Ads vs listings"
+            },
+            {
+              "value": "catalog-ads",
+              "label": "Catalog vs advertising"
+            },
+            {
+              "value": "vendors",
+              "label": "Too many vendors"
+            },
+            {
+              "value": "reporting",
+              "label": "Reporting without owners"
+            },
+            {
+              "value": "all",
+              "label": "Full account alignment"
+            }
           ]
         }
       ]
@@ -305,7 +323,7 @@
         "imageAlt": "GoSports products from the Amazon account management case study"
       },
       {
-        "metric": "76% → 37%",
+        "metric": "76% to 37%",
         "brand": "VoltTech",
         "description": "Restructure that connected advertising efficiency to listing and catalog context across US and UK.",
         "href": "/case-study-3/",
@@ -373,14 +391,17 @@
     "subheading": "Share where vendors or teams disconnect. We outline a shared priority board and ownership map.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {
     "metaTitle": "Amazon Account Operations | Cross-Service Alignment | eCom Gliders",
     "metaDescription": "Amazon account operations for cross-service alignment across PPC, listings, catalog, and analytics under one priority board. Free audit.",
     "canonical": "https://ecomgliders.com/amazon-account-operations/",
-    "robots": { "index": true, "follow": true },
+    "robots": {
+      "index": true,
+      "follow": true
+    },
     "schema": "Service"
   }
 }

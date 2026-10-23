@@ -5,6 +5,13 @@ import {
   getBlogPostFaqItems,
 } from "@/components/blog/blog-post-article";
 import { CaseStudyDetailTemplate } from "@/components/case-studies/case-study-detail-template";
+import { DspPageTemplate } from "@/components/services/dsp/dsp-page-template";
+import { FullServicePageTemplate } from "@/components/services/full-service/full-service-page-template";
+import { PpcPageTemplate } from "@/components/services/ppc/ppc-page-template";
+import { AosPageTemplate } from "@/components/services/account-ops/aos-page-template";
+import { CpyPageTemplate } from "@/components/services/content/cpy-page-template";
+import { LstPageTemplate } from "@/components/services/listing/lst-page-template";
+import { RptPageTemplate } from "@/components/services/reporting/rpt-page-template";
 import { ServicePageTemplate } from "@/components/services/service-page-template";
 import { getContentRepository } from "@/infrastructure/content/get-content-repository";
 import { buildBlogPostJsonLd } from "@/lib/seo/blog-post-json-ld";
@@ -82,11 +89,27 @@ export default async function SlugPage({ params }: SlugPageProps) {
       <>
         <JsonLdScript data={jsonLd} />
         <main id="main-content">
-          <ServicePageTemplate
-            service={service}
-            site={site}
-            relatedPosts={relatedPosts}
-          />
+          {service.layout === "fullServiceCommand" ? (
+            <FullServicePageTemplate service={service} site={site} />
+          ) : service.layout === "ppcCockpit" ? (
+            <PpcPageTemplate service={service} site={site} />
+          ) : service.layout === "dspReachLattice" ? (
+            <DspPageTemplate service={service} site={site} />
+          ) : service.layout === "reportingLedger" ? (
+            <RptPageTemplate service={service} site={site} />
+          ) : service.layout === "accountOpsShift" ? (
+            <AosPageTemplate service={service} site={site} />
+          ) : service.layout === "listingPdpStack" ? (
+            <LstPageTemplate service={service} site={site} />
+          ) : service.layout === "contentCopyDesk" ? (
+            <CpyPageTemplate service={service} site={site} />
+          ) : (
+            <ServicePageTemplate
+              service={service}
+              site={site}
+              relatedPosts={relatedPosts}
+            />
+          )}
         </main>
       </>
     );

@@ -466,7 +466,7 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                 <span>
                   {wizard.consentLabel}{" "}
                   <Link
-                    href="/privacy-policy-2/"
+                    href="/privacy-policy/"
                     className="underline underline-offset-2 hover:text-accent"
                   >
                     Privacy Policy

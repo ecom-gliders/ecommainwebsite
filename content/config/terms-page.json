@@ -1,0 +1,104 @@
+{
+  "seo": {
+    "metaTitle": "Terms and Conditions | eCom Gliders",
+    "metaDescription": "Terms and conditions for using the eCom Gliders website and Amazon agency services, including payments, refunds, ownership, and cancellations.",
+    "canonical": "/terms-conditions/",
+    "robots": { "index": true, "follow": true }
+  },
+  "eyebrow": "Legal",
+  "h1": "Terms and Conditions",
+  "dateLabel": "Last updated",
+  "dateValue": "10 April 2025",
+  "intro": "Welcome to eCom Gliders. By continuing to browse or use this website, you agree to follow the terms below. These terms exist to keep work clear and transparent for both you and us.",
+  "sections": [
+    {
+      "heading": "What we offer",
+      "paragraphs": [
+        "We provide Amazon-related services, including PPC management, listing optimization, branding, creative strategy, and related account work. Services listed on our website reflect what we currently offer. You can review the full list on our Services page."
+      ]
+    },
+    {
+      "heading": "Using our services",
+      "paragraphs": [
+        "To work together successfully, we need your cooperation. You agree to:"
+      ],
+      "bullets": [
+        "Share access to any necessary Amazon accounts or tools",
+        "Respond to communication in a timely manner",
+        "Understand that we are not responsible for Amazon’s internal actions (such as account suspensions or algorithm changes)"
+      ]
+    },
+    {
+      "heading": "Payments and fees",
+      "paragraphs": [],
+      "bullets": [
+        "All payment terms will be outlined in your invoice or discussed before a project starts",
+        "Payments must be made on time — late payments may result in a pause in service",
+        "If your project is paused due to late payment, missing documents, or account access delays, a $100 reactivation fee may apply",
+        "All purchases made through our website are non-refundable. Please contact us if you have questions before placing an order"
+      ]
+    },
+    {
+      "heading": "Refunds",
+      "paragraphs": [
+        "Payments for our services (including one-time or automatically recurring charges) are non-refundable. Once payment is made, no refunds will be issued under any circumstances.",
+        "If you wish to cancel a subscription or recurring service, you must notify us at least 24 hours before the next billing cycle. Cancellations requested after a charge has been processed will not qualify for a refund.",
+        "We encourage you to contact us in advance if you have questions about which service best suits your needs."
+      ]
+    },
+    {
+      "heading": "Our work and ownership",
+      "paragraphs": [
+        "Until your payment is complete, all creatives, copy, and strategies we develop remain our property. Once full payment is made, you own the final delivered materials — unless we have agreed otherwise.",
+        "Do not share, reuse, or resell our work without our permission."
+      ]
+    },
+    {
+      "heading": "Privacy and confidentiality",
+      "paragraphs": [
+        "We take your privacy seriously. Any information you share with us is kept confidential and will only be used to complete your services. We will never sell your data or use it outside of your project."
+      ]
+    },
+    {
+      "heading": "No guarantees",
+      "paragraphs": [
+        "We work to deliver strong results, but due to the changing nature of Amazon, we cannot guarantee specific outcomes.",
+        "We are not liable for:"
+      ],
+      "bullets": [
+        "Lost sales or profits",
+        "Account issues caused by Amazon’s internal policies",
+        "Third-party tool delays or errors"
+      ]
+    },
+    {
+      "heading": "Canceling services",
+      "paragraphs": [
+        "You or we can end a project with written notice (for example, 14 days). If you cancel early, any unpaid work up to that point will still be billed.",
+        "We may also pause or stop service if these terms are violated or if payment is not received."
+      ]
+    },
+    {
+      "heading": "Updates to these terms",
+      "paragraphs": [
+        "These Terms and Conditions may be updated from time to time. Any changes will be posted on this page."
+      ]
+    },
+    {
+      "heading": "Need help?",
+      "paragraphs": [
+        "If you have questions about anything on this page, contact us using the details below."
+      ]
+    }
+  ],
+  "contact": {
+    "heading": "Contact",
+    "email": "info@ecomgliders.com",
+    "phone": "+1 (360) 660-1210",
+    "address": "1209 Mountain Road Pl NE 5913, Albuquerque, NM 87110"
+  },
+  "relatedLink": {
+    "label": "Privacy Policy",
+    "href": "/privacy-policy/"
+  }
+}

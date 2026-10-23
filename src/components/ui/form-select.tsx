@@ -26,7 +26,8 @@ interface FormSelectProps {
  * (OS/browser blue). Radix listbox + hidden input keeps FormData working.
  *
  * Uses position=popper + portal so the menu floats without expanding the
- * form. Sitewide `scrollbar-gutter: stable` limits jump when the list opens.
+ * form. Body scroll-lock layout side effects are neutralized in globals.css
+ * (`body[data-scroll-locked]`) so the sticky header does not shift.
  */
 export function FormSelect({
   id,

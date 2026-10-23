@@ -1,13 +1,13 @@
 {
   "slug": "amazon-dsp-management",
   "breadcrumbLabel": "Amazon DSP",
-  "layout": "dsp-ops",
+  "layout": "dspReachLattice",
   "hero": {
     "title": "Amazon DSP when Sponsored Ads are ready",
-    "subtitle": "Upper-funnel reach and retargeting aligned with Sponsored Ads. DSP only when Brand Registry, listings, and PPC foundations support it—no invented AMC or DSP-ROAS claims.",
+    "subtitle": "Reach and retargeting beside Sponsored Ads—only when Brand Registry and PPC are ready.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a DSP strategy review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -342,7 +342,7 @@
         "href": "/case-study-9/"
       },
       {
-        "metric": "ACOS 76% to 37%; spend −32%",
+        "metric": "ACOS 76% to 37%; spend -32%",
         "brand": "VoltTech Accessories (Electronics)",
         "description": "PPC rehab restored profitable traffic—the Sponsored Ads foundation brands need before adding DSP complexity. Not a DSP-attributed result.",
         "href": "/case-study-3/"
@@ -408,7 +408,7 @@
     "subheading": "Share Brand Registry status and budget intent. We assess readiness before recommending DSP—no invented ROAS claims.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

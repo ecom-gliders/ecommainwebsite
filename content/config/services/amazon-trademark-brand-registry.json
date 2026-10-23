@@ -7,7 +7,7 @@
     "subtitle": "Trademark readiness, enrollment guidance, and post-approval activation for A+, Stores, and brand protection—without posing as a law firm.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request Brand Registry guidance",
@@ -100,9 +100,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         }
       ]
@@ -351,7 +351,7 @@
     "subheading": "Share trademark status. We outline enrollment blockers and next steps—no invented approval timelines.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

@@ -10,12 +10,21 @@ import { notifyFormSubmission } from "@/infrastructure/forms/form-notifier";
 import { isHoneypotTriggered } from "@/lib/security/honeypot";
 import { getRateLimitKey, isRateLimited } from "@/lib/security/rate-limit";
 
+function getFormStringArray(formData: FormData, name: string): string[] {
+  return formData
+    .getAll(name)
+    .flatMap((value) => (typeof value === "string" ? [value.trim()] : []))
+    .filter((value) => value.length > 0);
+}
+
 const CORE_FORM_KEYS = new Set([
   "name",
   "email",
   "phone",
   "brandName",
   "amazonStoreUrl",
+  "services",
+  "marketplaces",
   "monthlyRevenue",
   "message",
   "consent",
@@ -69,12 +78,21 @@ export async function submitAuditForm(
     };
   }
 
+  const serviceInterest = (getFormString(formData, "serviceInterest") ?? "").trim();
+  const serviceSlug = (getFormString(formData, "serviceSlug") ?? "").trim();
+  let services = getFormStringArray(formData, "services");
+  if (services.length === 0 && serviceInterest) {
+    services = [serviceInterest];
+  }
+
   const parsed = auditFormSchema.safeParse({
     name: getFormString(formData, "name"),
     email: getFormString(formData, "email"),
     phone: getFormString(formData, "phone"),
     brandName: getFormString(formData, "brandName"),
     amazonStoreUrl: getFormString(formData, "amazonStoreUrl") ?? "",
+    services,
+    marketplaces: getFormStringArray(formData, "marketplaces"),
     monthlyRevenue: getFormString(formData, "monthlyRevenue"),
     message: getFormString(formData, "message"),
     consent: formData.get("consent") === "true" ? "true" : undefined,
@@ -92,8 +110,6 @@ export async function submitAuditForm(
   }
 
   const { website: _honeypot, consent: _consent, ...fields } = parsed.data;
-  const serviceInterest = (getFormString(formData, "serviceInterest") ?? "").trim();
-  const serviceSlug = (getFormString(formData, "serviceSlug") ?? "").trim();
   const qualificationFields = collectQualificationFields(formData);
 
   const delivery = await notifyFormSubmission({
@@ -106,7 +122,9 @@ export async function submitAuditForm(
       Email: fields.email,
       Phone: fields.phone,
       "Brand name": fields.brandName ?? "",
-      "Amazon store URL": fields.amazonStoreUrl ?? "",
+      "Amazon store URL": fields.amazonStoreUrl,
+      Services: fields.services.join(", "),
+      Marketplaces: fields.marketplaces.join(", "),
       "Monthly revenue": fields.monthlyRevenue ?? "",
       Message: fields.message ?? "",
       ...(serviceInterest ? { Service: serviceInterest } : {}),

@@ -5,6 +5,7 @@ import {
   aboutPageConfigSchema,
   contactPageConfigSchema,
   freeAuditPageConfigSchema,
+  legalPageConfigSchema,
   caseStudiesConfigSchema,
   faqConfigSchema,
   homepageConfigSchema,
@@ -16,6 +17,7 @@ import {
   type AboutPageConfig,
   type ContactPageConfig,
   type FreeAuditPageConfig,
+  type LegalPageConfig,
   type CaseStudyDetail,
   type CaseStudiesConfig,
   type FaqItem,
@@ -119,6 +121,14 @@ export class JsonFileContentRepository {
 
   async getAboutPage(): Promise<AboutPageConfig> {
     return this.loadRequiredJson("about-page.json", aboutPageConfigSchema);
+  }
+
+  async getPrivacyPage(): Promise<LegalPageConfig> {
+    return this.loadRequiredJson("privacy-page.json", legalPageConfigSchema);
+  }
+
+  async getTermsPage(): Promise<LegalPageConfig> {
+    return this.loadRequiredJson("terms-page.json", legalPageConfigSchema);
   }
 
   async getTestimonials(): Promise<TestimonialConfig[]> {

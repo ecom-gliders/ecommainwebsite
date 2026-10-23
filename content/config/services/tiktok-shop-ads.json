@@ -7,7 +7,7 @@
     "subtitle": "Short-form Shop ads for Amazon-led brands: creative before scale, clear SKU role, insights handed back to Amazon. No invented GMV, ROAS, or creator-network headcount claims.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a TikTok Shop ads review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -434,7 +434,7 @@
     "subheading": "We review SKU fit, creative readiness, and channel role beside Amazon. No invented GMV or ROAS claims.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

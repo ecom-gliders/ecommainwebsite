@@ -466,7 +466,7 @@
   html {
     background-color: var(--color-background);
     overflow-x: clip;
-    /* Prevent horizontal jump when overlays/dropdowns toggle the scrollbar */
+    /* Reserve scrollbar lane so overlays cannot change content width */
     scrollbar-gutter: stable;
   }
 
@@ -480,6 +480,28 @@
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     overflow-x: clip;
+  }
+
+  /*
+   * Radix Select (and other portals) mount react-remove-scroll, which sets
+   * body[data-scroll-locked] { overflow: hidden; margin-right: <scrollbar>px }.
+   * That double-compensates with scrollbar-gutter: stable (content shifts left)
+   * and overflow:hidden on body breaks position:sticky on the site header
+   * (hover mega-menu / top bar appears to vanish). Neutralize the layout side
+   * effects; wheel/touch scroll is still blocked by RemoveScroll listeners.
+   */
+  html body[data-scroll-locked] {
+    position: static !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    /* Do not hide overflow — that removes the scrollbar and breaks sticky headers.
+       RemoveScroll still blocks wheel/touch via capture listeners. */
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+    --removed-body-scroll-bar-size: 0px !important;
   }
 
   :focus-visible {

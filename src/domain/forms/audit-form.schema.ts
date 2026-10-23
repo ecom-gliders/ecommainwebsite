@@ -20,10 +20,12 @@ export const auditFormSchema = z.object({
   amazonStoreUrl: z
     .string()
     .trim()
-    .url("Enter a valid Amazon store URL.")
-    .max(500)
-    .optional()
-    .or(z.literal("")),
+    .min(1, "Enter your Amazon storefront URL.")
+    .url("Enter a valid Amazon storefront URL.")
+    .max(500),
+  // Funnel requires these client-side; service-page embeds may omit them.
+  services: z.array(z.string().trim().min(1)).max(25).default([]),
+  marketplaces: z.array(z.string().trim().min(1)).max(25).default([]),
   monthlyRevenue: z.string().trim().max(50).optional(),
   message: z.string().trim().max(5000).optional(),
   consent: z.literal("true", { message: "You must agree to the privacy policy." }),

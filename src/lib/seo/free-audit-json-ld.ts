@@ -26,12 +26,12 @@ export function buildFreeAuditPageJsonLd({
     },
   ];
 
-  if (page.faq.length > 0) {
+  if (page.faq.items.length > 0) {
     graph.push({
       "@type": "FAQPage",
       "@id": `${pageUrl}#faq`,
       url: pageUrl,
-      mainEntity: page.faq.map((item) => ({
+      mainEntity: page.faq.items.map((item) => ({
         "@type": "Question",
         name: item.question,
         acceptedAnswer: {

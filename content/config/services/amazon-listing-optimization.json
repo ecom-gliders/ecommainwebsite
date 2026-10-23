@@ -1,13 +1,13 @@
 {
   "slug": "amazon-listing-optimization",
   "breadcrumbLabel": "Listing Optimization",
-  "layout": "listing-seo",
+  "layout": "listingPdpStack",
   "hero": {
     "title": "Listing SEO built for ranking and conversion",
-    "subtitle": "Keyword research, conversion-focused copy, and field-level updates so organic visibility and paid traffic land on pages that close. No unverified rank-percentage guarantees.",
+    "subtitle": "Keyword research, conversion copy, and field updates so organic and paid traffic land on pages that close—no unverified rank guarantees.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request a listing review",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -117,20 +117,20 @@
     "heading": "Why listings lose rankings and conversions",
     "points": [
       {
-        "title": "Keyword coverage misses buyer language",
-        "description": "Titles and backend terms chase volume without matching how shoppers search."
+        "title": "Buyer keywords missing from the listing",
+        "description": "Shopper search terms never reach title, bullets, or backend."
       },
       {
-        "title": "Copy that informs but does not convert",
-        "description": "Bullets list features without objections, use cases, and differentiation."
+        "title": "Feature lists that do not convert",
+        "description": "Bullets skip objections, use cases, and proof."
       },
       {
-        "title": "Listings out of sync with advertising",
-        "description": "PPC sends traffic to weak messaging and incomplete attributes."
+        "title": "Ads pointing at weak pages",
+        "description": "PPC traffic lands on incomplete messaging."
       },
       {
-        "title": "No ongoing listing maintenance",
-        "description": "Search shifts and competitor moves go unaddressed after a one-time rewrite."
+        "title": "One rewrite, then silence",
+        "description": "No follow-up when search and competitors shift."
       }
     ]
   },
@@ -413,7 +413,7 @@
     "subheading": "We review priority ASINs, keyword gaps, and conversion blockers. No invented organic-rank percentage promises.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

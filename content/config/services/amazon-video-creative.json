@@ -7,7 +7,7 @@
     "subtitle": "Listing and ad cuts storyboarded for muted autoplay and placement specs—not recycled social films. No invented video CTR or CVR averages.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request Amazon video creative",
@@ -44,9 +44,9 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon store URL",
+          "label": "Amazon storefront URL",
           "type": "url",
-          "required": false,
+          "required": true,
           "placeholder": "https://www.amazon.com/stores/..."
         },
         {
@@ -430,7 +430,7 @@
     "subheading": "We review listing and advertising video opportunities. No invented video CTR or CVR averages.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

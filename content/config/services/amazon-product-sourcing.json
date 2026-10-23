@@ -7,7 +7,7 @@
     "subtitle": "Supplier shortlists scored against your category criteria, sample decisions, and launch handoff into catalog work. We do not manufacture products.",
     "cta": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     },
     "form": {
       "heading": "Request product sourcing support",
@@ -476,7 +476,7 @@
     "subheading": "Share category and stage. We outline brief, shortlist, and sample criteria.",
     "button": {
       "label": "Request a free audit",
-      "href": "/free-audit-2/"
+      "href": "/free-audit/"
     }
   },
   "seo": {

@@ -7,6 +7,32 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  async redirects() {
+    return [
+      { source: "/free-audit-2", destination: "/free-audit/", permanent: true },
+      { source: "/free-audit-2/", destination: "/free-audit/", permanent: true },
+      {
+        source: "/privacy-policy-2",
+        destination: "/privacy-policy/",
+        permanent: true,
+      },
+      {
+        source: "/privacy-policy-2/",
+        destination: "/privacy-policy/",
+        permanent: true,
+      },
+      {
+        source: "/terms-conditions-2",
+        destination: "/terms-conditions/",
+        permanent: true,
+      },
+      {
+        source: "/terms-conditions-2/",
+        destination: "/terms-conditions/",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     // Serve modern formats when the browser supports them (CWV / LCP).
     formats: ["image/avif", "image/webp"],

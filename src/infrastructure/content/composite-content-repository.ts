@@ -65,6 +65,14 @@ export class CompositeContentRepository implements ContentRepository {
     return this.jsonRepository.getAboutPage();
   }
 
+  getPrivacyPage() {
+    return this.jsonRepository.getPrivacyPage();
+  }
+
+  getTermsPage() {
+    return this.jsonRepository.getTermsPage();
+  }
+
   getTestimonials() {
     return this.jsonRepository.getTestimonials();
   }
