@@ -518,3 +518,33 @@ Used on page: /full-service-amazon-agency/ (Who full-service management is for)
 Paths: public/images/services/audience/ ; assets/source/audience/
 Validated: yes (copied; wired via audience.image in JSON)
 
+
+## 2026-10-23 - About page team portraits
+
+Date: 2026-10-23
+Source URL: https://ecomgliders.com/about-us/ (WP uploads / Elementor thumbs for Muneeb)
+Asset names: rizwan.jpg, mushahid.jpg, ubaid.jpg, umair.jpeg, muneeb.png, madrigal.png
+Type: image
+License: eCom Gliders first-party brand assets (see assets/licenses/about-team-portraits.md)
+Used on page: /about-us/
+Paths: public/images/about/team/ ; assets/source/about-team/ ; assets/approved/about-team/
+Validated: yes — files on disk and wired in about-page.json
+Notes: Muneeb full-size upload 404; Elementor thumb used as production source.
+
+## 2026-10-23 - About hero image
+Date: 2026-10-23
+Source: https://ecomgliders.com/wp-content/uploads/2025/04/about-us-page-main-image.png
+Asset: about/hero.png
+License: eCom Gliders first-party
+Used on: /about-us/ hero
+Validated: yes
+
+## 2026-10-23 - About team Aalyshan
+Date: 2026-10-23
+Source URL: https://ecomgliders.com/wp-content/uploads/2025/04/og-website-image-modified.jpg
+Asset name: about/team/aalyshan.jpg
+Type: image
+License: eCom Gliders first-party
+Used on page: /about-us/ team
+Validated: yes (166369 bytes)
+Note: Replaces Madrigal portrait on About team grid

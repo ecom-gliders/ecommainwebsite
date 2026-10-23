@@ -28,7 +28,10 @@ export async function SiteFooter() {
   const pathname = headerStore.get("x-pathname") ?? "";
   const slug = pathname.replace(/^\/+|\/+$/g, "");
   const suppressPreFooter =
-    slug === "services" || serviceSlugs.includes(slug);
+    slug === "services" ||
+    slug === "about-us" ||
+    slug === "contact" ||
+    serviceSlugs.includes(slug);
 
   const recentBlogLinks = selectFooterRecentBlogLinks(
     recentPosts,

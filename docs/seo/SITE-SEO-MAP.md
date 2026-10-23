@@ -565,8 +565,9 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | H1 | About eCom Gliders |
 | Canonical | https://ecomgliders.com/about-us/ |
 | Indexability | Index |
-| Schema | AboutPage, Organization |
-| Audit status | Implemented (2026-09-02) |
+| Schema | AboutPage, Organization, BreadcrumbList, Person, FAQPage |
+| Sections | Hero+CTA, proof stats+partner, story+timeline, values, growth framework (service links), markets, team photos, case outcomes, certifications, FAQ, CTA |
+| Audit status | Redesigned (2026-10-23) |
 
 ---
 
@@ -578,12 +579,14 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Contact eCom Gliders |
 | Search intent | Navigational/Transactional |
 | Title | Contact eCom Gliders \| Amazon Agency |
-| Meta description | Contact eCom Gliders for Amazon account management, PPC, and listing optimization. Call +1 (360) 660-1210 or request a free audit. |
-| H1 | Contact Us |
+| Meta description | Contact eCom Gliders for Amazon account management, PPC, and listing optimization. Call +1 (360) 660-1210 or send a message. |
+| H1 | Contact eCom Gliders |
 | Canonical | https://ecomgliders.com/contact/ |
 | Indexability | Index |
-| Schema | ContactPage |
-| Audit status | Implemented (2026-09-02) |
+| Schema | ContactPage, Organization (@id), ContactPoint, BreadcrumbList, FAQPage |
+| Sections | Hero + hours/SLA; path cards (message / strategy intake / free audit); short message form + NAP; 5-step strategy intake wizard; process; FAQ; internal links |
+| Internal links | Free Audit, About, Services, Case Studies, Privacy |
+| Audit status | Redesigned (2026-10-23) — AMZ contact + book-a-call patterns on one URL |
 
 ---
 
