@@ -19,12 +19,24 @@ Tracks unique visual devices claimed by each service page so later pages do not 
 2. PPC — **shipped**
 3. Listing optimization — **shipped 2026-10-23** (`listingPdpStack`)
 4. Content writing — **shipped 2026-10-23** (`contentCopyDesk`)
-5. Visual creativity — queued
-6. Catalog management — queued
+5. Visual creativity — **shipped 2026-10-23** (`visualFrameStack`)
+6. Catalog management — **shipped 2026-10-23** (`catalogBuyBoxGrid`)
 7. DSP management — **shipped 2026-10-23**
 8. Reporting and Analytics — **shipped 2026-10-23** (`reportingLedger`)
 9. Account Operations — **shipped 2026-10-23** (`accountOpsShift`)
-10–20. video → **trademark** → company reg → sourcing → **Shopify** → TikTok → email → **launch** → inventory → **Seller Central** → **account health** (Seller Central + account health **shipped** 2026-10-23)
+10. Video — **shipped 2026-10-23** (`videoStoryboard`)
+11. Trademark — **shipped 2026-10-23** (`brandPathwaySeal`)
+12. Company registration — **shipped 2026-10-23** (`entitySetupLadder`)
+13. Sourcing — **shipped 2026-10-23** (`sourcingLaneMap`)
+14. Shopify — **shipped 2026-10-23** (`dtcStorefrontRail`)
+15. TikTok — **shipped 2026-10-23** (`tiktokSparkRail`)
+16. Email — **shipped 2026-10-23** (`lifecycleCadenceLoop`)
+17. Launch — **shipped 2026-10-23** (`launchCountdownBoard`)
+18. Inventory — **shipped 2026-10-23** (`inventoryPulseBoard`)
+19. Seller Central — **shipped 2026-10-23** (`sellerCentralConsole`)
+20. Account health — **shipped 2026-10-23** (`accountHealthGauge`)
+
+**Program status: 20/20 unique service landings shipped.**
 
 | Device | Claimed by | Status |
 |--------|------------|--------|
