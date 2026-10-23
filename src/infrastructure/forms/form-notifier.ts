@@ -1,5 +1,5 @@
 interface FormNotificationPayload {
-  formType: "contact" | "audit";
+  formType: "contact" | "contact-intake" | "audit";
   subject: string;
   fields: Record<string, string>;
 }

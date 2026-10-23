@@ -1,8 +1,38 @@
 {
   "hero": {
     "title": "About eCom Gliders",
-    "subtitle": "Amazon account management specialists helping brands launch, optimize, and scale across US, UK, Canada, and EU marketplaces since 2018."
+    "eyebrow": "Amazon growth agency since 2018",
+    "subtitle": "Amazon account management specialists helping brands launch, optimize, and scale across US, UK, Canada, and EU marketplaces since 2018.",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit-2/"
+    },
+    "secondaryCta": {
+      "label": "Contact us",
+      "href": "/contact/"
+    },
+    "image": "/images/about/hero.png",
+    "imageAlt": "eCom Gliders Amazon specialists collaborating on account growth"
   },
+  "stats": [
+    {
+      "value": "$112M+",
+      "label": "Revenue managed",
+      "href": "/case-studies/"
+    },
+    {
+      "value": "95%",
+      "label": "Client retention"
+    },
+    {
+      "value": "20+",
+      "label": "In-house specialists"
+    },
+    {
+      "value": "2018",
+      "label": "Managing Amazon accounts since"
+    }
+  ],
   "story": {
     "heading": "Built to scale your Amazon success",
     "paragraphs": [
@@ -11,12 +41,26 @@
       "Every service is delivered internally by experienced team members. We are not a reseller of outsourced labor — we are a strategic partner invested in measurable outcomes for your brand."
     ]
   },
-  "stats": [
-    { "value": "$112M+", "label": "Revenue managed" },
-    { "value": "95%", "label": "Client retention" },
-    { "value": "20+", "label": "In-house specialists" },
-    { "value": "2018", "label": "Managing Amazon accounts since" }
-  ],
+  "timeline": {
+    "heading": "Milestones",
+    "items": [
+      {
+        "year": "2018",
+        "title": "Amazon account management begins",
+        "description": "Started helping Amazon sellers grow with structured account management rather than generic templates."
+      },
+      {
+        "year": "2022",
+        "title": "eCom Gliders LLC established",
+        "description": "Formally established as eCom Gliders LLC while expanding in-house PPC, listings, creative, and operations capacity."
+      },
+      {
+        "year": "Today",
+        "title": "Multi-marketplace growth partner",
+        "description": "20+ in-house specialists supporting US, UK, Canada, and EU brands with full-account and advertising programs."
+      }
+    ]
+  },
   "values": {
     "heading": "How we work",
     "items": [
@@ -45,22 +89,71 @@
       {
         "number": "01",
         "title": "Optimize",
-        "description": "Refine listings, SEO, main images, and A+ content to improve visibility, conversion, and catalog health."
+        "description": "Refine listings, SEO, main images, and A+ content to improve visibility, conversion, and catalog health.",
+        "href": "/amazon-listing-optimization/",
+        "linkLabel": "Listing optimization"
       },
       {
         "number": "02",
         "title": "Advertise",
-        "description": "Deploy structured PPC across Sponsored Products, Brands, and Display with continuous testing and bid management."
+        "description": "Deploy structured PPC across Sponsored Products, Brands, and Display with continuous testing and bid management.",
+        "href": "/amazon-ppc-management-agency/",
+        "linkLabel": "Amazon PPC management"
       },
       {
         "number": "03",
         "title": "Scale",
-        "description": "Expand winning campaigns, launch new ASINs, and strengthen brand presence as performance data confirms what works."
+        "description": "Expand winning campaigns, launch new ASINs, and strengthen brand presence as performance data confirms what works.",
+        "href": "/full-service-amazon-agency/",
+        "linkLabel": "Full account management"
       },
       {
         "number": "04",
         "title": "Partner",
-        "description": "Operate as a long-term growth partner — not a one-off project vendor — with reporting aligned to your revenue goals."
+        "description": "Operate as a long-term growth partner — not a one-off project vendor — with reporting aligned to your revenue goals.",
+        "href": "/contact/",
+        "linkLabel": "Talk with our team"
+      }
+    ]
+  },
+  "markets": {
+    "heading": "Markets we support",
+    "description": "We help Amazon brands grow across major English and European marketplaces with localized listing and advertising strategy.",
+    "items": ["United States", "United Kingdom", "Canada", "European Union"],
+    "moreLabel": "More markets",
+    "countries": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Brazil",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Italy",
+      "Spain",
+      "Netherlands",
+      "Belgium",
+      "Ireland",
+      "Sweden",
+      "Poland",
+      "Turkey",
+      "United Arab Emirates",
+      "Saudi Arabia",
+      "Egypt",
+      "South Africa",
+      "India",
+      "Japan",
+      "Australia",
+      "Singapore"
+    ],
+    "links": [
+      {
+        "label": "View services",
+        "href": "/services/"
+      },
+      {
+        "label": "View case studies",
+        "href": "/case-studies/"
       }
     ]
   },
@@ -71,38 +164,106 @@
       {
         "name": "Rizwan",
         "role": "Founder and leadership",
-        "bio": "Sets agency direction and drives innovation across departments with years of Amazon marketplace experience."
+        "bio": "Sets agency direction and drives innovation across departments with years of Amazon marketplace experience.",
+        "image": "/images/about/team/rizwan.jpg",
+        "imageAlt": "Rizwan, Founder at eCom Gliders"
       },
       {
         "name": "Mushahid",
         "role": "Strategy and growth",
-        "bio": "Specializes in brand scaling and marketplace development for established and emerging sellers."
+        "bio": "Specializes in brand scaling and marketplace development for established and emerging sellers.",
+        "image": "/images/about/team/mushahid.jpg",
+        "imageAlt": "Mushahid, Strategy and growth at eCom Gliders"
       },
       {
         "name": "Umair",
         "role": "PPC strategy",
-        "bio": "Builds data-driven advertising campaigns focused on profitable scale and ACOS control."
+        "bio": "Builds data-driven advertising campaigns focused on profitable scale and ACOS control.",
+        "image": "/images/about/team/umair.jpeg",
+        "imageAlt": "Umair, PPC strategy at eCom Gliders"
       },
       {
         "name": "Muneeb",
         "role": "Visual creative",
-        "bio": "Leads listing imagery, A+ content, and storefront design built for conversion."
+        "bio": "Leads listing imagery, A+ content, and storefront design built for conversion.",
+        "image": "/images/about/team/muneeb.png",
+        "imageAlt": "Muneeb, Visual creative at eCom Gliders"
       },
       {
-        "name": "Madrigal",
-        "role": "Catalog management",
-        "bio": "Maintains accurate, keyword-optimized listings and compliant Amazon catalogs."
+        "name": "Aalyshan",
+        "role": "Brand manager",
+        "bio": "Supports brand positioning, catalog presentation, and marketplace-facing brand assets for client accounts.",
+        "image": "/images/about/team/aalyshan.jpg",
+        "imageAlt": "Aalyshan, Brand manager at eCom Gliders"
       },
       {
         "name": "Ubaid",
         "role": "Operations",
-        "bio": "Ensures workflows, logistics coordination, and client deliverables run on schedule."
+        "bio": "Ensures workflows, logistics coordination, and client deliverables run on schedule.",
+        "image": "/images/about/team/ubaid.jpg",
+        "imageAlt": "Ubaid, Operations at eCom Gliders"
       }
     ]
+  },
+  "outcomes": {
+    "heading": "Selected outcomes",
+    "subheading": "A sample of results from brands we support across Amazon marketplaces.",
+    "items": [
+      {
+        "client": "GoSports",
+        "metric": "310%",
+        "metricLabel": "Sales increase",
+        "excerpt": "Strategic listing optimization, data-driven advertising, and improved brand positioning delivered a 310% increase in Amazon sales.",
+        "href": "/case-study-9/"
+      },
+      {
+        "client": "FocusForm",
+        "metric": "$118K",
+        "metricLabel": "Monthly revenue",
+        "excerpt": "A three-phase brand expansion roadmap moved FocusForm from a single ASIN to a multi-SKU category presence.",
+        "href": "/case-study-8/"
+      },
+      {
+        "client": "Safefine",
+        "metric": "28.9%",
+        "metricLabel": "Conversion rate",
+        "excerpt": "A psychology-first CRO redesign lifted conversion from 10.1% to 28.9% without changing the formula.",
+        "href": "/case-study-7/"
+      }
+    ],
+    "viewAll": {
+      "label": "View all case studies",
+      "href": "/case-studies/"
+    }
   },
   "certifications": {
     "heading": "Certifications and partnerships",
     "description": "Amazon Ads Verified Partner. We meet Amazon's standards for advertising expertise and client service."
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Is eCom Gliders an in-house team or an outsourced reseller network?",
+        "answer": "All core services — PPC, listings, creative, catalog, and account management — are delivered by our in-house specialists. We are not a reseller of rotating offshore freelancers."
+      },
+      {
+        "question": "Which Amazon marketplaces do you support?",
+        "answer": "We support brands across the United States, United Kingdom, Canada, and European Union stores with localized listing and advertising strategy."
+      },
+      {
+        "question": "What happens in a free account audit?",
+        "answer": "A strategist reviews your catalog and advertising posture, then outlines clear priorities — wasted spend, listing gaps, and what to fix first. There is no obligation to engage further."
+      },
+      {
+        "question": "How do you report progress?",
+        "answer": "We operate on a structured optimization schedule with transparent reporting aligned to revenue goals, not vanity metrics alone."
+      },
+      {
+        "question": "How long have you managed Amazon accounts?",
+        "answer": "We have been helping Amazon sellers since 2018 and were established as eCom Gliders LLC in 2022."
+      }
+    ]
   },
   "cta": {
     "heading": "Ready to scale your Amazon business?",

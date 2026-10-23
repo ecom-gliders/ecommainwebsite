@@ -10,7 +10,12 @@ export default function MarketingLayout({
     <>
       <SiteHeader />
       {/* Page ink CTA: join footer chrome, hide duplicate PreFooterCta punch strip */}
-      <div className="has-[#blog-post-cta]:[&>footer]:mt-0 has-[#blog-post-cta]:[&>footer]:rounded-t-none has-[#blog-post-cta]:[&_#pre-footer-cta]:hidden">
+      <div
+        className={[
+          "has-[#blog-post-cta]:[&>footer]:mt-0 has-[#blog-post-cta]:[&>footer]:rounded-t-none has-[#blog-post-cta]:[&_#pre-footer-cta]:hidden",
+          "has-[#about-cta]:[&>footer]:mt-0 has-[#about-cta]:[&>footer]:rounded-t-none has-[#about-cta]:[&_#pre-footer-cta]:hidden",
+        ].join(" ")}
+      >
         {children}
         <SiteFooter />
       </div>

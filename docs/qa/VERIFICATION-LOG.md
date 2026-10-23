@@ -4,6 +4,20 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-23 ? Contact page dual-section intake
+
+**Task:** Single `/contact/` with AMZ contact-us + book-a-call patterns (short form + 5-step wizard)  
+**Verification method:** `npx tsc --noEmit`; Playwright localhost walkthrough  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Extended `contact-page.json` / form-page schema; `ContactPageTemplate`; `ContactIntakeWizard`; `submitContactIntakeForm`; ContactPage/BreadcrumbList/Organization/ContactPoint/FAQPage JSON-LD  
+**VERIFIED:** tsc clean; H1 Contact eCom Gliders; sections hero/paths/message/intake/process/faq/links; JSON-LD graph types ContactPage, BreadcrumbList, Organization, FAQPage; wizard steps 1?5 (details ? services ? brand ? revenue ? reach) with Submit intake  
+**DOCUMENTED:** SITE-SEO-MAP Contact row; SESSION-STATE  
+**REMAINING:** Optional axe CI run; Resend delivery in production env  
+**NEXT ACTION:** None for this plan  
+
+---
+
 ## 2026-10-22 ? Blog convert-all + editorial shell
 
 **Task:** Config-driven blocks; convert-not-delete sanitize across 328; editorial hero/TOC/share  
@@ -3027,3 +3041,17 @@ Hero form â Catalog health board â Issue, fix, and verify â Catal
 | Block images | Verified  12/12 audience+includes imgs naturalWidth > 0 |
 | Next template | Documented  PPC plan file |
 
+
+## 2026-10-23 � About page redesign (entity hub)
+
+**Task:** About page redesign per research plan � section order, team photos, schema, FAQ, outcomes
+**Verification method:** TypeScript compile, localhost Playwright/CDP snapshot, JSON-LD graph inspect, image HTTP check
+**Result:** pass
+**Evidence:**
+- `npx tsc --noEmit` � exit 0
+- `http://localhost:3000/about-us/` � H1 About eCom Gliders; breadcrumb Home/About; hero CTAs; stats + partner badge; story + milestones; values; growth framework with service links; markets; team portraits (6); outcomes (GoSports/FocusForm/Safefine); certifications; FAQ (5); final CTA
+- JSON-LD `@graph` types: AboutPage, BreadcrumbList, Organization, Person x6, FAQPage
+- Team images HTTP 200 at `/images/about/team/*`; portraits visible in UI
+- SITE-SEO-MAP About row updated (schema + sections)
+
+**Notes:** Contact Us research paused by user request. Team assets sourced from live WP About (first-party); provenance in DOWNLOAD-LOG and assets/licenses/about-team-portraits.md.
