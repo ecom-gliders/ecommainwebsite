@@ -233,6 +233,32 @@ export const servicePageConfigSchema = z.object({
       "listingPdpStack",
       /** Content writing dedicated copy-desk / manuscript composition */
       "contentCopyDesk",
+      /** Visual creativity dedicated frame-stack / studio composition */
+      "visualFrameStack",
+      /** Video creative dedicated storyboard timeline composition */
+      "videoStoryboard",
+      /** Catalog management dedicated buy-box / variation-grid composition */
+      "catalogBuyBoxGrid",
+      /** Trademark / Brand Registry dedicated pathway-seal composition */
+      "brandPathwaySeal",
+      /** Shopify DTC dedicated storefront-rail / browser-chrome composition */
+      "dtcStorefrontRail",
+      /** US company registration dedicated entity-setup ladder composition */
+      "entitySetupLadder",
+      /** Product sourcing dedicated supply lane-map composition */
+      "sourcingLaneMap",
+      /** TikTok Shop ads dedicated spark-rail / phone-creative composition */
+      "tiktokSparkRail",
+      /** Product launch dedicated countdown-board / launch-pad composition */
+      "launchCountdownBoard",
+      /** FBA inventory dedicated pulse-board / warehouse-bay composition */
+      "inventoryPulseBoard",
+      /** Seller Central dedicated console / task-queue composition */
+      "sellerCentralConsole",
+      /** Account health dedicated policy-gauge / compliance-panel composition */
+      "accountHealthGauge",
+      /** Email retention dedicated lifecycle cadence loop composition */
+      "lifecycleCadenceLoop",
     ])
     .default("default"),
   /**

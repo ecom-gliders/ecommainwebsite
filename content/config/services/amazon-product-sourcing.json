@@ -1,7 +1,7 @@
 {
   "slug": "amazon-product-sourcing",
   "breadcrumbLabel": "Product Sourcing",
-  "layout": "sourcing-ops",
+  "layout": "sourcingLaneMap",
   "hero": {
     "title": "Amazon product sourcing for new ASINs",
     "subtitle": "Supplier shortlists scored against your category criteria, sample decisions, and launch handoff into catalog work. We do not manufacture products.",

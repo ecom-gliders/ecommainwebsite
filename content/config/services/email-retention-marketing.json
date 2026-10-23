@@ -1,10 +1,10 @@
 {
   "slug": "email-retention-marketing",
   "breadcrumbLabel": "Email Retention",
-  "layout": "lifecycle-ops",
+  "layout": "lifecycleCadenceLoop",
   "hero": {
     "title": "Email retention for Amazon brands",
-    "subtitle": "Lifecycle flows after legitimate owned opt-in. Amazon does not provide buyer emails for marketing—email complements ads; it does not replace them. No invented ROI claims.",
+    "subtitle": "Looped lifecycle email after legitimate owned opt-in. Amazon does not supply buyer emails for marketing—email complements ads, not replaces them.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -135,23 +135,23 @@
   },
   "stats": [],
   "problem": {
-    "heading": "Why Amazon brands underuse retention email",
+    "heading": "One-and-done email breaks retention",
     "points": [
       {
-        "title": "Acquisition only",
-        "description": "Ads bring buyers, but there is no owned relationship for replenishment or brand updates."
+        "title": "Single-send habit",
+        "description": "A promo after signup ends the relationship instead of looping welcome through loyalty."
       },
       {
-        "title": "Lists without journeys",
-        "description": "Broadcasts replace welcome, post-purchase, and win-back architecture."
+        "title": "No post-purchase loop",
+        "description": "Buyers never get education, replenishment, or win-back timing matched to cadence."
       },
       {
-        "title": "One offer for every stage",
-        "description": "New subscribers and past buyers get the same message."
+        "title": "Same message every stage",
+        "description": "New subscribers and repeat buyers receive identical broadcasts."
       },
       {
-        "title": "Amazon and DTC stay disconnected",
-        "description": "Bestsellers and product education never inform owned-channel email."
+        "title": "Amazon insight unused",
+        "description": "Proven bestsellers and product facts rarely inform owned-channel offers."
       }
     ]
   },
@@ -177,23 +177,23 @@
     ]
   },
   "solution": {
-    "heading": "How retention email programs run",
+    "heading": "Cadence loop stages we build",
     "steps": [
       {
-        "title": "Audience audit",
-        "description": "Review list health, capture points, and where email should support Amazon-led growth."
+        "title": "Welcome",
+        "description": "Confirm opt-in, set expectations, and route subscribers into the right first flow."
       },
       {
-        "title": "Lifecycle architecture",
-        "description": "Design welcome, post-purchase, replenishment, and win-back flows."
+        "title": "Nurture",
+        "description": "Post-purchase education, cross-sell, and replenishment timed to product cadence."
       },
       {
-        "title": "Flow production",
-        "description": "Write and build emails with clear offers and measurable CTAs."
+        "title": "Winback",
+        "description": "Re-engage quiet segments before decay with compliant offers and fresh launches."
       },
       {
-        "title": "Measure and refine",
-        "description": "Track engagement and contribution, then improve timing and offers."
+        "title": "Loyalty",
+        "description": "Repeat purchase paths and launch access for engaged owned-list subscribers."
       }
     ]
   },
@@ -238,8 +238,8 @@
     {
       "id": "email-day-journey-board",
       "type": "catalogHealthBoard",
-      "heading": "Lifecycle calendar (Day 0–45)",
-      "subheading": "Owned-list sequence with job and subject intent per beat. Timing shifts with replenishment cycles—Amazon never supplies buyer emails for marketing.",
+      "heading": "Cadence timing sheet (Day 0–45)",
+      "subheading": "Owned-list beats with job and subject intent per loop pass. Timing shifts with replenishment cycles—Amazon never supplies buyer emails for marketing.",
       "urlLabel": "retention.ecomgliders.com/journey",
       "boardLabel": "Lifecycle calendar",
       "disclaimer": "Illustrative calendar for planning. Not an open-rate or revenue guarantee. Capture must be owned opt-in (site, compliant inserts)—never Amazon PII.",

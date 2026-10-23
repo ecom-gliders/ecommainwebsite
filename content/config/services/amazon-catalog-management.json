@@ -1,7 +1,7 @@
 {
   "slug": "amazon-catalog-management",
   "breadcrumbLabel": "Catalog Management",
-  "layout": "catalog-ops",
+  "layout": "catalogBuyBoxGrid",
   "hero": {
     "title": "Amazon catalog management that keeps ASINs live",
     "subtitle": "Suppressions, variation structure, and attribute quality—prioritized by revenue impact and coordinated with advertising and listing work.",
@@ -235,6 +235,27 @@
       {
         "title": "Seller Central case follow-up",
         "description": "Support on catalog-related cases when Amazon review is required."
+      }
+    ]
+  },
+  "differ": {
+    "heading": "How eCom Gliders catalog management differs",
+    "points": [
+      {
+        "title": "Revenue-sorted remediation, not ticket queues",
+        "description": "Priority ASINs and ad-supported SKUs are cleared first so spend lands on live pages."
+      },
+      {
+        "title": "Variation work with a rollback plan",
+        "description": "Parent-child changes are scoped before edits because structure affects reviews and discoverability."
+      },
+      {
+        "title": "Aligned with PPC and listing teams",
+        "description": "Catalog readiness is confirmed before major campaign or content updates ship."
+      },
+      {
+        "title": "In-house ops with audit-first scoping",
+        "description": "Catalog size, issue type, and monitoring cadence are set during a free audit consultation."
       }
     ]
   },

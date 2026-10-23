@@ -1,7 +1,7 @@
 {
   "slug": "amazon-account-health",
   "breadcrumbLabel": "Account Health",
-  "layout": "account-ops",
+  "layout": "accountHealthGauge",
   "hero": {
     "title": "Amazon account health monitoring and response",
     "subtitle": "Monitoring for policy notices, performance issues, and cases that need prompt, documented response—so account health does not become a surprise suspension risk.",

@@ -1,7 +1,7 @@
 {
   "slug": "amazon-trademark-brand-registry",
   "breadcrumbLabel": "Trademark and Brand Registry",
-  "layout": "brand-pathway",
+  "layout": "brandPathwaySeal",
   "hero": {
     "title": "Brand Registry pathway support for Amazon sellers",
     "subtitle": "Trademark readiness, enrollment guidance, and post-approval activation for A+, Stores, and brand protection—without posing as a law firm.",
@@ -275,6 +275,27 @@
       ]
     }
   ],
+  "differ": {
+    "heading": "How eCom Gliders Brand Registry support differs",
+    "points": [
+      {
+        "title": "One pathway from mark to enrollment",
+        "description": "Trademark readiness, documentation, and Brand Registry submission treated as one sequence—not separate vendors."
+      },
+      {
+        "title": "Process guidance, not legal representation",
+        "description": "We outline filing steps and enrollment materials; attorney-led work is scoped explicitly when required."
+      },
+      {
+        "title": "Post-approval activation planned early",
+        "description": "A+, Stores, catalog control, and protection workflows mapped before approval lands."
+      },
+      {
+        "title": "Aligned with catalog and content teams",
+        "description": "Brand Registry access connected to listing, creative, and account workstreams in-house."
+      }
+    ]
+  },
   "results": {
     "heading": "Results from brand-ready Amazon growth work",
     "items": [

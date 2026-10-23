@@ -9,9 +9,22 @@ import { DspPageTemplate } from "@/components/services/dsp/dsp-page-template";
 import { FullServicePageTemplate } from "@/components/services/full-service/full-service-page-template";
 import { PpcPageTemplate } from "@/components/services/ppc/ppc-page-template";
 import { AosPageTemplate } from "@/components/services/account-ops/aos-page-template";
+import { CatPageTemplate } from "@/components/services/catalog/cat-page-template";
 import { CpyPageTemplate } from "@/components/services/content/cpy-page-template";
+import { VidPageTemplate } from "@/components/services/video/vid-page-template";
+import { VisPageTemplate } from "@/components/services/visual/vis-page-template";
 import { LstPageTemplate } from "@/components/services/listing/lst-page-template";
+import { BrdPageTemplate } from "@/components/services/brand/brd-page-template";
+import { EntPageTemplate } from "@/components/services/entity/ent-page-template";
+import { SrcPageTemplate } from "@/components/services/sourcing/src-page-template";
 import { RptPageTemplate } from "@/components/services/reporting/rpt-page-template";
+import { TtkPageTemplate } from "@/components/services/tiktok/ttk-page-template";
+import { ShpPageTemplate } from "@/components/services/shopify/shp-page-template";
+import { ScPageTemplate } from "@/components/services/seller-central/sc-page-template";
+import { AhlPageTemplate } from "@/components/services/account-health/ahl-page-template";
+import { InvPageTemplate } from "@/components/services/inventory/inv-page-template";
+import { LncPageTemplate } from "@/components/services/launch/lnc-page-template";
+import { EmlPageTemplate } from "@/components/services/email/eml-page-template";
 import { ServicePageTemplate } from "@/components/services/service-page-template";
 import { getContentRepository } from "@/infrastructure/content/get-content-repository";
 import { buildBlogPostJsonLd } from "@/lib/seo/blog-post-json-ld";
@@ -103,6 +116,32 @@ export default async function SlugPage({ params }: SlugPageProps) {
             <LstPageTemplate service={service} site={site} />
           ) : service.layout === "contentCopyDesk" ? (
             <CpyPageTemplate service={service} site={site} />
+          ) : service.layout === "catalogBuyBoxGrid" ? (
+            <CatPageTemplate service={service} site={site} />
+          ) : service.layout === "visualFrameStack" ? (
+            <VisPageTemplate service={service} site={site} />
+          ) : service.layout === "videoStoryboard" ? (
+            <VidPageTemplate service={service} site={site} />
+          ) : service.layout === "brandPathwaySeal" ? (
+            <BrdPageTemplate service={service} site={site} />
+          ) : service.layout === "entitySetupLadder" ? (
+            <EntPageTemplate service={service} site={site} />
+          ) : service.layout === "sourcingLaneMap" ? (
+            <SrcPageTemplate service={service} site={site} />
+          ) : service.layout === "tiktokSparkRail" ? (
+            <TtkPageTemplate service={service} site={site} />
+          ) : service.layout === "dtcStorefrontRail" ? (
+            <ShpPageTemplate service={service} site={site} />
+          ) : service.layout === "launchCountdownBoard" ? (
+            <LncPageTemplate service={service} site={site} />
+          ) : service.layout === "inventoryPulseBoard" ? (
+            <InvPageTemplate service={service} site={site} />
+          ) : service.layout === "sellerCentralConsole" ? (
+            <ScPageTemplate service={service} site={site} />
+          ) : service.layout === "accountHealthGauge" ? (
+            <AhlPageTemplate service={service} site={site} />
+          ) : service.layout === "lifecycleCadenceLoop" ? (
+            <EmlPageTemplate service={service} site={site} />
           ) : (
             <ServicePageTemplate
               service={service}

@@ -1,7 +1,7 @@
 {
   "slug": "amazon-inventory-management",
   "breadcrumbLabel": "Inventory Management",
-  "layout": "account-ops",
+  "layout": "inventoryPulseBoard",
   "hero": {
     "title": "Amazon inventory management that protects ad spend",
     "subtitle": "FBA stock signals, restock follow-through, and launch timing so top SKUs stay available while advertising demand rises.",
@@ -331,7 +331,7 @@
         "imageAlt": "Kitchen brand products from the Amazon account case study"
       },
       {
-        "metric": "76% ? 37%",
+        "metric": "76% to 37%",
         "brand": "VoltTech",
         "description": "ACoS cut while ad spend fell 32% across US and UK—efficiency work that depends on buyable inventory.",
         "href": "/case-study-3/",

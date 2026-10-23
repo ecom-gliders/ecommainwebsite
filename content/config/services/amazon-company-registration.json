@@ -1,7 +1,7 @@
 {
   "slug": "amazon-company-registration",
   "breadcrumbLabel": "Company Registration",
-  "layout": "entity-setup",
+  "layout": "entitySetupLadder",
   "hero": {
     "title": "US company registration support for Amazon sellers",
     "subtitle": "US entity formation guidance tied to Seller Central readiness and Brand Registry planning. Not legal or tax advice.",

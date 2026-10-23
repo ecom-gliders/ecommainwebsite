@@ -24,7 +24,7 @@ Tracks unique visual devices claimed by each service page so later pages do not 
 7. DSP management — **shipped 2026-10-23**
 8. Reporting and Analytics — **shipped 2026-10-23** (`reportingLedger`)
 9. Account Operations — **shipped 2026-10-23** (`accountOpsShift`)
-10–20. video → trademark → company reg → sourcing → Shopify → TikTok → email → launch → inventory → Seller Central → account health
+10–20. video → **trademark** → company reg → sourcing → **Shopify** → TikTok → email → **launch** → inventory → **Seller Central** → **account health** (Seller Central + account health **shipped** 2026-10-23)
 
 | Device | Claimed by | Status |
 |--------|------------|--------|
@@ -89,8 +89,66 @@ Tracks unique visual devices claimed by each service page so later pages do not 
 | Pull-quote proof cards | Content | Shipped |
 | Voice-register FAQ legend | Content | Shipped |
 | Manuscript submit close | Content | Shipped |
+| Cream legal wash + vertical pathway seal stamps + hero form | Trademark / Brand Registry | Shipped 2026-10-23 (`brandPathwaySeal`) |
+| Unprotected brand vs gated unlock contrast | Trademark / Brand Registry | Shipped |
+| Passport-stamp audience cards | Trademark / Brand Registry | Shipped |
+| Thin-rule seal-circle solution spine | Trademark / Brand Registry | Shipped |
+| Stamp-variant pathway board + unlock grid modules | Trademark / Brand Registry | Shipped |
+| Unlock capability deliverable tiles | Trademark / Brand Registry | Shipped |
+| Seal contrast differ + approval-stamp proof | Trademark / Brand Registry | Shipped |
+| Enrollment-state FAQ legend + pathway close | Trademark / Brand Registry | Shipped |
+| Soft commerce wash + browser-chrome storefront rail (Hero / Collection / PDP / Cart tabs) + hero form | Shopify | Shipped 2026-10-23 |
+| Amazon-only vs owned storefront split problem | Shopify | Shipped |
+| Brand-stage storefront floor stack audience | Shopify | Shipped |
+| Horizontal build-rail solution steps | Shopify | Shipped |
+| Theme module-card deliverable grid | Shopify | Shipped |
+| Channel ops browser table (Amazon + Shopify jobs) | Shopify | Shipped |
+| Horizontal milestone rail (build path module) | Shopify | Shipped |
+| Theme editor scope slot grid | Shopify | Shipped |
+| Dual-channel proof bar cards + bordered FAQ | Shopify | Shipped |
+| Checkout-style close CTA | Shopify | Shipped |
+| Dark social spark-rail hero (vertical phone slots + stage labels) + lime form | TikTok Shop ads | Shipped 2026-10-23 (`tiktokSparkRail`) |
+| Organic-only vs paid spark phone split | TikTok Shop ads | Shipped |
+| Creator/brand phone-seat audience tiles | TikTok Shop ads | Shipped |
+| Campaign stage rail (Test / Scale / Refresh / Handoff) | TikTok Shop ads | Shipped |
+| Shop ad format deliverable cards | TikTok Shop ads | Shipped |
+| Fit gate phone-column board + focus phone bars | TikTok Shop ads | Shipped |
+| SPK spark risk lanes + GMV vs Amazon-first differ | TikTok Shop ads | Shipped |
+| Channel legend FAQ + spark end-card close | TikTok Shop ads | Shipped |
+| Dark launch-pad hero (T-minus phase tiles) + lime form | Product launch | Shipped 2026-10-23 (`launchCountdownBoard`) |
+| Cold launch vs staged countdown split | Product launch | Shipped |
+| Pad-station audience tiles | Product launch | Shipped |
+| T-minus phase rail solution steps | Product launch | Shipped |
+| Launch checklist deliverable tiles | Product launch | Shipped |
+| Hold/abort gate lanes | Product launch | Shipped |
+| Dark readiness console sheet + phase column | Product launch | Shipped |
+| Seller proof in pad frame + pad case cards | Product launch | Shipped |
+| Phase legend FAQ + launch pad close | Product launch | Shipped |
+| Light wash entity-setup ladder hero (ascending jurisdiction rungs) + lime form | Company registration | Shipped 2026-10-23 (`entitySetupLadder`) |
+| Blocked marketplace access vs ready entity contrast | Company registration | Shipped |
+| Founder stage ladder landings | Company registration | Shipped |
+| Diagonal ascending rung solution steps | Company registration | Shipped |
+| Document checklist deliverable tiles | Company registration | Shipped |
+| JSON doc-gate sheet + Amazon handoff pathway boards | Company registration | Shipped |
+| Service boundary legend FAQ + entity readiness close | Company registration | Shipped |
+| Light industrial wash + warehouse bay pulse grid + lime form | Inventory management | Shipped 2026-10-23 (`inventoryPulseBoard`) |
+| Stockout vs healthy coverage bar contrast | Inventory management | Shipped |
+| Equal bay-slot audience cards | Inventory management | Shipped |
+| Replenishment cycle ring + step grid | Inventory management | Shipped |
+| Control-panel deliverable tiles | Inventory management | Shipped |
+| Bay-door ops lane panels | Inventory management | Shipped |
+| Weekly inventory ownership sheet | Inventory management | Shipped |
+| Coverage equal-card FAQ + inventory close | Inventory management | Shipped |
 | Ink story-bleed / portrait team | About | Forbidden on services |
 | Lime multi-step wizard | Contact | Forbidden on services |
 | Scorecard mosaic | Free Audit | Forbidden on services |
+| Soft gray Seller Central console hero (nav panes + task queue) + lime form | Seller Central | Shipped 2026-10-23 (`sellerCentralConsole`) |
+| Sticky-note vs queue problem contrast | Seller Central | Shipped |
+| Console pane audience tiles + workflow rail steps | Seller Central | Shipped |
+| Case-folder ops lanes + console weekly board | Seller Central | Shipped |
+| Dark policy-gauge hero (horizontal threshold bars) + lime form | Account Health | Shipped 2026-10-23 (`accountHealthGauge`) |
+| Unread vs monitored notice contrast | Account Health | Shipped |
+| Compliance tier audience + dark response track | Account Health | Shipped |
+| Threshold-bar ops lanes + dark-header health board | Account Health | Shipped |
 
 Update this file when each service page ships.

@@ -1,7 +1,7 @@
 {
   "slug": "amazon-seller-central-services",
   "breadcrumbLabel": "Seller Central Services",
-  "layout": "account-ops",
+  "layout": "sellerCentralConsole",
   "hero": {
     "title": "Amazon Seller Central services for day-to-day ownership",
     "subtitle": "Structured handling of account tasks, cases, promotions, and operational requests—so Seller Central work keeps moving between audits.",

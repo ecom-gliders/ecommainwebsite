@@ -1,7 +1,7 @@
 {
   "slug": "amazon-product-launch-services",
   "breadcrumbLabel": "Product Launches",
-  "layout": "account-ops",
+  "layout": "launchCountdownBoard",
   "hero": {
     "title": "Amazon product launch services under one plan",
     "subtitle": "Listing readiness, launch advertising, and early performance tracking coordinated from day one—so spend, stock, and conversion stay aligned.",
