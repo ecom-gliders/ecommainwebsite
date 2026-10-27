@@ -17,7 +17,7 @@ interface VisPageTemplateProps {
 
 /**
  * Visual creativity composition (layout visualFrameStack).
- * Creative frame stack metaphor — not copy desk, PDP mock, or visual-ops card stack.
+ * Creative frame stack metaphor - not copy desk, PDP mock, or visual-ops card stack.
  */
 export function VisPageTemplate({ service, site }: VisPageTemplateProps) {
   return (

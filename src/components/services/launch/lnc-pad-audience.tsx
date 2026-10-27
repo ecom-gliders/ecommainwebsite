@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,14 +10,26 @@ interface LncPadAudienceProps {
   service: ServicePageConfig;
 }
 
-const PAD_LABELS = [
-  "Listing pad",
-  "Ads pad",
-  "Inventory pad",
-  "Ops pad",
+const PAD_META = [
+  {
+    label: "Listing pad",
+    src: "/images/services/amazon-product-launch-services/lnc-pad-listing-v2.jpg",
+  },
+  {
+    label: "Ads pad",
+    src: "/images/services/amazon-product-launch-services/lnc-pad-ads-v2.jpg",
+  },
+  {
+    label: "Inventory pad",
+    src: "/images/services/amazon-product-launch-services/lnc-pad-stock-v2.jpg",
+  },
+  {
+    label: "Ops pad",
+    src: "/images/services/amazon-product-launch-services/lnc-pad-ops-v2.jpg",
+  },
 ] as const;
 
-/** Launch roles as equal pad stations — not phone seats or passport stamps. */
+/** Launch roles as equal pad stations - not phone seats or passport stamps. */
 export function LncPadAudience({ service }: LncPadAudienceProps) {
   const audience = service.audience;
   if (!audience?.points?.length) return null;
@@ -38,34 +51,39 @@ export function LncPadAudience({ service }: LncPadAudienceProps) {
         </h2>
 
         <ul className="mt-8 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4">
-          {points.map((point, index) => (
-            <li
-              key={point.title}
-              className="flex min-h-[14rem] flex-col border-2 border-primary bg-[#0c0c0b] p-4 text-text-on-dark"
-            >
-              <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
-                {PAD_LABELS[index] ?? `Pad ${index + 1}`}
-              </p>
-              <div
-                className="mt-3 flex flex-1 flex-col justify-end rounded-sm border border-text-on-dark/20 bg-[#141412] p-3"
-                aria-hidden="true"
+          {points.map((point, index) => {
+            const pad = PAD_META[index] ?? PAD_META[0];
+            return (
+              <li
+                key={point.title}
+                className="flex min-h-[14rem] flex-col overflow-hidden border-2 border-primary bg-[#0c0c0b] text-text-on-dark"
               >
-                <span className="font-mono text-[8px] font-bold uppercase text-text-on-dark/40">
-                  Station
-                </span>
-                <span className="mt-1 font-mono text-lg font-black tabular-nums text-accent">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <div className="mt-2 h-1 w-full bg-accent/40" />
-              </div>
-              <h3 className="mt-3 text-sm font-black leading-snug text-text-on-dark sm:text-base">
-                {point.title}
-              </h3>
-              <p className="mt-2 flex-1 text-xs font-medium leading-snug text-text-on-dark/70 sm:text-sm">
-                {point.description}
-              </p>
-            </li>
-          ))}
+                <div className="relative aspect-[4/3] w-full border-b border-accent/30">
+                  <Image
+                    src={pad.src}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                  />
+                  <p className="absolute left-2 top-2 border border-accent/60 bg-primary/80 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                    {pad.label}
+                  </p>
+                </div>
+                <div className="flex flex-1 flex-col p-4">
+                  <span className="font-mono text-[8px] font-bold uppercase text-text-on-dark/40">
+                    Station {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-2 text-sm font-black leading-snug text-text-on-dark sm:text-base">
+                    {point.title}
+                  </h3>
+                  <p className="mt-2 flex-1 text-xs font-medium leading-snug text-text-on-dark/70 sm:text-sm">
+                    {point.description}
+                  </p>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </ServicePageShell>
     </section>

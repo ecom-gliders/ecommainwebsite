@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -13,15 +14,17 @@ const SUPPRESSED_SKU = {
   asin: "B0XX-SUPP",
   title: "Men's boot · Size 11",
   issues: ["Missing required attribute", "Detail page conflict", "Not in search"],
+  src: "/images/services/amazon-catalog-management/cat-suppressed.jpg",
 };
 
 const BUYABLE_SKU = {
   asin: "B0XX-LIVE",
   title: "Men's boot · Size 10",
   signals: ["Offer active", "Variation linked", "Indexed in search"],
+  src: "/images/services/amazon-catalog-management/cat-buyable.jpg",
 };
 
-/** Suppressed vs buyable SKU contrast — not heatmap or spec dump. */
+/** Suppressed vs buyable SKU contrast - not heatmap or spec dump. */
 export function CatBuyboxProblem({ service }: CatBuyboxProblemProps) {
   const { problem } = service;
 
@@ -48,6 +51,15 @@ export function CatBuyboxProblem({ service }: CatBuyboxProblemProps) {
               <span className="border border-text-on-dark/30 px-1.5 py-px font-mono text-[9px] font-bold uppercase text-text-on-dark/60 line-through">
                 No buy box path
               </span>
+            </div>
+            <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20">
+              <Image
+                src={SUPPRESSED_SKU.src}
+                alt=""
+                fill
+                className="object-cover opacity-80 grayscale"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
             </div>
             <p className="mt-3 font-mono text-xs font-bold text-accent">
               {SUPPRESSED_SKU.asin}
@@ -89,6 +101,15 @@ export function CatBuyboxProblem({ service }: CatBuyboxProblemProps) {
               <span className="border-2 border-primary bg-background px-1.5 py-px font-mono text-[9px] font-black uppercase text-primary">
                 Live offer
               </span>
+            </div>
+            <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary">
+              <Image
+                src={BUYABLE_SKU.src}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
             </div>
             <p className="mt-3 font-mono text-xs font-bold text-primary">
               {BUYABLE_SKU.asin}

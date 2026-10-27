@@ -191,9 +191,9 @@ export function CaseStudyDetailTemplate({
 
       {scene ? (
         <SectionShell id="case-study-visual" ariaLabelledBy="case-study-visual-heading">
-          <div className={cn(caseStudyHardPanel, "overflow-hidden bg-[#F4F4F4]")}>
-            <div className="grid lg:grid-cols-[1.4fr_1fr]">
-              <div className="relative min-h-[16rem] aspect-[16/10] lg:aspect-auto lg:min-h-[22rem]">
+          <div className={cn(caseStudyHardPanel, "min-w-0 overflow-hidden bg-[#F4F4F4]")}>
+            <div className="grid min-w-0 lg:grid-cols-[1.4fr_1fr]">
+              <div className="relative min-h-[16rem] aspect-[16/10] min-w-0 lg:aspect-auto lg:min-h-[22rem]">
                 <Image
                   src={scene}
                   alt={sceneAlt}
@@ -203,7 +203,7 @@ export function CaseStudyDetailTemplate({
                   quality={85}
                 />
               </div>
-              <div className="flex flex-col justify-center p-8 sm:p-10">
+              <div className="flex min-w-0 flex-col justify-center p-5 sm:p-8 lg:p-10">
                 <h2 id="case-study-visual-heading" className="text-h3">
                   Engagement snapshot
                 </h2>

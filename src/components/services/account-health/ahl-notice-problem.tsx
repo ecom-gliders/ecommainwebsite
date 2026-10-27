@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,80 +10,109 @@ interface AhlNoticeProblemProps {
   service: ServicePageConfig;
 }
 
+const UNREAD = [
+  "Notices pile up without owners",
+  "Evidence gathered after the deadline",
+  "Performance drift spotted too late",
+];
+
+const MONITORED = [
+  "Named owner on every open notice",
+  "Evidence pack before the due window",
+  "Threshold watch tied to weekly ops",
+];
+
+/** Unread inbox vs monitored compliance — dark contrast panel. */
 export function AhlNoticeProblem({ service }: AhlNoticeProblemProps) {
   const { problem } = service;
 
   return (
     <section
       id="service-problem"
-      className={cn("bg-background", serviceSectionPad)}
+      className={cn("bg-primary text-text-on-dark", serviceSectionPad)}
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,14rem)_minmax(0,1fr)] lg:items-start lg:gap-10">
-          <div className="mx-auto w-full max-w-[14rem]" aria-hidden="true">
-            <div className="border-2 border-primary bg-[#F4F4F4] p-3">
-              <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
-                Unread inbox
-              </p>
-              <ul className="mt-2 space-y-1.5">
-                {["Policy", "Performance", "Listing"].map((row) => (
-                  <li
-                    key={row}
-                    className="h-2 w-full bg-primary/15"
-                  />
-                ))}
-              </ul>
-            </div>
-            <p className="my-3 text-center font-mono text-[10px] font-bold uppercase text-text-secondary">
-              vs
+        <div className="grid gap-7 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.2fr)] lg:items-stretch lg:gap-9">
+          <div className="flex flex-col justify-center">
+            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+              Notice risk modes
             </p>
-            <div className="border-2 border-primary bg-primary p-3 text-text-on-dark">
-              <p className="font-mono text-[9px] font-bold uppercase text-accent">
-                Monitored
-              </p>
-              <ul className="mt-2 space-y-2">
-                {["Owner", "Evidence", "Due"].map((col) => (
-                  <li key={col} className="flex items-center gap-2">
-                    <span className="h-2 w-2 shrink-0 bg-accent" />
-                    <span className="text-[10px] font-bold">{col}</span>
-                    <span className="h-1 flex-1 bg-accent/40" />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div>
             <h2
               id="service-problem-heading"
-              className="text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+              className="mt-2 max-w-md text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
             >
               {problem.heading}
             </h2>
-            <ul className="mt-6 grid grid-cols-1 overflow-hidden border-2 border-primary sm:grid-cols-2">
+            <ul className="mt-7 space-y-4">
               {problem.points.map((point, index) => (
-                <li
-                  key={point.title}
-                  className={cn(
-                    "bg-[#F4F4F4] p-4 sm:p-5",
-                    index % 2 === 1 && "sm:border-l-2 sm:border-primary",
-                    index >= 2 && "border-t-2 border-primary",
-                    index === 1 && "border-t-2 border-primary sm:border-t-0",
-                  )}
-                >
-                  <p className="font-mono text-[10px] font-bold text-text-secondary">
+                <li key={point.title} className="border-l-2 border-accent pl-4">
+                  <p className="font-mono text-[10px] font-bold text-accent">
                     Risk {String(index + 1).padStart(2, "0")}
                   </p>
-                  <h3 className="mt-1 text-base font-bold text-primary">
+                  <h3 className="mt-1 text-base font-black leading-snug text-text-on-dark sm:text-lg">
                     {point.title}
                   </h3>
-                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-secondary">
+                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
                     {point.description}
                   </p>
                 </li>
               ))}
             </ul>
+          </div>
+
+          <div
+            className="flex flex-col overflow-hidden border-2 border-accent"
+            aria-label="Unread inbox versus monitored compliance"
+          >
+            <div className="grid flex-1 grid-cols-1 sm:grid-cols-2">
+              <div className="flex flex-col bg-[#161614] p-5 sm:p-6">
+                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+                  Unread inbox
+                </p>
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20 bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-account-health/ahl-problem-unread-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover opacity-90"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                  <p className="absolute bottom-2 left-2 border border-text-on-dark/30 bg-primary/85 px-1.5 py-0.5 font-mono text-[9px] font-black text-[#E8B0B0]">
+                    No owner · clock running
+                  </p>
+                </div>
+                <ul className="mt-4 space-y-2 text-sm font-medium text-text-on-dark/50">
+                  {UNREAD.map((line) => (
+                    <li
+                      key={line}
+                      className="line-through decoration-text-on-dark/35"
+                    >
+                      {line}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="flex flex-col border-t-2 border-accent bg-accent p-5 text-primary sm:border-l-2 sm:border-t-0 sm:p-6">
+                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
+                  Monitored
+                </p>
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-account-health/ahl-problem-monitored-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                </div>
+                <ul className="mt-4 space-y-2 text-sm font-bold text-primary/90">
+                  {MONITORED.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </ServicePageShell>

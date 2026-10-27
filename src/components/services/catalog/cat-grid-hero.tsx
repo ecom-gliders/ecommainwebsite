@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -12,18 +13,42 @@ interface CatGridHeroProps {
 }
 
 const VARIATION_TREE = {
-  parent: { asin: "Parent · B0CAT001", label: "Waterproof boot family" },
+  parent: {
+    asin: "Parent · B0CAT001",
+    label: "Waterproof boot family",
+    src: "/images/services/amazon-catalog-management/cat-parent.jpg",
+  },
   children: [
-    { asin: "B0CAT002", size: "Size 9", state: "buyable" as const },
-    { asin: "B0CAT003", size: "Size 10", state: "buyable" as const },
-    { asin: "B0CAT004", size: "Size 11", state: "warn" as const },
-    { asin: "B0CAT005", size: "Size 12", state: "suppressed" as const },
+    {
+      asin: "B0CAT002",
+      size: "Size 9",
+      state: "buyable" as const,
+      src: "/images/services/amazon-catalog-management/cat-child-9.jpg",
+    },
+    {
+      asin: "B0CAT003",
+      size: "Size 10",
+      state: "buyable" as const,
+      src: "/images/services/amazon-catalog-management/cat-child-10.jpg",
+    },
+    {
+      asin: "B0CAT004",
+      size: "Size 11",
+      state: "warn" as const,
+      src: "/images/services/amazon-catalog-management/cat-child-11.jpg",
+    },
+    {
+      asin: "B0CAT005",
+      size: "Size 12",
+      state: "suppressed" as const,
+      src: "/images/services/amazon-catalog-management/cat-child-12.jpg",
+    },
   ],
 };
 
 /**
  * Catalog buy-box hero: variation node board + lime form.
- * Light gray wash — not manuscript, SERP, or ops sheet chrome.
+ * Light gray wash - not manuscript, SERP, or ops sheet chrome.
  */
 export function CatGridHero({ service, site }: CatGridHeroProps) {
   const form = service.hero.form;
@@ -81,25 +106,31 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
 
               <div className="flex min-h-0 flex-1 flex-col justify-between p-4 sm:p-5">
                 <div className="flex flex-col items-center">
-                  <div className="w-full max-w-xs border-2 border-primary bg-accent px-3 py-2.5 text-center">
-                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-primary/70">
-                      Parent ASIN
-                    </p>
-                    <p className="mt-0.5 text-sm font-black text-primary">
-                      {VARIATION_TREE.parent.asin}
-                    </p>
-                    <p className="mt-1 text-xs font-medium text-primary/80">
-                      {VARIATION_TREE.parent.label}
-                    </p>
+                  <div className="flex w-full max-w-sm items-center gap-3 border-2 border-primary bg-accent p-2.5">
+                    <div className="relative h-16 w-16 shrink-0 overflow-hidden border-2 border-primary bg-background sm:h-20 sm:w-20">
+                      <Image
+                        src={VARIATION_TREE.parent.src}
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="80px"
+                        priority
+                      />
+                    </div>
+                    <div className="min-w-0 text-left">
+                      <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-primary/70">
+                        Parent ASIN
+                      </p>
+                      <p className="mt-0.5 text-sm font-black text-primary">
+                        {VARIATION_TREE.parent.asin}
+                      </p>
+                      <p className="mt-1 text-xs font-medium text-primary/80">
+                        {VARIATION_TREE.parent.label}
+                      </p>
+                    </div>
                   </div>
-                  <div
-                    className="my-2 h-6 w-px bg-primary"
-                    aria-hidden="true"
-                  />
-                  <div
-                    className="h-px w-full max-w-md bg-primary"
-                    aria-hidden="true"
-                  />
+                  <div className="my-2 h-6 w-px bg-primary" aria-hidden="true" />
+                  <div className="h-px w-full max-w-md bg-primary" aria-hidden="true" />
                 </div>
 
                 <ul className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
@@ -107,7 +138,7 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
                     <li
                       key={child.asin}
                       className={cn(
-                        "relative flex flex-col border-2 border-primary p-2.5",
+                        "relative flex flex-col border-2 border-primary p-2",
                         child.state === "buyable" && "bg-background",
                         child.state === "warn" && "bg-[#FFF8E6]",
                         child.state === "suppressed" && "bg-[#F4F4F4]",
@@ -115,11 +146,9 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
                     >
                       <span
                         className={cn(
-                          "absolute -top-2 right-2 border-2 border-primary px-1 py-px font-mono text-[8px] font-black uppercase",
-                          child.state === "buyable" &&
-                            "bg-accent text-primary",
-                          child.state === "warn" &&
-                            "bg-primary text-accent",
+                          "absolute -top-2 right-2 z-[1] border-2 border-primary px-1 py-px font-mono text-[8px] font-black uppercase",
+                          child.state === "buyable" && "bg-accent text-primary",
+                          child.state === "warn" && "bg-primary text-accent",
                           child.state === "suppressed" &&
                             "bg-primary text-text-on-dark line-through decoration-accent/50",
                         )}
@@ -130,27 +159,26 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
                             ? "At risk"
                             : "Suppressed"}
                       </span>
-                      <p className="font-mono text-[9px] font-bold text-text-secondary">
+                      <div
+                        className={cn(
+                          "relative aspect-square w-full overflow-hidden border border-primary/20 bg-[#EDE8DF]",
+                          child.state === "suppressed" && "opacity-55 grayscale",
+                        )}
+                      >
+                        <Image
+                          src={child.src}
+                          alt=""
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 40vw, 120px"
+                        />
+                      </div>
+                      <p className="mt-2 font-mono text-[9px] font-bold text-text-secondary">
                         {child.asin}
                       </p>
-                      <p className="mt-1 text-xs font-black text-primary">
+                      <p className="mt-0.5 text-xs font-black text-primary">
                         {child.size}
                       </p>
-                      <div
-                        className="mt-auto pt-2"
-                        aria-hidden="true"
-                      >
-                        <div className="h-1.5 w-full border border-primary/30 bg-primary/5">
-                          <div
-                            className={cn(
-                              "h-full",
-                              child.state === "buyable" && "w-full bg-accent",
-                              child.state === "warn" && "w-2/3 bg-primary",
-                              child.state === "suppressed" && "w-0",
-                            )}
-                          />
-                        </div>
-                      </div>
                     </li>
                   ))}
                 </ul>

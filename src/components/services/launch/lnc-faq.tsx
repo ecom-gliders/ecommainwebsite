@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -13,18 +14,21 @@ const PHASE_LEGEND = [
   {
     label: "Prep",
     detail: "Listing, offer, and inventory gates before paid traffic.",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-prep-v2.jpg",
   },
   {
     label: "Push",
     detail: "Spend scaled only when stock and conversion can support it.",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-push-v2.jpg",
   },
   {
     label: "Stabilize",
     detail: "Handoff into ongoing PPC, inventory, and reporting cadence.",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-stabilize-v2.jpg",
   },
 ] as const;
 
-/** Launch phase legend equal cards + FAQ — no lime chip strips. */
+/** Launch phase legend equal cards + FAQ - no lime chip strips. */
 export function LncFaq({ service }: LncFaqProps) {
   if (service.faq.length === 0) return null;
 
@@ -54,7 +58,16 @@ export function LncFaq({ service }: LncFaqProps) {
                 index === 1 && "bg-[#F4F4F4]",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-secondary">
+              <div className="relative mx-auto aspect-video w-full max-w-[12rem] overflow-hidden border-2 border-primary">
+                <Image
+                  src={item.src}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="192px"
+                />
+              </div>
+              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-secondary">
                 {item.label}
               </p>
               <p className="mt-2 text-sm font-medium leading-snug text-text-secondary">

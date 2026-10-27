@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -10,7 +11,19 @@ interface CatResultsProps {
   service: ServicePageConfig;
 }
 
-/** Metric rail case cards — not pull-quote typography. */
+const PROOF_FRAMES: Record<string, string> = {
+  kitchen: "/images/services/amazon-catalog-management/cat-proof-kitchen.jpg",
+  focusform: "/images/services/amazon-catalog-management/cat-proof-focus.jpg",
+};
+
+function resolveFrame(brand: string) {
+  const key = brand.toLowerCase();
+  if (key.includes("kitchen") || key.includes("home")) return PROOF_FRAMES.kitchen;
+  if (key.includes("focus") || key.includes("office")) return PROOF_FRAMES.focusform;
+  return PROOF_FRAMES.kitchen;
+}
+
+/** Metric rail case cards - not pull-quote typography. */
 export function CatResults({ service }: CatResultsProps) {
   const { results } = service;
   if (!results?.items?.length) return null;
@@ -33,8 +46,17 @@ export function CatResults({ service }: CatResultsProps) {
             <li key={item.metric}>
               <Link
                 href={item.href}
-                className="group flex h-full flex-col border-2 border-primary bg-background hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="group flex h-full flex-col overflow-hidden border-2 border-primary bg-background hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
+                <div className="relative aspect-[16/9] w-full border-b-2 border-primary bg-[#EDE8DF]">
+                  <Image
+                    src={resolveFrame(item.brand)}
+                    alt=""
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
                 <div className="flex border-b-2 border-primary">
                   <p className="flex-1 border-r-2 border-primary bg-primary px-4 py-3 font-mono text-lg font-black text-accent sm:text-xl">
                     {item.metric}

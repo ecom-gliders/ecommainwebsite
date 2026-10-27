@@ -62,16 +62,10 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
 
             <Link
               href={header.logoHref}
-              className="flex min-w-0 flex-1 items-center justify-center rounded-[8px] lg:flex-none lg:justify-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
+              className="flex min-w-0 shrink items-center justify-center overflow-visible rounded-[8px] px-1 lg:flex-none lg:justify-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
               aria-label={`${site.name} home`}
             >
-              <BrandLogo
-                width={200}
-                height={60}
-                className="h-9 w-auto max-w-[11rem] sm:h-9 sm:max-w-[12rem] md:h-10 md:max-w-none"
-                priority
-                surface="onDark"
-              />
+              <BrandLogo priority surface="onDark" className="shrink-0" />
             </Link>
 
             <div className="hidden min-w-0 flex-1 items-center justify-center lg:flex">

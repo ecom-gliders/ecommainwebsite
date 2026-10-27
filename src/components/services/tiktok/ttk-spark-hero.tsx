@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -15,29 +16,26 @@ const CREATIVE_SLOTS = [
   {
     stage: "Test",
     spark: "Hook v1",
-    note: "Muted scroll · product in frame",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-hook.jpg",
   },
   {
     stage: "Test",
     spark: "Hook v2",
-    note: "Demo-led short-form cut",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-demo.jpg",
   },
   {
     stage: "Scale",
-    spark: "Winner set",
-    note: "Budget on proven hooks",
+    spark: "Winner",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-scale.jpg",
   },
   {
     stage: "Refresh",
-    spark: "Creative swap",
-    note: "New angles before fatigue",
+    spark: "Swap",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-refresh.jpg",
   },
 ] as const;
 
-/**
- * Dark social canvas hero: vertical phone-frame slots + spark stage labels + lime form.
- * Not storyboard timecodes, ledger box, or storefront rail.
- */
+/** Compact hero — short stage strip; form density tight; row height = form. */
 export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
   const form = service.hero.form;
   if (!form) return null;
@@ -45,112 +43,103 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
   return (
     <section
       id="service-hero"
-      className="relative overflow-x-clip border-b-2 border-accent bg-[#0c0c0b] py-7 sm:py-8"
+      className="relative -mt-[4.75rem] overflow-x-clip border-b-2 border-accent bg-[#0c0c0b] sm:-mt-[5.5rem] md:-mt-[6rem]"
       aria-labelledby="service-hero-heading"
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-50"
         style={{
           backgroundImage:
-            "radial-gradient(circle at 20% 30%, rgba(198,241,53,0.06), transparent 45%), radial-gradient(circle at 80% 70%, rgba(198,241,53,0.04), transparent 40%)",
+            "radial-gradient(circle at 20% 30%, rgba(198,241,53,0.08), transparent 45%)",
         }}
         aria-hidden="true"
       />
 
-      <ServicePageShell className="relative">
+      <ServicePageShell className="relative pb-5 pt-[5.75rem] sm:pb-6 sm:pt-[6.5rem] md:pt-[6.75rem]">
         <ServiceBreadcrumb
           label={service.breadcrumbLabel}
           tone="onDark"
           className="flex justify-start"
         />
 
-        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
-          <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 text-xs font-semibold uppercase tracking-[0.08em] text-accent">
-              TikTok Shop ads
-            </p>
-            <h1
-              id="service-hero-heading"
-              className="mt-1.5 max-w-2xl shrink-0 text-[clamp(1.55rem,3vw,2.2rem)] font-black leading-[1.08] tracking-tight text-text-on-dark"
-            >
-              {service.hero.title}
-            </h1>
-            <p className="mt-2 max-w-xl shrink-0 text-sm font-medium leading-snug text-text-on-dark/75">
-              {service.hero.subtitle}
-            </p>
+        <div className="mt-2 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,23rem)] lg:items-stretch lg:gap-5">
+          <div className="flex min-h-0 min-w-0 flex-col gap-3 lg:h-full">
+            <div className="shrink-0">
+              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-accent">
+                Spark rail · Shop ads
+              </p>
+              <h1
+                id="service-hero-heading"
+                className="mt-1.5 max-w-2xl text-[clamp(1.35rem,2.4vw,1.75rem)] font-black leading-[1.1] tracking-tight text-text-on-dark"
+              >
+                {service.hero.title}
+              </h1>
+              <p className="mt-1.5 max-w-xl text-sm font-medium leading-snug text-text-on-dark/75">
+                {service.hero.subtitle}
+              </p>
+            </div>
 
             <div
-              className="mt-4 flex min-h-[20rem] flex-1 flex-col border-2 border-accent/55 bg-[#141412] shadow-[4px_4px_0_0_#C6F135] lg:min-h-0"
+              className="flex min-h-0 flex-1 flex-col overflow-hidden border-2 border-accent/60 bg-[#141412] shadow-[3px_3px_0_0_#C6F135]"
               aria-label="Spark ads creative rail preview"
             >
-              <div className="flex shrink-0 items-center justify-between gap-3 border-b border-accent/25 px-3 py-2">
+              <div className="flex shrink-0 items-center justify-between border-b border-accent/25 px-2.5 py-1.5">
                 <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
-                  Spark rail · Shop ads
+                  Creative stages
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/45">
-                  Campaign stage
+                <p className="font-mono text-[8px] font-bold text-text-on-dark/40">
+                  Stage rail below
                 </p>
               </div>
-
-              <div className="flex min-h-0 flex-1 flex-col justify-center p-3 sm:p-4">
-                <ol className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3">
-                  {CREATIVE_SLOTS.map((slot, index) => (
-                    <li
-                      key={`${slot.spark}-${index}`}
-                      className={cn(
-                        "flex flex-col rounded-sm border border-text-on-dark/20 bg-[#1c1c1a]",
-                        index === 2 && "ring-1 ring-accent/70",
-                      )}
-                    >
-                      <div className="flex items-center justify-between border-b border-text-on-dark/12 px-2 py-1">
-                        <span className="font-mono text-[8px] font-bold uppercase tracking-[0.08em] text-accent">
-                          {slot.stage}
-                        </span>
-                        <span className="font-mono text-[8px] font-bold text-text-on-dark/35">
-                          {String(index + 1).padStart(2, "0")}
-                        </span>
-                      </div>
-                      <div className="flex flex-1 flex-col p-2">
-                        <div
-                          className="mx-auto aspect-[9/16] w-full max-w-[4.5rem] border-2 border-text-on-dark/25 bg-[#0c0c0b] sm:max-w-none"
-                          aria-hidden="true"
-                        >
-                          <div className="flex h-full flex-col justify-between p-1.5">
-                            <span className="block h-1 w-4 rounded-sm bg-text-on-dark/20" />
-                            <span className="mx-auto block h-6 w-6 rounded-full border border-dashed border-accent/40" />
-                            <span className="block h-1.5 w-full rounded-sm bg-accent/30" />
-                          </div>
-                        </div>
-                        <p className="mt-2 text-center text-[10px] font-black uppercase tracking-[0.05em] text-text-on-dark">
-                          {slot.spark}
-                        </p>
-                        <p className="mt-1 text-center text-[9px] font-medium leading-snug text-text-on-dark/55">
-                          {slot.note}
-                        </p>
-                      </div>
-                    </li>
-                  ))}
-                </ol>
-                <p className="mt-3 text-center font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-text-on-dark/35">
-                  Native short-form · Shop destination ready
-                </p>
+              <div className="grid min-h-0 flex-1 grid-cols-2 gap-1.5 p-2 sm:grid-cols-4 sm:gap-2 sm:p-2.5">
+                {CREATIVE_SLOTS.map((slot, index) => (
+                  <div
+                    key={`${slot.spark}-${index}`}
+                    className={cn(
+                      "flex h-full min-h-0 flex-col overflow-hidden border border-text-on-dark/20 bg-[#1c1c1a]",
+                      index === 2 && "ring-1 ring-accent/70",
+                    )}
+                  >
+                    <div className="flex shrink-0 items-center justify-between px-1.5 py-1">
+                      <span className="font-mono text-[8px] font-bold uppercase text-accent">
+                        {slot.stage}
+                      </span>
+                      <span className="font-mono text-[8px] font-bold text-text-on-dark/35">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                    </div>
+                    <div className="relative min-h-[6.5rem] w-full flex-1 sm:min-h-[8rem]">
+                      <Image
+                        src={slot.src}
+                        alt=""
+                        fill
+                        className="object-cover object-center"
+                        sizes="140px"
+                        priority={index < 2}
+                      />
+                    </div>
+                    <p className="shrink-0 truncate px-1 py-1.5 text-center text-[9px] font-black uppercase text-text-on-dark">
+                      {slot.spark}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
 
           <aside
             id="service-lead-form"
-            className="flex h-full min-h-0 flex-col self-stretch border-2 border-primary bg-accent p-4 text-primary shadow-[4px_4px_0_0_#C6F135] sm:p-5"
+            className="border-2 border-primary bg-accent px-3 py-3 text-primary shadow-[3px_3px_0_0_#C6F135] sm:px-3.5 sm:py-3.5"
           >
-            <h2 className="text-lg font-black tracking-tight text-primary sm:text-xl">
+            <h2 className="text-base font-black tracking-tight text-primary">
               {form.heading}
             </h2>
             {form.subheading ? (
-              <p className="mt-1.5 text-sm font-medium leading-snug text-primary/80">
+              <p className="mt-1 text-xs font-medium leading-snug text-primary/80">
                 {form.subheading}
               </p>
             ) : null}
-            <div className="mt-4 flex-1">
+            <div className="mt-2.5">
               <ConfigurableForm
                 formId={`service-audit-${service.slug}`}
                 fields={form.fields}
@@ -166,10 +155,10 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
                   serviceInterest: service.breadcrumbLabel,
                   serviceSlug: service.slug,
                 }}
-                className="[&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:border-2 [&_input]:border-primary [&_textarea]:border-2 [&_textarea]:border-primary"
+                className="gap-y-2 [&_button[role=combobox]]:h-9 [&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:h-9 [&_input]:border-2 [&_input]:border-primary [&_label]:mb-0.5 [&_label]:text-xs [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-3 shrink-0 text-center text-xs font-medium text-primary/70">
+            <p className="mt-2.5 text-center text-[11px] font-medium text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

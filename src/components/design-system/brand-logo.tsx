@@ -1,48 +1,45 @@
-import Image from "next/image";
 import { designSystem } from "@/lib/design-tokens";
 import { cn } from "@/lib/utils";
 
 interface BrandLogoProps {
   className?: string;
-  width: number;
-  height: number;
+  /** Kept for call-site compatibility. */
+  width?: number;
+  /** Kept for call-site compatibility. */
+  height?: number;
   alt?: string;
-  /** Header / LCP: true. Footer and secondary: false (lazy). */
+  /** Kept for call-site compatibility. */
   priority?: boolean;
   /**
-   * `onDark` — lighten mark for navy/charcoal chrome (logo assets are navy wordmark).
-   * `default` — mark as authored for light surfaces.
+   * `onDark` — eCom white, Glider lime (header / footer).
+   * `default` — eCom ink, Glider lime (light surfaces).
    */
   surface?: "default" | "onDark";
 }
 
+/**
+ * Text wordmark — eCom Glider.
+ * Scales with type size (no padded raster box in the header pill).
+ */
 export function BrandLogo({
   className,
-  width,
-  height,
-  alt = `${designSystem.brand.name} logo`,
-  priority = false,
+  alt = designSystem.brand.name,
   surface = "default",
 }: BrandLogoProps) {
-  const src =
-    surface === "onDark"
-      ? designSystem.brand.logo.dark
-      : designSystem.brand.logo.light;
+  const ecomClass = surface === "onDark" ? "text-white" : "text-primary";
 
   return (
-    <Image
-      src={src}
-      alt={alt}
-      width={width}
-      height={height}
+    <span
+      role="img"
+      aria-label={alt}
       className={cn(
-        "max-w-full object-contain",
-        surface === "onDark" && "brightness-0 invert",
+        "inline-flex max-w-full items-baseline whitespace-nowrap font-black tracking-tight",
+        "text-[1.35rem] leading-none sm:text-[1.6rem] md:text-[1.85rem]",
         className,
       )}
-      priority={priority}
-      sizes={`${width}px`}
-      quality={85}
-    />
+    >
+      <span className={ecomClass}>eCom</span>
+      <span className="text-accent">&nbsp;Glider</span>
+    </span>
   );
 }

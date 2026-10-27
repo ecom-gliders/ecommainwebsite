@@ -25,11 +25,11 @@ export function FsManifesto({ service }: FsManifestoProps) {
       <ServicePageShell>
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center lg:gap-12">
           <div
-            className="relative mx-auto aspect-square w-full max-w-[22rem]"
+            className="relative mx-auto aspect-square w-full max-w-[20rem] overflow-hidden px-3 sm:max-w-[22rem] sm:overflow-visible sm:px-0"
             aria-hidden="true"
           >
-            <div className="absolute inset-[12%] rounded-full border-2 border-primary bg-accent/40" />
-            <div className="absolute inset-[28%] flex items-center justify-center rounded-full border-2 border-primary bg-primary text-center text-accent">
+            <div className="absolute inset-[14%] rounded-full border-2 border-primary bg-accent/40 sm:inset-[12%]" />
+            <div className="absolute inset-[30%] flex items-center justify-center rounded-full border-2 border-primary bg-primary text-center text-accent sm:inset-[28%]">
               <span className="px-3 text-sm font-black leading-tight">
                 One
                 <br />
@@ -39,15 +39,15 @@ export function FsManifesto({ service }: FsManifestoProps) {
             {ring.map((item, index) => {
               const angle = -90 + index * (360 / ring.length);
               const rad = (angle * Math.PI) / 180;
-              const x = 50 + 42 * Math.cos(rad);
-              const y = 50 + 42 * Math.sin(rad);
+              const x = 50 + 36 * Math.cos(rad);
+              const y = 50 + 36 * Math.sin(rad);
               return (
                 <div
                   key={item.title}
-                  className="absolute w-[7.5rem] -translate-x-1/2 -translate-y-1/2 border-2 border-primary bg-background px-2 py-1.5 text-center shadow-[3px_3px_0_0_#131311]"
+                  className="absolute w-[5.75rem] -translate-x-1/2 -translate-y-1/2 border-2 border-primary bg-background px-1.5 py-1.5 text-center shadow-[3px_3px_0_0_#131311] sm:w-[7.5rem] sm:px-2"
                   style={{ left: `${x}%`, top: `${y}%` }}
                 >
-                  <p className="text-[11px] font-bold leading-tight text-primary">
+                  <p className="text-[10px] font-bold leading-tight text-primary sm:text-[11px]">
                     {item.title}
                   </p>
                 </div>

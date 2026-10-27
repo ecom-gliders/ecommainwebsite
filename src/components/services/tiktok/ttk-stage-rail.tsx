@@ -1,3 +1,7 @@
+"use client";
+
+import Image from "next/image";
+import { useState } from "react";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,12 +13,32 @@ interface TtkStageRailProps {
   service: ServicePageConfig;
 }
 
-const STAGES = ["Test", "Scale", "Refresh", "Handoff"] as const;
+const STAGES = [
+  {
+    label: "Test",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-hook.jpg",
+  },
+  {
+    label: "Scale",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-scale.jpg",
+  },
+  {
+    label: "Refresh",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-refresh.jpg",
+  },
+  {
+    label: "Handoff",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-demo.jpg",
+  },
+] as const;
 
-/** Campaign stage rail — not production sprocket or ops pipeline zigzag. */
+/** Interactive campaign stage rail — owns stage inspection (council). */
 export function TtkStageRail({ service }: TtkStageRailProps) {
   const { solution } = service;
   const steps = solution.steps.slice(0, 4);
+  const [active, setActive] = useState(0);
+  const current = steps[active] ?? steps[0];
+  const stage = STAGES[active] ?? STAGES[0];
 
   return (
     <section
@@ -23,43 +47,83 @@ export function TtkStageRail({ service }: TtkStageRailProps) {
       aria-labelledby="service-solution-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+          Campaign stages
+        </p>
         <h2
           id="service-solution-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-text-on-dark sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
         >
           {solution.heading}
         </h2>
 
-        <div className="relative mt-10">
+        <div className="mt-8 overflow-hidden border-2 border-accent">
           <div
-            className="absolute left-0 right-0 top-6 hidden h-0.5 bg-accent/40 sm:block"
-            aria-hidden="true"
-          />
-
-          <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            className="grid grid-cols-2 border-b-2 border-accent sm:grid-cols-4"
+            role="tablist"
+            aria-label="Campaign stages"
+          >
             {steps.map((step, index) => (
-              <li key={step.title} className="relative flex flex-col">
-                <div className="mb-3 flex items-center gap-2">
-                  <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
-                    {STAGES[index] ?? `Stage ${index + 1}`}
-                  </span>
-                  <span className="font-mono text-[10px] font-bold text-text-on-dark/45">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                </div>
-                <div className="flex flex-1 flex-col border border-accent/35 bg-[#141412] p-4">
-                  <div
-                    className="mb-3 aspect-[9/16] w-full max-w-[3.5rem] border border-text-on-dark/20 bg-[#0c0c0b]"
-                    aria-hidden="true"
-                  />
-                  <h3 className="text-base font-black text-text-on-dark">{step.title}</h3>
-                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/70">
-                    {step.description}
-                  </p>
-                </div>
-              </li>
+              <button
+                key={step.title}
+                type="button"
+                role="tab"
+                aria-selected={active === index}
+                onClick={() => setActive(index)}
+                className={cn(
+                  "relative border-r border-b border-accent px-3 py-3.5 text-left last:border-r-0 sm:border-b-0 sm:px-4",
+                  active === index
+                    ? "bg-accent text-primary"
+                    : "bg-[#141412] text-text-on-dark hover:bg-[#1a1a17]",
+                )}
+              >
+                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] opacity-70">
+                  {STAGES[index]?.label ?? `Stage ${index + 1}`}
+                </span>
+                <span className="mt-1 block text-sm font-black leading-tight">
+                  {step.title}
+                </span>
+              </button>
             ))}
-          </ol>
+          </div>
+
+          <div
+            className="grid gap-0 lg:grid-cols-[minmax(0,9rem)_minmax(0,1fr)]"
+            role="tabpanel"
+            aria-label={`${stage.label}: ${current.title}`}
+          >
+            <div className="relative min-h-[12rem] border-b-2 border-accent bg-[#141412] lg:border-b-0 lg:border-r-2">
+              <Image
+                src={stage.src}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 144px"
+              />
+            </div>
+            <div className="p-5 sm:p-6">
+              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+                {stage.label}
+              </span>
+              <h3 className="mt-3 text-xl font-black tracking-tight text-text-on-dark sm:text-2xl">
+                {current.title}
+              </h3>
+              <p className="mt-2 max-w-xl text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
+                {current.description}
+              </p>
+              <ul className="mt-5 flex gap-1.5" aria-hidden="true">
+                {steps.map((_, i) => (
+                  <li
+                    key={i}
+                    className={cn(
+                      "h-1.5 flex-1",
+                      i <= active ? "bg-accent" : "bg-text-on-dark/15",
+                    )}
+                  />
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </ServicePageShell>
     </section>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,9 +10,42 @@ interface LncChecklistTilesProps {
   service: ServicePageConfig;
 }
 
-const CHECK_TAGS = ["Gate", "Ads", "Stock", "Offer", "Rank", "Board", "Handoff", "Scope"] as const;
+const CHECK_META = [
+  {
+    tag: "Gate",
+    src: "/images/services/amazon-product-launch-services/lnc-del-gate-v2.jpg",
+  },
+  {
+    tag: "Ads",
+    src: "/images/services/amazon-product-launch-services/lnc-del-ads-v2.jpg",
+  },
+  {
+    tag: "Stock",
+    src: "/images/services/amazon-product-launch-services/lnc-del-stock-v2.jpg",
+  },
+  {
+    tag: "Offer",
+    src: "/images/services/amazon-product-launch-services/lnc-del-offer-v2.jpg",
+  },
+  {
+    tag: "Rank",
+    src: "/images/services/amazon-product-launch-services/lnc-del-rank-v2.jpg",
+  },
+  {
+    tag: "Board",
+    src: "/images/services/amazon-product-launch-services/lnc-del-board-v2.jpg",
+  },
+  {
+    tag: "Handoff",
+    src: "/images/services/amazon-product-launch-services/lnc-del-handoff-v2.jpg",
+  },
+  {
+    tag: "Scope",
+    src: "/images/services/amazon-product-launch-services/lnc-del-scope-v2.jpg",
+  },
+] as const;
 
-/** Launch checklist deliverable tiles — not paper stack or Shop format cards. */
+/** Launch checklist deliverable tiles - not paper stack or Shop format cards. */
 export function LncChecklistTiles({ service }: LncChecklistTilesProps) {
   const { deliverables } = service;
   const items = deliverables.items;
@@ -31,33 +65,47 @@ export function LncChecklistTiles({ service }: LncChecklistTilesProps) {
         </h2>
 
         <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {items.map((item, index) => (
-            <li
-              key={item.title}
-              className="flex flex-col border-2 border-primary bg-[#F4F4F4] p-4"
-            >
-              <div className="flex items-start justify-between gap-2">
-                <span className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                  {CHECK_TAGS[index % CHECK_TAGS.length]}
-                </span>
-                <span
-                  className="flex h-4 w-4 shrink-0 items-center justify-center border-2 border-primary bg-accent"
-                  aria-hidden="true"
-                >
-                  <span className="block h-2 w-1 border-b-2 border-r-2 border-primary rotate-45 translate-y-[-1px]" />
-                </span>
-              </div>
-              <p className="mt-2 font-mono text-[9px] font-bold tabular-nums text-text-secondary/70">
-                Item {String(index + 1).padStart(2, "0")}
-              </p>
-              <h3 className="mt-2 text-sm font-black leading-snug text-primary sm:text-base">
-                {item.title}
-              </h3>
-              <p className="mt-1.5 flex-1 text-xs font-medium leading-snug text-text-secondary sm:text-sm">
-                {item.description}
-              </p>
-            </li>
-          ))}
+          {items.map((item, index) => {
+            const meta = CHECK_META[index % CHECK_META.length];
+            return (
+              <li
+                key={item.title}
+                className="flex flex-col overflow-hidden border-2 border-primary bg-[#F4F4F4]"
+              >
+                <div className="relative aspect-[16/10] w-full border-b-2 border-primary bg-[#EDE8DF]">
+                  <Image
+                    src={meta.src}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-4">
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                      {meta.tag}
+                    </span>
+                    <span
+                      className="flex h-4 w-4 shrink-0 items-center justify-center border-2 border-primary bg-accent"
+                      aria-hidden="true"
+                    >
+                      <span className="block h-2 w-1 translate-y-[-1px] rotate-45 border-b-2 border-r-2 border-primary" />
+                    </span>
+                  </div>
+                  <p className="mt-2 font-mono text-[9px] font-bold tabular-nums text-text-secondary/70">
+                    Item {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="mt-2 text-sm font-black leading-snug text-primary sm:text-base">
+                    {item.title}
+                  </h3>
+                  <p className="mt-1.5 flex-1 text-xs font-medium leading-snug text-text-secondary sm:text-sm">
+                    {item.description}
+                  </p>
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </ServicePageShell>
     </section>

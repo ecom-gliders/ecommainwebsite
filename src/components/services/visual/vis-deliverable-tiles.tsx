@@ -9,7 +9,7 @@ interface VisDeliverableTilesProps {
   service: ServicePageConfig;
 }
 
-/** Framed deliverable tiles — 3x2 primary grid with overflow row. */
+/** Framed deliverable tiles - 3x2 primary grid with overflow row. */
 export function VisDeliverableTiles({ service }: VisDeliverableTilesProps) {
   const { deliverables } = service;
   const items = deliverables.items;
@@ -23,7 +23,7 @@ export function VisDeliverableTiles({ service }: VisDeliverableTilesProps) {
       <ServicePageShell>
         <h2
           id="service-deliverables-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.9rem]"
         >
           {deliverables.heading}
         </h2>
@@ -38,13 +38,13 @@ export function VisDeliverableTiles({ service }: VisDeliverableTilesProps) {
                 className="pointer-events-none absolute inset-2 border border-dashed border-primary/20"
                 aria-hidden="true"
               />
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Tile {String(index + 1).padStart(2, "0")}
               </p>
-              <h3 className="mt-2 text-base font-black text-primary">
+              <h3 className="mt-2 text-lg font-black text-primary">
                 {item.title}
               </h3>
-              <p className="mt-1.5 text-sm font-medium leading-snug text-text-secondary">
+              <p className="mt-1.5 text-base font-medium leading-snug text-text-secondary">
                 {item.description}
               </p>
             </li>

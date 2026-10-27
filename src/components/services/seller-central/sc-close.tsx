@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -10,6 +11,12 @@ import { cn } from "@/lib/utils";
 interface ScCloseProps {
   service: ServicePageConfig;
 }
+
+const CLOSE_STRIP = [
+  "/images/services/amazon-seller-central-services/sc-hero-ops.jpg",
+  "/images/services/amazon-seller-central-services/sc-lane-cases.jpg",
+  "/images/services/amazon-seller-central-services/sc-step-report.jpg",
+] as const;
 
 export function ScClose({ service }: ScCloseProps) {
   return (
@@ -47,9 +54,25 @@ export function ScClose({ service }: ScCloseProps) {
         >
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                Seller Central review
-              </p>
+              <div className="mb-4 flex min-w-0 flex-wrap items-end gap-2" aria-hidden="true">
+                {CLOSE_STRIP.map((src) => (
+                  <div
+                    key={src}
+                    className="relative h-12 w-14 shrink-0 overflow-hidden border-2 border-primary bg-[#E4E4E0]"
+                  >
+                    <Image
+                      src={src}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="64px"
+                    />
+                  </div>
+                ))}
+                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:block">
+                  Seller Central review
+                </p>
+              </div>
               <h2
                 id="service-close-heading"
                 className="mt-1 text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"

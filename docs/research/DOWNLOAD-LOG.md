@@ -548,3 +548,14 @@ License: eCom Gliders first-party
 Used on page: /about-us/ team
 Validated: yes (166369 bytes)
 Note: Replaces Madrigal portrait on About team grid
+
+## 2026-10-27 - Email retention cadence stage stills
+Date: 2026-10-27
+Source: Cursor GenerateImage
+Assets: eml-stage-welcome.jpg, eml-stage-winback.jpg
+Type: image (AI-generated)
+License: assets/licenses/ai-generated-email-retention.md
+Used on page: /email-retention-marketing/ cadence stage rail
+Paths: public/images/services/email-retention-marketing/
+Validated: yes (files on disk, wired in eml-cadence-stages.tsx)
+Notes: Text-free editorial stills; no inbox UI chrome or metrics

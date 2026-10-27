@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -11,7 +12,13 @@ interface LncCloseProps {
   service: ServicePageConfig;
 }
 
-/** Launch pad close CTA — not spark end-card or manuscript submit. */
+const CLOSE_STRIP = [
+  "/images/services/amazon-product-launch-services/lnc-phase-prep.jpg",
+  "/images/services/amazon-product-launch-services/lnc-phase-push.jpg",
+  "/images/services/amazon-product-launch-services/lnc-close-pack.jpg",
+] as const;
+
+/** Launch pad close CTA - not spark end-card or manuscript submit. */
 export function LncClose({ service }: LncCloseProps) {
   return (
     <section
@@ -56,6 +63,25 @@ export function LncClose({ service }: LncCloseProps) {
           </div>
           <div className="flex flex-col gap-6 bg-accent p-6 text-primary sm:p-8 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
+              <div className="mb-4 flex min-w-0 flex-wrap items-end gap-2" aria-hidden="true">
+                {CLOSE_STRIP.map((src) => (
+                  <div
+                    key={src}
+                    className="relative h-12 w-14 shrink-0 overflow-hidden border-2 border-primary bg-primary sm:h-16 sm:w-24"
+                  >
+                    <Image
+                      src={src}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="80px"
+                    />
+                  </div>
+                ))}
+                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70 sm:block">
+                  Pad ready
+                </p>
+              </div>
               <h2
                 id="service-close-heading"
                 className="text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"

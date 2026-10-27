@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,81 +12,128 @@ interface ShpChannelSplitProblemProps {
   service: ServicePageConfig;
 }
 
-/** Amazon-only vs owned storefront split — not heatmap or ledger dump. */
-export function ShpChannelSplitProblem({ service }: ShpChannelSplitProblemProps) {
+type ChannelMode = "amazon" | "owned";
+
+/** Interactive Amazon-only vs owned storefront toggle — CSS wireframes only. */
+export function ShpChannelSplitProblem({
+  service,
+}: ShpChannelSplitProblemProps) {
   const { problem } = service;
+  const [mode, setMode] = useState<ChannelMode>("amazon");
   if (!problem?.points?.length) return null;
 
-  const points = problem.points.slice(0, 4);
+  const amazonPoints = problem.points.slice(0, 2);
+  const ownedPoints = problem.points.slice(2, 4);
+  const activePoints = mode === "amazon" ? amazonPoints : ownedPoints;
 
   return (
     <section
       id="service-problem"
-      className={cn("bg-background", serviceSectionPad)}
+      className={cn("bg-primary text-text-on-dark", serviceSectionPad)}
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+          Channel gap
+        </p>
         <h2
           id="service-problem-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
         >
           {problem.heading}
         </h2>
 
-        <div className="mt-8 grid gap-0 border-2 border-primary lg:grid-cols-2">
-          <div className="border-b-2 border-primary bg-[#ECECE6] p-4 sm:p-5 lg:border-b-0 lg:border-r-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-              Amazon-only
-            </p>
-            <div
-              className="mt-4 space-y-3 border-2 border-primary/25 bg-background/80 p-4"
-              aria-hidden="true"
-            >
-              <div className="h-2 w-3/4 bg-primary/20" />
-              <div className="grid grid-cols-4 gap-1">
-                {Array.from({ length: 4 }).map((_, i) => (
-                  <div key={i} className="aspect-square bg-primary/10" />
-                ))}
-              </div>
-              <div className="h-8 w-full bg-primary/15" />
-              <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
-                Marketplace template
-              </p>
-            </div>
-            <ul className="mt-5 space-y-3">
-              {points.slice(0, 2).map((point) => (
-                <li key={point.title}>
-                  <h3 className="text-sm font-black text-primary">{point.title}</h3>
-                  <p className="mt-1 text-sm font-medium leading-snug text-text-secondary">
-                    {point.description}
-                  </p>
-                </li>
-              ))}
-            </ul>
+        <div className="mt-8 overflow-hidden border-2 border-accent">
+          <div
+            className="grid grid-cols-2 border-b border-accent"
+            role="tablist"
+            aria-label="Channel comparison"
+          >
+            {(
+              [
+                { id: "amazon" as const, label: "Amazon-only" },
+                { id: "owned" as const, label: "Owned storefront" },
+              ] as const
+            ).map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                role="tab"
+                aria-selected={mode === tab.id}
+                onClick={() => setMode(tab.id)}
+                className={cn(
+                  "px-4 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] transition-colors sm:text-[11px]",
+                  mode === tab.id
+                    ? "bg-accent text-primary"
+                    : "bg-[#161614] text-text-on-dark/70 hover:bg-[#1a1a17]",
+                )}
+              >
+                {tab.label}
+              </button>
+            ))}
           </div>
 
-          <div className="bg-[#FAFAF7] p-4 sm:p-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-              Owned storefront
-            </p>
+          <div
+            className="grid gap-0 lg:grid-cols-2"
+            role="tabpanel"
+            aria-label={mode === "amazon" ? "Amazon-only" : "Owned storefront"}
+          >
             <div
-              className="mt-4 border-2 border-primary bg-background p-4 shadow-[3px_3px_0_0_#C6F135]"
+              className={cn(
+                "min-h-[14rem] p-5 sm:p-6",
+                mode === "amazon" ? "bg-[#1a1a17]" : "bg-[#141412]",
+              )}
               aria-hidden="true"
             >
-              <div className="h-2 w-1/2 bg-accent" />
-              <div className="mt-3 h-4 w-4/5 bg-primary" />
-              <div className="mt-4 grid grid-cols-3 gap-2">
-                {Array.from({ length: 3 }).map((_, i) => (
-                  <div key={i} className="aspect-[4/3] border border-primary/20 bg-[#ECECE6]" />
-                ))}
-              </div>
-              <span className="mt-3 inline-block h-7 w-28 border-2 border-primary bg-accent" />
+              {mode === "amazon" ? (
+                <div className="space-y-3 border border-text-on-dark/20 bg-[#0c0c0b] p-4">
+                  <div className="h-2 w-3/4 bg-text-on-dark/20" />
+                  <div className="grid grid-cols-4 gap-1.5">
+                    {Array.from({ length: 4 }).map((_, i) => (
+                      <div key={i} className="aspect-square bg-text-on-dark/10" />
+                    ))}
+                  </div>
+                  <div className="h-8 w-full bg-text-on-dark/15" />
+                  <p className="font-mono text-[9px] font-bold uppercase text-text-on-dark/40">
+                    Marketplace template
+                  </p>
+                </div>
+              ) : (
+                <div className="border-2 border-accent bg-[#0c0c0b] p-4 shadow-[3px_3px_0_0_#C6F135]">
+                  <div className="h-2 w-1/2 bg-accent" />
+                  <div className="mt-3 h-5 w-4/5 bg-text-on-dark" />
+                  <div className="mt-4 grid grid-cols-3 gap-2">
+                    {Array.from({ length: 3 }).map((_, i) => (
+                      <div
+                        key={i}
+                        className="aspect-[4/3] border border-accent/30 bg-[#1a1a17]"
+                      />
+                    ))}
+                  </div>
+                  <span className="mt-4 inline-flex h-8 items-center border-2 border-accent bg-accent px-3 font-mono text-[9px] font-black uppercase text-primary">
+                    Shop collection
+                  </span>
+                </div>
+              )}
             </div>
-            <ul className="mt-5 space-y-3">
-              {points.slice(2, 4).map((point) => (
-                <li key={point.title}>
-                  <h3 className="text-sm font-black text-primary">{point.title}</h3>
-                  <p className="mt-1 text-sm font-medium leading-snug text-text-secondary">
+
+            <ul className="space-y-0 border-t border-accent lg:border-l lg:border-t-0">
+              {activePoints.map((point, index) => (
+                <li
+                  key={point.title}
+                  className={cn(
+                    "border-b border-accent/25 p-5 last:border-b-0 sm:p-6",
+                    mode === "owned" && "bg-[#141412]",
+                  )}
+                >
+                  <p className="font-mono text-[10px] font-bold text-accent">
+                    {mode === "amazon" ? "Risk" : "Gain"}{" "}
+                    {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="mt-1 text-base font-black text-text-on-dark sm:text-lg">
+                    {point.title}
+                  </h3>
+                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
                     {point.description}
                   </p>
                 </li>

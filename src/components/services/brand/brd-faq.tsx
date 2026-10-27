@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -12,19 +13,22 @@ interface BrdFaqProps {
 const ENROLLMENT_STATES = [
   {
     label: "Not started",
-    detail: "No eligible trademark record yet — pathway starts with readiness review.",
+    detail: "No eligible trademark record yet - pathway starts with readiness review.",
+    src: "/images/services/amazon-trademark-brand-registry/brd-faq-notstart.jpg",
   },
   {
     label: "Pending mark",
-    detail: "Application in progress — enrollment timing depends on office and Amazon rules.",
+    detail: "Application in progress - enrollment timing depends on office and Amazon rules.",
+    src: "/images/services/amazon-trademark-brand-registry/brd-faq-pending.jpg",
   },
   {
     label: "Registered",
-    detail: "Qualifying record on file — focus shifts to Seller Central alignment.",
+    detail: "Qualifying record on file - focus shifts to Seller Central alignment.",
+    src: "/images/services/amazon-trademark-brand-registry/brd-faq-registered.jpg",
   },
-];
+] as const;
 
-/** Enrollment-state legend + FAQ — not voice register or index legend. */
+/** Enrollment-state legend + FAQ - not voice register or index legend. */
 export function BrdFaq({ service }: BrdFaqProps) {
   if (service.faq.length === 0) return null;
 
@@ -55,13 +59,16 @@ export function BrdFaq({ service }: BrdFaqProps) {
                   "border-t-2 border-primary sm:border-t-0 sm:border-l-2",
               )}
             >
-              <span
-                className="inline-flex h-7 w-7 items-center justify-center rounded-full border-2 border-primary bg-background font-mono text-[9px] font-black text-primary"
-                aria-hidden="true"
-              >
-                {String(index + 1)}
-              </span>
-              <p className="mt-2 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <div className="relative mx-auto aspect-[4/3] w-full max-w-[11rem] overflow-hidden border-2 border-primary">
+                <Image
+                  src={item.src}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="176px"
+                />
+              </div>
+              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
                 {item.label}
               </p>
               <p className="mt-1.5 text-sm font-medium text-text-secondary">

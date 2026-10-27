@@ -17,8 +17,9 @@ interface SrcPageTemplateProps {
 }
 
 /**
- * Product sourcing lane-map composition (layout sourcingLaneMap).
- * Supply corridors, gated lanes, route checkpoints — not copy-desk or PPC cockpit.
+ * Gated supply corridor composition (layout sourcingLaneMap).
+ * Dark corridor hero, open-vs-gated contrast, mile markers, route merge —
+ * not inventory pulse, compliance gauges, or PPC cockpit.
  */
 export function SrcPageTemplate({ service, site }: SrcPageTemplateProps) {
   return (

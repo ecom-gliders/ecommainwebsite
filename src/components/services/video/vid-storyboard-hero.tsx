@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -15,28 +16,32 @@ const FRAMES = [
   {
     timecode: "00:00",
     label: "Hook",
-    note: "Product in frame — muted autoplay",
+    note: "Product in frame - muted autoplay",
+    src: "/images/services/amazon-video-creative/vid-hook.jpg",
   },
   {
     timecode: "00:03",
     label: "Demo",
     note: "Show the job in motion",
+    src: "/images/services/amazon-video-creative/vid-demo.jpg",
   },
   {
     timecode: "00:08",
     label: "Proof",
     note: "Differentiator on screen",
+    src: "/images/services/amazon-video-creative/vid-proof-frame.jpg",
   },
   {
     timecode: "00:15",
     label: "CTA",
-    note: "SKU recall · end card",
+    note: "SKU recall - end card",
+    src: "/images/services/amazon-video-creative/vid-cta.jpg",
   },
 ] as const;
 
 /**
  * Ink-dark storyboard hero + lime form (cpy-desk-hero rhythm).
- * Horizontal frames with timecodes — not SERP, dials, rings, or ledger.
+ * Horizontal frames with timecodes - not SERP, dials, rings, or ledger.
  */
 export function VidStoryboardHero({ service, site }: VidStoryboardHeroProps) {
   const form = service.hero.form;
@@ -114,10 +119,16 @@ export function VidStoryboardHero({ service, site }: VidStoryboardHeroProps) {
                         <p className="text-xs font-black uppercase tracking-[0.06em] text-text-on-dark">
                           {frame.label}
                         </p>
-                        <div
-                          className="mt-2 aspect-[4/3] w-full border border-dashed border-text-on-dark/25 bg-[#131311]"
-                          aria-hidden="true"
-                        />
+                        <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden border border-text-on-dark/25 bg-[#131311]">
+                          <Image
+                            src={frame.src}
+                            alt=""
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 640px) 40vw, 140px"
+                            priority={index === 0}
+                          />
+                        </div>
                         <p className="mt-2 text-[10px] font-medium leading-snug text-text-on-dark/55">
                           {frame.note}
                         </p>

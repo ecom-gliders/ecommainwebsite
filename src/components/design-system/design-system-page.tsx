@@ -120,7 +120,7 @@ export function DesignSystemPage() {
               usedOn={["header", "footer", "homepage.hero"]}
             >
               <div className="flex flex-col gap-8 md:flex-row md:items-center">
-                <BrandLogo width={240} height={71} className="h-auto w-60" />
+                <BrandLogo className="text-[2rem] sm:text-[2.4rem]" />
                 <div>
                 <h3 className="text-h3">{designSystem.brand.name}</h3>
                 <p className="text-body mt-2 text-text-secondary">
@@ -417,7 +417,7 @@ export function DesignSystemPage() {
           >
             <div className="overflow-hidden rounded-md border border-border">
               <div className="flex h-[72px] items-center justify-between bg-background px-6 shadow-header">
-                <BrandLogo width={140} height={42} className="h-8 w-auto" />
+                <BrandLogo className="text-[1.35rem]" />
                 <div className="hidden items-center gap-6 md:flex">
                   {navLinks.map((link) => (
                     <span key={link} className="text-small text-text-primary">

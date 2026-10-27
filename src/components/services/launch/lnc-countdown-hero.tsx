@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -12,10 +13,34 @@ interface LncCountdownHeroProps {
 }
 
 const COUNTDOWN_TILES = [
-  { phase: "Prep", tMinus: "T-14", signal: "Listing gates", status: "Hold spend" },
-  { phase: "Soft launch", tMinus: "T-3", signal: "Limited ads", status: "Learn queries" },
-  { phase: "Push", tMinus: "T-0", signal: "Scale window", status: "Stock aligned" },
-  { phase: "Stabilize", tMinus: "T+14", signal: "Cadence handoff", status: "Ops rhythm" },
+  {
+    phase: "Prep",
+    tMinus: "T-14",
+    signal: "Listing gates",
+    status: "Hold spend",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-prep-v2.jpg",
+  },
+  {
+    phase: "Soft launch",
+    tMinus: "T-3",
+    signal: "Limited ads",
+    status: "Learn queries",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-soft-v2.jpg",
+  },
+  {
+    phase: "Push",
+    tMinus: "T-0",
+    signal: "Scale window",
+    status: "Stock aligned",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-push-v2.jpg",
+  },
+  {
+    phase: "Stabilize",
+    tMinus: "T+14",
+    signal: "Cadence handoff",
+    status: "Ops rhythm",
+    src: "/images/services/amazon-product-launch-services/lnc-phase-stabilize-v2.jpg",
+  },
 ] as const;
 
 /** Dark launch pad hero: T-minus phase tiles + lime intake form. */
@@ -79,7 +104,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                     <li
                       key={tile.phase}
                       className={cn(
-                        "flex min-h-[9.5rem] flex-col border border-text-on-dark/22 bg-[#1a1a17]",
+                        "flex min-h-[10.5rem] flex-col border border-text-on-dark/22 bg-[#1a1a17]",
                         index === 2 && "ring-1 ring-accent",
                       )}
                     >
@@ -91,21 +116,25 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                           {String(index + 1).padStart(2, "0")}
                         </span>
                       </div>
-                      <div className="flex flex-1 flex-col p-2.5">
+                      <div className="flex flex-1 flex-col p-2">
                         <p className="text-[11px] font-black uppercase tracking-[0.04em] text-text-on-dark">
                           {tile.phase}
                         </p>
-                        <div
-                          className="mt-2 flex flex-1 flex-col justify-end rounded-sm border border-dashed border-text-on-dark/18 bg-[#0c0c0b] p-2"
-                          aria-hidden="true"
-                        >
-                          <span className="font-mono text-[8px] font-bold uppercase text-text-on-dark/40">
-                            Signal
-                          </span>
-                          <span className="mt-0.5 text-[10px] font-bold text-text-on-dark/80">
+                        <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden border border-text-on-dark/18 bg-[#0c0c0b]">
+                          <Image
+                            src={tile.src}
+                            alt=""
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 640px) 40vw, 140px"
+                            priority={index === 0}
+                          />
+                        </div>
+                        <div className="mt-2 flex flex-col gap-1">
+                          <span className="text-[10px] font-bold text-text-on-dark/80">
                             {tile.signal}
                           </span>
-                          <span className="mt-2 inline-flex w-fit border border-accent/50 px-1.5 py-0.5 font-mono text-[8px] font-bold uppercase text-accent">
+                          <span className="inline-flex w-fit border border-accent/50 px-1.5 py-0.5 font-mono text-[8px] font-bold uppercase text-accent">
                             {tile.status}
                           </span>
                         </div>

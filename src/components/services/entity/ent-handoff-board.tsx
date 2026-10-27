@@ -24,14 +24,17 @@ export function EntHandoffBoard({ service }: EntHandoffBoardProps) {
       aria-labelledby={`${module.id}-heading`}
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          Amazon handoff
+        </p>
         <h2
           id={`${module.id}-heading`}
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-primary"
         >
           {module.heading}
         </h2>
         {module.subheading ? (
-          <p className="mt-2 max-w-2xl text-sm font-medium text-text-secondary">
+          <p className="mt-2 max-w-2xl text-base font-medium text-text-secondary">
             {module.subheading}
           </p>
         ) : null}

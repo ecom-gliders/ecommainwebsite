@@ -5,7 +5,6 @@ import { ShpChannelSplitProblem } from "./shp-channel-split-problem";
 import { ShpClose } from "./shp-close";
 import { ShpFloorAudience } from "./shp-floor-audience";
 import { ShpFaq } from "./shp-faq";
-import { ShpMilestoneRail } from "./shp-milestone-rail";
 import { ShpModuleDeliverables } from "./shp-module-deliverables";
 import { ShpProof } from "./shp-proof";
 import { ShpScopeSlots } from "./shp-scope-slots";
@@ -17,9 +16,8 @@ interface ShpPageTemplateProps {
 }
 
 /**
- * Shopify DTC composition (layout dtcStorefrontRail).
- * Browser-chrome storefront rail hero, channel split, floor audience,
- * build rail, module deliverables, JSON channel/milestone/scope visuals.
+ * Interactive DTC storefront rail (layout dtcStorefrontRail).
+ * CSS wireframe previews + section-wise tabs — no photo jam.
  */
 export function ShpPageTemplate({ service, site }: ShpPageTemplateProps) {
   return (
@@ -30,7 +28,6 @@ export function ShpPageTemplate({ service, site }: ShpPageTemplateProps) {
       <ShpBuildRail service={service} />
       <ShpModuleDeliverables service={service} />
       <ShpChannelOps service={service} />
-      <ShpMilestoneRail service={service} />
       <ShpScopeSlots service={service} />
       <ShpProof service={service} />
       <ShpFaq service={service} />

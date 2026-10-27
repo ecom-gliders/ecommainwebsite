@@ -20,8 +20,7 @@ const ENTITY_RUNGS = [
 ] as const;
 
 /**
- * Light-wash entity ladder hero + lime form (cpy-desk-hero rhythm).
- * Ascending rungs — not manuscript, SERP, spine, or seal pathway.
+ * Dark entity-ladder hero: compact contained rungs + lime intake form.
  */
 export function EntLadderHero({ service, site }: EntLadderHeroProps) {
   const form = service.hero.form;
@@ -30,103 +29,104 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
   return (
     <section
       id="service-hero"
-      className="relative overflow-x-clip border-b-2 border-primary bg-[#EDE8DF] py-7 sm:py-8"
+      className="relative -mt-[4.75rem] overflow-x-clip border-b-2 border-accent bg-[#12100e] sm:-mt-[5.5rem] md:-mt-[6rem]"
       aria-labelledby="service-hero-heading"
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.4]"
+        className="pointer-events-none absolute inset-0 opacity-70"
         style={{
           backgroundImage:
-            "linear-gradient(180deg, rgba(200,245,66,0.08) 0%, transparent 45%), repeating-linear-gradient(90deg, rgba(19,19,17,0.04) 0, rgba(19,19,17,0.04) 1px, transparent 1px, transparent 32px)",
+            "radial-gradient(ellipse at 70% 0%, rgba(198,241,53,0.1), transparent 40%), linear-gradient(180deg, rgba(237,232,223,0.06) 0%, transparent 40%)",
         }}
         aria-hidden="true"
       />
 
-      <ServicePageShell className="relative">
+      <ServicePageShell className="relative pb-7 pt-[5.5rem] sm:pb-8 sm:pt-[6.25rem] md:pt-[6.75rem]">
         <ServiceBreadcrumb
           label={service.breadcrumbLabel}
+          tone="onDark"
           className="flex justify-start"
         />
 
-        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
-          <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 text-xs font-semibold uppercase tracking-[0.08em] text-text-secondary">
-              US company registration
+        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-start lg:gap-7">
+          <div className="flex min-w-0 flex-col">
+            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+              Entity setup ladder
             </p>
             <h1
               id="service-hero-heading"
-              className="mt-1.5 max-w-2xl shrink-0 text-[clamp(1.55rem,3vw,2.2rem)] font-black leading-[1.08] tracking-tight text-primary"
+              className="mt-2 max-w-2xl text-[clamp(1.65rem,3.2vw,2.35rem)] font-black leading-[1.06] tracking-tight text-text-on-dark"
             >
               {service.hero.title}
             </h1>
-            <p className="mt-2 max-w-xl shrink-0 text-sm font-medium leading-snug text-text-secondary">
+            <p className="mt-2 max-w-xl text-sm font-medium leading-snug text-text-on-dark/75 sm:text-base">
               {service.hero.subtitle}
             </p>
 
             <div
-              className="mt-4 flex min-h-[20rem] flex-1 flex-col border-2 border-primary bg-[#F7F3EA] shadow-[4px_4px_0_0_#131311] lg:min-h-0"
+              className="mt-4 w-full overflow-hidden border-2 border-accent/70 bg-[#1a1814] shadow-[4px_4px_0_0_#C6F135]"
               aria-label="Entity setup ladder preview"
             >
-              <div className="flex shrink-0 items-center justify-between gap-3 border-b-2 border-primary bg-primary px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
-                  Entity ladder · jurisdiction to Amazon
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-2.5 py-1.5 sm:px-3">
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-accent">
+                  Jurisdiction → Amazon
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/70">
+                <p className="font-mono text-[8px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
                   Ascending rungs
                 </p>
               </div>
 
-              <div className="relative flex min-h-0 flex-1 flex-col justify-end p-4 sm:p-5">
-                <div
-                  className="pointer-events-none absolute bottom-8 left-6 top-6 w-1 bg-primary sm:left-8"
-                  aria-hidden="true"
-                />
-                <div
-                  className="pointer-events-none absolute bottom-8 left-6 top-6 w-1 translate-x-3 bg-primary/25 sm:left-8 sm:translate-x-4"
-                  aria-hidden="true"
-                />
-
-                <ol className="relative flex flex-col-reverse gap-2 sm:gap-2.5">
-                  {ENTITY_RUNGS.map((rung, index) => {
-                    const isTop = index === ENTITY_RUNGS.length - 1;
-                    return (
-                      <li
-                        key={rung.step}
-                        className="relative pl-10 sm:pl-12"
-                        style={{ marginLeft: `${index * 0.65}rem` }}
+              <ol className="divide-y divide-accent/20">
+                {ENTITY_RUNGS.map((rung, index) => {
+                  const isTop = index === ENTITY_RUNGS.length - 1;
+                  return (
+                    <li
+                      key={rung.step}
+                      className={cn(
+                        "flex items-start gap-2.5 px-2.5 py-2 sm:px-3 sm:py-2.5",
+                        isTop && "bg-accent/10",
+                      )}
+                    >
+                      <span
+                        className={cn(
+                          "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center border font-mono text-[9px] font-black",
+                          isTop
+                            ? "border-accent bg-accent text-primary"
+                            : "border-accent/50 text-accent",
+                        )}
                       >
-                        <span
-                          className={cn(
-                            "absolute left-0 top-1/2 h-0.5 w-8 -translate-y-1/2 bg-primary sm:w-10",
-                            isTop && "bg-accent",
-                          )}
-                          aria-hidden="true"
-                        />
-                        <div
-                          className={cn(
-                            "border-2 border-primary px-3 py-2 sm:px-4 sm:py-2.5",
-                            isTop
-                              ? "bg-accent shadow-[3px_3px_0_0_#131311]"
-                              : "bg-background",
-                          )}
-                        >
-                          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-                            <span className="font-mono text-[10px] font-black tabular-nums text-text-secondary">
-                              Rung {rung.step}
-                            </span>
-                            <p className="text-sm font-black text-primary sm:text-[15px]">
-                              {rung.label}
-                            </p>
-                          </div>
-                          <p className="mt-0.5 text-xs font-medium leading-snug text-text-secondary">
-                            {rung.detail}
+                        {rung.step}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="flex flex-wrap items-baseline gap-x-2">
+                          <p className="text-[13px] font-black leading-tight text-text-on-dark">
+                            {rung.label}
                           </p>
+                          {isTop ? (
+                            <span className="border border-accent px-1 py-px font-mono text-[7px] font-bold uppercase text-accent">
+                              Top rung
+                            </span>
+                          ) : null}
                         </div>
-                      </li>
-                    );
-                  })}
-                </ol>
-              </div>
+                        <p className="mt-0.5 text-[11px] font-medium leading-snug text-text-on-dark/55">
+                          {rung.detail}
+                        </p>
+                      </div>
+                      <div
+                        className="mt-1.5 h-1 w-10 shrink-0 overflow-hidden border border-accent/25 bg-[#12100e] sm:w-14"
+                        aria-hidden="true"
+                      >
+                        <div
+                          className="h-full bg-accent"
+                          style={{
+                            width: `${40 + ((index + 1) / ENTITY_RUNGS.length) * 60}%`,
+                          }}
+                        />
+                      </div>
+                    </li>
+                  );
+                })}
+              </ol>
             </div>
           </div>
 
@@ -161,7 +161,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
                 className="[&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:border-2 [&_input]:border-primary [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-3 text-center text-xs font-medium text-primary/70">
+            <p className="mt-5 text-center text-xs font-medium text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

@@ -10,7 +10,7 @@ interface ShpProofProps {
   service: ServicePageConfig;
 }
 
-/** Dual-channel growth bars — Amazon base plus owned-site extension cue. */
+/** Case-study proof cards — verified metrics only; no decorative dual-channel bars. */
 export function ShpProof({ service }: ShpProofProps) {
   const { results } = service;
   if (!results?.items?.length) return null;
@@ -22,60 +22,36 @@ export function ShpProof({ service }: ShpProofProps) {
       aria-labelledby="service-results-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          Verified outcomes
+        </p>
         <h2
           id="service-results-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-primary"
         >
           {results.heading}
         </h2>
         <ul className="mt-8 grid gap-4 lg:grid-cols-2">
-          {results.items.map((item) => (
+          {results.items.map((item, index) => (
             <li key={item.metric}>
               <Link
                 href={item.href}
                 className="flex h-full flex-col border-2 border-primary bg-background p-5 transition-colors hover:bg-accent/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:p-6"
               >
-                <p className="text-2xl font-black tracking-tight text-primary sm:text-3xl">
+                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  Case {String(index + 1).padStart(2, "0")}
+                </span>
+                <p className="mt-2 text-2xl font-black tracking-tight text-primary sm:text-3xl">
                   {item.metric}
                 </p>
                 <p className="mt-2 text-sm font-bold uppercase tracking-[0.06em] text-text-secondary">
                   {item.brand}
                 </p>
-                <p className="mt-2 flex-1 text-sm font-medium leading-snug text-text-secondary">
+                <p className="mt-2 flex-1 text-sm font-medium leading-snug text-text-secondary sm:text-base">
                   {item.description}
                 </p>
-                <div className="mt-4 grid grid-cols-2 gap-3" aria-hidden="true">
-                  <div>
-                    <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
-                      Amazon
-                    </p>
-                    <div className="mt-1 flex h-12 items-end gap-0.5">
-                      {[40, 55, 48, 72, 88, 95].map((h, i) => (
-                        <span
-                          key={i}
-                          className="flex-1 bg-primary"
-                          style={{ height: `${h}%` }}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                  <div>
-                    <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
-                      Owned site
-                    </p>
-                    <div className="mt-1 flex h-12 items-end gap-0.5">
-                      {[20, 28, 35, 42, 50, 58].map((h, i) => (
-                        <span
-                          key={i}
-                          className="flex-1 bg-accent"
-                          style={{ height: `${h}%` }}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                <span className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
-                  Case study
+                <span className="mt-5 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
+                  Read case study
                 </span>
               </Link>
             </li>

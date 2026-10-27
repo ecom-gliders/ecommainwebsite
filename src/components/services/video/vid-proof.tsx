@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -10,7 +11,19 @@ interface VidProofProps {
   service: ServicePageConfig;
 }
 
-/** Case frames with timecode bars — not pull-quote typography. */
+const PROOF_FRAMES: Record<string, string> = {
+  nikketta: "/images/services/amazon-video-creative/vid-proof-case-a.jpg",
+  gosports: "/images/services/amazon-video-creative/vid-proof-case-b.jpg",
+};
+
+function resolveFrame(brand: string) {
+  const key = brand.toLowerCase();
+  if (key.includes("nikketta") || key.includes("pet")) return PROOF_FRAMES.nikketta;
+  if (key.includes("gosports") || key.includes("sports")) return PROOF_FRAMES.gosports;
+  return PROOF_FRAMES.nikketta;
+}
+
+/** Case frames with timecode bars - not pull-quote typography. */
 export function VidProof({ service }: VidProofProps) {
   const { results } = service;
   if (!results?.items?.length) return null;
@@ -42,6 +55,15 @@ export function VidProof({ service }: VidProofProps) {
                   <span className="font-mono text-[10px] font-bold text-text-on-dark/50">
                     00:00 / still + A+
                   </span>
+                </div>
+                <div className="relative aspect-[16/9] w-full border-b-2 border-primary bg-[#EDE8DF]">
+                  <Image
+                    src={resolveFrame(item.brand)}
+                    alt=""
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
                 </div>
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
                   <p className="text-2xl font-black tracking-tight text-primary sm:text-[1.65rem]">

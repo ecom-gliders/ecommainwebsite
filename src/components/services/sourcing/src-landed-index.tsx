@@ -19,22 +19,25 @@ export function SrcLandedIndex({ service }: SrcLandedIndexProps) {
   return (
     <section
       id={chart.id}
-      className={cn("bg-[#EEF3F2]", serviceSectionPad)}
+      className={cn("bg-[#E4EBE9]", serviceSectionPad)}
       aria-labelledby={`${chart.id}-heading`}
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          Landed cost index
+        </p>
         <h2
           id={`${chart.id}-heading`}
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-primary"
         >
           {chart.heading}
         </h2>
         {chart.subheading ? (
-          <p className="mt-2 max-w-2xl text-sm font-medium text-text-secondary">
+          <p className="mt-2 max-w-2xl text-base font-medium text-text-secondary">
             {chart.subheading}
           </p>
         ) : null}
-        <div className="mt-8">
+        <div className="mt-8 border-2 border-primary bg-background p-4 shadow-[4px_4px_0_0_#131311] sm:p-6">
           <MetricChart
             chartLabel={chart.chartLabel ?? "Index weights"}
             points={chart.points}

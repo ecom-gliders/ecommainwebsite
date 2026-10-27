@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import { BrandUnlockGrid } from "@/components/services/modules/brand-unlock-grid";
 import {
@@ -10,7 +11,7 @@ interface BrdUnlockGridSectionProps {
   service: ServicePageConfig;
 }
 
-/** brandUnlockGrid module from JSON — open vs locked tool access. */
+/** brandUnlockGrid module from JSON - open vs locked tool access. */
 export function BrdUnlockGridSection({ service }: BrdUnlockGridSectionProps) {
   const module = service.modules?.find((m) => m.type === "brandUnlockGrid");
   if (!module || module.type !== "brandUnlockGrid") return null;
@@ -33,7 +34,16 @@ export function BrdUnlockGridSection({ service }: BrdUnlockGridSectionProps) {
             {module.subheading}
           </p>
         ) : null}
-        <div className="mt-8 rounded-sm border-2 border-accent/50 bg-[#FAF6EF] p-5 text-primary sm:p-6">
+        <div className="relative mt-6 aspect-[21/9] w-full overflow-hidden border-2 border-accent/50">
+          <Image
+            src="/images/services/amazon-trademark-brand-registry/brd-unlocked.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+        </div>
+        <div className="mt-4 rounded-sm border-2 border-accent/50 bg-[#FAF6EF] p-5 text-primary sm:p-6">
           <BrandUnlockGrid
             items={module.items}
             note={module.note}

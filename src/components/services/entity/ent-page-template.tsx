@@ -17,9 +17,9 @@ interface EntPageTemplateProps {
 }
 
 /**
- * Company registration composition (layout entitySetupLadder).
- * Entity ladder hero, access contrast, founder landings, ascending rungs,
- * document checklist tiles, JSON doc + handoff boards — not copy-desk or seal pathway.
+ * Entity setup ladder composition (layout entitySetupLadder).
+ * Dark contained ladder hero, blocked vs ready contrast, founder landings,
+ * ascending rung rail, document dossier — not sourcing corridor or brand seal.
  */
 export function EntPageTemplate({ service, site }: EntPageTemplateProps) {
   return (

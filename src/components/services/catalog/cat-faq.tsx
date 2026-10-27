@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -13,18 +14,21 @@ const STATUS_LEGEND = [
   {
     label: "Live",
     detail: "Offer active and indexed for priority queries.",
+    src: "/images/services/amazon-catalog-management/cat-faq-live.jpg",
   },
   {
     label: "At risk",
     detail: "Attributes or variation theme needs correction before spend scales.",
+    src: "/images/services/amazon-catalog-management/cat-faq-risk.jpg",
   },
   {
     label: "Suppressed",
     detail: "ASIN hidden from search until remediation completes.",
+    src: "/images/services/amazon-catalog-management/cat-faq-supp.jpg",
   },
 ] as const;
 
-/** Buyability status legend + FAQ — not voice register cards. */
+/** Buyability status legend + FAQ - not voice register cards. */
 export function CatFaq({ service }: CatFaqProps) {
   if (service.faq.length === 0) return null;
 
@@ -58,7 +62,19 @@ export function CatFaq({ service }: CatFaqProps) {
                   "border-t-2 border-primary sm:border-t-0 sm:border-l-2",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <div className="relative mx-auto aspect-[4/3] w-full max-w-[11rem] overflow-hidden border-2 border-primary">
+                <Image
+                  src={item.src}
+                  alt=""
+                  fill
+                  className={cn(
+                    "object-cover",
+                    item.label === "Suppressed" && "grayscale opacity-80",
+                  )}
+                  sizes="176px"
+                />
+              </div>
+              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Status
               </p>
               <p className="mt-2 text-sm font-black">{item.label}</p>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -11,7 +12,13 @@ interface CatCloseProps {
   service: ServicePageConfig;
 }
 
-/** Catalog triage close strip — not manuscript submit. */
+const CLOSE_STRIP = [
+  "/images/services/amazon-catalog-management/cat-parent.jpg",
+  "/images/services/amazon-catalog-management/cat-buyable.jpg",
+  "/images/services/amazon-catalog-management/cat-close-pack.jpg",
+] as const;
+
+/** Catalog triage close strip - not manuscript submit. */
 export function CatClose({ service }: CatCloseProps) {
   return (
     <section
@@ -48,9 +55,25 @@ export function CatClose({ service }: CatCloseProps) {
         >
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                Catalog health review
-              </p>
+              <div className="mb-4 flex min-w-0 flex-wrap items-end gap-2" aria-hidden="true">
+                {CLOSE_STRIP.map((src) => (
+                  <div
+                    key={src}
+                    className="relative h-14 w-16 overflow-hidden border-2 border-primary bg-[#EDE8DF]"
+                  >
+                    <Image
+                      src={src}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="64px"
+                    />
+                  </div>
+                ))}
+                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:block">
+                  Catalog health review
+                </p>
+              </div>
               <h2
                 id="service-close-heading"
                 className="mt-1 text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"

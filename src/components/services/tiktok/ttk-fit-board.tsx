@@ -9,7 +9,7 @@ interface TtkFitBoardProps {
   service: ServicePageConfig;
 }
 
-/** Fit gates as vertical phone-column board — not horizontal beat timeline or sheet table. */
+/** Static fit gate table — readable sheet (council: no mid-page tab monoculture). */
 export function TtkFitBoard({ service }: TtkFitBoardProps) {
   const board = service.modules?.find(
     (module) => module.type === "catalogHealthBoard",
@@ -23,66 +23,67 @@ export function TtkFitBoard({ service }: TtkFitBoardProps) {
       aria-labelledby="service-fit-board-heading"
     >
       <ServicePageShell>
-        <div className="flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h2
-              id="service-fit-board-heading"
-              className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
-            >
-              {board.heading}
-            </h2>
-            {board.subheading ? (
-              <p className="mt-2 max-w-2xl text-sm font-medium text-text-secondary">
-                {board.subheading}
-              </p>
-            ) : null}
-          </div>
-          {board.boardLabel ? (
-            <p className="border-2 border-primary bg-[#0c0c0b] px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent">
-              {board.boardLabel}
-            </p>
-          ) : null}
-        </div>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          Fit board
+        </p>
+        <h2
+          id="service-fit-board-heading"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-primary"
+        >
+          {board.heading}
+        </h2>
+        {board.subheading ? (
+          <p className="mt-2 max-w-2xl text-sm font-medium text-text-secondary sm:text-base">
+            {board.subheading}
+          </p>
+        ) : null}
 
-        <div className="mt-8 overflow-x-auto pb-2">
-          <ol
-            className="grid min-w-[48rem] grid-cols-3 gap-3 sm:grid-cols-6"
-            aria-label={board.urlLabel ?? "TikTok Shop fit gates"}
-          >
-            {board.rows.map((row, index) => {
-              const [gate, check, why, missing] = row.cells;
-              return (
-                <li
-                  key={gate}
-                  className={cn(
-                    "flex flex-col border-2 border-primary bg-[#F7F3EA]",
-                    index === 0 && "ring-2 ring-accent ring-offset-2",
-                  )}
-                >
-                  <div className="border-b-2 border-primary bg-primary px-2 py-1.5">
-                    <p className="font-mono text-[9px] font-black uppercase text-accent">
-                      {gate}
-                    </p>
-                  </div>
-                  <div className="flex flex-1 flex-col p-2.5">
-                    <div
-                      className="mx-auto aspect-[9/16] w-full max-w-[2.75rem] border border-primary/25 bg-[#1a1a18]"
-                      aria-hidden="true"
-                    />
-                    <p className="mt-2 text-[10px] font-bold uppercase tracking-[0.05em] text-text-secondary">
-                      {check}
-                    </p>
-                    <p className="mt-1.5 text-[11px] font-medium leading-snug text-text-secondary">
-                      {why}
-                    </p>
-                    <p className="mt-auto border-t border-primary/15 pt-2 text-[10px] font-bold leading-snug text-primary">
-                      {missing}
-                    </p>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
+        <div className="mt-8 overflow-hidden border-2 border-primary shadow-[4px_4px_0_0_#131311]">
+          <div className="flex items-center gap-2 border-b-2 border-primary bg-[#F0F0EB] px-3 py-2">
+            <span className="font-mono text-[10px] font-bold text-text-secondary">
+              {board.boardLabel ?? "Fit gates"} · {board.urlLabel}
+            </span>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[40rem] border-collapse text-left">
+              <thead>
+                <tr className="border-b-2 border-primary bg-primary text-text-on-dark">
+                  {board.columns.map((col) => (
+                    <th
+                      key={col}
+                      className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent sm:px-4"
+                    >
+                      {col}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {board.rows.map((row, index) => (
+                  <tr
+                    key={row.cells[0]}
+                    className={cn(
+                      "border-b border-primary/20 last:border-b-0",
+                      index % 2 === 0 ? "bg-background" : "bg-[#FAFAF7]",
+                    )}
+                  >
+                    {row.cells.map((cell, cellIndex) => (
+                      <td
+                        key={`${row.cells[0]}-${cellIndex}`}
+                        className={cn(
+                          "px-3 py-3 text-sm font-medium text-primary sm:px-4 sm:text-base",
+                          cellIndex === 0 && "font-black",
+                          cellIndex === 3 && "text-text-secondary",
+                        )}
+                      >
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
         {board.disclaimer ? (
           <p className="mt-4 text-xs font-medium text-text-secondary">

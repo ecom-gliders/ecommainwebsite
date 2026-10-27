@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -14,21 +15,18 @@ interface VisFrameHeroProps {
 const STACK_FRAMES = [
   {
     slot: "Main",
-    detail: "Hero · compliant fill",
-    offset: "translate-x-0 translate-y-0",
-    z: "z-[3]",
+    detail: "Hero - compliant fill",
+    src: "/images/services/amazon-visual-creativity/vis-frame-main.jpg",
   },
   {
     slot: "Lifestyle",
     detail: "In-use context",
-    offset: "translate-x-6 translate-y-4 sm:translate-x-10 sm:translate-y-5",
-    z: "z-[2]",
+    src: "/images/services/amazon-visual-creativity/vis-frame-lifestyle.jpg",
   },
   {
     slot: "Infographic",
     detail: "Benefit callouts",
-    offset: "translate-x-12 translate-y-8 sm:translate-x-[4.5rem] sm:translate-y-10",
-    z: "z-[1]",
+    src: "/images/services/amazon-visual-creativity/vis-frame-infographic.jpg",
   },
 ] as const;
 
@@ -77,7 +75,7 @@ export function VisFrameHero({ service, site }: VisFrameHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
           <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 text-xs font-semibold uppercase tracking-[0.08em] text-accent">
+            <p className="shrink-0 text-sm font-semibold uppercase tracking-[0.08em] text-accent">
               Amazon visual creativity
             </p>
             <h1
@@ -86,7 +84,7 @@ export function VisFrameHero({ service, site }: VisFrameHeroProps) {
             >
               {service.hero.title}
             </h1>
-            <p className="mt-2 max-w-xl shrink-0 text-sm font-medium leading-snug text-text-on-dark/75">
+            <p className="mt-2 max-w-xl shrink-0 text-base font-medium leading-snug text-text-on-dark/75">
               {service.hero.subtitle}
             </p>
 
@@ -95,36 +93,62 @@ export function VisFrameHero({ service, site }: VisFrameHeroProps) {
               aria-label="Creative frame stack preview"
             >
               <div className="flex shrink-0 items-center justify-between gap-3 border-b border-accent/30 pb-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
-                  Studio · frame stack
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
+                  Studio - frame stack
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/50">
-                  Crop → sequence
+                <p className="font-mono text-xs font-bold text-text-on-dark/50">
+                  Crop to sequence
                 </p>
               </div>
 
-              <div className="relative mt-3 min-h-0 flex-1">
-                {STACK_FRAMES.map((frame) => (
+              <div className="mt-3 grid min-h-0 flex-1 grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-2.5">
+                {STACK_FRAMES.map((frame, index) => (
                   <div
                     key={frame.slot}
                     className={cn(
-                      "absolute left-0 top-0 w-[min(100%,14rem)] border-2 border-[#F4F4F4] bg-[#2a2a28] p-3 sm:w-[15rem]",
-                      frame.offset,
-                      frame.z,
+                      "relative flex min-h-0 flex-col border-2 border-[#F4F4F4] bg-[#2a2a28] p-1.5 sm:p-2",
+                      index === 1 && "sm:mt-3",
+                      index === 2 && "sm:mt-1.5",
                     )}
                   >
                     <CropMarks />
-                    <div className="aspect-square w-full bg-gradient-to-br from-[#F4F4F4]/25 to-[#F4F4F4]/5" />
-                    <p className="mt-2 font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                    <div className="relative min-h-0 w-full flex-1 overflow-hidden bg-[#1a1a18] aspect-square">
+                      <Image
+                        src={frame.src}
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 45vw, 140px"
+                      />
+                    </div>
+                    <p className="mt-1.5 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                       {frame.slot}
                     </p>
-                    <p className="text-xs font-medium text-text-on-dark/70">
+                    <p className="text-sm font-medium leading-snug text-text-on-dark/70">
                       {frame.detail}
                     </p>
                   </div>
                 ))}
-                <div className="pointer-events-none absolute bottom-2 right-2 max-w-[10rem] border border-dashed border-accent/50 px-2 py-1 font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-accent/80">
-                  A+ module slot
+                <div className="relative flex min-h-0 flex-col border-2 border-dashed border-accent/60 bg-[#131311] p-1.5 sm:mt-2 sm:p-2">
+                  <CropMarks />
+                  <div className="relative flex min-h-0 w-full flex-1 aspect-square flex-col items-center justify-center gap-2 overflow-hidden bg-[#1a1a18]">
+                    <Image
+                      src="/images/services/amazon-visual-creativity/vis-conv-aplus.jpg"
+                      alt=""
+                      fill
+                      className="object-cover opacity-55"
+                      sizes="(max-width: 640px) 45vw, 140px"
+                    />
+                    <span className="relative z-[1] border border-accent bg-[#131311]/90 px-2 py-1 font-mono text-xs font-black uppercase tracking-[0.08em] text-accent">
+                      A+ module
+                    </span>
+                  </div>
+                  <p className="mt-1.5 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
+                    A+ slot
+                  </p>
+                  <p className="text-sm font-medium leading-snug text-text-on-dark/70">
+                    Educate - compare
+                  </p>
                 </div>
               </div>
             </div>
@@ -138,7 +162,7 @@ export function VisFrameHero({ service, site }: VisFrameHeroProps) {
               {form.heading}
             </h2>
             {form.subheading ? (
-              <p className="mt-1.5 text-sm font-medium leading-snug text-primary/80">
+              <p className="mt-1.5 text-base font-medium leading-snug text-primary/80">
                 {form.subheading}
               </p>
             ) : null}
@@ -161,7 +185,7 @@ export function VisFrameHero({ service, site }: VisFrameHeroProps) {
                 className="[&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:border-2 [&_input]:border-primary [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-3 text-center text-xs font-medium text-primary/70">
+            <p className="mt-3 text-center text-sm font-medium text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

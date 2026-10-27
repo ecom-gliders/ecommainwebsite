@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,9 +10,26 @@ interface TtkSeatAudienceProps {
   service: ServicePageConfig;
 }
 
-const SEAT_LABELS = ["Creator seat", "Brand seat", "Ops seat", "Amazon seat"] as const;
+const SEATS = [
+  {
+    label: "Creator seat",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-hook.jpg",
+  },
+  {
+    label: "Brand seat",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-demo.jpg",
+  },
+  {
+    label: "Ops seat",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-scale.jpg",
+  },
+  {
+    label: "Amazon seat",
+    src: "/images/services/tiktok-shop-ads/ttk-phone-refresh.jpg",
+  },
+] as const;
 
-/** Creator and brand audience as equal phone tiles — not orbit cards or film sprockets. */
+/** Audience seats with real phone stills — no empty black placeholders. */
 export function TtkSeatAudience({ service }: TtkSeatAudienceProps) {
   const audience = service.audience;
   if (!audience?.points?.length) return null;
@@ -27,38 +45,40 @@ export function TtkSeatAudience({ service }: TtkSeatAudienceProps) {
       <ServicePageShell>
         <h2
           id="service-audience-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="max-w-3xl text-[clamp(1.5rem,2.8vw,1.85rem)] font-black tracking-tight text-primary"
         >
           {audience.heading}
         </h2>
 
         <ul className="mt-8 grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4">
-          {points.map((point, index) => (
-            <li
-              key={point.title}
-              className="flex min-h-[14rem] flex-col border-2 border-primary bg-[#F4F4F4] p-4"
-            >
-              <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                {SEAT_LABELS[index] ?? `Seat ${index + 1}`}
-              </p>
-              <div
-                className="mx-auto mt-3 aspect-[9/16] w-full max-w-[5.5rem] border-2 border-primary bg-[#1a1a18]"
-                aria-hidden="true"
+          {points.map((point, index) => {
+            const seat = SEATS[index] ?? SEATS[0];
+            return (
+              <li
+                key={point.title}
+                className="flex flex-col border-2 border-primary bg-[#F4F4F4] p-3 sm:p-4"
               >
-                <div className="flex h-full flex-col items-center justify-center gap-2 p-2">
-                  <span className="h-2 w-6 rounded-sm bg-accent/70" />
-                  <span className="h-8 w-8 rounded-full border border-accent/40" />
-                  <span className="mt-auto h-1 w-full bg-text-on-dark/30" />
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  {seat.label}
+                </p>
+                <div className="relative mx-auto mt-3 aspect-[9/16] w-full max-w-[5rem] overflow-hidden border-2 border-primary sm:max-w-[5.5rem]">
+                  <Image
+                    src={seat.src}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="88px"
+                  />
                 </div>
-              </div>
-              <h3 className="mt-3 text-sm font-black leading-snug text-primary sm:text-base">
-                {point.title}
-              </h3>
-              <p className="mt-2 flex-1 text-xs font-medium leading-snug text-text-secondary sm:text-sm">
-                {point.description}
-              </p>
-            </li>
-          ))}
+                <h3 className="mt-3 text-sm font-black leading-snug text-primary sm:text-base">
+                  {point.title}
+                </h3>
+                <p className="mt-2 flex-1 text-xs font-medium leading-snug text-text-secondary sm:text-sm">
+                  {point.description}
+                </p>
+              </li>
+            );
+          })}
         </ul>
       </ServicePageShell>
     </section>

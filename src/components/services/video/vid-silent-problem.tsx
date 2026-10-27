@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,7 +10,7 @@ interface VidSilentProblemProps {
   service: ServicePageConfig;
 }
 
-/** Silent listing vs video lift strip — not draft/spec dump. */
+/** Silent listing vs video lift strip - not draft/spec dump. */
 export function VidSilentProblem({ service }: VidSilentProblemProps) {
   const { problem } = service;
 
@@ -54,13 +55,18 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
                 <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                   Silent listing
                 </p>
-                <div
-                  className="mt-4 aspect-video w-full border border-text-on-dark/20 bg-[#131311]"
-                  aria-hidden="true"
-                />
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20 bg-[#131311]">
+                  <Image
+                    src="/images/services/amazon-video-creative/vid-silent.jpg"
+                    alt=""
+                    fill
+                    className="object-cover opacity-70 grayscale"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                </div>
                 <ul className="mt-4 space-y-2 text-sm font-medium text-text-on-dark/45">
                   <li className="line-through decoration-text-on-dark/40">
-                    Still images only — setup unclear
+                    Still images only - setup unclear
                   </li>
                   <li className="line-through decoration-text-on-dark/40">
                     Scale and motion left to imagination
@@ -75,12 +81,13 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
                   Video lift
                 </p>
                 <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-primary">
-                  <div
-                    className="absolute inset-0 flex items-center justify-center font-mono text-[10px] font-bold uppercase text-accent"
-                    aria-hidden="true"
-                  >
-                    Demo · proof · SKU
-                  </div>
+                  <Image
+                    src="/images/services/amazon-video-creative/vid-lift.jpg"
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
                   <div className="absolute bottom-0 left-0 right-0 h-1 bg-accent" aria-hidden="true" />
                 </div>
                 <ul className="mt-4 space-y-2 text-sm font-black leading-snug text-primary">

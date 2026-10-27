@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,7 +10,14 @@ interface VisFramePipelineProps {
   service: ServicePageConfig;
 }
 
-/** Horizontal frame pipeline — light-table sequence, not zigzag ops rail. */
+const PIPE_IMAGES = [
+  "/images/services/amazon-visual-creativity/vis-pipe-01.jpg",
+  "/images/services/amazon-visual-creativity/vis-pipe-02.jpg",
+  "/images/services/amazon-visual-creativity/vis-pipe-03.jpg",
+  "/images/services/amazon-visual-creativity/vis-pipe-04.jpg",
+] as const;
+
+/** Horizontal frame pipeline - light-table sequence, not zigzag ops rail. */
 export function VisFramePipeline({ service }: VisFramePipelineProps) {
   const { solution } = service;
 
@@ -22,7 +30,7 @@ export function VisFramePipeline({ service }: VisFramePipelineProps) {
       <ServicePageShell>
         <h2
           id="service-solution-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.9rem]"
         >
           {solution.heading}
         </h2>
@@ -39,16 +47,24 @@ export function VisFramePipeline({ service }: VisFramePipelineProps) {
                 className="relative flex min-w-[9rem] flex-1 flex-col lg:min-w-0"
               >
                 <div className="relative mx-auto w-full max-w-[10rem] border-2 border-primary bg-[#F4F4F4] p-2 shadow-[3px_3px_0_0_#131311]">
-                  <div className="aspect-[4/5] bg-gradient-to-b from-[#EDE8DF] to-background" />
-                  <span className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary">
+                  <div className="relative aspect-[4/5] overflow-hidden bg-[#EDE8DF]">
+                    <Image
+                      src={PIPE_IMAGES[index] ?? PIPE_IMAGES[0]}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="160px"
+                    />
+                  </div>
+                  <span className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-black text-primary">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
                 <div className="mt-4 flex flex-1 flex-col border-t-2 border-primary pt-3">
-                  <h3 className="text-sm font-black text-primary sm:text-base">
+                  <h3 className="text-lg font-black text-primary sm:text-lg">
                     {step.title}
                   </h3>
-                  <p className="mt-1.5 text-xs font-medium leading-snug text-text-secondary sm:text-sm">
+                  <p className="mt-1.5 text-base font-medium leading-snug text-text-secondary">
                     {step.description}
                   </p>
                 </div>

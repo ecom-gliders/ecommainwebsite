@@ -4,14 +4,14 @@
   "layout": "visualFrameStack",
   "hero": {
     "title": "Amazon visuals sequenced for the click and the close",
-    "subtitle": "Main images, secondary frames, lifestyle, and A+ design planned as a shopper path—not a random photo dump. Physical creative from our library; no invented order-increase percentages.",
+    "subtitle": "Main images, secondary frames, lifestyle, and A+ design planned as one shopper path—not a random photo dump.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
     },
     "form": {
       "heading": "Request visual creative support",
-      "subheading": "Share what assets you need so the design team can scope imagery and A+ modules.",
+      "subheading": "Tell us which images and A+ modules you need.",
       "submitLabel": "Request creative support",
       "fields": [
         {
@@ -113,20 +113,20 @@
     "heading": "Why Amazon visuals fail to convert",
     "points": [
       {
-        "title": "Main images that do not stop the scroll",
-        "description": "Weak crop, lighting, or packaging presentation loses the thumbnail battle."
+        "title": "Weak main images",
+        "description": "Poor crop or lighting loses the search thumbnail."
       },
       {
-        "title": "Secondary images without a story",
-        "description": "Extra frames repeat the hero instead of scale, features, and use cases."
+        "title": "Secondary frames with no story",
+        "description": "Repeats of the hero instead of features and use cases."
       },
       {
-        "title": "A+ layouts that look generic",
-        "description": "Templates without brand hierarchy or mobile-first reading flow."
+        "title": "Generic A+ layouts",
+        "description": "Templates with no brand hierarchy on mobile."
       },
       {
-        "title": "Creative disconnected from listing copy",
-        "description": "Images contradict bullets or leave objections unanswered."
+        "title": "Images out of sync with copy",
+        "description": "Visuals contradict bullets or skip objections."
       }
     ]
   },
@@ -134,20 +134,20 @@
     "heading": "Who Amazon visual creativity is for",
     "points": [
       {
-        "title": "Weak click-through from search",
-        "description": "Hero images lose the thumbnail battle against stronger competitors."
+        "title": "Weak search click-through",
+        "description": "Hero images lose next to stronger competitors."
       },
       {
         "title": "Incomplete image stories",
-        "description": "ASINs that need feature, lifestyle, comparison, and scale sequenced."
+        "description": "Need feature, lifestyle, compare, and scale in order."
       },
       {
         "title": "Brand Registry A+ upgrades",
-        "description": "Replace templated modules with education-led design."
+        "description": "Replace templated modules with clearer design."
       },
       {
         "title": "Launches needing a full package",
-        "description": "New ASINs and seasonal refreshes before ads scale traffic."
+        "description": "New ASINs and refreshes before ads scale."
       }
     ]
   },
@@ -177,35 +177,35 @@
     "items": [
       {
         "title": "Main image optimization",
-        "description": "Clean, compliant hero imagery built for search click-through."
+        "description": "Clean hero images built for search click-through."
       },
       {
         "title": "Secondary image sets",
-        "description": "Feature, lifestyle, comparison, and scale images sequenced for the PDP."
+        "description": "Feature, lifestyle, compare, and scale in order."
       },
       {
         "title": "Infographic design",
-        "description": "Visual callouts that communicate benefits faster than text alone."
+        "description": "Callouts that show benefits faster than text."
       },
       {
         "title": "A+ Content design",
-        "description": "Brand Registry A+ modules designed for desktop and mobile shopping."
+        "description": "Brand Registry modules for desktop and mobile."
       },
       {
         "title": "Lifestyle photography direction",
-        "description": "Shot planning and production support for in-context imagery."
+        "description": "Shot planning for in-context product use."
       },
       {
         "title": "Brand consistency across ASINs",
-        "description": "Shared visual standards so the catalog presents as one brand."
+        "description": "Shared standards so the catalog looks like one brand."
       },
       {
         "title": "Creative package for launches",
-        "description": "Image sets prepared for new ASINs and seasonal refreshes."
+        "description": "Image sets for new ASINs and seasonal refreshes."
       },
       {
         "title": "Cross-team coordination",
-        "description": "Alignment with content writing and listing SEO."
+        "description": "Aligned with content writing and listing SEO."
       }
     ]
   },
@@ -213,20 +213,20 @@
     "heading": "How eCom Gliders visual creativity differs",
     "points": [
       {
-        "title": "Conversion-led image sequencing",
-        "description": "Galleries answer buyer questions—not only look premium in isolation."
+        "title": "Image sequence that answers buyers",
+        "description": "Galleries built for questions, not looks alone."
       },
       {
-        "title": "A+ design paired with copy and SEO",
-        "description": "Visual modules coordinated so the page tells one story."
+        "title": "A+ with copy and SEO",
+        "description": "One story across modules, bullets, and keywords."
       },
       {
-        "title": "Built for Amazon requirements",
-        "description": "Listing image standards and Brand Registry A+ constraints for your catalog."
+        "title": "Built for Amazon rules",
+        "description": "Listing and Brand Registry image standards."
       },
       {
-        "title": "Audit-first ASIN prioritization",
-        "description": "Creative work prioritized by commercial impact during a free audit."
+        "title": "Audit-first priorities",
+        "description": "ASINs ranked by commercial impact first."
       }
     ]
   },
@@ -235,7 +235,7 @@
       "id": "visual-physical-proof",
       "type": "proofGallery",
       "heading": "Physical listing imagery refinement",
-      "subheading": "Studio-style before/after from our creative library—style reference, not a client-specific guarantee.",
+      "subheading": "Studio before/after from our creative library.",
       "items": [
         {
           "src": "/images/creative/listing-image-before-after.png",
@@ -248,9 +248,9 @@
       "id": "visual-sequence-board",
       "type": "catalogHealthBoard",
       "heading": "PDP image sequence board",
-      "subheading": "Physical image jobs in order—gallery above shows real listing refinement, not stock mockups.",
+      "subheading": "Image jobs in order for priority ASINs.",
       "urlLabel": "visual.ecomgliders.com/sequence",
-      "disclaimer": "Illustrative sequence for priority ASINs. Exact slots depend on category and Amazon image rules. ",
+      "disclaimer": "Slots depend on category and Amazon image rules.",
       "columns": [
         "Slot",
         "Shopper job",
@@ -314,8 +314,8 @@
       "id": "visual-sequence-priority",
       "type": "metricChart",
       "heading": "Where visual effort usually pays first",
-      "subheading": "Relative focus index for listing creative—not a CTR guarantee.",
-      "chartLabel": "Relative sequence priority (index)",
+      "subheading": "Where we usually put creative effort first.",
+      "chartLabel": "Sequence priority (index)",
       "points": [
         {
           "label": "Main image (search CTR)",
@@ -338,18 +338,18 @@
           "value": 48
         }
       ],
-      "footnote": "Production sequencing for planning. NIKKETTA CVR 11.3% to 22.1% (/case-study-4/) also depended on copy, offers, and traffic—not imagery alone.",
+      "footnote": "Planning index only. Case results also depend on copy, offers, and traffic.",
       "variant": "columns"
     },
     {
       "id": "visual-aplus-spotlight",
       "type": "infographicSpotlight",
       "heading": "A+ and lifestyle composition direction",
-      "subheading": "Lifestyle composition direction for A+ and brand story modules.",
+      "subheading": "Lifestyle direction for A+ and brand story modules.",
       "image": {
         "src": "/images/creative/creative-aplus-v2.png",
-        "alt": "Lifestyle brand-story composition suited to Amazon A+ Content modules",
-        "caption": "Illustrative A+ / lifestyle direction. Modules are designed per brand and eligibility."
+        "alt": "Lifestyle brand-story composition for Amazon A+ Content",
+        "caption": "A+ and lifestyle direction designed per brand."
       }
     }
   ],
@@ -359,13 +359,13 @@
       {
         "metric": "CVR 11.3% to 22.1%",
         "brand": "NIKKETTA (Pet grooming)",
-        "description": "Full visual rebrand with premium main images and A+ content nearly doubled listing conversion versus the prior templated presentation.",
+        "description": "Premium main images and A+ nearly doubled listing conversion.",
         "href": "/case-study-4/"
       },
       {
         "metric": "CVR 9.8% to 26.7%",
         "brand": "GoSports (Sports and Outdoors)",
-        "description": "Lifestyle imagery, product detail shots, and A+ content repositioned the listing while monthly revenue grew from $22.1K to $90.7K (+310%).",
+        "description": "Lifestyle, detail shots, and A+ lifted conversion with listing and ads work.",
         "href": "/case-study-9/"
       }
     ]
@@ -426,7 +426,7 @@
   ],
   "cta": {
     "heading": "Request a visual creative audit",
-    "subheading": "We review listing imagery and A+ opportunities. No invented order-increase percentages.",
+    "subheading": "We review listing imagery and A+ opportunities for your catalog.",
     "button": {
       "label": "Request a free audit",
       "href": "/free-audit/"

@@ -9,7 +9,7 @@ interface TtkFocusChartProps {
   service: ServicePageConfig;
 }
 
-/** Creative-before-scale as spark-height phone bars — not DSP filmstrip or horizontal bars only. */
+/** Compact horizontal focus rows — no tall empty phone-bar tower. */
 export function TtkFocusChart({ service }: TtkFocusChartProps) {
   const chart = service.modules?.find((module) => module.type === "metricChart");
   if (!chart || chart.type !== "metricChart") return null;
@@ -23,52 +23,51 @@ export function TtkFocusChart({ service }: TtkFocusChartProps) {
       aria-labelledby="service-focus-chart-heading"
     >
       <ServicePageShell>
-        <h2
-          id="service-focus-chart-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-text-on-dark sm:text-[1.75rem]"
-        >
-          {chart.heading}
-        </h2>
-        {chart.subheading ? (
-          <p className="mt-2 max-w-2xl text-sm font-medium leading-relaxed text-text-on-dark/75 sm:text-base">
-            {chart.subheading}
-          </p>
-        ) : null}
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,18rem)_minmax(0,1fr)] lg:items-end lg:gap-10">
+          <div>
+            <h2
+              id="service-focus-chart-heading"
+              className="text-[clamp(1.5rem,2.8vw,1.85rem)] font-black tracking-tight text-text-on-dark"
+            >
+              {chart.heading}
+            </h2>
+            {chart.subheading ? (
+              <p className="mt-2 text-sm font-medium leading-snug text-text-on-dark/75 sm:text-base">
+                {chart.subheading}
+              </p>
+            ) : null}
+            <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              {chart.chartLabel} · not ROAS or GMV
+            </p>
+          </div>
 
-        <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
-          {chart.chartLabel}
-        </p>
-
-        <ul className="mt-6 flex flex-wrap items-end justify-center gap-3 sm:gap-5">
-          {chart.points.map((point) => {
-            const heightPct = Math.max(28, Math.round((point.value / max) * 100));
-            return (
-              <li
-                key={point.label}
-                className="flex w-[4.25rem] flex-col items-center sm:w-[5.25rem]"
-              >
-                <span className="mb-1 font-mono text-[10px] font-bold tabular-nums text-accent">
-                  {point.value}
-                </span>
-                <div
-                  className="relative flex w-full flex-col items-center justify-end border-2 border-accent/50 bg-[#0c0c0b]"
-                  style={{
-                    height: `${heightPct * 1.35}px`,
-                    minHeight: "5rem",
-                    maxHeight: "9.5rem",
-                  }}
-                  aria-hidden="true"
-                >
-                  <div className="absolute inset-x-2 top-2 aspect-[9/16] max-h-[70%] border border-text-on-dark/25" />
-                  <div className="mx-1 mb-1.5 mt-auto h-1.5 w-[calc(100%-0.5rem)] bg-accent" />
-                </div>
-                <p className="mt-2 text-center text-[10px] font-bold leading-snug text-text-on-dark sm:text-xs">
-                  {point.label}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
+          <ul className="space-y-3">
+            {chart.points.map((point) => {
+              const widthPct = Math.max(12, Math.round((point.value / max) * 100));
+              return (
+                <li key={point.label}>
+                  <div className="flex items-baseline justify-between gap-3">
+                    <p className="text-sm font-bold text-text-on-dark sm:text-base">
+                      {point.label}
+                    </p>
+                    <span className="shrink-0 font-mono text-[11px] font-bold tabular-nums text-accent">
+                      {point.value}
+                    </span>
+                  </div>
+                  <div
+                    className="mt-1.5 h-2.5 w-full border border-accent/35 bg-[#0c0c0b]"
+                    aria-hidden="true"
+                  >
+                    <div
+                      className="h-full bg-accent"
+                      style={{ width: `${widthPct}%` }}
+                    />
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
         {chart.footnote ? (
           <p className="mt-6 text-xs font-medium leading-snug text-text-on-dark/65">
             {chart.footnote}

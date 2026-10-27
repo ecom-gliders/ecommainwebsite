@@ -69,17 +69,17 @@ function PolicyBar({
   const inBand = invert ? value >= threshold : value < threshold;
 
   return (
-    <li className="border-b border-accent/20 px-4 py-3 last:border-b-0 sm:px-5 sm:py-4">
+    <li className="border-b border-accent/20 px-3 py-2.5 last:border-b-0 sm:px-4 sm:py-3">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <p className="text-sm font-black text-text-on-dark sm:text-base">{label}</p>
+        <p className="text-sm font-black text-text-on-dark">{label}</p>
         <div className="flex items-center gap-2">
-          <span className="font-mono text-lg font-black tabular-nums text-accent">
+          <span className="font-mono text-base font-black tabular-nums text-accent sm:text-lg">
             {value}
             {unit}
           </span>
           <span
             className={cn(
-              "border px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase",
+              "border px-1.5 py-0.5 font-mono text-[8px] font-bold uppercase",
               inBand
                 ? "border-accent/60 text-accent"
                 : "border-red-300/80 text-red-200",
@@ -90,7 +90,7 @@ function PolicyBar({
         </div>
       </div>
       <div
-        className="relative mt-3 h-4 w-full border border-accent/30 bg-[#0d0d0c]"
+        className="relative mt-2.5 h-3.5 w-full border border-accent/30 bg-[#0d0d0c]"
         role="img"
         aria-label={`${label}: ${value}${unit}, threshold ${threshold}${unit}`}
       >
@@ -104,19 +104,12 @@ function PolicyBar({
           style={{ left: `${thresholdPct}%` }}
           aria-hidden="true"
         />
-        <div
-          className="absolute -top-4 font-mono text-[8px] font-bold uppercase text-text-on-dark/70"
-          style={{ left: `calc(${thresholdPct}% - 1.5rem)` }}
-          aria-hidden="true"
-        >
-          Limit {threshold}
-          {unit}
-        </div>
       </div>
     </li>
   );
 }
 
+/** Dark compliance gauge hero — CSS policy bars stretch with the form. */
 export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
   const form = service.hero.form;
   if (!form) return null;
@@ -124,40 +117,55 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
   return (
     <section
       id="service-hero"
-      className="relative overflow-x-clip border-b-2 border-primary bg-background py-7 sm:py-8"
+      className="relative -mt-[4.75rem] overflow-x-clip border-b-2 border-accent bg-[#0c0c0b] sm:-mt-[5.5rem] md:-mt-[6rem]"
       aria-labelledby="service-hero-heading"
     >
-      <ServicePageShell className="relative">
+      <div
+        className="pointer-events-none absolute inset-0 opacity-60"
+        style={{
+          backgroundImage:
+            "radial-gradient(ellipse at 80% 10%, rgba(198,241,53,0.1), transparent 40%)",
+        }}
+        aria-hidden="true"
+      />
+
+      <ServicePageShell className="relative pb-7 pt-[5.5rem] sm:pb-8 sm:pt-[6.25rem] md:pt-[6.75rem]">
         <ServiceBreadcrumb
           label={service.breadcrumbLabel}
+          tone="onDark"
           className="flex justify-start"
         />
 
-        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-6">
-          <div className="flex min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 text-xs font-semibold uppercase tracking-[0.08em] text-text-secondary">
-              Amazon account health
+        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
+          <div className="flex h-full min-h-0 min-w-0 flex-col">
+            <p className="shrink-0 font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+              Compliance gauge panel
             </p>
             <h1
               id="service-hero-heading"
-              className="mt-1.5 max-w-2xl shrink-0 text-[clamp(1.55rem,3vw,2.2rem)] font-black leading-[1.08] tracking-tight text-primary"
+              className="mt-2 max-w-2xl shrink-0 text-[clamp(1.65rem,3.2vw,2.35rem)] font-black leading-[1.06] tracking-tight text-text-on-dark"
             >
               {service.hero.title}
             </h1>
-            <p className="mt-2 max-w-xl shrink-0 text-sm font-medium leading-snug text-text-secondary">
+            <p className="mt-2 max-w-xl shrink-0 text-sm font-medium leading-snug text-text-on-dark/75 sm:text-base">
               {service.hero.subtitle}
             </p>
 
             <div
-              className="mt-4 flex min-h-[22rem] flex-1 flex-col overflow-hidden border-2 border-primary bg-primary shadow-[4px_4px_0_0_#131311] lg:min-h-0"
+              className="mt-4 flex min-h-[18rem] flex-1 flex-col overflow-hidden border-2 border-accent/70 bg-[#121210] shadow-[4px_4px_0_0_#C6F135]"
               aria-label="Account health compliance panel"
             >
-              <div className="shrink-0 border-b-2 border-accent/40 px-4 py-3 sm:px-5">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
-                  Policy health gauges
-                </p>
-                <p className="mt-0.5 text-xs font-medium text-text-on-dark/75">
-                  Illustrative thresholds. Actual limits vary by marketplace.
+              <div className="flex shrink-0 flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-3 py-2 sm:px-4">
+                <div>
+                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+                    Policy health gauges
+                  </p>
+                  <p className="mt-0.5 text-[11px] font-medium text-text-on-dark/55">
+                    Illustrative thresholds. Limits vary by marketplace.
+                  </p>
+                </div>
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
+                  Live band watch
                 </p>
               </div>
               <ul className="min-h-0 flex-1">
@@ -165,8 +173,8 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
                   <PolicyBar key={policy.label} {...policy} />
                 ))}
               </ul>
-              <div className="shrink-0 border-t border-accent/20 bg-[#0d0d0c] px-4 py-2.5 sm:px-5">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-on-dark/60">
+              <div className="shrink-0 border-t border-accent/25 bg-[#0d0d0c] px-3 py-2 sm:px-4">
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-on-dark/55">
                   Open notices: 2 · Cases awaiting docs: 1
                 </p>
               </div>
@@ -175,7 +183,7 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
 
           <aside
             id="service-lead-form"
-            className="scroll-mt-28 border-2 border-primary bg-accent p-4 text-primary shadow-[4px_4px_0_0_#131311] sm:p-5 lg:flex lg:flex-col lg:self-stretch"
+            className="flex h-full min-h-0 flex-col self-stretch border-2 border-primary bg-accent p-4 text-primary shadow-[4px_4px_0_0_#C6F135] sm:p-5"
           >
             <h2 className="text-lg font-black tracking-tight text-primary sm:text-xl">
               {form.heading}
@@ -185,7 +193,7 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
                 {form.subheading}
               </p>
             ) : null}
-            <div className="mt-4 lg:flex-1">
+            <div className="mt-4 flex-1">
               <ConfigurableForm
                 formId={`service-audit-${service.slug}`}
                 fields={form.fields}
@@ -204,7 +212,7 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
                 className="[&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:border-2 [&_input]:border-primary [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-3 text-center text-xs font-medium text-primary/70 lg:mt-auto">
+            <p className="mt-5 shrink-0 text-center text-xs font-medium text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,41 +10,50 @@ interface InvCoverageProblemProps {
   service: ServicePageConfig;
 }
 
-const STOCKOUT_BARS = [4, 8, 3, 0, 6, 2];
-const HEALTHY_BARS = [78, 92, 85, 88, 74, 90];
+const BROKEN = [
+  "Ads keep spending into empty bays",
+  "Restocks start after the stockout",
+  "Launch and inbound on different clocks",
+];
 
-/** Stockout vs healthy coverage contrast — warehouse fill, not KPI ledger. */
+const PROTECTED = [
+  "Cover thresholds before spend scales",
+  "Inbound owners against ranked SKUs",
+  "Go-live gated by days of cover",
+];
+
+/** Empty aisle vs protected cover — warehouse contrast, not KPI ledger. */
 export function InvCoverageProblem({ service }: InvCoverageProblemProps) {
   const { problem } = service;
 
   return (
     <section
       id="service-problem"
-      className={cn("bg-[#E8E8E4]", serviceSectionPad)}
+      className={cn("bg-primary text-text-on-dark", serviceSectionPad)}
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:items-stretch lg:gap-8">
+        <div className="grid gap-7 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.2fr)] lg:items-stretch lg:gap-9">
           <div className="flex flex-col justify-center">
+            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+              Coverage failure modes
+            </p>
             <h2
               id="service-problem-heading"
-              className="max-w-md text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+              className="mt-2 max-w-md text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
             >
               {problem.heading}
             </h2>
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-7 space-y-4">
               {problem.points.map((point, index) => (
-                <li
-                  key={point.title}
-                  className="border-l-4 border-primary bg-background/85 py-2 pl-3"
-                >
-                  <p className="font-mono text-[10px] font-bold text-text-secondary">
+                <li key={point.title} className="border-l-2 border-accent pl-4">
+                  <p className="font-mono text-[10px] font-bold text-accent">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
-                  <h3 className="mt-0.5 text-sm font-black leading-snug text-primary sm:text-base">
+                  <h3 className="mt-1 text-base font-black leading-snug text-text-on-dark sm:text-lg">
                     {point.title}
                   </h3>
-                  <p className="mt-1 text-sm font-medium leading-snug text-text-secondary">
+                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
                     {point.description}
                   </p>
                 </li>
@@ -51,66 +61,57 @@ export function InvCoverageProblem({ service }: InvCoverageProblemProps) {
             </ul>
           </div>
 
-          <div className="grid min-h-[18rem] grid-cols-2 gap-0 border-2 border-primary bg-background">
-            <div
-              className="flex flex-col border-r-2 border-primary bg-[#F4F4F4] p-4 sm:p-5"
-              aria-label="Stockout coverage pattern"
-            >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                Stockout pattern
-              </p>
-              <p className="mt-1 text-xs font-medium text-text-secondary">
-                Ads still running, bays empty
-              </p>
-              <div className="mt-4 flex flex-1 items-end gap-2">
-                {STOCKOUT_BARS.map((height, index) => (
-                  <div
-                    key={index}
-                    className="flex flex-1 flex-col justify-end"
-                    aria-hidden="true"
-                  >
-                    <div
-                      className="w-full border border-primary/40 bg-[#D4A0A0]"
-                      style={{ height: `${Math.max(height, 2) * 3}px` }}
-                    />
-                  </div>
-                ))}
+          <div
+            className="flex flex-col overflow-hidden border-2 border-accent"
+            aria-label="Broken cover versus protected cover"
+          >
+            <div className="grid flex-1 grid-cols-1 sm:grid-cols-2">
+              <div className="flex flex-col bg-[#161614] p-5 sm:p-6">
+                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+                  Broken cover
+                </p>
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20 bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-inventory-management/inv-problem-empty-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover opacity-90"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                  <p className="absolute bottom-2 left-2 border border-text-on-dark/30 bg-primary/85 px-1.5 py-0.5 font-mono text-[9px] font-black text-[#E8B0B0]">
+                    Bays empty · ads live
+                  </p>
+                </div>
+                <ul className="mt-4 space-y-2 text-sm font-medium text-text-on-dark/50">
+                  {BROKEN.map((line) => (
+                    <li
+                      key={line}
+                      className="line-through decoration-text-on-dark/35"
+                    >
+                      {line}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <p className="mt-3 font-mono text-[9px] font-bold uppercase text-primary/60">
-                Cover below reorder point
-              </p>
-            </div>
-
-            <div
-              className="flex flex-col bg-[#DDE8D0] p-4 sm:p-5"
-              aria-label="Healthy coverage pattern"
-            >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
-                Healthy coverage
-              </p>
-              <p className="mt-1 text-xs font-medium text-primary/80">
-                Inbound paced to demand
-              </p>
-              <div className="mt-4 flex flex-1 items-end gap-2">
-                {HEALTHY_BARS.map((height, index) => (
-                  <div
-                    key={index}
-                    className="flex flex-1 flex-col justify-end"
-                    aria-hidden="true"
-                  >
-                    <div
-                      className={cn(
-                        "w-full border border-primary/40",
-                        index % 3 === 0 ? "bg-accent" : "bg-[#B8CF9E]",
-                      )}
-                      style={{ height: `${height * 0.45}px` }}
-                    />
-                  </div>
-                ))}
+              <div className="flex flex-col border-t-2 border-accent bg-accent p-5 text-primary sm:border-l-2 sm:border-t-0 sm:p-6">
+                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
+                  Protected cover
+                </p>
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-inventory-management/inv-problem-healthy-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                </div>
+                <ul className="mt-4 space-y-2 text-sm font-bold text-primary/90">
+                  {PROTECTED.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
               </div>
-              <p className="mt-3 font-mono text-[9px] font-bold uppercase text-primary">
-                Cover holds through ad scale
-              </p>
             </div>
           </div>
         </div>

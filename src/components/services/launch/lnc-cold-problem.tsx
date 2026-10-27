@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -21,7 +22,7 @@ const STAGED_SIGNALS = [
   "Named gates for scale, pause, or fix",
 ];
 
-/** Cold launch versus staged countdown split — not lifecycle loop or spark phones. */
+/** Cold launch versus staged countdown split - not lifecycle loop or spark phones. */
 export function LncColdProblem({ service }: LncColdProblemProps) {
   const { problem } = service;
 
@@ -66,28 +67,23 @@ export function LncColdProblem({ service }: LncColdProblemProps) {
                 <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                   Cold launch
                 </p>
-                <div
-                  className="mt-4 flex flex-1 flex-col justify-center border border-dashed border-text-on-dark/25 bg-[#0c0c0b] p-4"
-                  aria-hidden="true"
-                >
-                  <p className="text-center font-mono text-2xl font-black text-text-on-dark/25">
-                    T-0
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/25 bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-product-launch-services/lnc-cold-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover opacity-90"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
+                  <p className="absolute bottom-2 left-2 border border-text-on-dark/30 bg-primary/80 px-1.5 py-0.5 font-mono text-[9px] font-black text-text-on-dark/80">
+                    T-0 · all at once
                   </p>
-                  <p className="mt-2 text-center text-[10px] font-bold uppercase tracking-[0.08em] text-text-on-dark/40">
-                    All channels at once
-                  </p>
-                  <div className="mt-4 grid grid-cols-3 gap-1">
-                    {[1, 2, 3].map((n) => (
-                      <span
-                        key={n}
-                        className="h-8 border border-red-400/30 bg-red-950/40"
-                      />
-                    ))}
-                  </div>
                 </div>
                 <ul className="mt-4 space-y-2 text-xs font-medium text-text-on-dark/55">
                   {COLD_SIGNALS.map((line) => (
-                    <li key={line}>{line}</li>
+                    <li key={line} className="line-through decoration-text-on-dark/40">
+                      {line}
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -95,24 +91,14 @@ export function LncColdProblem({ service }: LncColdProblemProps) {
                 <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
                   Staged launch
                 </p>
-                <div
-                  className="mt-4 flex flex-1 flex-col justify-center border-2 border-primary bg-[#0c0c0b] p-3"
-                  aria-hidden="true"
-                >
-                  <ol className="grid grid-cols-4 gap-1">
-                    {["T-14", "T-3", "T-0", "T+14"].map((label, i) => (
-                      <li
-                        key={label}
-                        className={cn(
-                          "flex flex-col items-center border border-primary/40 py-2",
-                          i === 2 && "bg-accent text-primary",
-                        )}
-                      >
-                        <span className="font-mono text-[8px] font-black">{label}</span>
-                        <span className="mt-1 h-4 w-full max-w-[1.75rem] bg-primary/20" />
-                      </li>
-                    ))}
-                  </ol>
+                <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-[#0c0c0b]">
+                  <Image
+                    src="/images/services/amazon-product-launch-services/lnc-staged-v2.jpg"
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 40vw"
+                  />
                 </div>
                 <ul className="mt-4 space-y-2 text-xs font-bold text-primary/90">
                   {STAGED_SIGNALS.map((line) => (

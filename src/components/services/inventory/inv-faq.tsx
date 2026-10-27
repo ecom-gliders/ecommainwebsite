@@ -13,14 +13,17 @@ const COVERAGE = [
   {
     label: "Days of cover",
     detail: "Hero ASIN thresholds tied to ad spend.",
+    fill: 86,
   },
   {
     label: "Inbound tracking",
     detail: "PO and shipment status with owners.",
+    fill: 72,
   },
   {
     label: "Ad sync",
     detail: "Pause guidance when stock cannot hold demand.",
+    fill: 94,
   },
 ];
 
@@ -30,48 +33,60 @@ export function InvFaq({ service }: InvFaqProps) {
   return (
     <section
       id="service-faq"
-      className={cn("bg-[#F4F4F4]", serviceSectionPad)}
+      className={cn("bg-[#0f0f0d] text-text-on-dark", serviceSectionPad)}
       aria-labelledby="service-faq-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+          Coverage FAQ
+        </p>
         <h2
           id="service-faq-heading"
-          className="text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
         >
           Inventory management questions
         </h2>
 
         <ul
-          className="mt-5 grid grid-cols-1 gap-0 overflow-hidden border-2 border-primary sm:grid-cols-3"
+          className="mt-7 grid grid-cols-1 gap-0 overflow-hidden border-2 border-accent sm:grid-cols-3"
           aria-label="Inventory coverage areas"
         >
           {COVERAGE.map((item, index) => (
             <li
               key={item.label}
               className={cn(
-                "bg-background p-4",
+                "bg-[#161614] p-5",
                 index > 0 &&
-                  "border-t-2 border-primary sm:border-t-0 sm:border-l-2",
+                  "border-t-2 border-accent sm:border-t-0 sm:border-l-2",
               )}
             >
-              <p className="text-base font-black text-primary">{item.label}</p>
-              <p className="mt-1 text-sm font-medium text-text-secondary">
+              <div
+                className="mb-3 h-2 overflow-hidden border border-accent/30 bg-text-on-dark/10"
+                aria-hidden="true"
+              >
+                <div
+                  className="h-full bg-accent"
+                  style={{ width: `${item.fill}%` }}
+                />
+              </div>
+              <p className="text-lg font-black text-text-on-dark">{item.label}</p>
+              <p className="mt-1.5 text-sm font-medium text-text-on-dark/65">
                 {item.detail}
               </p>
             </li>
           ))}
         </ul>
 
-        <dl className="mt-8 grid gap-x-8 gap-y-0 border-t-2 border-primary sm:grid-cols-2">
+        <dl className="mt-9 grid gap-x-10 gap-y-0 border-t-2 border-accent/40 sm:grid-cols-2">
           {service.faq.map((item) => (
             <div
               key={item.question}
-              className="border-b-2 border-primary/20 py-4"
+              className="border-b border-accent/25 py-5"
             >
-              <dt className="text-sm font-black text-primary sm:text-base">
+              <dt className="text-base font-black text-text-on-dark sm:text-lg">
                 {item.question}
               </dt>
-              <dd className="mt-1.5 text-sm font-medium leading-snug text-text-secondary">
+              <dd className="mt-2 text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
                 {item.answer}
               </dd>
             </div>

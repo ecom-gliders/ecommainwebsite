@@ -4,6 +4,28 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-27 — Rounded creative favicon + shorter tab title
+
+**Task:** Replace flat square eG tab icon with creative rounded-square mark; reduce title truncation  
+**Verification method:** Inspect `favicon-32.png` / `favicon.png`; `document.title` on `/`  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Rounded-square monogram (white e + lime G + glide arc); title `eCom Gliders | Amazon Agency`; icon cache-bust `?v=4`  
+**VERIFIED:** Favicon assets written; title brand-first and shorter  
+**REMAINING:** Hard-refresh / clear tab favicon cache if old icon still shows  
+
+## 2026-10-27 — Header wordmark sizing + tab title
+
+**Task:** Fix cramped top-bar logo and truncated browser tab title  
+**Verification method:** Browser render (`/`), `document.title` check  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Text `BrandLogo` (eCom white / Glider lime); homepage metaTitle shortened; favicon set  
+**VERIFIED:** Title renders brand-first; header wordmark legible without padded raster box  
+**REMAINING:** None (superseded by rounded favicon pass above)  
+
+---
+
 ## 2026-10-23 — Services unique pages program complete (20/20)
 
 **Task:** Ship remaining unique service landings (visual through account health)  
@@ -3224,3 +3246,14 @@ Hero form â Catalog health board â Issue, fix, and verify â Catal
 - SITE-SEO-MAP About row updated (schema + sections)
 
 **Notes:** Contact Us research paused by user request. Team assets sourced from live WP About (first-party); provenance in DOWNLOAD-LOG and assets/licenses/about-team-portraits.md.
+
+## 2026-10-27 � Sitewide mobile + tablet responsive deep scan
+
+**Task:** Deep scan all marketing/service pages at 375 and 768; fix horizontal overflow and cramped mobile grids.
+**Verification method:** Playwright overflowX + HTTP status across 31 routes x 2 viewports; targeted breaker checks on close CTA / manifesto / services hero.
+**Result:** pass
+**Evidence:**
+- Final pass: 17 core routes + 14 remaining routes = 0 overflowX>2 and 0 HTTP 4xx/5xx at mobile 375 and tablet 768 (Verified)
+- Mobile nav opens; forms fit; tables use overflow-x-auto (Observed)
+- Fixes: PrimaryButton max-w-full; services hero CTA full-width + glow clip; FS manifesto ring contained; TikTok/Shopify hero grids 2-col on mobile; close CTA image strips wrap + smaller thumbs; case-study visual min-w-0
+**Notes:** Intentional horizontal scroll (tickers, topic chips, floor tabs, wide tables) remains inside overflow-x-auto/hidden parents and does not expand document scroll width.

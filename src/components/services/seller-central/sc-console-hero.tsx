@@ -132,7 +132,7 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
 
           <aside
             id="service-lead-form"
-            className="scroll-mt-28 border-2 border-primary bg-accent p-4 text-primary shadow-[4px_4px_0_0_#131311] sm:p-5 lg:flex lg:flex-col lg:self-stretch"
+            className="h-fit scroll-mt-28 self-start border-2 border-primary bg-accent p-4 text-primary shadow-[4px_4px_0_0_#131311] sm:p-5"
           >
             <h2 className="text-lg font-black tracking-tight text-primary sm:text-xl">
               {form.heading}
@@ -142,7 +142,7 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
                 {form.subheading}
               </p>
             ) : null}
-            <div className="mt-4 lg:flex-1">
+            <div className="mt-4">
               <ConfigurableForm
                 formId={`service-audit-${service.slug}`}
                 fields={form.fields}
@@ -161,7 +161,7 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
                 className="[&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:border-2 [&_input]:border-primary [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-3 text-center text-xs font-medium text-primary/70 lg:mt-auto">
+            <p className="mt-5 pb-0.5 text-center text-xs font-medium leading-normal text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

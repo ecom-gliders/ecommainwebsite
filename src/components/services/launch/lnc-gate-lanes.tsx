@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,7 +10,13 @@ interface LncGateLanesProps {
   service: ServicePageConfig;
 }
 
-/** Launch hold/abort lanes — not spark columns or handoff ink rail. */
+const GATE_IMAGES = [
+  "/images/services/amazon-product-launch-services/lnc-gate-spend-v2.jpg",
+  "/images/services/amazon-product-launch-services/lnc-gate-stock-v2.jpg",
+  "/images/services/amazon-product-launch-services/lnc-gate-metrics-v2.jpg",
+] as const;
+
+/** Launch hold/abort lanes - not spark columns or handoff ink rail. */
 export function LncGateLanes({ service }: LncGateLanesProps) {
   const lanes = service.opsLanes;
   if (!lanes?.lanes?.length) return null;
@@ -43,7 +50,18 @@ export function LncGateLanes({ service }: LncGateLanesProps) {
                 <span className="font-mono text-[10px] font-black tabular-nums text-accent">
                   HOLD {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="text-xs font-black text-text-on-dark">{lane.title}</span>
+                <span className="text-xs font-black text-text-on-dark">
+                  {lane.title}
+                </span>
+              </div>
+              <div className="relative aspect-[16/9] w-full border-b border-accent/20">
+                <Image
+                  src={GATE_IMAGES[index % GATE_IMAGES.length]}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                />
               </div>
               <div className="flex flex-1 flex-col">
                 <div className="border-b border-text-on-dark/15 p-4">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,7 +10,13 @@ interface EntOpsLanesProps {
   service: ServicePageConfig;
 }
 
-/** Filing coordination lanes from opsLanes JSON when present. */
+const LANE_SRC = [
+  "/images/services/amazon-company-registration/ent-rung-formation-v2.jpg",
+  "/images/services/amazon-company-registration/ent-lane-bank-v2.jpg",
+  "/images/services/amazon-company-registration/ent-rung-amazon-v2.jpg",
+] as const;
+
+/** Filing coordination lanes with stills + issue/fix/verify. */
 export function EntOpsLanes({ service }: EntOpsLanesProps) {
   const lanes = service.opsLanes;
   if (!lanes?.lanes?.length) return null;
@@ -17,65 +24,80 @@ export function EntOpsLanes({ service }: EntOpsLanesProps) {
   return (
     <section
       id="service-ops-lanes"
-      className={cn("bg-[#EDE8DF]", serviceSectionPad)}
+      className={cn("bg-[#12100e] text-text-on-dark", serviceSectionPad)}
       aria-labelledby="service-ops-lanes-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+          Filing lanes
+        </p>
         <h2
           id="service-ops-lanes-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-primary sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
         >
           {lanes.heading}
         </h2>
         {lanes.subheading ? (
-          <p className="mt-2 max-w-2xl text-sm font-medium text-text-secondary">
+          <p className="mt-3 max-w-2xl text-base font-medium text-text-on-dark/70">
             {lanes.subheading}
           </p>
         ) : null}
 
-        <ul className="mt-8 space-y-3">
+        <ul className="mt-9 grid gap-4 lg:grid-cols-3">
           {lanes.lanes.map((lane, index) => (
             <li
               key={lane.title}
-              className="grid gap-0 overflow-hidden border-2 border-primary bg-background lg:grid-cols-[minmax(0,10rem)_1fr_1fr_1fr]"
+              className="flex flex-col overflow-hidden border-2 border-accent/55 bg-[#1a1814]"
             >
-              <div className="flex flex-col justify-center border-b-2 border-primary bg-primary px-4 py-3 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[10px] font-bold tabular-nums text-accent">
-                  Rung {String(index + 1).padStart(2, "0")}
-                </p>
-                <h3 className="mt-1 text-sm font-black text-text-on-dark">
-                  {lane.title}
-                </h3>
+              <div className="relative aspect-[5/4] w-full border-b-2 border-accent/40">
+                <Image
+                  src={LANE_SRC[index % LANE_SRC.length]}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1a1814] via-transparent to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 px-4 pb-4">
+                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+                    Rung {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="mt-1 text-xl font-black text-text-on-dark">
+                    {lane.title}
+                  </h3>
+                </div>
               </div>
-              <div className="border-b-2 border-primary p-4 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                  Issue
-                </p>
-                <p className="mt-1 text-sm font-medium leading-snug text-text-secondary">
-                  {lane.issue}
-                </p>
-              </div>
-              <div className="border-b-2 border-primary bg-accent p-4 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-primary/70">
-                  Fix
-                </p>
-                <p className="mt-1 text-sm font-bold leading-snug text-primary">
-                  {lane.fix}
-                </p>
-              </div>
-              <div className="p-4">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
-                  Verify
-                </p>
-                <p className="mt-1 text-sm font-medium leading-snug text-primary">
-                  {lane.verify}
-                </p>
+              <div className="flex flex-1 flex-col">
+                {(
+                  [
+                    { label: "Issue", body: lane.issue },
+                    { label: "Fix", body: lane.fix },
+                    { label: "Verify", body: lane.verify },
+                  ] as const
+                ).map((row, rowIndex) => (
+                  <div
+                    key={row.label}
+                    className={cn(
+                      "px-4 py-3.5",
+                      rowIndex < 2 && "border-b border-accent/20",
+                    )}
+                  >
+                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent/80">
+                      {row.label}
+                    </p>
+                    <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/85">
+                      {row.body}
+                    </p>
+                  </div>
+                ))}
               </div>
             </li>
           ))}
         </ul>
         {lanes.note ? (
-          <p className="mt-4 text-xs font-medium text-text-secondary">{lanes.note}</p>
+          <p className="mt-4 text-sm font-medium text-text-on-dark/50">
+            {lanes.note}
+          </p>
         ) : null}
       </ServicePageShell>
     </section>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -20,7 +21,18 @@ const COVERAGE_AXES = [
   "Reporting",
 ] as const;
 
-/** Deliverables as attribute coverage grid — not overlapping paper stack. */
+const DEL_IMAGES = [
+  "/images/services/amazon-catalog-management/cat-del-health.jpg",
+  "/images/services/amazon-catalog-management/cat-del-suppress.jpg",
+  "/images/services/amazon-catalog-management/cat-del-variation.jpg",
+  "/images/services/amazon-catalog-management/cat-del-attrs.jpg",
+  "/images/services/amazon-catalog-management/cat-del-launch.jpg",
+  "/images/services/amazon-catalog-management/cat-del-report.jpg",
+  "/images/services/amazon-catalog-management/cat-del-ppc.jpg",
+  "/images/services/amazon-catalog-management/cat-del-cases.jpg",
+] as const;
+
+/** Deliverables as attribute coverage grid - not overlapping paper stack. */
 export function CatAttributeGrid({ service }: CatAttributeGridProps) {
   const { deliverables } = service;
   const items = deliverables.items.slice(0, 8);
@@ -39,6 +51,36 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
           {deliverables.heading}
         </h2>
 
+        <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {items.map((item, index) => (
+            <li
+              key={item.title}
+              className="overflow-hidden border border-accent/50 bg-[#1a1a18]"
+            >
+              <div className="relative aspect-[16/10] w-full border-b border-accent/40">
+                <Image
+                  src={DEL_IMAGES[index % DEL_IMAGES.length]}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
+              </div>
+              <div className="p-3">
+                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                  {String(index + 1).padStart(2, "0")}
+                </p>
+                <h3 className="mt-1 text-sm font-black leading-snug text-text-on-dark">
+                  {item.title}
+                </h3>
+                <p className="mt-1.5 text-xs font-medium leading-snug text-text-on-dark/70">
+                  {item.description}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ul>
+
         <div className="mt-8 overflow-x-auto border-2 border-accent">
           <table className="w-full min-w-[720px] border-collapse text-left">
             <thead>
@@ -47,7 +89,7 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
                   scope="col"
                   className="p-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent"
                 >
-                  Deliverable
+                  Coverage map
                 </th>
                 {COVERAGE_AXES.map((axis) => (
                   <th
@@ -69,13 +111,21 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
                     rowIndex % 2 === 0 ? "bg-primary" : "bg-[#222220]",
                   )}
                 >
-                  <th scope="row" className="p-3 align-top font-normal">
-                    <p className="text-sm font-black text-text-on-dark">
-                      {item.title}
-                    </p>
-                    <p className="mt-1 text-xs font-medium leading-snug text-text-on-dark/75">
-                      {item.description}
-                    </p>
+                  <th scope="row" className="p-3 align-middle font-normal">
+                    <div className="flex items-center gap-3">
+                      <div className="relative h-10 w-14 shrink-0 overflow-hidden border border-accent/40">
+                        <Image
+                          src={DEL_IMAGES[rowIndex % DEL_IMAGES.length]}
+                          alt=""
+                          fill
+                          className="object-cover"
+                          sizes="56px"
+                        />
+                      </div>
+                      <p className="text-sm font-black text-text-on-dark">
+                        {item.title}
+                      </p>
+                    </div>
                   </th>
                   {COVERAGE_AXES.map((axis, colIndex) => {
                     const covered =

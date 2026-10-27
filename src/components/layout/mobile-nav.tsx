@@ -121,7 +121,7 @@ export function MobileNav({ navigation, site, className }: MobileNavProps) {
             aria-label={`${site.name} home`}
             onClick={closeMenu}
           >
-            <BrandLogo width={160} height={48} className="h-9 w-auto" />
+            <BrandLogo surface="default" />
           </Link>
         </SheetHeader>
 

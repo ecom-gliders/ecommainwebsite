@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { ServiceBreadcrumb } from "@/components/services/service-breadcrumb";
@@ -10,6 +11,13 @@ interface BrdSealHeroProps {
   service: ServicePageConfig;
   site: SiteConfig;
 }
+
+const STAGE_IMAGES = [
+  "/images/services/amazon-trademark-brand-registry/brd-stage-mark.jpg",
+  "/images/services/amazon-trademark-brand-registry/brd-stage-filing.jpg",
+  "/images/services/amazon-trademark-brand-registry/brd-stage-enroll.jpg",
+  "/images/services/amazon-trademark-brand-registry/brd-stage-unlock.jpg",
+] as const;
 
 function getPathwayStages(service: ServicePageConfig) {
   const board = service.modules?.find((m) => m.type === "brandPathwayBoard");
@@ -98,17 +106,17 @@ export function BrdSealHero({ service, site }: BrdSealHeroProps) {
                 {urlLabel}
               </p>
 
-              <ol className="relative mt-4 flex min-h-0 flex-1 flex-col justify-between pl-1">
+              <ol className="relative mt-4 flex min-h-0 flex-1 flex-col justify-between gap-3 pl-1">
                 <span
-                  className="pointer-events-none absolute bottom-2 left-[1.125rem] top-2 w-px bg-primary/35"
+                  className="pointer-events-none absolute bottom-6 left-[1.125rem] top-6 w-px bg-primary/35"
                   aria-hidden="true"
                 />
                 {stages.map((stage, index) => (
                   <li
                     key={stage.label}
                     className={cn(
-                      "relative flex flex-1 items-center gap-4 py-2 sm:gap-5",
-                      index > 0 && "border-t border-primary/10",
+                      "relative flex flex-1 items-center gap-3 py-1 sm:gap-4",
+                      index > 0 && "border-t border-primary/10 pt-3",
                     )}
                   >
                     <span
@@ -124,6 +132,16 @@ export function BrdSealHero({ service, site }: BrdSealHeroProps) {
                     >
                       {String(index + 1).padStart(2, "0")}
                     </span>
+                    <div className="relative h-14 w-20 shrink-0 overflow-hidden border-2 border-primary bg-[#EDE8DF] sm:h-16 sm:w-24">
+                      <Image
+                        src={STAGE_IMAGES[index % STAGE_IMAGES.length]}
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="96px"
+                        priority={index === 0}
+                      />
+                    </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-2">
                         <h2 className="text-base font-black text-primary sm:text-lg">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,9 +10,26 @@ interface VidProductionTimelineProps {
   service: ServicePageConfig;
 }
 
-const PHASES = ["Pre", "Shoot", "Edit", "Publish"] as const;
+const PHASES = [
+  {
+    label: "Pre",
+    src: "/images/services/amazon-video-creative/vid-prod-brief.jpg",
+  },
+  {
+    label: "Shoot",
+    src: "/images/services/amazon-video-creative/vid-prod-shoot.jpg",
+  },
+  {
+    label: "Edit",
+    src: "/images/services/amazon-video-creative/vid-prod-edit.jpg",
+  },
+  {
+    label: "Publish",
+    src: "/images/services/amazon-video-creative/vid-prod-ship.jpg",
+  },
+] as const;
 
-/** Production timeline rail — not typeset ruler or ops pipeline zigzag. */
+/** Production timeline rail - not typeset ruler or ops pipeline zigzag. */
 export function VidProductionTimeline({ service }: VidProductionTimelineProps) {
   const { solution } = service;
   const steps = solution.steps.slice(0, 4);
@@ -48,24 +66,40 @@ export function VidProductionTimeline({ service }: VidProductionTimelineProps) {
           </div>
 
           <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((step, index) => (
-              <li key={step.title} className="relative pt-0 sm:pt-10">
-                <div className="mb-3 flex items-center gap-2 sm:absolute sm:left-4 sm:top-0 sm:mb-0">
-                  <span className="inline-flex border-2 border-primary bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
-                    {PHASES[index] ?? `Step ${index + 1}`}
-                  </span>
-                  <span className="font-mono text-[10px] font-bold text-text-secondary">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                </div>
-                <div className="border-2 border-primary bg-background p-4">
-                  <h3 className="text-base font-black text-primary">{step.title}</h3>
-                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-secondary">
-                    {step.description}
-                  </p>
-                </div>
-              </li>
-            ))}
+            {steps.map((step, index) => {
+              const phase = PHASES[index] ?? PHASES[0];
+              return (
+                <li key={step.title} className="relative pt-0 sm:pt-10">
+                  <div className="mb-3 flex items-center gap-2 sm:absolute sm:left-4 sm:top-0 sm:mb-0">
+                    <span className="inline-flex border-2 border-primary bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+                      {phase.label}
+                    </span>
+                    <span className="font-mono text-[10px] font-bold text-text-secondary">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <div className="overflow-hidden border-2 border-primary bg-background">
+                    <div className="relative aspect-[16/10] w-full border-b-2 border-primary bg-[#EDE8DF]">
+                      <Image
+                        src={phase.src}
+                        alt=""
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="text-base font-black text-primary">
+                        {step.title}
+                      </h3>
+                      <p className="mt-1.5 text-sm font-medium leading-snug text-text-secondary">
+                        {step.description}
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              );
+            })}
           </ol>
         </div>
       </ServicePageShell>

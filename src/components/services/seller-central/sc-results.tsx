@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
@@ -9,6 +10,9 @@ import { cn } from "@/lib/utils";
 interface ScResultsProps {
   service: ServicePageConfig;
 }
+
+const FALLBACK =
+  "/images/services/amazon-seller-central-services/sc-hero-ops.jpg";
 
 export function ScResults({ service }: ScResultsProps) {
   const { results } = service;
@@ -32,8 +36,17 @@ export function ScResults({ service }: ScResultsProps) {
             <li key={item.metric}>
               <Link
                 href={item.href}
-                className="flex h-full flex-col overflow-hidden border-2 border-primary bg-[#F0F0EC] hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                className="group flex h-full flex-col overflow-hidden border-2 border-primary bg-[#F0F0EC] hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
+                <div className="relative aspect-[16/10] w-full border-b-2 border-primary bg-[#E4E4E0]">
+                  <Image
+                    src={item.image ?? FALLBACK}
+                    alt={item.imageAlt ?? ""}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                    sizes="(max-width: 1024px) 100vw, 33vw"
+                  />
+                </div>
                 <div className="border-b-2 border-primary bg-[#E4E4E0] px-4 py-3">
                   <p className="text-2xl font-black tracking-tight text-primary">
                     {item.metric}

@@ -97,9 +97,7 @@ export function ServicesIndexHero({ hero }: ServicesIndexHeroProps) {
         <div className="max-w-xl">
           <BrandLogo
             surface="onDark"
-            width={200}
-            height={60}
-            className="h-10 w-auto sm:h-12"
+            className="text-[1.75rem] sm:text-[2.1rem]"
             priority
           />
           <h1
@@ -112,7 +110,7 @@ export function ServicesIndexHero({ hero }: ServicesIndexHeroProps) {
             {hero.subtitle}
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:mt-10 sm:flex-row sm:flex-wrap sm:items-center">
-            <PrimaryButton variant="accent" asChild>
+            <PrimaryButton variant="accent" asChild className="w-full sm:w-auto">
               <Link href={hero.primaryCta.href}>{hero.primaryCta.label}</Link>
             </PrimaryButton>
             {hero.secondaryCta ? (
@@ -139,7 +137,7 @@ export function ServicesIndexHero({ hero }: ServicesIndexHeroProps) {
         </div>
 
         {hero.browser ? (
-          <div className="relative lg:pl-2">
+          <div className="relative overflow-hidden lg:overflow-visible lg:pl-2">
             <div
               className="pointer-events-none absolute -inset-6 rounded-full bg-accent/10 blur-3xl"
               aria-hidden="true"

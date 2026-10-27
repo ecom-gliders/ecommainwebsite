@@ -56,7 +56,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Amazon account management agency |
 | Secondary keywords | Full service Amazon agency, Amazon growth agency, Amazon PPC agency |
 | Search intent | Commercial (agency selection) |
-| Title | Amazon Account Management Agency \| eCom Gliders |
+| Title | eCom Gliders \| Amazon Agency |
 | Meta description | Full-service Amazon account management. PPC, listing optimization, content, and catalog management. 95% retention. Free audit. |
 | H1 | Full-service Amazon growth for ambitious FBA brands |
 | Canonical | https://ecomgliders.com/ |

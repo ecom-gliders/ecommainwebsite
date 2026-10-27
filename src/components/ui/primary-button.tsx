@@ -23,7 +23,7 @@ export interface PrimaryButtonProps
  */
 const primaryButtonVariants = cva(
   [
-    "group/po-btn relative inline-flex items-center justify-center",
+    "group/po-btn relative inline-flex max-w-full items-center justify-center",
     "rounded-[10px] border-2 border-primary",
     "text-[12px] font-bold uppercase tracking-[0.04em]",
     "shadow-[4px_4px_0_0_#131311]",

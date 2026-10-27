@@ -34,9 +34,7 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
       {/* Col 1 — aligns with Advertising */}
       <div className="flex min-w-0 flex-col gap-3">
         <BrandLogo
-          width={180}
-          height={54}
-          className="h-10 w-auto max-w-[11.25rem] shrink-0 object-contain object-left sm:h-11"
+          className="shrink-0 text-[1.6rem] sm:text-[1.85rem]"
           priority={false}
           surface="onDark"
         />

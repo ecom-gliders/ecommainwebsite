@@ -16,7 +16,12 @@ export const metadata: Metadata = {
   title: "eCom Gliders",
   description: "Full-service Amazon account management",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon-32.png?v=6", type: "image/png", sizes: "32x32" },
+      { url: "/favicon.png?v=6", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico?v=6", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png?v=6", sizes: "180x180" }],
   },
 };
 

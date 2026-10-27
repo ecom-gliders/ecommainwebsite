@@ -27,7 +27,7 @@ export function VisAudienceStrip({ service }: VisAudienceStripProps) {
       <ServicePageShell>
         <h2
           id="service-audience-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-text-on-dark sm:text-[1.75rem]"
+          className="max-w-3xl text-2xl font-black tracking-tight text-text-on-dark sm:text-[1.9rem]"
         >
           {audience.heading}
         </h2>
@@ -51,16 +51,16 @@ export function VisAudienceStrip({ service }: VisAudienceStripProps) {
                   key={point.title}
                   className="flex flex-col border border-accent/35 bg-[#222220] p-4"
                 >
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                     {FILM_ROLES[index] ?? `Cell ${index + 1}`}
                   </p>
-                  <h3 className="mt-2 text-base font-black leading-snug text-text-on-dark">
+                  <h3 className="mt-2 text-lg font-black leading-snug text-text-on-dark">
                     {point.title}
                   </h3>
-                  <p className="mt-1.5 flex-1 text-sm font-medium leading-snug text-text-on-dark/75">
+                  <p className="mt-1.5 flex-1 text-base font-medium leading-snug text-text-on-dark/75">
                     {point.description}
                   </p>
-                  <p className="mt-3 font-mono text-[9px] font-bold text-text-on-dark/40">
+                  <p className="mt-3 font-mono text-xs font-bold text-text-on-dark/40">
                     Frame {String(index + 1).padStart(2, "0")}
                   </p>
                 </li>

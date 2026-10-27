@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -13,18 +14,21 @@ const PLACEMENT_LEGEND = [
   {
     label: "Listing / PDP",
     detail: "Education cuts sized for product detail modules.",
+    src: "/images/services/amazon-video-creative/vid-faq-length.jpg",
   },
   {
     label: "Sponsored Brands",
     detail: "Hook-first autoplay with safe zones for overlays.",
+    src: "/images/services/amazon-video-creative/vid-faq-ads.jpg",
   },
   {
     label: "DSP / upper funnel",
     detail: "Shorter proof arcs when retargeting is in scope.",
+    src: "/images/services/amazon-video-creative/vid-faq-registry.jpg",
   },
 ] as const;
 
-/** Placement legend + FAQ — not voice register cards. */
+/** Placement legend + FAQ - not voice register cards. */
 export function VidFaq({ service }: VidFaqProps) {
   if (service.faq.length === 0) return null;
 
@@ -55,7 +59,16 @@ export function VidFaq({ service }: VidFaqProps) {
                   "border-t border-accent/30 sm:border-t-0 sm:border-l sm:border-accent/30",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <div className="relative mx-auto aspect-video w-full max-w-[11rem] overflow-hidden border border-accent/40">
+                <Image
+                  src={item.src}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="176px"
+                />
+              </div>
+              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
                 {item.label}
               </p>
               <p className="mt-2 text-sm font-medium leading-snug text-text-on-dark/75">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,7 +10,7 @@ interface BrdGatedProblemProps {
   service: ServicePageConfig;
 }
 
-/** Unprotected brand vs gated Amazon unlocks — not heatmap or export dump. */
+/** Unprotected brand vs gated Amazon unlocks - not heatmap or export dump. */
 export function BrdGatedProblem({ service }: BrdGatedProblemProps) {
   const { problem } = service;
   const unlockModule = service.modules?.find((m) => m.type === "brandUnlockGrid");
@@ -58,38 +59,49 @@ export function BrdGatedProblem({ service }: BrdGatedProblemProps) {
           </div>
 
           <div
-            className="flex min-h-[18rem] flex-col border-2 border-dashed border-text-on-dark/35 bg-[#141412] p-5 sm:p-6"
+            className="flex min-h-[18rem] flex-col overflow-hidden border-2 border-accent/50 bg-[#141412]"
             aria-label="Tools gated without Brand Registry"
           >
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-on-dark/55">
-              Without enrollment
-            </p>
-            <p className="mt-1 text-lg font-black text-text-on-dark">
-              Amazon brand tools stay locked
-            </p>
-            <ul className="mt-5 flex flex-1 flex-col justify-between gap-3">
-              {lockedPreview.map((item) => (
-                <li
-                  key={item.title}
-                  className="flex items-start gap-3 border border-text-on-dark/20 bg-primary/40 p-3"
-                >
-                  <span
-                    className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-text-on-dark/40 font-mono text-[9px] font-bold text-text-on-dark/50"
-                    aria-hidden="true"
+            <div className="relative aspect-[16/9] w-full border-b border-accent/30">
+              <Image
+                src="/images/services/amazon-trademark-brand-registry/brd-locked.jpg"
+                alt=""
+                fill
+                className="object-cover opacity-85"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <p className="absolute left-3 top-3 border border-accent/60 bg-primary/80 px-2 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                Without enrollment
+              </p>
+            </div>
+            <div className="flex flex-1 flex-col p-5 sm:p-6">
+              <p className="text-lg font-black text-text-on-dark">
+                Amazon brand tools stay locked
+              </p>
+              <ul className="mt-4 flex flex-1 flex-col justify-between gap-3">
+                {lockedPreview.map((item) => (
+                  <li
+                    key={item.title}
+                    className="flex items-start gap-3 border border-text-on-dark/20 bg-primary/40 p-3"
                   >
-                    Lock
-                  </span>
-                  <div>
-                    <h3 className="text-sm font-black text-text-on-dark/90">
-                      {item.title}
-                    </h3>
-                    <p className="mt-0.5 text-xs font-medium text-text-on-dark/65">
-                      {item.description}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ul>
+                    <span
+                      className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-text-on-dark/40 font-mono text-[9px] font-bold text-text-on-dark/50"
+                      aria-hidden="true"
+                    >
+                      Lock
+                    </span>
+                    <div>
+                      <h3 className="text-sm font-black text-text-on-dark/90">
+                        {item.title}
+                      </h3>
+                      <p className="mt-0.5 text-xs font-medium text-text-on-dark/65">
+                        {item.description}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </ServicePageShell>

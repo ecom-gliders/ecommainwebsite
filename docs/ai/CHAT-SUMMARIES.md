@@ -15,6 +15,13 @@ Next action:
 
 ---
 
+## 2026-10-27 — Email retention cadence loop polish
+
+Session topic: Last visual-fill polish for `/email-retention-marketing/` (TikTok bar).
+Key decisions: Lilac kept; sticky underlap + loop fills form height; max 2 islands (broadcast/looped + stage rail); FAQ accordion; no fake open rates.
+Files updated: `eml-loop-hero.tsx`, `eml-broadcast-problem.tsx`, `eml-cadence-stages.tsx`, `eml-faq.tsx`, stills + license, SESSION-STATE, plan `2026-10-27-email-cadence-loop-polish.md`.
+Next action: User visual QA; DNS cutover still pending.
+
 ## 2026-10-23 — Service pages visuals + Full-Service/PPC ship
 
 Session topic: Never text-only service sections; hero form + shared shell; ship Full-Service and PPC.

@@ -1,3 +1,7 @@
+"use client";
+
+import Image from "next/image";
+import { useState } from "react";
 import type { ServicePageConfig } from "@/domain/content/schemas";
 import {
   ServicePageShell,
@@ -9,12 +13,32 @@ interface EmlCadenceStagesProps {
   service: ServicePageConfig;
 }
 
-const STAGE_LABELS = ["Welcome", "Nurture", "Winback", "Loyalty"] as const;
+const STAGES = [
+  {
+    label: "Welcome",
+    src: "/images/services/email-retention-marketing/eml-stage-welcome.jpg",
+  },
+  {
+    label: "Nurture",
+    src: "/images/services/email-retention-marketing/email-day-journey.jpg",
+  },
+  {
+    label: "Winback",
+    src: "/images/services/email-retention-marketing/eml-stage-winback.jpg",
+  },
+  {
+    label: "Loyalty",
+    src: "/images/services/email-retention-marketing/email-retention-lifecycle.jpg",
+  },
+] as const;
 
-/** Cadence loop solution stages on an arc rail — not TikTok stage phones or entity ladder. */
+/** Interactive cadence stage rail — owns Welcome/Nurture/Winback/Loyalty inspect. */
 export function EmlCadenceStages({ service }: EmlCadenceStagesProps) {
   const { solution } = service;
   const steps = solution.steps.slice(0, 4);
+  const [active, setActive] = useState(0);
+  const current = steps[active] ?? steps[0];
+  const stage = STAGES[active] ?? STAGES[0];
 
   return (
     <section
@@ -23,55 +47,83 @@ export function EmlCadenceStages({ service }: EmlCadenceStagesProps) {
       aria-labelledby="service-solution-heading"
     >
       <ServicePageShell>
+        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+          Cadence stages
+        </p>
         <h2
           id="service-solution-heading"
-          className="max-w-3xl text-2xl font-black tracking-tight text-text-on-dark sm:text-[1.75rem]"
+          className="mt-2 max-w-3xl text-[clamp(1.6rem,3vw,2.15rem)] font-black tracking-tight text-text-on-dark"
         >
           {solution.heading}
         </h2>
 
-        <div className="relative mt-10">
+        <div className="mt-8 overflow-hidden border-2 border-accent">
           <div
-            className="pointer-events-none absolute left-4 right-4 top-8 hidden h-16 overflow-hidden sm:block lg:left-8 lg:right-8"
-            aria-hidden="true"
+            className="grid grid-cols-2 border-b-2 border-accent sm:grid-cols-4"
+            role="tablist"
+            aria-label="Cadence loop stages"
           >
-            <svg viewBox="0 0 800 64" className="h-full w-full" preserveAspectRatio="none">
-              <path
-                d="M 0 48 Q 400 0 800 48"
-                fill="none"
-                stroke="#C6F135"
-                strokeWidth="2"
-                strokeOpacity="0.45"
-              />
-            </svg>
+            {steps.map((step, index) => (
+              <button
+                key={step.title}
+                type="button"
+                role="tab"
+                aria-selected={active === index}
+                onClick={() => setActive(index)}
+                className={cn(
+                  "relative border-r border-b border-accent px-3 py-3.5 text-left last:border-r-0 sm:border-b-0 sm:px-4",
+                  active === index
+                    ? "bg-accent text-primary"
+                    : "bg-[#141412] text-text-on-dark hover:bg-[#1f1f1c]",
+                )}
+              >
+                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] opacity-70">
+                  Loop {String(index + 1).padStart(2, "0")}
+                </span>
+                <span className="mt-1 block text-sm font-black leading-tight">
+                  {STAGES[index]?.label ?? step.title}
+                </span>
+              </button>
+            ))}
           </div>
 
-          <ol className="relative grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((step, index) => (
-              <li key={step.title} className="relative flex flex-col">
-                <div className="mb-3 flex items-center gap-2">
-                  <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
-                    {STAGE_LABELS[index] ?? `Stage ${index + 1}`}
-                  </span>
-                  <span className="font-mono text-[10px] font-bold text-text-on-dark/45">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                </div>
-                <div className="flex flex-1 flex-col border border-accent/35 bg-[#0c0c0b] p-4">
-                  <div
-                    className="mb-3 flex h-10 w-10 items-center justify-center rounded-full border-2 border-accent/50 bg-[#1a1a18] font-mono text-[10px] font-black text-accent"
-                    aria-hidden="true"
-                  >
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-                  <h3 className="text-base font-black text-text-on-dark">{step.title}</h3>
-                  <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/70">
-                    {step.description}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ol>
+          <div
+            className="grid gap-0 lg:grid-cols-[minmax(0,9rem)_minmax(0,1fr)]"
+            role="tabpanel"
+            aria-label={`${stage.label}: ${current.title}`}
+          >
+            <div className="relative min-h-[12rem] border-b-2 border-accent bg-[#141412] lg:border-b-0 lg:border-r-2">
+              <Image
+                src={stage.src}
+                alt=""
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 144px"
+              />
+            </div>
+            <div className="p-5 sm:p-6">
+              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+                {stage.label}
+              </span>
+              <h3 className="mt-3 text-xl font-black tracking-tight text-text-on-dark sm:text-2xl">
+                {current.title}
+              </h3>
+              <p className="mt-2 max-w-xl text-sm font-medium leading-snug text-text-on-dark/70 sm:text-base">
+                {current.description}
+              </p>
+              <ul className="mt-5 flex gap-1.5" aria-hidden="true">
+                {steps.map((_, i) => (
+                  <li
+                    key={i}
+                    className={cn(
+                      "h-1.5 flex-1",
+                      i <= active ? "bg-accent" : "bg-text-on-dark/15",
+                    )}
+                  />
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </ServicePageShell>
     </section>
