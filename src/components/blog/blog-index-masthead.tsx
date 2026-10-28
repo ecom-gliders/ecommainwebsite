@@ -42,7 +42,7 @@ export function BlogIndexMasthead({
           compact ? "max-w-3xl" : "mx-auto max-w-4xl text-center",
         )}
       >
-        <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+        <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
           eCom Gliders Insights
         </p>
         <h1

@@ -30,7 +30,7 @@ export function FaqSection({ id, data }: FaqSectionProps) {
       <div className="overflow-hidden rounded-[20px] bg-accent px-5 py-10 text-primary sm:px-8 sm:py-12 lg:px-12 lg:py-14">
         <div className="max-w-3xl">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-primary/60 sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-primary/60">
               {eyebrow}
             </p>
           ) : null}

@@ -26,6 +26,22 @@
   --font-mono: var(--font-ibm-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
   --font-hand: var(--font-caveat), "Caveat", cursive;
 
+  /*
+   * Readable type scale for seller audience (~35–40).
+   * Aligns Tailwind utilities with design-system body 18 / small 16.
+   * Labels (xs) lift more than display/hero (those use .text-hero / .text-h*).
+   */
+  --text-xs: 0.875rem; /* 14px — eyebrows, tags, meta, numbering */
+  --text-xs--line-height: 1.45;
+  --text-sm: 1rem; /* 16px — supporting copy, form labels, footer links */
+  --text-sm--line-height: 1.5;
+  --text-base: 1.125rem; /* 18px — default body */
+  --text-base--line-height: 1.65;
+  --text-lg: 1.25rem; /* 20px — emphasized body / card leads */
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.375rem; /* 22px — small subheads */
+  --text-xl--line-height: 1.4;
+
   --radius-sm: var(--radius-sm);
   --radius-md: var(--radius-md);
   --radius-lg: var(--radius-lg);
@@ -795,6 +811,36 @@
 
   *::-webkit-scrollbar-corner {
     background: var(--color-surface);
+  }
+
+  /* Free-audit Calendly shell — ink thumb on lime track */
+  .calendly-brand-scroll {
+    scrollbar-width: auto;
+    scrollbar-color: #131311 #C6FD50;
+  }
+
+  .calendly-brand-scroll::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  .calendly-brand-scroll::-webkit-scrollbar-track {
+    background: #C6FD50;
+    border-left: 2px solid #131311;
+  }
+
+  .calendly-brand-scroll::-webkit-scrollbar-thumb {
+    background: #131311;
+    border: 2px solid #C6FD50;
+    border-radius: 0;
+  }
+
+  .calendly-brand-scroll::-webkit-scrollbar-thumb:hover {
+    background: #0a0a09;
+  }
+
+  .calendly-brand-scroll::-webkit-scrollbar-corner {
+    background: #C6FD50;
   }
 
   h1,

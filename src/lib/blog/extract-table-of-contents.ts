@@ -1,3 +1,4 @@
+import { normalizeMarkdownNewlines } from "./normalize-markdown-newlines";
 import { createHeadingId } from "./slugify-heading";
 
 export interface TocItem {
@@ -8,7 +9,8 @@ export interface TocItem {
   depth: 0 | 1 | 2;
 }
 
-const SKIP_HEADINGS = /^recent posts$|^conclusion:?$/i;
+const SKIP_HEADINGS =
+  /^recent posts$|^conclusion:?$|^introduction:?$|^final thoughts?:?$|^final perspective:?$|^for more insights\b|^related (articles|posts|resources)\b|helpful links$/i;
 /** Leading outline markers like `1. ` / `2) ` (after MD escape normalization). */
 const NUMBERED = /^\d+[.)]\s+/;
 
@@ -21,6 +23,19 @@ export function stripLeadingOutlineNumber(text: string): string {
   return stripped.length >= 3 ? stripped : text;
 }
 
+function cleanHeadingLabel(raw: string): string {
+  return raw
+    .replace(/\\([.])/g, "$1")
+    .replace(/\*\*/g, "")
+    .replace(
+      /[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F1E0}-\u{1F1FF}\u{200D}\u{20E3}]/gu,
+      "",
+    )
+    .replace(/\s{2,}/g, " ")
+    .replace(/:+\s*$/, "")
+    .trim();
+}
+
 /**
  * Full outline: major sections + nested numbered sub-points.
  * Skips title-duplicate intro headings only.
@@ -29,22 +44,14 @@ export function extractTableOfContents(markdown: string): TocItem[] {
   const raw: Omit<TocItem, "depth">[] = [];
   const usedIds = new Map<string, number>();
 
-  for (const line of markdown.split("\n")) {
+  for (const line of normalizeMarkdownNewlines(markdown).split("\n")) {
     const match = line.match(/^(#{2,5})\s+(.+)$/);
     if (!match) continue;
 
     const level = match[1].length as 2 | 3 | 4 | 5;
     if (level > 4) continue;
 
-    const text = match[2]
-      .replace(/\\([.])/g, "$1")
-      .replace(/\*\*/g, "")
-      .replace(
-        /[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F1E0}-\u{1F1FF}\u{200D}\u{20E3}]/gu,
-        "",
-      )
-      .replace(/\s{2,}/g, " ")
-      .trim();
+    const text = cleanHeadingLabel(match[2]);
 
     if (text.length < 3 || SKIP_HEADINGS.test(text)) continue;
 

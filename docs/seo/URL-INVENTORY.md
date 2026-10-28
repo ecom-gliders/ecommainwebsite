@@ -93,6 +93,8 @@ Config: `content/config/case-studies.json`. Audit: `docs/research/CASE-STUDIES-E
 | URL | Title | Status |
 |-----|-------|--------|
 | https://ecomgliders.com/ | Homepage | Known |
+| /agency-partnership/ | Agency Partnership | New on rebuild (2026-10-28); not on legacy site |
+| /careers/ | Careers | New on rebuild (2026-10-28); not on legacy site |
 | (to be populated) | | |
 
 ## Redirect map

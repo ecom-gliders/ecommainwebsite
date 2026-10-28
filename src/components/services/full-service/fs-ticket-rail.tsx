@@ -42,10 +42,10 @@ export function FsTicketRail({ service }: FsTicketRailProps) {
                 className="flex flex-col border-2 border-accent bg-primary p-4 shadow-[4px_4px_0_0_#C6F135]"
               >
                 <div className="flex items-center justify-between gap-2">
-                  <span className="font-mono text-[10px] font-bold text-accent">
+                  <span className="font-mono text-xs font-bold text-accent">
                     Ticket {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-mono text-[10px] font-bold tabular-nums text-accent">
+                  <span className="font-mono text-xs font-bold tabular-nums text-accent">
                     {severity}%
                   </span>
                 </div>

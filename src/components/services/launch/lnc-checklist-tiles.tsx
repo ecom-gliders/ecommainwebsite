@@ -83,7 +83,7 @@ export function LncChecklistTiles({ service }: LncChecklistTilesProps) {
                 </div>
                 <div className="flex flex-1 flex-col p-4">
                   <div className="flex items-start justify-between gap-2">
-                    <span className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {meta.tag}
                     </span>
                     <span
@@ -93,7 +93,7 @@ export function LncChecklistTiles({ service }: LncChecklistTilesProps) {
                       <span className="block h-2 w-1 translate-y-[-1px] rotate-45 border-b-2 border-r-2 border-primary" />
                     </span>
                   </div>
-                  <p className="mt-2 font-mono text-[9px] font-bold tabular-nums text-text-secondary/70">
+                  <p className="mt-2 font-mono text-xs font-bold tabular-nums text-text-secondary/70">
                     Item {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-2 text-sm font-black leading-snug text-primary sm:text-base">

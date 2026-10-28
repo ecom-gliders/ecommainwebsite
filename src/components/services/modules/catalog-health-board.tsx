@@ -62,7 +62,7 @@ export function CatalogHealthBoard({
               className="h-3 w-3 shrink-0 text-neutral-400"
               aria-hidden="true"
             />
-            <span className="truncate text-[11px] font-medium text-neutral-500">
+            <span className="truncate text-xs font-medium text-neutral-500">
               {urlLabel}
             </span>
           </div>
@@ -77,7 +77,7 @@ export function CatalogHealthBoard({
                   <th
                     key={column}
                     scope="col"
-                    className="px-4 py-3 text-[11px] font-bold uppercase tracking-[0.1em] text-primary"
+                    className="px-4 py-3 text-xs font-bold uppercase tracking-[0.1em] text-primary"
                   >
                     {column}
                   </th>
@@ -132,10 +132,10 @@ function SheetBoard({
         )}
       >
         <div className="flex items-center justify-between gap-3 border-b-2 border-primary bg-surface-muted px-4 py-3 sm:px-5">
-          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">
             {boardLabel}
           </p>
-          <p className="truncate font-mono text-[11px] text-text-secondary">
+          <p className="truncate font-mono text-xs text-text-secondary">
             {urlLabel}
           </p>
         </div>
@@ -148,7 +148,7 @@ function SheetBoard({
                   <th
                     key={column}
                     scope="col"
-                    className="px-4 py-3 text-[11px] font-bold uppercase tracking-[0.1em] text-primary"
+                    className="px-4 py-3 text-xs font-bold uppercase tracking-[0.1em] text-primary"
                   >
                     {column}
                   </th>
@@ -207,16 +207,16 @@ function SellerConsoleBoard({
       >
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 px-4 py-3 sm:px-5">
           <div className="min-w-0">
-            <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#FF9900]">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#FF9900]">
               Catalog ops console
             </p>
-            <p className="mt-0.5 truncate font-mono text-[11px] text-white/55">
+            <p className="mt-0.5 truncate font-mono text-xs text-white/55">
               {urlLabel}
             </p>
           </div>
           <dl className="flex gap-4 text-right">
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.12em] text-white/45">
+              <dt className="text-xs uppercase tracking-[0.12em] text-white/45">
                 Live
               </dt>
               <dd className="text-lg font-bold tabular-nums text-[#7CFF6B]">
@@ -224,7 +224,7 @@ function SellerConsoleBoard({
               </dd>
             </div>
             <div>
-              <dt className="text-[10px] uppercase tracking-[0.12em] text-white/45">
+              <dt className="text-xs uppercase tracking-[0.12em] text-white/45">
                 Needs work
               </dt>
               <dd className="text-lg font-bold tabular-nums text-[#FFB84D]">
@@ -245,7 +245,7 @@ function SellerConsoleBoard({
                   <th
                     key={column}
                     scope="col"
-                    className="px-4 py-2.5 text-[10px] font-bold uppercase tracking-[0.14em] text-white/50 sm:px-5"
+                    className="px-4 py-2.5 text-xs font-bold uppercase tracking-[0.14em] text-white/50 sm:px-5"
                   >
                     {column}
                   </th>
@@ -296,7 +296,7 @@ function StatusPill({ value }: { value: string }) {
   return (
     <span
       className={cn(
-        "inline-flex rounded-[2px] px-2 py-0.5 text-[11px] font-bold uppercase tracking-[0.08em]",
+        "inline-flex rounded-[2px] px-2 py-0.5 text-xs font-bold uppercase tracking-[0.08em]",
         tone === "live" && "bg-[#1F3D2A] text-[#7CFF6B]",
         tone === "blocked" && "bg-[#3D2418] text-[#FFB84D]",
         tone === "split" && "bg-[#2A3344] text-[#9EC1FF]",

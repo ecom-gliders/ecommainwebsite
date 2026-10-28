@@ -160,7 +160,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
   const formInner = (
     <>
       {presentation === "ops-sheet" ? (
-        <div className="flex items-center justify-between border-b border-primary/15 bg-surface-muted/80 px-4 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary sm:px-5">
+        <div className="flex items-center justify-between border-b border-primary/15 bg-surface-muted/80 px-4 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-secondary sm:px-5">
           <span>Request intake</span>
           <span>{service.breadcrumbLabel}</span>
         </div>
@@ -273,7 +273,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
           <div className="flex h-full flex-col">
             <p
               className={cn(
-                "inline-flex w-fit max-w-full items-center px-3 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.14em] sm:text-[11px]",
+                "inline-flex w-fit max-w-full items-center px-3 py-1 font-mono text-xs font-bold uppercase tracking-[0.14em] sm:text-xs",
                 onDark
                   ? "rounded-full border border-accent/50 bg-primary/40 text-accent backdrop-blur-sm"
                   : presentation === "ops-sheet"

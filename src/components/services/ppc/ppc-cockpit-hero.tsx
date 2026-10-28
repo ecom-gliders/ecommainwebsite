@@ -81,7 +81,7 @@ export function PpcCockpitHero({ service, site }: PpcCockpitHeroProps) {
                   );
                 })}
               </ul>
-              <p className="mt-5 text-center text-[11px] font-medium text-text-on-dark/60">
+              <p className="mt-5 text-center text-xs font-medium text-text-on-dark/60">
                 Illustrative dials—not promised ACoS outcomes.
               </p>
             </div>

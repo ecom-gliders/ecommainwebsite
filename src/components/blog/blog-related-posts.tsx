@@ -22,7 +22,7 @@ export function BlogRelatedPosts({ posts }: BlogRelatedPostsProps) {
     >
       <div className="mb-6 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             Keep reading
           </p>
           <h2 id={headingId} className="mt-1 text-h3">
@@ -61,7 +61,7 @@ export function BlogRelatedPosts({ posts }: BlogRelatedPostsProps) {
               )}
               <span className="min-w-0 flex-1">
                 {post.categories[0] ? (
-                  <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
                     {post.categories[0]}
                   </span>
                 ) : null}

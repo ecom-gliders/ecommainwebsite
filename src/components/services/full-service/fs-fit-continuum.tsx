@@ -39,7 +39,7 @@ export function FsFitContinuum({ service }: FsFitContinuumProps) {
           <span className="absolute left-1/2 top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 border-2 border-primary bg-primary" />
         </div>
         <div
-          className="mt-2 hidden justify-between text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary md:flex"
+          className="mt-2 hidden justify-between text-xs font-bold uppercase tracking-[0.1em] text-text-secondary md:flex"
           aria-hidden="true"
         >
           <span>{fit.fitHeading}</span>
@@ -63,7 +63,7 @@ export function FsFitContinuum({ service }: FsFitContinuumProps) {
                   key={bullet}
                   className="flex gap-3 border-l-4 border-accent bg-background py-2.5 pl-3 pr-3"
                 >
-                  <span className="font-mono text-[10px] font-bold text-text-secondary">
+                  <span className="font-mono text-xs font-bold text-text-secondary">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="text-sm font-medium leading-snug text-primary">
@@ -90,7 +90,7 @@ export function FsFitContinuum({ service }: FsFitContinuumProps) {
                   key={bullet}
                   className="flex gap-3 border-l-4 border-primary/25 bg-background py-2.5 pl-3 pr-3"
                 >
-                  <span className="font-mono text-[10px] font-bold text-text-secondary">
+                  <span className="font-mono text-xs font-bold text-text-secondary">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="text-sm font-medium leading-snug text-text-secondary">

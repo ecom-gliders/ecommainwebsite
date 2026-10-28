@@ -38,7 +38,7 @@ export function VidBeatTimeline({ service }: VidBeatTimelineProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-primary bg-[#1a1a18] px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent">
+            <p className="border-2 border-primary bg-[#1a1a18] px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent">
               {board.boardLabel}
             </p>
           ) : null}
@@ -60,13 +60,13 @@ export function VidBeatTimeline({ service }: VidBeatTimelineProps) {
                   )}
                 >
                   <div className="border-b-2 border-primary bg-primary px-2 py-1.5">
-                    <p className="font-mono text-[10px] font-black text-accent">{beat}</p>
+                    <p className="font-mono text-xs font-black text-accent">{beat}</p>
                   </div>
                   <div className="flex flex-1 flex-col p-2.5">
-                    <p className="text-[10px] font-bold uppercase tracking-[0.06em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.06em] text-text-secondary">
                       {job}
                     </p>
-                    <p className="mt-2 text-[11px] font-medium leading-snug text-text-secondary line-through decoration-primary/35">
+                    <p className="mt-2 text-xs font-medium leading-snug text-text-secondary line-through decoration-primary/35">
                       {weak}
                     </p>
                     <p className="mt-auto border-t border-primary/15 pt-2 text-xs font-bold leading-snug text-primary">

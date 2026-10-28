@@ -142,13 +142,13 @@ function MetricBadge({ highlight }: { highlight: VideoHighlight }) {
           />
           <span>
             {highlight.value}
-            <span className="ml-1 text-[0.7rem] font-bold uppercase tracking-[0.08em] text-text-on-dark/85 sm:text-xs">
+            <span className="ml-1 text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/85">
               {highlight.label}
             </span>
           </span>
         </p>
         {highlight.caption ? (
-          <p className="mt-1.5 text-[11px] font-medium leading-snug text-text-on-dark/80 sm:text-xs">
+          <p className="mt-1.5 text-xs font-medium leading-snug text-text-on-dark/80">
             {highlight.caption}
           </p>
         ) : null}
@@ -523,7 +523,7 @@ export function VideoReviewsSection({ id, data }: VideoReviewsSectionProps) {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-2xl">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               {eyebrow}
             </p>
           ) : null}
@@ -712,18 +712,17 @@ export function VideoReviewsSection({ id, data }: VideoReviewsSectionProps) {
                       <MetricBadge highlight={item.highlight} />
                     ) : null}
 
+                    {/* Always visible play affordance; fades only while muted hover preview runs. */}
                     <span
                       className={cn(
-                        "absolute left-1/2 top-[42%] flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center",
-                        "rounded-full border-2 border-primary bg-accent text-primary shadow-[3px_3px_0_0_#131311]",
-                        "transition-[transform,opacity] duration-150 group-hover:scale-105",
-                        showHoverVideo || item.highlight
-                          ? "opacity-0"
-                          : "opacity-100",
+                        "pointer-events-none absolute left-1/2 top-1/2 z-[3] flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center",
+                        "rounded-full border-2 border-primary bg-accent text-primary shadow-[4px_4px_0_0_#131311]",
+                        "ring-4 ring-primary/25 transition-[transform,opacity] duration-150 group-hover:scale-105",
+                        showHoverVideo ? "opacity-0" : "opacity-100",
                       )}
                       aria-hidden="true"
                     >
-                      <Play className="ml-0.5 h-5 w-5 fill-current" />
+                      <Play className="ml-0.5 h-6 w-6 fill-current" strokeWidth={2.5} />
                     </span>
                   </span>
                 </button>

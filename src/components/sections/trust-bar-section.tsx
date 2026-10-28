@@ -48,7 +48,7 @@ function MetricTile({ item }: { item: MetricItem }) {
       <div className="mt-3 space-y-1 sm:mt-4">
         <p className="text-xs font-bold leading-snug sm:text-base">{item.label}</p>
         {item.note ? (
-          <p className="text-[11px] font-normal leading-relaxed text-primary/70 sm:text-sm">
+          <p className="text-xs font-normal leading-relaxed text-primary/70 sm:text-sm">
             {item.note}
           </p>
         ) : null}
@@ -212,7 +212,7 @@ export function TrustBarSection({ id, data }: TrustBarSectionProps) {
     >
       <div className={cn("mx-auto max-w-3xl text-center")}>
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
             {eyebrow}
           </p>
         ) : null}

@@ -140,7 +140,7 @@ export function PainSpawnBubbles({ quotes, className }: PainSpawnBubblesProps) {
       {bubbles.map((bubble) => (
         <span
           key={`${reactId}-${bubble.id}`}
-          className="absolute max-w-[11.5rem] rounded-[20px] bg-accent px-3.5 py-2.5 text-left text-[12px] font-medium leading-snug text-primary sm:max-w-[13.5rem] sm:px-4 sm:py-2.5"
+          className="absolute max-w-[11.5rem] rounded-[20px] bg-accent px-3.5 py-2.5 text-left text-xs font-medium leading-snug text-primary sm:max-w-[13.5rem] sm:px-4 sm:py-2.5"
           style={{
             left: `${bubble.left}%`,
             top: `${bubble.top}%`,

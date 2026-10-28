@@ -61,10 +61,10 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
               aria-label="Seller Central console preview"
             >
               <div className="flex shrink-0 items-center justify-between border-b-2 border-primary bg-primary px-3 py-2 sm:px-4">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent sm:text-xs">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Seller Central · operations console
                 </p>
-                <span className="font-mono text-[10px] font-bold text-accent/80">
+                <span className="font-mono text-xs font-bold text-accent/80">
                   Illustrative
                 </span>
               </div>
@@ -92,7 +92,7 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
                       {item.count > 0 ? (
                         <span
                           className={cn(
-                            "font-mono text-[10px] font-bold tabular-nums",
+                            "font-mono text-xs font-bold tabular-nums",
                             item.active ? "text-primary" : "text-text-secondary",
                           )}
                         >
@@ -105,7 +105,7 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
 
                 <div className="flex min-h-0 flex-1 flex-col bg-background">
                   <div className="shrink-0 border-b border-primary/20 px-3 py-2 sm:px-4">
-                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       Task queue · Cases
                     </p>
                   </div>
@@ -116,10 +116,10 @@ export function ScConsoleHero({ service, site }: ScConsoleHeroProps) {
                         className="grid gap-1 px-3 py-2.5 sm:grid-cols-[minmax(0,1fr)_auto_auto] sm:items-center sm:gap-3 sm:px-4 sm:py-3"
                       >
                         <p className="text-sm font-bold text-primary">{row.task}</p>
-                        <span className="font-mono text-[10px] font-bold uppercase text-text-secondary">
+                        <span className="font-mono text-xs font-bold uppercase text-text-secondary">
                           {row.owner}
                         </span>
-                        <span className="w-fit border border-primary/40 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-primary">
+                        <span className="w-fit border border-primary/40 px-1.5 py-0.5 font-mono text-xs font-bold uppercase text-primary">
                           {row.status}
                         </span>
                       </li>

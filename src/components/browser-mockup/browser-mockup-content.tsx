@@ -10,7 +10,7 @@ export function BrowserMockupContent({
   current,
   compact = false,
 }: BrowserMockupContentProps) {
-  const textSize = compact ? "text-[11px]" : "text-small";
+  const textSize = compact ? "text-xs" : "text-small";
   const statSize = compact ? "text-base" : "text-lg";
   const tableRows = current.table.slice(0, compact ? 3 : 3);
 
@@ -28,7 +28,7 @@ export function BrowserMockupContent({
             <p
               className={cn(
                 "mt-0.5 text-text-secondary",
-                compact ? "text-[10px]" : "text-xs",
+                compact ? "text-xs" : "text-xs",
               )}
             >
               {stat.label}
@@ -48,19 +48,19 @@ export function BrowserMockupContent({
           <thead>
             <tr className="border-b-2 border-primary/15 bg-surface">
               <th
-                className="px-2.5 py-2.5 text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
+                className="px-2.5 py-2.5 text-xs font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
                 scope="col"
               >
                 Item
               </th>
               <th
-                className="px-2.5 py-2.5 text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
+                className="px-2.5 py-2.5 text-xs font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
                 scope="col"
               >
                 Value
               </th>
               <th
-                className="px-2.5 py-2.5 text-right text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
+                className="px-2.5 py-2.5 text-right text-xs font-bold uppercase tracking-[0.1em] text-text-secondary sm:px-3"
                 scope="col"
               >
                 Change
@@ -86,7 +86,7 @@ export function BrowserMockupContent({
                   )}
                 >
                   {row.positive ? (
-                    <span className="inline-flex rounded-full bg-accent/80 px-2 py-0.5 text-[10px] font-bold tracking-tight text-primary">
+                    <span className="inline-flex rounded-full bg-accent/80 px-2 py-0.5 text-xs font-bold tracking-tight text-primary">
                       {row.change}
                     </span>
                   ) : (

@@ -32,7 +32,7 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
             <ul className="mt-6 space-y-3">
               {problem.points.map((point, index) => (
                 <li key={point.title} className="border-l-2 border-accent pl-3">
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-0.5 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -52,7 +52,7 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
           >
             <div className="grid flex-1 grid-cols-1 sm:grid-cols-2">
               <div className="bg-[#1a1a18] p-5 sm:p-6">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                   Silent listing
                 </p>
                 <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20 bg-[#131311]">
@@ -77,7 +77,7 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
                 </ul>
               </div>
               <div className="border-t-2 border-accent bg-accent p-5 text-primary sm:border-t-0 sm:border-l-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                   Video lift
                 </p>
                 <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-primary">
@@ -97,7 +97,7 @@ export function VidSilentProblem({ service }: VidSilentProblemProps) {
                 </ul>
               </div>
             </div>
-            <p className="border-t-2 border-accent bg-[#222220] px-4 py-2 text-center font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+            <p className="border-t-2 border-accent bg-[#222220] px-4 py-2 text-center font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
               Before / after · education in motion
             </p>
           </div>

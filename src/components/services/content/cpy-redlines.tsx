@@ -45,7 +45,7 @@ export function CpyRedlines({ service }: CpyRedlinesProps) {
                 </p>
               </div>
               <div className="border-t-2 border-primary bg-[#F7F3EA] p-4 lg:border-t-0 lg:border-l-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   Issue
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-text-secondary line-through decoration-primary/40">
@@ -53,7 +53,7 @@ export function CpyRedlines({ service }: CpyRedlinesProps) {
                 </p>
               </div>
               <div className="border-t-2 border-primary bg-background p-4 lg:border-t-0 lg:border-l-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   Fix
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-primary">
@@ -61,7 +61,7 @@ export function CpyRedlines({ service }: CpyRedlinesProps) {
                 </p>
               </div>
               <div className="border-t-2 border-primary bg-accent p-4 lg:border-t-0 lg:border-l-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-primary/70">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                   Verify
                 </p>
                 <p className="mt-1 text-sm font-bold leading-snug text-primary">

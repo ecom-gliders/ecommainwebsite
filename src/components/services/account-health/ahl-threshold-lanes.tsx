@@ -37,7 +37,7 @@ export function AhlThresholdLanes({ service }: AhlThresholdLanesProps) {
       aria-labelledby="service-ops-lanes-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Threshold lanes
         </p>
         <h2
@@ -71,7 +71,7 @@ export function AhlThresholdLanes({ service }: AhlThresholdLanesProps) {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#161614] via-transparent to-transparent" />
                   <div className="absolute inset-x-0 bottom-0 px-4 pb-4">
-                    <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                       Lane {meta.code}
                     </p>
                     <h3 className="mt-1 text-xl font-black text-text-on-dark">
@@ -107,7 +107,7 @@ export function AhlThresholdLanes({ service }: AhlThresholdLanesProps) {
                         rowIndex < 2 && "border-b border-accent/20",
                       )}
                     >
-                      <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent/80">
+                      <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent/80">
                         {row.label}
                       </p>
                       <p className="mt-1.5 text-sm font-medium leading-snug text-text-on-dark/85">

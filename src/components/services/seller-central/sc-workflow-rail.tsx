@@ -36,7 +36,7 @@ export function ScWorkflowRail({ service }: ScWorkflowRailProps) {
         </h2>
         <div className="mt-8 overflow-hidden border-2 border-primary bg-[#F0F0EC] shadow-[4px_4px_0_0_#131311]">
           <div className="flex border-b-2 border-primary bg-primary px-3 py-2" aria-hidden="true">
-            <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Workflow rail
             </span>
           </div>
@@ -62,7 +62,7 @@ export function ScWorkflowRail({ service }: ScWorkflowRailProps) {
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-4 sm:p-5">
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                     Step {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-2 text-base font-black text-primary sm:text-lg">

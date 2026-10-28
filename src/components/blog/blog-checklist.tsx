@@ -12,7 +12,7 @@ export function BlogChecklist({ title, items }: BlogChecklistProps) {
   return (
     <div className="my-8 border-2 border-primary bg-background p-5 shadow-[3px_3px_0_0_#131311]">
       {title ? (
-        <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="mb-3 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {title}
         </p>
       ) : null}

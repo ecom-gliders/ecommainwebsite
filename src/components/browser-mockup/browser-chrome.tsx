@@ -19,7 +19,7 @@ function StaticTabBar({
             <div
               key={tab.id}
               className={cn(
-                "flex-1 rounded-sm px-2 py-1 text-center text-[11px] font-medium",
+                "flex-1 rounded-sm px-2 py-1 text-center text-xs font-medium",
                 activeTabId === tab.id
                   ? "bg-background text-text-primary shadow-sm"
                   : "text-text-secondary",
@@ -43,7 +43,7 @@ function StaticTabBar({
         <div
           key={tab.id}
           className={cn(
-            "flex h-6 max-w-[120px] shrink-0 items-center truncate rounded-sm px-2 text-[11px] font-medium leading-none",
+            "flex h-6 max-w-[120px] shrink-0 items-center truncate rounded-sm px-2 text-xs font-medium leading-none",
             activeTabId === tab.id
               ? "bg-background text-text-primary shadow-sm"
               : "text-text-secondary",
@@ -71,7 +71,7 @@ export function MacChrome({ url, tabs, activeTabId, variant }: BrowserChromeProp
       <div className="border-b border-border bg-background px-3 py-1.5">
         <div className="flex min-w-0 items-center gap-2 rounded-sm border border-border bg-surface px-3 py-1">
           <Lock className="h-3 w-3 shrink-0 text-text-secondary" aria-hidden="true" />
-          <span className="truncate text-[11px] text-text-secondary">{url}</span>
+          <span className="truncate text-xs text-text-secondary">{url}</span>
         </div>
       </div>
     </>
@@ -82,7 +82,7 @@ export function IosChrome({ url, tabs, activeTabId, variant }: BrowserChromeProp
   return (
     <>
       <div className="grid grid-cols-3 items-center px-4 pt-2.5 pb-1.5" aria-hidden="true">
-        <span className="text-[11px] font-semibold tracking-tight text-text-primary">
+        <span className="text-xs font-semibold tracking-tight text-text-primary">
           9:41
         </span>
         <div className="flex justify-center">
@@ -106,7 +106,7 @@ export function IosChrome({ url, tabs, activeTabId, variant }: BrowserChromeProp
       <div className="px-3 pb-2" aria-hidden="true">
         <div className="flex items-center gap-2 rounded-sm border border-border bg-background px-3 py-1.5">
           <Lock className="h-3 w-3 shrink-0 text-text-secondary" aria-hidden="true" />
-          <span className="truncate text-[11px] text-text-secondary">{url}</span>
+          <span className="truncate text-xs text-text-secondary">{url}</span>
         </div>
       </div>
       <StaticTabBar tabs={tabs} activeTabId={activeTabId} variant={variant} />

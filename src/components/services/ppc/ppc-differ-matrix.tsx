@@ -40,7 +40,7 @@ export function PpcDifferMatrix({ service }: PpcDifferMatrixProps) {
                 index % 2 === 0 ? "bg-accent/50" : "bg-[#F4F4F4]",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Axis {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-2 text-base font-black text-primary sm:text-lg">

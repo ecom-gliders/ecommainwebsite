@@ -8,7 +8,7 @@ export function BlogFormula({ expression, note }: BlogFormulaProps) {
 
   return (
     <div className="my-8 border-2 border-primary bg-primary px-5 py-4 text-text-on-dark shadow-[3px_3px_0_0_#131311]">
-      <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
         Formula
       </p>
       <p className="mt-2 font-mono text-lg font-semibold tracking-tight md:text-xl">

@@ -37,7 +37,7 @@ export function CatDiffer({ service }: CatDifferProps) {
 
         <div className="mt-8 grid gap-4 lg:grid-cols-2">
           <div className="border-2 border-text-on-dark/30 bg-[#1a1a18] p-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
               Reactive catalog work
             </p>
             <ul className="mt-4 space-y-2">
@@ -61,7 +61,7 @@ export function CatDiffer({ service }: CatDifferProps) {
                   index > 0 && "border-t border-accent/35",
                 )}
               >
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent">
                   Buyability system
                 </p>
                 <h3 className="mt-1 text-base font-black text-text-on-dark">

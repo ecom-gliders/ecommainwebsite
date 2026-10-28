@@ -40,7 +40,7 @@ export function ServiceStatsStrip({ stats }: ServiceStatsStripProps) {
             >
               <dt
                 className={cn(
-                  "text-[11px] font-bold uppercase tracking-[0.14em]",
+                  "text-xs font-bold uppercase tracking-[0.14em]",
                   isLead ? "text-primary/70" : "text-text-secondary",
                 )}
               >

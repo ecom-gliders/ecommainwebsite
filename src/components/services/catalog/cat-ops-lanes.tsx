@@ -40,7 +40,7 @@ export function CatOpsLanes({ service }: CatOpsLanesProps) {
               className="grid gap-0 overflow-hidden border-2 border-primary bg-background lg:grid-cols-[minmax(0,10rem)_1fr_1fr_1fr]"
             >
               <div className="flex flex-col justify-center border-b-2 border-primary bg-primary px-4 py-3 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[10px] font-bold tabular-nums text-accent">
+                <p className="font-mono text-xs font-bold tabular-nums text-accent">
                   Lane {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-1 text-sm font-black text-text-on-dark">
@@ -48,7 +48,7 @@ export function CatOpsLanes({ service }: CatOpsLanesProps) {
                 </h3>
               </div>
               <div className="border-b-2 border-primary p-4 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   Issue
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-text-secondary">
@@ -56,7 +56,7 @@ export function CatOpsLanes({ service }: CatOpsLanesProps) {
                 </p>
               </div>
               <div className="border-b-2 border-primary bg-accent p-4 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-primary/70">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                   Fix
                 </p>
                 <p className="mt-1 text-sm font-bold leading-snug text-primary">
@@ -64,7 +64,7 @@ export function CatOpsLanes({ service }: CatOpsLanesProps) {
                 </p>
               </div>
               <div className="p-4">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   Verify
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-primary">

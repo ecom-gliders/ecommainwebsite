@@ -1,0 +1,242 @@
+{
+  "seo": {
+    "metaTitle": "Agency Partnership | Amazon Collaboration for Agencies | eCom Gliders",
+    "metaDescription": "Apply to partner with eCom Gliders. White-label, referral, and co-managed Amazon delivery for complementary agencies—not an open vendor pitch inbox.",
+    "canonical": "/agency-partnership/",
+    "robots": { "index": true, "follow": true }
+  },
+  "hero": {
+    "eyebrow": "Agency partnerships",
+    "title": "Amazon delivery capacity for agencies that already own the relationship",
+    "subtitle": "eCom Gliders collaborates with complementary agencies that need a trusted Amazon bench—white-label execution, referrals, or co-managed lanes—without turning this page into an open RFP for unrelated vendors.",
+    "forLine": "For: digital, creative, web, PR, 3PL, finance, and other agencies whose clients ask for Amazon work you do not staff in-house.",
+    "notForLine": "Not for: Amazon brands seeking services (use Free Audit), freelancers pitching us work, or vendors selling tools, media, or sponsorships to eCom Gliders.",
+    "primaryCta": {
+      "label": "Apply to partner",
+      "href": "#partner-application"
+    },
+    "secondaryCta": {
+      "label": "Brand looking for Amazon help?",
+      "href": "/free-audit/"
+    },
+    "trustChips": [
+      "Helping sellers since 2018",
+      "20+ in-house specialists",
+      "Amazon Ads Verified Partner"
+    ]
+  },
+  "demand": {
+    "eyebrow": "Why agencies reach out",
+    "heading": "Amazon shows up in client conversations before you have a full Amazon team",
+    "intro": "Many agencies win brands on web, creative, logistics, or finance—then Amazon demand appears. Building a full Amazon ops bench is expensive. Leaving the ask unanswered risks the relationship.",
+    "signals": [
+      {
+        "title": "Clients ask for Amazon, not another agency pitch deck",
+        "description": "They want listings, ads, and catalog health handled without starting a second agency search from scratch."
+      },
+      {
+        "title": "Hiring a full Amazon pod is a multi-role commitment",
+        "description": "PPC, listings, creative, catalog, and account ops rarely fit one generalist hire—and overflow still happens."
+      },
+      {
+        "title": "You need capacity without losing the client relationship",
+        "description": "Partners want delivery they can stand behind, with clear rules so eCom Gliders does not compete for the account."
+      }
+    ]
+  },
+  "lanes": {
+    "eyebrow": "Partnership lanes",
+    "heading": "Three ways to collaborate—pick the model that matches how you sell",
+    "intro": "Commercial terms are set after a fit review. On this page we define operating models, not published commission rates.",
+    "items": [
+      {
+        "id": "white-label",
+        "title": "White-label delivery",
+        "summary": "We execute agreed Amazon work under your brand. You remain the face of the relationship.",
+        "bestWhen": "Best when you already sell Amazon as part of your offer and need a reliable backend team.",
+        "brandOnWork": "Deliverables and day-to-day client contact stay under your brand unless you ask otherwise."
+      },
+      {
+        "id": "referral",
+        "title": "Referral",
+        "summary": "You introduce Amazon-ready brands. We engage under the eCom Gliders brand with clear handoff rules.",
+        "bestWhen": "Best when Amazon is adjacent to your practice and you prefer not to productize Amazon delivery yourself.",
+        "brandOnWork": "eCom Gliders leads Amazon delivery and reporting with the referred brand."
+      },
+      {
+        "id": "co-manage",
+        "title": "Co-manage",
+        "summary": "You keep strategy and relationship ownership. We run defined Amazon lanes such as PPC, listings, or catalog.",
+        "bestWhen": "Best when you have an Amazon-aware lead but need specialized execution capacity.",
+        "brandOnWork": "Roles, tools access, and reporting cadence are written into the kickoff scope."
+      }
+    ]
+  },
+  "complement": {
+    "eyebrow": "Complementarity",
+    "heading": "Your practice stays yours. Amazon lanes stay clear.",
+    "intro": "We partner to extend Amazon capacity—not to absorb your core service line or open an inbox for every vendor pitch.",
+    "yourPractice": {
+      "heading": "Your practice stays yours",
+      "items": [
+        "Website and Shopify builds",
+        "Brand, creative, and content studios outside Amazon modules",
+        "PR, influencer, and non-Amazon media",
+        "3PL, freight, and fulfillment advisory",
+        "Accounting, finance, and M&A advisory",
+        "General management consulting unrelated to Amazon execution"
+      ]
+    },
+    "ourLanes": {
+      "heading": "Amazon lanes we can cover",
+      "items": [
+        { "label": "Full Amazon account management", "href": "/full-service-amazon-agency/" },
+        { "label": "Amazon PPC", "href": "/amazon-ppc-management-agency/" },
+        { "label": "Listing optimization", "href": "/amazon-listing-optimization/" },
+        { "label": "Content writing", "href": "/amazon-content-writing/" },
+        { "label": "Visual creativity", "href": "/amazon-visual-creativity/" },
+        { "label": "Catalog management", "href": "/amazon-catalog-management/" },
+        { "label": "DSP", "href": "/amazon-dsp-management/" },
+        { "label": "Reporting and analytics", "href": "/amazon-reporting-analytics/" }
+      ]
+    },
+    "weDoNot": {
+      "heading": "We do not",
+      "items": [
+        "Run an open vendor pitch or sponsorship marketplace on this page",
+        "Invite freelancers to sell unrelated services into eCom Gliders",
+        "Compete for your retained clients’ non-Amazon scopes that you already deliver",
+        "Promise exclusive territory or published partner rates before a fit review"
+      ]
+    }
+  },
+  "protection": {
+    "eyebrow": "Client protection",
+    "heading": "Rules that keep your relationship intact",
+    "intro": "Agency partners need operational clarity before sharing a client. These are the defaults we start from; details are confirmed in writing before kickoff.",
+    "items": [
+      {
+        "title": "NDA-ready collaboration",
+        "description": "We work under confidentiality expectations appropriate to shared client work and can execute a mutual NDA when required."
+      },
+      {
+        "title": "Non-solicit posture",
+        "description": "We do not use partner introductions to solicit your non-Amazon retained scopes or to poach your agency clients."
+      },
+      {
+        "title": "Communication control",
+        "description": "For white-label and co-manage work, we do not contact your client independently unless you request or approve it."
+      },
+      {
+        "title": "Brand on deliverables",
+        "description": "White-label work ships under your brand conventions. Referral work is clearly eCom Gliders-branded with a clean handoff."
+      }
+    ]
+  },
+  "cadence": {
+    "eyebrow": "How it works",
+    "heading": "From application to operating rhythm",
+    "intro": "Partnership starts with fit—not a calendar link for every inbound message.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Apply",
+        "description": "Submit the partner application with your agency site, services, lane preference, and Amazon demand you do not staff."
+      },
+      {
+        "number": "02",
+        "title": "Fit review",
+        "description": "We review complementarity and capacity. Expect a reply within about two business days."
+      },
+      {
+        "number": "03",
+        "title": "Define lane and scope",
+        "description": "We align on white-label, referral, or co-manage, plus access, reporting, and brand rules."
+      },
+      {
+        "number": "04",
+        "title": "Kickoff",
+        "description": "Accounts, tools, and communication paths are set before execution begins."
+      },
+      {
+        "number": "05",
+        "title": "Reporting rhythm",
+        "description": "You receive an agreed cadence so your client relationship stays informed without surprises."
+      }
+    ]
+  },
+  "fit": {
+    "eyebrow": "Selective intake",
+    "heading": "Who we approve—and who we decline",
+    "intro": "We keep a selective partner cohort so delivery quality stays high. Quality over volume.",
+    "approve": {
+      "heading": "We typically approve",
+      "items": [
+        "Active agencies with a public website and a clear service offer",
+        "Teams whose core work complements Amazon rather than duplicating our entire stack",
+        "Partners with real client Amazon demand they cannot staff today",
+        "Operators willing to define lane, access, and communication rules in writing"
+      ]
+    },
+    "decline": {
+      "heading": "We typically decline",
+      "items": [
+        "Individuals or vendors pitching tools, media, or services to eCom Gliders",
+        "Lead brokers with no agency delivery relationship",
+        "Applications without a website or without a complementary practice",
+        "Requests that treat this page like a general contact form for seller audits"
+      ]
+    }
+  },
+  "faq": {
+    "heading": "Partner FAQ",
+    "items": [
+      {
+        "question": "Will eCom Gliders contact or solicit my clients?",
+        "answer": "For white-label and co-manage engagements, we follow your communication rules and do not independently solicit your clients for non-Amazon work you already provide. Referral introductions are engaged under the eCom Gliders brand with a clear handoff."
+      },
+      {
+        "question": "Do you offer exclusivity by region or niche?",
+        "answer": "Exclusivity is not automatic. If exclusivity matters to your model, raise it during fit review so we can evaluate capacity and conflict risk honestly."
+      },
+      {
+        "question": "How do we disclose the partnership to clients?",
+        "answer": "White-label work can stay under your brand. Referral and co-manage disclosures are agreed at kickoff so the client understands who executes Amazon work."
+      },
+      {
+        "question": "Is there a minimum volume?",
+        "answer": "There is no public minimum on this page. We prioritize fit and delivery quality. Volume expectations are discussed after approval."
+      },
+      {
+        "question": "How fast do you reply to applications?",
+        "answer": "We aim to respond within about two business days. Incomplete applications may take longer or be declined."
+      }
+    ]
+  },
+  "application": {
+    "id": "partner-application",
+    "eyebrow": "Application",
+    "heading": "Apply to partner with eCom Gliders",
+    "intro": "Tell us about your agency and the Amazon demand you need covered. We review for complementarity—we only approve partners whose clients we can help.",
+    "submitLabel": "Submit partner application",
+    "successMessage": "Your partner application was received. Our team will review fit and reply within about two business days.",
+    "errorMessage": "We could not submit the application. Review the fields below and try again.",
+    "consentLabel": "I agree to the privacy policy and consent to being contacted about this partner application.",
+    "laneOptions": [
+      { "value": "white-label", "label": "White-label delivery" },
+      { "value": "referral", "label": "Referral" },
+      { "value": "co-manage", "label": "Co-manage" }
+    ],
+    "volumeOptions": [
+      { "value": "exploring", "label": "Exploring—no active handoffs yet" },
+      { "value": "1-2", "label": "About 1–2 clients in the next quarter" },
+      { "value": "3-5", "label": "About 3–5 clients in the next quarter" },
+      { "value": "6-plus", "label": "6 or more clients in the next quarter" }
+    ]
+  },
+  "close": {
+    "heading": "Selective by design",
+    "body": "If you run a complementary agency and need Amazon capacity under clear rules, apply above. For unrelated vendor pitches or brand service requests, use Contact or Free Audit instead.",
+    "emailLabel": "Qualified partners may also reach us at"
+  }
+}

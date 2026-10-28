@@ -25,7 +25,7 @@ const primaryButtonVariants = cva(
   [
     "group/po-btn relative inline-flex max-w-full items-center justify-center",
     "rounded-[10px] border-2 border-primary",
-    "text-[12px] font-bold uppercase tracking-[0.04em]",
+    "text-xs font-bold uppercase tracking-[0.04em]",
     "shadow-[4px_4px_0_0_#131311]",
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2",
     "disabled:pointer-events-none disabled:opacity-50",

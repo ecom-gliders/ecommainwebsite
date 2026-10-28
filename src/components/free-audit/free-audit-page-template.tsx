@@ -2,9 +2,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { FreeAuditPageConfig, SiteConfig } from "@/domain/content/schemas";
 import { AuditFindingsList } from "@/components/free-audit/audit-findings-list";
-import { AuditFunnelWizard } from "@/components/free-audit/audit-funnel-wizard";
 import { AuditScopeSegments } from "@/components/free-audit/audit-scope-segments";
 import { AuditScorecardPreview } from "@/components/free-audit/audit-scorecard-preview";
+import { CalendlyInlineEmbed } from "@/components/free-audit/calendly-inline-embed";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 
 interface FreeAuditPageTemplateProps {
@@ -31,7 +31,7 @@ export function FreeAuditPageTemplate({
         <div className="container-page pb-14 pt-[5.5rem] sm:pb-16 sm:pt-[6.25rem] md:pt-[6.75rem] lg:pb-20">
           <div className="grid items-end gap-12 lg:grid-cols-12 lg:gap-10">
             <div className="lg:col-span-5">
-              <p className="inline-flex border-2 border-primary bg-primary px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+              <p className="inline-flex border-2 border-primary bg-primary px-3 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-accent">
                 Free · No obligation
               </p>
               <h1
@@ -44,7 +44,7 @@ export function FreeAuditPageTemplate({
                 {page.hero.subtitle}
               </p>
               <a
-                href="#audit-form"
+                href="#audit-booking"
                 className="mt-8 inline-flex min-h-12 items-center gap-2 border-2 border-primary bg-primary px-5 text-small font-bold uppercase tracking-[0.06em] text-accent shadow-[4px_4px_0_0_#131311] transition-[transform,box-shadow] hover:translate-x-px hover:translate-y-px hover:shadow-[2px_2px_0_0_#131311] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-accent"
               >
                 {page.hero.ctaLabel}
@@ -113,32 +113,70 @@ export function FreeAuditPageTemplate({
         </div>
       </section>
 
-      {/* 5. FORM — open split (copy left, fields right) */}
+      {/* 5. BOOKING — Calendly inline (no multi-step funnel) */}
       <section
-        id="audit-form"
-        aria-labelledby="audit-form-heading"
-        className="scroll-mt-24 py-16 sm:py-20 lg:py-24"
+        id="audit-booking"
+        aria-labelledby="audit-booking-heading"
+        className="scroll-mt-24 py-12 sm:py-14 lg:py-16"
       >
         <div className="container-page">
-          <div className="grid items-start gap-12 lg:grid-cols-12 lg:gap-14">
-            <div className="lg:col-span-4 lg:sticky lg:top-28">
+          <div className="grid items-start gap-8 lg:grid-cols-12 lg:gap-10">
+            <div className="lg:col-span-5 lg:sticky lg:top-28">
+              <p className="inline-flex border-2 border-primary bg-accent px-2.5 py-1 text-xs font-bold uppercase tracking-[0.12em] text-primary">
+                30 min · Free · No obligation
+              </p>
               <h2
-                id="audit-form-heading"
-                className="text-[clamp(1.85rem,3.2vw,2.5rem)] font-bold leading-[1.08] tracking-[-0.025em] text-text-primary"
+                id="audit-booking-heading"
+                className="mt-4 text-[clamp(1.85rem,3.2vw,2.5rem)] font-bold leading-[1.08] tracking-[-0.025em] text-text-primary"
               >
-                {page.form.heading}
+                {page.booking.heading}
               </h2>
-              <p className="mt-4 text-base font-medium leading-relaxed text-text-secondary">
-                Drop the basics. We reply within one business day.
+              <p className="mt-3 max-w-md text-base font-medium leading-relaxed text-text-secondary">
+                {page.booking.subheading}
               </p>
 
-              <ul className="mt-8 space-y-3 border-t-2 border-primary pt-6">
+              <ul className="mt-6 flex flex-wrap gap-2">
+                {page.scope.pillars.map((pillar) => (
+                  <li
+                    key={pillar.id}
+                    className="border-2 border-primary bg-background px-3 py-1.5 text-xs font-bold uppercase tracking-[0.06em] text-text-primary"
+                  >
+                    {pillar.label}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-6 border-2 border-primary bg-primary p-4 text-text-on-dark shadow-[3px_3px_0_0_#C6FD50]">
+                <p className="text-xs font-bold uppercase tracking-[0.12em] text-accent">
+                  On the call
+                </p>
+                <ul className="mt-3 space-y-2">
+                  {[
+                    "Where ad spend is leaking",
+                    "Listing and catalog risks to fix first",
+                    "Clear next steps — hire us or not",
+                  ].map((item) => (
+                    <li
+                      key={item}
+                      className="flex gap-2 text-sm font-medium leading-snug"
+                    >
+                      <span
+                        className="mt-0.5 h-4 w-4 shrink-0 border-2 border-accent bg-accent"
+                        aria-hidden="true"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 border-t-2 border-primary pt-5">
                 {page.trustSignals.stats.map((stat) => (
                   <li
                     key={`${stat.value}-${stat.label}`}
-                    className="flex items-baseline gap-2"
+                    className="flex items-baseline gap-1.5"
                   >
-                    <span className="text-xl font-bold text-text-primary">
+                    <span className="text-lg font-bold text-text-primary">
                       {stat.value}
                     </span>
                     <span className="text-sm font-medium text-text-secondary">
@@ -148,8 +186,8 @@ export function FreeAuditPageTemplate({
                 ))}
               </ul>
 
-              <div className="mt-8">
-                <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+              <div className="mt-6">
+                <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                   {page.fallbackContact.heading}
                 </p>
                 <a
@@ -176,8 +214,13 @@ export function FreeAuditPageTemplate({
               </div>
             </div>
 
-            <div className="lg:col-span-8">
-              <AuditFunnelWizard form={page.form} funnel={page.funnel} />
+            <div className="lg:col-span-7 min-w-0">
+              <div className="w-full max-w-[28rem] lg:ml-auto">
+                <CalendlyInlineEmbed
+                  url={page.booking.calendlyUrl}
+                  title={page.booking.embedTitle}
+                />
+              </div>
             </div>
           </div>
         </div>

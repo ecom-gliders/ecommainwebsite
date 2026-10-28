@@ -65,7 +65,7 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
         <div className="mt-2 grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,23rem)] lg:items-stretch lg:gap-5">
           <div className="flex min-h-0 min-w-0 flex-col gap-3 lg:h-full">
             <div className="shrink-0">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
                 Spark rail · Shop ads
               </p>
               <h1
@@ -84,7 +84,7 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
               aria-label="Spark ads creative rail preview"
             >
               <div className="flex shrink-0 items-center justify-between border-b border-accent/25 px-2.5 py-1.5">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Creative stages
                 </p>
                 <p className="font-mono text-[8px] font-bold text-text-on-dark/40">
@@ -118,7 +118,7 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
                         priority={index < 2}
                       />
                     </div>
-                    <p className="shrink-0 truncate px-1 py-1.5 text-center text-[9px] font-black uppercase text-text-on-dark">
+                    <p className="shrink-0 truncate px-1 py-1.5 text-center text-xs font-black uppercase text-text-on-dark">
                       {slot.spark}
                     </p>
                   </div>
@@ -158,7 +158,7 @@ export function TtkSparkHero({ service, site }: TtkSparkHeroProps) {
                 className="gap-y-2 [&_button[role=combobox]]:h-9 [&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_input]:h-9 [&_input]:border-2 [&_input]:border-primary [&_label]:mb-0.5 [&_label]:text-xs [&_textarea]:border-2 [&_textarea]:border-primary"
               />
             </div>
-            <p className="mt-2.5 text-center text-[11px] font-medium text-primary/70">
+            <p className="mt-2.5 text-center text-xs font-medium text-primary/70">
               Or call {site.phone.display}
             </p>
           </aside>

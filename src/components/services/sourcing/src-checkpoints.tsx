@@ -23,7 +23,7 @@ export function SrcCheckpoints({ service }: SrcCheckpointsProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Route checkpoints
             </p>
             <h2
@@ -33,7 +33,7 @@ export function SrcCheckpoints({ service }: SrcCheckpointsProps) {
               {deliverables.heading}
             </h2>
           </div>
-          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
             {items.length} gates
           </p>
         </div>
@@ -47,7 +47,7 @@ export function SrcCheckpoints({ service }: SrcCheckpointsProps) {
             {items.map((item, index) => (
               <li key={item.title} className="relative">
                 <span
-                  className="absolute -top-1 left-4 z-[1] flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary sm:left-1/2 sm:-translate-x-1/2"
+                  className="absolute -top-1 left-4 z-[1] flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-black text-primary sm:left-1/2 sm:-translate-x-1/2"
                   aria-hidden="true"
                 >
                   {String(index + 1).padStart(2, "0")}

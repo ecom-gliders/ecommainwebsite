@@ -143,10 +143,10 @@ export function TtkFormatCards({ service }: TtkFormatCardsProps) {
                 className="flex flex-col border-2 border-primary bg-background p-4"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <span className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                     {tag}
                   </span>
-                  <span className="font-mono text-[9px] font-bold text-text-secondary/60">
+                  <span className="font-mono text-xs font-bold text-text-secondary/60">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>

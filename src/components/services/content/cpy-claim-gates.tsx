@@ -38,7 +38,7 @@ export function CpyClaimGates({ service }: CpyClaimGatesProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+            <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
               {board.boardLabel}
             </p>
           ) : null}
@@ -55,7 +55,7 @@ export function CpyClaimGates({ service }: CpyClaimGatesProps) {
                 <div className="flex items-start justify-between gap-2">
                   <h3 className="text-base font-black text-primary">{surface}</h3>
                   <span
-                    className="shrink-0 border-2 border-primary bg-accent px-1.5 py-0.5 font-mono text-[9px] font-black uppercase text-primary"
+                    className="shrink-0 border-2 border-primary bg-accent px-1.5 py-0.5 font-mono text-xs font-black uppercase text-primary"
                     aria-hidden="true"
                   >
                     Gate

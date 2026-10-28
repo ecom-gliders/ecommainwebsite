@@ -55,7 +55,7 @@ export function ServiceAudienceSection({ audience }: ServiceAudienceSectionProps
               <div className="flex gap-3 p-3.5 sm:p-4">
                 <span
                   aria-hidden="true"
-                  className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-[6px] border-2 border-primary bg-accent text-[10px] font-bold text-primary"
+                  className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-[6px] border-2 border-primary bg-accent text-xs font-bold text-primary"
                 >
                   {String(index + 1).padStart(2, "0")}
                 </span>

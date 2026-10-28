@@ -69,7 +69,7 @@ export function ScClose({ service }: ScCloseProps) {
                     />
                   </div>
                 ))}
-                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary sm:block">
+                <p className="hidden self-end font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary sm:block">
                   Seller Central review
                 </p>
               </div>

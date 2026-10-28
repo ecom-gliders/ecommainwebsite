@@ -26,7 +26,7 @@ export function BlogIndexFeatured({ lead, secondary }: BlogIndexFeaturedProps) {
     >
       <div className="mb-8 flex items-end justify-between gap-4">
         <div>
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             Featured
           </p>
           <h2
@@ -109,7 +109,7 @@ export function BlogIndexFeatured({ lead, secondary }: BlogIndexFeaturedProps) {
                       <div className="relative aspect-[4/3] w-full overflow-hidden border border-border bg-surface-muted" />
                     )}
                     <div className="min-w-0">
-                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-text-secondary">
+                      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-text-secondary">
                         {category ? (
                           <span className="font-semibold uppercase tracking-wide text-primary">
                             {category}

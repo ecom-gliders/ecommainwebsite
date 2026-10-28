@@ -125,7 +125,7 @@ export function ShpModuleDeliverables({
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Theme modules
             </p>
             <h2
@@ -135,7 +135,7 @@ export function ShpModuleDeliverables({
               {deliverables.heading}
             </h2>
           </div>
-          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
             {items.length} modules
           </p>
         </div>
@@ -173,7 +173,7 @@ export function ShpModuleDeliverables({
                     >
                       <span
                         className={cn(
-                          "font-mono text-[9px] font-bold uppercase",
+                          "font-mono text-xs font-bold uppercase",
                           selected ? "text-accent" : "text-text-secondary",
                         )}
                       >
@@ -205,10 +205,10 @@ export function ShpModuleDeliverables({
             aria-label={current.title}
           >
             <div className="flex items-center justify-between border-b-2 border-primary bg-primary px-4 py-2.5">
-              <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Module {String(active + 1).padStart(2, "0")}
               </span>
-              <span className="font-mono text-[9px] font-bold uppercase text-text-on-dark/50">
+              <span className="font-mono text-xs font-bold uppercase text-text-on-dark/50">
                 Selected
               </span>
             </div>

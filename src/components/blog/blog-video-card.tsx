@@ -81,7 +81,7 @@ export function BlogVideoCard({
         <figcaption className="border-t-2 border-primary px-4 py-3">
           <p className="text-small font-semibold text-text-primary">{title}</p>
           {caption ? (
-            <p className="mt-1 text-[12px] text-text-secondary">{caption}</p>
+            <p className="mt-1 text-xs text-text-secondary">{caption}</p>
           ) : null}
         </figcaption>
       </figure>
@@ -124,7 +124,7 @@ export function BlogVideoCard({
       <figcaption className="border-t-2 border-primary px-4 py-3">
         <p className="text-small font-semibold text-text-primary">{title}</p>
         {caption ? (
-          <p className="mt-1 text-[12px] text-text-secondary">{caption}</p>
+          <p className="mt-1 text-xs text-text-secondary">{caption}</p>
         ) : null}
       </figcaption>
     </figure>

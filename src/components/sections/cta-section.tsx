@@ -39,7 +39,7 @@ export function CtaSection({ id, data }: CtaSectionProps) {
     >
       <div className="mx-auto max-w-4xl text-center">
         {eyebrow ? (
-          <p className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+          <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             <span
               className="inline-block h-1.5 w-1.5 rounded-full bg-accent"
               aria-hidden="true"

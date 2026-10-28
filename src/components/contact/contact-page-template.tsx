@@ -54,7 +54,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
               </p>
             </div>
             <div className="border-l-2 border-accent/50 pl-5 lg:col-span-4 lg:pb-1">
-              <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
                 Hours
               </p>
               <p className="mt-2 text-sm font-semibold text-text-on-dark">
@@ -79,7 +79,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
             <div className="border-b-2 border-primary px-5 py-4 sm:px-6">
               <h2
                 id="contact-paths-heading"
-                className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary"
+                className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary"
               >
                 Choose how to reach us
               </h2>
@@ -140,7 +140,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         <div className="container-page">
           <div className="grid items-start gap-14 lg:grid-cols-12 lg:gap-16">
             <div className="lg:col-span-7">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 General inquiry
               </p>
               <h2
@@ -169,7 +169,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
               className="lg:col-span-5 lg:sticky lg:top-28"
               aria-labelledby="contact-details-heading"
             >
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 Direct channels
               </p>
               <h2
@@ -186,7 +186,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
                     aria-hidden="true"
                   />
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {page.contactDetails.phoneLabel}
                     </p>
                     <a
@@ -203,7 +203,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
                     aria-hidden="true"
                   />
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {page.contactDetails.emailLabel}
                     </p>
                     <a
@@ -220,7 +220,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
                     aria-hidden="true"
                   />
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {page.contactDetails.hoursLabel}
                     </p>
                     <p className="mt-1 text-base font-medium text-text-primary">
@@ -234,7 +234,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
                     aria-hidden="true"
                   />
                   <div>
-                    <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {page.contactDetails.addressLabel}
                     </p>
                     <p className="mt-1 text-base font-medium text-text-primary">
@@ -254,7 +254,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
 
               {page.contactDetails.roleEmails.length > 0 ? (
                 <div className="mt-6">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                     Direct emails
                   </p>
                   <ul className="mt-3 space-y-2">
@@ -308,7 +308,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         <div className="container-page">
           <div className="grid items-start gap-10 lg:grid-cols-12 lg:gap-12">
             <div className="lg:col-span-4 lg:sticky lg:top-28">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-primary/70">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-primary/70">
                 Strategy intake
               </p>
               <h2
@@ -353,7 +353,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         <div className="container-page">
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
             <div className="lg:col-span-4">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
                 After you submit
               </p>
               <h2
@@ -404,7 +404,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
       >
         <div className="container-page">
           <div className="max-w-xl">
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               FAQ
             </p>
             <h2

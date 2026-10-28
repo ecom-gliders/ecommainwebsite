@@ -63,7 +63,7 @@ export function LstProof({ service }: LstProofProps) {
                     ))}
                   </div>
                 </div>
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary sm:text-right">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary sm:text-right">
                   Case study
                 </span>
               </Link>

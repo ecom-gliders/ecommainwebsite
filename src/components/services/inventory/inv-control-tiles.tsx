@@ -25,7 +25,7 @@ export function InvControlTiles({ service }: InvControlTilesProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Control rack
             </p>
             <h2
@@ -35,7 +35,7 @@ export function InvControlTiles({ service }: InvControlTilesProps) {
               {deliverables.heading}
             </h2>
           </div>
-          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+          <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
             {items.length} active controls
           </p>
         </div>
@@ -49,7 +49,7 @@ export function InvControlTiles({ service }: InvControlTilesProps) {
                 className="flex flex-col border-2 border-primary bg-background shadow-[3px_3px_0_0_#131311]"
               >
                 <div className="flex items-center justify-between gap-2 border-b-2 border-primary bg-primary px-3 py-2.5">
-                  <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                  <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                     Ctrl {String(index + 1).padStart(2, "0")}
                   </span>
                   <span
@@ -69,7 +69,7 @@ export function InvControlTiles({ service }: InvControlTilesProps) {
                       />
                     </div>
                     <div className="min-w-0 flex-1">
-                      <p className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-secondary">
+                      <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-secondary">
                         Cover signal
                       </p>
                       <p className="mt-0.5 font-mono text-lg font-black tabular-nums text-primary">

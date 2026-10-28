@@ -44,7 +44,7 @@ export function CpyModules({ service }: CpyModulesProps) {
             >
               <div className="flex items-start justify-between gap-3">
                 <div className="min-w-0">
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                     Sheet {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-base font-black text-primary">
@@ -55,7 +55,7 @@ export function CpyModules({ service }: CpyModulesProps) {
                   </p>
                 </div>
                 <span
-                  className="shrink-0 border-2 border-primary bg-accent px-2 py-1 font-mono text-[10px] font-black text-primary"
+                  className="shrink-0 border-2 border-primary bg-accent px-2 py-1 font-mono text-xs font-black text-primary"
                   aria-hidden="true"
                 >
                   Copy

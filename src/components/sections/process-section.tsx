@@ -65,7 +65,7 @@ export function ProcessSection({ id, data }: ProcessSectionProps) {
     >
       <div className="relative mx-auto max-w-2xl text-center">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             {eyebrow}
           </p>
         ) : null}
@@ -120,7 +120,7 @@ export function ProcessSection({ id, data }: ProcessSectionProps) {
                 )}
               >
                 <p
-                  className="border-b border-primary/15 px-3 py-3 text-center text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary"
+                  className="border-b border-primary/15 px-3 py-3 text-center text-xs font-bold uppercase tracking-[0.12em] text-text-secondary"
                   aria-hidden="true"
                 >
                   {label}
@@ -176,7 +176,7 @@ function ProcessCard({
   return (
     <article className="relative flex w-full flex-col rounded-[10px] border-2 border-primary bg-accent p-5 text-primary shadow-[4px_4px_0_0_#131311] sm:p-5">
       <span
-        className="absolute right-3 top-3 inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-text-on-dark"
+        className="absolute right-3 top-3 inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-xs font-bold text-text-on-dark"
         aria-hidden="true"
       >
         {displayNumber}

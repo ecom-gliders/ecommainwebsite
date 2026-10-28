@@ -15,7 +15,7 @@ export function BlogProsCons({ data }: BlogProsConsProps) {
   return (
     <div className="my-8 grid gap-3 md:grid-cols-2">
       <div className="border-2 border-primary bg-accent/25 p-5 shadow-[3px_3px_0_0_#131311]">
-        <p className="mb-3 flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
+        <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-primary">
           <Check className="h-4 w-4" aria-hidden="true" />
           {data.prosTitle}
         </p>
@@ -28,7 +28,7 @@ export function BlogProsCons({ data }: BlogProsConsProps) {
         </ul>
       </div>
       <div className="border-2 border-primary bg-surface p-5 shadow-[3px_3px_0_0_#131311]">
-        <p className="mb-3 flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           <X className="h-4 w-4" aria-hidden="true" />
           {data.consTitle}
         </p>

@@ -16,6 +16,8 @@ import { extractKeyTakeaways } from "@/lib/blog/extract-key-takeaways";
 import { extractTableOfContents } from "@/lib/blog/extract-table-of-contents";
 import { splitBlogContent } from "@/lib/blog/extract-faq-items";
 import { getBlogAuthor } from "@/lib/blog/get-blog-author";
+import { normalizeHeadingLevels } from "@/lib/blog/normalize-heading-levels";
+import { normalizeMarkdownNewlines } from "@/lib/blog/normalize-markdown-newlines";
 
 function formatPostDate(isoDate: string): string {
   return new Intl.DateTimeFormat("en-US", {
@@ -45,7 +47,12 @@ export function BlogPostArticle({
   relatedPosts,
   site,
 }: BlogPostArticleProps) {
-  const { mainContent, faqItems } = splitBlogContent(post.content);
+  // Normalize once so TOC, takeaways, FAQ, and body headings share the same
+  // line endings + heading depth (CRLF otherwise breaks `$` heading regexes).
+  const normalizedBody = normalizeHeadingLevels(
+    normalizeMarkdownNewlines(post.content),
+  );
+  const { mainContent, faqItems } = splitBlogContent(normalizedBody);
   const tocItems = extractTableOfContents(mainContent);
   const takeaways = extractKeyTakeaways(mainContent);
   const author = getBlogAuthor(post.author);
@@ -65,10 +72,10 @@ export function BlogPostArticle({
         <header className="border-b-2 border-primary bg-[linear-gradient(180deg,#FAFAFA_0%,#F3F3F0_100%)]">
           <div className="container-page pb-0 pt-8 md:pt-12">
             <div className="mx-auto max-w-6xl">
-              <p className="mb-4 inline-flex items-center border-2 border-primary bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-primary shadow-[2px_2px_0_0_#131311]">
+              <p className="mb-4 inline-flex items-center border-2 border-primary bg-accent px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-primary shadow-[2px_2px_0_0_#131311]">
                 {category}
               </p>
-              <h1 className="text-h1 mb-5 max-w-5xl text-balance tracking-tight md:mb-6 md:text-[2.75rem] md:leading-[1.1] lg:text-[3.25rem]">
+              <h1 className="text-h1 mb-5 max-w-5xl scroll-mt-28 text-balance tracking-tight md:mb-6 md:text-[2.75rem] md:leading-[1.1] lg:text-[3.25rem]">
                 {post.title}
               </h1>
               {post.excerpt ? (
@@ -140,14 +147,21 @@ export function BlogPostArticle({
               </div>
             ) : null}
 
-            <div className="xl:grid xl:grid-cols-[200px_minmax(0,1fr)_200px] xl:gap-8">
-              <BlogTableOfContents
-                items={tocItems}
-                showRailCta
-                ctaHref={site.preFooter?.cta?.href ?? "/free-audit/"}
-              />
+            <div className="xl:grid xl:grid-cols-[200px_minmax(0,1fr)_220px] xl:items-start xl:gap-8">
+              {/*
+                Explicit column placement: when TOC is empty (returns null),
+                content must stay in the middle track — otherwise Share steals 1fr
+                and squeezes the article into the 200px rail (broken desktop layout).
+              */}
+              <div className="min-w-0 xl:col-start-1 xl:row-start-1">
+                <BlogTableOfContents
+                  items={tocItems}
+                  showRailCta
+                  ctaHref={site.preFooter?.cta?.href ?? "/free-audit/"}
+                />
+              </div>
 
-              <div className="min-w-0 xl:max-w-[46rem]">
+              <div className="min-w-0 xl:col-start-2 xl:row-start-1 xl:max-w-[46rem]">
                 <BlogMarkdown content={mainContent} />
                 <BlogPostFaq items={faqItems} />
                 <BlogAuthorBox author={author} />
@@ -155,7 +169,7 @@ export function BlogPostArticle({
               </div>
 
               <aside
-                className="hidden xl:block"
+                className="hidden xl:col-start-3 xl:row-start-1 xl:block"
                 aria-label="Share, ask AI, and key takeaways"
               >
                 <div className="sticky top-28 space-y-5 pb-4">

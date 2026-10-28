@@ -58,7 +58,7 @@ export function CpyFaq({ service }: CpyFaqProps) {
                   "border-t-2 border-primary sm:border-t-0 sm:border-l-2",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 {item.label}
               </p>
               <p className="mt-2 text-sm font-black text-primary">{item.sample}</p>

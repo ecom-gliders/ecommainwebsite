@@ -46,7 +46,7 @@ export function LstKeywordMiss({ service }: LstKeywordMissProps) {
             <ul className="mt-6 space-y-3">
               {problem.points.map((point, index) => (
                 <li key={point.title} className="border-l-2 border-accent pl-3">
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-0.5 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -62,10 +62,10 @@ export function LstKeywordMiss({ service }: LstKeywordMissProps) {
             aria-label="Keyword index status"
           >
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-accent/30 pb-3">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                 Index heatmap
               </p>
-              <div className="flex flex-wrap items-center gap-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em]">
+              <div className="flex flex-wrap items-center gap-3 font-mono text-xs font-bold uppercase tracking-[0.08em]">
                 <span className="flex items-center gap-1.5 text-accent">
                   <span className="h-2.5 w-2.5 bg-accent" /> Indexed
                 </span>

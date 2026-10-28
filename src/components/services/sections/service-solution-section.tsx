@@ -59,7 +59,7 @@ export function ServiceSolutionSection({
               {/* Number node */}
               <span
                 aria-hidden="true"
-                className="relative z-10 col-start-1 row-start-1 flex h-9 w-9 items-center justify-center rounded-full border-2 border-primary bg-accent text-[11px] font-bold text-primary shadow-[2px_2px_0_0_#131311] md:col-start-2 md:justify-self-center"
+                className="relative z-10 col-start-1 row-start-1 flex h-9 w-9 items-center justify-center rounded-full border-2 border-primary bg-accent text-xs font-bold text-primary shadow-[2px_2px_0_0_#131311] md:col-start-2 md:justify-self-center"
               >
                 {String(index + 1).padStart(2, "0")}
               </span>

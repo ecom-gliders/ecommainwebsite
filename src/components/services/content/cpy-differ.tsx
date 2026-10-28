@@ -37,7 +37,7 @@ export function CpyDiffer({ service }: CpyDifferProps) {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
           <ul className="space-y-2 border-2 border-primary/40 bg-background p-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
               Skip these
             </p>
             {SHORTCUTS.map((line) => (

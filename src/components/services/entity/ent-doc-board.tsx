@@ -24,7 +24,7 @@ export function EntDocBoard({ service }: EntDocBoardProps) {
       aria-labelledby={`${board.id}-heading`}
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Document readiness
         </p>
         <h2

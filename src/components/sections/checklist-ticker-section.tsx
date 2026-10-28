@@ -74,7 +74,7 @@ export function ChecklistTickerSection({
               className="inline-flex shrink-0 items-center gap-x-5 sm:gap-x-7"
               aria-hidden={index >= half ? true : undefined}
             >
-              <span className="whitespace-nowrap text-[11px] font-bold uppercase tracking-[0.14em] text-primary sm:text-xs">
+              <span className="whitespace-nowrap text-xs font-bold uppercase tracking-[0.14em] text-primary">
                 {label}
               </span>
               <span

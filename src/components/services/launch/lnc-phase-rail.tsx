@@ -60,10 +60,10 @@ export function LncPhaseRail({ service }: LncPhaseRailProps) {
               return (
                 <li key={step.title} className="relative flex flex-col">
                   <div className="mb-3 flex items-center gap-2">
-                    <span className="inline-flex min-w-[3.25rem] justify-center border-2 border-accent bg-[#141412] px-2 py-1 font-mono text-[10px] font-black tabular-nums text-accent">
+                    <span className="inline-flex min-w-[3.25rem] justify-center border-2 border-accent bg-[#141412] px-2 py-1 font-mono text-xs font-black tabular-nums text-accent">
                       {phase.mark}
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-text-on-dark/45">
+                    <span className="font-mono text-xs font-bold text-text-on-dark/45">
                       Phase {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>

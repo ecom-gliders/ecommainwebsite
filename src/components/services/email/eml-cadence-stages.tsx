@@ -47,7 +47,7 @@ export function EmlCadenceStages({ service }: EmlCadenceStagesProps) {
       aria-labelledby="service-solution-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Cadence stages
         </p>
         <h2
@@ -77,7 +77,7 @@ export function EmlCadenceStages({ service }: EmlCadenceStagesProps) {
                     : "bg-[#141412] text-text-on-dark hover:bg-[#1f1f1c]",
                 )}
               >
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] opacity-70">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] opacity-70">
                   Loop {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="mt-1 block text-sm font-black leading-tight">
@@ -102,7 +102,7 @@ export function EmlCadenceStages({ service }: EmlCadenceStagesProps) {
               />
             </div>
             <div className="p-5 sm:p-6">
-              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-xs font-black uppercase text-primary">
                 {stage.label}
               </span>
               <h3 className="mt-3 text-xl font-black tracking-tight text-text-on-dark sm:text-2xl">

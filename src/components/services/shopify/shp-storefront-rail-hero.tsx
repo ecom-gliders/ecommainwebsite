@@ -68,7 +68,7 @@ function SectionPreview({ section }: { section: ShopSection }) {
             <div className="h-5 w-3/4 max-w-xs bg-text-on-dark" aria-hidden="true" />
             <div className="h-1.5 w-1/2 max-w-[12rem] bg-text-on-dark/35" aria-hidden="true" />
             <span
-              className="mt-1 inline-flex h-8 items-center border-2 border-accent bg-accent px-3 font-mono text-[9px] font-black uppercase text-primary"
+              className="mt-1 inline-flex h-8 items-center border-2 border-accent bg-accent px-3 font-mono text-xs font-black uppercase text-primary"
               aria-hidden="true"
             >
               Shop now
@@ -200,13 +200,13 @@ function SectionPreview({ section }: { section: ShopSection }) {
         </div>
       ))}
       <div className="mt-auto flex items-center justify-between border-t border-accent/30 pt-2">
-        <span className="font-mono text-[9px] font-bold uppercase text-text-on-dark/45">
+        <span className="font-mono text-xs font-bold uppercase text-text-on-dark/45">
           Subtotal
         </span>
         <span className="h-2.5 w-14 bg-accent" aria-hidden="true" />
       </div>
       <span
-        className="flex h-9 w-full items-center justify-center border-2 border-accent bg-accent font-mono text-[9px] font-black uppercase text-primary"
+        className="flex h-9 w-full items-center justify-center border-2 border-accent bg-accent font-mono text-xs font-black uppercase text-primary"
         aria-hidden="true"
       >
         Checkout
@@ -249,7 +249,7 @@ export function ShpStorefrontRailHero({
         />
 
         <div className="mt-3">
-          <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
             DTC storefront rail
           </p>
           <h1
@@ -275,7 +275,7 @@ export function ShpStorefrontRailHero({
                 <span className="h-2.5 w-2.5 rounded-full border border-text-on-dark/30 bg-[#98C698]" />
               </span>
               <span
-                className="flex h-7 min-w-0 flex-1 items-center truncate border border-accent/25 bg-[#0c0c0b] px-2 font-mono text-[10px] text-text-on-dark/55 sm:text-[11px]"
+                className="flex h-7 min-w-0 flex-1 items-center truncate border border-accent/25 bg-[#0c0c0b] px-2 font-mono text-xs text-text-on-dark/55 sm:text-xs"
                 aria-hidden="true"
               >
                 yourbrand.com / {activeTab.id}
@@ -295,7 +295,7 @@ export function ShpStorefrontRailHero({
                   aria-selected={active === tab.id}
                   onClick={() => setActive(tab.id)}
                   className={cn(
-                    "min-w-0 flex-1 border-r border-primary/30 px-2 py-2 font-mono text-[9px] font-bold uppercase tracking-[0.08em] transition-colors last:border-r-0 sm:text-[10px]",
+                    "min-w-0 flex-1 border-r border-primary/30 px-2 py-2 font-mono text-xs font-bold uppercase tracking-[0.08em] transition-colors last:border-r-0 sm:text-xs",
                     active === tab.id
                       ? "bg-accent text-primary"
                       : "bg-primary text-text-on-dark/85 hover:bg-[#1a1a18]",
@@ -318,7 +318,7 @@ export function ShpStorefrontRailHero({
 
             <div className="shrink-0 border-t border-accent/30 bg-[#1a1a17] px-3 py-1.5">
               <div className="flex items-center justify-between gap-2">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   {activeTab.caption}
                 </p>
                 <ul className="flex w-24 gap-1" aria-hidden="true">

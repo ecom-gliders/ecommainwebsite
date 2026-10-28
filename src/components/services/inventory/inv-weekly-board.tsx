@@ -35,7 +35,7 @@ export function InvWeeklyBoard({ service }: InvWeeklyBoardProps) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-4">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                 Inbound stage
               </p>
               <p className="mt-1 text-sm font-bold text-text-on-dark">
@@ -47,7 +47,7 @@ export function InvWeeklyBoard({ service }: InvWeeklyBoardProps) {
           <div className="min-w-0">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div>
-                <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                   Operating terminal
                 </p>
                 <h2
@@ -63,7 +63,7 @@ export function InvWeeklyBoard({ service }: InvWeeklyBoardProps) {
                 ) : null}
               </div>
               {board.boardLabel ? (
-                <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+                <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
                   {board.boardLabel}
                 </p>
               ) : null}
@@ -76,7 +76,7 @@ export function InvWeeklyBoard({ service }: InvWeeklyBoardProps) {
                     {board.columns.map((col) => (
                       <th
                         key={col}
-                        className="px-3 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] sm:px-4"
+                        className="px-3 py-3 font-mono text-xs font-bold uppercase tracking-[0.1em] sm:px-4"
                       >
                         {col}
                       </th>

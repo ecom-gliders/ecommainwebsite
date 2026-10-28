@@ -1,0 +1,868 @@
+{
+  "generatedAt": "2026-10-28T12:54:14.829Z",
+  "scanned": 328,
+  "ultimate": 7,
+  "cssJunk": 0,
+  "excerptJunk": 12,
+  "titleDupH2": 103,
+  "thinBody": 0,
+  "issuePosts": 116,
+  "sample": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "flags": [
+        "dup-title-h2"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-partial-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-with-ppc-listing-brand-protection",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-inventory-forecasting",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-listing-errors-fix-guide",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-wasting-money-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance",
+      "flags": [
+        "ultimate-guide"
+      ]
+    },
+    {
+      "slug": "amazon-sales-down-since-boycott",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-seller-central-management-services-explained",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-store-management-services-drive-sales",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "amazon-store-optimization-guide",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "architecting-amazon-success-2026-strategy-first-tools",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "architecting-seo-success-2026-strategy-before-execution",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "are-amazon-sales-growing",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "are-amazon-sales-increasing",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "audience-targeting-intent-amazon-ppc-2026",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "avoid-saturated-niche-price-wars-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "benefits-of-amazon-full-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "beyond-optimization-systematic-amazon-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "business-of-seo-2026-predictable-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "choose-winning-products-without-guesswork",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "decision-driven-seo-winning-search-visibility",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "designing-growth-on-amazon-strategy-before-scale",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "do-i-have-to-pay-40-dollars-to-sell-on-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-canopy-amazon-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-sophie-society-amazon-ppc-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-velocity-sellers-amazon-store-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "end-to-end-amazon-seller-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockouts",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "fba-inventory-management-stockouts-to-stability",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "from-features-to-frameworks-amazon-tools-architecture-2026",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "from-traffic-to-trust-seo-blueprint-for-authority-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "full-service-amazon-seller-account-handling",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "grow-faster-with-amazon-full-account-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "hidden-signal-amazon-product-success",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "high-demand-low-competition-products-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "how-amazon-account-manager-improves-buy-box-wins",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "how-amazon-account-managers-improve-buy-box-wins",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "how-to-find-profitable-products-on-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "is-amazon-prime-losing-customers",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "long-term-amazon-account-growth-plan",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "manage-multiple-amazon-seller-accounts-without-risk",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "managed-amazon-seller-services-long-term-success",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "never-run-out-of-stock-amazon-fba-inventory-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "outsourced-amazon-account-management-worth-it-2",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "professional-amazon-account-managers-handle-policy-violations",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "scalable-amazon-business-systems",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "scale-your-brand-with-export-amazon-full-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "scaling-seo-like-a-business-2026-framework",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "seo-in-the-age-of-ai-search-2026",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "smart-way-to-research-demand-and-competition-on-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "step-by-step-method-to-validate-products-on-amazon",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "strategy-layer-amazon-success-high-growth-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "top-amazon-sellers-niche-research-guide",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+      "flags": [
+        "ultimate-guide",
+        "excerpt-junk"
+      ]
+    },
+    {
+      "slug": "what-sets-ecom-gliders-apart-amazon-account-management",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "why-amazon-sellers-fail-product-research",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "why-amazon-sellers-plateau-system-led-brands",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "why-everyone-is-boycotting-amazon-prime",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through",
+      "flags": [
+        "dup-title-h2"
+      ]
+    },
+    {
+      "slug": "why-your-amazon-ppc-is-wasting-money-in-2026",
+      "flags": [
+        "excerpt-junk"
+      ]
+    }
+  ]
+}

@@ -45,7 +45,7 @@ export function AosHandoffRail({ service }: AosHandoffRailProps) {
               )}
             >
               <div className="border-b-2 border-primary bg-primary p-4 lg:border-b-0 lg:border-r-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Rail {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-1 text-base font-black text-text-on-dark">
@@ -53,7 +53,7 @@ export function AosHandoffRail({ service }: AosHandoffRailProps) {
                 </h3>
               </div>
               <div className="border-b-2 border-primary/20 p-4 lg:border-b-0 lg:border-r-2 lg:border-primary/20">
-                <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                   Issue
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-primary">
@@ -61,7 +61,7 @@ export function AosHandoffRail({ service }: AosHandoffRailProps) {
                 </p>
               </div>
               <div className="border-b-2 border-primary/20 p-4 lg:border-b-0 lg:border-r-2 lg:border-primary/20">
-                <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                   Fix
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-primary">
@@ -69,7 +69,7 @@ export function AosHandoffRail({ service }: AosHandoffRailProps) {
                 </p>
               </div>
               <div className="p-4">
-                <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                   Verify
                 </p>
                 <p className="mt-1 text-sm font-medium leading-snug text-primary">

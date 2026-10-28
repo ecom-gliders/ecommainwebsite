@@ -47,7 +47,7 @@ export function RptMetricPacks({ service }: RptMetricPacksProps) {
                   />
                 ))}
               </div>
-              <p className="mt-3 font-mono text-[10px] font-bold text-text-secondary">
+              <p className="mt-3 font-mono text-xs font-bold text-text-secondary">
                 Pack {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-1 text-sm font-black text-primary sm:text-base">

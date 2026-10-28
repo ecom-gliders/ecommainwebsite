@@ -36,7 +36,7 @@ export function TtkFocusChart({ service }: TtkFocusChartProps) {
                 {chart.subheading}
               </p>
             ) : null}
-            <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               {chart.chartLabel} · not ROAS or GMV
             </p>
           </div>
@@ -50,7 +50,7 @@ export function TtkFocusChart({ service }: TtkFocusChartProps) {
                     <p className="text-sm font-bold text-text-on-dark sm:text-base">
                       {point.label}
                     </p>
-                    <span className="shrink-0 font-mono text-[11px] font-bold tabular-nums text-accent">
+                    <span className="shrink-0 font-mono text-xs font-bold tabular-nums text-accent">
                       {point.value}
                     </span>
                   </div>

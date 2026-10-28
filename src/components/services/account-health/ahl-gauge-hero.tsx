@@ -138,7 +138,7 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
           <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+            <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
               Compliance gauge panel
             </p>
             <h1
@@ -157,14 +157,14 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
             >
               <div className="flex shrink-0 flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-3 py-2 sm:px-4">
                 <div>
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                     Policy health gauges
                   </p>
-                  <p className="mt-0.5 text-[11px] font-medium text-text-on-dark/55">
+                  <p className="mt-0.5 text-xs font-medium text-text-on-dark/55">
                     Illustrative thresholds. Limits vary by marketplace.
                   </p>
                 </div>
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
                   Live band watch
                 </p>
               </div>
@@ -174,7 +174,7 @@ export function AhlGaugeHero({ service, site }: AhlGaugeHeroProps) {
                 ))}
               </ul>
               <div className="shrink-0 border-t border-accent/25 bg-[#0d0d0c] px-3 py-2 sm:px-4">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-on-dark/55">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/55">
                   Open notices: 2 · Cases awaiting docs: 1
                 </p>
               </div>

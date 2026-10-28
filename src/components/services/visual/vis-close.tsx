@@ -58,7 +58,7 @@ export function VisClose({ service }: VisCloseProps) {
                     className="h-14 w-12 border border-accent/40 bg-[#222220]"
                   />
                 ))}
-                <p className="self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="self-end font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Ready for upload
                 </p>
               </div>

@@ -54,7 +54,7 @@ export function LstScorecard({ service }: LstScorecardProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+            <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
               {board.boardLabel}
             </p>
           ) : null}

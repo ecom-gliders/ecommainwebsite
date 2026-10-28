@@ -24,7 +24,7 @@ export function ServiceBreadcrumb({
     >
       <ol
         className={cn(
-          "flex flex-wrap items-center justify-start gap-x-1.5 gap-y-1 text-[11px] font-medium",
+          "flex flex-wrap items-center justify-start gap-x-1.5 gap-y-1 text-xs font-medium",
           onDark ? "text-text-on-dark/70" : "text-text-secondary",
         )}
       >

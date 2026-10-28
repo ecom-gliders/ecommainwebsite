@@ -31,7 +31,7 @@ export function SrcRouteMap({ service }: SrcRouteMapProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Supply route map
             </p>
             <h2
@@ -41,7 +41,7 @@ export function SrcRouteMap({ service }: SrcRouteMapProps) {
               {solution.heading}
             </h2>
           </div>
-          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
             Four lanes · one merge
           </p>
         </div>
@@ -66,7 +66,7 @@ export function SrcRouteMap({ service }: SrcRouteMapProps) {
                     className="object-cover"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
-                  <span className="absolute left-3 top-3 border border-accent bg-[#101816]/90 px-1.5 py-0.5 font-mono text-[9px] font-black text-accent">
+                  <span className="absolute left-3 top-3 border border-accent bg-[#101816]/90 px-1.5 py-0.5 font-mono text-xs font-black text-accent">
                     Lane {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
@@ -91,7 +91,7 @@ export function SrcRouteMap({ service }: SrcRouteMapProps) {
             ))}
           </ol>
           <div className="border-t-2 border-accent bg-primary px-4 py-4 sm:px-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Merge point
             </p>
             <p className="mt-1.5 text-sm font-medium text-text-on-dark/90 sm:text-base">

@@ -36,7 +36,7 @@ export function ScTaskDeliverables({ service }: ScTaskDeliverablesProps) {
               )}
             >
               <span
-                className="flex h-6 w-6 shrink-0 items-center justify-center border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary"
+                className="flex h-6 w-6 shrink-0 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-black text-primary"
                 aria-hidden="true"
               >
                 {String(index + 1).padStart(2, "0")}

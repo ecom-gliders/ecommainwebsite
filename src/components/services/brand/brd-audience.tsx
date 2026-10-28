@@ -37,13 +37,13 @@ export function BrdAudience({ service }: BrdAudienceProps) {
               className="relative flex flex-col border-2 border-primary bg-[#FAF6EF] p-5 pt-8"
             >
               <span
-                className="absolute -top-3 left-4 flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-[10px] font-black leading-tight text-primary"
+                className="absolute -top-3 left-4 flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-xs font-black leading-tight text-primary"
                 aria-hidden="true"
               >
                 BR
                 <span className="sr-only">Passport stamp {index + 1}</span>
               </span>
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Holder {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-2 text-base font-black leading-snug text-primary">

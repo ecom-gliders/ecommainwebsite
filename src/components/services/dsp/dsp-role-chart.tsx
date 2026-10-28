@@ -36,7 +36,7 @@ export function DspRoleChart({ service }: DspRoleChartProps) {
         ) : null}
 
         <ul className="mt-8 space-y-4 border-2 border-primary bg-background p-5 sm:p-6">
-          <li className="mb-2 text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+          <li className="mb-2 text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
             {chart.chartLabel}
           </li>
           {chart.points.map((point) => {
@@ -45,7 +45,7 @@ export function DspRoleChart({ service }: DspRoleChartProps) {
               <li key={point.label}>
                 <div className="flex items-baseline justify-between gap-3">
                   <p className="text-sm font-bold text-primary">{point.label}</p>
-                  <span className="font-mono text-[10px] font-bold tabular-nums text-text-secondary">
+                  <span className="font-mono text-xs font-bold tabular-nums text-text-secondary">
                     {point.value}
                   </span>
                 </div>

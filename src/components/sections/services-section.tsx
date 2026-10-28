@@ -55,7 +55,7 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
     >
       <div className="max-w-2xl">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             {eyebrow}
           </p>
         ) : null}
@@ -189,7 +189,7 @@ export function ServicesSection({ id, data }: ServicesSectionProps) {
         <div className="mt-8">
           <Link
             href={viewAll.href}
-            className="inline-flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.04em] text-primary underline-offset-4 hover:underline"
+            className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.04em] text-primary underline-offset-4 hover:underline"
           >
             {viewAll.label}
             <ArrowUpRight className="h-3.5 w-3.5 stroke-[2.5]" aria-hidden="true" />

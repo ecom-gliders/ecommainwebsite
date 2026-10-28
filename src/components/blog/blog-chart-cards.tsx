@@ -42,11 +42,11 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
     return (
       <div className="my-8 border-2 border-primary bg-surface p-4 shadow-[3px_3px_0_0_#131311]">
         {title ? (
-          <p className="mb-1 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <p className="mb-1 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             {title}
           </p>
         ) : null}
-        <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="mb-4 text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           {h1}
         </p>
         <div className="flex h-52 items-end justify-around gap-3 border-b-2 border-primary px-1 pb-0 pt-2">
@@ -57,7 +57,7 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
                 key={row.title}
                 className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-2"
               >
-                <span className="px-1 text-center text-[11px] font-semibold leading-snug text-text-secondary">
+                <span className="px-1 text-center text-xs font-semibold leading-snug text-text-secondary">
                   {row.primary}
                 </span>
                 <div
@@ -73,7 +73,7 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
         <ul className="m-0 mt-4 grid list-none gap-3 p-0 sm:grid-cols-3">
           {withPct.map((row) => (
             <li key={`${row.title}-meta`} className="min-w-0 text-center sm:text-left">
-              <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                 {h0}
               </p>
               <p className="mt-0.5 text-small font-semibold text-text-primary">
@@ -81,10 +81,10 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
               </p>
               {row.secondary && h2 ? (
                 <>
-                  <p className="mt-2 text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  <p className="mt-2 text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                     {h2}
                   </p>
-                  <p className="mt-0.5 text-[12px] leading-snug text-text-secondary">
+                  <p className="mt-0.5 text-xs leading-snug text-text-secondary">
                     {row.secondary}
                   </p>
                 </>
@@ -103,14 +103,14 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
           key={row.title}
           className="flex flex-col border-2 border-primary bg-background p-4 shadow-[3px_3px_0_0_#131311]"
         >
-          <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
             {h0}
           </p>
           <p className="mt-1 text-body font-semibold text-text-primary">
             {row.title}
           </p>
           <div className="mt-4 border-t border-border pt-3">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               {h1}
             </p>
             <p className="mt-1 text-small font-semibold text-primary">
@@ -119,7 +119,7 @@ export function BlogChartCards({ rows, headers, title }: BlogChartCardsProps) {
           </div>
           {row.secondary ? (
             <div className="mt-3">
-              <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                 {h2 ?? "Notes"}
               </p>
               <p className="mt-1 text-small font-medium text-text-secondary">

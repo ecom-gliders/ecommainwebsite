@@ -44,7 +44,7 @@ export function AskAiSection({
     >
       <div className="mx-auto max-w-4xl text-center">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
             {eyebrow}
           </p>
         ) : null}

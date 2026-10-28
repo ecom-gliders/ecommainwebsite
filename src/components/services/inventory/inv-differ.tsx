@@ -23,7 +23,7 @@ export function InvDiffer({ service }: InvDifferProps) {
       aria-labelledby="service-differ-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Signal difference
         </p>
         <h2
@@ -57,7 +57,7 @@ export function InvDiffer({ service }: InvDifferProps) {
                 </p>
               </div>
               <div className="sm:text-right" aria-hidden="true">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-on-dark/40">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/40">
                   Cover weight
                 </p>
                 <p className="mt-1 font-mono text-2xl font-black tabular-nums text-accent">

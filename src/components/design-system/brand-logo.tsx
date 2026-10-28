@@ -11,14 +11,14 @@ interface BrandLogoProps {
   /** Kept for call-site compatibility. */
   priority?: boolean;
   /**
-   * `onDark` — eCom white, Glider lime (header / footer).
-   * `default` — eCom ink, Glider lime (light surfaces).
+   * `onDark` — eCom white, Gliders lime (header / footer).
+   * `default` — eCom ink, Gliders lime (light surfaces).
    */
   surface?: "default" | "onDark";
 }
 
 /**
- * Text wordmark — eCom Glider.
+ * Text wordmark — eCom Gliders.
  * Scales with type size (no padded raster box in the header pill).
  */
 export function BrandLogo({
@@ -39,7 +39,7 @@ export function BrandLogo({
       )}
     >
       <span className={ecomClass}>eCom</span>
-      <span className="text-accent">&nbsp;Glider</span>
+      <span className="text-accent">&nbsp;Gliders</span>
     </span>
   );
 }

@@ -104,13 +104,13 @@
       "display": { "size": "48px", "weight": 900, "lineHeight": 1.08 },
       "h1": { "size": "40px", "weight": 900, "lineHeight": 1.12 },
       "h2": { "size": "32px", "weight": 700, "lineHeight": 1.18 },
-      "h3": { "size": "24px", "weight": 700, "lineHeight": 1.22 },
-      "h4": { "size": "20px", "weight": 700, "lineHeight": 1.28 },
+      "h3": { "size": "26px", "weight": 700, "lineHeight": 1.22 },
+      "h4": { "size": "22px", "weight": 700, "lineHeight": 1.28 },
       "body": { "size": "18px", "weight": 500, "lineHeight": 1.65 },
       "small": { "size": "16px", "weight": 500, "lineHeight": 1.55 },
-      "stat": { "size": "40px", "weight": 900, "lineHeight": 1.05 }
+      "stat": { "size": "40px", "weight": 900, "lineHeight": 1.1 }
     },
-    "notes": "Global default tuned to AMZ Dudes-like density (heavier, larger body) on Satoshi. Weights use Fontshare-loaded faces only: 400/500/700/900 (no 800). Seller age 35–40 readability."
+    "notes": "Seller age 35–40 readability. Body 18 / small 16 align with Tailwind @theme remap (text-base/text-sm). text-xs remapped to 14px for labels/tags. Weights: Fontshare 400/500/700/900 only."
   },
   "spacing": {
     "xs": "4px",

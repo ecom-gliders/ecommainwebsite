@@ -48,7 +48,7 @@ export function BrandValuesSection({ id, data }: BrandValuesSectionProps) {
       <div className="grid items-start gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.15fr)] lg:gap-12 xl:gap-16">
         <div className="max-w-xl lg:sticky lg:top-28 lg:self-start">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-primary sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-primary">
               {eyebrow}
             </p>
           ) : null}

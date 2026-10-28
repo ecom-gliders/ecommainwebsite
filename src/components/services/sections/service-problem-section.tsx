@@ -29,7 +29,7 @@ export function ServiceProblemSection({ problem }: ServiceProblemSectionProps) {
           >
             <span
               aria-hidden="true"
-              className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-[6px] border-2 border-accent bg-accent text-[11px] font-bold text-primary"
+              className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-[6px] border-2 border-accent bg-accent text-xs font-bold text-primary"
             >
               01
             </span>
@@ -54,7 +54,7 @@ export function ServiceProblemSection({ problem }: ServiceProblemSectionProps) {
                 >
                   <span
                     aria-hidden="true"
-                    className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-[6px] border-2 border-primary bg-primary text-[10px] font-bold text-text-on-dark"
+                    className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-[6px] border-2 border-primary bg-primary text-xs font-bold text-text-on-dark"
                   >
                     {String(index + 2).padStart(2, "0")}
                   </span>

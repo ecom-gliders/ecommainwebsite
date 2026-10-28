@@ -87,10 +87,10 @@ export function CpyDeskHero({ service, site }: CpyDeskHeroProps) {
               aria-label="Copy desk manuscript"
             >
               <div className="flex shrink-0 items-center justify-between gap-3 border-b-2 border-primary bg-primary px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Manuscript · draft desk
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/70">
+                <p className="font-mono text-xs font-bold text-text-on-dark/70">
                   Strike → rewrite
                 </p>
               </div>
@@ -104,7 +104,7 @@ export function CpyDeskHero({ service, site }: CpyDeskHeroProps) {
                       index > 0 && "border-t",
                     )}
                   >
-                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {line.label}
                     </p>
                     <p className="mt-1 text-xs font-medium leading-snug text-text-secondary line-through decoration-primary/50 sm:text-[13px]">
@@ -112,11 +112,11 @@ export function CpyDeskHero({ service, site }: CpyDeskHeroProps) {
                     </p>
                     <p
                       className={cn(
-                        "mt-1.5 text-sm font-bold leading-snug text-primary sm:text-[15px]",
+                        "mt-1.5 text-sm font-bold leading-snug text-primary sm:text-sm",
                         line.kind === "title" && "font-black",
                       )}
                     >
-                      <span className="mr-1.5 inline-block border border-primary bg-accent px-1 py-px font-mono text-[9px] font-black uppercase">
+                      <span className="mr-1.5 inline-block border border-primary bg-accent px-1 py-px font-mono text-xs font-black uppercase">
                         New
                       </span>
                       {line.strong}

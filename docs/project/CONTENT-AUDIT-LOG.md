@@ -15,6 +15,16 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-28 — Company wordmark plural
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| `BrandLogo` header/footer/mobile | eCom Glider | eCom Gliders | Official company name is plural | yes |
+
+Site config, SEO titles, and page copy already used “eCom Gliders”; the visible text wordmark was the remaining singular.
+
+---
+
 ## 2026-09-03 — Wave F a11y polish
 
 | Location | Original | Replacement | Reason | Approved |

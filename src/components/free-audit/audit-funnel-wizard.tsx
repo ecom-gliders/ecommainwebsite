@@ -10,6 +10,7 @@ import {
 import Link from "next/link";
 import type { FreeAuditPageConfig } from "@/domain/content/schemas";
 import { FormOptionChips } from "@/components/forms/form-option-chips";
+import { FormMultiSelect } from "@/components/forms/form-multi-select";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { PrimaryButton } from "@/components/ui/primary-button";
@@ -27,8 +28,8 @@ const inputClass =
   "mt-2.5 h-12 border-2 border-primary bg-background text-base font-medium text-text-primary placeholder:text-text-secondary/80";
 
 interface AuditFunnelWizardProps {
-  form: FreeAuditPageConfig["form"];
-  funnel: FreeAuditPageConfig["funnel"];
+  form: NonNullable<FreeAuditPageConfig["form"]>;
+  funnel: NonNullable<FreeAuditPageConfig["funnel"]>;
 }
 
 interface FunnelValues {
@@ -167,18 +168,21 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
   const percent = progressPercent(step);
 
   return (
-    <div className="border-2 border-primary bg-background">
-      <div className="border-b-2 border-primary bg-surface-muted px-5 py-4 sm:px-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
+    <div className="flex h-full min-h-0 flex-col border-2 border-primary bg-background">
+      <div className="shrink-0 border-b-2 border-primary bg-surface-muted px-4 py-2.5 sm:px-5">
+        <div className="flex items-center justify-between gap-2">
+          <p className="font-mono text-[0.65rem] font-bold uppercase tracking-[0.08em] text-text-secondary">
             Step {String(step).padStart(2, "0")} of{" "}
             {String(TOTAL_STEPS).padStart(2, "0")}
           </p>
-          <p className="text-xs font-bold text-text-secondary" aria-hidden="true">
+          <p
+            className="text-[0.65rem] font-bold text-text-secondary"
+            aria-hidden="true"
+          >
             {percent}%
           </p>
         </div>
-        <ol className="mt-4 flex gap-1.5 sm:gap-2" aria-hidden="true">
+        <ol className="mt-2 flex gap-1" aria-hidden="true">
           {STEP_TITLES.map((label, index) => {
             const n = index + 1;
             const done = n < step;
@@ -187,13 +191,13 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
               <li key={label} className="min-w-0 flex-1">
                 <div
                   className={cn(
-                    "h-2 w-full border border-primary/20",
+                    "h-1.5 w-full border border-primary/20",
                     done || active ? "bg-accent" : "bg-background",
                   )}
                 />
                 <p
                   className={cn(
-                    "mt-2 truncate text-[10px] font-bold uppercase tracking-[0.06em]",
+                    "mt-1 truncate text-[0.6rem] font-bold uppercase tracking-[0.04em]",
                     active ? "text-primary" : "text-text-secondary",
                   )}
                 >
@@ -213,7 +217,7 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
         id={`${formId}-audit-funnel`}
         action={formAction}
         noValidate
-        className="px-5 py-6 sm:px-6 sm:py-8"
+        className="flex min-h-0 flex-1 flex-col"
         aria-describedby={`${formId}-status`}
         onSubmit={(event) => {
           // Intermediate steps never submit; Enter advances via goNext.
@@ -257,7 +261,7 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
           <input type="hidden" name="consent" value="true" />
         ) : null}
 
-        <div className="min-h-[16rem]">
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-5 sm:px-6 sm:py-6 [scrollbar-color:#131311_#C6FD50] [scrollbar-width:thin]">
           {step === 1 ? (
             <fieldset className="space-y-5">
               <legend>
@@ -315,7 +319,7 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
                   Select all that apply.
                 </p>
               </legend>
-              <div className="mt-5 max-h-[22rem] overflow-y-auto pr-1">
+              <div className="mt-5">
                 <FormOptionChips
                   name={`${formId}-services-ui`}
                   options={funnel.services}
@@ -378,24 +382,23 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
                 />
               </div>
               <div>
-                <p className={labelClass}>Marketplaces</p>
+                <Label htmlFor={`${formId}-markets`} className={labelClass}>
+                  Marketplaces
+                </Label>
                 <p className="mt-1 text-sm font-medium text-text-secondary">
                   Select every marketplace that applies.
                 </p>
-                <div className="mt-3 max-h-[16rem] overflow-y-auto pr-1">
-                  <FormOptionChips
-                    name={`${formId}-markets-ui`}
-                    options={funnel.marketplaces}
-                    selected={values.marketplaces}
-                    onToggle={(value) =>
-                      setValues((prev) => ({
-                        ...prev,
-                        marketplaces: toggleInList(prev.marketplaces, value),
-                      }))
-                    }
-                    columns="3"
-                  />
-                </div>
+                <FormMultiSelect
+                  id={`${formId}-markets`}
+                  label="Marketplaces"
+                  className="mt-3"
+                  options={funnel.marketplaces}
+                  selected={values.marketplaces}
+                  placeholder="Select marketplaces"
+                  onChange={(marketplaces) =>
+                    setValues((prev) => ({ ...prev, marketplaces }))
+                  }
+                />
               </div>
             </fieldset>
           ) : null}
@@ -515,38 +518,38 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
               </label>
             </fieldset>
           ) : null}
-        </div>
 
-        {stepError ? (
-          <p
-            className="mt-5 border-2 border-primary bg-accent px-4 py-3 text-sm font-bold text-primary"
-            role="alert"
-          >
-            {stepError}
-          </p>
-        ) : null}
-
-        <div
-          id={`${formId}-status`}
-          className="mt-4 text-sm font-medium"
-          role="status"
-          aria-live="polite"
-        >
-          {state.message ? (
+          {stepError ? (
             <p
-              className={cn(
-                "border-2 px-4 py-3 font-bold",
-                state.success
-                  ? "border-primary bg-accent text-primary"
-                  : "border-primary bg-background text-text-primary",
-              )}
+              className="mt-5 border-2 border-primary bg-accent px-4 py-3 text-sm font-bold text-primary"
+              role="alert"
             >
-              {state.message}
+              {stepError}
             </p>
           ) : null}
+
+          <div
+            id={`${formId}-status`}
+            className="mt-4 text-sm font-medium"
+            role="status"
+            aria-live="polite"
+          >
+            {state.message ? (
+              <p
+                className={cn(
+                  "border-2 px-4 py-3 font-bold",
+                  state.success
+                    ? "border-primary bg-accent text-primary"
+                    : "border-primary bg-background text-text-primary",
+                )}
+              >
+                {state.message}
+              </p>
+            ) : null}
+          </div>
         </div>
 
-        <div className="mt-8 flex flex-wrap items-center gap-3">
+        <div className="flex shrink-0 items-center justify-between gap-3 border-t-2 border-primary bg-background px-5 py-3 sm:px-6">
           {step > 1 ? (
             <button
               type="button"
@@ -555,7 +558,9 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
             >
               Back
             </button>
-          ) : null}
+          ) : (
+            <span aria-hidden="true" />
+          )}
           <PrimaryButton
             type="button"
             variant="accent"

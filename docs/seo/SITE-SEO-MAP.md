@@ -573,6 +573,50 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Careers
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/careers/ |
+| Purpose | Recruit for open in-house roles; filter agencies and brand service requests to other URLs |
+| Audience | Candidates for Brand Manager and Junior PPC Specialist |
+| Search intent | Navigational / recruitment |
+| Primary keyword | eCom Gliders careers |
+| Secondary keywords | Amazon agency jobs, Brand Manager Amazon, Junior PPC Specialist |
+| Title | Careers \| Brand Manager and Junior PPC Specialist \| eCom Gliders |
+| Meta description | Join eCom Gliders in-house Amazon team. Open roles: Brand Manager and Junior PPC Specialist. Remote with US business-hours collaboration. Apply on this page. |
+| H1 | Two seats on an in-house Amazon bench |
+| Canonical | https://ecomgliders.com/careers/ |
+| Indexability | Index, follow |
+| Schema | WebPage, BreadcrumbList, FAQPage, JobPosting x2 |
+| Sections | Hero For/Not for, how the bench works, open role cards, role craft JDs, hiring process, fit filter, FAQ, application, close |
+| Internal links | Agency Partnership, Free Audit, Contact, Privacy |
+| Audit status | Implemented (2026-10-28) |
+
+---
+
+### Agency Partnership
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/agency-partnership/ |
+| Purpose | Invite complementary agencies into white-label, referral, or co-managed Amazon collaboration; filter sellers and unrelated vendor pitches |
+| Audience | Digital, creative, web, PR, 3PL, finance, and similar agencies with Amazon demand they do not staff |
+| Search intent | Navigational / B2B partnership |
+| Primary keyword | Amazon agency partnership |
+| Secondary keywords | white-label Amazon agency, Amazon referral partner, co-manage Amazon agency |
+| Title | Agency Partnership \| Amazon Collaboration for Agencies \| eCom Gliders |
+| Meta description | Apply to partner with eCom Gliders. White-label, referral, and co-managed Amazon delivery for complementary agencies—not an open vendor pitch inbox. |
+| H1 | Amazon delivery capacity for agencies that already own the relationship |
+| Canonical | https://ecomgliders.com/agency-partnership/ |
+| Indexability | Index, follow |
+| Schema | WebPage, BreadcrumbList, FAQPage |
+| Sections | Hero For/Not for, demand signal, three lanes, complement map, client protection, operating cadence, fit criteria, partner FAQ, application, close |
+| Internal links | Free Audit (seller redirect), linked Amazon service pages, Privacy, Contact |
+| Audit status | Implemented (2026-10-28) |
+
+---
+
 ### Contact
 
 | Field | Value |

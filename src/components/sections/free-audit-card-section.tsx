@@ -56,7 +56,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
     >
       <div className="mx-auto max-w-2xl text-center">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             {eyebrow}
           </p>
         ) : null}
@@ -76,11 +76,11 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
       <div className="mx-auto mt-10 grid max-w-5xl items-stretch gap-5 sm:mt-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:gap-6">
         <article className="h-full overflow-hidden rounded-[16px] border-2 border-primary bg-background p-6 text-left text-primary shadow-[4px_4px_0_0_#131311] sm:p-8">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex rounded-full bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-[0.12em] text-primary">
+            <span className="inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-[0.12em] text-primary">
               Free audit
             </span>
             {badge ? (
-              <span className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+              <span className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                 {badge}
               </span>
             ) : null}
@@ -119,7 +119,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
 
           {inclusions.length > 0 ? (
             <div className="mt-8 border-t-2 border-primary/10 pt-6">
-              <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
                 {inclusionsHeading}
               </p>
               <ul className="mt-4 w-full space-y-3 text-left">
@@ -146,7 +146,7 @@ export function FreeAuditCardSection({ id, data }: FreeAuditCardSectionProps) {
 
         <div className="flex h-full flex-col gap-5">
           <article className="shrink-0 rounded-[16px] border-2 border-primary bg-accent p-6 text-primary shadow-[4px_4px_0_0_#131311] sm:p-7">
-            <p className="inline-flex rounded-[6px] bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.12em] text-text-on-dark">
+            <p className="inline-flex rounded-[6px] bg-primary px-2.5 py-1 text-xs font-bold uppercase tracking-[0.12em] text-text-on-dark">
               {sideEyebrow}
             </p>
             <h3 className="mt-4 text-xl font-black tracking-[-0.02em] sm:text-2xl">

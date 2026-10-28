@@ -23,7 +23,7 @@ export function ShpScopeSlots({ service }: ShpScopeSlotsProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Scope sheet
             </p>
             <h2
@@ -39,7 +39,7 @@ export function ShpScopeSlots({ service }: ShpScopeSlotsProps) {
             ) : null}
           </div>
           {module.sheetLabel ? (
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
               {module.sheetLabel}
             </p>
           ) : null}
@@ -57,12 +57,12 @@ export function ShpScopeSlots({ service }: ShpScopeSlotsProps) {
               )}
             >
               <div className="flex items-center justify-between gap-2">
-                <span className="font-mono text-[10px] font-bold text-text-secondary">
+                <span className="font-mono text-xs font-bold text-text-secondary">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span
                   className={cn(
-                    "border-2 border-primary px-2 py-0.5 font-mono text-[9px] font-bold uppercase",
+                    "border-2 border-primary px-2 py-0.5 font-mono text-xs font-bold uppercase",
                     item.unlocked
                       ? "bg-accent text-primary"
                       : "border-dashed bg-background text-text-secondary",

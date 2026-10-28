@@ -1,38 +1,67 @@
 /**
  * Extract key takeaways from existing article wording only (no invented claims).
- * Prefers Impact-on-Sellers lines (plain or tip fences), then strategy headings.
+ * Prefers Impact-on-Sellers lines (plain or tip fences), then numbered strategy
+ * headings, then main section titles.
  * Kept short for the sticky rail (share stays reachable).
  */
 
-const IMPACT_BOLD =
-  /\*\*Impact on Sellers\*\*\s*:?\s*([^\n]+)/gi;
+import { normalizeMarkdownNewlines } from "@/lib/blog/normalize-markdown-newlines";
+import { normalizeHeadingLevels } from "@/lib/blog/normalize-heading-levels";
+import { stripLeadingOutlineNumber } from "@/lib/blog/extract-table-of-contents";
+
+const IMPACT_BOLD = /\*\*Impact on Sellers\*\*\s*:?\s*([^\n]+)/gi;
 
 const IMPACT_TIP_TITLE =
   /```tip\s*\nTITLE:\s*Impact on Sellers\s*\n([^\n`]+)/gi;
 
+const SKIP_SECTION =
+  /^recent posts$|^conclusion:?$|^introduction:?$|^final thoughts?:?$|^final perspective:?$|^how ecom gliders can help|^why choose|^next steps|^faq$|^for more insights\b|^related (articles|posts|resources)\b|helpful links$/i;
+
 const MAX = 3;
-const MIN_LEN = 36;
+const MIN_LEN = 18;
 const MAX_LEN = 120;
 
 export function extractKeyTakeaways(markdown: string): string[] {
+  const source = normalizeHeadingLevels(normalizeMarkdownNewlines(markdown));
   const items: string[] = [];
   const seen = new Set<string>();
 
-  collect(IMPACT_TIP_TITLE, markdown, items, seen);
-  collect(IMPACT_BOLD, markdown, items, seen);
+  collect(IMPACT_TIP_TITLE, source, items, seen);
+  collect(IMPACT_BOLD, source, items, seen);
 
   if (items.length >= 2) {
     return items.slice(0, MAX);
   }
 
-  for (const line of markdown.split("\n")) {
+  for (const line of source.split("\n")) {
     const h = line.match(/^#{3,4}\s+\d+[.)]\s+(.+)$/);
     if (!h) continue;
-    const title = clean(h[1].replace(/\\([.])/g, "$1"));
-    if (isValid(title) && !seen.has(title.toLowerCase())) {
+    const title = clean(stripLeadingOutlineNumber(h[1].replace(/\\([.])/g, "$1")));
+    if (isValid(title) && !SKIP_SECTION.test(title) && !seen.has(title.toLowerCase())) {
       seen.add(title.toLowerCase());
-      items.push(title);
+      items.push(shorten(title));
     }
+    if (items.length >= MAX) break;
+  }
+
+  if (items.length >= 2) {
+    return items.slice(0, MAX);
+  }
+
+  // Fallback: main H2 section titles already in the article.
+  for (const line of source.split("\n")) {
+    const h = line.match(/^##\s+(.+)$/);
+    if (!h) continue;
+    const title = clean(stripLeadingOutlineNumber(h[1]));
+    if (
+      !isValid(title) ||
+      SKIP_SECTION.test(title) ||
+      seen.has(title.toLowerCase())
+    ) {
+      continue;
+    }
+    seen.add(title.toLowerCase());
+    items.push(shorten(title));
     if (items.length >= MAX) break;
   }
 
@@ -68,6 +97,7 @@ function clean(value: string): string {
   return value
     .replace(/\*\*/g, "")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/:+\s*$/, "")
     .replace(/\s+/g, " ")
     .trim();
 }

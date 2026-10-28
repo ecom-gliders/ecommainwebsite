@@ -68,7 +68,7 @@ export function VidFaq({ service }: VidFaqProps) {
                   sizes="176px"
                 />
               </div>
-              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="mt-3 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 {item.label}
               </p>
               <p className="mt-2 text-sm font-medium leading-snug text-text-on-dark/75">

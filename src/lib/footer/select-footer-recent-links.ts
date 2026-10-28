@@ -50,7 +50,7 @@ export function selectFooterRecentCaseStudyLinks(
     .map((study) => {
       const brand = study.clientDisplayName ?? study.client;
       return {
-        label: truncateLabel(`${brand}, ${study.metric}`),
+        label: truncateLabel(brand),
         href: study.href,
       };
     });

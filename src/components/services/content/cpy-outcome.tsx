@@ -45,12 +45,12 @@ export function CpyOutcome({ service }: CpyOutcomeProps) {
               key={pair.after.label}
               className="border-2 border-primary bg-[#F7F3EA] p-4 sm:p-5"
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 {chart.chartLabel}
               </p>
               <div className="mt-4 grid grid-cols-2 gap-3">
                 <div className="border-2 border-primary/30 bg-background p-3">
-                  <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                  <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                     Before
                   </p>
                   <p className="mt-2 text-2xl font-black tabular-nums text-text-secondary">
@@ -62,7 +62,7 @@ export function CpyOutcome({ service }: CpyOutcomeProps) {
                   </p>
                 </div>
                 <div className="border-2 border-primary bg-accent p-3">
-                  <p className="font-mono text-[9px] font-bold uppercase text-primary/70">
+                  <p className="font-mono text-xs font-bold uppercase text-primary/70">
                     After
                   </p>
                   <p className="mt-2 text-2xl font-black tabular-nums text-primary">

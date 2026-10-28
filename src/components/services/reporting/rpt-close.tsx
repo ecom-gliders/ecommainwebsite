@@ -33,7 +33,7 @@ export function RptClose({ service }: RptCloseProps) {
                     className="flex h-full flex-col border-2 border-primary bg-[#F4F4F4] p-4 hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                   >
                     <span
-                      className="inline-flex w-fit border border-primary bg-accent px-2 py-0.5 font-mono text-[10px] font-bold text-primary"
+                      className="inline-flex w-fit border border-primary bg-accent px-2 py-0.5 font-mono text-xs font-bold text-primary"
                       aria-hidden="true"
                     >
                       RPT-{String(index + 1).padStart(2, "0")}

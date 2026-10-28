@@ -54,10 +54,10 @@ export function LncClose({ service }: LncCloseProps) {
           )}
         >
           <div className="flex items-center justify-between border-b border-accent/40 bg-[#0c0c0b] px-4 py-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Launch pad · next step
             </p>
-            <p className="font-mono text-[10px] font-bold tabular-nums text-text-on-dark/45">
+            <p className="font-mono text-xs font-bold tabular-nums text-text-on-dark/45">
               T-0 audit
             </p>
           </div>
@@ -78,7 +78,7 @@ export function LncClose({ service }: LncCloseProps) {
                     />
                   </div>
                 ))}
-                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70 sm:block">
+                <p className="hidden self-end font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70 sm:block">
                   Pad ready
                 </p>
               </div>

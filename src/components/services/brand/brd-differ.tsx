@@ -37,7 +37,7 @@ export function BrdDiffer({ service }: BrdDifferProps) {
 
         <div className="mt-8 grid gap-0 overflow-hidden border-2 border-primary lg:grid-cols-2">
           <div className="border-b-2 border-primary bg-[#F4F4F4] p-5 sm:p-6 lg:border-b-0 lg:border-r-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
               Common missteps
             </p>
             <ul className="mt-4 space-y-3">
@@ -63,7 +63,7 @@ export function BrdDiffer({ service }: BrdDifferProps) {
               <li key={point.title} className="bg-[#FAF6EF] p-5 sm:p-6">
                 <div className="flex gap-3">
                   <span
-                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary"
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-xs font-black text-primary"
                     aria-hidden="true"
                   >
                     OK

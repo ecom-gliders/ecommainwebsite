@@ -149,7 +149,7 @@ export function HeroSection({ id, data }: HeroSectionProps) {
 
         <div className="relative z-10 mx-auto flex w-full max-w-2xl flex-col items-center">
           {eyebrow ? (
-            <p className="inline-flex max-w-full items-center rounded-full border-2 border-primary bg-primary px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-text-on-dark sm:text-xs">
+            <p className="inline-flex max-w-full items-center rounded-full border-2 border-primary bg-primary px-3.5 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark">
               {eyebrow}
             </p>
           ) : null}

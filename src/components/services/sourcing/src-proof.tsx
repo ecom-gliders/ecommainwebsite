@@ -23,7 +23,7 @@ export function SrcProof({ service }: SrcProofProps) {
       aria-labelledby="service-results-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Corridor outcomes
         </p>
         <h2
@@ -40,10 +40,10 @@ export function SrcProof({ service }: SrcProofProps) {
                 className="flex h-full flex-col overflow-hidden border-2 border-primary bg-background shadow-[4px_4px_0_0_#131311] transition-colors hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 <div className="flex items-center justify-between border-b-2 border-primary bg-primary px-3 py-2">
-                  <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                  <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                     Case {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-mono text-[10px] font-bold text-text-on-dark/60">
+                  <span className="font-mono text-xs font-bold text-text-on-dark/60">
                     Sourcing · launch
                   </span>
                 </div>

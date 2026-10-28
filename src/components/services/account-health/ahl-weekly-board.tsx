@@ -37,7 +37,7 @@ export function AhlWeeklyBoard({ service }: AhlWeeklyBoardProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-primary bg-primary px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent">
+            <p className="border-2 border-primary bg-primary px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent">
               {board.boardLabel}
             </p>
           ) : null}
@@ -45,7 +45,7 @@ export function AhlWeeklyBoard({ service }: AhlWeeklyBoardProps) {
 
         <div className="mt-6 overflow-x-auto border-2 border-primary shadow-[4px_4px_0_0_#131311]">
           <div className="border-b-2 border-primary bg-primary px-3 py-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               {board.urlLabel ?? "Account health board"}
             </p>
           </div>
@@ -55,7 +55,7 @@ export function AhlWeeklyBoard({ service }: AhlWeeklyBoardProps) {
                 {board.columns.map((col) => (
                   <th
                     key={col}
-                    className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary sm:px-4"
+                    className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary sm:px-4"
                   >
                     {col}
                   </th>

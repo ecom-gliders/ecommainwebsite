@@ -1,0 +1,223 @@
+{
+  "seo": {
+    "metaTitle": "Careers | Brand Manager and Junior PPC Specialist | eCom Gliders",
+    "metaDescription": "Join eCom Gliders in-house Amazon team. Open roles: Brand Manager and Junior PPC Specialist. Remote with US business-hours collaboration. Apply on this page.",
+    "canonical": "/careers/",
+    "robots": { "index": true, "follow": true }
+  },
+  "hero": {
+    "eyebrow": "Careers",
+    "title": "Two seats on an in-house Amazon bench",
+    "subtitle": "eCom Gliders hires selectively for craft that ships inside the agency—not a revolving freelance marketplace. We currently have two open roles.",
+    "forLine": "For: candidates who want to own Amazon brand or advertising work with an in-house team serving US, UK, Canada, and EU sellers.",
+    "notForLine": "Not for: agencies seeking capacity (use Agency Partnership), brands seeking services (use Free Audit), or vendors pitching tools to eCom Gliders.",
+    "primaryCta": {
+      "label": "View open roles",
+      "href": "#open-roles"
+    },
+    "secondaryCta": {
+      "label": "Agency looking to partner?",
+      "href": "/agency-partnership/"
+    },
+    "trustChips": [
+      "Helping sellers since 2018",
+      "20+ in-house specialists",
+      "Amazon Ads Verified Partner"
+    ]
+  },
+  "bench": {
+    "eyebrow": "How the bench works",
+    "heading": "In-house Amazon delivery, not a reseller network",
+    "intro": "PPC, listings, catalog, creative, and account work are run by eCom Gliders specialists. That matters for how you learn, how work is reviewed, and who owns the client outcome.",
+    "items": [
+      {
+        "title": "One team, clear lanes",
+        "description": "Brand Managers coordinate strategy and client communication. PPC specialists run advertising craft. Creative and catalog sit beside you—not behind an opaque vendor layer."
+      },
+      {
+        "title": "Client work with accountability",
+        "description": "You support real Seller Central and Ads Console work across marketplaces. Recommendations are expected to be specific, measured, and ready for client conversation."
+      },
+      {
+        "title": "Remote with a shared clock",
+        "description": "Roles are remote. Collaboration aligns with US business hours so account reviews, ads changes, and handoffs stay predictable."
+      }
+    ]
+  },
+  "openRoles": {
+    "id": "open-roles",
+    "eyebrow": "Open roles",
+    "heading": "Two positions are open now",
+    "intro": "Both roles are full-time. Work is remote with collaboration during US business hours. Read the role craft below, then apply once with the role picker."
+  },
+  "roles": [
+    {
+      "id": "brand-manager",
+      "slug": "brand-manager",
+      "title": "Brand Manager",
+      "locationLine": "Remote — collaboration during US business hours",
+      "employmentType": "Full-time",
+      "summary": "Own client relationships and account strategy for Amazon brands. Coordinate PPC, listings, creative, and catalog so delivery stays on plan.",
+      "outcomes": [
+        "Primary client contact for assigned accounts",
+        "Clear weekly priorities across the pod",
+        "Performance narratives clients can act on"
+      ],
+      "about": "The Brand Manager is the strategic lead for a portfolio of Amazon accounts. You protect retention through proactive communication, translate marketplace data into plans, and keep cross-functional work aligned without losing the client relationship.",
+      "responsibilities": [
+        "Own client communication for assigned accounts—calls, updates, and escalation handling",
+        "Build and maintain account plans covering sales, advertising efficiency, listing health, and catalog risk",
+        "Coordinate with PPC, creative, and catalog specialists so deliverables land on time and on strategy",
+        "Review reports and decks before they reach the client; present insights in plain language",
+        "Flag underperformance early and bring specific next steps, not vague status summaries",
+        "Maintain task hygiene in the team’s project tools after meetings and ad-hoc requests"
+      ],
+      "mustHaves": [
+        "Hands-on familiarity with Amazon Seller Central and brand growth levers (listings, ads, catalog basics)",
+        "Experience owning client or stakeholder communication in an agency, brand, or ecommerce setting",
+        "Comfort reading sales, conversion, and advertising metrics and turning them into recommendations",
+        "Strong written English and structured meeting habits",
+        "Ability to prioritize across multiple accounts without dropping follow-ups"
+      ],
+      "niceToHaves": [
+        "Prior Amazon agency Brand Manager or Account Manager experience",
+        "Exposure to Brand Analytics, Helium 10, or similar research tools",
+        "Experience mentoring junior teammates"
+      ]
+    },
+    {
+      "id": "junior-ppc-specialist",
+      "slug": "junior-ppc-specialist",
+      "title": "Junior PPC Specialist",
+      "locationLine": "Remote — collaboration during US business hours",
+      "employmentType": "Full-time",
+      "summary": "Support Sponsored Products, Brands, and Display work under senior guidance. Research keywords, keep campaigns tidy, and report what the numbers actually say.",
+      "outcomes": [
+        "Clean campaign hygiene on assigned accounts",
+        "Keyword and search-term research that informs bids",
+        "Clear weekly performance notes for the Brand Manager"
+      ],
+      "about": "The Junior PPC Specialist grows into Amazon advertising craft inside a real client pod. You will not own strategy alone on day one—you will execute, measure, and learn with senior review so ACOS, CTR, and spend stay intentional.",
+      "responsibilities": [
+        "Assist with setup, monitoring, and optimization of Sponsored Products, Sponsored Brands, and Sponsored Display",
+        "Run keyword and search-term research; propose negatives and bid adjustments for review",
+        "Track daily budgets and flag overspend or stalled campaigns early",
+        "Analyze CTR, CPC, ACOS, and ROAS; write concise notes for the Brand Manager",
+        "Keep advertising console structures organized and documented",
+        "Stay current on Amazon Ads console changes that affect day-to-day optimization"
+      ],
+      "mustHaves": [
+        "Basic understanding of PPC or digital advertising concepts",
+        "Comfort with Excel or Google Sheets for sorting, filtering, and simple analysis",
+        "Clear written English and willingness to document work",
+        "Coachable attitude in a fast-paced, feedback-heavy environment",
+        "Reliable remote setup suitable for US-hours collaboration"
+      ],
+      "niceToHaves": [
+        "1+ year Amazon Advertising Console or Seller Central exposure",
+        "Familiarity with Helium 10, Data Dive, or similar keyword tools",
+        "Prior ecommerce or marketplace internship or junior role"
+      ]
+    }
+  ],
+  "process": {
+    "eyebrow": "Hiring process",
+    "heading": "From application to decision",
+    "intro": "We keep the process short. Incomplete applications may be declined without a call.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Apply",
+        "description": "Submit the form with role, LinkedIn, resume URL, and a short note on relevant Amazon work."
+      },
+      {
+        "number": "02",
+        "title": "Review",
+        "description": "We screen for Amazon touchpoints, communication quality, and role fit. Expect a reply within about two business days."
+      },
+      {
+        "number": "03",
+        "title": "Conversation",
+        "description": "A structured call covers experience, tools, and how you work with clients or campaign data."
+      },
+      {
+        "number": "04",
+        "title": "Decision",
+        "description": "We confirm scope, collaboration hours, and next steps. We only advance candidates we can support well."
+      }
+    ]
+  },
+  "fit": {
+    "eyebrow": "Selective hiring",
+    "heading": "Who we hire—and who we pass",
+    "intro": "A small in-house team stays effective when new seats raise the craft bar.",
+    "hire": {
+      "heading": "We typically hire",
+      "items": [
+        "People with real Amazon or ecommerce execution—not only generic marketing theory",
+        "Writers and analysts who explain tradeoffs clearly",
+        "Candidates who document work and follow through on deadlines",
+        "Juniors who are coachable, and Brand Managers who own the client relationship"
+      ]
+    },
+    "pass": {
+      "heading": "We typically pass",
+      "items": [
+        "Applications with no LinkedIn or resume URL and no Amazon context",
+        "Vendor or freelance pitches using this form as a sales inbox",
+        "Agency partnership requests (use the Agency Partnership page)",
+        "Brand service inquiries (use Free Audit or Contact)"
+      ]
+    }
+  },
+  "faq": {
+    "heading": "Careers FAQ",
+    "items": [
+      {
+        "question": "Are these roles remote?",
+        "answer": "Yes. Both roles are remote with collaboration during US business hours so client and pod work stays aligned."
+      },
+      {
+        "question": "Do I need prior Amazon agency experience?",
+        "answer": "Brand Manager applicants should bring Amazon marketplace familiarity and client-facing ownership. Junior PPC Specialist applicants need PPC fundamentals and coachability; console experience is preferred but not always required."
+      },
+      {
+        "question": "What tools will I use?",
+        "answer": "Day-to-day work centers on Amazon Seller Central and the Advertising Console, plus spreadsheets and the team’s project and communication tools. Specific stacks are confirmed during interviews."
+      },
+      {
+        "question": "I run an agency. Should I apply here?",
+        "answer": "No. Complementary agencies should use the Agency Partnership page. This form is for people joining the eCom Gliders team."
+      },
+      {
+        "question": "How fast do you reply?",
+        "answer": "We aim to respond within about two business days. Incomplete applications may take longer or be declined."
+      }
+    ]
+  },
+  "application": {
+    "id": "career-application",
+    "eyebrow": "Application",
+    "heading": "Apply for an open role",
+    "intro": "Select the role, share LinkedIn and a resume or portfolio URL, and tell us about your Amazon experience. We review for fit before scheduling a call.",
+    "submitLabel": "Submit application",
+    "successMessage": "Your application was received. Our team will review fit and reply within about two business days.",
+    "errorMessage": "We could not submit the application. Review the fields below and try again.",
+    "consentLabel": "I agree to the privacy policy and consent to being contacted about this application.",
+    "roleOptions": [
+      { "value": "brand-manager", "label": "Brand Manager" },
+      { "value": "junior-ppc-specialist", "label": "Junior PPC Specialist" }
+    ],
+    "experienceOptions": [
+      { "value": "under-1", "label": "Under 1 year" },
+      { "value": "1-2", "label": "1–2 years" },
+      { "value": "3-5", "label": "3–5 years" },
+      { "value": "5-plus", "label": "5 or more years" }
+    ]
+  },
+  "close": {
+    "heading": "Selective by design",
+    "body": "If one of the open roles matches your craft, apply above. For agency collaboration use Agency Partnership. For brand Amazon help use Free Audit or Contact.",
+    "emailLabel": "Application questions may also reach us at"
+  }
+}

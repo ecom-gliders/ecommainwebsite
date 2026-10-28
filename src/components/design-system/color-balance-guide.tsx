@@ -21,19 +21,19 @@ export function ColorBalanceGuide() {
         aria-hidden="true"
       >
         <div
-          className="flex w-[60%] items-center justify-center text-[11px] font-medium text-text-secondary"
+          className="flex w-[60%] items-center justify-center text-xs font-medium text-text-secondary"
           style={{ backgroundColor: "var(--color-surface)" }}
         >
           60% Neutrals
         </div>
         <div
-          className="flex w-[30%] items-center justify-center text-[11px] font-medium text-text-on-dark"
+          className="flex w-[30%] items-center justify-center text-xs font-medium text-text-on-dark"
           style={{ backgroundColor: "var(--color-primary)" }}
         >
           30% Primary
         </div>
         <div
-          className="flex w-[10%] items-center justify-center text-[10px] font-semibold"
+          className="flex w-[10%] items-center justify-center text-xs font-semibold"
           style={{
             backgroundColor: "var(--color-accent)",
             color: "var(--color-primary)",

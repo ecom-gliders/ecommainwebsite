@@ -57,14 +57,14 @@ export function BrdProof({ service }: BrdProofProps) {
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <span
-                    className="pointer-events-none absolute -right-3 -top-3 flex h-14 w-14 rotate-12 items-center justify-center rounded-full border-2 border-primary/30 bg-accent/80 font-mono text-[9px] font-black uppercase text-primary"
+                    className="pointer-events-none absolute -right-3 -top-3 flex h-14 w-14 rotate-12 items-center justify-center rounded-full border-2 border-primary/30 bg-accent/80 font-mono text-xs font-black uppercase text-primary"
                     aria-hidden="true"
                   >
                     Verified
                   </span>
                 </div>
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                     Record {String(index + 1).padStart(2, "0")}
                   </p>
                   <p className="mt-2 text-2xl font-black tracking-tight text-primary sm:text-[1.65rem]">
@@ -76,7 +76,7 @@ export function BrdProof({ service }: BrdProofProps) {
                   <p className="mt-2 flex-1 text-sm font-medium leading-snug text-text-secondary">
                     {item.description}
                   </p>
-                  <span className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
+                  <span className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary">
                     Case study
                   </span>
                 </div>

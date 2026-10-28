@@ -53,7 +53,7 @@ export function DspFaq({ service }: DspFaqProps) {
                 index >= 3 && "sm:border-t-2",
               )}
             >
-              <span className="font-mono text-[10px] font-bold text-text-secondary">
+              <span className="font-mono text-xs font-bold text-text-secondary">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <p className="mt-1 text-sm font-black text-primary">{gate.label}</p>

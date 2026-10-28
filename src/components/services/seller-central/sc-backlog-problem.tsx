@@ -22,7 +22,7 @@ export function ScBacklogProblem({ service }: ScBacklogProblemProps) {
       <ServicePageShell>
         <div className="grid gap-8 lg:grid-cols-[minmax(0,14rem)_minmax(0,1fr)] lg:items-start lg:gap-10">
           <div className="mx-auto w-full max-w-[14rem]" aria-hidden="true">
-            <p className="font-mono text-[10px] font-bold uppercase text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase text-text-secondary">
               No queue
             </p>
             <ul className="mt-2 space-y-2">
@@ -39,7 +39,7 @@ export function ScBacklogProblem({ service }: ScBacklogProblemProps) {
                 </li>
               ))}
             </ul>
-            <p className="mt-4 font-mono text-[10px] font-bold uppercase text-accent">
+            <p className="mt-4 font-mono text-xs font-bold uppercase text-accent">
               vs
             </p>
             <div className="mt-2 border-2 border-primary bg-background">
@@ -48,7 +48,7 @@ export function ScBacklogProblem({ service }: ScBacklogProblemProps) {
                   key={col}
                   className="border-b border-primary/20 px-2 py-1.5 last:border-b-0"
                 >
-                  <span className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                  <span className="font-mono text-xs font-bold uppercase text-text-secondary">
                     {col}
                   </span>
                   <div className="mt-1 h-1.5 bg-accent/60" />
@@ -75,7 +75,7 @@ export function ScBacklogProblem({ service }: ScBacklogProblemProps) {
                     index === 1 && "border-t-2 border-primary sm:border-t-0",
                   )}
                 >
-                  <p className="font-mono text-[10px] font-bold text-text-secondary">
+                  <p className="font-mono text-xs font-bold text-text-secondary">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-base font-bold text-primary">

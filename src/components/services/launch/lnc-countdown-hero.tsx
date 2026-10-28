@@ -72,7 +72,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
           <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Launch countdown board
             </p>
             <h1
@@ -90,10 +90,10 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
               aria-label="Launch pad countdown preview"
             >
               <div className="flex shrink-0 items-center justify-between gap-3 border-b border-accent/30 px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Pad status · staged sequence
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/45">
+                <p className="font-mono text-xs font-bold text-text-on-dark/45">
                   All systems nominal
                 </p>
               </div>
@@ -109,7 +109,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                       )}
                     >
                       <div className="flex items-center justify-between border-b border-text-on-dark/12 px-2 py-1.5">
-                        <span className="font-mono text-[9px] font-black uppercase tracking-[0.06em] text-accent">
+                        <span className="font-mono text-xs font-black uppercase tracking-[0.06em] text-accent">
                           {tile.tMinus}
                         </span>
                         <span className="font-mono text-[8px] font-bold text-text-on-dark/35">
@@ -117,7 +117,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                         </span>
                       </div>
                       <div className="flex flex-1 flex-col p-2">
-                        <p className="text-[11px] font-black uppercase tracking-[0.04em] text-text-on-dark">
+                        <p className="text-xs font-black uppercase tracking-[0.04em] text-text-on-dark">
                           {tile.phase}
                         </p>
                         <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden border border-text-on-dark/18 bg-[#0c0c0b]">
@@ -131,7 +131,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                           />
                         </div>
                         <div className="mt-2 flex flex-col gap-1">
-                          <span className="text-[10px] font-bold text-text-on-dark/80">
+                          <span className="text-xs font-bold text-text-on-dark/80">
                             {tile.signal}
                           </span>
                           <span className="inline-flex w-fit border border-accent/50 px-1.5 py-0.5 font-mono text-[8px] font-bold uppercase text-accent">
@@ -142,7 +142,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
                     </li>
                   ))}
                 </ol>
-                <p className="mt-3 text-center font-mono text-[9px] font-bold uppercase tracking-[0.14em] text-text-on-dark/35">
+                <p className="mt-3 text-center font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/35">
                   Staged launch · not cold go-live
                 </p>
               </div>

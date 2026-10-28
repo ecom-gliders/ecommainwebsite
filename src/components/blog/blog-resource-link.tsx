@@ -35,7 +35,7 @@ export function BlogResourceLink({
 
   return (
     <aside className="my-8 border-2 border-primary bg-background p-5 shadow-[3px_3px_0_0_#131311]">
-      <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
         Resource
       </p>
       <p className="mt-1 text-h4 text-text-primary">{title}</p>

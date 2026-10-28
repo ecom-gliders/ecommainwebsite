@@ -23,8 +23,8 @@ export function PromoAnnouncementBar({ promo }: PromoAnnouncementBarProps) {
   const ctaClassName = cn(
     "promo-cta-pulse relative z-[1] inline-flex h-9 shrink-0 items-center justify-center gap-1.5",
     "rounded-[10px] border-2 border-primary bg-[#E23B3B] px-4",
-    "text-[11px] font-bold uppercase tracking-[0.04em] text-white",
-    "hover:bg-[#F04A4A] sm:h-10 sm:px-5 sm:text-[12px]",
+    "text-xs font-bold uppercase tracking-[0.04em] text-white",
+    "hover:bg-[#F04A4A] sm:h-10 sm:px-5 sm:text-xs",
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
   );
 
@@ -113,7 +113,7 @@ export function PromoAnnouncementBar({ promo }: PromoAnnouncementBarProps) {
 
           <div className="min-w-0 flex-1">
             {eyebrow ? (
-              <span className="mb-0.5 block text-[10px] font-semibold uppercase tracking-[0.12em] text-accent">
+              <span className="mb-0.5 block text-xs font-semibold uppercase tracking-[0.12em] text-accent">
                 {eyebrow}
               </span>
             ) : null}
@@ -121,7 +121,7 @@ export function PromoAnnouncementBar({ promo }: PromoAnnouncementBarProps) {
               {promo.headline}
             </p>
             {promo.body ? (
-              <p className="mt-0.5 line-clamp-2 max-w-xl text-[11px] leading-snug text-text-on-dark/65 sm:line-clamp-1">
+              <p className="mt-0.5 line-clamp-2 max-w-xl text-xs leading-snug text-text-on-dark/65 sm:line-clamp-1">
                 {promo.body}
               </p>
             ) : null}

@@ -36,7 +36,7 @@ export function AosRunbook({ service }: AosRunbookProps) {
               <div className="flex items-center gap-2" aria-hidden="true">
                 <span className="h-2.5 w-2.5 rounded-full bg-accent ring-2 ring-primary" />
                 <span className="h-px flex-1 bg-primary/30" />
-                <span className="font-mono text-[9px] font-bold text-text-secondary">
+                <span className="font-mono text-xs font-bold text-text-secondary">
                   RB-{String(index + 1).padStart(2, "0")}
                 </span>
               </div>

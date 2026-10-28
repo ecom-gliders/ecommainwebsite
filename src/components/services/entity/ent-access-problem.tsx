@@ -35,7 +35,7 @@ export function EntAccessProblem({ service }: EntAccessProblemProps) {
       <ServicePageShell>
         <div className="grid gap-7 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.2fr)] lg:items-stretch lg:gap-9">
           <div className="flex flex-col justify-center">
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Access readiness
             </p>
             <h2
@@ -47,7 +47,7 @@ export function EntAccessProblem({ service }: EntAccessProblemProps) {
             <ul className="mt-7 space-y-4">
               {problem.points.map((point, index) => (
                 <li key={point.title} className="border-l-2 border-accent pl-4">
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-base font-black leading-snug text-text-on-dark sm:text-lg">
@@ -67,7 +67,7 @@ export function EntAccessProblem({ service }: EntAccessProblemProps) {
           >
             <div className="grid flex-1 grid-cols-1 sm:grid-cols-2">
               <div className="flex flex-col bg-[#1a1814] p-5 sm:p-6">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
                   Before entity readiness
                 </p>
                 <div className="relative mt-4 aspect-video w-full overflow-hidden border border-text-on-dark/20 bg-[#12100e]">
@@ -78,7 +78,7 @@ export function EntAccessProblem({ service }: EntAccessProblemProps) {
                     className="object-cover opacity-90"
                     sizes="(max-width: 640px) 100vw, 40vw"
                   />
-                  <p className="absolute bottom-2 left-2 border border-text-on-dark/30 bg-primary/85 px-1.5 py-0.5 font-mono text-[9px] font-black text-[#E8B0B0]">
+                  <p className="absolute bottom-2 left-2 border border-text-on-dark/30 bg-primary/85 px-1.5 py-0.5 font-mono text-xs font-black text-[#E8B0B0]">
                     Verification blocked
                   </p>
                 </div>
@@ -94,7 +94,7 @@ export function EntAccessProblem({ service }: EntAccessProblemProps) {
                 </ul>
               </div>
               <div className="flex flex-col border-t-2 border-accent bg-accent p-5 text-primary sm:border-l-2 sm:border-t-0 sm:p-6">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/65">
                   After entity foundations
                 </p>
                 <div className="relative mt-4 aspect-video w-full overflow-hidden border-2 border-primary bg-[#12100e]">

@@ -1,4 +1,5 @@
 import type { FaqItem } from "@/domain/content/schemas";
+import { normalizeMarkdownNewlines } from "@/lib/blog/normalize-markdown-newlines";
 
 const FAQ_SECTION_HEADING = /^#{2,6}\s+.*\bFAQ/i;
 // After normalizeHeadingLevels, FAQ questions are often ### (was #### in WP)
@@ -57,16 +58,17 @@ export function splitBlogContent(markdown: string): {
   mainContent: string;
   faqItems: FaqItem[];
 } {
-  const lines = markdown.split("\n");
-  const faqItems = extractFaqItems(markdown);
+  const source = normalizeMarkdownNewlines(markdown);
+  const lines = source.split("\n");
+  const faqItems = extractFaqItems(source);
 
   if (faqItems.length === 0) {
-    return { mainContent: markdown, faqItems: [] };
+    return { mainContent: source, faqItems: [] };
   }
 
   const faqSectionStart = findFaqSectionStart(lines);
   if (faqSectionStart === -1) {
-    return { mainContent: markdown, faqItems };
+    return { mainContent: source, faqItems };
   }
 
   let faqSectionEnd = lines.length;

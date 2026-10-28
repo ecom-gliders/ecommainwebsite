@@ -53,7 +53,7 @@ const NAV = [
 
 function Fence({ children }: { children: string }) {
   return (
-    <pre className="mt-3 overflow-x-auto border border-border bg-surface-muted p-3 text-[11px] leading-relaxed text-text-primary">
+    <pre className="mt-3 overflow-x-auto border border-border bg-surface-muted p-3 text-xs leading-relaxed text-text-primary">
       <code>{children}</code>
     </pre>
   );
@@ -77,7 +77,7 @@ function BlockSection({
       id={id}
       className="scroll-mt-24 border-2 border-primary bg-background p-6 shadow-[4px_4px_0_0_#131311] md:p-8"
     >
-      <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+      <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
         Block
       </p>
       <h2 className="mt-1 text-h2">{title}</h2>
@@ -103,7 +103,7 @@ export function BlogDesignSystemPage() {
     <div className="min-h-screen bg-[linear-gradient(180deg,#FAFAFA_0%,#F3F3F0_100%)]">
       <header className="border-b-2 border-primary bg-primary text-text-on-dark">
         <div className="container-page py-10 md:py-14">
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
             Internal · not indexed
           </p>
           <h1 className="mt-3 max-w-3xl text-balance text-3xl font-black tracking-tight md:text-5xl">
@@ -139,7 +139,7 @@ export function BlogDesignSystemPage() {
               aria-label="Blog design system sections"
               className="border-2 border-primary bg-surface p-4 shadow-[3px_3px_0_0_#131311]"
             >
-              <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
                 Contents
               </p>
               <ol className="m-0 list-none space-y-1 p-0">
@@ -149,7 +149,7 @@ export function BlogDesignSystemPage() {
                       href={`#${item.id}`}
                       className="flex gap-2 py-1 text-small font-medium text-text-secondary hover:text-text-primary"
                     >
-                      <span className="w-5 shrink-0 text-[10px] font-bold text-text-secondary">
+                      <span className="w-5 shrink-0 text-xs font-bold text-text-secondary">
                         {index + 1}
                       </span>
                       {item.label}
@@ -946,10 +946,10 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                   ]}
                 />
                 <div className="border-2 border-primary bg-primary p-3 text-text-on-dark shadow-[3px_3px_0_0_#131311]">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+                  <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
                     Ask AI about this article
                   </p>
-                  <p className="mt-2 text-[11px] text-text-on-dark/75">
+                  <p className="mt-2 text-xs text-text-on-dark/75">
                     ChatGPT · Claude · Gemini · Perplexity with article-scoped
                     prompts (title + canonical URL). Same icon set as homepage.
                   </p>
@@ -985,7 +985,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                 <div className="flex gap-4 border-b border-border p-4">
                   <div className="hidden h-16 w-24 shrink-0 bg-accent/50 sm:block" />
                   <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
                       Guide 2025
                     </p>
                     <p className="font-semibold text-text-primary">
@@ -1061,7 +1061,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
                       ["(markdown table)", "GFM table", "pipe table"],
                     ].map(([fence, component, shape]) => (
                       <tr key={fence} className="border-b border-border">
-                        <td className="px-3 py-2 font-mono text-[11px]">
+                        <td className="px-3 py-2 font-mono text-xs">
                           {fence}
                         </td>
                         <td className="px-3 py-2">{component}</td>
@@ -1094,7 +1094,7 @@ Markdown images in posts also render as figures (title attribute → caption).`}
               <h3 className="mt-8 text-h3">Canonical media (locked)</h3>
               <p className="mt-2 text-small font-medium text-text-secondary">
                 Source:{" "}
-                <code className="text-[11px]">
+                <code className="text-xs">
                   content/config/blog-blocks.json#canonical
                 </code>
               </p>

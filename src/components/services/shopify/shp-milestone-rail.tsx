@@ -39,7 +39,7 @@ export function ShpMilestoneRail({ service }: ShpMilestoneRailProps) {
           </p>
         ) : null}
 
-        <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+        <p className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
           {module.urlLabel}
         </p>
 

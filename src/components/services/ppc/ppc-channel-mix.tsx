@@ -62,7 +62,7 @@ export function PpcChannelMix({ service }: PpcChannelMixProps) {
                   )}
                   aria-hidden="true"
                 />
-                <span className="font-mono text-[10px] font-bold text-text-secondary">
+                <span className="font-mono text-xs font-bold text-text-secondary">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </div>

@@ -29,7 +29,7 @@ export function ServiceOpsLanes({
       />
       {variant === "tickets" ? (
         <div className="mt-6 border-t border-primary/20">
-          <div className="flex items-center justify-between border-b border-primary/10 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <div className="flex items-center justify-between border-b border-primary/10 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             <span>Triage queue</span>
             <span>{opsLanes.lanes.length} lanes</span>
           </div>
@@ -40,7 +40,7 @@ export function ServiceOpsLanes({
                 className="grid gap-3 py-4 sm:grid-cols-[7rem_1fr] sm:gap-6"
               >
                 <div>
-                  <p className="font-mono text-[10px] font-bold tabular-nums text-text-secondary">
+                  <p className="font-mono text-xs font-bold tabular-nums text-text-secondary">
                     {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-body font-semibold text-primary">
@@ -49,7 +49,7 @@ export function ServiceOpsLanes({
                 </div>
                 <dl className="grid gap-3 sm:grid-cols-3">
                   <div>
-                    <dt className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                    <dt className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                       Issue
                     </dt>
                     <dd className="mt-1 text-small font-medium text-text-secondary">
@@ -57,7 +57,7 @@ export function ServiceOpsLanes({
                     </dd>
                   </div>
                   <div>
-                    <dt className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-primary">
+                    <dt className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-primary">
                       Fix
                     </dt>
                     <dd className="mt-1 border-l-2 border-accent pl-2.5 text-small text-primary">
@@ -65,7 +65,7 @@ export function ServiceOpsLanes({
                     </dd>
                   </div>
                   <div>
-                    <dt className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                    <dt className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                       Verify
                     </dt>
                     <dd className="mt-1 text-small font-medium text-text-secondary">
@@ -96,13 +96,13 @@ export function ServiceOpsLanes({
               <h3 className="text-h4 text-primary">{lane.title}</h3>
               <dl className="space-y-3 text-small">
                 <div>
-                  <dt className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                     Issue
                   </dt>
                   <dd className="mt-1 text-text-secondary">{lane.issue}</dd>
                 </div>
                 <div>
-                  <dt className="text-[11px] font-bold uppercase tracking-[0.12em] text-primary">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-primary">
                     Fix
                   </dt>
                   <dd className="mt-1 border-l-4 border-accent pl-3 text-primary">
@@ -110,7 +110,7 @@ export function ServiceOpsLanes({
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  <dt className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                     Verify
                   </dt>
                   <dd className="mt-1 text-text-secondary">{lane.verify}</dd>

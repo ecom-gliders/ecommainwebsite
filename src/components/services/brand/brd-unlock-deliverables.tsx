@@ -58,12 +58,12 @@ export function BrdUnlockDeliverables({ service }: BrdUnlockDeliverablesProps) {
               <div className="flex flex-1 flex-col p-4 sm:p-5">
                 <div className="flex items-start justify-between gap-2">
                   <span
-                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary"
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-accent font-mono text-xs font-black text-primary"
                     aria-hidden="true"
                   >
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="border border-primary/40 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-primary">
+                  <span className="border border-primary/40 px-1.5 py-0.5 font-mono text-xs font-bold uppercase text-primary">
                     Capability
                   </span>
                 </div>

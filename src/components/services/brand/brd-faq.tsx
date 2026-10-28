@@ -68,7 +68,7 @@ export function BrdFaq({ service }: BrdFaqProps) {
                   sizes="176px"
                 />
               </div>
-              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="mt-3 font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 {item.label}
               </p>
               <p className="mt-1.5 text-sm font-medium text-text-secondary">

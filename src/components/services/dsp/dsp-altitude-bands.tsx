@@ -39,7 +39,7 @@ export function DspAltitudeBands({ service }: DspAltitudeBandsProps) {
               )}
             >
               <div className="flex items-center gap-2 sm:flex-col sm:items-start sm:gap-1">
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                   Band {String(index + 1).padStart(2, "0")}
                 </span>
                 <span

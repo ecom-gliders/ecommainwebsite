@@ -28,7 +28,7 @@ export function AhlClose({ service }: AhlCloseProps) {
       <ServicePageShell>
         {service.relatedServices.length > 0 ? (
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Connected workstreams
             </p>
             <h2 className="mt-2 text-[clamp(1.35rem,2.5vw,1.75rem)] font-black tracking-tight text-primary">
@@ -49,7 +49,7 @@ export function AhlClose({ service }: AhlCloseProps) {
                     className="flex h-full flex-col p-5 hover:bg-accent/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-inset"
                   >
                     <span
-                      className="inline-flex w-fit border-2 border-primary bg-primary px-2 py-0.5 font-mono text-[10px] font-bold text-accent"
+                      className="inline-flex w-fit border-2 border-primary bg-primary px-2 py-0.5 font-mono text-xs font-bold text-accent"
                       aria-hidden="true"
                     >
                       AHL-{String(index + 1).padStart(2, "0")}
@@ -90,7 +90,7 @@ export function AhlClose({ service }: AhlCloseProps) {
                     />
                   </div>
                 ))}
-                <p className="hidden self-end font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70 sm:block">
+                <p className="hidden self-end font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70 sm:block">
                   Health review
                 </p>
               </div>

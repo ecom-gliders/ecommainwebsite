@@ -1,93 +1,136 @@
 {
   "seo": {
     "metaTitle": "Privacy Policy | eCom Gliders",
-    "metaDescription": "How eCom Gliders collects, uses, and protects personal and business information when you visit our website or use our Amazon agency services.",
+    "metaDescription": "How eCom Gliders collects, uses, shares, and protects personal and business information when you visit our website or work with our Amazon agency team.",
     "canonical": "/privacy-policy/",
     "robots": { "index": true, "follow": true }
   },
   "eyebrow": "Legal",
   "h1": "Privacy Policy",
   "dateLabel": "Effective date",
-  "dateValue": "01 January 2025",
-  "intro": "At eCom Gliders, your privacy matters. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, use our services, or interact with our team.",
+  "dateValue": "28 October 2026",
+  "intro": "eCom Gliders LLC (\"eCom Gliders,\" \"we,\" \"us,\" or \"our\") respects your privacy. This Privacy Policy explains what information we collect, how we use it, when we share it, and the choices available to you when you visit ecomgliders.com, submit a form, or engage our Amazon agency services.",
   "sections": [
     {
-      "heading": "1. Information we collect",
+      "heading": "1. Scope",
       "paragraphs": [
-        "We may collect the following types of information:"
+        "This Privacy Policy applies to information we collect from website visitors, prospective clients, and current clients through our website, email, phone, and service engagements. It covers situations where eCom Gliders decides how and why personal information is used.",
+        "When we manage advertising, listings, or account data inside a client's Amazon Seller Central or Ads account, we typically process that information as a service provider under the client's direction. For questions about Amazon account data controlled by a brand, contact that brand or Amazon directly as well as our team where appropriate."
+      ]
+    },
+    {
+      "heading": "2. Information we collect",
+      "paragraphs": [
+        "We collect information in three main ways: what you provide directly, what is collected automatically on our website, and what you share so we can deliver services."
+      ]
+    },
+    {
+      "heading": "2.1 Information you provide",
+      "paragraphs": [
+        "Depending on how you interact with us, this may include:"
       ],
       "bullets": [
-        "Personal information: name, email address, phone number, billing address, and other details you voluntarily provide when contacting us or signing up for services.",
-        "Business information: Amazon seller account details, store name, ASINs, advertising data, product listings, and performance metrics you share with us.",
-        "Technical information: IP address, browser type, device details, referral sources, and browsing behavior on our website.",
-        "Payment information: for invoicing and processing payments, we may collect billing details. We do not store credit card numbers; payments are handled through secure third-party processors (Stripe)."
+        "Contact details such as name, email address, phone number, company name, and job title",
+        "Messages and form submissions from contact, free-audit, or service inquiry forms",
+        "Billing and invoicing details needed to issue invoices or process payments (card numbers are handled by Stripe; we do not store full payment card numbers on our systems)",
+        "Business information you choose to share for service delivery, such as Amazon storefront URLs, ASINs, advertising accounts, listing content, catalogs, and performance metrics"
       ]
     },
     {
-      "heading": "2. How we use your information",
+      "heading": "2.2 Information collected automatically",
       "paragraphs": [
-        "We use your information to:"
+        "When you visit our website, we and our service providers may collect technical data such as IP address, browser type, device and operating system information, referring URL, pages viewed, and approximate location derived from IP address. We may also use cookies and similar technologies as described below."
+      ]
+    },
+    {
+      "heading": "2.3 Information from service work",
+      "paragraphs": [
+        "To deliver Amazon-related services, you may grant us access to Seller Central, Amazon Ads, or related tools. Through that access we may view and process account, advertising, listing, inventory, and performance data needed to perform the agreed work. We use that access only to provide services for your account unless you authorize another use in writing."
+      ]
+    },
+    {
+      "heading": "3. How we use information",
+      "paragraphs": [
+        "We use the information we collect to:"
       ],
       "bullets": [
-        "Provide and manage our Amazon agency services",
-        "Communicate with you about your account or inquiries",
-        "Improve our website, services, and client experience",
-        "Analyze data to optimize your Amazon performance",
-        "Send important updates, newsletters, or marketing (you can opt out at any time)",
-        "Comply with legal obligations"
+        "Operate the website and respond to inquiries, audits, and support requests",
+        "Provide, manage, and improve Amazon agency services (including PPC, listings, creative, catalog, and related account work)",
+        "Communicate about projects, invoices, scheduling, and operational updates",
+        "Send marketing or newsletter messages where permitted (you may unsubscribe at any time)",
+        "Analyze website and service performance so we can improve content and delivery",
+        "Detect, prevent, or investigate fraud, abuse, or security issues",
+        "Comply with legal obligations and enforce our agreements and policies"
       ]
     },
     {
-      "heading": "3. Information sharing",
+      "heading": "4. How we share information",
       "paragraphs": [
-        "We do not sell, rent, or trade your personal or business data. We only share your information in the following cases:"
+        "We do not sell, rent, or trade your personal or business information. We share information only as needed to run our business and deliver services, including:"
       ],
       "bullets": [
-        "With trusted third-party tools and partners who help us provide our services (for example analytics platforms, advertising tools, and invoicing software)",
-        "When required by law, court order, or to protect our legal rights",
-        "With your explicit permission"
+        "Service providers that support hosting, analytics, email, forms, invoicing, and payments (for example Stripe for payment processing)",
+        "Specialists on our team or contracted support who need access to deliver your engagement, under confidentiality expectations",
+        "Professional advisors (such as legal or accounting) when reasonably required",
+        "Authorities when required by law, court order, or to protect rights, safety, or security",
+        "A successor entity in connection with a merger, acquisition, or similar corporate transaction, subject to continued protection of the information",
+        "Other parties when you give us permission to share"
       ]
     },
     {
-      "heading": "4. Data security",
+      "heading": "5. Cookies and similar technologies",
       "paragraphs": [
-        "We take data protection seriously. Your information is stored securely and protected using industry-standard security measures. While no online system is fully secure, we work to safeguard your data against unauthorized access, misuse, or loss."
+        "Our website may use cookies and similar technologies to operate the site, remember preferences, measure traffic, and improve content. Categories may include essential cookies needed for basic functionality, analytics cookies that help us understand site usage, and optional marketing cookies if we run advertising or remarketing.",
+        "You can control cookies through your browser settings. Blocking some cookies may limit how the site works. Where a cookie consent tool is available on the site, you can also update preferences there."
       ]
     },
     {
-      "heading": "5. Your rights",
+      "heading": "6. Data retention",
       "paragraphs": [
-        "You have the right to:"
-      ],
-      "bullets": [
-        "Access the personal data we hold about you",
-        "Request correction or deletion of your data",
-        "Withdraw consent for marketing communications at any time",
-        "Ask us to stop processing your data (subject to legal or contractual obligations)"
+        "We keep information only as long as needed for the purposes described in this policy, including to provide services, maintain business records, resolve disputes, and meet legal, tax, or accounting requirements. Retention periods vary by record type. When information is no longer needed, we delete or anonymize it where reasonably practicable."
       ]
     },
     {
-      "heading": "6. Cookies and tracking",
+      "heading": "7. Security",
       "paragraphs": [
-        "Our website may use cookies and similar tracking technologies to enhance user experience and analyze website traffic. You can adjust your browser settings to refuse cookies, but this may affect site functionality."
+        "We use administrative, technical, and organizational measures designed to protect information against unauthorized access, loss, misuse, or alteration. No method of transmission or storage is completely secure. Please use strong unique passwords for shared tools and notify us promptly if you suspect unauthorized access to accounts we use together."
       ]
     },
     {
-      "heading": "7. Third-party links",
+      "heading": "8. Your choices and rights",
       "paragraphs": [
-        "Our site may contain links to external websites. We are not responsible for the privacy practices or content of those sites. Please review their privacy policies before submitting any data."
+        "Subject to applicable law, you may request access to the personal information we hold about you, ask us to correct inaccurate information, request deletion, or ask us to limit certain processing. You may also withdraw marketing consent at any time.",
+        "To make a request, contact us using the details below. We may need to verify your identity before responding. Some requests may be limited by legal or contractual obligations, including records we must keep for active service or compliance."
       ]
     },
     {
-      "heading": "8. Updates to this policy",
+      "heading": "9. Children's privacy",
       "paragraphs": [
-        "We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised effective date."
+        "Our website and services are directed to businesses and professionals. We do not knowingly collect personal information from children under 13. If you believe a child has provided us information, contact us and we will take appropriate steps to delete it."
       ]
     },
     {
-      "heading": "9. Contact us",
+      "heading": "10. Third-party websites and platforms",
       "paragraphs": [
-        "If you have questions or concerns about this Privacy Policy or how your data is handled, contact us using the details below."
+        "Our site may link to third-party websites or platforms, including Amazon, payment processors, and social networks. Their privacy practices are governed by their own policies. We are not responsible for the content or practices of sites we do not control."
+      ]
+    },
+    {
+      "heading": "11. International visitors",
+      "paragraphs": [
+        "eCom Gliders is based in the United States. If you access our website or services from outside the United States, you understand that information may be processed in the United States and other locations where we or our service providers operate."
+      ]
+    },
+    {
+      "heading": "12. Changes to this policy",
+      "paragraphs": [
+        "We may update this Privacy Policy from time to time. The effective date at the top of this page will change when we post updates. Continued use of the website or services after an update means you acknowledge the revised policy. For material changes that affect active client engagements, we may also provide additional notice where appropriate."
+      ]
+    },
+    {
+      "heading": "13. Contact us",
+      "paragraphs": [
+        "If you have questions about this Privacy Policy or how we handle information, contact eCom Gliders using the details below."
       ]
     }
   ],

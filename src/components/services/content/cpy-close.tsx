@@ -48,7 +48,7 @@ export function CpyClose({ service }: CpyCloseProps) {
         >
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Submit for copy desk
               </p>
               <h2

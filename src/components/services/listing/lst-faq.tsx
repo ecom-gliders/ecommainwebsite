@@ -64,7 +64,7 @@ export function LstFaq({ service }: LstFaqProps) {
                   "border-text-on-dark/25 bg-[#1a1a18] text-text-on-dark/70",
               )}
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em]">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em]">
                 {item.label}
               </p>
               <p

@@ -45,7 +45,7 @@ export function EntAudienceLandings({ service }: EntAudienceLandingsProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Ladder landings
             </p>
             <h2
@@ -55,7 +55,7 @@ export function EntAudienceLandings({ service }: EntAudienceLandingsProps) {
               {audience.heading}
             </h2>
           </div>
-          <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+          <p className="border-2 border-primary bg-background px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
             4 founder stages
           </p>
         </div>
@@ -83,10 +83,10 @@ export function EntAudienceLandings({ service }: EntAudienceLandingsProps) {
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-primary/90 px-3 py-2">
-                    <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                    <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                       Landing
                     </span>
-                    <span className="font-mono text-[11px] font-black text-text-on-dark">
+                    <span className="font-mono text-xs font-black text-text-on-dark">
                       {landing.code}
                     </span>
                   </div>

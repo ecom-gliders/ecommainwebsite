@@ -57,7 +57,7 @@ export function ScAudiencePanes({ service }: ScAudiencePanesProps) {
               </div>
               <div className="flex flex-1 flex-col p-4 sm:p-5">
                 <span
-                  className="w-fit border-2 border-primary bg-background px-2 py-0.5 font-mono text-[10px] font-bold uppercase text-text-secondary"
+                  className="w-fit border-2 border-primary bg-background px-2 py-0.5 font-mono text-xs font-bold uppercase text-text-secondary"
                   aria-hidden="true"
                 >
                   Pane {String(index + 1).padStart(2, "0")}

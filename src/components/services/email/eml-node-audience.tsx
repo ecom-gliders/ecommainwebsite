@@ -39,12 +39,12 @@ export function EmlNodeAudience({ service }: EmlNodeAudienceProps) {
               className="relative flex min-h-[12rem] flex-col border-2 border-primary bg-background p-4"
             >
               <div
-                className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-[10px] font-black text-primary"
+                className="absolute -right-1 -top-1 flex h-7 w-7 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-black text-primary"
                 aria-hidden="true"
               >
                 {String(index + 1).padStart(2, "0")}
               </div>
-              <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 {NODE_LABELS[index] ?? `Node ${index + 1}`}
               </p>
               <div

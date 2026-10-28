@@ -44,7 +44,7 @@ export function CatAudienceMatrix({ service }: CatAudienceMatrixProps) {
               <tr className="border-b-2 border-primary bg-[#F4F4F4]">
                 <th
                   scope="col"
-                  className="p-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-secondary"
+                  className="p-3 font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-secondary"
                 >
                   Scenario
                 </th>
@@ -52,7 +52,7 @@ export function CatAudienceMatrix({ service }: CatAudienceMatrixProps) {
                   <th
                     key={role}
                     scope="col"
-                    className="border-l-2 border-primary p-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-secondary"
+                    className="border-l-2 border-primary p-3 font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-secondary"
                   >
                     {role}
                   </th>
@@ -87,7 +87,7 @@ export function CatAudienceMatrix({ service }: CatAudienceMatrixProps) {
                       >
                         <span
                           className={cn(
-                            "inline-block border-2 border-primary px-2 py-1 font-mono text-[9px] font-black uppercase tracking-[0.06em]",
+                            "inline-block border-2 border-primary px-2 py-1 font-mono text-xs font-black uppercase tracking-[0.06em]",
                             active
                               ? "bg-accent text-primary"
                               : "bg-[#F4F4F4] text-text-secondary",

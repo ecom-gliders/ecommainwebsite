@@ -41,7 +41,7 @@ export function RptExportDump({ service }: RptExportDumpProps) {
                 >
                   <div className="h-1.5 w-3/4 bg-primary/20" />
                   <div className="mt-1.5 h-1.5 w-1/2 bg-primary/10" />
-                  <p className="mt-2 font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-text-secondary">
+                  <p className="mt-2 font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-secondary">
                     Export {String(layer + 1).padStart(2, "0")}
                   </p>
                 </div>
@@ -68,7 +68,7 @@ export function RptExportDump({ service }: RptExportDumpProps) {
                     index === 1 && "border-t-2 border-primary sm:border-t-0",
                   )}
                 >
-                  <p className="font-mono text-[10px] font-bold text-text-secondary">
+                  <p className="font-mono text-xs font-bold text-text-secondary">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-base font-bold text-primary">

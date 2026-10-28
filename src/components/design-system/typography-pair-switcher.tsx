@@ -79,7 +79,7 @@ export function TypographyPairSwitcher() {
                 </p>
                 <span
                   className={cn(
-                    "rounded-sm px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wide",
+                    "rounded-sm px-1.5 py-0.5 text-xs font-medium uppercase tracking-wide",
                     pair.status === "Current"
                       ? "bg-primary text-text-on-dark"
                       : "bg-surface text-text-secondary",
@@ -107,13 +107,13 @@ export function TypographyPairSwitcher() {
                 full-service account management.
               </p>
 
-              <p className="mt-3 text-[11px] text-text-secondary">
+              <p className="mt-3 text-xs text-text-secondary">
                 Display: {pair.displayFamily}
                 {pair.displayFamily !== pair.bodyFamily
                   ? ` · Body: ${pair.bodyFamily}`
                   : " · Body: same"}
               </p>
-              <p className="mt-1 text-[11px] text-text-secondary">
+              <p className="mt-1 text-xs text-text-secondary">
                 {pair.character}
               </p>
             </button>

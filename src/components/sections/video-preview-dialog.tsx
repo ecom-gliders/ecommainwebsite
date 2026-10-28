@@ -172,7 +172,7 @@ export function VideoPreviewDialog({
                   </p>
                 ) : null}
                 {count > 1 ? (
-                  <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-accent">
+                  <p className="mt-2 text-xs font-semibold uppercase tracking-[0.12em] text-accent">
                     {index + 1} / {count}
                   </p>
                 ) : null}

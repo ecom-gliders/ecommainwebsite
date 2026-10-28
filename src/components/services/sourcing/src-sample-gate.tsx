@@ -26,7 +26,7 @@ export function SrcSampleGate({ service }: SrcSampleGateProps) {
       <ServicePageShell>
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,16rem)] lg:items-end lg:gap-8">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Sample scorecard
             </p>
             <h2

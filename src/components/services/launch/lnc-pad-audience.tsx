@@ -66,7 +66,7 @@ export function LncPadAudience({ service }: LncPadAudienceProps) {
                     className="object-cover"
                     sizes="(max-width: 1024px) 50vw, 25vw"
                   />
-                  <p className="absolute left-2 top-2 border border-accent/60 bg-primary/80 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                  <p className="absolute left-2 top-2 border border-accent/60 bg-primary/80 px-1.5 py-0.5 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                     {pad.label}
                   </p>
                 </div>

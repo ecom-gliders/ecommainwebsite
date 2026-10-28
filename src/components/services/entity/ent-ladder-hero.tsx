@@ -50,7 +50,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-start lg:gap-7">
           <div className="flex min-w-0 flex-col">
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
               Entity setup ladder
             </p>
             <h1
@@ -68,7 +68,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
               aria-label="Entity setup ladder preview"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-2.5 py-1.5 sm:px-3">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                   Jurisdiction → Amazon
                 </p>
                 <p className="font-mono text-[8px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
@@ -89,7 +89,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
                     >
                       <span
                         className={cn(
-                          "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center border font-mono text-[9px] font-black",
+                          "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center border font-mono text-xs font-black",
                           isTop
                             ? "border-accent bg-accent text-primary"
                             : "border-accent/50 text-accent",
@@ -108,7 +108,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
                             </span>
                           ) : null}
                         </div>
-                        <p className="mt-0.5 text-[11px] font-medium leading-snug text-text-on-dark/55">
+                        <p className="mt-0.5 text-xs font-medium leading-snug text-text-on-dark/55">
                           {rung.detail}
                         </p>
                       </div>

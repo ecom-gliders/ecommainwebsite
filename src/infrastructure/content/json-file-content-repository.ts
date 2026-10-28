@@ -3,6 +3,8 @@ import { join } from "node:path";
 import type { ZodType } from "zod";
 import {
   aboutPageConfigSchema,
+  agencyPartnershipPageConfigSchema,
+  careersPageConfigSchema,
   contactPageConfigSchema,
   freeAuditPageConfigSchema,
   legalPageConfigSchema,
@@ -15,6 +17,8 @@ import {
   siteConfigSchema,
   testimonialsConfigSchema,
   type AboutPageConfig,
+  type AgencyPartnershipPageConfig,
+  type CareersPageConfig,
   type ContactPageConfig,
   type FreeAuditPageConfig,
   type LegalPageConfig,
@@ -121,6 +125,17 @@ export class JsonFileContentRepository {
 
   async getAboutPage(): Promise<AboutPageConfig> {
     return this.loadRequiredJson("about-page.json", aboutPageConfigSchema);
+  }
+
+  async getAgencyPartnershipPage(): Promise<AgencyPartnershipPageConfig> {
+    return this.loadRequiredJson(
+      "agency-partnership-page.json",
+      agencyPartnershipPageConfigSchema,
+    );
+  }
+
+  async getCareersPage(): Promise<CareersPageConfig> {
+    return this.loadRequiredJson("careers-page.json", careersPageConfigSchema);
   }
 
   async getPrivacyPage(): Promise<LegalPageConfig> {

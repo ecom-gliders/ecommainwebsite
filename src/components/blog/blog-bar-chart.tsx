@@ -28,7 +28,7 @@ export function BlogBarChart({
     return (
       <div className="my-8 border-2 border-primary bg-surface p-4 shadow-[3px_3px_0_0_#131311]">
         {title ? (
-          <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <p className="mb-4 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             {title}
           </p>
         ) : null}
@@ -63,7 +63,7 @@ export function BlogBarChart({
   return (
     <div className="my-8 border-2 border-primary bg-surface p-4 shadow-[3px_3px_0_0_#131311]">
       {title ? (
-        <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="mb-4 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {title}
         </p>
       ) : null}
@@ -75,7 +75,7 @@ export function BlogBarChart({
               key={item.label}
               className="flex h-full min-w-0 flex-1 flex-col items-center justify-end gap-2"
             >
-              <span className="text-[11px] font-semibold text-text-secondary">
+              <span className="text-xs font-semibold text-text-secondary">
                 {item.display ?? item.value}
               </span>
               <div
@@ -91,7 +91,7 @@ export function BlogBarChart({
         {items.map((item) => (
           <li
             key={item.label}
-            className="min-w-0 flex-1 text-center text-[11px] font-medium leading-snug text-text-primary"
+            className="min-w-0 flex-1 text-center text-xs font-medium leading-snug text-text-primary"
           >
             {item.label}
           </li>

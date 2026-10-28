@@ -1,0 +1,416 @@
+{
+  "generatedAt": "2026-10-28T13:35:10.746Z",
+  "weakCount": 316,
+  "weak": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "toc:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Why Amazon Agencies Matter in 2026"
+      ]
+    },
+    {
+      "slug": "a-sellers-guide-to-understanding-demand-pricing-and-competition",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Ready to Grow Your Amazon Business?"
+      ]
+    },
+    {
+      "slug": "amazon-a10-algorithm-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "How Amazon's A10 Algorithm Works in 2026"
+      ]
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Strategic Trade Offs of a System First Amazon Business"
+      ]
+    },
+    {
+      "slug": "amazon-boycott-effectiveness",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-boycott-losses-2026",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-brand-architecture-outlast-algorithm-changes",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-brand-growth-guide",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-branded-listing-contributions-guide",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-compliance-documents-in-2025",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-customer-image-playbook-2025",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-fba-growth-scaling-mistakes",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Amazon FBA Growth: Why Most Sellers Fail at Scaling"
+      ]
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-featured-services",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-maximizes-sales-roi",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-ppc-listing-brand-protection",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-vs-diy-selling",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-vs-inhouse-team",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-vs-partial-management",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-with-ppc-listing-brand-protection",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-full-account-management-worth-it-2026",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Discover the Proven Strategies Every Amazon Seller Needs to Succeed in 2026"
+      ]
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-inventory-forecasting",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Key Strengths and Challenges for Amazon Sellers"
+      ]
+    },
+    {
+      "slug": "amazon-keyword-research-2026-guide",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-listing-errors-fix-guide",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Amazon Listing Not Ranking in 2026?"
+      ]
+    },
+    {
+      "slug": "amazon-listing-optimization-2026",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-negative-keywords-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Negative Keywords on Amazon The Seller's Secret Weapon"
+      ]
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "New Amazon Seller? Here's Your First 90 Day SEO and PPC Plan"
+      ]
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "flags": [
+        "toc:0",
+        "takeaways:0"
+      ],
+      "toc": []
+    },
+    {
+      "slug": "amazon-ppc-advertising-guide",
+      "flags": [
+        "toc:1"
+      ],
+      "toc": [
+        "Amazon PPC: Maximize Profit, Minimize Waste."
+      ]
+    }
+  ]
+}

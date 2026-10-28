@@ -1,0 +1,1202 @@
+{
+  "generatedAt": "2026-10-28T13:20:02.866Z",
+  "reading": 15,
+  "colons": 166,
+  "hype": 42,
+  "written": 194,
+  "files": [
+    {
+      "slug": "2025-amazon-algorithm-updates-what-sellers-need-to-know",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "agency-vs-diy-amazon-ppc-hidden-costs",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ai-for-amazon-sellers-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-a10-algorithm-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-handling-services",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-health-rating-explained",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-brand-growth",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-for-brands-vs-resellers-key-differences-explained",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-mistakes-killing-profits",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-scale-faster",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-services-for-brands",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-strategy-scale-without-suspension",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-account-management-vs-diy",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-management",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-and-management-services-2",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-account-optimization-checklist-expert-managers",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-as-a-system-strategic-architecture-market-leadership",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-as-an-operating-system-predictable-growth",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-brand-growth-guide",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-data-driven-growth",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-fba-warehouse-illustration-inventory-forecasting",
+      "flags": [
+        "reading"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-services",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-vs-seller-central-tool",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-full-account-management-worth-it-2026",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-growth-strategy-2026",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-growth-system-strategic-frameworks",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-keyword-research-2026-guide",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-listing-not-ranking-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-listing-optimization-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-negative-keywords-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-new-seller-seo-ppc-plan-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-performance-metrics-guide-and-control",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-campaign-management",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-campaign-structure",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-draining-your-wallet",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-for-beginners-full-guide-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-formula-that-scales-without-wasting-budget",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-hack-slash-acos",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-hacks",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-american-samoa-as-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-arkansas-ar-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-california-ca-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales-2",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-delaware-de-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-district-of-columbia-dc-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-no-conversions-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-strategies",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-strategy-keyword-research-2025",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-ppc-wasting-money-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-product-launch-strategy-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-sales-after-boycott-analysis",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seller-central-management-services-explained",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seller-growth-strategies-account-management-2",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seller-issues-solutions",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seller-support-account-management-services",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-sellers-overpaying-for-ppc-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seo-2026-keywords-no-longer-matter",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-seo-optimization-increase-sales",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "amazon-sponsored-brands-vs-products",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-store-optimization-guide",
+      "flags": [
+        "reading"
+      ]
+    },
+    {
+      "slug": "amazon-suppressed-listings-fix",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon-tools-growth-system-seller-software",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazons-silent-ranking-factors-what-top-sellers-know-that-most-brands-dont",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "amazon_a_plus_content_seo_2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "architecting-amazon-success-sustainable-scale",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "architecting-seo-success-2026-strategy-before-execution",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "are-amazon-sales-increasing",
+      "flags": [
+        "reading"
+      ]
+    },
+    {
+      "slug": "audience-targeting-intent-amazon-ppc-2026",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "avoid-saturated-niche-price-wars-amazon",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "benefits-of-amazon-brand-registry-for-private-label-sellers",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "best-amazon-deals-of-the-week-save-big-today",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "best-artificial-intelligence-tools-for-amazon-sellers",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "beyond-optimization-systematic-amazon-growth",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "choose-winning-products-without-guesswork",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "common-amazon-seller-mistakes-account-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "decline-in-amazon-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "designing-growth-on-amazon-strategy-before-scale",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "do-i-have-to-pay-40-dollars-to-sell-on-amazon",
+      "flags": [
+        "reading"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-canopy-amazon-account-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-eva-amazon-management-agency",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-gno-partners-amazon-growth-comparison",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-million-dollar-sellers-amazon-account-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-quartile-ppc-automation-vs-expert-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-salesduo-amazon-seller-support",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-sophie-society-amazon-ppc-account-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-teikametrics-amazon-ppc-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "ecom-gliders-vs-velocity-sellers-amazon-store-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "elementor-992655",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "end-to-end-amazon-seller-account-management",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "expert-amazon-seller-management-services",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockout-now",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "fba-inventory-management-avoid-stockouts",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "fix-stagnant-amazon-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "from-decision-to-dominance-scalable-amazon-business-systems",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "from-setup-to-scale-amazon-account-management-services",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "from-tactical-wins-to-strategic-scale-amazon-brand-blueprint",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "full-service-amazon-seller-account-handling",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "future-of-amazon-ppc-scalable-advertising-frameworks-2026",
+      "flags": [
+        "reading",
+        "hype"
+      ]
+    },
+    {
+      "slug": "grow-faster-with-amazon-full-account-management-services",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "hidden-amazon-ppc-tax",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "hidden-architecture-successful-amazon-brands-2026",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "hidden-signal-amazon-product-success",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "how-amazon-account-manager-improves-buy-box-wins",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "how-amazon-account-managers-improve-buy-box-wins",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "how-many-amazon-sellers-make-over-100k",
+      "flags": [
+        "reading",
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically-2",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "how-to-build-a-scalable-amazon-business-strategically",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "increase-sales-on-amazon-2025",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "is-amazon-prime-losing-customers",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "jim-cramer-amazon-stock-analysis",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "launch-new-product-amazon-seo-2026",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "long-term-amazon-account-growth-plan",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "long-term-amazon-ppc-strategy-2026-2030",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "lower-amazon-acos-without-losing-sales",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "manage-multiple-amazon-seller-accounts-without-risk",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "managed-amazon-seller-services-long-term-success",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "number-one-selling-product-amazon",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "outsourced-amazon-account-management-worth-it-2",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "overlooked-amazon-seo-factors-affecting-product-rankings",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "professional-amazon-account-managers-handle-policy-violations",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "professional-amazon-seller-account-management-solutions",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "reduce-amazon-acos-2025",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "review-manipulation-on-amazon",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "scalable-amazon-business-systems",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "seo-as-a-growth-system-search-strategy",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "smart-way-to-research-demand-and-competition-on-amazon",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "strategic-amazon-management-services",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "strategic-leverage-amazon-brand-growth",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "strategy-layer-amazon-success-high-growth-brands",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "system-first-amazon-tools-seller-infrastructure",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "system-first-business-strategy-scalable-growth",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "system-first-selling-amazon-brands",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "top-amazon-seller-growth-hacks-2025",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "top-shopify-plugins-dtc-brands-2025-2",
+      "flags": [
+        "hype"
+      ]
+    },
+    {
+      "slug": "w-to-scale-your-amazon-business-from-10k-to-100k-in-2025",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "what-sets-ecom-gliders-apart-amazon-account-management",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "when-should-you-use-sponsored-display-ads",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "why-amazon-sellers-plateau-system-led-brands",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "why-everyone-is-boycotting-amazon-prime",
+      "flags": [
+        "reading"
+      ]
+    },
+    {
+      "slug": "why-hiring-amazon-seo-ppc-agency-is-worth-it-2026",
+      "flags": [
+        "colons",
+        "hype"
+      ]
+    },
+    {
+      "slug": "why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through",
+      "flags": [
+        "reading",
+        "colons"
+      ]
+    },
+    {
+      "slug": "why-people-are-leaving-amazon",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "why-your-amazon-listing-looks-perfect-but-still-doesnt-rank",
+      "flags": [
+        "colons"
+      ]
+    },
+    {
+      "slug": "why-your-amazon-ppc-is-wasting-money-in-2026",
+      "flags": [
+        "colons"
+      ]
+    }
+  ]
+}

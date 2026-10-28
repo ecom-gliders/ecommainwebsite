@@ -74,7 +74,7 @@ export function CatFaq({ service }: CatFaqProps) {
                   sizes="176px"
                 />
               </div>
-              <p className="mt-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="mt-3 font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Status
               </p>
               <p className="mt-2 text-sm font-black">{item.label}</p>

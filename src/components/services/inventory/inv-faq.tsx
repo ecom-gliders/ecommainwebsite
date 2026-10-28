@@ -37,7 +37,7 @@ export function InvFaq({ service }: InvFaqProps) {
       aria-labelledby="service-faq-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Coverage FAQ
         </p>
         <h2

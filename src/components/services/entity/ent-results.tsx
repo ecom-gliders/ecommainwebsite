@@ -45,7 +45,7 @@ export function EntResults({ service }: EntResultsProps) {
                 <p className="flex-1 p-4 text-sm font-medium leading-snug text-text-secondary group-hover:text-primary">
                   {item.description}
                 </p>
-                <span className="border-t-2 border-primary px-4 py-2 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
+                <span className="border-t-2 border-primary px-4 py-2 font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary">
                   Case study
                 </span>
               </Link>

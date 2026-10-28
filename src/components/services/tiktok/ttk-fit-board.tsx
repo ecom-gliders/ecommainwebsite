@@ -23,7 +23,7 @@ export function TtkFitBoard({ service }: TtkFitBoardProps) {
       aria-labelledby="service-fit-board-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Fit board
         </p>
         <h2
@@ -40,7 +40,7 @@ export function TtkFitBoard({ service }: TtkFitBoardProps) {
 
         <div className="mt-8 overflow-hidden border-2 border-primary shadow-[4px_4px_0_0_#131311]">
           <div className="flex items-center gap-2 border-b-2 border-primary bg-[#F0F0EB] px-3 py-2">
-            <span className="font-mono text-[10px] font-bold text-text-secondary">
+            <span className="font-mono text-xs font-bold text-text-secondary">
               {board.boardLabel ?? "Fit gates"} · {board.urlLabel}
             </span>
           </div>
@@ -51,7 +51,7 @@ export function TtkFitBoard({ service }: TtkFitBoardProps) {
                   {board.columns.map((col) => (
                     <th
                       key={col}
-                      className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent sm:px-4"
+                      className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent sm:px-4"
                     >
                       {col}
                     </th>

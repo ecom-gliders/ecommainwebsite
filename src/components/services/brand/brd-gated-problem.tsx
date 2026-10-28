@@ -70,7 +70,7 @@ export function BrdGatedProblem({ service }: BrdGatedProblemProps) {
                 className="object-cover opacity-85"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              <p className="absolute left-3 top-3 border border-accent/60 bg-primary/80 px-2 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="absolute left-3 top-3 border border-accent/60 bg-primary/80 px-2 py-1 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Without enrollment
               </p>
             </div>
@@ -85,7 +85,7 @@ export function BrdGatedProblem({ service }: BrdGatedProblemProps) {
                     className="flex items-start gap-3 border border-text-on-dark/20 bg-primary/40 p-3"
                   >
                     <span
-                      className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-text-on-dark/40 font-mono text-[9px] font-bold text-text-on-dark/50"
+                      className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-dashed border-text-on-dark/40 font-mono text-xs font-bold text-text-on-dark/50"
                       aria-hidden="true"
                     >
                       Lock

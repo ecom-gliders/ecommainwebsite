@@ -30,7 +30,7 @@ export function NavLinkItem({
           {link.label}
         </span>
         {isFeatured ? (
-          <span className="rounded-[3px] bg-accent px-1.5 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-primary">
+          <span className="rounded-[3px] bg-accent px-1.5 py-0.5 text-xs font-bold uppercase tracking-wide text-primary">
             Featured
           </span>
         ) : null}

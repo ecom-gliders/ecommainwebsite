@@ -42,11 +42,11 @@ export function LstAudience({ service }: LstAudienceProps) {
               )}
             >
               <div className="flex items-center justify-between gap-2">
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   {STAGE_LABELS[index] ?? `Stage ${index + 1}`}
                 </span>
                 <span
-                  className="flex h-7 w-7 items-center justify-center bg-accent font-mono text-[10px] font-black text-primary"
+                  className="flex h-7 w-7 items-center justify-center bg-accent font-mono text-xs font-black text-primary"
                   aria-hidden="true"
                 >
                   {String(index + 1).padStart(2, "0")}

@@ -43,7 +43,7 @@ export function AboutMarketsSection({ markets }: AboutMarketsSectionProps) {
         <Sheet>
           <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-12">
             <div className="lg:col-span-5">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 Coverage
               </p>
               <h2

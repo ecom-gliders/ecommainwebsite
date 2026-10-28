@@ -40,7 +40,7 @@ export function LncReadinessBoard({ service }: LncReadinessBoardProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-accent bg-[#0c0c0b] px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent">
+            <p className="border-2 border-accent bg-[#0c0c0b] px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent">
               {board.boardLabel}
             </p>
           ) : null}
@@ -50,13 +50,13 @@ export function LncReadinessBoard({ service }: LncReadinessBoardProps) {
           <table className="w-full min-w-[44rem] border-collapse text-left text-sm">
             <thead>
               <tr className="border-b border-accent/40 bg-[#141412]">
-                <th className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent sm:px-4">
+                <th className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent sm:px-4">
                   Phase
                 </th>
                 {board.columns.map((col) => (
                   <th
                     key={col}
-                    className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-on-dark/80 sm:px-4"
+                    className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/80 sm:px-4"
                   >
                     {col}
                   </th>
@@ -72,7 +72,7 @@ export function LncReadinessBoard({ service }: LncReadinessBoardProps) {
                     rowIndex % 2 === 1 && "bg-[#141412]/60",
                   )}
                 >
-                  <td className="px-3 py-2.5 font-mono text-[10px] font-black tabular-nums text-accent sm:px-4">
+                  <td className="px-3 py-2.5 font-mono text-xs font-black tabular-nums text-accent sm:px-4">
                     {ROW_PHASE[rowIndex] ?? "T+?"}
                   </td>
                   {row.cells.map((cell, cellIndex) => (

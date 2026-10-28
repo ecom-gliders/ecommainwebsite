@@ -37,7 +37,7 @@ export function VidDiffer({ service }: VidDifferProps) {
 
         <div className="mt-8 grid gap-0 overflow-hidden border-2 border-primary lg:grid-cols-2">
           <div className="bg-[#1a1a18] p-6 text-text-on-dark">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
               Generic studio cut
             </p>
             <ul className="mt-4 space-y-3">
@@ -46,7 +46,7 @@ export function VidDiffer({ service }: VidDifferProps) {
                   key={line}
                   className="flex gap-2 text-sm font-medium text-text-on-dark/50"
                 >
-                  <span className="shrink-0 font-mono text-[10px] text-accent/80">
+                  <span className="shrink-0 font-mono text-xs text-accent/80">
                     X
                   </span>
                   <span className="line-through decoration-text-on-dark/40">{line}</span>
@@ -57,7 +57,7 @@ export function VidDiffer({ service }: VidDifferProps) {
           <ul className="divide-y-2 divide-primary border-t-2 border-primary bg-accent text-primary lg:border-t-0 lg:border-l-2">
             {differ.points.map((point) => (
               <li key={point.title} className="p-5">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary/60">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary/60">
                   Amazon-ready
                 </p>
                 <h3 className="mt-1 text-base font-black text-primary">{point.title}</h3>

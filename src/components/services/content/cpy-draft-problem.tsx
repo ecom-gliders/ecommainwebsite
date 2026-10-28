@@ -31,7 +31,7 @@ export function CpyDraftProblem({ service }: CpyDraftProblemProps) {
             <ul className="mt-6 space-y-3">
               {problem.points.map((point, index) => (
                 <li key={point.title} className="border-l-2 border-accent pl-3">
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-0.5 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -47,7 +47,7 @@ export function CpyDraftProblem({ service }: CpyDraftProblemProps) {
             aria-label="Draft versus shopper scan"
           >
             <div className="bg-[#1a1a18] p-5 sm:p-6">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                 Spec dump
               </p>
               <ul className="mt-4 space-y-3 text-sm font-medium text-text-on-dark/45 line-through decoration-text-on-dark/40">
@@ -59,7 +59,7 @@ export function CpyDraftProblem({ service }: CpyDraftProblemProps) {
               </ul>
             </div>
             <div className="border-t-2 border-accent bg-accent p-5 text-primary sm:border-t-0 sm:border-l-2">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                 Shopper scan
               </p>
               <ul className="mt-4 space-y-3 text-sm font-black leading-snug text-primary">

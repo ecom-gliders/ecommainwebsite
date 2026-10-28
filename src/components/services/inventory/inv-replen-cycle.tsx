@@ -47,7 +47,7 @@ export function InvReplenCycle({ service }: InvReplenCycleProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Replenishment conveyor
             </p>
             <h2
@@ -57,7 +57,7 @@ export function InvReplenCycle({ service }: InvReplenCycleProps) {
               {solution.heading}
             </h2>
           </div>
-          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
             Continuous loop · ads tied in
           </p>
         </div>
@@ -74,10 +74,10 @@ export function InvReplenCycle({ service }: InvReplenCycleProps) {
               return (
                 <li key={step.title} className="relative flex flex-col">
                   <div className="mb-3 flex items-center gap-2">
-                    <span className="inline-flex min-w-[2.75rem] justify-center border-2 border-accent bg-[#141412] px-2 py-1 font-mono text-[11px] font-black tabular-nums text-accent">
+                    <span className="inline-flex min-w-[2.75rem] justify-center border-2 border-accent bg-[#141412] px-2 py-1 font-mono text-xs font-black tabular-nums text-accent">
                       {meta.mark}
                     </span>
-                    <span className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
+                    <span className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
                       {meta.signal}
                     </span>
                   </div>

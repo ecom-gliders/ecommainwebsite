@@ -15,7 +15,7 @@ export function BlogInsightChip({
     <aside className="my-6 flex gap-3 border-l-4 border-accent bg-surface px-4 py-3">
       <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-primary" aria-hidden="true" />
       <div>
-        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {label}
         </p>
         <p className="mt-1 text-small text-text-primary">{text}</p>

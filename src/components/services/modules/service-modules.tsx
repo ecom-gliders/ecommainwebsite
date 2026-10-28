@@ -144,7 +144,7 @@ export function ServiceModules({
                     >
                       <span
                         aria-hidden="true"
-                        className="inline-flex h-7 w-7 items-center justify-center rounded-[6px] border-2 border-primary bg-accent text-[11px] font-bold text-primary shadow-[2px_2px_0_0_#131311]"
+                        className="inline-flex h-7 w-7 items-center justify-center rounded-[6px] border-2 border-primary bg-accent text-xs font-bold text-primary shadow-[2px_2px_0_0_#131311]"
                       >
                         {String(stepIndex + 1).padStart(2, "0")}
                       </span>

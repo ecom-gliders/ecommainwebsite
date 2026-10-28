@@ -44,7 +44,7 @@ export function DspCoverageLattice({ service }: DspCoverageLatticeProps) {
                 className="mb-3 flex h-3 w-3 border-2 border-accent bg-accent"
                 aria-hidden="true"
               />
-              <p className="font-mono text-[10px] font-bold text-accent">
+              <p className="font-mono text-xs font-bold text-accent">
                 Node {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-1.5 text-base font-bold leading-snug text-text-on-dark">

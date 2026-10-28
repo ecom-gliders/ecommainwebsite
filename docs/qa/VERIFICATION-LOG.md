@@ -4,6 +4,202 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-28 — Free Audit funnel popup
+
+**Task:** Existing multi-step funnel in popup; Contact + service/landing CTAs; preserve Contact page  
+**STATUS:** COMPLETE  
+
+**IMPLEMENTED:**
+- `FreeAuditFunnelProvider` + `FreeAuditFunnelDialog` + layout host
+- Reuses `AuditFunnelWizard` / `submitAuditForm` (no new fields)
+- Click intercept on `/free-audit/` CTAs (header, contact path, pre-footer, case study, etc.)
+- `/free-audit/` remains Calendly booking page (no auto-open popup)
+
+**VERIFIED (Playwright):**
+- `/contact/` — Request a free audit opens dialog Step 01/05; close works; contact hero remains
+- `/services/` header Free Audit opens; Escape closes
+- Mobile 390 — dialog ~full width; close works
+- `/free-audit/` load — no dialog; `#audit-booking` present
+
+**REMAINING:** None for this request  
+
+---
+
+## 2026-10-28 — Free Audit Calendly embed
+
+**Task:** Display Free Audit Calendly booking calendar on `/free-audit/`  
+**STATUS:** COMPLETE (size + lime highlights pass)  
+
+**IMPLEMENTED:**
+- `CalendlyInlineEmbed` client widget (allowlisted `https://calendly.com/` only; iframe fallback)
+- `free-audit-page.json` `booking` block with exact URL `https://calendly.com/ecomgliders-llc/30min`
+- Page template: `#audit-booking` section replaces multi-step `AuditFunnelWizard`
+- Hero CTA → Book a free call → `#audit-booking`
+- Compact **630px** shell + slim lime chrome; `resize: false` (no CLS)
+- Theme: `primary_color=131311` (ink — slot button contrast), `text_color=131311`, `background_color=FAFAFA`
+- Lime only on outer chrome (not slot labels — lime-on-white fails contrast)
+- Load state: centered brand spinner (no fake calendar grid); widget opacity 0 until ready
+- Booking section tighter padding; embed column `max-w-3xl`
+
+**VERIFIED (Playwright desktop 1440 + mobile 390):**
+- Shell height stable **630** before/after load
+- iframe `src` includes `primary_color=131311` + exact event path
+- `#audit-form` funnel absent
+
+**REMAINING:** None for size/contrast/loader pass  
+
+---
+
+## 2026-10-28 — Site typography readability
+
+**Task:** Website-wide font size / readability (plan: site typography readability)  
+**STATUS:** COMPLETE  
+
+**IMPLEMENTED:**
+- `@theme` remap: xs 14 / sm 16 / base 18 / lg 20 / xl 22 (+ line-heights)
+- design-system.json: h3 26, h4 22, stat lh 1.1; body 18 / small 16 unchanged
+- Codemod: 758 tiny arbitrary sizes → `text-xs` across 283 files; `text-[15px]` → `text-sm`
+- Footer/form/case-study label tracking and form error text bumped to `text-sm`
+
+**VERIFIED (Playwright):**
+- Desktop 1440 + mobile 390 on `/`, `/services/`, `/case-studies/`, `/blog/`, `/free-audit/`, `/amazon-ppc-management-agency/`, `/case-study-1/`, `/amazon-ppc-advertising-guide/`
+- Tokens: `--text-body-size` 18px, `--text-small-size` 16px; `.text-body` renders 18px
+- Remap ratios: `text-xs` 0.875rem, `text-sm` 1rem, `text-base` 1.125rem (env root was 20px → 17.5/20/22.5; at 16px root → 14/16/18)
+- Case detail H1 ~65px desktop / ~40px mobile; blog post H1 40px — hierarchy preserved
+- Footer min visible text ≥ remapped `text-xs`; free-audit form labels readable
+- No meaningful content overflow (sr-only / truncate only)
+
+**REMAINING:** None for this plan  
+
+---
+
+## 2026-10-28 — Blog residual quality COMPLETE
+
+**Task:** Finish all residual blog MDX quality flags  
+**STATUS:** COMPLETE  
+
+**IMPLEMENTED:**
+- Links/titles/separators/placeholders/ZWSP/empty headings; thin post expand
+- Title ≤70 and metaTitle ≤65; metaDescription ≥90 across 328 posts
+- Location PPC/account templates shortened; Ultimate Guide / garbage frontmatter cleaned
+- Dup H2 removed; WP `-2`/elementor URLs preserved as keepers
+
+**VERIFIED (re-run):**
+- deep/continue/residual audits: issuePosts 0
+- shortMetas 0 / 328 posts
+- Playwright: `/amazon-seller-central-bulk-listing/` title clean
+
+**REMAINING:** DNS cutover (Hostinger) only  
+
+---
+
+## 2026-10-28 — Blog residual quality (links, titles, placeholders, headings)
+
+**Task:** Continue residual blog MDX cleanup after quality re-pass  
+**STATUS:** SUPERSEDED by COMPLETE entry above  
+
+---
+
+## 2026-10-28 — Blog desktop layout + title pollution
+
+**Task:** Fix Share/Ask AI overlapping article; remove migrated “Ultimate Guide…” headings across posts  
+**STATUS:** COMPLETE  
+
+**IMPLEMENTED:**
+- Explicit `xl:col-start-*` on blog article grid so empty TOC cannot shift Share into the 1fr track
+- TOC single wrapper; desktop TOC at `xl` (aligned with share rail breakpoint)
+- Strip plugin + batch: 36 MDX files, 40 polluted headings, 24 excerpt cleanups
+- Runtime safety strip in `MdxBlogRepository.getBlogPost`
+
+**VERIFIED:** Sample post no longer renders Ultimate Guide H2; `tsc` clean  
+
+**ROOT CAUSE (honest):** Prior sanitize pass did not remove this Elementor title pollution from on-disk MDX, and desktop grid assumed TOC always occupies column 1  
+
+---
+
+## 2026-10-28 — Careers page
+
+**Task:** `/careers/` for Brand Manager and Junior PPC Specialist; short apply form; unique hiring sections  
+**Verification method:** Playwright localhost; `tsc --noEmit`  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:**
+- `careers-page.json` + schema + `getCareersPage()`
+- `CareersTemplate` + `CareerApplicationForm` + `submitCareerApplicationForm` (`career-application`)
+- Route, Company mega Work with us + footer, sitemap, SITE-SEO-MAP, JobPosting x2 JSON-LD
+- Screenshots: `docs/qa/careers-desktop.png`, `docs/qa/careers-mobile.png`
+
+**VERIFIED:**
+- Title/canonical/H1 match SEO map
+- Both roles visible in open-role cards and role craft panels
+- For / Not for in hero; form fields present; empty submit returns validation
+- Footer Careers link; JSON-LD includes WebPage, BreadcrumbList, JobPosting (x2), FAQPage
+- Mobile 390px hero stacks without overflow (observed)
+
+**REMAINING:** Live Resend delivery depends on env; confirm employment location policy with owner if JobPosting TELECOMMUTE needs country list expansion  
+
+---
+
+## 2026-10-28 — Agency Partnership page
+
+**Task:** Dedicated `/agency-partnership/` for complementary agencies (white-label / referral / co-manage); selective application; not vendor pitch or seller Free Audit primary  
+**Verification method:** Playwright localhost desktop + mobile; `tsc --noEmit`  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:**
+- `content/config/agency-partnership-page.json` + `agency-partnership.schema.ts` + repository getter
+- `AgencyPartnershipTemplate` + `PartnerApplicationForm` + `submitAgencyPartnerForm` (`formType: agency-partner`)
+- Route, footer Company link, sitemap STATIC_ROUTES, SITE-SEO-MAP, JSON-LD (WebPage, BreadcrumbList, FAQPage)
+- Screenshots: `docs/qa/agency-partnership-desktop.png`, `docs/qa/agency-partnership-mobile.png`
+
+**VERIFIED:**
+- Title/canonical match SEO map; H1 agency-capacity framing
+- For / Not for visible in hero; primary CTA “Apply to partner” → `#partner-application`; secondary seller path → `/free-audit/`
+- Footer Company includes Agency Partnership
+- Form fields present; empty submit returns server validation (“could not submit”)
+- JSON-LD graph includes WebPage, BreadcrumbList, FAQPage
+- Mobile 390px hero stacks without overflow (observed)
+
+**REMAINING:** Optional About related link; live Resend delivery depends on env  
+
+---
+
+## 2026-10-28 — Privacy Policy and Terms refresh
+
+**Task:** Improve legal page structure/wording using public agency policy patterns as reference; keep eCom Gliders facts  
+**Verification method:** Playwright `/privacy-policy/` and `/terms-conditions/`  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** Expanded sections in `privacy-page.json` and `terms-page.json` (effective/updated 28 October 2026)  
+**VERIFIED:** Pages render; eCom Gliders contact + Stripe present; no Trivium branding; NM governing law; $100 reactivation + non-refundable retained  
+**REMAINING:** Legal counsel review recommended for enforceability (not a substitute for attorney advice)  
+
+---
+
+## 2026-10-28 — Case studies numbers, formatting, and image audit
+
+**Task:** Footer brand-only labels; fix corrupted `?` metrics; category atmospheres  
+**Verification method:** Grep; Playwright all 9 detail URLs + hub + footer  
+
+**STATUS:** COMPLETE  
+**IMPLEMENTED:**
+- Footer labels brand-only (`select-footer-recent-links.ts`)
+- `secondaryMetric` `?` to `to` in case-studies + 3 service/index JSONs
+- Engagement to Duration; CULTURELLE title 502; Safefine CVR label; TIME TIMER category Productivity tools
+- New atmospheres: volttech, nikketta, timetimer, focusform, focusdesign  
+
+**VERIFIED:**
+- Footer: GoSports, FocusForm, Safefine, TIME TIMER (no metrics)
+- All 9 pages: no `?` metric patterns; heroes load category atmospheres  
+
+**Flagged for review (unchanged on purpose):**
+- FocusForm title “7-Figure Brand” vs hero `$118K` monthly — no invented annualization
+- TIME TIMER before/after currency mix (`~$300` to `€18,450`) — intentional EU story  
+
+**REMAINING:** None for this audit  
+
+---
+
 ## 2026-10-27 — Rounded creative favicon + shorter tab title
 
 **Task:** Replace flat square eG tab icon with creative rounded-square mark; reduce title truncation  
@@ -3247,7 +3443,7 @@ Hero form â Catalog health board â Issue, fix, and verify â Catal
 
 **Notes:** Contact Us research paused by user request. Team assets sourced from live WP About (first-party); provenance in DOWNLOAD-LOG and assets/licenses/about-team-portraits.md.
 
-## 2026-10-27 � Sitewide mobile + tablet responsive deep scan
+## 2026-10-27 � Sitewide mobile + tablet responsive deep scan
 
 **Task:** Deep scan all marketing/service pages at 375 and 768; fix horizontal overflow and cramped mobile grids.
 **Verification method:** Playwright overflowX + HTTP status across 31 routes x 2 viewports; targeted breaker checks on close CTA / manifesto / services hero.

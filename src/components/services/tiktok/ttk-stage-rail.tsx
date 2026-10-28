@@ -47,7 +47,7 @@ export function TtkStageRail({ service }: TtkStageRailProps) {
       aria-labelledby="service-solution-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Campaign stages
         </p>
         <h2
@@ -77,7 +77,7 @@ export function TtkStageRail({ service }: TtkStageRailProps) {
                     : "bg-[#141412] text-text-on-dark hover:bg-[#1a1a17]",
                 )}
               >
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] opacity-70">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] opacity-70">
                   {STAGES[index]?.label ?? `Stage ${index + 1}`}
                 </span>
                 <span className="mt-1 block text-sm font-black leading-tight">
@@ -102,7 +102,7 @@ export function TtkStageRail({ service }: TtkStageRailProps) {
               />
             </div>
             <div className="p-5 sm:p-6">
-              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+              <span className="inline-flex border-2 border-accent bg-accent px-2 py-0.5 font-mono text-xs font-black uppercase text-primary">
                 {stage.label}
               </span>
               <h3 className="mt-3 text-xl font-black tracking-tight text-text-on-dark sm:text-2xl">

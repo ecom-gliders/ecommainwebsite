@@ -28,7 +28,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
       aria-labelledby={`${module.id}-heading`}
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Build rail
         </p>
         <h2
@@ -64,7 +64,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
                     : "bg-[#FAFAF7] text-primary hover:bg-[#F0F0EB]",
                 )}
               >
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] opacity-60">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] opacity-60">
                   Phase {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="mt-1 block text-sm font-black leading-tight">
@@ -89,7 +89,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
               <div className="flex flex-wrap items-center gap-2">
                 <span
                   className={cn(
-                    "border-2 border-primary px-2 py-0.5 font-mono text-[9px] font-bold uppercase",
+                    "border-2 border-primary px-2 py-0.5 font-mono text-xs font-bold uppercase",
                     current.state === "done" && "bg-accent text-primary",
                     current.state === "current" && "bg-primary text-accent",
                     current.state === "upcoming" &&
@@ -107,7 +107,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
               </p>
 
               <div className="mt-6 border-2 border-primary bg-[#FAFAF7] p-4">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   {module.urlLabel}
                 </p>
                 <p className="mt-2 text-sm font-medium text-primary">
@@ -120,7 +120,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
               className="border-t-2 border-primary bg-primary p-5 lg:border-l-2 lg:border-t-0"
               aria-hidden="true"
             >
-              <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Rail progress
               </p>
               <div className="mt-4 space-y-3">
@@ -128,7 +128,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
                   <div key={phase.label} className="flex items-center gap-2">
                     <span
                       className={cn(
-                        "flex h-8 w-8 shrink-0 items-center justify-center border-2 font-mono text-[10px] font-black",
+                        "flex h-8 w-8 shrink-0 items-center justify-center border-2 font-mono text-xs font-black",
                         i <= active
                           ? "border-accent bg-accent text-primary"
                           : "border-text-on-dark/30 text-text-on-dark/40",
@@ -149,7 +149,7 @@ export function ShpBuildRail({ service }: ShpBuildRailProps) {
                       />
                       <p
                         className={cn(
-                          "mt-1 truncate font-mono text-[9px] font-bold uppercase",
+                          "mt-1 truncate font-mono text-xs font-bold uppercase",
                           i <= active
                             ? "text-text-on-dark/70"
                             : "text-text-on-dark/35",

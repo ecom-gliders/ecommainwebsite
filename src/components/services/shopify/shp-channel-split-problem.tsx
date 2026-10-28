@@ -33,7 +33,7 @@ export function ShpChannelSplitProblem({
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Channel gap
         </p>
         <h2
@@ -62,7 +62,7 @@ export function ShpChannelSplitProblem({
                 aria-selected={mode === tab.id}
                 onClick={() => setMode(tab.id)}
                 className={cn(
-                  "px-4 py-3 font-mono text-[10px] font-bold uppercase tracking-[0.1em] transition-colors sm:text-[11px]",
+                  "px-4 py-3 font-mono text-xs font-bold uppercase tracking-[0.1em] transition-colors sm:text-xs",
                   mode === tab.id
                     ? "bg-accent text-primary"
                     : "bg-[#161614] text-text-on-dark/70 hover:bg-[#1a1a17]",
@@ -94,7 +94,7 @@ export function ShpChannelSplitProblem({
                     ))}
                   </div>
                   <div className="h-8 w-full bg-text-on-dark/15" />
-                  <p className="font-mono text-[9px] font-bold uppercase text-text-on-dark/40">
+                  <p className="font-mono text-xs font-bold uppercase text-text-on-dark/40">
                     Marketplace template
                   </p>
                 </div>
@@ -110,7 +110,7 @@ export function ShpChannelSplitProblem({
                       />
                     ))}
                   </div>
-                  <span className="mt-4 inline-flex h-8 items-center border-2 border-accent bg-accent px-3 font-mono text-[9px] font-black uppercase text-primary">
+                  <span className="mt-4 inline-flex h-8 items-center border-2 border-accent bg-accent px-3 font-mono text-xs font-black uppercase text-primary">
                     Shop collection
                   </span>
                 </div>
@@ -126,7 +126,7 @@ export function ShpChannelSplitProblem({
                     mode === "owned" && "bg-[#141412]",
                   )}
                 >
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     {mode === "amazon" ? "Risk" : "Gain"}{" "}
                     {String(index + 1).padStart(2, "0")}
                   </p>

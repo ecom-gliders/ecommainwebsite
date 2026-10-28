@@ -74,7 +74,7 @@ export function SrcLaneHero({ service, site }: SrcLaneHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-start lg:gap-7">
           <div className="flex min-w-0 flex-col">
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
               Gated supply corridor
             </p>
             <h1
@@ -92,7 +92,7 @@ export function SrcLaneHero({ service, site }: SrcLaneHeroProps) {
               aria-label="Supply route lane map"
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-2.5 py-1.5 sm:px-3">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                   Research → Sample → QC → Ship
                 </p>
                 <p className="font-mono text-[8px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
@@ -129,7 +129,7 @@ export function SrcLaneHero({ service, site }: SrcLaneHeroProps) {
                         <h2 className="truncate text-[13px] font-black leading-tight text-text-on-dark">
                           {corridor.label}
                         </h2>
-                        <p className="truncate text-[10px] font-medium text-text-on-dark/55">
+                        <p className="truncate text-xs font-medium text-text-on-dark/55">
                           {corridor.detail}
                         </p>
                       </div>

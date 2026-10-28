@@ -42,7 +42,7 @@ export function ShpFaq({ service }: ShpFaqProps) {
       aria-labelledby="service-faq-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Storefront FAQ
         </p>
         <h2
@@ -101,7 +101,7 @@ export function ShpFaq({ service }: ShpFaqProps) {
                       : "bg-[#0c0c0b] hover:bg-[#141412]",
                   )}
                 >
-                  <span className="mt-0.5 font-mono text-[10px] font-bold text-accent">
+                  <span className="mt-0.5 font-mono text-xs font-bold text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="min-w-0 flex-1 text-base font-black text-text-on-dark sm:text-lg">
@@ -109,7 +109,7 @@ export function ShpFaq({ service }: ShpFaqProps) {
                   </span>
                   <span
                     className={cn(
-                      "mt-1 flex h-5 w-5 shrink-0 items-center justify-center border border-accent font-mono text-[12px] font-bold text-accent transition-transform",
+                      "mt-1 flex h-5 w-5 shrink-0 items-center justify-center border border-accent font-mono text-xs font-bold text-accent transition-transform",
                       isOpen && "rotate-45",
                     )}
                     aria-hidden="true"

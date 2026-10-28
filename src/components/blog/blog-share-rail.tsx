@@ -70,7 +70,7 @@ const railShellClass =
   "grid w-full grid-cols-4 gap-1.5 border-2 border-primary bg-background p-2 shadow-[3px_3px_0_0_#131311]";
 
 const menuCardClass =
-  "flex w-full flex-col items-center justify-center gap-1.5 border-2 border-primary bg-background px-2 py-3 text-center text-[11px] font-semibold text-primary shadow-[2px_2px_0_0_#131311] hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+  "flex w-full flex-col items-center justify-center gap-1.5 border-2 border-primary bg-background px-2 py-3 text-center text-xs font-semibold text-primary shadow-[2px_2px_0_0_#131311] hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
 
 export function BlogShareRail({
   url,
@@ -357,7 +357,7 @@ export function BlogShareRail({
           : "w-full"
       }
     >
-      <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-text-secondary">
+      <p className="mb-2 text-xs font-semibold uppercase tracking-[0.14em] text-text-secondary">
         Share
       </p>
       <div className={railShellClass}>

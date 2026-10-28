@@ -76,8 +76,8 @@ function TocList({
                 <span
                   className={
                     isActive
-                      ? "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center bg-primary text-[11px] font-bold text-text-on-dark"
-                      : "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center border border-border text-[11px] font-semibold text-text-secondary"
+                      ? "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center bg-primary text-xs font-bold text-text-on-dark"
+                      : "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center border border-border text-xs font-semibold text-text-secondary"
                   }
                   aria-hidden="true"
                 >
@@ -154,8 +154,8 @@ export function BlogTableOfContents({
   );
 
   return (
-    <>
-      <details className="mb-8 border-2 border-primary bg-surface p-3 shadow-[3px_3px_0_0_#131311] lg:hidden">
+    <div className="min-w-0">
+      <details className="mb-8 border-2 border-primary bg-surface p-3 shadow-[3px_3px_0_0_#131311] xl:hidden">
         <summary className="cursor-pointer text-small font-semibold text-text-primary">
           Table of contents
         </summary>
@@ -170,7 +170,7 @@ export function BlogTableOfContents({
         ) : null}
       </details>
 
-      <aside className="hidden lg:block">
+      <aside className="hidden xl:block">
         <div className="sticky top-28 flex max-h-[calc(100vh-7.5rem)] flex-col gap-3">
           <nav
             aria-label="Table of contents"
@@ -186,6 +186,6 @@ export function BlogTableOfContents({
           {showRailCta ? <BlogTocRailCta href={ctaHref} /> : null}
         </div>
       </aside>
-    </>
+    </div>
   );
 }

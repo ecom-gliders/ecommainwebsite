@@ -16,6 +16,8 @@ import type {
   FreeAuditPageConfig,
 } from "./schemas/form-page.schema";
 import type { LegalPageConfig } from "./schemas/legal-page.schema";
+import type { AgencyPartnershipPageConfig } from "./schemas/agency-partnership.schema";
+import type { CareersPageConfig } from "./schemas/careers-page.schema";
 
 export interface ContentRepository {
   getSiteConfig(): Promise<SiteConfig>;
@@ -32,6 +34,8 @@ export interface ContentRepository {
   getContactPage(): Promise<ContactPageConfig>;
   getFreeAuditPage(): Promise<FreeAuditPageConfig>;
   getAboutPage(): Promise<AboutPageConfig>;
+  getAgencyPartnershipPage(): Promise<AgencyPartnershipPageConfig>;
+  getCareersPage(): Promise<CareersPageConfig>;
   getPrivacyPage(): Promise<LegalPageConfig>;
   getTermsPage(): Promise<LegalPageConfig>;
   getTestimonials(): Promise<TestimonialConfig[]>;

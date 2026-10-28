@@ -133,7 +133,7 @@ export function TestimonialsSection({ id, data }: TestimonialsSectionProps) {
       <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-3xl">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
               {eyebrow}
             </p>
           ) : null}

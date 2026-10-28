@@ -1,93 +1,127 @@
 {
   "seo": {
     "metaTitle": "Terms and Conditions | eCom Gliders",
-    "metaDescription": "Terms and conditions for using the eCom Gliders website and Amazon agency services, including payments, refunds, ownership, and cancellations.",
+    "metaDescription": "Terms for using the eCom Gliders website and Amazon agency services, including client responsibilities, payments, refunds, ownership, and cancellation.",
     "canonical": "/terms-conditions/",
     "robots": { "index": true, "follow": true }
   },
   "eyebrow": "Legal",
   "h1": "Terms and Conditions",
   "dateLabel": "Last updated",
-  "dateValue": "10 April 2025",
-  "intro": "Welcome to eCom Gliders. By continuing to browse or use this website, you agree to follow the terms below. These terms exist to keep work clear and transparent for both you and us.",
+  "dateValue": "28 October 2026",
+  "intro": "These Terms and Conditions (\"Terms\") govern your use of the eCom Gliders website and the Amazon-related services offered by eCom Gliders LLC (\"eCom Gliders,\" \"we,\" \"us,\" or \"our\"). By browsing the site, submitting a form, accepting a proposal or invoice, or paying for services, you agree to these Terms. If you do not agree, do not use the site or engage our services.",
   "sections": [
     {
-      "heading": "What we offer",
+      "heading": "1. Agreement and parties",
       "paragraphs": [
-        "We provide Amazon-related services, including PPC management, listing optimization, branding, creative strategy, and related account work. Services listed on our website reflect what we currently offer. You can review the full list on our Services page."
+        "These Terms apply to website visitors and to clients who purchase or receive services from eCom Gliders. Where a signed proposal, statement of work, quote, or invoice sets specific commercial terms (fees, scope, timeline), that document and these Terms together form the agreement. If there is a direct conflict on fees or scope, the accepted proposal or invoice controls for that engagement; these Terms control on all other topics unless we agree otherwise in writing."
       ]
     },
     {
-      "heading": "Using our services",
+      "heading": "2. Services we provide",
       "paragraphs": [
-        "To work together successfully, we need your cooperation. You agree to:"
+        "eCom Gliders provides Amazon-focused agency services, which may include PPC and advertising management, listing optimization, content and creative support, catalog work, account operations, reporting, and related consulting. The services available may change over time. The current service list is described on our Services pages. The exact deliverables for your engagement are defined in the applicable proposal, statement of work, or written agreement."
+      ]
+    },
+    {
+      "heading": "3. Client responsibilities",
+      "paragraphs": [
+        "Successful delivery depends on timely cooperation. You agree to:"
       ],
       "bullets": [
-        "Share access to any necessary Amazon accounts or tools",
-        "Respond to communication in a timely manner",
-        "Understand that we are not responsible for Amazon’s internal actions (such as account suspensions or algorithm changes)"
+        "Provide accurate business information and maintain authority to grant access to Amazon Seller Central, Amazon Ads, and related tools",
+        "Grant and maintain the access we reasonably need to perform the services, and notify us promptly of access changes",
+        "Respond to requests for information, approvals, and feedback within a reasonable time",
+        "Ensure product, listing, advertising, and brand materials you supply comply with Amazon policies and applicable law",
+        "Understand that Amazon platform decisions, policy updates, and algorithm changes are outside our control"
       ]
     },
     {
-      "heading": "Payments and fees",
-      "paragraphs": [],
-      "bullets": [
-        "All payment terms will be outlined in your invoice or discussed before a project starts",
-        "Payments must be made on time — late payments may result in a pause in service",
-        "If your project is paused due to late payment, missing documents, or account access delays, a $100 reactivation fee may apply",
-        "All purchases made through our website are non-refundable. Please contact us if you have questions before placing an order"
-      ]
-    },
-    {
-      "heading": "Refunds",
+      "heading": "4. Payments and fees",
       "paragraphs": [
-        "Payments for our services (including one-time or automatically recurring charges) are non-refundable. Once payment is made, no refunds will be issued under any circumstances.",
-        "If you wish to cancel a subscription or recurring service, you must notify us at least 24 hours before the next billing cycle. Cancellations requested after a charge has been processed will not qualify for a refund.",
-        "We encourage you to contact us in advance if you have questions about which service best suits your needs."
-      ]
-    },
-    {
-      "heading": "Our work and ownership",
-      "paragraphs": [
-        "Until your payment is complete, all creatives, copy, and strategies we develop remain our property. Once full payment is made, you own the final delivered materials — unless we have agreed otherwise.",
-        "Do not share, reuse, or resell our work without our permission."
-      ]
-    },
-    {
-      "heading": "Privacy and confidentiality",
-      "paragraphs": [
-        "We take your privacy seriously. Any information you share with us is kept confidential and will only be used to complete your services. We will never sell your data or use it outside of your project."
-      ]
-    },
-    {
-      "heading": "No guarantees",
-      "paragraphs": [
-        "We work to deliver strong results, but due to the changing nature of Amazon, we cannot guarantee specific outcomes.",
-        "We are not liable for:"
+        "Fees, billing cadence, and payment methods are stated in your invoice, proposal, or written agreement before work begins or continues."
       ],
       "bullets": [
-        "Lost sales or profits",
-        "Account issues caused by Amazon’s internal policies",
-        "Third-party tool delays or errors"
+        "Payments are due according to the schedule on your invoice or agreement",
+        "Late payment may result in pause or suspension of services until the account is current",
+        "If services are paused because of late payment, missing documents, or delayed account access, a $100 reactivation fee may apply before work resumes",
+        "Website purchases and prepaid packages are non-refundable as described in the Refunds section",
+        "Payment processing may be handled by third-party processors such as Stripe; card data is handled by those processors under their terms"
       ]
     },
     {
-      "heading": "Canceling services",
+      "heading": "5. Refunds",
       "paragraphs": [
-        "You or we can end a project with written notice (for example, 14 days). If you cancel early, any unpaid work up to that point will still be billed.",
-        "We may also pause or stop service if these terms are violated or if payment is not received."
+        "Payments for eCom Gliders services, including one-time fees and automatically recurring charges, are non-refundable once processed. No refunds are issued for work that has started or been delivered.",
+        "To cancel a subscription or recurring service before the next charge, notify us at least 24 hours before the next billing cycle. Cancellations requested after a charge has already processed do not qualify for a refund for that cycle.",
+        "If you are unsure which service fits your needs, contact us before purchasing or renewing."
       ]
     },
     {
-      "heading": "Updates to these terms",
+      "heading": "6. Term and cancellation",
       "paragraphs": [
-        "These Terms and Conditions may be updated from time to time. Any changes will be posted on this page."
+        "Either party may end an ongoing engagement by providing written notice (for example by email). Unless a different notice period is stated in your proposal or agreement, a 14-day written notice period applies for recurring services.",
+        "If you cancel early, you remain responsible for fees for work performed and fees accrued through the effective cancellation date. We may pause or end services immediately if these Terms are materially breached, if required access is withdrawn, or if payment remains outstanding after notice.",
+        "On ending an engagement, we will reasonably cooperate to hand back access and materials that belong to you, subject to payment of undisputed amounts owed."
       ]
     },
     {
-      "heading": "Need help?",
+      "heading": "7. Intellectual property and deliverables",
       "paragraphs": [
-        "If you have questions about anything on this page, contact us using the details below."
+        "Until your applicable fees are paid in full, creatives, copy, strategies, templates, and work product we create for the engagement remain our property. After full payment for the relevant deliverables, you own the final client-specific materials delivered to you, except for our pre-existing tools, frameworks, processes, and generic templates, which remain eCom Gliders property.",
+        "You may use paid deliverables for your brand's Amazon and related commerce channels. You may not resell, redistribute, or reuse our unpaid work, internal tools, or frameworks as a competing agency offering without our written permission.",
+        "With your approval, we may reference your brand name, logo, and publicly available results in case studies or marketing. You may withdraw that approval for future use by written notice."
+      ]
+    },
+    {
+      "heading": "8. Confidentiality",
+      "paragraphs": [
+        "Each party agrees to keep the other party's non-public business information confidential and to use it only to perform under the engagement. Confidential information does not include information that is public through no fault of the receiving party, already known without duty of confidentiality, independently developed, or required to be disclosed by law (with notice where legally allowed).",
+        "We do not sell your confidential business data. Our Privacy Policy describes how personal information is handled."
+      ]
+    },
+    {
+      "heading": "9. No guarantee of results",
+      "paragraphs": [
+        "We provide services using professional judgment and commercially reasonable efforts. Amazon marketplaces, advertising auctions, consumer demand, inventory, pricing, and competition change frequently. We do not guarantee specific sales, ACOS, ranking, ROAS, or other outcomes.",
+        "We are not liable for losses arising from Amazon or other platform decisions, policy enforcement, account health actions, algorithm changes, outages, or third-party tool limitations. You remain responsible for your products, claims, compliance, and account standing."
+      ]
+    },
+    {
+      "heading": "10. Limitation of liability",
+      "paragraphs": [
+        "To the fullest extent permitted by law, eCom Gliders is not liable for indirect, incidental, special, consequential, or punitive damages, including lost profits, lost revenue, lost data, or business interruption, even if advised of the possibility of such damages.",
+        "Our total aggregate liability arising out of or related to the website or any service engagement will not exceed the fees you actually paid to eCom Gliders for the specific services giving rise to the claim during the three months before the event. Some jurisdictions do not allow certain limitations; in those cases, our liability is limited to the maximum extent permitted by law."
+      ]
+    },
+    {
+      "heading": "11. Website use",
+      "paragraphs": [
+        "You may use the website for lawful purposes only. You may not attempt to disrupt the site, scrape content in a way that harms operations, misrepresent your identity in forms, or use site content to build a competing service without permission. Website content is provided for general information and does not create a client relationship by itself."
+      ]
+    },
+    {
+      "heading": "12. Non-solicitation",
+      "paragraphs": [
+        "During an active engagement and for twelve months afterward, you agree not to solicit for employment any eCom Gliders employee who substantially worked on your account, except through a general public job posting not targeted at that person. This does not restrict hiring where prohibited by applicable law."
+      ]
+    },
+    {
+      "heading": "13. Governing law",
+      "paragraphs": [
+        "These Terms are governed by the laws of the State of New Mexico, without regard to conflict-of-law rules that would require another jurisdiction's laws. Courts located in New Mexico will have exclusive jurisdiction over disputes arising from these Terms or the services, except that we may seek injunctive relief in any court of competent jurisdiction to protect intellectual property or confidential information."
+      ]
+    },
+    {
+      "heading": "14. Changes to these Terms",
+      "paragraphs": [
+        "We may update these Terms from time to time by posting a revised version on this page with an updated date. Continued use of the website after posting constitutes acceptance of the revised Terms for site use. For active paid engagements, material changes that adversely affect your rights will apply as stated in written notice, or you may cancel under the cancellation section before the changes take effect for that engagement."
+      ]
+    },
+    {
+      "heading": "15. Contact",
+      "paragraphs": [
+        "Questions about these Terms can be sent to eCom Gliders using the contact details below."
       ]
     }
   ],

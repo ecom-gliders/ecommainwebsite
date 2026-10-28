@@ -59,7 +59,7 @@ export function BlogPreviewSection({ id, data }: BlogPreviewSectionProps) {
                   {date ? (
                     <time
                       dateTime={date}
-                      className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary"
+                      className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary"
                     >
                       {formatPublishedDate(date)}
                     </time>

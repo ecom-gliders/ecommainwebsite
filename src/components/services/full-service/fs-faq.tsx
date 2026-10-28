@@ -43,7 +43,7 @@ export function FsFaq({ service }: FsFaqProps) {
               key={node.label}
               className="relative border-2 border-primary bg-[#F4F4F4] px-3 py-3"
             >
-              <span className="font-mono text-[10px] font-bold text-text-secondary">
+              <span className="font-mono text-xs font-bold text-text-secondary">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <p className="mt-1 text-sm font-black text-primary">{node.label}</p>

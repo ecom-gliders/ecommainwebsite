@@ -68,7 +68,7 @@ export function BrowserMockupChart({
         <p
           className={cn(
             "font-medium text-text-primary",
-            compact ? "text-[10px]" : "text-xs",
+            compact ? "text-xs" : "text-xs",
           )}
         >
           {chartLabel}
@@ -76,7 +76,7 @@ export function BrowserMockupChart({
         <p
           className={cn(
             "text-text-primary",
-            compact ? "text-[10px]" : "text-xs",
+            compact ? "text-xs" : "text-xs",
           )}
         >
           <span className="font-semibold">{lastDataPoint.value}</span>
@@ -140,7 +140,7 @@ export function BrowserMockupChart({
       <div
         className={cn(
           "flex justify-between text-text-secondary",
-          compact ? "mt-1 px-0.5 text-[9px]" : "mt-1.5 px-0.5 text-[10px]",
+          compact ? "mt-1 px-0.5 text-xs" : "mt-1.5 px-0.5 text-xs",
         )}
       >
         <span>{points[0]?.label}</span>

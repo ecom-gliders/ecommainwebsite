@@ -48,7 +48,7 @@ export function ShpClose({ service }: ShpCloseProps) {
         >
           <div className="flex flex-col gap-4 border-2 border-primary bg-[#FAFAF7] p-5 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:p-6">
             <div className="min-w-0 flex-1">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Project consult
               </p>
               <h2

@@ -25,7 +25,7 @@ function isOptimizable(src: string): boolean {
 function Side({ side }: { side: MediaCompareSide }) {
   return (
     <div className="border-2 border-primary bg-background p-4 shadow-[3px_3px_0_0_#131311]">
-      <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+      <p className="mb-3 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
         {side.label}
       </p>
       {side.imageSrc ? (

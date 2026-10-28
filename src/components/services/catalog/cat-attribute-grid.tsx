@@ -67,7 +67,7 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
                 />
               </div>
               <div className="p-3">
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-1 text-sm font-black leading-snug text-text-on-dark">
@@ -87,7 +87,7 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
               <tr className="border-b-2 border-accent bg-[#1a1a18]">
                 <th
                   scope="col"
-                  className="p-3 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-accent"
+                  className="p-3 font-mono text-xs font-bold uppercase tracking-[0.08em] text-accent"
                 >
                   Coverage map
                 </th>
@@ -95,7 +95,7 @@ export function CatAttributeGrid({ service }: CatAttributeGridProps) {
                   <th
                     key={axis}
                     scope="col"
-                    className="border-l border-accent/30 p-2 text-center font-mono text-[8px] font-bold uppercase tracking-[0.06em] text-text-on-dark/70 [writing-mode:vertical-rl] sm:[writing-mode:horizontal-tb] sm:text-[9px]"
+                    className="border-l border-accent/30 p-2 text-center font-mono text-[8px] font-bold uppercase tracking-[0.06em] text-text-on-dark/70 [writing-mode:vertical-rl] sm:[writing-mode:horizontal-tb] sm:text-xs"
                   >
                     {axis}
                   </th>

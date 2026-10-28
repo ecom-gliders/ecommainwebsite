@@ -39,7 +39,7 @@ function FooterLinkColumn({
     >
       <h3
         id={`footer-${column.id}-heading`}
-        className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-on-dark/50 sm:text-xs"
+        className="text-xs font-bold uppercase tracking-[0.12em] text-text-on-dark/50"
       >
         {column.title}
       </h3>
@@ -49,7 +49,7 @@ function FooterLinkColumn({
             <FooterLink
               link={link}
               tone="onDark"
-              className="inline-flex min-h-11 items-center py-2.5 text-[15px] font-medium leading-snug text-text-on-dark/80 hover:text-accent sm:min-h-10 sm:py-2 sm:text-sm"
+              className="inline-flex min-h-11 items-center py-2.5 text-sm font-medium leading-snug text-text-on-dark/80 hover:text-accent sm:min-h-10 sm:py-2"
             />
           </li>
         ))}

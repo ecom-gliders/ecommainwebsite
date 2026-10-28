@@ -24,10 +24,10 @@ export function LncSellerProof({ service }: LncSellerProofProps) {
       <ServicePageShell>
         <div className="overflow-hidden border-2 border-primary bg-[#0c0c0b]">
           <div className="flex items-center justify-between border-b border-accent/35 px-4 py-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Live Seller window
             </p>
-            <p className="font-mono text-[10px] font-bold text-text-on-dark/45">
+            <p className="font-mono text-xs font-bold text-text-on-dark/45">
               Not a launch guarantee
             </p>
           </div>

@@ -61,7 +61,7 @@ export function VidSprocketAudience({ service }: VidSprocketAudienceProps) {
                     index % 2 === 0 ? "bg-[#1a1a18]" : "bg-[#222220]",
                   )}
                 >
-                  <p className="font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-accent">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                     {stages[index] ?? `Stage ${index + 1}`}
                   </p>
                   <h3 className="mt-2 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -70,7 +70,7 @@ export function VidSprocketAudience({ service }: VidSprocketAudienceProps) {
                   <p className="mt-2 flex-1 text-xs font-medium leading-snug text-text-on-dark/70 sm:text-sm">
                     {point.description}
                   </p>
-                  <p className="mt-3 font-mono text-[9px] font-bold text-text-on-dark/40">
+                  <p className="mt-3 font-mono text-xs font-bold text-text-on-dark/40">
                     Reel {String(index + 1).padStart(2, "0")}
                   </p>
                 </div>

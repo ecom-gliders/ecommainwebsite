@@ -120,7 +120,7 @@ export function ConfigurableForm({
                 htmlFor={fieldId}
                 className={cn(
                   "text-text-primary",
-                  compact ? "text-xs font-medium" : "text-sm",
+                  compact ? "text-sm font-medium" : "text-sm",
                 )}
               >
                 {field.label}
@@ -175,7 +175,7 @@ export function ConfigurableForm({
               )}
 
               {error ? (
-                <p id={errorId} className="text-xs text-error" role="alert">
+                <p id={errorId} className="text-sm text-error" role="alert">
                   {error}
                 </p>
               ) : null}
@@ -205,7 +205,7 @@ export function ConfigurableForm({
             htmlFor={`${formId}-consent`}
             className={cn(
               "font-normal leading-snug text-text-secondary",
-              compact ? "text-xs" : "text-small",
+              compact ? "text-sm" : "text-small",
             )}
           >
             {consentLabel}{" "}
@@ -220,7 +220,7 @@ export function ConfigurableForm({
         {state.fieldErrors?.consent ? (
           <p
             id={`${formId}-consent-error`}
-            className="text-xs text-error"
+            className="text-sm text-error"
             role="alert"
           >
             {state.fieldErrors.consent[0]}
@@ -232,7 +232,7 @@ export function ConfigurableForm({
         {state.message ? (
           <p
             className={cn(
-              "rounded-sm border px-3 py-2 text-xs sm:text-small",
+              "rounded-sm border px-3 py-2 text-sm",
               state.success
                 ? "border-success/30 bg-success/10 text-text-primary"
                 : "border-error/30 bg-error/10 text-text-primary",

@@ -6,7 +6,12 @@
  * Subjects stay form-specific for inbox filtering. Body layout is shared:
  * plain text, labeled lines, empty fields omitted.
  */
-export type FormNotificationType = "contact" | "contact-intake" | "audit";
+export type FormNotificationType =
+  | "contact"
+  | "contact-intake"
+  | "audit"
+  | "agency-partner"
+  | "career-application";
 
 interface FormNotificationPayload {
   formType: FormNotificationType;

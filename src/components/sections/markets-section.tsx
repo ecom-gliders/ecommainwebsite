@@ -49,7 +49,7 @@ export function MarketsSection({ id, data }: MarketsSectionProps) {
     >
       <div className="mx-auto max-w-3xl text-center">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             {eyebrow}
           </p>
         ) : null}
@@ -74,7 +74,7 @@ export function MarketsSection({ id, data }: MarketsSectionProps) {
           <li key={market.code}>
             <span className="inline-flex min-h-11 items-center gap-2.5 rounded-[10px] border-2 border-primary bg-background px-3 py-2 shadow-[3px_3px_0_0_#131311] sm:px-3.5">
               <span
-                className="text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary"
+                className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary"
                 aria-hidden="true"
               >
                 {market.code}

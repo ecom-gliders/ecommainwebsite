@@ -74,7 +74,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
           <div className="mt-6 grid items-center gap-10 lg:grid-cols-12 lg:gap-10">
             <div className="lg:col-span-5">
               {page.hero.eyebrow ? (
-                <p className="inline-flex items-center bg-accent px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
+                <p className="inline-flex items-center bg-accent px-3 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-primary">
                   {page.hero.eyebrow}
                 </p>
               ) : null}
@@ -139,7 +139,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
             {page.stats.map((stat, index) => {
               const inner = (
                 <div className="flex h-full flex-col justify-between gap-3 px-5 py-7 sm:px-6">
-                  <p className="font-mono text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+                  <p className="font-mono text-xs font-bold uppercase tracking-[0.16em] text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </p>
                   <div>
@@ -187,7 +187,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
         <div className="container-page">
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
             <div className="lg:col-span-7">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 Our story
               </p>
               <h2
@@ -220,7 +220,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
 
             <div className="lg:col-span-5">
               <div className="h-full border-2 border-primary bg-surface-muted p-6 sm:p-8">
-                <h3 className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+                <h3 className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                   {page.timeline.heading}
                 </h3>
                 <ol className="relative mt-8 space-y-0">
@@ -266,7 +266,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
         <div className="container-page">
           <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.25fr)] lg:gap-12 xl:gap-16">
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 Operating principles
               </p>
               <h2
@@ -346,7 +346,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
       >
         <div className="container-page">
           <div className="max-w-2xl">
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
               Growth framework
             </p>
             <h2
@@ -426,7 +426,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
         <div className="container-page">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-xl">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 The people
               </p>
               <h2
@@ -472,7 +472,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
                     )}
                   </div>
                   <div className="flex flex-1 flex-col justify-end p-6 sm:p-7">
-                    <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                    <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                       {member.role}
                     </p>
                     <h3 className="mt-2 text-2xl font-bold tracking-tight text-text-primary">
@@ -515,7 +515,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
                     <h3 className="text-lg font-bold text-text-primary">
                       {member.name}
                     </h3>
-                    <p className="mt-1 text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="mt-1 text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       {member.role}
                     </p>
                     <p className="mt-2 text-sm font-medium leading-relaxed text-text-secondary">
@@ -538,7 +538,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
         <div className="container-page">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-xl">
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 Proof
               </p>
               <h2
@@ -579,7 +579,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
                         reverse ? "md:order-2 md:border-l-2" : "md:border-r-2",
                       )}
                     >
-                      <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+                      <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
                         {item.client}
                       </p>
                       <p className="mt-4 text-[clamp(2.5rem,6vw,3.75rem)] font-bold leading-none tracking-tight">
@@ -653,7 +653,7 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
       >
         <div className="container-page">
           <div className="max-w-xl">
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               FAQ
             </p>
             <h2

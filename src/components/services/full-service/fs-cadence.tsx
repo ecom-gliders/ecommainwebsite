@@ -44,7 +44,7 @@ export function FsCadence({ service }: FsCadenceProps) {
                 index > 0 && "border-t-2 border-primary sm:border-l-2 sm:border-t-0",
               )}
             >
-              <span className="inline-flex border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
+              <span className="inline-flex border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary">
                 {phase.marker}
               </span>
               <h3 className="mt-4 text-lg font-black tracking-tight text-primary">

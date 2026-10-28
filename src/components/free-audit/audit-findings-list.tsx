@@ -37,7 +37,7 @@ export function AuditFindingsList({ findings }: AuditFindingsListProps) {
           >
             <span
               className={cn(
-                "inline-flex h-8 w-fit items-center px-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em]",
+                "inline-flex h-8 w-fit items-center px-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em]",
                 item.severity === "high" && "bg-accent text-primary",
                 item.severity === "medium" &&
                   "border border-accent/50 text-accent",

@@ -82,7 +82,7 @@ export function CreativeShowcaseSection({
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
           <div className="max-w-2xl">
             {eyebrow ? (
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-white/55 sm:text-xs">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-white/55">
                 {eyebrow}
               </p>
             ) : null}
@@ -157,7 +157,7 @@ export function CreativeShowcaseSection({
                     aria-pressed={isActive}
                     aria-label={label}
                     className={cn(
-                      "inline-flex min-h-12 items-center gap-2 rounded-[10px] border px-3.5 py-2.5 text-left text-[11px] font-bold uppercase tracking-[0.08em] transition-colors duration-200 sm:px-4 sm:text-xs",
+                      "inline-flex min-h-12 items-center gap-2 rounded-[10px] border px-3.5 py-2.5 text-left text-xs font-bold uppercase tracking-[0.08em] transition-colors duration-200 sm:px-4",
                       "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-[#2A2A27]",
                       isActive || isHovered
                         ? "border-accent bg-accent text-primary"

@@ -27,7 +27,7 @@ export function InvGrowthShots({ service }: InvGrowthShotsProps) {
       aria-labelledby="service-growth-proof-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Peak demand windows
         </p>
         <h2

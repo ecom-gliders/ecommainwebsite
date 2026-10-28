@@ -22,7 +22,7 @@ export function BlogIndexTopicStacks({ topics }: BlogIndexTopicStacksProps) {
     >
       <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
             Browse by topic
           </p>
           <h2
@@ -84,7 +84,7 @@ export function BlogIndexTopicStacks({ topics }: BlogIndexTopicStacksProps) {
                     <div className="min-w-0">
                       <time
                         dateTime={post.publishedAt}
-                        className="text-[12px] text-text-secondary"
+                        className="text-xs text-text-secondary"
                       >
                         {formatPublishedDate(post.publishedAt)}
                       </time>

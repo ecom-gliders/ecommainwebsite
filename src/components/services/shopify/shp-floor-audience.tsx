@@ -65,7 +65,7 @@ export function ShpFloorAudience({ service }: ShpFloorAudienceProps) {
       aria-labelledby="service-audience-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Store floors
         </p>
         <h2
@@ -108,7 +108,7 @@ export function ShpFloorAudience({ service }: ShpFloorAudienceProps) {
                   </span>
                   <span
                     className={cn(
-                      "mt-0.5 block font-mono text-[9px] font-bold uppercase tracking-[0.08em]",
+                      "mt-0.5 block font-mono text-xs font-bold uppercase tracking-[0.08em]",
                       active === index
                         ? "text-text-on-dark/55"
                         : "text-text-secondary",
@@ -127,7 +127,7 @@ export function ShpFloorAudience({ service }: ShpFloorAudienceProps) {
             aria-label={`Floor ${current.floor}: ${current.title}`}
           >
             <div className="flex items-center justify-between gap-3 border-b-2 border-primary bg-primary px-4 py-3">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Floor {current.floor} · {current.wireLabel}
               </p>
               <ul className="flex gap-1" aria-hidden="true">
@@ -161,7 +161,7 @@ export function ShpFloorAudience({ service }: ShpFloorAudienceProps) {
                         i === 0 ? "bg-accent" : "bg-[#FAFAF7]",
                       )}
                     >
-                      <span className="font-mono text-[10px] font-bold text-primary/50">
+                      <span className="font-mono text-xs font-bold text-primary/50">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <span className="text-sm font-bold text-primary">{block}</span>
@@ -180,7 +180,7 @@ export function ShpFloorAudience({ service }: ShpFloorAudienceProps) {
                 className="border-t-2 border-primary bg-[#0c0c0b] p-4 sm:border-l-2 sm:border-t-0"
                 aria-hidden="true"
               >
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Live wire
                 </p>
                 <div className="mt-3 space-y-2">

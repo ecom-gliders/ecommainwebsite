@@ -121,7 +121,7 @@ export default async function BlogIndexPage({ searchParams }: BlogIndexPageProps
         >
           <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
             <div>
-              <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                 {isSearch ? "Search results" : isFirstPage ? "All articles" : "Archive"}
               </p>
               <h2

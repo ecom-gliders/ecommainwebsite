@@ -39,7 +39,7 @@ export function DspClose({ service }: DspCloseProps) {
                     className="flex h-full flex-col border-2 border-primary bg-[#F4F4F4] p-4 hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                   >
                     <span
-                      className="font-mono text-[10px] font-bold text-text-secondary"
+                      className="font-mono text-xs font-bold text-text-secondary"
                       aria-hidden="true"
                     >
                       Ring {String(index + 1).padStart(2, "0")}

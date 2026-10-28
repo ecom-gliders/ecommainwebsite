@@ -53,7 +53,7 @@ function MobileNavLink({
     <span className="flex min-w-0 items-center gap-2">
       <span className="leading-snug">{label}</span>
       {featured ? (
-        <span className="shrink-0 rounded-[3px] bg-accent px-1.5 py-0.5 text-[0.65rem] font-bold uppercase tracking-wide text-primary">
+        <span className="shrink-0 rounded-[3px] bg-accent px-1.5 py-0.5 text-xs font-bold uppercase tracking-wide text-primary">
           Featured
         </span>
       ) : null}
@@ -150,7 +150,13 @@ export function MobileNav({ navigation, site, className }: MobileNavProps) {
                             label={
                               item.id === "services"
                                 ? "All services"
-                                : `View all ${item.label.toLowerCase()}`
+                                : item.id === "company"
+                                  ? "About us"
+                                  : item.id === "case-studies"
+                                    ? "All case studies"
+                                    : item.id === "blog"
+                                      ? "All articles"
+                                      : `View all ${item.label.toLowerCase()}`
                             }
                             onNavigate={closeMenu}
                             className="font-semibold text-link hover:text-link-hover"

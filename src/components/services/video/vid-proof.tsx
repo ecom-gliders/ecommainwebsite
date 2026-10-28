@@ -49,10 +49,10 @@ export function VidProof({ service }: VidProofProps) {
                 className="group flex h-full flex-col overflow-hidden border-2 border-primary bg-[#F7F3EA] hover:bg-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
               >
                 <div className="flex items-center justify-between border-b-2 border-primary bg-primary px-4 py-2">
-                  <span className="font-mono text-[10px] font-bold text-accent">
+                  <span className="font-mono text-xs font-bold text-accent">
                     CASE {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-mono text-[10px] font-bold text-text-on-dark/50">
+                  <span className="font-mono text-xs font-bold text-text-on-dark/50">
                     00:00 / still + A+
                   </span>
                 </div>
@@ -75,7 +75,7 @@ export function VidProof({ service }: VidProofProps) {
                   <p className="mt-3 flex-1 text-sm font-medium leading-snug text-text-secondary">
                     {item.description}
                   </p>
-                  <span className="mt-4 inline-flex w-fit border-2 border-primary bg-accent px-2 py-1 font-mono text-[10px] font-black uppercase text-primary">
+                  <span className="mt-4 inline-flex w-fit border-2 border-primary bg-accent px-2 py-1 font-mono text-xs font-black uppercase text-primary">
                     Open case study
                   </span>
                 </div>

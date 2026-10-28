@@ -102,7 +102,7 @@ export function BrdSealHero({ service, site }: BrdSealHeroProps) {
               className="mt-4 flex min-h-[20rem] flex-1 flex-col border-2 border-primary bg-[#FAF6EF] p-4 shadow-[4px_4px_0_0_#131311] sm:p-5 lg:min-h-0"
               aria-label="Brand Registry pathway seals"
             >
-              <p className="shrink-0 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+              <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                 {urlLabel}
               </p>
 
@@ -121,7 +121,7 @@ export function BrdSealHero({ service, site }: BrdSealHeroProps) {
                   >
                     <span
                       className={cn(
-                        "relative z-[1] flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-primary font-mono text-[10px] font-black sm:h-10 sm:w-10",
+                        "relative z-[1] flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-primary font-mono text-xs font-black sm:h-10 sm:w-10",
                         stage.state === "done" && "bg-accent text-primary",
                         stage.state === "current" &&
                           "bg-background text-primary ring-2 ring-accent ring-offset-2 ring-offset-[#FAF6EF]",
@@ -149,7 +149,7 @@ export function BrdSealHero({ service, site }: BrdSealHeroProps) {
                         </h2>
                         <span
                           className={cn(
-                            "border border-primary/40 px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.06em]",
+                            "border border-primary/40 px-1.5 py-0.5 font-mono text-xs font-bold uppercase tracking-[0.06em]",
                             stage.state === "done" && "border-primary bg-accent/40 text-primary",
                             stage.state === "current" && "border-primary bg-background text-primary",
                             stage.state === "upcoming" &&

@@ -65,7 +65,7 @@ export function BlogAskAi({ title, url, site }: BlogAskAiProps) {
         </span>
         <h2
           id="blog-ask-ai-heading"
-          className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary"
+          className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary"
         >
           Ask AI
         </h2>
@@ -93,7 +93,7 @@ export function BlogAskAi({ title, url, site }: BlogAskAiProps) {
                 decoding="async"
               />
             ) : (
-              <span className="text-[10px] font-bold text-primary">
+              <span className="text-xs font-bold text-primary">
                 {action.label.slice(0, 2)}
               </span>
             )}

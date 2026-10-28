@@ -1,3 +1,4 @@
+import { FreeAuditFunnelHost } from "@/components/free-audit/free-audit-funnel-host";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 
@@ -7,7 +8,7 @@ export default function MarketingLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <>
+    <FreeAuditFunnelHost>
       <SiteHeader />
       {/* Page ink CTA: join footer chrome, hide duplicate PreFooterCta punch strip */}
       <div
@@ -19,6 +20,6 @@ export default function MarketingLayout({
         {children}
         <SiteFooter />
       </div>
-    </>
+    </FreeAuditFunnelHost>
   );
 }

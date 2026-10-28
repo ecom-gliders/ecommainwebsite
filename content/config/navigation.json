@@ -17,9 +17,9 @@
         "href": "/case-studies/"
       },
       {
-        "id": "about",
-        "label": "About",
-        "type": "link",
+        "id": "company",
+        "label": "Company",
+        "type": "megaMenu",
         "href": "/about-us/"
       },
       {
@@ -354,6 +354,67 @@
           "tel": "+13606601210"
         }
       }
+    },
+    "company": {
+      "compact": true,
+      "columns": [
+        {
+          "id": "about-eg",
+          "title": "About eCom Gliders",
+          "links": [
+            {
+              "label": "About us",
+              "href": "/about-us/",
+              "description": "Team, markets, and how we work"
+            },
+            {
+              "label": "Agency Partnership",
+              "href": "/agency-partnership/",
+              "description": "White-label, referral, and co-manage for agencies"
+            }
+          ]
+        },
+        {
+          "id": "work-with-us",
+          "title": "Work with us",
+          "links": [
+            {
+              "label": "Careers",
+              "href": "/careers/",
+              "description": "In-house Amazon roles — selective hiring"
+            },
+            {
+              "label": "Contact",
+              "href": "/contact/",
+              "description": "Message, strategy intake, or call"
+            },
+            {
+              "label": "Free Audit",
+              "href": "/free-audit/",
+              "description": "For Amazon brands seeking help"
+            },
+            {
+              "label": "Case Studies",
+              "href": "/case-studies/",
+              "description": "Client results and outcomes"
+            }
+          ]
+        }
+      ],
+      "ctaPanel": {
+        "eyebrow": "Agencies",
+        "metric": "Selective partner cohort",
+        "title": "Need Amazon capacity for your clients?",
+        "body": "Complementary agencies can apply for white-label, referral, or co-managed delivery.",
+        "button": {
+          "label": "Agency Partnership",
+          "href": "/agency-partnership/"
+        },
+        "phone": {
+          "display": "+1 (360) 660-1210",
+          "tel": "+13606601210"
+        }
+      }
     }
   },
   "footer": {
@@ -472,8 +533,16 @@
         "title": "Company",
         "links": [
           {
-            "label": "About",
+            "label": "About us",
             "href": "/about-us/"
+          },
+          {
+            "label": "Agency Partnership",
+            "href": "/agency-partnership/"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers/"
           },
           {
             "label": "Contact",

@@ -58,7 +58,7 @@ export function ScCaseLanes({ service }: ScCaseLanesProps) {
                 </div>
                 <div className="flex flex-wrap items-center gap-3 bg-[#E4E4E0] px-4 py-3">
                   <span
-                    className="font-mono text-[10px] font-bold uppercase text-text-secondary"
+                    className="font-mono text-xs font-bold uppercase text-text-secondary"
                     aria-hidden="true"
                   >
                     Folder {String(index + 1).padStart(2, "0")}
@@ -82,7 +82,7 @@ export function ScCaseLanes({ service }: ScCaseLanesProps) {
                         "border-t-2 border-primary/20 lg:border-t-0 lg:border-l-2 lg:border-primary/20",
                     )}
                   >
-                    <p className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                       {label}
                     </p>
                     <p className="mt-1 text-sm font-medium leading-snug text-primary">

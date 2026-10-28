@@ -39,7 +39,7 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
           surface="onDark"
         />
         <p className="sr-only">{title}</p>
-        <p className="max-w-[18rem] text-[15px] font-medium leading-relaxed text-text-on-dark/70 sm:text-sm">
+        <p className="max-w-[18rem] text-sm font-medium leading-relaxed text-text-on-dark/70">
           {site.tagline}
         </p>
       </div>
@@ -48,7 +48,7 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
       <div className="flex min-w-0 flex-col gap-3">
         {partnerBadge ? (
           <>
-            <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
               Partner
             </p>
             {showPartnerImage ? (
@@ -75,7 +75,7 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
       {/* Col 4 — Follow, outer-right aligned with last directory column */}
       {hasSocial ? (
         <div className="flex min-w-0 flex-col gap-3 sm:col-span-2 md:col-span-1">
-          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
             Follow
           </p>
           <FooterSocialLinks social={site.social} />

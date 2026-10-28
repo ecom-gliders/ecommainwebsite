@@ -11,6 +11,7 @@ import { stripInlineEmoji } from "@/lib/blog/blocks/sanitize/plugins/strip-inlin
 import { stripKeyframesCss } from "@/lib/blog/blocks/sanitize/plugins/strip-keyframes-css";
 import { stripLoneEmojiLines } from "@/lib/blog/blocks/sanitize/plugins/strip-lone-emoji";
 import { stripOrphanCss } from "@/lib/blog/blocks/sanitize/plugins/strip-orphan-css";
+import { stripMigratedTitlePollution } from "@/lib/blog/blocks/sanitize/plugins/strip-migrated-title-pollution";
 import { stripVisualElementsNotes } from "@/lib/blog/blocks/sanitize/plugins/strip-visual-elements-notes";
 import type { SanitizePlugin } from "@/lib/blog/blocks/sanitize/types";
 
@@ -19,6 +20,7 @@ import type { SanitizePlugin } from "@/lib/blog/blocks/sanitize/types";
  * CSS strip runs only after structures become fences.
  */
 export const CONVERT_THEN_CLEAN_PLUGINS: SanitizePlugin[] = [
+  stripMigratedTitlePollution,
   collapseLetterSpacedHeadings,
   convertEmojiFeatureGrid,
   convertNumberedSteps,

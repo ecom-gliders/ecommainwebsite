@@ -47,14 +47,14 @@ export function BrdClose({ service }: BrdCloseProps) {
           )}
         >
           <span
-            className="pointer-events-none absolute -right-6 bottom-4 flex h-20 w-20 rotate-[-8deg] items-center justify-center rounded-full border-2 border-dashed border-primary/25 font-mono text-[10px] font-black uppercase text-primary/25"
+            className="pointer-events-none absolute -right-6 bottom-4 flex h-20 w-20 rotate-[-8deg] items-center justify-center rounded-full border-2 border-dashed border-primary/25 font-mono text-xs font-black uppercase text-primary/25"
             aria-hidden="true"
           >
             Enroll
           </span>
           <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                 Pathway seal · next step
               </p>
               <h2

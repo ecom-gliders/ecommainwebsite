@@ -36,7 +36,7 @@ export function LstCvrChart({ service }: LstCvrChartProps) {
         ) : null}
 
         <div className="mt-8 border-2 border-primary bg-[#F4F4F4] p-4 sm:p-6">
-          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
             {chart.chartLabel}
           </p>
           <ul className="mt-6 flex h-56 items-end justify-around gap-3 sm:h-64 sm:gap-6">

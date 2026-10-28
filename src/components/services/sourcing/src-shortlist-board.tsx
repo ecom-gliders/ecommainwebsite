@@ -35,7 +35,7 @@ export function SrcShortlistBoard({ service }: SrcShortlistBoardProps) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0b1211] via-[#0b1211]/40 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-4">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                 Shortlist terminal
               </p>
               <p className="mt-1 text-sm font-bold text-text-on-dark">
@@ -45,7 +45,7 @@ export function SrcShortlistBoard({ service }: SrcShortlistBoardProps) {
           </aside>
 
           <div className="min-w-0">
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Supplier board
             </p>
             <h2

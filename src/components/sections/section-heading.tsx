@@ -24,7 +24,7 @@ export function SectionHeading({
       {kicker ? (
         <p
           className={cn(
-            "mb-2 text-[11px] font-bold uppercase tracking-[0.16em]",
+            "mb-2 text-xs font-bold uppercase tracking-[0.16em]",
             inverted ? "text-accent" : "text-text-secondary",
           )}
         >

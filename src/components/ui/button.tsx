@@ -12,11 +12,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "rounded-[10px] bg-primary text-[12px] font-bold uppercase tracking-[0.04em] text-text-on-dark hover:bg-accent hover:text-primary h-11 px-5",
+          "rounded-[10px] bg-primary text-xs font-bold uppercase tracking-[0.04em] text-text-on-dark hover:bg-accent hover:text-primary h-11 px-5",
         secondary:
           "h-auto min-h-11 bg-transparent px-1 py-2 text-sm font-medium text-text-primary underline decoration-border-strong underline-offset-4 hover:text-link-hover hover:decoration-accent",
         outlineOnDark:
-          "rounded-[10px] border-2 border-text-on-dark bg-transparent text-[12px] font-bold uppercase tracking-[0.04em] text-text-on-dark hover:bg-white/10 h-11 px-5",
+          "rounded-[10px] border-2 border-text-on-dark bg-transparent text-xs font-bold uppercase tracking-[0.04em] text-text-on-dark hover:bg-white/10 h-11 px-5",
         link: "h-auto bg-transparent p-0 text-link underline-offset-4 hover:text-link-hover hover:underline",
       },
       size: {

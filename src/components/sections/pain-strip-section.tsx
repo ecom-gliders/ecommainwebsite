@@ -82,7 +82,7 @@ export function PainStripSection({ id, data }: PainStripSectionProps) {
         {/* Right: eyebrow + oversized headline */}
         <div className="relative z-10 flex flex-col justify-center px-6 py-10 sm:px-10 sm:py-12 lg:px-12 lg:py-14">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-on-dark/55 sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-on-dark/55">
               {eyebrow}
             </p>
           ) : null}

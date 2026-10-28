@@ -45,10 +45,10 @@ export function CatBuyboxProblem({ service }: CatBuyboxProblemProps) {
         <div className="mt-8 grid gap-0 overflow-hidden border-2 border-accent lg:grid-cols-2">
           <div className="bg-[#1a1a18] p-5 sm:p-6">
             <div className="flex items-center justify-between gap-2">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                 Suppressed SKU
               </p>
-              <span className="border border-text-on-dark/30 px-1.5 py-px font-mono text-[9px] font-bold uppercase text-text-on-dark/60 line-through">
+              <span className="border border-text-on-dark/30 px-1.5 py-px font-mono text-xs font-bold uppercase text-text-on-dark/60 line-through">
                 No buy box path
               </span>
             </div>
@@ -95,10 +95,10 @@ export function CatBuyboxProblem({ service }: CatBuyboxProblemProps) {
 
           <div className="border-t-2 border-accent bg-accent p-5 text-primary sm:p-6 lg:border-t-0 lg:border-l-2">
             <div className="flex items-center justify-between gap-2">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/70">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
                 Buyable SKU
               </p>
-              <span className="border-2 border-primary bg-background px-1.5 py-px font-mono text-[9px] font-black uppercase text-primary">
+              <span className="border-2 border-primary bg-background px-1.5 py-px font-mono text-xs font-black uppercase text-primary">
                 Live offer
               </span>
             </div>

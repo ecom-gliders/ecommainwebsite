@@ -35,7 +35,7 @@ export function EmlBuildOrder({ service }: EmlBuildOrderProps) {
           </p>
         ) : null}
 
-        <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+        <p className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
           {chart.chartLabel}
         </p>
 
@@ -46,7 +46,7 @@ export function EmlBuildOrder({ service }: EmlBuildOrderProps) {
               <li key={point.label}>
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <p className="text-sm font-bold text-text-on-dark">{point.label}</p>
-                  <span className="font-mono text-[10px] font-bold tabular-nums text-accent">
+                  <span className="font-mono text-xs font-bold tabular-nums text-accent">
                     {String(index + 1).padStart(2, "0")} · {point.value}
                   </span>
                 </div>

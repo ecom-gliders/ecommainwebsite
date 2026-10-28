@@ -135,7 +135,7 @@ export function A11yPageStructurePanel({
         </button>
       </div>
       {headings.length === 0 ? (
-        <p className="mt-3 text-[12px] text-text-secondary">
+        <p className="mt-3 text-xs text-text-secondary">
           No headings found on this page.
         </p>
       ) : (

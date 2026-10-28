@@ -39,7 +39,7 @@ export function PpcAudienceBars({ service }: PpcAudienceBarsProps) {
                   <h3 className="text-base font-bold text-primary">
                     {point.title}
                   </h3>
-                  <span className="shrink-0 font-mono text-[10px] font-bold text-text-secondary">
+                  <span className="shrink-0 font-mono text-xs font-bold text-text-secondary">
                     Fit {width}
                   </span>
                 </div>

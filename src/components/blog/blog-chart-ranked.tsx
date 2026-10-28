@@ -35,11 +35,11 @@ export function BlogChartRanked({ items }: BlogChartRankedProps) {
                   {item.label}
                 </span>
                 {item.detail ? (
-                  <span className="text-[11px] text-text-secondary">
+                  <span className="text-xs text-text-secondary">
                     {item.detail}
                   </span>
                 ) : (
-                  <span className="text-[11px] font-semibold text-text-secondary">
+                  <span className="text-xs font-semibold text-text-secondary">
                     {clamped}%
                   </span>
                 )}

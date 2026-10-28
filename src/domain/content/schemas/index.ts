@@ -94,3 +94,13 @@ export {
   legalPageConfigSchema,
   type LegalPageConfig,
 } from "./legal-page.schema";
+
+export {
+  agencyPartnershipPageConfigSchema,
+  type AgencyPartnershipPageConfig,
+} from "./agency-partnership.schema";
+
+export {
+  careersPageConfigSchema,
+  type CareersPageConfig,
+} from "./careers-page.schema";

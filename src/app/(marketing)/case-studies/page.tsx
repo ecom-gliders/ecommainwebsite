@@ -80,7 +80,7 @@ export default async function CaseStudiesIndexPage({
             </div>
           ) : null}
           <div className="mx-auto max-w-4xl text-center">
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               Client results
             </p>
             <h1
@@ -102,7 +102,7 @@ export default async function CaseStudiesIndexPage({
                     <p className="text-xl font-black tracking-tight text-primary sm:text-2xl">
                       {stat.value}
                     </p>
-                    <p className="mt-1 text-[11px] font-semibold uppercase tracking-wide text-text-secondary">
+                    <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-text-secondary">
                       {stat.label}
                     </p>
                   </li>
@@ -121,7 +121,7 @@ export default async function CaseStudiesIndexPage({
           >
             <p
               id="case-studies-trust-heading"
-              className="text-center text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary"
+              className="text-center text-xs font-bold uppercase tracking-[0.16em] text-text-secondary"
             >
               {index.trustHeading}
             </p>
@@ -165,7 +165,7 @@ export default async function CaseStudiesIndexPage({
                           <span className="block truncate text-sm font-black text-accent">
                             {study.metric}
                           </span>
-                          <span className="block truncate text-[11px] font-bold text-text-on-dark">
+                          <span className="block truncate text-xs font-bold text-text-on-dark">
                             {study.clientDisplayName ?? study.client}
                           </span>
                         </span>
@@ -184,7 +184,7 @@ export default async function CaseStudiesIndexPage({
             ariaLabelledBy="case-studies-featured-heading"
             className="py-12 sm:py-16"
           >
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               {index.featuredHeading ?? "Featured result"}
             </p>
             <article
@@ -194,7 +194,7 @@ export default async function CaseStudiesIndexPage({
               )}
             >
               <div className="flex flex-col justify-center p-8 sm:p-10 lg:p-12">
-                <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+                <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
                   {featured.category}
                   {featured.duration ? ` · ${featured.duration}` : null}
                 </p>
@@ -217,7 +217,7 @@ export default async function CaseStudiesIndexPage({
                         className="rounded-[10px] border-2 border-primary bg-background px-3 py-3"
                       >
                         <p className="text-sm font-black text-primary">{metric.value}</p>
-                        <p className="mt-0.5 text-[11px] text-text-secondary">{metric.label}</p>
+                        <p className="mt-0.5 text-xs text-text-secondary">{metric.label}</p>
                       </li>
                     ))}
                   </ul>

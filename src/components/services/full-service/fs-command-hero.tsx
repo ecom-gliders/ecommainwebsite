@@ -64,7 +64,7 @@ export function FsCommandHero({ service, site }: FsCommandHeroProps) {
                         index >= 2 && "sm:border-t-2",
                       )}
                     >
-                      <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                      <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                         Lane {String(index + 1).padStart(2, "0")}
                       </p>
                       <h2 className="mt-1.5 text-lg font-black tracking-tight text-primary">
@@ -87,7 +87,7 @@ export function FsCommandHero({ service, site }: FsCommandHeroProps) {
                         <p className="text-base font-black tracking-tight text-primary sm:text-lg">
                           {metric.value}
                         </p>
-                        <p className="mt-0.5 text-[10px] font-semibold uppercase tracking-[0.06em] text-text-secondary">
+                        <p className="mt-0.5 text-xs font-semibold uppercase tracking-[0.06em] text-text-secondary">
                           {metric.label}
                         </p>
                       </li>

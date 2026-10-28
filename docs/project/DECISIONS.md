@@ -17,6 +17,42 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-28 — Free Audit funnel popup + Calendly page
+
+**WHAT:** Multi-step Free Audit intake (`AuditFunnelWizard`) opens in a site-wide modal. `/free-audit/` keeps the Calendly embed for direct booking. Contact, header, pre-footer, and other `/free-audit/` CTAs open the popup (click intercept).
+
+**WHY:** Spec: funnel in popup from Contact + service/landing CTAs; Calendly stays on the Free Audit page; do not rebuild fields.
+
+**CHOSEN:** `FreeAuditFunnelProvider` in marketing layout; Radix dialog (bottom sheet mobile / centered desktop); reuse existing wizard + `submitAuditForm`. Direct URL `/free-audit/` still loads Calendly (no auto-popup).
+
+**IMPACT:** `free-audit-funnel-*` components; `form`/`funnel` restored in `free-audit-page.json`; marketing layout host.
+
+---
+
+## 2026-10-28 — Free Audit page uses Calendly booking (page)
+
+**WHAT:** `/free-audit/` embeds Calendly event `https://calendly.com/ecomgliders-llc/30min` inline.
+
+**CHOSEN:** Official Calendly inline widget; funnel moved to popup (see decision above).
+
+---
+
+## 2026-10-28 — Site-wide typography readability (Tailwind remap)
+
+**WHAT:** Remap Tailwind `text-xs`→14px, `text-sm`→16px, `text-base`→18px, `text-lg`→20px, `text-xl`→22px in `globals.css` `@theme`; nudge design-token h3/h4; codemod sub-14px arbitrary sizes to `text-xs`.
+
+**WHY:** Design tokens already set body 18 / small 16, but most UI used default Tailwind 12/14px and many `text-[10px]`/`text-[11px]` labels. File-by-file class rewrites would be thousands of edits and still drift.
+
+**CHOSEN:** Theme remapping (labels lift more than hero) + mechanical tiny-size cleanup. Not a uniform +Npx on every step.
+
+**EVIDENCE:** Playwright probes: `text-xs` tracks 0.875rem, `text-sm` 1rem, body remains 18px via `--text-body-size`. Homepage, PPC service, case studies load without content overflow (sr-only/truncate only).
+
+**TRADEOFF:** Components that relied on 12px density feel roomier; chart mocks using `text-xs` are larger (acceptable for readability).
+
+**IMPACT:** `globals.css`, `design-system.json`, ~280 component files via codemod; Design-System.md type table.
+
+---
+
 ## 2026-10-23 — Service pages: no text-only sections + hero form + shell width
 
 **WHAT:** Every service section must include a distinct visual (diagram, chart, graph, map, timeline, matrix, sparkline, or image). Hero must include the intake form. Sections share `ServicePageShell` gutters. Applied first to Full-Service (`fullServiceCommand`) and PPC (`ppcCockpit`); remaining 18 follow the same rules as each dedicated template ships.

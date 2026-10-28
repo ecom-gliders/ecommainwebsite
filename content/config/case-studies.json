@@ -60,7 +60,7 @@
       "metric": "73%",
       "metricLabel": "Sales growth",
       "secondaryMetric": "90 days",
-      "secondaryMetricLabel": "Engagement",
+      "secondaryMetricLabel": "Duration",
       "excerpt": "Strategic overhaul of listings, creatives, and PPC cut ACOS and boosted conversions across Home and Kitchen ASINs.",
       "featuredImage": "/images/cases/case-study-1.png",
       "featuredImageAlt": "FARBERWARE kitchen brand case study",
@@ -235,7 +235,7 @@
     },
     {
       "slug": "case-study-2",
-      "title": "Ranked in 3 Weeks, 500 Units Sold in 30 Days – High-Competition Supplement Launch",
+      "title": "Ranked in 3 Weeks, 502 Units Sold in 30 Days – High-Competition Supplement Launch",
       "client": "CULTURELLE",
       "clientDisplayName": "CULTURELLE",
       "metric": "502",
@@ -382,7 +382,7 @@
         "author": "CULTURELLE"
       },
       "seo": {
-        "metaTitle": "Ranked in 3 Weeks, 500 Units Sold in 30 Days – High-Competition Supplement Launch | eCom Gliders",
+        "metaTitle": "Ranked in 3 Weeks, 502 Units Sold in 30 Days – High-Competition Supplement Launch | eCom Gliders",
         "metaDescription": "CULTURELLE supplement launch: 502 units in 30 days, 19.2% CVR, and 13 page-1 keywords without fake giveaways.",
         "canonical": "/case-study-2/",
         "ogImage": "/images/cases/case-study-2.png",
@@ -398,7 +398,7 @@
       "clientDisplayName": "VoltTech Accessories",
       "metric": "32%",
       "metricLabel": "Ad spend reduction",
-      "secondaryMetric": "76% ? 37%",
+      "secondaryMetric": "76% to 37%",
       "secondaryMetricLabel": "ACOS",
       "excerpt": "Clean PPC structure cut waste and improved profitability across Amazon US and UK for an electronics accessories brand.",
       "featuredImage": "/images/cases/case-study-3.png",
@@ -550,8 +550,8 @@
         "ogImage": "/images/cases/case-study-3.png",
         "schema": "Article"
       },
-      "atmosphere": "/images/creative/creative-hero-product-v2.png",
-      "atmosphereAlt": "Amazon product listing creative for VoltTech electronics case study"
+      "atmosphere": "/images/cases/volttech-atmosphere.jpg",
+      "atmosphereAlt": "Electronics accessories desk scene for VoltTech case study"
     },
     {
       "slug": "case-study-4",
@@ -560,7 +560,7 @@
       "clientDisplayName": "NIKKETTA",
       "metric": "2X",
       "metricLabel": "Higher conversions",
-      "secondaryMetric": "11.3% ? 22.1%",
+      "secondaryMetric": "11.3% to 22.1%",
       "secondaryMetricLabel": "CVR",
       "excerpt": "Visual rebrand and rich A+ content transformed a basic dog grooming tool into a premium listing that converts.",
       "featuredImage": "/images/cases/case-study-4.png",
@@ -689,8 +689,8 @@
         "ogImage": "/images/cases/case-study-4.png",
         "schema": "Article"
       },
-      "atmosphere": "/images/creative/creative-lifestyle-v2.png",
-      "atmosphereAlt": "Lifestyle product photography for NIKKETTA pet case study"
+      "atmosphere": "/images/cases/nikketta-atmosphere.jpg",
+      "atmosphereAlt": "Dog grooming lifestyle scene for NIKKETTA pet case study"
     },
     {
       "slug": "case-study-5",
@@ -700,7 +700,7 @@
       "metric": "1,038",
       "metricLabel": "Units in 17 days",
       "secondaryMetric": "30 days",
-      "secondaryMetricLabel": "Engagement",
+      "secondaryMetricLabel": "Duration",
       "excerpt": "From delayed inventory to sell-out success through compressed seasonal targeting, coupons, and UGC-led PPC.",
       "featuredImage": "/images/cases/case-study-5.png",
       "featuredImageAlt": "FOCUS DESIGN seasonal sell-out case study",
@@ -825,8 +825,8 @@
         "ogImage": "/images/cases/case-study-5.png",
         "schema": "Article"
       },
-      "atmosphere": "/images/promo/promo-amazon-packages.jpg",
-      "atmosphereAlt": "Amazon packages ready for seasonal launch case study"
+      "atmosphere": "/images/cases/focusdesign-atmosphere.jpg",
+      "atmosphereAlt": "Foldable travel backpack scene for FOCUS DESIGN case study"
     },
     {
       "slug": "case-study-6",
@@ -841,7 +841,7 @@
       "featuredImage": "/images/cases/case-study-6.png",
       "featuredImageAlt": "TIME TIMER EU expansion case study",
       "href": "/case-study-6/",
-      "category": "Sustainable home products",
+      "category": "Productivity tools",
       "service": "International",
       "serviceFilter": "International",
       "layout": "expansion",
@@ -966,8 +966,8 @@
         "ogImage": "/images/cases/case-study-6.png",
         "schema": "Article"
       },
-      "atmosphere": "/images/creative/creative-aplus-v2.png",
-      "atmosphereAlt": "Localized A+ content modules for TIME TIMER EU case study"
+      "atmosphere": "/images/cases/timetimer-atmosphere.jpg",
+      "atmosphereAlt": "Visual countdown timer on a desk for TIME TIMER case study"
     },
     {
       "slug": "case-study-7",
@@ -976,8 +976,8 @@
       "clientDisplayName": "Safefine",
       "metric": "28.9%",
       "metricLabel": "Conversion rate",
-      "secondaryMetric": "10.1% ? 28.9%",
-      "secondaryMetricLabel": "CVR lift",
+      "secondaryMetric": "10.1% to 28.9%",
+      "secondaryMetricLabel": "CVR",
       "excerpt": "Listing makeover with emotional visuals and review trust signals turned organic traffic into sales.",
       "featuredImage": "/images/cases/case-study-7.png",
       "featuredImageAlt": "Safefine beauty listing optimization case study",
@@ -1116,7 +1116,7 @@
       "clientDisplayName": "FocusForm",
       "metric": "$118K",
       "metricLabel": "Monthly revenue",
-      "secondaryMetric": "1 ? 7",
+      "secondaryMetric": "1 to 7",
       "secondaryMetricLabel": "SKUs",
       "excerpt": "Smart bundling and storefront expansion grew a solo productivity planner into a full brand ecosystem.",
       "featuredImage": "/images/cases/case-study-8.png",
@@ -1263,8 +1263,8 @@
         "ogImage": "/images/cases/case-study-8.png",
         "schema": "Article"
       },
-      "atmosphere": "/images/creative/creative-infographic-v2.png",
-      "atmosphereAlt": "Brand catalog infographic for FocusForm expansion case study"
+      "atmosphere": "/images/cases/focusform-atmosphere.jpg",
+      "atmosphereAlt": "Productivity planner desk scene for FocusForm case study"
     },
     {
       "slug": "case-study-9",
@@ -1274,7 +1274,7 @@
       "metric": "310%",
       "metricLabel": "Sales increase",
       "secondaryMetric": "90 days",
-      "secondaryMetricLabel": "Engagement",
+      "secondaryMetricLabel": "Duration",
       "excerpt": "Strategic listing optimization, data-driven advertising, and improved brand positioning delivered a 310% increase in Amazon sales.",
       "featuredImage": "/images/cases/gosports.png",
       "featuredImageAlt": "GoSports cornhole brand case study",

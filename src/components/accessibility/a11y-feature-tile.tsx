@@ -31,9 +31,9 @@ export function A11yFeatureTile({
       )}
     >
       <Icon className="h-5 w-5 shrink-0" aria-hidden="true" />
-      <span className="text-[11px] font-bold leading-tight">{label}</span>
+      <span className="text-xs font-bold leading-tight">{label}</span>
       {detail ? (
-        <span className="text-[10px] font-semibold uppercase tracking-wide text-text-secondary">
+        <span className="text-xs font-semibold uppercase tracking-wide text-text-secondary">
           {detail}
         </span>
       ) : null}

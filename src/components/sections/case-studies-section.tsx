@@ -68,7 +68,7 @@ export function CaseStudiesSection({ id, data }: CaseStudiesSectionProps) {
       <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
         <div className="relative max-w-2xl">
           {eyebrow ? (
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary sm:text-xs">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
               {eyebrow}
             </p>
           ) : null}

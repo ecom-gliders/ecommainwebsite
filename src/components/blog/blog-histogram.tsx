@@ -21,12 +21,12 @@ export function BlogHistogram({ title, bins, yLabel }: BlogHistogramProps) {
   return (
     <div className="my-8 border-2 border-primary bg-surface p-4 shadow-[3px_3px_0_0_#131311]">
       {title ? (
-        <p className="mb-1 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="mb-1 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {title}
         </p>
       ) : null}
       {yLabel ? (
-        <p className="mb-3 text-[11px] text-text-secondary">{yLabel}</p>
+        <p className="mb-3 text-xs text-text-secondary">{yLabel}</p>
       ) : null}
       <div className="overflow-x-auto">
         <svg

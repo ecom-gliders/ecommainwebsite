@@ -27,10 +27,10 @@ export function BrandUnlockGrid({
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2 border-b-2 border-primary pb-3">
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {sheetLabel}
         </p>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           {openCount}/{items.length} available
         </p>
       </div>
@@ -50,7 +50,7 @@ export function BrandUnlockGrid({
             >
               <p
                 className={cn(
-                  "font-mono text-[11px] font-bold uppercase tracking-[0.12em]",
+                  "font-mono text-xs font-bold uppercase tracking-[0.12em]",
                   item.unlocked ? "text-primary" : "text-text-secondary",
                 )}
               >

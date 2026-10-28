@@ -28,20 +28,20 @@ export function AosVendorTug({ service }: AosVendorTugProps) {
             aria-hidden="true"
           >
             <div className="w-full border-2 border-primary bg-[#F4F4F4] px-3 py-2 text-center">
-              <p className="font-mono text-[10px] font-bold uppercase text-text-secondary">
+              <p className="font-mono text-xs font-bold uppercase text-text-secondary">
                 Vendor A
               </p>
               <p className="text-sm font-black text-primary">ACoS only</p>
             </div>
             <div className="flex w-full items-center gap-1">
               <span className="h-1 flex-1 bg-primary" />
-              <span className="font-mono text-[10px] font-bold text-text-secondary">
+              <span className="font-mono text-xs font-bold text-text-secondary">
                 vs
               </span>
               <span className="h-1 flex-1 bg-primary" />
             </div>
             <div className="w-full border-2 border-primary bg-accent px-3 py-2 text-center">
-              <p className="font-mono text-[10px] font-bold uppercase text-primary/70">
+              <p className="font-mono text-xs font-bold uppercase text-primary/70">
                 Vendor B
               </p>
               <p className="text-sm font-black text-primary">Content only</p>
@@ -71,7 +71,7 @@ export function AosVendorTug({ service }: AosVendorTugProps) {
                     index === 1 && "border-t-2 border-primary sm:border-t-0",
                   )}
                 >
-                  <p className="font-mono text-[10px] font-bold text-text-secondary">
+                  <p className="font-mono text-xs font-bold text-text-secondary">
                     Gap {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-1 text-base font-bold text-primary">

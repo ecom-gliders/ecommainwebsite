@@ -48,7 +48,7 @@ export function LstClose({ service }: LstCloseProps) {
         >
           <div className="flex flex-col gap-4 border border-accent/40 bg-[#1a1a18] p-5 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:p-6">
             <div className="min-w-0 flex-1">
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Listing review
               </p>
               <h2

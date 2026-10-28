@@ -2,16 +2,32 @@
   "hero": {
     "title": "Free Amazon audit",
     "subtitle": "We check ads, listings, and catalog health — then tell you what to fix first.",
-    "ctaLabel": "Start the audit",
+    "ctaLabel": "Book a free call",
     "scorecardCaption": "Sample scores. Yours will look different."
   },
   "scorecard": {
     "title": "Sample scores",
     "pillars": [
-      { "label": "Ads", "scoreLabel": "58", "scorePercent": 58 },
-      { "label": "Listings", "scoreLabel": "71", "scorePercent": 71 },
-      { "label": "Catalog", "scoreLabel": "64", "scorePercent": 64 },
-      { "label": "Creative", "scoreLabel": "49", "scorePercent": 49 }
+      {
+        "label": "Ads",
+        "scoreLabel": "58",
+        "scorePercent": 58
+      },
+      {
+        "label": "Listings",
+        "scoreLabel": "71",
+        "scorePercent": 71
+      },
+      {
+        "label": "Catalog",
+        "scoreLabel": "64",
+        "scorePercent": 64
+      },
+      {
+        "label": "Creative",
+        "scoreLabel": "49",
+        "scorePercent": 49
+      }
     ]
   },
   "scope": {
@@ -94,8 +110,8 @@
     "heading": "How it runs",
     "steps": [
       {
-        "title": "You send the store",
-        "description": "Name, email, phone, optional URL. About two minutes."
+        "title": "Book a time",
+        "description": "Pick a slot on the calendar below. Takes under a minute."
       },
       {
         "title": "We dig in",
@@ -106,6 +122,74 @@
         "description": "Priorities and next steps. No obligation after that."
       }
     ]
+  },
+  "booking": {
+    "heading": "Book your free audit call",
+    "subheading": "Choose a time that works. You book directly on this page — no multi-step intake required.",
+    "calendlyUrl": "https://calendly.com/ecomgliders-llc/30min",
+    "embedTitle": "Free audit scheduling calendar"
+  },
+  "trustSignals": {
+    "heading": "Since 2018",
+    "stats": [
+      {
+        "value": "$112M+",
+        "label": "revenue managed"
+      },
+      {
+        "value": "95%",
+        "label": "retention"
+      },
+      {
+        "value": "20+",
+        "label": "in-house"
+      }
+    ]
+  },
+  "caseProof": {
+    "metric": "310%",
+    "metricLabel": "sales lift — GoSports",
+    "summary": "Listings, ads, and positioning over 90 days.",
+    "href": "/case-study-9/",
+    "label": "See the case"
+  },
+  "fallbackContact": {
+    "heading": "Rather call?",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "contactCtaLabel": "Contact page",
+    "contactCtaHref": "/contact/"
+  },
+  "faq": {
+    "heading": "Quick answers",
+    "items": [
+      {
+        "question": "What do I get?",
+        "answer": "Notes on ads, listings, catalog, and competition — ranked by what to fix first."
+      },
+      {
+        "question": "How long?",
+        "answer": "Usually two to three business days after the call and any materials we agree to review."
+      },
+      {
+        "question": "Do I have to hire you after?",
+        "answer": "No. The audit stands on its own."
+      },
+      {
+        "question": "Do you need Seller Central access?",
+        "answer": "Read-only Ads and Seller Central helps. We can start lighter if you only share a store URL and notes."
+      },
+      {
+        "question": "Who will I meet?",
+        "answer": "Someone on our in-house Amazon team — not an outsourced call center."
+      }
+    ]
+  },
+  "seo": {
+    "metaTitle": "Free Amazon Account Audit | eCom Gliders",
+    "metaDescription": "Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. No obligation.",
+    "canonical": "/free-audit/",
+    "schema": "FAQPage"
   },
   "form": {
     "heading": "Send the account",
@@ -155,13 +239,34 @@
         "type": "select",
         "required": false,
         "options": [
-          { "value": "", "label": "Select a range" },
-          { "value": "new", "label": "New — no sales yet" },
-          { "value": "under-10k", "label": "$1 to $10,000" },
-          { "value": "10k-25k", "label": "$10,000 to $25,000" },
-          { "value": "25k-50k", "label": "$25,000 to $50,000" },
-          { "value": "50k-250k", "label": "$50,000 to $250,000" },
-          { "value": "250k-plus", "label": "$250,000+" }
+          {
+            "value": "",
+            "label": "Select a range"
+          },
+          {
+            "value": "new",
+            "label": "New — no sales yet"
+          },
+          {
+            "value": "under-10k",
+            "label": "$1 to $10,000"
+          },
+          {
+            "value": "10k-25k",
+            "label": "$10,000 to $25,000"
+          },
+          {
+            "value": "25k-50k",
+            "label": "$25,000 to $50,000"
+          },
+          {
+            "value": "50k-250k",
+            "label": "$50,000 to $250,000"
+          },
+          {
+            "value": "250k-plus",
+            "label": "$250,000+"
+          }
         ]
       },
       {
@@ -175,105 +280,184 @@
   },
   "funnel": {
     "services": [
-      { "value": "full-account-management", "label": "Full Amazon Account Management" },
-      { "value": "ppc", "label": "Amazon PPC Management" },
-      { "value": "dsp", "label": "Amazon DSP" },
-      { "value": "reporting-analytics", "label": "Reporting and Analytics" },
-      { "value": "account-operations", "label": "Account Operations" },
-      { "value": "listing-optimization", "label": "Listing Optimization and SEO" },
-      { "value": "content-writing", "label": "Content Writing" },
-      { "value": "visual-creativity", "label": "Visual Creativity" },
-      { "value": "video-creative", "label": "Video Creative" },
-      { "value": "catalog-management", "label": "Catalog Management" },
-      { "value": "product-launch", "label": "Product Launch Services" },
-      { "value": "inventory-management", "label": "Inventory Management" },
-      { "value": "seller-central", "label": "Seller Central Services" },
-      { "value": "account-health", "label": "Account Health" },
-      { "value": "product-sourcing", "label": "Product Sourcing" },
-      { "value": "trademark-brand-registry", "label": "Trademark and Brand Registry" },
-      { "value": "company-registration", "label": "Company Registration" },
-      { "value": "shopify-website", "label": "Shopify and Website Development" },
-      { "value": "tiktok-shop-ads", "label": "TikTok Shop Ads" },
-      { "value": "email-retention", "label": "Email and Retention Marketing" },
-      { "value": "not-sure", "label": "Not sure yet" }
+      {
+        "value": "full-account-management",
+        "label": "Full Amazon Account Management"
+      },
+      {
+        "value": "ppc",
+        "label": "Amazon PPC Management"
+      },
+      {
+        "value": "dsp",
+        "label": "Amazon DSP"
+      },
+      {
+        "value": "reporting-analytics",
+        "label": "Reporting and Analytics"
+      },
+      {
+        "value": "account-operations",
+        "label": "Account Operations"
+      },
+      {
+        "value": "listing-optimization",
+        "label": "Listing Optimization and SEO"
+      },
+      {
+        "value": "content-writing",
+        "label": "Content Writing"
+      },
+      {
+        "value": "visual-creativity",
+        "label": "Visual Creativity"
+      },
+      {
+        "value": "video-creative",
+        "label": "Video Creative"
+      },
+      {
+        "value": "catalog-management",
+        "label": "Catalog Management"
+      },
+      {
+        "value": "product-launch",
+        "label": "Product Launch Services"
+      },
+      {
+        "value": "inventory-management",
+        "label": "Inventory Management"
+      },
+      {
+        "value": "seller-central",
+        "label": "Seller Central Services"
+      },
+      {
+        "value": "account-health",
+        "label": "Account Health"
+      },
+      {
+        "value": "product-sourcing",
+        "label": "Product Sourcing"
+      },
+      {
+        "value": "trademark-brand-registry",
+        "label": "Trademark and Brand Registry"
+      },
+      {
+        "value": "company-registration",
+        "label": "Company Registration"
+      },
+      {
+        "value": "shopify-website",
+        "label": "Shopify and Website Development"
+      },
+      {
+        "value": "tiktok-shop-ads",
+        "label": "TikTok Shop Ads"
+      },
+      {
+        "value": "email-retention",
+        "label": "Email and Retention Marketing"
+      },
+      {
+        "value": "not-sure",
+        "label": "Not sure yet"
+      }
     ],
     "marketplaces": [
-      { "value": "us", "label": "United States" },
-      { "value": "ca", "label": "Canada" },
-      { "value": "mx", "label": "Mexico" },
-      { "value": "br", "label": "Brazil" },
-      { "value": "uk", "label": "United Kingdom" },
-      { "value": "de", "label": "Germany" },
-      { "value": "fr", "label": "France" },
-      { "value": "it", "label": "Italy" },
-      { "value": "es", "label": "Spain" },
-      { "value": "nl", "label": "Netherlands" },
-      { "value": "be", "label": "Belgium" },
-      { "value": "ie", "label": "Ireland" },
-      { "value": "se", "label": "Sweden" },
-      { "value": "pl", "label": "Poland" },
-      { "value": "tr", "label": "Turkey" },
-      { "value": "ae", "label": "United Arab Emirates" },
-      { "value": "sa", "label": "Saudi Arabia" },
-      { "value": "eg", "label": "Egypt" },
-      { "value": "za", "label": "South Africa" },
-      { "value": "in", "label": "India" },
-      { "value": "jp", "label": "Japan" },
-      { "value": "au", "label": "Australia" },
-      { "value": "sg", "label": "Singapore" }
-    ]
-  },
-  "trustSignals": {
-    "heading": "Since 2018",
-    "stats": [
-      { "value": "$112M+", "label": "revenue managed" },
-      { "value": "95%", "label": "retention" },
-      { "value": "20+", "label": "in-house" }
-    ]
-  },
-  "caseProof": {
-    "metric": "310%",
-    "metricLabel": "sales lift — GoSports",
-    "summary": "Listings, ads, and positioning over 90 days.",
-    "href": "/case-study-9/",
-    "label": "See the case"
-  },
-  "fallbackContact": {
-    "heading": "Rather call?",
-    "phoneLabel": "Phone",
-    "emailLabel": "Email",
-    "contactCtaLabel": "Contact page",
-    "contactCtaHref": "/contact/"
-  },
-  "faq": {
-    "heading": "Quick answers",
-    "items": [
       {
-        "question": "What do I get?",
-        "answer": "Notes on ads, listings, catalog, and competition — ranked by what to fix first."
+        "value": "us",
+        "label": "United States"
       },
       {
-        "question": "How long?",
-        "answer": "Usually two to three business days after we have what we need."
+        "value": "ca",
+        "label": "Canada"
       },
       {
-        "question": "Do I have to hire you after?",
-        "answer": "No. The audit stands on its own."
+        "value": "mx",
+        "label": "Mexico"
       },
       {
-        "question": "Do you need Seller Central access?",
-        "answer": "Read-only Ads and Seller Central helps. We can start lighter if you only share a store URL and notes."
+        "value": "br",
+        "label": "Brazil"
       },
       {
-        "question": "Who replies?",
-        "answer": "Someone on our in-house Amazon team — not an outsourced call center."
+        "value": "uk",
+        "label": "United Kingdom"
+      },
+      {
+        "value": "de",
+        "label": "Germany"
+      },
+      {
+        "value": "fr",
+        "label": "France"
+      },
+      {
+        "value": "it",
+        "label": "Italy"
+      },
+      {
+        "value": "es",
+        "label": "Spain"
+      },
+      {
+        "value": "nl",
+        "label": "Netherlands"
+      },
+      {
+        "value": "be",
+        "label": "Belgium"
+      },
+      {
+        "value": "ie",
+        "label": "Ireland"
+      },
+      {
+        "value": "se",
+        "label": "Sweden"
+      },
+      {
+        "value": "pl",
+        "label": "Poland"
+      },
+      {
+        "value": "tr",
+        "label": "Turkey"
+      },
+      {
+        "value": "ae",
+        "label": "United Arab Emirates"
+      },
+      {
+        "value": "sa",
+        "label": "Saudi Arabia"
+      },
+      {
+        "value": "eg",
+        "label": "Egypt"
+      },
+      {
+        "value": "za",
+        "label": "South Africa"
+      },
+      {
+        "value": "in",
+        "label": "India"
+      },
+      {
+        "value": "jp",
+        "label": "Japan"
+      },
+      {
+        "value": "au",
+        "label": "Australia"
+      },
+      {
+        "value": "sg",
+        "label": "Singapore"
       }
     ]
-  },
-  "seo": {
-    "metaTitle": "Free Amazon Account Audit | eCom Gliders",
-    "metaDescription": "Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. No obligation.",
-    "canonical": "/free-audit/",
-    "schema": "FAQPage"
   }
 }

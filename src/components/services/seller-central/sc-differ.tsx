@@ -32,7 +32,7 @@ export function ScDiffer({ service }: ScDifferProps) {
               key={point.title}
               className="border-2 border-accent bg-[#1a1a18] p-4 sm:p-5"
             >
-              <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+              <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                 Console {String(index + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-2 text-base font-black text-text-on-dark">

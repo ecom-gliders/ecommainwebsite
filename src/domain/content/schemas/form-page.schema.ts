@@ -168,6 +168,19 @@ export const freeAuditPageConfigSchema = z.object({
       )
       .min(1),
   }),
+  booking: z.object({
+    heading: z.string(),
+    subheading: z.string(),
+    calendlyUrl: z
+      .string()
+      .url()
+      .refine(
+        (value) => value.startsWith("https://calendly.com/"),
+        "calendlyUrl must be an https://calendly.com/ link",
+      ),
+    embedTitle: z.string(),
+  }),
+  /** Multi-step intake funnel — used in Free Audit popup (Calendly remains on /free-audit/). */
   form: formConfigSchema,
   funnel: z.object({
     services: z.array(optionSchema).min(1),

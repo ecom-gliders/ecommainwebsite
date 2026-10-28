@@ -35,7 +35,7 @@ export function VidPlacementFilmstrip({ service }: VidPlacementFilmstripProps) {
           </p>
         ) : null}
 
-        <p className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+        <p className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
           {chart.chartLabel}
         </p>
 
@@ -47,7 +47,7 @@ export function VidPlacementFilmstrip({ service }: VidPlacementFilmstripProps) {
                 key={point.label}
                 className="flex w-[4.5rem] flex-col items-center sm:w-[5.5rem]"
               >
-                <span className="mb-1 font-mono text-[10px] font-bold tabular-nums text-accent">
+                <span className="mb-1 font-mono text-xs font-bold tabular-nums text-accent">
                   {point.value}
                 </span>
                 <div
@@ -73,7 +73,7 @@ export function VidPlacementFilmstrip({ service }: VidPlacementFilmstripProps) {
                   </div>
                   <div className="mx-2 mb-2 mt-auto h-2 bg-accent" />
                 </div>
-                <p className="mt-2 text-center text-[10px] font-bold leading-snug text-text-on-dark sm:text-xs">
+                <p className="mt-2 text-center text-xs font-bold leading-snug text-text-on-dark">
                   {point.label}
                 </p>
               </li>

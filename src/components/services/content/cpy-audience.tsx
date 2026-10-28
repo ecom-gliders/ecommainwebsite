@@ -40,7 +40,7 @@ export function CpyAudience({ service }: CpyAudienceProps) {
               )}
             >
               <span
-                className="absolute -top-px left-4 inline-block border-2 border-primary border-b-0 bg-accent px-2 py-1 font-mono text-[10px] font-black text-primary lg:left-1/2 lg:-translate-x-1/2"
+                className="absolute -top-px left-4 inline-block border-2 border-primary border-b-0 bg-accent px-2 py-1 font-mono text-xs font-black text-primary lg:left-1/2 lg:-translate-x-1/2"
                 aria-hidden="true"
               >
                 {String(index + 1).padStart(2, "0")}

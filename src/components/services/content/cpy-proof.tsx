@@ -50,7 +50,7 @@ export function CpyProof({ service }: CpyProofProps) {
                 <p className="mt-2 flex-1 text-sm font-medium leading-snug text-text-on-dark/80">
                   {item.description}
                 </p>
-                <span className="mt-4 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <span className="mt-4 font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Case study
                 </span>
               </Link>

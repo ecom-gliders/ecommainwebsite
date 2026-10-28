@@ -175,7 +175,7 @@ function PhoneFrame({
     >
       <div className="overflow-hidden rounded-[1.25rem] bg-black">
         <div
-          className="relative flex items-center justify-between px-4 pb-0.5 pt-2.5 text-[10px] font-semibold text-white"
+          className="relative flex items-center justify-between px-4 pb-0.5 pt-2.5 text-xs font-semibold text-white"
           aria-hidden="true"
         >
           <span>9:41</span>
@@ -250,7 +250,7 @@ export function BrowserProofStage({
 
         <div className="relative mx-auto flex max-w-4xl flex-col items-center gap-6 sm:gap-7 lg:max-w-5xl lg:flex-row lg:items-center lg:justify-between lg:gap-10">
           <div className="min-w-0 w-full max-w-md lg:max-w-xl">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.16em] text-accent sm:text-[11px]">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.16em] text-accent sm:text-xs">
               Verified Seller tools
             </p>
             <p className="service-callout-metric mt-2.5">{resolved.metric}</p>

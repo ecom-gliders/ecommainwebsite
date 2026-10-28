@@ -8,6 +8,8 @@ import {
   type BlogPostFrontmatter,
 } from "@/domain/content/schemas";
 import { selectRelatedPostSlugs } from "@/lib/blog/select-related-posts";
+import { stripMigratedTitlePollution } from "@/lib/blog/blocks/sanitize/plugins/strip-migrated-title-pollution";
+import { normalizeMarkdownNewlines } from "@/lib/blog/normalize-markdown-newlines";
 
 export class MdxBlogRepository {
   constructor(
@@ -30,9 +32,13 @@ export class MdxBlogRepository {
       );
     }
 
+    const cleaned = stripMigratedTitlePollution(
+      normalizeMarkdownNewlines(content.trim()),
+    );
+
     return {
       ...parsed.data,
-      content: content.trim(),
+      content: cleaned.content,
     };
   }
 

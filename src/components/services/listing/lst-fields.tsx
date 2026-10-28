@@ -40,13 +40,13 @@ export function LstFields({ service }: LstFieldsProps) {
           <table className="w-full min-w-[36rem] border-collapse border-2 border-accent text-left text-sm">
             <thead>
               <tr className="bg-accent text-primary">
-                <th className="border-b-2 border-r-2 border-primary px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em]">
+                <th className="border-b-2 border-r-2 border-primary px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em]">
                   Workstream
                 </th>
                 {COLS.map((col) => (
                   <th
                     key={col}
-                    className="border-b-2 border-primary px-3 py-2.5 text-center font-mono text-[10px] font-bold uppercase tracking-[0.08em]"
+                    className="border-b-2 border-primary px-3 py-2.5 text-center font-mono text-xs font-bold uppercase tracking-[0.08em]"
                   >
                     {col}
                   </th>

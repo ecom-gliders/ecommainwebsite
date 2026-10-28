@@ -26,7 +26,7 @@ export function BlogKeyTakeaways({
         </span>
         <h2
           id="blog-key-takeaways-heading"
-          className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary"
+          className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary"
         >
           Key takeaways
         </h2>
@@ -35,10 +35,10 @@ export function BlogKeyTakeaways({
         {items.map((item, index) => (
           <li
             key={item}
-            className="flex gap-2 text-[12px] leading-snug text-text-primary"
+            className="flex gap-2 text-xs leading-snug text-text-primary"
           >
             <span
-              className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center bg-primary text-[9px] font-bold text-text-on-dark"
+              className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center bg-primary text-xs font-bold text-text-on-dark"
               aria-hidden="true"
             >
               {index + 1}

@@ -47,7 +47,7 @@ export function LncGateLanes({ service }: LncGateLanesProps) {
               className="flex flex-col overflow-hidden border-2 border-primary bg-[#0c0c0b] text-text-on-dark"
             >
               <div className="flex items-center gap-2 border-b border-accent/30 bg-primary px-3 py-2">
-                <span className="font-mono text-[10px] font-black tabular-nums text-accent">
+                <span className="font-mono text-xs font-black tabular-nums text-accent">
                   HOLD {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="text-xs font-black text-text-on-dark">
@@ -65,7 +65,7 @@ export function LncGateLanes({ service }: LncGateLanesProps) {
               </div>
               <div className="flex flex-1 flex-col">
                 <div className="border-b border-text-on-dark/15 p-4">
-                  <p className="font-mono text-[9px] font-bold uppercase text-text-on-dark/45">
+                  <p className="font-mono text-xs font-bold uppercase text-text-on-dark/45">
                     Abort if
                   </p>
                   <p className="mt-1 text-sm font-medium leading-snug text-text-on-dark/55 line-through decoration-accent/50">
@@ -73,7 +73,7 @@ export function LncGateLanes({ service }: LncGateLanesProps) {
                   </p>
                 </div>
                 <div className="border-b border-text-on-dark/15 bg-[#141412] p-4">
-                  <p className="font-mono text-[9px] font-bold uppercase text-accent">
+                  <p className="font-mono text-xs font-bold uppercase text-accent">
                     Gate
                   </p>
                   <p className="mt-1 text-sm font-medium leading-snug text-text-on-dark/90">
@@ -81,7 +81,7 @@ export function LncGateLanes({ service }: LncGateLanesProps) {
                   </p>
                 </div>
                 <div className="bg-accent p-4 text-primary">
-                  <p className="font-mono text-[9px] font-bold uppercase text-primary/70">
+                  <p className="font-mono text-xs font-bold uppercase text-primary/70">
                     Clear
                   </p>
                   <p className="mt-1 text-sm font-bold leading-snug text-primary">

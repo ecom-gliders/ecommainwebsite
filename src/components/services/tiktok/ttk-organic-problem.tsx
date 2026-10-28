@@ -31,7 +31,7 @@ export function TtkOrganicProblem({ service }: TtkOrganicProblemProps) {
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Channel gap
         </p>
         <h2
@@ -59,7 +59,7 @@ export function TtkOrganicProblem({ service }: TtkOrganicProblemProps) {
               aria-selected={mode === tab.id}
               onClick={() => setMode(tab.id)}
               className={cn(
-                "flex-1 px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.1em] transition-colors sm:text-[11px]",
+                "flex-1 px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.1em] transition-colors sm:text-xs",
                 mode === tab.id
                   ? "bg-accent text-primary"
                   : "bg-[#161614] text-text-on-dark/70 hover:bg-[#1a1a17]",
@@ -74,7 +74,7 @@ export function TtkOrganicProblem({ service }: TtkOrganicProblemProps) {
           <ul className="space-y-3">
             {problem.points.map((point, index) => (
               <li key={point.title} className="border-l-2 border-accent pl-3">
-                <p className="font-mono text-[10px] font-bold text-accent">
+                <p className="font-mono text-xs font-bold text-accent">
                   {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-0.5 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -101,7 +101,7 @@ export function TtkOrganicProblem({ service }: TtkOrganicProblemProps) {
                 )}
                 aria-hidden={mode !== "organic"}
               >
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                   Organic only
                 </p>
                 <div className="relative mx-auto mt-4 aspect-[9/16] w-full max-w-[8rem] overflow-hidden border border-text-on-dark/20">
@@ -129,7 +129,7 @@ export function TtkOrganicProblem({ service }: TtkOrganicProblemProps) {
                 )}
                 aria-hidden={mode !== "paid"}
               >
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/65">
                   Paid spark
                 </p>
                 <div className="relative mx-auto mt-4 aspect-[9/16] w-full max-w-[8rem] overflow-hidden border-2 border-primary">

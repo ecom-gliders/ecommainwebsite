@@ -1,10 +1,12 @@
+import { normalizeMarkdownNewlines } from "@/lib/blog/normalize-markdown-newlines";
+
 /**
  * Remaps migrated WordPress heading depths so content under the page H1
  * starts at H2 and never skips levels (WCAG 2.4.10 / Lighthouse heading-order).
  */
 export function normalizeHeadingLevels(content: string): string {
   // Page template already renders a single H1 from frontmatter — demote body H1s first.
-  const withoutBodyH1 = content
+  const withoutBodyH1 = normalizeMarkdownNewlines(content)
     .split("\n")
     .map((line) => {
       const match = line.match(/^#(\s+.*)$/);

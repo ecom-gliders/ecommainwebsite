@@ -19,7 +19,7 @@ export function CredentialsBar({ study }: { study: CaseStudyDetail }) {
     <dl className={cn(caseStudyHardPanel, "grid gap-4 bg-[#F4F4F4] p-5 sm:grid-cols-2 lg:grid-cols-4")}>
       {items.map((item) => (
         <div key={item.label}>
-          <dt className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <dt className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             {item.label}
           </dt>
           <dd className="mt-1 text-body font-semibold text-text-primary">{item.value}</dd>
@@ -73,7 +73,7 @@ export function KeyIssuesList({ study }: { study: CaseStudyDetail }) {
         >
           <span
             aria-hidden="true"
-            className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-[4px] border-2 border-primary bg-primary text-[11px] font-bold text-text-on-dark"
+            className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-[4px] border-2 border-primary bg-primary text-xs font-bold text-text-on-dark"
           >
             {index + 1}
           </span>
@@ -138,7 +138,7 @@ export function BeforeAfterBand({ study }: { study: CaseStudyDetail }) {
       <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {study.beforeAfter.map((row) => (
           <li key={row.label} className={cn(caseStudyHardPanel, "bg-background p-5")}>
-            <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
               {row.label}
             </p>
             <div className="mt-4 flex items-end justify-between gap-3">
@@ -205,7 +205,7 @@ export function StickyKpiAside({
     >
       <h2
         className={cn(
-          "text-[11px] font-bold uppercase tracking-[0.14em]",
+          "text-xs font-bold uppercase tracking-[0.14em]",
           isDark ? "text-text-secondary" : "text-text-secondary",
         )}
       >
@@ -258,7 +258,7 @@ export function LaunchTimeline({ study }: { study: CaseStudyDetail }) {
       <ol className="mt-8 grid gap-4 sm:grid-cols-3">
         {milestones.map((item, index) => (
           <li key={item.label} className={cn(caseStudyHardPanel, "bg-[#F4F4F4] p-5")}>
-            <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
               Step {index + 1}
             </p>
             <p className="mt-2 text-h4">{item.value}</p>

@@ -204,7 +204,7 @@ export function SellerSegmentsSection({ id, data }: SellerSegmentsSectionProps) 
                 )}
 
                 <div className="flex flex-1 flex-col px-5 py-5">
-                  <p className="font-mono text-[11px] font-semibold tracking-[0.14em] text-text-secondary">
+                  <p className="font-mono text-xs font-semibold tracking-[0.14em] text-text-secondary">
                     STAGE {step}
                   </p>
                   <h3 className="mt-1 text-h4 text-primary">{segment.title}</h3>

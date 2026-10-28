@@ -71,10 +71,10 @@ export function VidProductionTimeline({ service }: VidProductionTimelineProps) {
               return (
                 <li key={step.title} className="relative pt-0 sm:pt-10">
                   <div className="mb-3 flex items-center gap-2 sm:absolute sm:left-4 sm:top-0 sm:mb-0">
-                    <span className="inline-flex border-2 border-primary bg-accent px-2 py-0.5 font-mono text-[10px] font-black uppercase text-primary">
+                    <span className="inline-flex border-2 border-primary bg-accent px-2 py-0.5 font-mono text-xs font-black uppercase text-primary">
                       {phase.label}
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-text-secondary">
+                    <span className="font-mono text-xs font-bold text-text-secondary">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>

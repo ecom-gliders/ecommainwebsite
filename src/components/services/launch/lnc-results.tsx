@@ -46,10 +46,10 @@ export function LncResults({ service }: LncResultsProps) {
                   className="group flex h-full flex-col overflow-hidden border-2 border-accent/50 bg-[#141412] hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-[#0c0c0b]"
                 >
                   <div className="flex items-center justify-between border-b border-accent/30 px-4 py-2">
-                    <span className="font-mono text-[10px] font-black tabular-nums text-accent">
+                    <span className="font-mono text-xs font-black tabular-nums text-accent">
                       PAD {String(index + 1).padStart(2, "0")}
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-text-on-dark/45">
+                    <span className="font-mono text-xs font-bold text-text-on-dark/45">
                       Verified case
                     </span>
                   </div>
@@ -72,7 +72,7 @@ export function LncResults({ service }: LncResultsProps) {
                     <p className="mt-3 flex-1 text-sm font-medium leading-snug text-text-on-dark/75">
                       {item.description}
                     </p>
-                    <span className="mt-4 inline-flex w-fit border border-accent bg-transparent px-2 py-1 font-mono text-[10px] font-black uppercase text-accent group-hover:bg-accent group-hover:text-primary">
+                    <span className="mt-4 inline-flex w-fit border border-accent bg-transparent px-2 py-1 font-mono text-xs font-black uppercase text-accent group-hover:bg-accent group-hover:text-primary">
                       Open case study
                     </span>
                   </div>

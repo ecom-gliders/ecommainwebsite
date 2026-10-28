@@ -503,7 +503,7 @@ Action: Wired into listing + content `proofGallery` (replaced weaker duplicate s
 Provenance: prior creative bank (already in repo)
 Validated: yes â€” file present before wire-up
 
-## 2026-10-21 — Full-service audience AI images
+## 2026-10-21 ï¿½ Full-service audience AI images
 
 Date: 2026-10-21
 Source: Cursor GenerateImage (AI-generated, original)
@@ -528,7 +528,7 @@ Type: image
 License: eCom Gliders first-party brand assets (see assets/licenses/about-team-portraits.md)
 Used on page: /about-us/
 Paths: public/images/about/team/ ; assets/source/about-team/ ; assets/approved/about-team/
-Validated: yes — files on disk and wired in about-page.json
+Validated: yes ï¿½ files on disk and wired in about-page.json
 Notes: Muneeb full-size upload 404; Elementor thumb used as production source.
 
 ## 2026-10-23 - About hero image
@@ -559,3 +559,15 @@ Used on page: /email-retention-marketing/ cadence stage rail
 Paths: public/images/services/email-retention-marketing/
 Validated: yes (files on disk, wired in eml-cadence-stages.tsx)
 Notes: Text-free editorial stills; no inbox UI chrome or metrics
+
+## 2026-10-28 - Case study category atmospheres
+Date: 2026-10-28
+Source: Cursor GenerateImage
+Assets: volttech-atmosphere.jpg, nikketta-atmosphere.jpg, timetimer-atmosphere.jpg, focusform-atmosphere.jpg, focusdesign-atmosphere.jpg
+Type: image (AI-generated)
+License: original work for eCom Gliders case study heroes
+Used on pages: /case-study-3/, /case-study-4/, /case-study-5/, /case-study-6/, /case-study-8/
+Production path: public/images/cases/
+Approved copy: assets/approved/cases-atmospheres-2026-10-28/
+Validated: yes (1200x900 JPEG q82; wired in case-studies.json)
+Notes: Replaces mismatched kitchen/cutting-board and generic package atmospheres

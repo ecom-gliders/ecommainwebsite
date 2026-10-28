@@ -2,6 +2,52 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-28 — Free Audit Calendly embed COMPLETE
+
+Session topic: Embed Free Audit Calendly on `/free-audit/` for direct booking.
+Key decisions: Inline Calendly widget at exact URL `https://calendly.com/ecomgliders-llc/30min`; remove multi-step account funnel from page; keep phone/email fallback.
+Evidence: Playwright iframe + widget; VERIFICATION-LOG.
+Next action: Optional commit.
+
+## 2026-10-28 — Site typography readability COMPLETE
+
+Session topic: Website-wide font sizes too small (labels/tags/stats/services).
+Key decisions: Remap Tailwind `@theme` text-xs→14 through text-xl→22 to match body 18 / small 16 tokens; codemod kill sub-14px arbitrary sizes; do not blanket +Npx every step.
+Evidence: Playwright homepage/PPC/case studies; DECISIONS + Design-System.md updated.
+Next action: Optional commit; DNS cutover when requested.
+
+## 2026-10-28 — Blog residual quality COMPLETE
+
+Session topic: Continue residual blog MDX cleanup until all quality audits clear.
+Key decisions: Shorten titles/meta without changing slugs/canonicals; keep WP `-2`/elementor URLs as preserved; treat them as keepers not defects.
+Key discoveries: Location templates drove long titles; shorten pass left mid-phrase truncations and short metas that needed a final repair sweep; Ultimate Guide/garbage frontmatter remained on a few posts.
+Evidence: deep/continue/residual issuePosts 0; shortMetas 0/328; Playwright bulk-listing + Alabama PPC; `docs/qa/VERIFICATION-LOG.md`.
+Next action: DNS cutover only.
+
+## 2026-10-28 — Blog quality re-pass AI loop COMPLETE
+
+Session topic: User required all 328 blogs completed with AI one-by-one; prior loop was falsely marked complete.
+Key decisions: Reset queue to `quality-repass-ai`; mechanical batches first; sequential ticks via location-PPC + generic AI helpers + deep manual on early posts.
+Key discoveries: 103 dup-title H2; 12 Ultimate Guide excerpts; 113 form-pollution excerpts; prior Oct 22 “completed” was not editorial.
+Evidence: queue `status: completed` cursor 328/328; audits under `docs/qa/BLOG-QUALITY-REPASS-*.json`.
+Next action: Optional deeper prose rewrite on high-traffic posts if requested; DNS cutover still pending.
+
+## 2026-10-28 — Careers page
+
+Shipped `/careers/` with Brand Manager and Junior PPC Specialist. Lime hero, open-role cards, full JD panels, hiring process, fit filter, short apply form (`career-application`). Company mega Work with us + footer. JobPosting x2 (no salary). Playwright verified.
+
+Files: `careers-page.json`, schema/repo, `CareersTemplate`, form/actions, JSON-LD, nav/sitemap/SEO docs.
+
+---
+
+## 2026-10-28 — Agency Partnership page
+
+Shipped `/agency-partnership/` for complementary agencies only (white-label, referral, co-manage). Unique section stack + selective partner application (`agency-partner` notifier). Footer Company discovery, sitemap, SITE-SEO-MAP, JSON-LD. Playwright verified desktop/mobile.
+
+Files: `agency-partnership-page.json`, schema/repo, `AgencyPartnershipTemplate`, form/actions, page route, nav/sitemap/SEO docs.
+
+---
+
 ## Template
 
 ```

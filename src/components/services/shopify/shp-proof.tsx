@@ -22,7 +22,7 @@ export function ShpProof({ service }: ShpProofProps) {
       aria-labelledby="service-results-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Verified outcomes
         </p>
         <h2
@@ -38,7 +38,7 @@ export function ShpProof({ service }: ShpProofProps) {
                 href={item.href}
                 className="flex h-full flex-col border-2 border-primary bg-background p-5 transition-colors hover:bg-accent/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:p-6"
               >
-                <span className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   Case {String(index + 1).padStart(2, "0")}
                 </span>
                 <p className="mt-2 text-2xl font-black tracking-tight text-primary sm:text-3xl">
@@ -50,7 +50,7 @@ export function ShpProof({ service }: ShpProofProps) {
                 <p className="mt-2 flex-1 text-sm font-medium leading-snug text-text-secondary sm:text-base">
                   {item.description}
                 </p>
-                <span className="mt-5 font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary">
+                <span className="mt-5 font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary">
                   Read case study
                 </span>
               </Link>

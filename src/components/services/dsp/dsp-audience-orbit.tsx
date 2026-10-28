@@ -43,7 +43,7 @@ export function DspAudienceOrbit({ service }: DspAudienceOrbitProps) {
                 )}
               >
                 <span
-                  className="mb-3 inline-flex h-8 w-8 items-center justify-center border-2 border-primary bg-accent font-mono text-[10px] font-bold text-primary"
+                  className="mb-3 inline-flex h-8 w-8 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-bold text-primary"
                   aria-hidden="true"
                 >
                   {String(index + 1).padStart(2, "0")}

@@ -31,7 +31,7 @@ export function EntRungSteps({ service }: EntRungStepsProps) {
       <ServicePageShell>
         <div className="flex flex-wrap items-end justify-between gap-3">
           <div>
-            <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Climbing rungs
             </p>
             <h2
@@ -41,7 +41,7 @@ export function EntRungSteps({ service }: EntRungStepsProps) {
               {solution.heading}
             </h2>
           </div>
-          <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/45">
             Intent → filing → Amazon
           </p>
         </div>
@@ -55,10 +55,10 @@ export function EntRungSteps({ service }: EntRungStepsProps) {
             {steps.map((step, index) => (
               <li key={step.title} className="relative flex flex-col">
                 <div className="mb-3 flex items-center gap-2">
-                  <span className="inline-flex min-w-[2.75rem] justify-center border-2 border-accent bg-[#1a1814] px-2 py-1 font-mono text-[11px] font-black tabular-nums text-accent">
+                  <span className="inline-flex min-w-[2.75rem] justify-center border-2 border-accent bg-[#1a1814] px-2 py-1 font-mono text-xs font-black tabular-nums text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
+                  <span className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/45">
                     Rung
                   </span>
                 </div>

@@ -96,10 +96,10 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
               aria-label="Parent-child variation board"
             >
               <div className="flex shrink-0 items-center justify-between gap-3 border-b-2 border-primary bg-primary px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Variation tree · buyability grid
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/70">
+                <p className="font-mono text-xs font-bold text-text-on-dark/70">
                   Parent → child ASINs
                 </p>
               </div>
@@ -118,7 +118,7 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
                       />
                     </div>
                     <div className="min-w-0 text-left">
-                      <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-primary/70">
+                      <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary/70">
                         Parent ASIN
                       </p>
                       <p className="mt-0.5 text-sm font-black text-primary">
@@ -173,7 +173,7 @@ export function CatGridHero({ service, site }: CatGridHeroProps) {
                           sizes="(max-width: 640px) 40vw, 120px"
                         />
                       </div>
-                      <p className="mt-2 font-mono text-[9px] font-bold text-text-secondary">
+                      <p className="mt-2 font-mono text-xs font-bold text-text-secondary">
                         {child.asin}
                       </p>
                       <p className="mt-0.5 text-xs font-black text-primary">

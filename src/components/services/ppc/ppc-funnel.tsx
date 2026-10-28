@@ -37,7 +37,7 @@ export function PpcFunnel({ service }: PpcFunnelProps) {
               style={{ width: WIDTHS[index] ?? "60%" }}
             >
               <div className="border-2 border-accent bg-primary px-4 py-4 text-center sm:px-6">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Stage {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-1 text-base font-black text-text-on-dark sm:text-lg">

@@ -20,7 +20,7 @@ export function FooterBottom({ legal, copyright }: FooterBottomProps) {
                 <FooterLink
                   link={link}
                   tone="onDark"
-                  className="inline-flex min-h-11 items-center py-2.5 text-[15px] font-medium text-text-on-dark/70 underline-offset-4 hover:text-accent hover:underline sm:min-h-10 sm:px-3 sm:py-2 sm:text-sm"
+                  className="inline-flex min-h-11 items-center py-2.5 text-sm font-medium text-text-on-dark/70 underline-offset-4 hover:text-accent hover:underline sm:min-h-10 sm:px-3 sm:py-2"
                 />
               </li>
             ))}

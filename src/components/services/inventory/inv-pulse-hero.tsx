@@ -119,7 +119,7 @@ export function InvPulseHero({ service, site }: InvPulseHeroProps) {
 
         <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
           <div className="flex h-full min-h-0 min-w-0 flex-col">
-            <p className="shrink-0 font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+            <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
               Stock cover terminal
             </p>
             <h1
@@ -137,7 +137,7 @@ export function InvPulseHero({ service, site }: InvPulseHeroProps) {
               aria-label="Stock cover rack"
             >
               <div className="flex shrink-0 flex-wrap items-center justify-between gap-2 border-b border-accent/35 px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Cover rack · days of stock
                 </p>
                 <ul className="flex flex-wrap gap-2.5 font-mono text-[8px] font-bold uppercase tracking-[0.06em] text-text-on-dark/80">
@@ -183,7 +183,7 @@ export function InvPulseHero({ service, site }: InvPulseHeroProps) {
                         priority={index < 2}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#121210] via-transparent to-transparent" />
-                      <span className="absolute left-2 top-2 font-mono text-[9px] font-black uppercase tracking-[0.08em] text-accent">
+                      <span className="absolute left-2 top-2 font-mono text-xs font-black uppercase tracking-[0.08em] text-accent">
                         Bay {bay.id}
                       </span>
                     </div>
@@ -194,7 +194,7 @@ export function InvPulseHero({ service, site }: InvPulseHeroProps) {
                           <h2 className="truncate text-[13px] font-black leading-tight text-text-on-dark sm:text-sm">
                             {bay.label}
                           </h2>
-                          <p className="mt-0.5 font-mono text-[9px] font-medium text-text-on-dark/45">
+                          <p className="mt-0.5 font-mono text-xs font-medium text-text-on-dark/45">
                             {bay.sku}
                           </p>
                         </div>
@@ -222,7 +222,7 @@ export function InvPulseHero({ service, site }: InvPulseHeroProps) {
                           />
                         </div>
                         <div className="flex min-w-0 flex-1 flex-col justify-end">
-                          <p className="font-mono text-[9px] font-bold uppercase tracking-[0.08em] text-text-on-dark/40">
+                          <p className="font-mono text-xs font-bold uppercase tracking-[0.08em] text-text-on-dark/40">
                             Days of cover
                           </p>
                           <p className="mt-1 font-mono text-2xl font-black tabular-nums leading-none text-text-on-dark sm:text-[1.65rem]">

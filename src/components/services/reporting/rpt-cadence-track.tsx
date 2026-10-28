@@ -36,7 +36,7 @@ export function RptCadenceTrack({ service }: RptCadenceTrackProps) {
 
         <div className="mt-8 grid gap-4 lg:grid-cols-2">
           <div className="border-2 border-accent bg-primary p-4 sm:p-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Track A — Weekly
             </p>
             <div className="mt-4 flex items-center gap-1" aria-hidden="true">
@@ -53,7 +53,7 @@ export function RptCadenceTrack({ service }: RptCadenceTrackProps) {
             <ul className="mt-5 space-y-3">
               {steps.slice(0, 2).map((step, index) => (
                 <li key={step.title}>
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     Step {String(index + 1).padStart(2, "0")}
                   </p>
                   <h3 className="mt-0.5 text-base font-black text-text-on-dark">
@@ -68,7 +68,7 @@ export function RptCadenceTrack({ service }: RptCadenceTrackProps) {
           </div>
 
           <div className="border-2 border-accent bg-primary p-4 sm:p-5">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Track B — Monthly
             </p>
             <div className="mt-4 flex items-center gap-1" aria-hidden="true">
@@ -82,7 +82,7 @@ export function RptCadenceTrack({ service }: RptCadenceTrackProps) {
             <ul className="mt-5 space-y-3">
               {steps.slice(2).map((step, index) => (
                 <li key={step.title}>
-                  <p className="font-mono text-[10px] font-bold text-accent">
+                  <p className="font-mono text-xs font-bold text-accent">
                     Step {String(index + 3).padStart(2, "0")}
                   </p>
                   <h3 className="mt-0.5 text-base font-black text-text-on-dark">

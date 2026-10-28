@@ -106,12 +106,21 @@ function createMarkdownComponents(): Components {
           "",
         )
         .replace(/\s{2,}/g, " ")
+        .replace(/:+\s*$/, "")
         .trim();
       const id = createHeadingId(text, usedIds);
+      // Prefer cleaned label when the only difference is a trailing colon /
+      // whitespace — keeps TOC anchors and visible headings aligned.
+      const display =
+        typeof children === "string"
+          ? text
+          : text && getNodeText(children).replace(/:+\s*$/, "").trim() === text
+            ? text
+            : children;
 
       return (
         <Tag id={id} className={className}>
-          {children}
+          {display}
         </Tag>
       );
     };

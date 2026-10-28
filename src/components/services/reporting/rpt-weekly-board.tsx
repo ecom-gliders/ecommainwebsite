@@ -40,7 +40,7 @@ export function RptWeeklyBoard({ service }: RptWeeklyBoardProps) {
             ) : null}
           </div>
           {board.boardLabel ? (
-            <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.08em] text-primary">
+            <p className="border-2 border-primary bg-accent px-2.5 py-1 font-mono text-xs font-bold uppercase tracking-[0.08em] text-primary">
               {board.boardLabel}
             </p>
           ) : null}
@@ -53,7 +53,7 @@ export function RptWeeklyBoard({ service }: RptWeeklyBoardProps) {
                 {board.columns.map((col) => (
                   <th
                     key={col}
-                    className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.08em] sm:px-4"
+                    className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.08em] sm:px-4"
                   >
                     {col}
                   </th>

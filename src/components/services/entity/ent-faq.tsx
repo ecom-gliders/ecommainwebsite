@@ -39,7 +39,7 @@ export function EntFaq({ service }: EntFaqProps) {
       aria-labelledby="service-faq-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Entity FAQ
         </p>
         <h2

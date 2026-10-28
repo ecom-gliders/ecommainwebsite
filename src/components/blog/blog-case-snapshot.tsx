@@ -12,7 +12,7 @@ export function BlogCaseSnapshot({
   return (
     <aside className="my-8 grid gap-4 border-2 border-primary bg-surface p-5 shadow-[3px_3px_0_0_#131311] sm:grid-cols-[1fr_auto]">
       <div>
-        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           Case snapshot
         </p>
         <p className="mt-1 text-h4 text-text-primary">{niche}</p>

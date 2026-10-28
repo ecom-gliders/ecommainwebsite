@@ -12,10 +12,10 @@ export function AuditScorecardPreview({
   return (
     <aside aria-label="Sample audit scores">
       <div className="flex items-end justify-between gap-3">
-        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-primary">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">
           {scorecard.title}
         </p>
-        <span className="font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-primary/50">
+        <span className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-primary/50">
           Sample
         </span>
       </div>
@@ -34,8 +34,8 @@ export function AuditScorecardPreview({
               <p
                 className={
                   punch
-                    ? "text-[11px] font-bold uppercase tracking-[0.1em] text-accent"
-                    : "text-[11px] font-bold uppercase tracking-[0.1em] text-text-secondary"
+                    ? "text-xs font-bold uppercase tracking-[0.1em] text-accent"
+                    : "text-xs font-bold uppercase tracking-[0.1em] text-text-secondary"
                 }
               >
                 {pillar.label}

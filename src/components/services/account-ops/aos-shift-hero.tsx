@@ -90,7 +90,7 @@ export function AosShiftHero({ service, site }: AosShiftHeroProps) {
                       </h2>
                       <span
                         className={cn(
-                          "border px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.06em]",
+                          "border px-1.5 py-0.5 font-mono text-xs font-bold uppercase tracking-[0.06em]",
                           stream.status === "Synced"
                             ? "border-primary bg-accent text-primary"
                             : "border-primary/50 bg-background text-text-secondary",

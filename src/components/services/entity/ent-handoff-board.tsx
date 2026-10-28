@@ -24,7 +24,7 @@ export function EntHandoffBoard({ service }: EntHandoffBoardProps) {
       aria-labelledby={`${module.id}-heading`}
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
           Amazon handoff
         </p>
         <h2

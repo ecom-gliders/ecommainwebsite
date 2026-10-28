@@ -42,7 +42,7 @@ export function FsOpsRunway({ service }: FsOpsRunwayProps) {
           >
             {["Issue", "Fix", "Verify"].map((label, index) => (
               <div key={label} className="flex min-w-0 flex-1 items-center">
-                <div className="flex-1 border-2 border-primary bg-primary px-3 py-2 text-center font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-accent">
+                <div className="flex-1 border-2 border-primary bg-primary px-3 py-2 text-center font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
                   {label}
                 </div>
                 {index < 2 ? (
@@ -59,14 +59,14 @@ export function FsOpsRunway({ service }: FsOpsRunwayProps) {
                 className="border-2 border-primary bg-background"
               >
                 <div className="flex items-center gap-3 border-b-2 border-primary px-3 py-2">
-                  <span className="flex h-7 w-7 items-center justify-center border-2 border-primary bg-primary font-mono text-[10px] font-bold text-accent">
+                  <span className="flex h-7 w-7 items-center justify-center border-2 border-primary bg-primary font-mono text-xs font-bold text-accent">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <h3 className="text-base font-black sm:text-lg">{lane.title}</h3>
                 </div>
                 <div className="grid gap-0 md:grid-cols-3">
                   <div className="border-primary/15 p-3.5 md:border-r-2">
-                    <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       Issue
                     </p>
                     <p className="mt-1 text-sm font-medium leading-snug text-primary">
@@ -74,7 +74,7 @@ export function FsOpsRunway({ service }: FsOpsRunwayProps) {
                     </p>
                   </div>
                   <div className="border-t-2 border-primary/15 p-3.5 md:border-l-0 md:border-r-2 md:border-t-0">
-                    <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       Fix
                     </p>
                     <p className="mt-1 text-sm font-medium leading-snug text-primary">
@@ -82,7 +82,7 @@ export function FsOpsRunway({ service }: FsOpsRunwayProps) {
                     </p>
                   </div>
                   <div className="border-t-2 border-primary/15 p-3.5 md:border-t-0">
-                    <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       Verify
                     </p>
                     <p className="mt-1 text-sm font-medium leading-snug text-primary">

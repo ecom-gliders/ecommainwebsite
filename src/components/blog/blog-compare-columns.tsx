@@ -26,7 +26,7 @@ export function BlogCompareColumns({ columns }: BlogCompareColumnsProps) {
               : "border-2 border-primary bg-accent/30 p-5 shadow-[3px_3px_0_0_#131311]"
           }
         >
-          <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             {column.title}
           </p>
           <ul className="m-0 list-none space-y-2 p-0">

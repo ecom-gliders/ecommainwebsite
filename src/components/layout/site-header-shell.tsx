@@ -99,7 +99,7 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
                 asChild
                 variant="accent"
                 size="sm"
-                className="inline-flex !h-9 !min-h-9 !gap-1.5 !pl-3 !pr-1.5 !text-[11px] lg:hidden"
+                className="inline-flex !h-9 !min-h-9 !gap-1.5 !pl-3 !pr-1.5 !text-xs lg:hidden"
               >
                 <Link href={header.cta.href} aria-label={header.cta.label}>
                   Audit

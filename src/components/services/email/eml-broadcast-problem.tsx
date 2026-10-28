@@ -31,7 +31,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
       aria-labelledby="service-problem-heading"
     >
       <ServicePageShell>
-        <p className="font-mono text-[11px] font-bold uppercase tracking-[0.12em] text-accent">
+        <p className="font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
           Cadence gap
         </p>
         <h2
@@ -59,7 +59,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
               aria-selected={mode === tab.id}
               onClick={() => setMode(tab.id)}
               className={cn(
-                "flex-1 px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.1em] transition-colors sm:text-[11px]",
+                "flex-1 px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.1em] transition-colors sm:text-xs",
                 mode === tab.id
                   ? "bg-accent text-primary"
                   : "bg-[#161614] text-text-on-dark/70 hover:bg-[#1a1a17]",
@@ -74,7 +74,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
           <ul className="space-y-3">
             {problem.points.map((point, index) => (
               <li key={point.title} className="border-l-2 border-accent pl-3">
-                <p className="font-mono text-[10px] font-bold text-accent">
+                <p className="font-mono text-xs font-bold text-accent">
                   {String(index + 1).padStart(2, "0")}
                 </p>
                 <h3 className="mt-0.5 text-sm font-black leading-snug text-text-on-dark sm:text-base">
@@ -101,7 +101,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
                 )}
                 aria-hidden={mode !== "broadcast"}
               >
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark/50">
                   One-and-done
                 </p>
                 <div
@@ -114,7 +114,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
                   </div>
                   <div className="h-8 w-px bg-text-on-dark/30" />
                   <div className="h-6 w-6 rotate-45 border-2 border-text-on-dark/35" />
-                  <p className="font-mono text-[9px] font-bold text-text-on-dark/40">
+                  <p className="font-mono text-xs font-bold text-text-on-dark/40">
                     End
                   </p>
                 </div>
@@ -134,7 +134,7 @@ export function EmlBroadcastProblem({ service }: EmlBroadcastProblemProps) {
                 )}
                 aria-hidden={mode !== "looped"}
               >
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-primary/65">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-primary/65">
                   Looped cadence
                 </p>
                 <div className="relative mx-auto mt-4 aspect-square w-full max-w-[7.5rem] overflow-hidden border-2 border-primary">

@@ -91,7 +91,7 @@ export function HeroOrbitMedia({
               quality={70}
             />
           </div>
-          <figcaption className="mt-1 px-0.5 text-[10px] font-semibold leading-tight text-text-primary">
+          <figcaption className="mt-1 px-0.5 text-xs font-semibold leading-tight text-text-primary">
             {item.label}
           </figcaption>
         </figure>

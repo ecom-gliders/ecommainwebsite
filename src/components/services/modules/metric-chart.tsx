@@ -43,7 +43,7 @@ export function MetricChart({
                     style={{ height: `${height}%` }}
                   />
                 </div>
-                <span className="line-clamp-3 text-center text-[10px] leading-snug text-text-secondary sm:text-xs">
+                <span className="line-clamp-3 text-center text-xs leading-snug text-text-secondary">
                   {point.label}
                 </span>
               </li>
@@ -65,7 +65,7 @@ export function MetricChart({
         )}
       >
         <div className="border-b-2 border-primary bg-primary px-4 py-3 sm:px-5">
-          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-accent">
             {chartLabel}
           </p>
         </div>

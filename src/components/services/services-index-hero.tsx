@@ -36,7 +36,7 @@ function MacBrowserFrame({
               className="h-3 w-3 shrink-0 text-neutral-400"
               aria-hidden="true"
             />
-            <span className="truncate text-[11px] font-medium text-neutral-500">
+            <span className="truncate text-xs font-medium text-neutral-500">
               {url}
             </span>
           </div>

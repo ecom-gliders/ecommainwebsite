@@ -187,7 +187,7 @@ export function BlogIndexSearch({
                       {item.title}
                     </span>
                     {item.category ? (
-                      <span className="mt-0.5 block text-[11px] font-semibold uppercase tracking-wide text-text-secondary">
+                      <span className="mt-0.5 block text-xs font-semibold uppercase tracking-wide text-text-secondary">
                         {item.category}
                       </span>
                     ) : null}

@@ -160,7 +160,7 @@ function ServiceCustomTail({
                 <li key={item.title} className="relative pb-6 last:pb-0">
                   <span
                     aria-hidden="true"
-                    className="absolute -left-[1.4rem] top-1 flex h-5 w-5 items-center justify-center rounded-full border border-primary bg-background font-mono text-[10px] font-bold text-primary sm:-left-[1.65rem]"
+                    className="absolute -left-[1.4rem] top-1 flex h-5 w-5 items-center justify-center rounded-full border border-primary bg-background font-mono text-xs font-bold text-primary sm:-left-[1.65rem]"
                   >
                     {index + 1}
                   </span>
@@ -176,7 +176,7 @@ function ServiceCustomTail({
           ) : presentation.deliverables === "sheet" ? (
             <div className="mt-8 overflow-x-auto rounded-[12px] border border-primary/20 bg-background">
               <table className="min-w-full text-left text-small">
-                <thead className="border-b border-primary/15 bg-surface-muted/80 font-mono text-[10px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                <thead className="border-b border-primary/15 bg-surface-muted/80 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                   <tr>
                     <th className="px-4 py-2.5 sm:px-5">#</th>
                     <th className="px-4 py-2.5 sm:px-5">Scope item</th>
@@ -188,7 +188,7 @@ function ServiceCustomTail({
                 <tbody className="divide-y divide-primary/10">
                   {service.deliverables.items.map((item, index) => (
                     <tr key={item.title}>
-                      <td className="px-4 py-3 font-mono text-[11px] tabular-nums text-text-secondary sm:px-5">
+                      <td className="px-4 py-3 font-mono text-xs tabular-nums text-text-secondary sm:px-5">
                         {String(index + 1).padStart(2, "0")}
                       </td>
                       <td className="px-4 py-3 font-semibold text-primary sm:px-5">
@@ -228,7 +228,7 @@ function ServiceCustomTail({
                     >
                       <span
                         aria-hidden="true"
-                        className="mt-0.5 shrink-0 font-mono text-[11px] font-bold tabular-nums text-text-secondary"
+                        className="mt-0.5 shrink-0 font-mono text-xs font-bold tabular-nums text-text-secondary"
                       >
                         {String(index + 1).padStart(2, "0")}
                       </span>
@@ -419,7 +419,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
         >
           <p
             id="service-results-heading"
-            className="font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-text-secondary"
+            className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-secondary"
           >
             Catalog-linked case outcomes
           </p>
@@ -1196,7 +1196,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
             "border-t-4 border-t-accent",
           )}
         >
-          <p className="border-b-2 border-primary px-5 py-3 text-[11px] font-bold uppercase tracking-[0.14em] text-primary sm:px-6">
+          <p className="border-b-2 border-primary px-5 py-3 text-xs font-bold uppercase tracking-[0.14em] text-primary sm:px-6">
             Includes
           </p>
           <ul className="grid md:grid-cols-2 md:divide-x-2 md:divide-primary/15">
@@ -1215,7 +1215,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
                 >
                   <span
                     aria-hidden="true"
-                    className="mt-0.5 shrink-0 font-mono text-[11px] font-bold tabular-nums text-text-secondary"
+                    className="mt-0.5 shrink-0 font-mono text-xs font-bold tabular-nums text-text-secondary"
                   >
                     {String(index + 1).padStart(2, "0")}
                   </span>
@@ -1264,7 +1264,7 @@ export function ServicePageTemplate({ service, site, relatedPosts = [] }: Servic
                 >
                   <p
                     className={cn(
-                      "text-[11px] font-bold uppercase tracking-[0.14em]",
+                      "text-xs font-bold uppercase tracking-[0.14em]",
                       isLead ? "text-primary/70" : "text-accent",
                     )}
                   >

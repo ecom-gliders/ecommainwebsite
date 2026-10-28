@@ -47,7 +47,7 @@ export function FsManifesto({ service }: FsManifestoProps) {
                   className="absolute w-[5.75rem] -translate-x-1/2 -translate-y-1/2 border-2 border-primary bg-background px-1.5 py-1.5 text-center shadow-[3px_3px_0_0_#131311] sm:w-[7.5rem] sm:px-2"
                   style={{ left: `${x}%`, top: `${y}%` }}
                 >
-                  <p className="text-[10px] font-bold leading-tight text-primary sm:text-[11px]">
+                  <p className="text-xs font-bold leading-tight text-primary sm:text-xs">
                     {item.title}
                   </p>
                 </div>
@@ -65,7 +65,7 @@ export function FsManifesto({ service }: FsManifestoProps) {
             <ol className="mt-6 space-y-5">
               {manifesto.statements.map((item, index) => (
                 <li key={item.title} className="flex gap-3">
-                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center border-2 border-primary bg-accent font-mono text-[11px] font-bold text-primary">
+                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center border-2 border-primary bg-accent font-mono text-xs font-bold text-primary">
                     {index + 1}
                   </span>
                   <div>
@@ -90,7 +90,7 @@ export function FsManifesto({ service }: FsManifestoProps) {
                     <p className="text-xl font-black tracking-tight text-primary">
                       {metric.value}
                     </p>
-                    <p className="mt-0.5 text-[10px] font-semibold uppercase tracking-[0.06em] text-text-secondary">
+                    <p className="mt-0.5 text-xs font-semibold uppercase tracking-[0.06em] text-text-secondary">
                       {metric.label}
                     </p>
                   </li>

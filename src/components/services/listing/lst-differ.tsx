@@ -37,7 +37,7 @@ export function LstDiffer({ service }: LstDifferProps) {
 
         <div className="mt-8 grid gap-0 overflow-hidden border-2 border-primary lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
           <div className="bg-background p-5 sm:p-6 lg:border-r-2 lg:border-primary">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
               Common listing shortcuts
             </p>
             <ul className="mt-4 space-y-3">
@@ -53,7 +53,7 @@ export function LstDiffer({ service }: LstDifferProps) {
             </ul>
           </div>
           <div className="border-t-2 border-primary bg-primary p-5 text-text-on-dark sm:p-6 lg:border-t-0">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Listing SEO system
             </p>
             <ul className="mt-4 space-y-4">

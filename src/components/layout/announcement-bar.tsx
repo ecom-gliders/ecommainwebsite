@@ -50,7 +50,7 @@ function AiAnnouncementBar({
       <div className="container-page flex flex-col gap-2.5 py-2.5 sm:gap-3 sm:py-3 lg:flex-row lg:items-center lg:justify-between lg:gap-6 lg:py-2.5">
         <div className="min-w-0 space-y-0.5 sm:space-y-1">
           {kicker ? (
-            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-accent">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">
               {kicker}
             </p>
           ) : null}
@@ -89,7 +89,7 @@ function AiAnnouncementBar({
                   target={action.external ? "_blank" : undefined}
                   rel={action.external ? "noopener noreferrer" : undefined}
                   className={cn(
-                    "group inline-flex h-9 w-full items-center justify-center gap-2 rounded-[8px] border border-border/20 bg-background px-2.5 text-[11px] font-medium text-text-primary shadow-sm sm:h-10 sm:w-auto sm:justify-start sm:gap-2.5 sm:rounded-md sm:px-3 sm:text-xs",
+                    "group inline-flex h-9 w-full items-center justify-center gap-2 rounded-[8px] border border-border/20 bg-background px-2.5 text-xs font-medium text-text-primary shadow-sm sm:h-10 sm:w-auto sm:justify-start sm:gap-2.5 sm:rounded-md sm:px-3",
                     "transition-colors hover:border-accent/40 hover:bg-surface focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
                   )}
                 >

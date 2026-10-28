@@ -119,7 +119,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
     >
       <div className="relative mx-auto max-w-3xl text-center">
         {eyebrow ? (
-          <p className="inline-flex rounded-[6px] bg-primary px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-text-on-dark sm:text-xs">
+          <p className="inline-flex rounded-[6px] bg-primary px-3 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark">
             {eyebrow}
           </p>
         ) : null}
@@ -154,7 +154,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
               <tr>
                 <th scope="col" className="w-[18%] pb-6 pr-3" />
                 <th scope="col" className="w-[20.5%] pb-6 pr-3 text-left">
-                  <span className="inline-flex rounded-[8px] border-[3px] border-accent bg-background px-3 py-2 text-[11px] font-bold uppercase tracking-[0.1em] text-primary">
+                  <span className="inline-flex rounded-[8px] border-[3px] border-accent bg-background px-3 py-2 text-xs font-bold uppercase tracking-[0.1em] text-primary">
                     {agencyColumn}
                   </span>
                 </th>
@@ -164,7 +164,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
                     scope="col"
                     className="w-[20.5%] pb-6 pr-3 text-left last:pr-0"
                   >
-                    <span className="inline-flex rounded-[8px] bg-primary px-3 py-2 text-[11px] font-bold uppercase tracking-[0.1em] text-text-on-dark">
+                    <span className="inline-flex rounded-[8px] bg-primary px-3 py-2 text-xs font-bold uppercase tracking-[0.1em] text-text-on-dark">
                       {label}
                     </span>
                   </th>
@@ -182,7 +182,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
                 return (
                   <tr key={feature} className="border-t border-primary/10">
                     <th scope="row" className="py-5 pr-3 align-middle text-left">
-                      <span className="inline-flex rounded-[6px] bg-primary px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-[0.12em] text-text-on-dark">
+                      <span className="inline-flex rounded-[6px] bg-primary px-2.5 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-text-on-dark">
                         {feature}
                       </span>
                     </th>
@@ -219,7 +219,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
               key={feature}
               className="overflow-hidden rounded-[16px] border-2 border-primary bg-background p-4 shadow-[3px_3px_0_0_#131311]"
             >
-              <p className="inline-flex rounded-[6px] bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.12em] text-text-on-dark">
+              <p className="inline-flex rounded-[6px] bg-primary px-2.5 py-1 text-xs font-bold uppercase tracking-[0.12em] text-text-on-dark">
                 {feature}
               </p>
               <dl className="mt-4 space-y-4 text-sm">
@@ -228,7 +228,7 @@ export function ComparisonSection({ id, data }: ComparisonSectionProps) {
                     <div className="min-w-0 flex-1">
                       <dt
                         className={cn(
-                          "text-[10px] font-bold uppercase tracking-[0.12em]",
+                          "text-xs font-bold uppercase tracking-[0.12em]",
                           index === 0 ? "text-primary" : "text-text-secondary",
                         )}
                       >

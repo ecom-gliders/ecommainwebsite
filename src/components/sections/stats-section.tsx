@@ -37,7 +37,7 @@ export function StatsSection({ id, data }: StatsSectionProps) {
     >
       <div className="mx-auto max-w-3xl text-center">
         {eyebrow ? (
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-on-dark/55 sm:text-xs">
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-on-dark/55">
             {eyebrow}
           </p>
         ) : null}

@@ -58,7 +58,7 @@ export function TtkSeatAudience({ service }: TtkSeatAudienceProps) {
                 key={point.title}
                 className="flex flex-col border-2 border-primary bg-[#F4F4F4] p-3 sm:p-4"
               >
-                <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                   {seat.label}
                 </p>
                 <div className="relative mx-auto mt-3 aspect-[9/16] w-full max-w-[5rem] overflow-hidden border-2 border-primary sm:max-w-[5.5rem]">

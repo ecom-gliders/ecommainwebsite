@@ -105,13 +105,13 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
               {/* Search chrome */}
               <div className="flex shrink-0 items-center gap-2 border-b-2 border-primary bg-primary px-3 py-2.5">
                 <span
-                  className="flex h-8 flex-1 items-center truncate border border-accent/40 bg-[#1a1a18] px-2.5 font-mono text-[11px] text-text-on-dark/90 sm:text-xs"
+                  className="flex h-8 flex-1 items-center truncate border border-accent/40 bg-[#1a1a18] px-2.5 font-mono text-xs text-text-on-dark/90"
                   aria-hidden="true"
                 >
                   waterproof hiking boots men
                 </span>
                 <span
-                  className="shrink-0 border-2 border-accent bg-accent px-2.5 py-1.5 font-mono text-[10px] font-black uppercase tracking-wide text-primary"
+                  className="shrink-0 border-2 border-accent bg-accent px-2.5 py-1.5 font-mono text-xs font-black uppercase tracking-wide text-primary"
                   aria-hidden="true"
                 >
                   Search
@@ -158,10 +158,10 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
                         strokeWidth="2"
                       />
                     </svg>
-                    <p className="mt-2 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-text-secondary">
+                    <p className="mt-2 font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
                       Main image
                     </p>
-                    <span className="absolute left-2 top-2 border border-primary bg-accent px-1.5 py-0.5 font-mono text-[9px] font-black text-primary">
+                    <span className="absolute left-2 top-2 border border-primary bg-accent px-1.5 py-0.5 font-mono text-xs font-black text-primary">
                       ASIN
                     </span>
                   </div>
@@ -170,7 +170,7 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
                       <div
                         key={label}
                         className={cn(
-                          "flex aspect-square items-center justify-center border-2 border-primary font-mono text-[9px] font-bold",
+                          "flex aspect-square items-center justify-center border-2 border-primary font-mono text-xs font-bold",
                           i === 0
                             ? "bg-accent text-primary"
                             : "bg-background text-text-secondary",
@@ -211,10 +211,10 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
                         />
                       ))}
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-text-secondary">
+                    <span className="font-mono text-xs font-bold text-text-secondary">
                       4.6 · 1,284 ratings
                     </span>
-                    <span className="font-mono text-[10px] font-bold text-primary">
+                    <span className="font-mono text-xs font-bold text-primary">
                       $89.00
                     </span>
                   </div>
@@ -235,17 +235,17 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
                   </ul>
 
                   <div className="mt-auto border-t-2 border-primary/15 pt-3">
-                    <p className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                       Field coverage
                     </p>
                     <ul className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
                       {FIELDS.map((field) => (
                         <li key={field.label}>
                           <div className="flex items-baseline justify-between gap-1">
-                            <span className="font-mono text-[9px] font-bold uppercase text-text-secondary">
+                            <span className="font-mono text-xs font-bold uppercase text-text-secondary">
                               {field.label}
                             </span>
-                            <span className="font-mono text-[10px] font-black tabular-nums text-primary">
+                            <span className="font-mono text-xs font-black tabular-nums text-primary">
                               {field.score}
                             </span>
                           </div>
@@ -268,14 +268,14 @@ export function LstPdpHero({ service, site }: LstPdpHeroProps) {
               {/* Indexed terms — full width footer */}
               <div className="shrink-0 border-t-2 border-primary bg-[#F4F4F4] px-3 py-2.5 sm:px-4">
                 <div className="flex flex-wrap items-center gap-2">
-                  <p className="shrink-0 font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-text-secondary">
+                  <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
                     Indexed terms
                   </p>
                   <ul className="flex flex-wrap gap-1.5">
                     {INDEXED.map((term) => (
                       <li
                         key={term}
-                        className="border border-primary bg-accent px-1.5 py-0.5 font-mono text-[10px] font-bold text-primary"
+                        className="border border-primary bg-accent px-1.5 py-0.5 font-mono text-xs font-bold text-primary"
                       >
                         {term}
                       </li>

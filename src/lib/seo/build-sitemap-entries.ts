@@ -16,6 +16,8 @@ const STATIC_ROUTES: StaticRouteConfig[] = [
   { path: "/free-audit/", changeFrequency: "monthly", priority: 0.9 },
   { path: "/services/", changeFrequency: "weekly", priority: 0.9 },
   { path: "/about-us/", changeFrequency: "monthly", priority: 0.8 },
+  { path: "/agency-partnership/", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/careers/", changeFrequency: "monthly", priority: 0.6 },
   { path: "/contact/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/case-studies/", changeFrequency: "weekly", priority: 0.8 },
   { path: "/blog/", changeFrequency: "weekly", priority: 0.8 },

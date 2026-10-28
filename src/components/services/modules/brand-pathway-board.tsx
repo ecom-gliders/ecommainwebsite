@@ -26,7 +26,7 @@ export function BrandPathwayBoard({
     return (
       <div className="space-y-3">
         {urlLabel ? (
-          <p className="font-mono text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+          <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
             {urlLabel}
           </p>
         ) : null}
@@ -47,7 +47,7 @@ export function BrandPathwayBoard({
                 </span>
                 <p
                   className={cn(
-                    "text-[11px] font-bold uppercase tracking-[0.12em]",
+                    "text-xs font-bold uppercase tracking-[0.12em]",
                     stage.state === "upcoming"
                       ? "text-text-secondary"
                       : "text-primary",
@@ -77,7 +77,7 @@ export function BrandPathwayBoard({
   if (variant === "stamp") {
     return (
       <div className="space-y-3">
-        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-text-secondary">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-secondary">
           {urlLabel}
         </p>
         <ol className="flex gap-0 overflow-x-auto border-2 border-primary bg-background shadow-[4px_4px_0_0_#131311]">
@@ -97,7 +97,7 @@ export function BrandPathwayBoard({
                 </span>
                 <p
                   className={cn(
-                    "text-[10px] font-bold uppercase tracking-[0.12em]",
+                    "text-xs font-bold uppercase tracking-[0.12em]",
                     stage.state === "upcoming"
                       ? "text-text-secondary"
                       : "text-primary",
@@ -143,7 +143,7 @@ export function BrandPathwayBoard({
               className="h-3 w-3 shrink-0 text-neutral-400"
               aria-hidden="true"
             />
-            <span className="truncate text-[11px] font-medium text-neutral-500">
+            <span className="truncate text-xs font-medium text-neutral-500">
               {urlLabel}
             </span>
           </div>
@@ -163,7 +163,7 @@ export function BrandPathwayBoard({
             >
               <p
                 className={cn(
-                  "text-[11px] font-bold uppercase tracking-[0.12em]",
+                  "text-xs font-bold uppercase tracking-[0.12em]",
                   stage.state === "done" && "text-primary",
                   stage.state === "current" && "text-primary",
                   stage.state === "upcoming" && "text-text-secondary",

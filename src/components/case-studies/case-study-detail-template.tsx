@@ -70,7 +70,7 @@ export function CaseStudyDetailTemplate({
         <div className="relative mx-auto grid max-w-[1320px] gap-8 px-4 pb-12 pt-5 sm:px-6 sm:pb-16 sm:pt-6 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-end lg:gap-10 lg:px-8 lg:pb-20 lg:pt-8">
           <div className="text-text-on-dark">
             <ServicesChips study={study} onDark />
-            <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.16em] text-accent">
+            <p className="mt-4 text-xs font-bold uppercase tracking-[0.12em] text-accent">
               {[study.category, study.market, study.duration].filter(Boolean).join(" · ")}
             </p>
             <h1
@@ -172,7 +172,7 @@ export function CaseStudyDetailTemplate({
             </div>
           </div>
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-text-secondary">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
               Key issues
             </p>
             <KeyIssuesList study={study} />

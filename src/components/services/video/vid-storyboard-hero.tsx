@@ -89,10 +89,10 @@ export function VidStoryboardHero({ service, site }: VidStoryboardHeroProps) {
               aria-label="Storyboard timeline preview"
             >
               <div className="flex shrink-0 items-center justify-between gap-3 border-b border-accent/30 px-3 py-2">
-                <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+                <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                   Storyboard · listing cut
                 </p>
-                <p className="font-mono text-[10px] font-bold text-text-on-dark/50">
+                <p className="font-mono text-xs font-bold text-text-on-dark/50">
                   TC IN → OUT
                 </p>
               </div>
@@ -108,7 +108,7 @@ export function VidStoryboardHero({ service, site }: VidStoryboardHeroProps) {
                       )}
                     >
                       <div className="flex items-center justify-between border-b border-text-on-dark/15 px-2 py-1">
-                        <span className="font-mono text-[9px] font-bold text-accent">
+                        <span className="font-mono text-xs font-bold text-accent">
                           {frame.timecode}
                         </span>
                         <span className="font-mono text-[8px] font-bold uppercase text-text-on-dark/40">
@@ -129,14 +129,14 @@ export function VidStoryboardHero({ service, site }: VidStoryboardHeroProps) {
                             priority={index === 0}
                           />
                         </div>
-                        <p className="mt-2 text-[10px] font-medium leading-snug text-text-on-dark/55">
+                        <p className="mt-2 text-xs font-medium leading-snug text-text-on-dark/55">
                           {frame.note}
                         </p>
                       </div>
                     </li>
                   ))}
                 </ol>
-                <p className="mt-3 text-center font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-text-on-dark/35">
+                <p className="mt-3 text-center font-mono text-xs font-bold uppercase tracking-[0.12em] text-text-on-dark/35">
                   Muted autoplay · safe zones per placement
                 </p>
               </div>

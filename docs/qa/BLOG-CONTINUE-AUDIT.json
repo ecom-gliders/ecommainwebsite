@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-28T13:36:32.377Z",
+  "totals": {
+    "missingImg": 0,
+    "brokenImg": 0,
+    "elementor": 0,
+    "dupTitleH2": 0,
+    "thinMeta": 0,
+    "noReading": 0,
+    "manyColonHeads": 0,
+    "hype": 0,
+    "robotsNoindex": 0,
+    "issuePosts": 0
+  },
+  "issues": []
+}

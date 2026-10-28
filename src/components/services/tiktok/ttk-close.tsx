@@ -47,10 +47,10 @@ export function TtkClose({ service }: TtkCloseProps) {
           )}
         >
           <div className="flex items-center justify-between border-b border-accent/40 bg-primary px-4 py-2">
-            <p className="font-mono text-[10px] font-bold uppercase tracking-[0.1em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
               Spark rail · next step
             </p>
-            <p className="font-mono text-[10px] font-bold text-text-on-dark/45">
+            <p className="font-mono text-xs font-bold text-text-on-dark/45">
               Audit first
             </p>
           </div>

@@ -63,10 +63,10 @@ export function PpcFaq({ service }: PpcFaqProps) {
               className="border-2 border-primary bg-background px-3 py-3"
             >
               <div className="flex items-center justify-between gap-2">
-                <span className="font-mono text-[10px] font-bold text-text-secondary">
+                <span className="font-mono text-xs font-bold text-text-secondary">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="rounded-sm border border-primary bg-accent px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.06em] text-primary">
+                <span className="rounded-sm border border-primary bg-accent px-1.5 py-0.5 text-xs font-bold uppercase tracking-[0.06em] text-primary">
                   {match.job}
                 </span>
               </div>

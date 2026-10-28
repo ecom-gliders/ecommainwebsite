@@ -73,10 +73,10 @@ export function VidFormatCards({ service }: VidFormatCardsProps) {
                 className="flex flex-col border border-accent/40 bg-[#1a1a18] p-4"
               >
                 <div className="flex items-start justify-between gap-2">
-                  <span className="font-mono text-[9px] font-bold uppercase tracking-[0.1em] text-accent">
+                  <span className="font-mono text-xs font-bold uppercase tracking-[0.1em] text-accent">
                     {meta.tag}
                   </span>
-                  <span className="font-mono text-[9px] font-bold text-text-on-dark/35">
+                  <span className="font-mono text-xs font-bold text-text-on-dark/35">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>

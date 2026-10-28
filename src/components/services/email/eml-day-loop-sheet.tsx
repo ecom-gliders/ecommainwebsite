@@ -35,11 +35,11 @@ export function EmlDayLoopSheet({ service }: EmlDayLoopSheetProps) {
 
         <div className="mt-8 border-2 border-primary bg-background shadow-[4px_4px_0_0_#131311]">
           <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-primary bg-primary px-3 py-2">
-            <span className="font-mono text-[10px] font-bold text-accent">
+            <span className="font-mono text-xs font-bold text-accent">
               {board.urlLabel}
             </span>
             {board.boardLabel ? (
-              <span className="font-mono text-[10px] font-bold text-text-on-dark/60">
+              <span className="font-mono text-xs font-bold text-text-on-dark/60">
                 {board.boardLabel}
               </span>
             ) : null}
@@ -52,7 +52,7 @@ export function EmlDayLoopSheet({ service }: EmlDayLoopSheetProps) {
                     <th
                       key={col}
                       scope="col"
-                      className="px-3 py-2.5 font-mono text-[10px] font-bold uppercase tracking-[0.06em] text-primary"
+                      className="px-3 py-2.5 font-mono text-xs font-bold uppercase tracking-[0.06em] text-primary"
                     >
                       {col}
                     </th>

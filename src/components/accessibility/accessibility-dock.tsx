@@ -130,7 +130,7 @@ export function AccessibilityDock() {
                 >
                   Accessibility
                 </p>
-                <p className="mt-1 text-[12px] leading-snug text-text-secondary">
+                <p className="mt-1 text-xs leading-snug text-text-secondary">
                   Personalize reading and vision. Settings stay on this device.
                   {activeCount > 0 ? ` ${activeCount} active.` : ""}
                 </p>
@@ -147,7 +147,7 @@ export function AccessibilityDock() {
 
             <div className="flex-1 space-y-4 overflow-y-auto px-4 py-4">
               <section>
-                <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-text-secondary">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-text-secondary">
                   Profiles
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -159,7 +159,7 @@ export function AccessibilityDock() {
                         type="button"
                         aria-pressed={selected}
                         className={cn(
-                          "rounded-full border-2 px-3 py-1.5 text-[11px] font-bold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
+                          "rounded-full border-2 px-3 py-1.5 text-xs font-bold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent",
                           selected
                             ? "border-primary bg-accent text-primary"
                             : "border-primary/30 text-primary hover:border-primary hover:bg-surface-muted",
@@ -174,7 +174,7 @@ export function AccessibilityDock() {
               </section>
 
               <section>
-                <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-text-secondary">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-text-secondary">
                   Content and reading
                 </p>
                 <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
@@ -251,7 +251,7 @@ export function AccessibilityDock() {
               </section>
 
               <section>
-                <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-text-secondary">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-text-secondary">
                   Vision and color
                 </p>
                 <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
@@ -298,7 +298,7 @@ export function AccessibilityDock() {
               </section>
 
               <section>
-                <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-text-secondary">
+                <p className="mb-2 text-xs font-bold uppercase tracking-wide text-text-secondary">
                   Motion and focus
                 </p>
                 <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">

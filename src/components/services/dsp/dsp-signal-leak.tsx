@@ -42,7 +42,7 @@ export function DspSignalLeak({ service }: DspSignalLeakProps) {
             >
               <div className="border-2 border-accent bg-primary px-4 py-4 sm:px-5">
                 <div className="flex items-center justify-between gap-3">
-                  <span className="font-mono text-[10px] font-bold text-accent">
+                  <span className="font-mono text-xs font-bold text-accent">
                     Leak {String(index + 1).padStart(2, "0")}
                   </span>
                   <span
