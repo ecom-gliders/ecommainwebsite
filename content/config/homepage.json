@@ -18,11 +18,21 @@
           "href": "/case-studies/"
         },
         "trustLine": "Helping sellers since 2018",
-        "partnerBadge": {
-          "label": "Amazon Ads Verified Partner",
-          "image": "/images/amazon-verified-partner.png",
-          "href": "https://advertising.amazon.com/partners/directory/details/amzn1.ads1.ma1.77r354k0k7k515003rnsnvfi7/eCom-Gliders-LLC"
-        },
+        "partnerBadges": [
+          {
+            "label": "Amazon Ads Verified Partner",
+            "image": "/images/amazon-verified-partner.png",
+            "href": "https://advertising.amazon.com/partners/directory/details/amzn1.ads1.ma1.77r354k0k7k515003rnsnvfi7/eCom-Gliders-LLC"
+          },
+          {
+            "label": "Amazon Service Providers Partner",
+            "image": "/images/trust/ssp-partner.png"
+          },
+          {
+            "label": "eLEEVATE Logistics",
+            "image": "/images/trust/eleevate-logistics.png"
+          }
+        ],
         "visual": {
           "type": "leadForm",
           "formHeading": "Get your free audit",
@@ -287,12 +297,12 @@
           },
           {
             "label": "Amazon SSP Partner",
-            "image": "/images/trust/ssp-partner-on-lime.png",
+            "image": "/images/trust/ssp-partner-home.png",
             "alt": "Amazon Service Providers Partner"
           },
           {
             "label": "eLEEVATE Logistics",
-            "image": "/images/trust/eleevate-logistics.png",
+            "image": "/images/trust/eleevate-partner-home.png",
             "alt": "eLEEVATE Logistics SPP verified partner"
           }
         ],

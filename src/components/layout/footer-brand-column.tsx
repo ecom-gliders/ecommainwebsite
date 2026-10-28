@@ -1,10 +1,9 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import Image from "next/image";
 import type { SiteConfig } from "@/domain/content/schemas";
+import { PartnerBadgesRow } from "@/components/brand/partner-badges-row";
 import { BrandLogo } from "@/components/design-system/brand-logo";
 import { FooterSocialLinks } from "@/components/layout/footer-social-links";
-import { Badge } from "@/components/ui/badge";
 
 function BrandContactBlock({ site }: { site: SiteConfig }) {
   return (
@@ -43,7 +42,7 @@ function partnerBadgeImageExists(imagePath: string): boolean {
     return existsSync(imagePath);
   }
 
-  return existsSync(join(process.cwd(), "public", imagePath));
+  return existsSync(join(process.cwd(), "public", imagePath.replace(/^\//, "")));
 }
 
 /** Same column rhythm as the footer link directory (xl: 4 cols). */
@@ -51,9 +50,9 @@ const bandGridClass =
   "grid w-full grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-8 md:grid-cols-3 lg:gap-x-12 xl:grid-cols-4 xl:gap-x-10";
 
 export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
-  const partnerBadge = site.partnerBadges[0];
-  const showPartnerImage =
-    partnerBadge?.image && partnerBadgeImageExists(partnerBadge.image);
+  const partnerBadges = site.partnerBadges.filter(
+    (badge) => badge.image && partnerBadgeImageExists(badge.image),
+  );
   const hasSocial = Object.values(site.social).some(Boolean);
 
   return (
@@ -73,25 +72,17 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
 
       {/* Col 2 — partner proof (no Free Audit; already in header / pre-footer / Company) */}
       <div className="flex min-w-0 flex-col gap-3">
-        {partnerBadge ? (
+        {partnerBadges.length > 0 ? (
           <>
             <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
-              Partner
+              Partners
             </p>
-            {showPartnerImage ? (
-              <Image
-                src={partnerBadge.image}
-                alt={partnerBadge.label}
-                width={240}
-                height={72}
-                className="h-11 w-auto max-w-full rounded-md bg-text-on-dark px-2.5 py-1.5 object-contain sm:h-12"
-                sizes="240px"
-                quality={85}
-                loading="lazy"
-              />
-            ) : (
-              <Badge variant="outline">{partnerBadge.label}</Badge>
-            )}
+            <PartnerBadgesRow
+              badges={partnerBadges}
+              surface="dark"
+              align="between"
+              size="footer"
+            />
           </>
         ) : null}
       </div>

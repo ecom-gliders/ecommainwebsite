@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { FreeAmazonToolPageConfig } from "@/domain/content/schemas";
+import { FbaFeeProfitCalculator } from "@/components/tools/fba-fee-profit-calculator";
 import { PpcConversionCostCalculator } from "@/components/tools/ppc-conversion-cost-calculator";
 import { GstCalculator } from "@/components/tools/gst-calculator";
 import { AmazonPnlCalculator } from "@/components/tools/amazon-pnl-calculator";
@@ -19,8 +20,14 @@ interface FreeAmazonToolPageTemplateProps {
   tool: FreeAmazonToolPageConfig;
 }
 
-function ToolInteractive({ kind }: { kind: FreeAmazonToolPageConfig["toolKind"] }) {
+function ToolInteractive({
+  kind,
+}: {
+  kind: FreeAmazonToolPageConfig["toolKind"];
+}) {
   switch (kind) {
+    case "fba-fee-profit-calculator":
+      return <FbaFeeProfitCalculator />;
     case "ppc-conversion-cost-calculator":
       return <PpcConversionCostCalculator />;
     case "gst-calculator":
@@ -50,6 +57,41 @@ function ToolInteractive({ kind }: { kind: FreeAmazonToolPageConfig["toolKind"] 
       return _exhaustive;
     }
   }
+}
+
+function InfoBlocks({
+  headingId,
+  heading,
+  items,
+}: {
+  headingId: string;
+  heading: string;
+  items: Array<{ title: string; body: string }>;
+}) {
+  if (items.length === 0) return null;
+  return (
+    <div className="mx-auto mt-10 max-w-5xl">
+      <h2
+        id={headingId}
+        className="text-lg font-bold tracking-tight text-text-primary"
+      >
+        {heading}
+      </h2>
+      <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((item) => (
+          <li
+            key={item.title}
+            className="border-2 border-primary/20 bg-background p-4"
+          >
+            <p className="text-sm font-bold text-text-primary">{item.title}</p>
+            <p className="mt-2 text-sm font-medium leading-relaxed text-text-secondary">
+              {item.body}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export function FreeAmazonToolPageTemplate({
@@ -111,28 +153,21 @@ export function FreeAmazonToolPageTemplate({
             <ToolInteractive kind={tool.toolKind} />
           </div>
 
-          {tool.tips.length > 0 ? (
-            <div className="mx-auto mt-10 max-w-5xl">
-              <h3 className="text-lg font-bold tracking-tight text-text-primary">
-                How to use the results
-              </h3>
-              <ul className="mt-4 grid gap-3 sm:grid-cols-3">
-                {tool.tips.map((tip) => (
-                  <li
-                    key={tip.title}
-                    className="border-2 border-primary/20 bg-background p-4"
-                  >
-                    <p className="text-sm font-bold text-text-primary">
-                      {tip.title}
-                    </p>
-                    <p className="mt-2 text-sm font-medium leading-relaxed text-text-secondary">
-                      {tip.body}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
+          <InfoBlocks
+            headingId="tool-instructions-heading"
+            heading="How to use this tool"
+            items={tool.instructions}
+          />
+          <InfoBlocks
+            headingId="tool-assumptions-heading"
+            heading="Assumptions and limits"
+            items={tool.assumptions}
+          />
+          <InfoBlocks
+            headingId="tool-tips-heading"
+            heading="How to use the results"
+            items={tool.tips}
+          />
         </div>
       </section>
 

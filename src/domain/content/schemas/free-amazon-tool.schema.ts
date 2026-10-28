@@ -31,11 +31,17 @@ export const freeAmazonToolsPageConfigSchema = z.object({
   seo: pageSeoSchema,
 });
 
+const tipBlockSchema = z.object({
+  title: z.string(),
+  body: z.string(),
+});
+
 /**
  * Interactive tool kinds registered in the app.
  * Add a new kind + handler when shipping a new tool page.
  */
 export const freeAmazonToolKindSchema = z.enum([
+  "fba-fee-profit-calculator",
   "ppc-conversion-cost-calculator",
   "gst-calculator",
   "amazon-pnl-calculator",
@@ -60,7 +66,9 @@ export const freeAmazonToolPageConfigSchema = z.object({
   }),
   intro: z.string(),
   toolKind: freeAmazonToolKindSchema,
-  tips: z.array(z.object({ title: z.string(), body: z.string() })).default([]),
+  instructions: z.array(tipBlockSchema).default([]),
+  assumptions: z.array(tipBlockSchema).default([]),
+  tips: z.array(tipBlockSchema).default([]),
   cta: z.object({
     heading: z.string(),
     primaryCta: z.object({

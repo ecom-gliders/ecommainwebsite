@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
+import { PartnerBadgesRow } from "@/components/brand/partner-badges-row";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import type { ServicePageConfig, SiteConfig } from "@/domain/content/schemas";
@@ -70,7 +71,7 @@ export function heroDefersForm(_presentation: HeroPresentation): boolean {
  * Service hero — presentation varies by layout so pages do not share one form template.
  */
 export function ServiceHero({ service, site }: ServiceHeroProps) {
-  const partnerBadge = site.partnerBadges[0];
+  const partnerBadges = site.partnerBadges;
   const presentation = getServiceHeroPresentation(service.layout);
   const useAtmosphere =
     Boolean(service.hero.atmosphere) &&
@@ -331,27 +332,14 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
               >
                 {trustLine}
               </p>
-              {partnerBadge?.image ? (
+              {partnerBadges.length > 0 ? (
                 <div className="mt-5">
-                  <div
-                    className={cn(
-                      "inline-flex items-center",
-                      onDark &&
-                        "rounded-[10px] border border-accent/40 bg-background/95 px-2 py-1.5",
-                      !onDark &&
-                        "rounded-[8px] border border-primary/15 bg-background px-2 py-1.5",
-                    )}
-                  >
-                    <Image
-                      src={partnerBadge.image}
-                      alt={partnerBadge.label || "Amazon Ads Verified Partner"}
-                      width={260}
-                      height={74}
-                      className="h-12 w-auto sm:h-14 lg:h-16"
-                      sizes="260px"
-                      quality={85}
-                    />
-                  </div>
+                  <PartnerBadgesRow
+                    badges={partnerBadges}
+                    surface={onDark ? "dark" : "light"}
+                    align="start"
+                    size="md"
+                  />
                 </div>
               ) : null}
             </div>

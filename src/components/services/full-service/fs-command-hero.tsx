@@ -33,7 +33,7 @@ export function FsCommandHero({ service, site }: FsCommandHeroProps) {
           className="flex justify-start"
         />
 
-        <div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-8">
+        <div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] lg:items-stretch lg:gap-8">
           <div className="flex min-w-0 flex-col">
             <p className="text-xs font-semibold uppercase tracking-[0.08em] text-text-secondary">
               {board?.eyebrow ?? "Full-service Amazon"}

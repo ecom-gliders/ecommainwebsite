@@ -1,0 +1,77 @@
+{
+  "slug": "amazon-fba-fee-profit-calculator",
+  "badge": "Calculator",
+  "hero": {
+    "title": "Amazon FBA fee and profit calculator",
+    "subtitle": "Estimate per-unit profit and margin using your own sale price, COGS, referral fee, FBA fulfillment, and other costs."
+  },
+  "intro": "This calculator does not embed live Amazon fee tables. Enter fee estimates from Seller Central (Revenue Calculator or fee preview) so results stay under your control.",
+  "toolKind": "fba-fee-profit-calculator",
+  "instructions": [
+    {
+      "title": "Pull fees from Seller Central",
+      "body": "Open the Amazon Revenue Calculator or your category fee schedule and note referral percent and FBA fulfillment for the size tier."
+    },
+    {
+      "title": "Enter price and landed cost",
+      "body": "Use the planned sale price and your true landed COGS, including duties where they apply."
+    },
+    {
+      "title": "Allocate optional costs",
+      "body": "Add inbound shipping, storage, advertising, and other costs on a per-unit basis for a realistic margin."
+    },
+    {
+      "title": "Review profit and break-even",
+      "body": "Check profit per unit, margin, and break-even sale price before you commit to a list price."
+    }
+  ],
+  "assumptions": [
+    {
+      "title": "Seller-provided fees",
+      "body": "Referral percent, FBA fulfillment, and other Amazon fees are estimates you enter. They are not fetched from Amazon and are not guaranteed current."
+    },
+    {
+      "title": "Per-unit model",
+      "body": "All inputs are treated as costs for a single unit sold. Volume discounts and monthly storage minimums are not modeled."
+    },
+    {
+      "title": "Referral on sale price",
+      "body": "Referral fee is calculated as a percent of sale price. Confirm whether your category uses a different basis in Seller Central."
+    },
+    {
+      "title": "Not tax advice",
+      "body": "Sales tax, VAT, and income tax are excluded. Use your accountant for filing decisions."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Negative profit",
+      "body": "Raise price, cut ads, or renegotiate COGS before sending more inventory to FBA."
+    },
+    {
+      "title": "Thin margin",
+      "body": "Leave room for returns, storage spikes, and PPC tests when margin is under 15%."
+    },
+    {
+      "title": "Fee changes",
+      "body": "Re-run the calculator whenever Amazon updates size tiers or referral rates for your category."
+    }
+  ],
+  "cta": {
+    "heading": "Want a strategist to pressure-test these unit economics?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon FBA Fee and Profit Calculator | Free Tool | eCom Gliders",
+    "metaDescription": "Free Amazon FBA fee and profit calculator. Enter sale price, COGS, referral fee, FBA fulfillment, and other costs to estimate profit, margin, and break-even price.",
+    "canonical": "/free-amazon-tools/amazon-fba-fee-profit-calculator/",
+    "schema": "Organization"
+  }
+}

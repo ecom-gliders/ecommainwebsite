@@ -92,7 +92,8 @@ export function ConfigurableForm({
         className={cn(
           columns === 2
             ? cn(
-                "grid grid-cols-1 sm:grid-cols-2",
+                // items-end keeps paired inputs aligned when one label wraps.
+                "grid grid-cols-1 items-end sm:grid-cols-2",
                 compact ? "gap-x-2.5 gap-y-2.5" : "gap-x-3 gap-y-3.5",
               )
             : compact
@@ -104,14 +105,20 @@ export function ConfigurableForm({
           const fieldId = `${formId}-${field.name}`;
           const error = state.fieldErrors?.[field.name]?.[0];
           const errorId = error ? `${fieldId}-error` : undefined;
+          // Selects/URLs need full row width in compact 2-col heroes —
+          // half-columns force long option labels to wrap and clip.
           const spansFull =
             columns === 2 &&
-            (field.type === "textarea" || field.name === "message");
+            (field.type === "textarea" ||
+              field.type === "select" ||
+              field.type === "url" ||
+              field.name === "message");
 
           return (
             <div
               key={field.name}
               className={cn(
+                "min-w-0",
                 compact ? "space-y-1" : "space-y-1.5",
                 spansFull && "sm:col-span-2",
               )}
@@ -119,7 +126,7 @@ export function ConfigurableForm({
               <Label
                 htmlFor={fieldId}
                 className={cn(
-                  "text-text-primary",
+                  "block text-text-primary leading-snug",
                   compact ? "text-sm font-medium" : "text-sm",
                 )}
               >
@@ -169,6 +176,7 @@ export function ConfigurableForm({
                   className={cn(
                     fieldControlClass,
                     controlHeight,
+                    "min-w-0 truncate",
                     error && "border-error",
                   )}
                 />

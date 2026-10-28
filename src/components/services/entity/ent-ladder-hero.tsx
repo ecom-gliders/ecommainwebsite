@@ -48,7 +48,7 @@ export function EntLadderHero({ service, site }: EntLadderHeroProps) {
           className="flex justify-start"
         />
 
-        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-start lg:gap-7">
+        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] lg:items-start lg:gap-7">
           <div className="flex min-w-0 flex-col">
             <p className="font-mono text-xs font-bold uppercase tracking-[0.14em] text-accent">
               Entity setup ladder

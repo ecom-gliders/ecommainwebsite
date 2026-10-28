@@ -263,7 +263,7 @@ export function ShpStorefrontRailHero({
           </p>
         </div>
 
-        <div className="mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:grid-rows-1 lg:items-stretch lg:gap-6">
+        <div className="mt-5 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] lg:grid-rows-1 lg:items-stretch lg:gap-6">
           <div
             className="flex h-full min-h-[22rem] flex-col overflow-hidden border-2 border-accent/70 bg-[#141412] shadow-[4px_4px_0_0_#C6F135]"
             aria-label="Interactive storefront preview"

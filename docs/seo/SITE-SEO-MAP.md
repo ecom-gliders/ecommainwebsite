@@ -635,13 +635,37 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | URL | https://ecomgliders.com/free-amazon-tools/ |
 | Purpose | Scalable directory of free Amazon tools; each tool has its own page under `/free-amazon-tools/{slug}/` |
 | Search intent | Informational / commercial investigation |
-| Title | Free Amazon Tools Directory \| eCom Gliders |
+| Primary keyword | free Amazon tools |
+| Secondary keywords | Amazon FBA calculator, Amazon seller tools, Amazon PPC calculator |
+| Title | Free Amazon Tools for Sellers \| Calculators & Utilities \| eCom Gliders |
+| Meta description | Free Amazon seller tools from eCom Gliders: FBA fee and profit calculator, PPC conversion cost, P&L, GST, invoice generator, label splitter, dispatch check, and more. Browser-based; no account required. |
+| H1 | Free Amazon tools directory |
 | Canonical | https://ecomgliders.com/free-amazon-tools/ |
 | Indexability | Index, follow |
-| Structure | Directory JSON lists cards by slug; tool pages live in `content/config/tools/{slug}.json` |
-| Current tools | Amazon PPC conversion cost calculator |
+| Schema | CollectionPage, BreadcrumbList, ItemList |
+| Structure | Directory JSON lists cards by slug; tool pages live in `content/config/tools/{slug}.json` + `toolKind` |
+| XML sitemap | Included via `buildSitemapEntries` + `getAllFreeAmazonToolSlugs` |
+| HTML sitemap | Group “Free Amazon Tools” on `/site-map/` |
 | Footer | Resources → Free Amazon Tools |
-| Audit status | Implemented (2026-10-28) |
+| Audit status | SEO hardened (2026-10-29) |
+
+### Free tool: Amazon FBA fee and profit calculator
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/amazon-fba-fee-profit-calculator/ |
+| Purpose | Interactive FBA unit-economics calculator; all fees seller-entered (no invented Amazon fee schedule) |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon FBA fee calculator |
+| Secondary keywords | FBA profit calculator, Amazon FBA margin calculator |
+| Title | Amazon FBA Fee and Profit Calculator \| Free Tool \| eCom Gliders |
+| Meta description | Free Amazon FBA fee and profit calculator. Enter sale price, COGS, referral fee, FBA fulfillment, and other costs to estimate profit, margin, and break-even price. |
+| H1 | Amazon FBA fee and profit calculator |
+| Canonical | https://ecomgliders.com/free-amazon-tools/amazon-fba-fee-profit-calculator/ |
+| Indexability | Index, follow |
+| Schema | WebApplication, WebPage, BreadcrumbList, HowTo |
+| Content blocks | Instructions, assumptions/limits, result tips |
+| Audit status | Implemented (2026-10-29) |
 
 ### Free tool: PPC conversion cost calculator
 
@@ -652,7 +676,24 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Title | Amazon PPC Conversion Cost Calculator \| Free Tool \| eCom Gliders |
 | Canonical | https://ecomgliders.com/free-amazon-tools/amazon-ppc-conversion-cost-calculator/ |
 | Indexability | Index, follow |
-| Audit status | Implemented (2026-10-28) |
+| Schema | WebApplication, WebPage, BreadcrumbList |
+| Audit status | Implemented (2026-10-28); JSON-LD added 2026-10-29 |
+
+### Free tools: remaining directory entries
+
+Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
+
+- `/free-amazon-tools/amazon-pnl-calculator/`
+- `/free-amazon-tools/gst-calculator/`
+- `/free-amazon-tools/invoice-generator/`
+- `/free-amazon-tools/product-catalog/`
+- `/free-amazon-tools/label-invoice-splitter/`
+- `/free-amazon-tools/dispatch-check/`
+- `/free-amazon-tools/sku-profitability-leaderboard/`
+- `/free-amazon-tools/returns-rto-diagnostic/`
+- `/free-amazon-tools/monthly-seller-closeout/`
+- `/free-amazon-tools/tcs-tds-reconciliation/`
+- `/free-amazon-tools/ppc-performance-dashboard/`
 
 ---
 

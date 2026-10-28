@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface SpawnedBubble {
@@ -37,13 +37,13 @@ const LIFE_MS = 3400;
  * (not CSS keyframes), so Windows “reduce motion” cannot kill them.
  */
 export function PainSpawnBubbles({ quotes, className }: PainSpawnBubblesProps) {
-  const reactId = useId();
   const [bubbles, setBubbles] = useState<SpawnedBubble[]>([]);
+  /** Survives Strict Mode effect re-runs so spawn ids stay unique. */
+  const seqRef = useRef(0);
 
   useEffect(() => {
     if (quotes.length === 0) return;
 
-    let seq = 0;
     let quoteCursor = 0;
     let slotCursor = Math.floor(Math.random() * SLOT_PRESETS.length);
     let raf = 0;
@@ -89,7 +89,7 @@ export function PainSpawnBubbles({ quotes, className }: PainSpawnBubblesProps) {
       quoteCursor += 1;
       const slot = SLOT_PRESETS[slotCursor % SLOT_PRESETS.length];
       slotCursor += 1 + Math.floor(Math.random() * 2);
-      const id = ++seq;
+      const id = ++seqRef.current;
       const now = performance.now();
       bornAt.set(id, now);
 
@@ -124,6 +124,8 @@ export function PainSpawnBubbles({ quotes, className }: PainSpawnBubblesProps) {
       window.clearInterval(interval);
       window.cancelAnimationFrame(raf);
       timers.forEach((t) => window.clearTimeout(t));
+      bornAt.clear();
+      setBubbles([]);
     };
   }, [quotes]);
 
@@ -139,7 +141,7 @@ export function PainSpawnBubbles({ quotes, className }: PainSpawnBubblesProps) {
     >
       {bubbles.map((bubble) => (
         <span
-          key={`${reactId}-${bubble.id}`}
+          key={bubble.id}
           className="absolute max-w-[11.5rem] rounded-[20px] bg-accent px-3.5 py-2.5 text-left text-xs font-medium leading-snug text-primary sm:max-w-[13.5rem] sm:px-4 sm:py-2.5"
           style={{
             left: `${bubble.left}%`,

@@ -4,6 +4,16 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-29 — FBA fee calculator + Free Amazon Tools SEO (#16/#17)
+
+**Task:** One functional Amazon tool + SEO for directory and tool pages  
+**STATUS:** COMPLETE  
+**IMPLEMENTED:** `/free-amazon-tools/amazon-fba-fee-profit-calculator/` (seller-entered fees; profit/margin/break-even; instructions + assumptions); directory SEO meta; JSON-LD CollectionPage/ItemList + WebApplication/BreadcrumbList/HowTo; SITE-SEO-MAP update.  
+**VERIFIED:** Clean `next build` exit 0 (13 tool SSG paths); Playwright title/canonical/JSON-LD; calculator run yielded profit $7.34 / 24.48% margin on sample inputs; directory lists FBA card.  
+**DOCUMENTED:** SITE-SEO-MAP, SESSION-STATE, this log.  
+**REMAINING:** Optional commit/push.  
+**NEXT ACTION:** Commit when requested.
+
 ## 2026-10-28 — Free Amazon Tools suite (12 tools)
 
 **Task:** Port live tools from ecomglider.com/tools into `/free-amazon-tools/`  

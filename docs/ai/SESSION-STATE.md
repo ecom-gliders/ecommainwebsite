@@ -1,9 +1,9 @@
-## Latest (2026-10-28) — Free Amazon Tools suite
+## Latest (2026-10-29) — FBA fee calculator + tools SEO
 
-Directory `/free-amazon-tools/` lists 12 tools (PPC conversion calculator + 11 ported from ecomglider.com/tools evidence). Each has `/free-amazon-tools/{slug}/` from `content/config/tools/{slug}.json` + `toolKind` switch.
+**16:** Dedicated Amazon FBA fee and profit calculator at `/free-amazon-tools/amazon-fba-fee-profit-calculator/` — seller-entered fees only; profit, margin, break-even; instructions + assumptions on page.
 
-**Shipped kinds:** PPC conversion cost, GST, Amazon P&L (manual), invoice generator, product catalog (localStorage), label/invoice PDF splitter (pdf-lib), dispatch check, SKU profitability CSV, returns XML diagnostic, monthly close-out (MUTR), TCS/TDS reconciliation, PPC search-term dashboard.
+**17:** Directory + tool SEO: unique title/meta/canonical via `pageSeoToMetadata`; JSON-LD CollectionPage/ItemList (directory) and WebApplication/BreadcrumbList/HowTo (tool); XML + HTML sitemap; SITE-SEO-MAP updated.
 
-**Evidence:** `docs/research/ECOMGLIDER-TOOLS-REA.md` (Playwright REA; REA MCP engines not registered this session).
+Directory now lists 13 tools. Add more via `content/config/tools/{slug}.json` + `toolKind`.
 
-**Next:** Commit when requested; optionally deepen MUTR column maps against real Amazon India export samples.
+**Next:** Commit/push when requested.

@@ -13,8 +13,8 @@ import {
 import type { AboutPageConfig, SiteConfig } from "@/domain/content/schemas";
 import { AboutBreadcrumb } from "@/components/about/about-breadcrumb";
 import { AboutMarketsSection } from "@/components/about/about-markets-section";
+import { PartnerBadgesRow } from "@/components/brand/partner-badges-row";
 import { PrimaryButton } from "@/components/ui/primary-button";
-import { TrustLogo } from "@/components/sections/trust-logo";
 import { cn } from "@/lib/utils";
 
 const VALUE_ICONS: LucideIcon[] = [
@@ -30,7 +30,7 @@ interface AboutPageTemplateProps {
 }
 
 export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
-  const partnerBadge = site.partnerBadges[0];
+  const partnerBadges = site.partnerBadges;
   const heroImage = page.hero.image ?? "/images/promo/promo-team.png";
   const heroAlt =
     page.hero.imageAlt ??
@@ -631,13 +631,13 @@ export function AboutPageTemplate({ page, site }: AboutPageTemplateProps) {
             <p className="mt-3 max-w-lg text-base font-medium text-primary/80">
               {page.certifications.description}
             </p>
-            {partnerBadge ? (
-              <div className="mt-8 border-2 border-primary bg-primary p-4 shadow-[4px_4px_0_0_#131311]">
-                <TrustLogo
-                  label={partnerBadge.label}
-                  image={partnerBadge.image ?? ""}
-                  alt={partnerBadge.label}
-                  className="border-0 bg-transparent"
+            {partnerBadges.length > 0 ? (
+              <div className="mt-8">
+                <PartnerBadgesRow
+                  badges={partnerBadges}
+                  surface="light"
+                  align="center"
+                  size="lg"
                 />
               </div>
             ) : null}

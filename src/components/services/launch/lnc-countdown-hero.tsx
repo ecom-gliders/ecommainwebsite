@@ -70,7 +70,7 @@ export function LncCountdownHero({ service, site }: LncCountdownHeroProps) {
           className="flex justify-start"
         />
 
-        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,26rem)] lg:items-stretch lg:gap-7">
+        <div className="mt-3 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,30rem)] lg:items-stretch lg:gap-7">
           <div className="flex h-full min-h-0 min-w-0 flex-col">
             <p className="shrink-0 font-mono text-xs font-bold uppercase tracking-[0.12em] text-accent">
               Launch countdown board

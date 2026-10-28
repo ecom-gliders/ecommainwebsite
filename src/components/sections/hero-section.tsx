@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
+import { PartnerBadgesRow } from "@/components/brand/partner-badges-row";
 import { ConfigurableForm } from "@/components/forms/configurable-form";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
@@ -116,13 +116,20 @@ export function HeroSection({ id, data }: HeroSectionProps) {
   const trustLine = readString(data.trustLine);
   const primaryCta = readNavLink(data.primaryCta);
   const secondaryCta = readNavLink(data.secondaryCta);
-  const partnerBadge =
-    data.partnerBadge && typeof data.partnerBadge === "object"
-      ? (data.partnerBadge as Record<string, unknown>)
-      : null;
-  const partnerBadgeLabel = readString(partnerBadge?.label);
-  const partnerBadgeImage = readString(partnerBadge?.image);
-  const partnerBadgeHref = readString(partnerBadge?.href);
+  const partnerBadgesRaw = Array.isArray(data.partnerBadges)
+    ? data.partnerBadges
+    : data.partnerBadge && typeof data.partnerBadge === "object"
+      ? [data.partnerBadge]
+      : [];
+  const partnerBadges = partnerBadgesRaw.flatMap((item) => {
+    if (!item || typeof item !== "object") return [];
+    const record = item as Record<string, unknown>;
+    const label = readString(record.label);
+    const image = readString(record.image);
+    const href = readString(record.href) || undefined;
+    if (!image) return [];
+    return [{ label: label || "Partner", image, href }];
+  });
 
   const visual = data.visual as Record<string, unknown> | undefined;
   const visualType = readString(visual?.type, "leadForm");
@@ -198,38 +205,14 @@ export function HeroSection({ id, data }: HeroSectionProps) {
             </p>
           ) : null}
 
-          {partnerBadgeImage ? (
-            <div className="mt-5 flex justify-center sm:mt-6">
-              {partnerBadgeHref ? (
-                <a
-                  href={partnerBadgeHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-[8px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
-                >
-                  <Image
-                    src={partnerBadgeImage}
-                    alt={partnerBadgeLabel || "Partner badge"}
-                    width={280}
-                    height={80}
-                    className="h-14 w-auto sm:h-16 lg:h-[4.5rem]"
-                    sizes="280px"
-                    quality={85}
-                  />
-                </a>
-              ) : (
-                <div className="inline-flex items-center">
-                  <Image
-                    src={partnerBadgeImage}
-                    alt={partnerBadgeLabel || "Partner badge"}
-                    width={280}
-                    height={80}
-                    className="h-14 w-auto sm:h-16 lg:h-[4.5rem]"
-                    sizes="280px"
-                    quality={85}
-                  />
-                </div>
-              )}
+          {partnerBadges.length > 0 ? (
+            <div className="mt-5 sm:mt-6">
+              <PartnerBadgesRow
+                badges={partnerBadges}
+                surface="light"
+                align="center"
+                size="lg"
+              />
             </div>
           ) : null}
         </div>

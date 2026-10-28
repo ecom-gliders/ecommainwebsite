@@ -22,7 +22,16 @@
   "partnerBadges": [
     {
       "label": "Amazon Ads Verified Partner",
-      "image": "/images/amazon-verified-partner.png"
+      "image": "/images/amazon-verified-partner.png",
+      "href": "https://advertising.amazon.com/partners/directory/details/amzn1.ads1.ma1.77r354k0k7k515003rnsnvfi7/eCom-Gliders-LLC"
+    },
+    {
+      "label": "Amazon Service Providers Partner",
+      "image": "/images/trust/ssp-partner.png"
+    },
+    {
+      "label": "eLEEVATE Logistics",
+      "image": "/images/trust/eleevate-logistics.png"
     }
   ],
   "claims": {

@@ -13,6 +13,7 @@ const addressSchema = z.object({
 const partnerBadgeSchema = z.object({
   label: z.string(),
   image: z.string(),
+  href: z.string().url().optional(),
 });
 
 export const siteConfigSchema = z.object({

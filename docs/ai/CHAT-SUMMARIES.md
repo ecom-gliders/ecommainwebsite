@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-29 — FBA fee calculator + Free Amazon Tools SEO (#16/#17)
+
+Session topic: Checklist items 16 (one functional Amazon tool) and 17 (SEO for tools directory/pages).
+Key decisions: Ship dedicated Amazon FBA fee and profit calculator with seller-entered fees only (no invented fee tables); add instructions/assumptions content blocks; JSON-LD CollectionPage/ItemList on directory and WebApplication/BreadcrumbList/HowTo on tool pages.
+Evidence: Playwright calculate + metadata; clean production build; SITE-SEO-MAP + VERIFICATION-LOG.
+Next action: Commit/push when requested.
+
 ## 2026-10-28 — Free Amazon Tools suite (ecomglider.com REA port)
 
 Session topic: Extract live tools from https://ecomglider.com/tools and ship detailed equivalents on eCom Gliders.
