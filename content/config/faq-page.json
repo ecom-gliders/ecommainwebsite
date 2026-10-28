@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "eyebrow": "Answers",
+    "title": "Frequently asked questions",
+    "subtitle": "Clear answers about eCom Gliders services, audits, marketplaces, and how we work with Amazon brands."
+  },
+  "cta": {
+    "heading": "Still have a question?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "Contact us",
+      "href": "/contact/"
+    }
+  },
+  "seo": {
+    "metaTitle": "FAQ | Amazon Agency Questions Answered | eCom Gliders",
+    "metaDescription": "Answers about eCom Gliders Amazon account management, free audits, PPC, marketplaces, pricing, and how our in-house team works with sellers.",
+    "canonical": "/faq/",
+    "schema": "FAQPage"
+  }
+}

@@ -185,6 +185,20 @@ export const freeAuditPageConfigSchema = z.object({
   funnel: z.object({
     services: z.array(optionSchema).min(1),
     marketplaces: z.array(optionSchema).min(1),
+    /** Shown inside the popup only after a successful funnel submit. */
+    booking: z.object({
+      heading: z.string(),
+      subheading: z.string(),
+      calendlyUrl: z
+        .string()
+        .url()
+        .refine(
+          (value) => value.startsWith("https://calendly.com/"),
+          "funnel.booking.calendlyUrl must be an https://calendly.com/ link",
+        ),
+      embedTitle: z.string(),
+      eyebrow: z.string(),
+    }),
   }),
   trustSignals: z.object({
     heading: z.string(),

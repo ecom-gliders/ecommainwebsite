@@ -1,0 +1,41 @@
+{
+  "slug": "returns-rto-diagnostic",
+  "badge": "Report",
+  "hero": {
+    "title": "Returns and RTO diagnostic",
+    "subtitle": "Audit Amazon Returns Report XML for return reasons, RTO patterns, and cost drivers."
+  },
+  "intro": "Upload the Returns Report XML from Seller Central. Summaries of reasons and quantities are computed locally.",
+  "toolKind": "returns-rto-diagnostic",
+  "tips": [
+    {
+      "title": "Top reasons",
+      "body": "Fix listing accuracy and packaging for the highest-volume reasons first."
+    },
+    {
+      "title": "RTO spikes",
+      "body": "Check address quality and courier lanes for undelivered returns."
+    },
+    {
+      "title": "SKU focus",
+      "body": "Concentrate quality work on SKUs with elevated return rates."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Returns and RTO Diagnostic | Free Tool | eCom Gliders",
+    "metaDescription": "Analyze Amazon Returns Report XML for return reasons, RTO patterns, and SKU-level drivers.",
+    "canonical": "/free-amazon-tools/returns-rto-diagnostic/",
+    "schema": "Organization"
+  }
+}

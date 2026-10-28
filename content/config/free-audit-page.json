@@ -279,6 +279,13 @@
     ]
   },
   "funnel": {
+    "booking": {
+      "heading": "Book your strategy discussion",
+      "subheading": "Your audit request is in. Pick a time below — you stay in this window.",
+      "calendlyUrl": "https://calendly.com/ecomgliders-llc/amazon-strategy-discussion",
+      "embedTitle": "Amazon strategy discussion calendar",
+      "eyebrow": "Strategy discussion"
+    },
     "services": [
       {
         "value": "full-account-management",

@@ -1,0 +1,41 @@
+{
+  "slug": "amazon-ppc-conversion-cost-calculator",
+  "badge": "Calculator",
+  "hero": {
+    "title": "Amazon PPC conversion cost calculator",
+    "subtitle": "Break down advertising spend into cost per session, cost per conversion, and net profit per unit."
+  },
+  "intro": "Enter figures from your Amazon PPC reports and unit economics. The calculator stays on this page — results update when you calculate.",
+  "toolKind": "ppc-conversion-cost-calculator",
+  "tips": [
+    {
+      "title": "High cost per conversion",
+      "body": "Tighten targeting, improve listing relevance, or lower bids before raising budget."
+    },
+    {
+      "title": "Low conversion rate",
+      "body": "Strengthen images, title, and offer clarity so more clicks become orders."
+    },
+    {
+      "title": "Thin net profit",
+      "body": "Revisit price, fees, and cost of goods before scaling Sponsored Ads spend."
+    }
+  ],
+  "cta": {
+    "heading": "Want help interpreting these results for your catalog?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon PPC Conversion Cost Calculator | Free Tool | eCom Gliders",
+    "metaDescription": "Free Amazon PPC conversion cost calculator. Estimate cost per session, sessions per conversion, cost per conversion, and net profit after ad spend.",
+    "canonical": "/free-amazon-tools/amazon-ppc-conversion-cost-calculator/",
+    "schema": "Organization"
+  }
+}

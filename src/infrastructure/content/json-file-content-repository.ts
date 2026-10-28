@@ -7,6 +7,9 @@ import {
   careersPageConfigSchema,
   contactPageConfigSchema,
   freeAuditPageConfigSchema,
+  freeAmazonToolsPageConfigSchema,
+  freeAmazonToolPageConfigSchema,
+  faqPageConfigSchema,
   legalPageConfigSchema,
   caseStudiesConfigSchema,
   faqConfigSchema,
@@ -21,6 +24,9 @@ import {
   type CareersPageConfig,
   type ContactPageConfig,
   type FreeAuditPageConfig,
+  type FreeAmazonToolsPageConfig,
+  type FreeAmazonToolPageConfig,
+  type FaqPageConfig,
   type LegalPageConfig,
   type CaseStudyDetail,
   type CaseStudiesConfig,
@@ -136,6 +142,38 @@ export class JsonFileContentRepository {
 
   async getCareersPage(): Promise<CareersPageConfig> {
     return this.loadRequiredJson("careers-page.json", careersPageConfigSchema);
+  }
+
+  async getFaqPage(): Promise<FaqPageConfig> {
+    return this.loadRequiredJson("faq-page.json", faqPageConfigSchema);
+  }
+
+  async getFreeAmazonToolsPage(): Promise<FreeAmazonToolsPageConfig> {
+    return this.loadRequiredJson(
+      "free-amazon-tools-page.json",
+      freeAmazonToolsPageConfigSchema,
+    );
+  }
+
+  async getFreeAmazonTool(
+    slug: string,
+  ): Promise<FreeAmazonToolPageConfig | null> {
+    return this.loadOptionalJson(
+      join("tools", `${slug}.json`),
+      freeAmazonToolPageConfigSchema,
+    );
+  }
+
+  async getAllFreeAmazonToolSlugs(): Promise<string[]> {
+    const toolsDir = join(this.configDir, "tools");
+    if (!existsSync(toolsDir)) {
+      return [];
+    }
+
+    return readdirSync(toolsDir)
+      .filter((filename) => filename.endsWith(".json"))
+      .map((filename) => filename.replace(/\.json$/, ""))
+      .sort();
   }
 
   async getPrivacyPage(): Promise<LegalPageConfig> {

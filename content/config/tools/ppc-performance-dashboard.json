@@ -1,0 +1,41 @@
+{
+  "slug": "ppc-performance-dashboard",
+  "badge": "Ads",
+  "hero": {
+    "title": "PPC performance dashboard",
+    "subtitle": "Upload Search Term and Advertised Product reports to spot wasted ad spend."
+  },
+  "intro": "Use Amazon Advertising Search Term and Advertised Product CSV exports. Metrics and waste flags are computed in your browser.",
+  "toolKind": "ppc-performance-dashboard",
+  "tips": [
+    {
+      "title": "Zero conversion terms",
+      "body": "Negate or cut bids on spend with no orders."
+    },
+    {
+      "title": "High ACoS SKUs",
+      "body": "Lower bids or improve conversion before raising budget."
+    },
+    {
+      "title": "Winners",
+      "body": "Scale terms that convert profitably at target ACoS."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "PPC Performance Dashboard | Free Tool | eCom Gliders",
+    "metaDescription": "Analyze Amazon PPC Search Term and Advertised Product CSVs for wasted spend and winners.",
+    "canonical": "/free-amazon-tools/ppc-performance-dashboard/",
+    "schema": "Organization"
+  }
+}

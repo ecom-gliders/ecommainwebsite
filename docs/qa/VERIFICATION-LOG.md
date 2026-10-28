@@ -4,6 +4,16 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-28 — Free Amazon Tools suite (12 tools)
+
+**Task:** Port live tools from ecomglider.com/tools into `/free-amazon-tools/`  
+**STATUS:** COMPLETE (build verified)  
+**IMPLEMENTED:** Directory cards + 12 dedicated pages; GST/P&L/invoice/catalog/PDF splitter/dispatch/CSV+XML report tools; HTML sitemap tool group; REA note.  
+**VERIFIED:** `npx tsc --noEmit` clean; `next build` exit 0; SSG lists `/free-amazon-tools/[slug]` with 12 paths.  
+**DOCUMENTED:** `docs/research/ECOMGLIDER-TOOLS-REA.md`, SESSION-STATE, CHAT-SUMMARIES.  
+**REMAINING:** Optional deeper validation against real Amazon India MUTR/Returns sample files.  
+**NEXT ACTION:** Commit when requested.
+
 ## 2026-10-28 — Free Audit funnel popup
 
 **Task:** Existing multi-step funnel in popup; Contact + service/landing CTAs; preserve Contact page  

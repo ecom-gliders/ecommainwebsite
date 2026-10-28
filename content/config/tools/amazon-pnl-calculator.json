@@ -1,0 +1,41 @@
+{
+  "slug": "amazon-pnl-calculator",
+  "badge": "Calculator",
+  "hero": {
+    "title": "Amazon P&L calculator",
+    "subtitle": "Estimate real profit after GST, referral fees, fulfillment, ads, packaging, and COGS."
+  },
+  "intro": "Use manual entry for a single order estimate. Processing stays in your browser.",
+  "toolKind": "amazon-pnl-calculator",
+  "tips": [
+    {
+      "title": "Thin margin",
+      "body": "Raise price, cut ad waste, or renegotiate COGS before scaling spend."
+    },
+    {
+      "title": "High referral load",
+      "body": "Confirm category fee percent against Seller Central fee schedule."
+    },
+    {
+      "title": "Ads vs profit",
+      "body": "If ads exceed unit profit, pause inefficient keywords first."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Amazon P&L Calculator | Free Tool | eCom Gliders",
+    "metaDescription": "Free Amazon P&L calculator. Estimate profit after GST, referral, fulfillment, advertising, packaging, and cost of goods.",
+    "canonical": "/free-amazon-tools/amazon-pnl-calculator/",
+    "schema": "Organization"
+  }
+}

@@ -104,3 +104,19 @@ export {
   careersPageConfigSchema,
   type CareersPageConfig,
 } from "./careers-page.schema";
+
+export {
+  faqPageConfigSchema,
+  type FaqPageConfig,
+} from "./faq-page.schema";
+
+export {
+  freeAmazonToolCardSchema,
+  freeAmazonToolsPageConfigSchema,
+  freeAmazonToolPageConfigSchema,
+  freeAmazonToolKindSchema,
+  type FreeAmazonToolCard,
+  type FreeAmazonToolsPageConfig,
+  type FreeAmazonToolPageConfig,
+  type FreeAmazonToolKind,
+} from "./free-amazon-tool.schema";

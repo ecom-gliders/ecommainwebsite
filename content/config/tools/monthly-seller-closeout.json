@@ -1,0 +1,41 @@
+{
+  "slug": "monthly-seller-closeout",
+  "badge": "Report",
+  "hero": {
+    "title": "Monthly seller close-out report",
+    "subtitle": "Combine MUTR, sales, and returns summaries into one monthly close-out view."
+  },
+  "intro": "Upload Monthly Unified Transaction Report CSV and optional returns XML. The tool summarizes credits, debits, and net settlement locally.",
+  "toolKind": "monthly-seller-closeout",
+  "tips": [
+    {
+      "title": "One month",
+      "body": "Use a single settlement period so totals match Seller Central."
+    },
+    {
+      "title": "Reconciliation",
+      "body": "Compare net close-out to your bank deposit for the period."
+    },
+    {
+      "title": "Exceptions",
+      "body": "Investigate large debit lines before closing the books."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Monthly Seller Close-Out Report | Free Tool | eCom Gliders",
+    "metaDescription": "Combine Amazon MUTR and returns into a monthly seller close-out summary. Browser-only.",
+    "canonical": "/free-amazon-tools/monthly-seller-closeout/",
+    "schema": "Organization"
+  }
+}

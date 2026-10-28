@@ -27,9 +27,16 @@ const labelClass = "text-base font-bold text-text-primary";
 const inputClass =
   "mt-2.5 h-12 border-2 border-primary bg-background text-base font-medium text-text-primary placeholder:text-text-secondary/80";
 
+export type AuditFunnelSubmitPayload = {
+  name: string;
+  email: string;
+};
+
 interface AuditFunnelWizardProps {
   form: NonNullable<FreeAuditPageConfig["form"]>;
   funnel: NonNullable<FreeAuditPageConfig["funnel"]>;
+  /** When set (popup), hide the form after success and hand off to the parent. */
+  onSubmitted?: (payload: AuditFunnelSubmitPayload) => void;
 }
 
 interface FunnelValues {
@@ -77,7 +84,11 @@ function isHttpUrl(value: string): boolean {
   }
 }
 
-export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
+export function AuditFunnelWizard({
+  form,
+  funnel,
+  onSubmitted,
+}: AuditFunnelWizardProps) {
   const formId = useId();
   const headingId = `${formId}-step-heading`;
   const liveId = `${formId}-live`;
@@ -95,11 +106,16 @@ export function AuditFunnelWizard({ form, funnel }: AuditFunnelWizardProps) {
   );
 
   useEffect(() => {
-    if (state.success) {
-      setStep(1);
-      setValues(emptyValues);
-      setStepError(null);
+    if (!state.success) return;
+    setStepError(null);
+    if (onSubmitted) {
+      onSubmitted({ name: values.name, email: values.email });
+      return;
     }
+    setStep(1);
+    setValues(emptyValues);
+    // Fire only on success transition; capture name/email from that render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- success transition only
   }, [state.success]);
 
   function validateStep(current: number): string | null {

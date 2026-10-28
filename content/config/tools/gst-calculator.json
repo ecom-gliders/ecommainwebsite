@@ -1,0 +1,41 @@
+{
+  "slug": "gst-calculator",
+  "badge": "Calculator",
+  "hero": {
+    "title": "GST calculator",
+    "subtitle": "Add or remove GST with the correct CGST/SGST or IGST split for India supply."
+  },
+  "intro": "Enter an amount and rate. Choose exclusive or inclusive mode and within-state or interstate supply. Calculation runs in your browser.",
+  "toolKind": "gst-calculator",
+  "tips": [
+    {
+      "title": "Exclusive amounts",
+      "body": "Use exclusive mode when GST appears as a separate invoice line."
+    },
+    {
+      "title": "Inclusive amounts",
+      "body": "Use inclusive mode when the total already includes tax."
+    },
+    {
+      "title": "Supply type",
+      "body": "Same state as buyer uses CGST+SGST; different state uses IGST."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "GST Calculator | Free Tool | eCom Gliders",
+    "metaDescription": "Free GST calculator for Amazon sellers. Add or remove GST with CGST/SGST or IGST split.",
+    "canonical": "/free-amazon-tools/gst-calculator/",
+    "schema": "Organization"
+  }
+}

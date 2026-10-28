@@ -73,6 +73,22 @@ export class CompositeContentRepository implements ContentRepository {
     return this.jsonRepository.getCareersPage();
   }
 
+  getFaqPage() {
+    return this.jsonRepository.getFaqPage();
+  }
+
+  getFreeAmazonToolsPage() {
+    return this.jsonRepository.getFreeAmazonToolsPage();
+  }
+
+  getFreeAmazonTool(slug: string) {
+    return this.jsonRepository.getFreeAmazonTool(slug);
+  }
+
+  getAllFreeAmazonToolSlugs() {
+    return this.jsonRepository.getAllFreeAmazonToolSlugs();
+  }
+
   getPrivacyPage() {
     return this.jsonRepository.getPrivacyPage();
   }

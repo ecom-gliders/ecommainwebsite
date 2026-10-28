@@ -595,6 +595,67 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### FAQ
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/faq/ |
+| Purpose | Central FAQ for agency services, audits, marketplaces, and engagement |
+| Search intent | Informational |
+| Primary keyword | eCom Gliders FAQ |
+| Title | FAQ \| Amazon Agency Questions Answered \| eCom Gliders |
+| Meta description | Answers about eCom Gliders Amazon account management, free audits, PPC, marketplaces, pricing, and how our in-house team works with sellers. |
+| H1 | Frequently asked questions |
+| Canonical | https://ecomgliders.com/faq/ |
+| Indexability | Index, follow |
+| Schema | FAQPage, BreadcrumbList |
+| Content source | `content/config/faq.json` (homepage FAQ preserved + about unique items) |
+| Audit status | Implemented (2026-10-28) |
+
+---
+
+### Sitemap (HTML)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/site-map/ |
+| Purpose | Visitor-facing directory of public routes (home, services, case studies, Contact Us, partnership, careers, FAQ, Free Amazon Tools, legal). Links to `/sitemap.xml` for crawlers. Path is `/site-map/` to avoid Next.js conflict with `app/sitemap.ts`. Footer Resources → Sitemap. |
+| Title | Sitemap \| eCom Gliders |
+| Canonical | https://ecomgliders.com/site-map/ |
+| Indexability | Index, follow |
+| XML counterpart | `https://ecomgliders.com/sitemap.xml` via `src/app/sitemap.ts` + `buildSitemapEntries` (deduped; skips `robots.index === false`; excludes `/design-system`) |
+| Audit status | Implemented (2026-10-28) |
+
+---
+
+### Free Amazon Tools (directory)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/ |
+| Purpose | Scalable directory of free Amazon tools; each tool has its own page under `/free-amazon-tools/{slug}/` |
+| Search intent | Informational / commercial investigation |
+| Title | Free Amazon Tools Directory \| eCom Gliders |
+| Canonical | https://ecomgliders.com/free-amazon-tools/ |
+| Indexability | Index, follow |
+| Structure | Directory JSON lists cards by slug; tool pages live in `content/config/tools/{slug}.json` |
+| Current tools | Amazon PPC conversion cost calculator |
+| Footer | Resources → Free Amazon Tools |
+| Audit status | Implemented (2026-10-28) |
+
+### Free tool: PPC conversion cost calculator
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/amazon-ppc-conversion-cost-calculator/ |
+| Purpose | Interactive unit-economics calculator for Amazon PPC |
+| Title | Amazon PPC Conversion Cost Calculator \| Free Tool \| eCom Gliders |
+| Canonical | https://ecomgliders.com/free-amazon-tools/amazon-ppc-conversion-cost-calculator/ |
+| Indexability | Index, follow |
+| Audit status | Implemented (2026-10-28) |
+
+---
+
 ### Agency Partnership
 
 | Field | Value |

@@ -6,6 +6,33 @@ import { BrandLogo } from "@/components/design-system/brand-logo";
 import { FooterSocialLinks } from "@/components/layout/footer-social-links";
 import { Badge } from "@/components/ui/badge";
 
+function BrandContactBlock({ site }: { site: SiteConfig }) {
+  return (
+    <div className="flex min-w-0 flex-col gap-3">
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
+        Contact
+      </p>
+      <address className="flex flex-col not-italic">
+        <p className="max-w-[18rem] text-sm font-medium leading-relaxed text-text-on-dark/80">
+          {site.address.formatted}
+        </p>
+        <a
+          href={`tel:${site.phone.tel}`}
+          className="mt-2 inline-flex min-h-10 items-center text-sm font-medium text-text-on-dark/80 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        >
+          {site.phone.display}
+        </a>
+        <a
+          href={`mailto:${site.email}`}
+          className="inline-flex min-h-10 items-center break-all text-sm font-medium text-text-on-dark/80 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        >
+          {site.email}
+        </a>
+      </address>
+    </div>
+  );
+}
+
 interface FooterBrandColumnProps {
   title: string;
   site: SiteConfig;
@@ -69,12 +96,12 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
         ) : null}
       </div>
 
-      {/* Col 3 — spacer on xl so Follow lands under Brand and Channels / Contact edge */}
-      <div className="hidden min-w-0 xl:block" aria-hidden="true" />
+      {/* Col 3 — Contact (kept out of the 8-column link directory below) */}
+      <BrandContactBlock site={site} />
 
       {/* Col 4 — Follow, outer-right aligned with last directory column */}
       {hasSocial ? (
-        <div className="flex min-w-0 flex-col gap-3 sm:col-span-2 md:col-span-1">
+        <div className="flex min-w-0 flex-col gap-3">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">
             Follow
           </p>

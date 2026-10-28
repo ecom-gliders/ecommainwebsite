@@ -1,0 +1,41 @@
+{
+  "slug": "dispatch-check",
+  "badge": "Ops",
+  "hero": {
+    "title": "Dispatch check",
+    "subtitle": "Load today's tracking list and scan packs to catch missed orders before they ship."
+  },
+  "intro": "Paste or upload tracking IDs from your shipment, then scan or type each pack. Unscanned IDs stay highlighted until cleared.",
+  "toolKind": "dispatch-check",
+  "tips": [
+    {
+      "title": "Before carrier pickup",
+      "body": "Run the check once packing is finished and before handover."
+    },
+    {
+      "title": "Missed packs",
+      "body": "Anything still unscanned is at risk of a late dispatch."
+    },
+    {
+      "title": "Reset daily",
+      "body": "Clear the list when you start a new wave."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Dispatch Check | Free Tool | eCom Gliders",
+    "metaDescription": "Scan Amazon shipment tracking IDs against your pack list to catch missed orders before dispatch.",
+    "canonical": "/free-amazon-tools/dispatch-check/",
+    "schema": "Organization"
+  }
+}

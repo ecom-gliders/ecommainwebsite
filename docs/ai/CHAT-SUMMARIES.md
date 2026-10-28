@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-28 — Free Amazon Tools suite (ecomglider.com REA port)
+
+Session topic: Extract live tools from https://ecomglider.com/tools and ship detailed equivalents on eCom Gliders.
+Key decisions: Keep `/free-amazon-tools/` directory + per-slug pages; original copy (not brand clone); extend `toolKind` registry; browser-local processing; add `pdf-lib` for label PDF split.
+Shipped: 12 tools (existing PPC conversion + 11 REA-mapped). Evidence note: `docs/research/ECOMGLIDER-TOOLS-REA.md`.
+Next action: Commit when requested; refine parsers against real MUTR/Returns samples.
+
 ## 2026-10-28 — Free Audit Calendly embed COMPLETE
 
 Session topic: Embed Free Audit Calendly on `/free-audit/` for direct booking.

@@ -1,0 +1,41 @@
+{
+  "slug": "sku-profitability-leaderboard",
+  "badge": "Report",
+  "hero": {
+    "title": "SKU profitability leaderboard",
+    "subtitle": "Upload net proceeds CSV to rank which products actually make money after fees and refunds."
+  },
+  "intro": "Expect a CSV with SKU and net proceeds columns (Amazon settlement or custom export). Ranking and totals run in your browser.",
+  "toolKind": "sku-profitability-leaderboard",
+  "tips": [
+    {
+      "title": "Column names",
+      "body": "Map SKU and proceeds columns if your export uses different headers."
+    },
+    {
+      "title": "Negative SKUs",
+      "body": "Investigate refunds, ads, and fee spikes on bottom performers."
+    },
+    {
+      "title": "Top SKUs",
+      "body": "Protect inventory and PPC budget on high-contribution items."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "SKU Profitability Leaderboard | Free Tool | eCom Gliders",
+    "metaDescription": "Rank Amazon SKUs by net proceeds after fees and refunds. Upload CSV and analyze in your browser.",
+    "canonical": "/free-amazon-tools/sku-profitability-leaderboard/",
+    "schema": "Organization"
+  }
+}

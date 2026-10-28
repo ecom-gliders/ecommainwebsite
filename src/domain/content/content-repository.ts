@@ -18,6 +18,11 @@ import type {
 import type { LegalPageConfig } from "./schemas/legal-page.schema";
 import type { AgencyPartnershipPageConfig } from "./schemas/agency-partnership.schema";
 import type { CareersPageConfig } from "./schemas/careers-page.schema";
+import type { FaqPageConfig } from "./schemas/faq-page.schema";
+import type {
+  FreeAmazonToolPageConfig,
+  FreeAmazonToolsPageConfig,
+} from "./schemas/free-amazon-tool.schema";
 
 export interface ContentRepository {
   getSiteConfig(): Promise<SiteConfig>;
@@ -36,6 +41,10 @@ export interface ContentRepository {
   getAboutPage(): Promise<AboutPageConfig>;
   getAgencyPartnershipPage(): Promise<AgencyPartnershipPageConfig>;
   getCareersPage(): Promise<CareersPageConfig>;
+  getFaqPage(): Promise<FaqPageConfig>;
+  getFreeAmazonToolsPage(): Promise<FreeAmazonToolsPageConfig>;
+  getFreeAmazonTool(slug: string): Promise<FreeAmazonToolPageConfig | null>;
+  getAllFreeAmazonToolSlugs(): Promise<string[]>;
   getPrivacyPage(): Promise<LegalPageConfig>;
   getTermsPage(): Promise<LegalPageConfig>;
   getTestimonials(): Promise<TestimonialConfig[]>;

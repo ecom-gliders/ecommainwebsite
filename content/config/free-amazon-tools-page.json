@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "eyebrow": "Free Amazon Tools",
+    "title": "Free Amazon tools directory",
+    "subtitle": "Browser-based calculators and report utilities for Amazon sellers. Each tool has its own page — add bookmarks freely."
+  },
+  "intro": "Tools run in your browser where possible. File-based utilities expect standard Amazon Seller Central exports. This directory grows one shipped tool at a time.",
+  "tools": [
+    {
+      "slug": "amazon-ppc-conversion-cost-calculator",
+      "title": "Amazon PPC conversion cost calculator",
+      "description": "Estimate cost per session, cost per conversion, and net profit per unit after ad spend.",
+      "badge": "Calculator"
+    },
+    {
+      "slug": "amazon-pnl-calculator",
+      "title": "Amazon P&L calculator",
+      "description": "See real profit after referral, fulfillment, ads, packaging, and COGS — manual entry or MUTR upload.",
+      "badge": "Calculator"
+    },
+    {
+      "slug": "gst-calculator",
+      "title": "GST calculator",
+      "description": "Add or remove GST instantly with CGST/SGST or IGST split for India supply.",
+      "badge": "Calculator"
+    },
+    {
+      "slug": "invoice-generator",
+      "title": "Invoice generator",
+      "description": "Build a GST tax invoice with line items and download or print it.",
+      "badge": "Generator"
+    },
+    {
+      "slug": "product-catalog",
+      "title": "Product catalog",
+      "description": "Save SKU, HSN, GST rate, and costs locally in your browser for reuse.",
+      "badge": "Catalog"
+    },
+    {
+      "slug": "label-invoice-splitter",
+      "title": "Label and invoice splitter",
+      "description": "Split Amazon bulk label+invoice PDFs into a labels-only file for thermal printing.",
+      "badge": "PDF"
+    },
+    {
+      "slug": "dispatch-check",
+      "title": "Dispatch check",
+      "description": "Upload today's label PDF and scan tracking numbers to catch missed packs.",
+      "badge": "Ops"
+    },
+    {
+      "slug": "sku-profitability-leaderboard",
+      "title": "SKU profitability leaderboard",
+      "description": "Rank products by net proceeds after fees, refunds, and ad costs.",
+      "badge": "Report"
+    },
+    {
+      "slug": "returns-rto-diagnostic",
+      "title": "Returns and RTO diagnostic",
+      "description": "Audit Amazon Returns Report XML for reasons, claims, and cost drivers.",
+      "badge": "Report"
+    },
+    {
+      "slug": "monthly-seller-closeout",
+      "title": "Monthly seller close-out report",
+      "description": "Combine MUTR, GSTR-1, and Returns into one monthly close-out view.",
+      "badge": "Report"
+    },
+    {
+      "slug": "tcs-tds-reconciliation",
+      "title": "TCS/TDS reconciliation",
+      "description": "Find Amazon tax credits buried in your Monthly Unified Transaction Report.",
+      "badge": "Tax"
+    },
+    {
+      "slug": "ppc-performance-dashboard",
+      "title": "PPC performance dashboard",
+      "description": "Upload Search Term and Advertised Product reports to spot wasted ad spend.",
+      "badge": "Ads"
+    }
+  ],
+  "cta": {
+    "heading": "Need a strategist to review the numbers with you?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "Contact us",
+      "href": "/contact/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Free Amazon Tools Directory | eCom Gliders",
+    "metaDescription": "Free Amazon seller tools from eCom Gliders: P&L, GST, invoices, label splitter, dispatch check, PPC dashboard, returns diagnostic, and more.",
+    "canonical": "/free-amazon-tools/",
+    "schema": "Organization"
+  }
+}

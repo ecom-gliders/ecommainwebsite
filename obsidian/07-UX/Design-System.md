@@ -53,24 +53,28 @@ Current brand colors to be extracted from `backup/assets/` during implementation
 | Headings | Extract from current site or Inter | system-ui, sans-serif |
 | Body | Extract from current site or Inter | system-ui, sans-serif |
 
-### Type scale
+### Type scale (design tokens + Tailwind remap)
 
-| Token | Size | Weight | Line height | Usage |
-|-------|------|--------|-------------|-------|
-| `--text-display` | 48-56px | 700 | 1.1 | Hero H1 (Olifant-scale) |
-| `--text-h1` | 40-48px | 700 | 1.2 | Page titles |
-| `--text-h2` | 32-36px | 600 | 1.25 | Section headings |
-| `--text-h3` | 24-28px | 600 | 1.3 | Subsection headings |
-| `--text-h4` | 20-22px | 600 | 1.35 | Card titles |
-| `--text-body` | 16-18px | 400 | 1.6 | Body copy |
-| `--text-small` | 14px | 400 | 1.5 | Meta, captions |
-| `--text-stat` | 36-48px | 700 | 1.0 | Stat card numbers |
+Canonical values live in `content/config/design-system.json` and `src/app/globals.css` `@theme`.
+
+| Token / utility | Size | Weight | Line height | Usage |
+|-----------------|------|--------|-------------|-------|
+| `--text-display` / `.text-display` | 48px | 900 | 1.08 | Large display |
+| `.text-hero` | clamp ~2.15–4.75rem | 900 | ~1.02 | Marketing hero H1 |
+| `--text-h1` / `.text-h1` | 40px | 900 | 1.12 | Page titles |
+| `--text-h2` / `.text-h2` | 32px | 700 | 1.18 | Section headings |
+| `--text-h3` / `.text-h3` | 26px | 700 | 1.22 | Subsection / card titles |
+| `--text-h4` / `.text-h4` | 22px | 700 | 1.28 | Smaller card titles |
+| `--text-body` / `.text-body` / `text-base` | **18px** | 500 | 1.65 | Body copy |
+| `--text-small` / `.text-small` / `text-sm` | **16px** | 500 | 1.55 | Supporting copy, labels |
+| `text-xs` (Tailwind remapped) | **14px** | — | 1.45 | Eyebrows, tags, meta, numbering |
+| `--text-stat` / `.text-stat` | 40px | 900 | 1.1 | Stat numbers |
 
 ### Rules
-- Increase H1 size from current site (competitor benchmark: Olifant large bold H1)
-- Reduce body text density (shorter paragraphs, more whitespace)
+- Prefer design-token utilities (`.text-body`, `.text-small`, `.text-h*`) or remapped Tailwind (`text-sm`/`text-base`); do not invent `text-[10px]`-class sizes below 14px
+- Body remains comfortable without zoom for seller audience ~35–40
 - Maximum line length: 65-75 characters for body text
-- No more than 3 font weights in use
+- No more than 3 font weights in use (loaded faces: 400/500/700/900)
 
 ---
 

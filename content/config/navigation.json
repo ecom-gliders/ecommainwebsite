@@ -563,6 +563,24 @@
         ]
       },
       {
+        "id": "resources",
+        "title": "Resources",
+        "links": [
+          {
+            "label": "FAQ",
+            "href": "/faq/"
+          },
+          {
+            "label": "Sitemap",
+            "href": "/site-map/"
+          },
+          {
+            "label": "Free Amazon Tools",
+            "href": "/free-amazon-tools/"
+          }
+        ]
+      },
+      {
         "id": "contact",
         "title": "Contact",
         "type": "contact"

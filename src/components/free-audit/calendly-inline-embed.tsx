@@ -40,6 +40,8 @@ export interface CalendlyInlineEmbedProps {
   /** Full Calendly event URL, e.g. https://calendly.com/ecomgliders-llc/30min */
   url: string;
   title?: string;
+  /** Small label above the calendar slot (defaults to Free audit call). */
+  eyebrow?: string;
 }
 
 function assertAllowedCalendlyUrl(url: string): URL {
@@ -144,6 +146,7 @@ function CalendlyLoader() {
 export function CalendlyInlineEmbed({
   url,
   title = "Schedule a meeting",
+  eyebrow = "Free audit call",
 }: CalendlyInlineEmbedProps) {
   const regionId = useId();
   const hostRef = useRef<HTMLDivElement>(null);
@@ -248,7 +251,7 @@ export function CalendlyInlineEmbed({
     >
       <div className="flex items-center justify-between gap-3 border-b-2 border-primary px-3 py-2 sm:px-4">
         <p className="text-xs font-bold uppercase tracking-[0.08em] text-primary">
-          Free audit call
+          {eyebrow}
         </p>
         <p className="text-xs font-bold uppercase tracking-[0.1em] text-primary/70">
           Pick a slot

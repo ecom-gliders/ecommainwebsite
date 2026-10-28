@@ -1,9 +1,14 @@
 "use client";
 
+import { useCallback, useEffect, useMemo, useState } from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { X } from "lucide-react";
 import type { FreeAuditFunnelData } from "@/components/free-audit/free-audit-funnel-context";
-import { AuditFunnelWizard } from "@/components/free-audit/audit-funnel-wizard";
+import {
+  AuditFunnelWizard,
+  type AuditFunnelSubmitPayload,
+} from "@/components/free-audit/audit-funnel-wizard";
+import { CalendlyInlineEmbed } from "@/components/free-audit/calendly-inline-embed";
 import { cn } from "@/lib/utils";
 
 interface FreeAuditFunnelDialogProps {
@@ -13,8 +18,27 @@ interface FreeAuditFunnelDialogProps {
   funnel: FreeAuditFunnelData["funnel"];
 }
 
+type DialogPhase = "funnel" | "booking";
+
+function withCalendlyPrefill(
+  baseUrl: string,
+  payload: AuditFunnelSubmitPayload,
+): string {
+  try {
+    const parsed = new URL(baseUrl);
+    const name = payload.name.trim();
+    const email = payload.email.trim();
+    if (name) parsed.searchParams.set("name", name);
+    if (email) parsed.searchParams.set("email", email);
+    return parsed.toString();
+  } catch {
+    return baseUrl;
+  }
+}
+
 /**
- * Modal host for the existing AuditFunnelWizard — same steps/fields/actions.
+ * Modal host for the existing AuditFunnelWizard.
+ * After a successful submit, replaces the funnel with the strategy Calendly embed.
  */
 export function FreeAuditFunnelDialog({
   open,
@@ -22,6 +46,46 @@ export function FreeAuditFunnelDialog({
   form,
   funnel,
 }: FreeAuditFunnelDialogProps) {
+  const [phase, setPhase] = useState<DialogPhase>("funnel");
+  const [bookingUrl, setBookingUrl] = useState(funnel.booking.calendlyUrl);
+
+  useEffect(() => {
+    if (!open) {
+      setPhase("funnel");
+      setBookingUrl(funnel.booking.calendlyUrl);
+    }
+  }, [open, funnel.booking.calendlyUrl]);
+
+  const handleSubmitted = useCallback(
+    (payload: AuditFunnelSubmitPayload) => {
+      setBookingUrl(
+        withCalendlyPrefill(funnel.booking.calendlyUrl, payload),
+      );
+      setPhase("booking");
+    },
+    [funnel.booking.calendlyUrl],
+  );
+
+  const isBooking = phase === "booking";
+
+  const title = isBooking
+    ? funnel.booking.heading
+    : "Request a free audit";
+  const subtitle = isBooking
+    ? funnel.booking.subheading
+    : "Five short steps. Same intake as before.";
+
+  const contentClass = useMemo(
+    () =>
+      cn(
+        "flex min-h-0 flex-1 flex-col",
+        isBooking
+          ? "overflow-y-auto overscroll-contain p-3 sm:p-5 [scrollbar-color:#131311_#C6FD50] [scrollbar-width:thin]"
+          : "overflow-hidden p-3 sm:p-5",
+      ),
+    [isBooking],
+  );
+
   return (
     <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
       <DialogPrimitive.Portal>
@@ -42,10 +106,10 @@ export function FreeAuditFunnelDialog({
           <div className="flex shrink-0 items-start justify-between gap-3 border-b-2 border-primary bg-accent px-4 py-3 sm:px-5">
             <div className="min-w-0 pr-2">
               <DialogPrimitive.Title className="text-base font-bold tracking-tight text-primary sm:text-lg">
-                Request a free audit
+                {title}
               </DialogPrimitive.Title>
               <p className="mt-0.5 text-sm font-medium text-primary/75">
-                Five short steps. Same intake as before.
+                {subtitle}
               </p>
             </div>
             <DialogPrimitive.Close
@@ -56,10 +120,32 @@ export function FreeAuditFunnelDialog({
             </DialogPrimitive.Close>
           </div>
 
-          <div className="flex min-h-0 flex-1 flex-col overflow-hidden p-3 sm:p-5">
-            {/* Remount wizard when opened so steps reset cleanly */}
-            {open ? (
-              <AuditFunnelWizard key="funnel-open" form={form} funnel={funnel} />
+          <div className={contentClass}>
+            {open && !isBooking ? (
+              <AuditFunnelWizard
+                key="funnel-open"
+                form={form}
+                funnel={funnel}
+                onSubmitted={handleSubmitted}
+              />
+            ) : null}
+
+            {open && isBooking ? (
+              <div className="mx-auto w-full max-w-[28rem]">
+                <p
+                  className="mb-3 border-2 border-primary bg-accent px-4 py-3 text-sm font-bold text-primary"
+                  role="status"
+                  aria-live="polite"
+                >
+                  Request received. Choose a time for your strategy discussion.
+                </p>
+                <CalendlyInlineEmbed
+                  key={bookingUrl}
+                  url={bookingUrl}
+                  title={funnel.booking.embedTitle}
+                  eyebrow={funnel.booking.eyebrow}
+                />
+              </div>
             ) : null}
           </div>
         </DialogPrimitive.Content>

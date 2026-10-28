@@ -1,0 +1,41 @@
+{
+  "slug": "product-catalog",
+  "badge": "Catalog",
+  "hero": {
+    "title": "Product catalog",
+    "subtitle": "Save SKU, HSN, GST rate, and costs locally in your browser for reuse across tools."
+  },
+  "intro": "Catalog data is stored in this browser only via localStorage. Export CSV for backup. Clearing site data removes the catalog.",
+  "toolKind": "product-catalog",
+  "tips": [
+    {
+      "title": "Backup",
+      "body": "Export CSV regularly so a cleared browser does not erase SKUs."
+    },
+    {
+      "title": "HSN + GST",
+      "body": "Keep HSN and GST rate aligned with your GST returns."
+    },
+    {
+      "title": "COGS",
+      "body": "Store landed cost so P&L estimates stay consistent."
+    }
+  ],
+  "cta": {
+    "heading": "Want help applying these numbers to your Amazon account?",
+    "primaryCta": {
+      "label": "Request a free audit",
+      "href": "/free-audit/"
+    },
+    "secondaryCta": {
+      "label": "All free tools",
+      "href": "/free-amazon-tools/"
+    }
+  },
+  "seo": {
+    "metaTitle": "Product Catalog | Free Tool | eCom Gliders",
+    "metaDescription": "Browser-local product catalog for Amazon sellers. Store SKU, HSN, GST rate, and costs.",
+    "canonical": "/free-amazon-tools/product-catalog/",
+    "schema": "Organization"
+  }
+}

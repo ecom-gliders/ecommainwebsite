@@ -1,7 +1,9 @@
-## Latest (2026-10-28) — Free Audit funnel popup COMPLETE
+## Latest (2026-10-28) — Free Amazon Tools suite
 
-Site-wide popup reuses `AuditFunnelWizard` (same steps/fields). Contact “Request a free audit”, header Free Audit, and other `/free-audit/` CTAs open the modal. `/free-audit/` page still shows Calendly. Contact page otherwise unchanged.
+Directory `/free-amazon-tools/` lists 12 tools (PPC conversion calculator + 11 ported from ecomglider.com/tools evidence). Each has `/free-amazon-tools/{slug}/` from `content/config/tools/{slug}.json` + `toolKind` switch.
 
-**Verified:** Playwright contact open/close; services header + Escape; mobile bottom sheet; free-audit page no auto-popup.
+**Shipped kinds:** PPC conversion cost, GST, Amazon P&L (manual), invoice generator, product catalog (localStorage), label/invoice PDF splitter (pdf-lib), dispatch check, SKU profitability CSV, returns XML diagnostic, monthly close-out (MUTR), TCS/TDS reconciliation, PPC search-term dashboard.
 
-**Next (human):** Commit when requested.
+**Evidence:** `docs/research/ECOMGLIDER-TOOLS-REA.md` (Playwright REA; REA MCP engines not registered this session).
+
+**Next:** Commit when requested; optionally deepen MUTR column maps against real Amazon India export samples.

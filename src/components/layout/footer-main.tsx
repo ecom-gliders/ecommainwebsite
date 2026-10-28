@@ -4,13 +4,11 @@ import type {
   SiteConfig,
 } from "@/domain/content/schemas";
 import { FooterBrandColumn } from "@/components/layout/footer-brand-column";
-import { FooterContactColumn } from "@/components/layout/footer-contact-column";
 import { FooterLink } from "@/components/layout/footer-link";
 
 interface FooterDirectoryColumn {
   id: string;
   title: string;
-  type?: "contact";
   links?: NavLink[];
 }
 
@@ -28,10 +26,6 @@ function FooterLinkColumn({
   column: FooterDirectoryColumn;
   sectionClass: string;
 }) {
-  if (column.type === "contact") {
-    return null;
-  }
-
   return (
     <nav
       aria-labelledby={`footer-${column.id}-heading`}
@@ -65,20 +59,20 @@ export function FooterMain({
   recentCaseStudyLinks = [],
 }: FooterMainProps) {
   const brandColumn = footer.columns.find((column) => column.type === "brand");
-  const configuredColumns = footer.columns.filter(
-    (column) => column.type !== "brand",
+  // Contact lives in the brand band so this grid stays exactly 8 = 2×4 on xl.
+  const linkColumns = footer.columns.filter(
+    (column) => column.type !== "brand" && column.type !== "contact",
   );
-
-  const companyIndex = configuredColumns.findIndex(
+  const insertAmongLinks = linkColumns.findIndex(
     (column) => column.id === "company",
   );
-  const insertAt = companyIndex >= 0 ? companyIndex : configuredColumns.length;
+  const linkInsertAt =
+    insertAmongLinks >= 0 ? insertAmongLinks : linkColumns.length;
 
   const directoryColumns: FooterDirectoryColumn[] = [
-    ...configuredColumns.slice(0, insertAt).map((column) => ({
+    ...linkColumns.slice(0, linkInsertAt).map((column) => ({
       id: column.id,
       title: column.title,
-      type: column.type === "contact" ? ("contact" as const) : undefined,
       links: column.links,
     })),
     ...(recentBlogLinks.length > 0
@@ -105,10 +99,9 @@ export function FooterMain({
           },
         ]
       : []),
-    ...configuredColumns.slice(insertAt).map((column) => ({
+    ...linkColumns.slice(linkInsertAt).map((column) => ({
       id: column.id,
       title: column.title,
-      type: column.type === "contact" ? ("contact" as const) : undefined,
       links: column.links,
     })),
   ];
@@ -130,14 +123,6 @@ export function FooterMain({
               index === 0
                 ? "min-w-0 border-b border-white/10 py-8 sm:border-0 sm:py-0"
                 : "min-w-0 border-b border-white/10 py-8 last:border-b-0 last:pb-0 sm:border-0 sm:py-0";
-
-            if (column.type === "contact") {
-              return (
-                <div key={column.id} className={sectionClass}>
-                  <FooterContactColumn title={column.title} site={site} />
-                </div>
-              );
-            }
 
             return (
               <FooterLinkColumn
