@@ -7,6 +7,10 @@ import type { HeaderNavItem, NavigationConfig } from "@/domain/content/schemas";
 import type { SiteConfig } from "@/domain/content/schemas";
 import { BrandLogo } from "@/components/design-system/brand-logo";
 import {
+  suppressAutoPopupForToday,
+  useOptionalFreeAuditFunnel,
+} from "@/components/free-audit/free-audit-funnel-context";
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
@@ -83,6 +87,7 @@ function MobileNavLink({
 
 export function MobileNav({ navigation, site, className }: MobileNavProps) {
   const [open, setOpen] = useState(false);
+  const funnel = useOptionalFreeAuditFunnel();
   const { header, megaMenus, mobile } = navigation;
 
   const megaItems = header.items.filter(
@@ -220,7 +225,15 @@ export function MobileNav({ navigation, site, className }: MobileNavProps) {
 
         <div className="shrink-0 space-y-3 border-t border-border bg-surface px-4 py-4">
           <PrimaryButton asChild variant="accent" className="w-full">
-            <Link href={header.cta.href} onClick={closeMenu}>
+            <Link
+              href={header.cta.href}
+              prefetch={false}
+              onClick={() => {
+                suppressAutoPopupForToday();
+                funnel?.closeFunnel();
+                closeMenu();
+              }}
+            >
               {header.cta.label}
             </Link>
           </PrimaryButton>

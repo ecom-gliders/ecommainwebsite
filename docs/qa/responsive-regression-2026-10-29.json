@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-10-28T23:49:37.524Z",
+  "ok": true,
+  "smoke": {
+    "headerFreeAudit": "/free-audit/#audit-booking",
+    "mobileAuditVisible": true,
+    "landedFreeAudit": "http://localhost:3000/free-audit/#audit-booking",
+    "hasAuditBooking": true,
+    "contactFormVisible": true,
+    "newsletter": true,
+    "tabletOverflowX": 0,
+    "tabletServiceOverflowX": 0,
+    "toolForm": true,
+    "toolOverflowX": 0,
+    "caseOverflowX": 0
+  }
+}

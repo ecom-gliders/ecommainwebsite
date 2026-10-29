@@ -90,7 +90,7 @@ export function FooterBrandColumn({ title, site }: FooterBrandColumnProps) {
       {/* Col 3 — Contact (kept out of the 8-column link directory below) */}
       <BrandContactBlock site={site} />
 
-      {/* Col 4 — Follow, outer-right aligned with last directory column */}
+      {/* Col 4 — Follow (newsletter lives in pre-footer punch strip) */}
       {hasSocial ? (
         <div className="flex min-w-0 flex-col gap-3">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-text-on-dark/45">

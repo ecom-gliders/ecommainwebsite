@@ -4,6 +4,38 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-29 — Sitewide visual + responsive QA
+
+**Task:** Full-site overflow/layout QA (Waves 0–7): shared chrome, home (19 sections), 12 core, 20 services, 9 case studies, tools directory + 13 tools, blog template + 12 samples, regression smoke.  
+**STATUS:** COMPLETE  
+**IMPLEMENTED:**
+- Blog markdown: `pre` overflow-x-auto; inline `code` break-all; `.blog-content` min-w-0 + overflow-x-clip (fixed prior FAIL on `/when-should-you-use-sponsored-display-ads/` at 375)
+- Pre-footer newsletter: full-width on mobile (`max-w-full` / `sm:max-w-[26rem]`), iframe height 240, tighter headline on small screens
+- Audit scripts: `scripts/qa/responsive-audit.mjs`, `scripts/qa/responsive-chrome-home-sections.mjs`
+
+**VERIFIED (Playwright against localhost:3000):**
+- Inventory: **68 pages**, mobile + tablet + laptop (home also mobile-lg + wide) — **0 overflow issues** (`docs/qa/responsive-audit-2026-10-29.json`)
+- Home sections @ 5 breakpoints: **OK**, 21 sections, 0 offenders (`docs/qa/responsive-home-sections-2026-10-29.json`)
+- Wave 0 chrome: header Free Audit → `/free-audit/#audit-booking`; mobile nav opens; sheet Free Audit same href; Beehiiv iframe visible; footer present; overflowX 0
+- Wave 7 smoke: mobile Audit CTA navigates to `#audit-booking`; contact form field visible; newsletter iframe visible; tool form visible; tablet/laptop overflowX 0 (`docs/qa/responsive-regression-2026-10-29.json`)
+- Screenshots: `docs/qa/screenshots/responsive-2026-10-29/`
+
+**DOCUMENTED:** this log; SESSION-STATE  
+**REMAINING:** Optional commit when requested  
+**NEXT ACTION:** Commit when requested
+
+| Family | Count | Result |
+|--------|------:|--------|
+| Home | 1 (5 bp) | OK |
+| Core | 12+tools index | OK |
+| Services | 20 | OK |
+| Case studies | 9 | OK |
+| Tools | 13 | OK |
+| Blog samples | 12 | OK (incl. prior code overflow fixed) |
+| Shared chrome | header/nav/pre-footer/footer | OK |
+
+---
+
 ## 2026-10-29 — FBA fee calculator + Free Amazon Tools SEO (#16/#17)
 
 **Task:** One functional Amazon tool + SEO for directory and tool pages  

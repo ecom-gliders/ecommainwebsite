@@ -1,0 +1,3513 @@
+{
+  "base": "http://localhost:3000",
+  "generatedAt": "2026-10-28T23:43:49.109Z",
+  "pageCount": 68,
+  "findings": [
+    {
+      "path": "/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "mobile-lg",
+          "width": 430,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 420,
+            "clientWidth": 430,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "wide",
+          "width": 1440,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1430,
+            "clientWidth": 1440,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/about-us/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/contact/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-audit/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/services/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/faq/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/careers/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/agency-partnership/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 368,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/privacy-policy/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/terms-conditions/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/site-map/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/blog/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-studies/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-account-health/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-account-operations/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-catalog-management/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-company-registration/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-content-writing/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-dsp-management/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-inventory-management/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-listing-optimization/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-management-agency/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-product-launch-services/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-product-sourcing/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-reporting-analytics/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-seller-central-services/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-trademark-brand-registry/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-video-creative/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-visual-creativity/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/email-retention-marketing/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/full-service-amazon-agency/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/shopify-website-development/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/tiktok-shop-ads/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": false
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-1/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-2/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-3/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-4/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-5/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-6/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-7/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-8/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/case-study-9/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/amazon-fba-fee-profit-calculator/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/amazon-pnl-calculator/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/amazon-ppc-conversion-cost-calculator/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/dispatch-check/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/gst-calculator/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/invoice-generator/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/label-invoice-splitter/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/monthly-seller-closeout/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/ppc-performance-dashboard/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/product-catalog/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/returns-rto-diagnostic/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/sku-profitability-leaderboard/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/free-amazon-tools/tcs-tds-reconciliation/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-hack-slash-acos/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/beyond-optimization-systematic-amazon-growth/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/hidden-architecture-successful-amazon-brands-2026/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/agency-vs-diy-amazon-ppc-hidden-costs/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/ai-for-amazon-sellers-2026/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/a-sellers-guide-to-understanding-demand-pricing-and-competition/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/when-should-you-use-sponsored-display-ads/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-hacks-that-actually-increase-profit/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-formula-that-scales-without-wasting-budget/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-draining-your-wallet/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/reduce-amazon-ad-spend-with-seo-2026/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "path": "/amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales/",
+      "results": [
+        {
+          "breakpoint": "mobile",
+          "width": 375,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 365,
+            "clientWidth": 375,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "tablet",
+          "width": 768,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 758,
+            "clientWidth": 768,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        },
+        {
+          "breakpoint": "laptop",
+          "width": 1280,
+          "status": "ok",
+          "error": null,
+          "metrics": {
+            "overflowX": 0,
+            "scrollWidth": 1270,
+            "clientWidth": 1280,
+            "offenders": [],
+            "hasHeader": true,
+            "hasFooter": true,
+            "hasNewsletterIframe": true
+          }
+        }
+      ],
+      "issueCount": 0
+    }
+  ],
+  "wave0Chrome": {
+    "freeAuditHeaderHref": "/free-audit/#audit-booking",
+    "mobileNavOpens": true,
+    "mobileFreeAuditHref": "/free-audit/#audit-booking",
+    "newsletterVisible": true,
+    "footerPresent": true,
+    "overflowX": 0
+  }
+}

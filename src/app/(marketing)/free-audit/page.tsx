@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FreeAuditHashScroll } from "@/components/free-audit/free-audit-hash-scroll";
 import { FreeAuditPageTemplate } from "@/components/free-audit/free-audit-page-template";
 import { getContentRepository } from "@/infrastructure/content/get-content-repository";
 import { buildFreeAuditPageJsonLd } from "@/lib/seo/free-audit-json-ld";
@@ -23,6 +24,7 @@ export default async function FreeAuditPage() {
   return (
     <>
       <JsonLdScript data={jsonLd} />
+      <FreeAuditHashScroll />
       <main id="main-content">
         <FreeAuditPageTemplate page={page} site={site} />
       </main>

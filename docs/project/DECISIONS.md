@@ -17,6 +17,18 @@ Impact: What needs updating
 
 ---
 
+## 2026-10-29 — Footer newsletter + Hostinger SMTP + Discord
+
+**WHAT:** Footer newsletter + unified lead pipeline: Hostinger SMTP to `info@ecomgliders.com` (team + user confirmation) and Discord webhook embeds. Channels run in parallel; one failure does not block the other.
+
+**WHY:** Use existing Hostinger mailbox; dual delivery for ops reliability.
+
+**CHOSEN:** `nodemailer` → `smtp.hostinger.com:465`; `DISCORD_FORM_WEBHOOK_URL`; no Resend.
+
+**IMPACT:** `smtp-mailer.ts`, `form-notifier.ts`, `.env.example` (`SMTP_*`); Vercel needs `SMTP_PASS` + Discord URL.
+
+---
+
 ## 2026-10-28 — Free Audit funnel popup + Calendly page
 
 **WHAT:** Multi-step Free Audit intake (`AuditFunnelWizard`) opens in a site-wide modal. `/free-audit/` keeps the Calendly embed for direct booking. Contact, header, pre-footer, and other `/free-audit/` CTAs open the popup (click intercept).

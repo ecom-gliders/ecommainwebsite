@@ -1,17 +1,23 @@
 /**
- * All lead forms (contact, strategy intake, free audit / service variants)
- * deliver through this single notifier → Resend `POST /emails` → one inbox
- * (`FORM_NOTIFICATION_EMAIL`, fallback `CONTACT_FORM_TO`).
+ * All lead forms deliver through this notifier:
+ * - Branded HTML email to the team inbox via Hostinger SMTP (info@ecomgliders.com)
+ * - Branded confirmation email to the submitter when an email is present
+ * - Discord webhook embed when DISCORD_FORM_WEBHOOK_URL is set
  *
- * Subjects stay form-specific for inbox filtering. Body layout is shared:
- * plain text, labeled lines, empty fields omitted.
+ * Email and Discord are independent: both always attempt; one failure never blocks the other.
  */
-export type FormNotificationType =
-  | "contact"
-  | "contact-intake"
-  | "audit"
-  | "agency-partner"
-  | "career-application";
+import {
+  buildTeamNotificationHtml,
+  buildUserConfirmationHtml,
+  type FormNotificationType,
+} from "@/infrastructure/forms/form-email-templates";
+import { notifyDiscordFormSubmission } from "@/infrastructure/forms/discord-form-webhook";
+import {
+  isSmtpReady,
+  sendSmtpEmail,
+} from "@/infrastructure/forms/smtp-mailer";
+
+export type { FormNotificationType };
 
 interface FormNotificationPayload {
   formType: FormNotificationType;
@@ -28,55 +34,110 @@ function sanitizeForLog(fields: Record<string, string>): Record<string, string> 
   );
 }
 
-function buildPlainTextBody(payload: FormNotificationPayload): string {
-  const bodyLines = Object.entries(payload.fields)
-    .filter(([, value]) => value.length > 0)
-    .map(([key, value]) => `${key}: ${value}`);
+function extractSubmitterEmail(fields: Record<string, string>): string | undefined {
+  const entry = Object.entries(fields).find(([key, value]) => {
+    if (!/e-?mail/i.test(key)) return false;
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
+  });
+  return entry?.[1]?.trim();
+}
 
-  return [
-    `Form: ${payload.formType}`,
-    `Subject: ${payload.subject}`,
-    "",
-    ...bodyLines,
-  ].join("\n");
+function extractSubmitterName(fields: Record<string, string>): string | undefined {
+  const entry = Object.entries(fields).find(([key]) => /^name$/i.test(key.trim()));
+  return entry?.[1]?.trim() || undefined;
+}
+
+function teamInbox(): string {
+  return (
+    process.env.FORM_NOTIFICATION_EMAIL?.trim() ||
+    process.env.CONTACT_FORM_TO?.trim() ||
+    "info@ecomgliders.com"
+  );
+}
+
+async function settledOk(task: Promise<boolean>): Promise<boolean> {
+  const result = await Promise.allSettled([task]);
+  const first = result[0];
+  if (first.status === "fulfilled") return first.value;
+  console.error("[form-submission] channel threw", first.reason);
+  return false;
 }
 
 export async function notifyFormSubmission(
   payload: FormNotificationPayload,
-): Promise<{ delivered: boolean; mode: "email" | "logged" }> {
-  const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.FORM_NOTIFICATION_EMAIL ?? process.env.CONTACT_FORM_TO;
-  const from = process.env.FORM_FROM_EMAIL ?? "eCom Gliders Website <onboarding@resend.dev>";
-  const textBody = buildPlainTextBody(payload);
+): Promise<{
+  delivered: boolean;
+  mode: "email" | "discord" | "both" | "logged";
+  channels: { email: boolean; discord: boolean };
+}> {
+  const to = teamInbox();
+  const team = buildTeamNotificationHtml(payload);
+  const submitterEmail = extractSubmitterEmail(payload.fields);
+  const submitterName = extractSubmitterName(payload.fields);
+  const smtpReady = isSmtpReady();
 
-  if (!apiKey || !to) {
+  // Always fire Discord + team email in parallel. Failures are isolated.
+  const [discordOk, teamEmailOk] = await Promise.all([
+    settledOk(notifyDiscordFormSubmission(payload)),
+    settledOk(
+      (async () => {
+        if (!smtpReady) return false;
+        return sendSmtpEmail({
+          to: [to],
+          subject: `[eCom Gliders] ${payload.subject}`,
+          text: team.text,
+          html: team.html,
+          replyTo: submitterEmail,
+        });
+      })(),
+    ),
+  ]);
+
+  // Confirmation to submitter — best effort; never gates team/discord success.
+  if (smtpReady && submitterEmail) {
+    const confirmation = buildUserConfirmationHtml({
+      formType: payload.formType,
+      recipientName: submitterName,
+    });
+    void settledOk(
+      sendSmtpEmail({
+        to: [submitterEmail],
+        subject: confirmation.subject,
+        text: confirmation.text,
+        html: confirmation.html,
+      }),
+    );
+  }
+
+  if (!smtpReady) {
     console.info("[form-submission]", {
       formType: payload.formType,
       subject: payload.subject,
-      to: to ?? "(unset)",
+      to,
+      smtp: "not configured — set SMTP_USER + SMTP_PASS",
+      discord: discordOk,
       fields: sanitizeForLog(payload.fields),
     });
-    return { delivered: true, mode: "logged" };
   }
 
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      from,
-      to: [to],
+  const delivered = teamEmailOk || discordOk;
+
+  let mode: "email" | "discord" | "both" | "logged";
+  if (teamEmailOk && discordOk) mode = "both";
+  else if (teamEmailOk) mode = "email";
+  else if (discordOk) mode = "discord";
+  else mode = smtpReady ? "email" : "logged";
+
+  if (!delivered) {
+    console.error("[form-submission] all channels failed", {
+      formType: payload.formType,
       subject: payload.subject,
-      text: textBody,
-    }),
-  });
-
-  if (!response.ok) {
-    console.error("[form-submission] email delivery failed", response.status);
-    return { delivered: false, mode: "email" };
+    });
   }
 
-  return { delivered: true, mode: "email" };
+  return {
+    delivered,
+    mode,
+    channels: { email: teamEmailOk, discord: discordOk },
+  };
 }

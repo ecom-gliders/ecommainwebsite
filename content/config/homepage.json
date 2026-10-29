@@ -10,7 +10,7 @@
         "subheadline": "We manage PPC, listing optimization, content, and catalog health so your Amazon brand scales with clear priorities.",
         "supportLine": "Dedicated specialists assigned to your account, with reporting tied to sales, ACOS, and catalog health.",
         "primaryCta": {
-          "label": "Get your free audit",
+          "label": "Get in Touch",
           "href": "#hero-lead-form"
         },
         "secondaryCta": {
@@ -35,9 +35,9 @@
         ],
         "visual": {
           "type": "leadForm",
-          "formHeading": "Get your free audit",
+          "formHeading": "Get in Touch",
           "formSubheading": "A strategist follows up within one business day.",
-          "submitLabel": "Get your free audit",
+          "submitLabel": "Get in Touch",
           "consentLabel": "I agree to the privacy policy and to being contacted about this request.",
           "fields": [
             {

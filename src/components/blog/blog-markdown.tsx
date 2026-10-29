@@ -265,6 +265,26 @@ function createMarkdownComponents(): Components {
       );
     },
     hr: () => <hr className="my-8 border-border" />,
+    pre: ({ children }) => (
+      <pre className="my-6 max-w-full overflow-x-auto border-2 border-primary bg-surface-muted p-4 text-small text-text-primary shadow-[3px_3px_0_0_#131311]">
+        {children}
+      </pre>
+    ),
+    code: ({ className, children }) => {
+      const isBlock = Boolean(className?.includes("language-"));
+      if (isBlock) {
+        return (
+          <code className={`${className ?? ""} whitespace-pre font-mono text-small`}>
+            {children}
+          </code>
+        );
+      }
+      return (
+        <code className="max-w-full break-all rounded-[4px] border border-border bg-surface-muted px-1.5 py-0.5 font-mono text-[0.9em] text-text-primary">
+          {children}
+        </code>
+      );
+    },
   };
 }
 
@@ -284,7 +304,7 @@ export function BlogMarkdown({ content }: BlogMarkdownProps) {
   );
 
   return (
-    <div className="blog-content">
+    <div className="blog-content min-w-0 max-w-full overflow-x-clip">
       {segments.map((segment, index) => {
         if (segment.type === "block") {
           return (
