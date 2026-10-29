@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Catalog management SEO done
+## Latest (2026-10-30) — Visual creativity SEO done
 
-Completed through `/amazon-catalog-management/`.
+Completed through `/amazon-visual-creativity/`.
 
-**Implemented:** H1 “for healthy, scalable listings”; meta leads with services; relative canonical. OG was already Verified on preview.
+**Implemented:** Title “Amazon A+ Content Design”; H1 with visual + A+ KW; ogImage; relative canonical.
 
-**Next:** `/amazon-visual-creativity/`.
+**Next:** `/amazon-video-creative/` (or DSP / reporting / free-audit).

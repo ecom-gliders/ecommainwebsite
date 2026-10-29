@@ -414,20 +414,18 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Amazon A+ content design |
 | Secondary keywords | Amazon visual creativity, Amazon product photography, Amazon listing images, Amazon infographic design |
 | Entity | eCom Gliders; Amazon A+ Content; Brand Registry; product photography |
-| Title | Amazon Visual Creativity and A+ Design \| eCom Gliders |
-| Meta description | Amazon visual creativity for product photography, lifestyle imagery, and A+ design that support listing conversion. Free audit. |
+| Title | Amazon A+ Content Design \| eCom Gliders |
+| Meta description | Amazon A+ content design plus product photography, lifestyle imagery, and listing visuals that support conversion. Free audit. |
 | H1 | Amazon visual creativity and A+ design that convert |
-| Canonical | https://ecomgliders.com/amazon-visual-creativity/ |
+| Canonical | `/amazon-visual-creativity/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-video-creative/, /amazon-content-writing/, /amazon-listing-optimization/, /case-study-4/, /case-study-9/ |
-| AEO | FAQ covers assets, samples, Amazon requirements, refresh vs reshoot, conversion role, video handoff, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-4 2X conversion (visual + A+); case-study-9 lifestyle/A+ + CVR � Verified |
-| Competitors reviewed | Seller Interactive storefront/A+ design (2026-10-04); Canopy photography/A+ listing package (2026-10-04 prior); EG image/A+ blogs as backup |
+| OG image | `/images/services/amazon-visual-creativity-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, video creative, content writing, listing optimization, case studies |
+| AEO | FAQ covers assets, samples, Amazon requirements, refresh vs reshoot, conversion role, video handoff |
+| GEO | since 2018 / in-house claims on page |
 | Config | `content/config/services/amazon-visual-creativity.json` |
-| Audit status | Implemented + Verified (A5, 2026-10-04) |
-| Notes | Dedicated WP service HTML for this slug not found in backup; customer-image + A+ blogs used as evidence. |
+| Audit status | Re-optimized 2026-10-30 — title primary KW; H1 align; ogImage; relative canonical |
 
 ---
 

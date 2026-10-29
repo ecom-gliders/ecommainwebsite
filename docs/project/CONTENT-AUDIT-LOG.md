@@ -15,6 +15,19 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon visual creativity SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Visual hero H1 | Amazon visuals sequenced for the click and the close | Amazon visual creativity and A+ design that convert | Primary/secondary KW in H1 | yes |
+| Visual metaTitle | Amazon Visual Creativity and A+ Design \| … | Amazon A+ Content Design \| eCom Gliders | Lead with primary KW | yes |
+| Visual metaDescription | Amazon visual creativity for… | Amazon A+ content design plus… | Primary KW first | yes |
+| Visual canonical | Absolute URL | `/amazon-visual-creativity/` | absoluteUrl consistency | yes |
+| Visual ogImage | (missing) | amazon-visual-creativity-service.jpg | OG was null | yes |
+| Visual subtitle | path—not a random | path, not a random | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon catalog management SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

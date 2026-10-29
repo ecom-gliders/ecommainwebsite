@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Visual Creativity",
   "layout": "visualFrameStack",
   "hero": {
-    "title": "Amazon visuals sequenced for the click and the close",
-    "subtitle": "Main images, secondary frames, lifestyle, and A+ design planned as one shopper path—not a random photo dump.",
+    "title": "Amazon visual creativity and A+ design that convert",
+    "subtitle": "Main images, secondary frames, lifestyle, and A+ design planned as one shopper path, not a random photo dump.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -433,9 +433,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Amazon Visual Creativity and A+ Design | eCom Gliders",
-    "metaDescription": "Amazon visual creativity for product photography, lifestyle imagery, and A+ design that support listing conversion. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-visual-creativity/",
+    "metaTitle": "Amazon A+ Content Design | eCom Gliders",
+    "metaDescription": "Amazon A+ content design plus product photography, lifestyle imagery, and listing visuals that support conversion. Free audit.",
+    "canonical": "/amazon-visual-creativity/",
+    "ogImage": "/images/services/amazon-visual-creativity-service.jpg",
     "robots": {
       "index": true,
       "follow": true
