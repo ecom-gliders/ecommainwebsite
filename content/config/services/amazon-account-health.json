@@ -4,7 +4,7 @@
   "layout": "accountHealthGauge",
   "hero": {
     "title": "Amazon account health monitoring and response",
-    "subtitle": "Monitoring for policy notices, performance issues, and cases that need prompt, documented response—so account health does not become a surprise suspension risk.",
+    "subtitle": "Monitoring for policy notices, performance issues, and cases that need prompt, documented response, so account health does not become a surprise suspension risk.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -212,7 +212,7 @@
   },
   "opsLanes": {
     "heading": "Account health issues we catch before they compound",
-    "subheading": "Notices and performance metrics need owners. Monitoring sits beside growth work—not in a separate inbox.",
+    "subheading": "Notices and performance metrics need owners. Monitoring sits beside growth work, not in a separate inbox.",
     "note": "Amazon decides account status. We do not promise reinstatement. Scope and response plans are set during the free audit.",
     "lanes": [
       {
@@ -256,7 +256,7 @@
         "metricLabel": "Scaled accounts still need health owners",
         "points": [
           "Notices and metrics reviewed with growth work",
-          "Documented response trail—not scramble mode"
+          "Documented response trail, not scramble mode"
         ]
       }
     },
@@ -341,7 +341,7 @@
   "faq": [
     {
       "question": "Can you guarantee reinstatement after a suspension?",
-      "answer": "No. Amazon decides account status. We help with monitoring, documentation, and structured response where scoped—without inventing outcome guarantees."
+      "answer": "No. Amazon decides account status. We help with monitoring, documentation, and structured response where scoped, without inventing outcome guarantees."
     },
     {
       "question": "Is this legal representation?",
@@ -397,9 +397,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Amazon Account Health Management | eCom Gliders",
-    "metaDescription": "Amazon account health monitoring for policy notices, performance metrics, and documented case response. No false reinstatement guarantees. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-account-health/",
+    "metaTitle": "Amazon Account Health Services | eCom Gliders",
+    "metaDescription": "Amazon account health services for policy notices, performance metrics, and documented case response. No false reinstatement guarantees. Free audit.",
+    "canonical": "/amazon-account-health/",
+    "ogImage": "/images/services/amazon-account-health/ahl-ops-desk-v2.jpg",
     "robots": {
       "index": true,
       "follow": true

@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon account health SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Health metaTitle | Amazon Account Health Management \| … | Amazon Account Health Services \| … | Services intent | yes |
+| Health metaDescription | Amazon account health monitoring for… | Amazon account health services for… | Services KW lead | yes |
+| Health canonical | Absolute URL | `/amazon-account-health/` | absoluteUrl consistency | yes |
+| Health ogImage | (missing) | ahl-ops-desk-v2.jpg | OG was null | yes |
+| Health body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon account operations SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

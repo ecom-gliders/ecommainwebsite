@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon account health SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-health/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; title/meta “services”; ogImage; relative canonical; strip em dashes (H1 already KW-aligned)  
+**VERIFIED (Playwright preview before commit):** H1 OK; og:image null; Service+FAQPage OK; em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** Service detail queue complete. Next convert: `/free-audit/` or tools / case studies / Phase 1 technical
+
+---
+
 ## 2026-10-30 — Amazon account operations SEO pass
 
 **Task:** Master-prompt pass `/amazon-account-operations/`  

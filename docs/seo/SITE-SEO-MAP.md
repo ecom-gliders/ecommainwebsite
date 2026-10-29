@@ -124,6 +124,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Amazon Account Health
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-account-health/ |
+| Purpose | Convert commercial account health / policy notice / suspension-risk search into free-audit leads |
+| Audience | Scaling sellers; open notices; catalog-heavy operators; full-service accounts |
+| Search intent | Commercial |
+| Primary keyword | Amazon account health |
+| Secondary keywords | Amazon account health services, Amazon account health monitoring, Amazon policy notices, Amazon performance metrics |
+| Entity | eCom Gliders; Account Health; policy notices; performance metrics; Seller Central |
+| Title | Amazon Account Health Services \| eCom Gliders |
+| Meta description | Amazon account health services for policy notices, performance metrics, and documented case response. No false reinstatement guarantees. Free audit. |
+| H1 | Amazon account health monitoring and response |
+| Canonical | `/amazon-account-health/` |
+| Indexability | Index |
+| OG image | `/images/services/amazon-account-health/ahl-ops-desk-v2.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, Seller Central, catalog management, full-service |
+| AEO | FAQ covers monitoring scope, no reinstatement guarantee, notices, vs Seller Central ops |
+| GEO | Amazon decides account status; no invented outcome guarantees |
+| Config | `content/config/services/amazon-account-health.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; title/meta “services”; ogImage; relative canonical; strip em dashes |
+
+---
+
 ### Amazon Account Operations
 
 | Field | Value |
