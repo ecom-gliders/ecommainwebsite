@@ -2,8 +2,9 @@
 
 Per-page SEO records for all indexable pages.
 
-**Updated:** 2026-09-02 (competitor keyword research)  
-**Status:** Core pages mapped. Blog posts to be populated during SEO audit phase.
+**Updated:** 2026-10-30 (homepage SEO/AEO pass; Phase 0 standards)  
+**Status:** Core pages mapped. Homepage re-audited 2026-10-30. Blog posts to be populated during SEO audit phase.  
+**Standard:** [PAGE-OPTIMIZATION-STANDARD.md](PAGE-OPTIMIZATION-STANDARD.md)
 
 ---
 
@@ -52,19 +53,20 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 | Field | Value |
 |-------|-------|
-| URL | https://ecomgliders.com/ |
+| URL | https://ecomgliders.com/ (preview Verified: https://ecom-gliders.vercel.app/) |
 | Primary keyword | Amazon account management agency |
 | Secondary keywords | Full service Amazon agency, Amazon growth agency, Amazon PPC agency |
 | Search intent | Commercial (agency selection) |
-| Title | eCom Gliders \| Amazon Agency |
-| Meta description | Full-service Amazon account management. PPC, listing optimization, content, and catalog management. 95% retention. Free audit. |
+| Title | Amazon Account Management Agency \| eCom Gliders |
+| Meta description | Full-service Amazon account management: PPC, listings, content, and catalog health. Helping sellers since 2018. 95% retention. Get in Touch or request a free audit. |
 | H1 | Full-service Amazon growth for ambitious FBA brands |
-| Canonical | https://ecomgliders.com/ |
+| Canonical | `/` → absolute via `SITE_URL` / `NEXT_PUBLIC_SITE_URL` (preview host Observed on Vercel) |
 | Indexability | Index |
-| Schema | Organization, WebSite, FAQPage |
-| Internal links | Services, case studies, blog, free audit |
-| Audit status | Implemented (P2-05) � `generateMetadata` + JSON-LD `@graph` |
-| Verification | Playwright 2026-09-02: title, meta, canonical, 10 FAQ entities in FAQPage schema |
+| OG image | `/images/blog/ecomglidersbanner-1024x598-e176afa2.png` |
+| Schema | Organization, WebSite, FAQPage (Verified on Vercel preview 2026-10-30) |
+| Internal links | Services, case studies, blog posts, Get in Touch / free audit CTAs |
+| Audit status | Re-optimized 2026-10-30 — title/meta/OG + AI-vibe copy pass |
+| Verification | Playwright preview 2026-10-30: 1 H1; OG/Twitter present after deploy of ogImage; schema @graph Organization+WebSite+FAQPage. Live ecomgliders.com still Observed as legacy WordPress until DNS cutover. |
 
 ---
 

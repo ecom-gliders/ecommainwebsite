@@ -40,12 +40,10 @@ All rules are project-local in `.cursor/rules/`. Key rules:
 
 Project skills in `.cursor/skills/`:
 
-- research
-- web-audit
-- seo-audit
-- migration-audit
-- asset-management
-- competitive-research
+- research, web-audit, migration-audit, asset-management, competitive-research
+- **SEO pack:** `seo-audit`, `seo-aeo-geo`, `seo-meta-tags`, `seo-schema-snippets`, `seo-crawling-indexing`, `seo-performance`, `seo-content-quality`, `seo-core-html`, `seo-llm-context`, `seo-local-seo`, `seo-media`, `seo-url-structure`, `seo-accessibility`, `seo-javascript`, `seo-ecommerce`, `seo-enterprise`, `seo-international`, `seo-security-https`, `seo-youtube-video`
+
+Page SEO passes: follow `docs/seo/PAGE-OPTIMIZATION-STANDARD.md` and update `docs/seo/SITE-SEO-MAP.md`.
 
 ## Decision protocol
 

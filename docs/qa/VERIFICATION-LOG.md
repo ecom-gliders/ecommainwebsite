@@ -4,6 +4,26 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — SEO Phase 0 + Homepage pass
+
+**Task:** Sync SEO skills; publish PAGE-OPTIMIZATION-STANDARD; optimize homepage meta/OG/copy.  
+**STATUS:** Phase 0 COMPLETE; Homepage IMPLEMENTED (preview re-verify after deploy)  
+**IMPLEMENTED:**
+- Copied 13 SEO skills into `.cursor/skills/`
+- Added `docs/seo/PAGE-OPTIMIZATION-STANDARD.md`; updated `AGENTS.md`
+- Homepage: keyword title, stronger meta, `ogImage`, comparison + Ask-AI copy cleanup
+
+**VERIFIED (Playwright, before this commit on https://ecom-gliders.vercel.app/):**
+- Title was brand-only; description present; robots index,follow; 1 H1; schema Organization+WebSite+FAQPage
+- **og:image was null** / twitter `summary` — fixed in content (Requires confirmation after Vercel deploy)
+- Live https://ecomgliders.com/ Observed as legacy WP title (DNS not cut over)
+
+**DOCUMENTED:** SITE-SEO-MAP homepage row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Re-check OG after deploy; Phase 1 technical audit; next page `/services/`  
+**NEXT ACTION:** Deploy/push homepage SEO; user pastes next TARGET URL or continue `/services/`
+
+---
+
 ## 2026-10-29 — Sitewide visual + responsive QA
 
 **Task:** Full-site overflow/layout QA (Waves 0–7): shared chrome, home (19 sections), 12 core, 20 services, 9 case studies, tools directory + 13 tools, blog template + 12 samples, regression smoke.  

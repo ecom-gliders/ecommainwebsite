@@ -15,6 +15,19 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Homepage SEO / AI-vibe pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Homepage `seo.metaTitle` | eCom Gliders \| Amazon Agency | Amazon Account Management Agency \| eCom Gliders | Align title with primary commercial keyword | yes |
+| Homepage `seo.metaDescription` | …Free audit. | …Get in Touch or request a free audit. + since 2018 | Match hero CTA; keep verified retention claim | yes |
+| Homepage `seo.ogImage` | (missing) | `/images/blog/ecomglidersbanner-1024x598-e176afa2.png` | OG/Twitter image was null on preview | yes |
+| Comparison heading | The smarter way to grow on Amazon. | Amazon growth with clear ownership and reporting | Reduce AI-marketing vibe | yes |
+| Comparison swingNote | It's a no-brainer — why wouldn't you?! | Most brands choose the option with an assigned owner and measurable reporting. | Unprofessional / hype | yes |
+| Ask-AI eyebrow/heading | Compare with AI / Ask AI whether… | Compare options / Ask an assistant whether… | Soften AI marketing framing | yes |
+
+---
+
 ## 2026-10-28 — Company wordmark plural
 
 | Location | Original | Replacement | Reason | Approved |

@@ -1,7 +1,15 @@
-## Latest (2026-10-30) — Form page attribution in Discord + email
+## Latest (2026-10-30) — SEO Phase 0 done; Homepage implemented
 
-Leads include **Submitted from** (full page URL), optional **Prior referrer**. Client `FormAttributionFields` on all site forms/funnels; server fallback via Referer. Discord embed title link opens that page.
+**Phase 0 (Verified):**
+- 13 SEO skills synced into `.cursor/skills/`
+- `docs/seo/PAGE-OPTIMIZATION-STANDARD.md` published
+- `AGENTS.md` skills pointer updated
 
-Evidence: `tsc --noEmit` clean.
+**Homepage (Implemented in repo; preview deploy not yet confirmed for OG):**
+- Title → primary keyword “Amazon Account Management Agency”
+- Meta + `ogImage` set; comparison / Ask-AI copy de-hyped
+- SITE-SEO-MAP + CONTENT-AUDIT-LOG + VERIFICATION-LOG updated
 
-**Next:** Commit when requested. Smoke-submit Get in Touch from a service page and confirm Discord/email show the URL.
+**Note:** Live ecomgliders.com still Observed as WordPress until DNS cutover. Audit against Vercel preview.
+
+**Next:** Push/deploy; re-verify OG on preview; then `/services/` master-prompt pass (or Phase 1 technical baseline).

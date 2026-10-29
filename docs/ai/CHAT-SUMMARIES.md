@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-30 — SEO/AEO/GEO program Phase 0 + Homepage
+
+Session topic: Full-site SEO program; user confirmed execute.
+Key decisions: Sync full SEO skill pack in-repo; PAGE-OPTIMIZATION-STANDARD as canonical; page-by-page master prompt; homepage title/meta/OG + AI-vibe cleanup first.
+Evidence: Skills copied; standard doc; Playwright preview meta/schema Observed; homepage JSON edits Implemented.
+Next action: Push; re-verify OG on Vercel; next URL `/services/` or Phase 1 technical audit.
+
 ## 2026-10-30 — Form page attribution + dynamic messages
 
 Session topic: Per-form success/validation copy; include source page in Discord + email for metrics.

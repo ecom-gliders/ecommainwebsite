@@ -982,9 +982,9 @@
       "enabled": true,
       "data": {
         "eyebrow": "Why partner with us?",
-        "heading": "The smarter way to grow on Amazon.",
-        "subheading": "Whether you are comparing freelancers, DIY management, or a typical agency, eCom Gliders removes the guesswork that usually comes with Amazon growth.",
-        "swingNote": "It's a no-brainer — why wouldn't you?!",
+        "heading": "Amazon growth with clear ownership and reporting",
+        "subheading": "Compare freelancers, DIY management, and a typical agency against how eCom Gliders staffs strategy, PPC, and catalog work.",
+        "swingNote": "Most brands choose the option with an assigned owner and measurable reporting.",
         "columns": {
           "agency": "eCom Gliders",
           "competitors": [
@@ -1277,16 +1277,17 @@
       "type": "askAi",
       "enabled": true,
       "data": {
-        "eyebrow": "Compare with AI",
-        "heading": "Ask AI whether eCom Gliders fits your Amazon brand",
-        "subheading": "Open ChatGPT, Claude, Gemini, or Perplexity with a ready prompt. Each link starts a conversation about ACOS, scale, and whether a full-service Amazon agency is the right next step."
+        "eyebrow": "Compare options",
+        "heading": "Ask an assistant whether eCom Gliders fits your Amazon brand",
+        "subheading": "Open ChatGPT, Claude, Gemini, or Perplexity with a ready prompt about ACOS, catalog scale, and whether a full-service Amazon agency is the right next step."
       }
     }
   ],
   "seo": {
-    "metaTitle": "eCom Gliders | Amazon Agency",
-    "metaDescription": "Full-service Amazon account management. PPC, listing optimization, content, and catalog management. 95% retention. Free audit.",
+    "metaTitle": "Amazon Account Management Agency | eCom Gliders",
+    "metaDescription": "Full-service Amazon account management: PPC, listings, content, and catalog health. Helping sellers since 2018. 95% retention. Get in Touch or request a free audit.",
     "canonical": "/",
+    "ogImage": "/images/blog/ecomglidersbanner-1024x598-e176afa2.png",
     "robots": {
       "index": true,
       "follow": true
