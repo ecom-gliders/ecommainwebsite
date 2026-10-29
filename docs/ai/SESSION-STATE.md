@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — TikTok Shop ads SEO done
+## Latest (2026-10-30) — Email retention SEO done
 
-Completed through `/tiktok-shop-ads/`.
+Completed through `/email-retention-marketing/`.
 
-**Implemented:** H1 with primary KW; ogImage; relative canonical; strip em dashes.
+**Implemented:** H1 with primary KW; meta lead; ogImage; relative canonical; strip em dashes.
 
-**Next:** `/email-retention-marketing/` (or product launch / free-audit).
+**Next:** `/amazon-product-launch-services/` (or inventory / Seller Central / free-audit).

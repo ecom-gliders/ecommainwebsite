@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Email Retention",
   "layout": "lifecycleCadenceLoop",
   "hero": {
-    "title": "Email retention for Amazon brands",
-    "subtitle": "Looped lifecycle email after legitimate owned opt-in. Amazon does not supply buyer emails for marketing—email complements ads, not replaces them.",
+    "title": "Email and retention marketing for Amazon brands",
+    "subtitle": "Looped lifecycle email after legitimate owned opt-in. Amazon does not supply buyer emails for marketing. Email complements ads; it does not replace them.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -238,11 +238,11 @@
     {
       "id": "email-day-journey-board",
       "type": "catalogHealthBoard",
-      "heading": "Cadence timing sheet (Day 0–45)",
-      "subheading": "Owned-list beats with job and subject intent per loop pass. Timing shifts with replenishment cycles—Amazon never supplies buyer emails for marketing.",
+      "heading": "Cadence timing sheet (Day 0-45)",
+      "subheading": "Owned-list beats with job and subject intent per loop pass. Timing shifts with replenishment cycles. Amazon never supplies buyer emails for marketing.",
       "urlLabel": "retention.ecomgliders.com/journey",
       "boardLabel": "Lifecycle calendar",
-      "disclaimer": "Illustrative calendar for planning. Not an open-rate or revenue guarantee. Capture must be owned opt-in (site, compliant inserts)—never Amazon PII.",
+      "disclaimer": "Illustrative calendar for planning. Not an open-rate or revenue guarantee. Capture must be owned opt-in (site, compliant inserts). Never Amazon PII.",
       "columns": [
         "Day",
         "Flow",
@@ -256,7 +256,7 @@
             "0",
             "Welcome",
             "Confirm opt-in",
-            "You’re in — here’s what to expect",
+            "You're in: here's what to expect",
             "Bestsellers on owned site"
           ]
         },
@@ -312,7 +312,7 @@
       "id": "flow-priority-chart",
       "type": "metricChart",
       "heading": "Automation launch order",
-      "subheading": "Build welcome and post-purchase before campaign calendars—index for sequencing only.",
+      "subheading": "Build welcome and post-purchase before campaign calendars. Index for sequencing only.",
       "chartLabel": "Relative build priority (index)",
       "points": [
         {
@@ -347,7 +347,7 @@
       "id": "capture-readiness-sheet",
       "type": "brandUnlockGrid",
       "heading": "Capture readiness before flows",
-      "subheading": "Owned opt-in first—Klaviyo-style mills often skip Amazon-seller capture constraints.",
+      "subheading": "Owned opt-in first. Klaviyo-style mills often skip Amazon-seller capture constraints.",
       "note": "Platform choice and compliance confirmed during scoping. No invented email ROI claims.",
       "sheetLabel": "retention · capture gates",
       "items": [
@@ -371,7 +371,7 @@
         },
         {
           "title": "Amazon buyer email export",
-          "description": "Not available for marketing—never part of this program.",
+          "description": "Not available for marketing. Never part of this program.",
           "unlocked": false,
           "statusLabel": "Blocked by Amazon"
         }
@@ -384,7 +384,7 @@
       {
         "metric": "310% sales increase",
         "brand": "GoSports (Sports and Outdoors)",
-        "description": "Listing, creative, and advertising grew monthly revenue from $22.1K to $90.7K—the traction owned retention is built to extend. Not an email-attribution claim.",
+        "description": "Listing, creative, and advertising grew monthly revenue from $22.1K to $90.7K, the traction owned retention is built to extend. Not an email-attribution claim.",
         "href": "/case-study-9/"
       },
       {
@@ -451,7 +451,7 @@
   ],
   "cta": {
     "heading": "Request an email retention review",
-    "subheading": "Share platform and list size. We outline capture gaps and flow priority—no invented ROI benchmarks.",
+    "subheading": "Share platform and list size. We outline capture gaps and flow priority. No invented ROI benchmarks.",
     "button": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -459,8 +459,9 @@
   },
   "seo": {
     "metaTitle": "Email and Retention Marketing for Amazon Brands | eCom Gliders",
-    "metaDescription": "Lifecycle email and retention marketing for Amazon brands. Welcome, post-purchase, and win-back flows that complement Amazon ads. Free audit.",
-    "canonical": "https://ecomgliders.com/email-retention-marketing/",
+    "metaDescription": "Email retention marketing for Amazon brands. Lifecycle flows that complement marketplace growth with owned-channel relationships. Free audit.",
+    "canonical": "/email-retention-marketing/",
+    "ogImage": "/images/services/email-retention-marketing-service.jpg",
     "robots": {
       "index": true,
       "follow": true

@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Email retention marketing SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Email hero H1 | Email retention for Amazon brands | Email and retention marketing for Amazon brands | Primary KW in H1 | yes |
+| Email metaDescription | Lifecycle email and retention… | Email retention marketing for Amazon brands… | Lead with primary KW | yes |
+| Email canonical | Absolute URL | `/email-retention-marketing/` | absoluteUrl consistency | yes |
+| Email ogImage | (missing) | email-retention-marketing-service.jpg | OG was null | yes |
+| Email body | Multiple em dashes / curly apostrophes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — TikTok Shop ads SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

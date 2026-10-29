@@ -136,19 +136,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | email marketing for Amazon brands, lifecycle email ecommerce, retention email Amazon sellers, post-purchase email flows |
 | Entity | eCom Gliders; lifecycle email; retention marketing; Amazon brands; owned channel |
 | Title | Email and Retention Marketing for Amazon Brands \| eCom Gliders |
-| Meta description | Email and retention marketing for Amazon brands. Lifecycle flows that complement marketplace growth with owned-channel relationships. Free audit. |
+| Meta description | Email retention marketing for Amazon brands. Lifecycle flows that complement marketplace growth with owned-channel relationships. Free audit. |
 | H1 | Email and retention marketing for Amazon brands |
-| Canonical | https://ecomgliders.com/email-retention-marketing/ |
+| Canonical | `/email-retention-marketing/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; email compliance varies) |
-| Internal links | /free-audit/, /shopify-website-development/, /full-service-amazon-agency/, /amazon-content-writing/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers not replacing Amazon ads, Shopify need, platforms, first flows, measurement, Amazon bestsellers, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No email ROI invent ($30�$50/$1, 30�50% revenue). Results use brand-retention growth cases (case-study-9 310%; case-study-1 73%) � Verified |
-| Competitors reviewed | Chronos retention agency (2026-10-04 Verified); EvolveAMZ Klaviyo for Amazon sellers playbook (2026-10-04 Observed); EG Shopify plugins / algorithm blogs mentioning email (Observed) |
+| OG image | `/images/services/email-retention-marketing-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, Shopify, full-service, content writing, case studies |
+| AEO | FAQ covers not replacing Amazon ads, Shopify need, platforms, first flows, measurement |
+| GEO | Owned opt-in only; no invented email ROI |
 | Config | `content/config/services/email-retention-marketing.json` |
-| Audit status | Implemented + Verified (D3, 2026-10-04) |
-| Notes | Dedicated WP service HTML not found. No Chronos $400M / 500 brands or EvolveAMZ $30�$50 email ROI claims copied. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta primary KW; ogImage; relative canonical; strip em dashes |
 
 ---
 

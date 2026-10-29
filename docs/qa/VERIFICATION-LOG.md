@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Email retention marketing SEO pass
+
+**Task:** Master-prompt pass `/email-retention-marketing/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 KW align; meta primary KW; ogImage; relative canonical; strip em dashes  
+**VERIFIED (Playwright preview before commit):** H1 KW-weak; og:image null; Service+FAQPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-product-launch-services/` or inventory / free-audit
+
+---
+
 ## 2026-10-30 — TikTok Shop ads SEO pass
 
 **Task:** Master-prompt pass `/tiktok-shop-ads/`  
