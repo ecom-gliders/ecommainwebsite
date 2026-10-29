@@ -133,9 +133,9 @@ export function HeroSection({ id, data }: HeroSectionProps) {
 
   const visual = data.visual as Record<string, unknown> | undefined;
   const visualType = readString(visual?.type, "leadForm");
-  const formHeading = readString(visual?.formHeading, "Get your free audit");
+  const formHeading = readString(visual?.formHeading, "Get in Touch");
   const formSubheading = readString(visual?.formSubheading);
-  const submitLabel = readString(visual?.submitLabel, "Get your free audit");
+  const submitLabel = readString(visual?.submitLabel, "Get in Touch");
   const consentLabel = readString(
     visual?.consentLabel,
     "I agree to the privacy policy and consent to being contacted about my audit request.",
@@ -218,7 +218,7 @@ export function HeroSection({ id, data }: HeroSectionProps) {
         </div>
       </div>
 
-      {/* Lead form under fold — Free Audit / #hero-lead-form path */}
+      {/* Lead form under fold — Get in Touch / #hero-lead-form */}
       {showLeadForm ? (
         <div className="container-page pb-4 sm:pb-6">
           {supportLine ? (

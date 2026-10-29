@@ -6,6 +6,10 @@ import { Phone } from "lucide-react";
 import type { NavigationConfig } from "@/domain/content/schemas";
 import type { SiteConfig } from "@/domain/content/schemas";
 import { BrandLogo } from "@/components/design-system/brand-logo";
+import {
+  suppressAutoPopupForToday,
+  useOptionalFreeAuditFunnel,
+} from "@/components/free-audit/free-audit-funnel-context";
 import { HeaderNav } from "@/components/layout/header-nav";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { PrimaryButton } from "@/components/ui/primary-button";
@@ -24,6 +28,7 @@ interface SiteHeaderShellProps {
 export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
   const [scrolled, setScrolled] = useState(false);
   const { header } = navigation;
+  const funnel = useOptionalFreeAuditFunnel();
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,6 +39,12 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  /** Free Audit CTA navigates to booking — never opens the timed popup. */
+  const onFreeAuditNavClick = () => {
+    suppressAutoPopupForToday();
+    funnel?.closeFunnel();
+  };
 
   return (
     <header
@@ -92,7 +103,13 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
                 size="sm"
                 className="hidden lg:inline-flex"
               >
-                <Link href={header.cta.href}>{header.cta.label}</Link>
+                <Link
+                  href={header.cta.href}
+                  prefetch={false}
+                  onClick={onFreeAuditNavClick}
+                >
+                  {header.cta.label}
+                </Link>
               </PrimaryButton>
 
               <PrimaryButton
@@ -101,7 +118,12 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
                 size="sm"
                 className="inline-flex !h-9 !min-h-9 !gap-1.5 !pl-3 !pr-1.5 !text-xs lg:hidden"
               >
-                <Link href={header.cta.href} aria-label={header.cta.label}>
+                <Link
+                  href={header.cta.href}
+                  aria-label={header.cta.label}
+                  prefetch={false}
+                  onClick={onFreeAuditNavClick}
+                >
                   Audit
                 </Link>
               </PrimaryButton>

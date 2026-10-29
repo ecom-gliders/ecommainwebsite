@@ -26,7 +26,12 @@ export function CaseStudyFreeAuditCta({
         ) : null}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <PrimaryButton asChild variant="accent">
-            <Link href="/free-audit/">Get your free audit</Link>
+            <Link
+              href="/free-audit/#audit-booking"
+              prefetch={false}
+            >
+              Get your free audit
+            </Link>
           </PrimaryButton>
           <PrimaryButton asChild variant="primary">
             <Link href="/case-studies/">View all case studies</Link>

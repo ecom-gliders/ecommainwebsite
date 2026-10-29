@@ -6,6 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
@@ -31,30 +32,47 @@ const FreeAuditFunnelContext = createContext<FreeAuditFunnelContextValue | null>
 /** Midpoint of the requested 5–10s dwell window */
 const SITE_AUTO_POPUP_DELAY_MS = 7000;
 
+/**
+ * Once-per-calendar-day lock (local timezone).
+ * Survives tab close / new session — same day = no second timed popup.
+ */
+const AUTO_POPUP_DAY_KEY = "eg-free-audit-auto-popup-day";
+
+export const FREE_AUDIT_PAGE_HREF = "/free-audit/";
+export const FREE_AUDIT_BOOKING_HREF = "/free-audit/#audit-booking";
+
+function localDayKey(date = new Date()): string {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
 function isFreeAuditPagePath(pathname: string | null): boolean {
   if (!pathname) return false;
   const normalized = pathname.replace(/\/$/, "") || "/";
   return normalized === "/free-audit";
 }
 
-function isFreeAuditPathHref(href: string | null): boolean {
-  if (!href) return false;
+function hasShownAutoPopupToday(): boolean {
   try {
-    if (href.startsWith("http://") || href.startsWith("https://")) {
-      const url = new URL(href);
-      return url.pathname === "/free-audit" || url.pathname === "/free-audit/";
-    }
+    return localStorage.getItem(AUTO_POPUP_DAY_KEY) === localDayKey();
   } catch {
     return false;
   }
-  return (
-    href === "/free-audit" ||
-    href === "/free-audit/" ||
-    href.startsWith("/free-audit?") ||
-    href.startsWith("/free-audit/?") ||
-    href.startsWith("/free-audit#") ||
-    href.startsWith("/free-audit/#")
-  );
+}
+
+function markAutoPopupShownToday(): void {
+  try {
+    localStorage.setItem(AUTO_POPUP_DAY_KEY, localDayKey());
+  } catch {
+    // Private mode / blocked storage — still open at most once this mount.
+  }
+}
+
+/** Call from Free Audit CTAs so a pending timer cannot open the popup after click. */
+export function suppressAutoPopupForToday(): void {
+  markAutoPopupShownToday();
 }
 
 interface FreeAuditFunnelProviderProps {
@@ -64,9 +82,8 @@ interface FreeAuditFunnelProviderProps {
 }
 
 /**
- * Site-wide Free Audit funnel popup. Intercepts /free-audit/ CTA links so the
- * multi-step intake opens in-dialog; /free-audit/ still works as a direct URL
- * for the Calendly booking page.
+ * Site-wide Free Audit funnel popup (timed, once per calendar day).
+ * Free Audit CTAs must navigate to /free-audit/#audit-booking — they never open this dialog.
  */
 export function FreeAuditFunnelProvider({
   form,
@@ -75,65 +92,37 @@ export function FreeAuditFunnelProvider({
 }: FreeAuditFunnelProviderProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const shownThisMountRef = useRef(false);
 
   const openFunnel = useCallback(() => setOpen(true), []);
   const closeFunnel = useCallback(() => setOpen(false), []);
 
-  // Site-wide: after ~7s on every page visit (no session lock). Skips /free-audit/.
+  // Never keep the popup open on the Free Audit page itself.
+  useEffect(() => {
+    if (isFreeAuditPagePath(pathname)) {
+      setOpen(false);
+      // Visiting the audit page counts as today's exposure — no timed popup later today.
+      markAutoPopupShownToday();
+    }
+  }, [pathname]);
+
+  // Timed auto-popup once per calendar day. Skips /free-audit/. No click interception.
   useEffect(() => {
     if (isFreeAuditPagePath(pathname)) return;
+    if (shownThisMountRef.current) return;
+    if (hasShownAutoPopupToday()) return;
 
     const timer = window.setTimeout(() => {
       if (isFreeAuditPagePath(window.location.pathname)) return;
+      if (shownThisMountRef.current) return;
+      if (hasShownAutoPopupToday()) return;
+      shownThisMountRef.current = true;
+      markAutoPopupShownToday();
       setOpen(true);
     }, SITE_AUTO_POPUP_DELAY_MS);
 
     return () => window.clearTimeout(timer);
   }, [pathname]);
-
-  useEffect(() => {
-    function onDocumentClick(event: MouseEvent) {
-      if (event.defaultPrevented) return;
-      if (event.button !== 0) return;
-      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
-        return;
-      }
-
-      const target = event.target;
-      if (!(target instanceof Element)) return;
-
-      const anchor = target.closest("a[href]");
-      if (!(anchor instanceof HTMLAnchorElement)) return;
-      if (anchor.dataset.freeAuditPage === "true") return;
-      if (anchor.target === "_blank") return;
-
-      const href = anchor.getAttribute("href");
-      if (!isFreeAuditPathHref(href)) return;
-
-      event.preventDefault();
-      setOpen(true);
-    }
-
-    document.addEventListener("click", onDocumentClick, true);
-    return () => document.removeEventListener("click", onDocumentClick, true);
-  }, []);
-
-  useEffect(() => {
-    function syncFromLocation() {
-      if (typeof window === "undefined") return;
-      const params = new URLSearchParams(window.location.search);
-      if (
-        params.get("audit") === "1" ||
-        params.get("open") === "free-audit" ||
-        window.location.hash === "#free-audit-funnel"
-      ) {
-        setOpen(true);
-      }
-    }
-    syncFromLocation();
-    window.addEventListener("hashchange", syncFromLocation);
-    return () => window.removeEventListener("hashchange", syncFromLocation);
-  }, []);
 
   const value = useMemo(
     () => ({ open, openFunnel, closeFunnel }),
@@ -163,7 +152,7 @@ export function useFreeAuditFunnel(): FreeAuditFunnelContextValue {
   return ctx;
 }
 
-/** Safe open for CTAs that may render outside the provider (no-ops if missing). */
+/** Safe open for rare manual triggers (no-ops if provider missing). */
 export function useOptionalFreeAuditFunnel(): FreeAuditFunnelContextValue | null {
   return useContext(FreeAuditFunnelContext);
 }

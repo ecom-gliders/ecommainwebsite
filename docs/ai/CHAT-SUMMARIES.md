@@ -2,6 +2,21 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-29 — Sitewide visual + responsive QA COMPLETE
+
+Session topic: Execute sitewide responsive QA plan (Waves 0–7); do not edit plan file.
+Key decisions: Blog = template + 12 samples; services/tools/cases = 100% coverage; fix overflows in shared CSS/components first.
+Fixes: blog `pre`/`code` horizontal overflow; pre-footer Beehiiv iframe mobile width/height.
+Evidence: 68-page Playwright audit clean; home 5 breakpoints OK; Wave 7 CTA/newsletter/form smoke OK; VERIFICATION-LOG + screenshot dir `responsive-2026-10-29`.
+Next action: Commit when requested.
+
+## 2026-10-29 — Footer newsletter + branded form notifications
+
+Session topic: Replace footer Free Audit CTA with newsletter; route every form/newsletter to info@ + Discord.
+Key decisions: Shared `form-notifier` + branded HTML templates + Discord embeds; webhook/secret only via env; confirmation email to submitter when email present.
+Evidence: `tsc --noEmit` clean; Discord setup ping Verified HTTP 204; webhook stored only in `.env.local` (gitignored).
+Next action: Set `RESEND_API_KEY` for production email; rotate Discord webhook (URL was pasted in chat); add same env on Vercel; commit when requested.
+
 ## 2026-10-29 — FBA fee calculator + Free Amazon Tools SEO (#16/#17)
 
 Session topic: Checklist items 16 (one functional Amazon tool) and 17 (SEO for tools directory/pages).
