@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — TCS/TDS reconciliation SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| TCS hero H1 | TCS/TDS reconciliation | Amazon TCS and TDS reconciliation | Primary KW lead | yes |
+| TCS metaTitle | TCS TDS Reconciliation \| … | Amazon TCS and TDS Reconciliation \| … | Amazon intent | yes |
+| TCS metaDescription | 86 chars | Expanded with Free + not tax advice | Meta length; disclaimer | yes |
+| TCS CTA heading | Want help applying these numbers… | Need help reconciling Amazon tax credits… | Tool-specific CTA | yes |
+| TCS ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Monthly seller close-out SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

@@ -2,7 +2,7 @@
   "slug": "tcs-tds-reconciliation",
   "badge": "Tax",
   "hero": {
-    "title": "TCS/TDS reconciliation",
+    "title": "Amazon TCS and TDS reconciliation",
     "subtitle": "Find Amazon tax credits buried in your Monthly Unified Transaction Report."
   },
   "intro": "Upload MUTR CSV. Rows related to TCS and TDS are grouped so you can reconcile credits for GST returns.",
@@ -22,7 +22,7 @@
     }
   ],
   "cta": {
-    "heading": "Want help applying these numbers to your Amazon account?",
+    "heading": "Need help reconciling Amazon tax credits with your catalog?",
     "primaryCta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "TCS TDS Reconciliation | Free Tool | eCom Gliders",
-    "metaDescription": "Reconcile Amazon TCS and TDS credits from your Monthly Unified Transaction Report CSV.",
+    "metaTitle": "Amazon TCS and TDS Reconciliation | Free Tool | eCom Gliders",
+    "metaDescription": "Amazon TCS and TDS reconciliation from MUTR CSV. Group tax credit rows for GST return checks. Runs in your browser. Free. Not tax advice.",
     "canonical": "/free-amazon-tools/tcs-tds-reconciliation/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

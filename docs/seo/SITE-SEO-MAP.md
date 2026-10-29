@@ -999,11 +999,28 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Browser-local; one settlement period recommended |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
 
-### Free tools: remaining directory entries
+### Free tool: TCS/TDS reconciliation
 
-Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/tcs-tds-reconciliation/ |
+| Purpose | Group Amazon TCS/TDS credit rows from MUTR for GST reconciliation checks |
+| Audience | India Amazon sellers reconciling tax credits against returns |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon TCS and TDS reconciliation |
+| Secondary keywords | Amazon TCS TDS, MUTR tax credits, Amazon GST tax credit reconciliation |
+| Entity | eCom Gliders; TCS; TDS; MUTR; GST |
+| Title | Amazon TCS and TDS Reconciliation \| Free Tool \| eCom Gliders |
+| Meta description | Amazon TCS and TDS reconciliation from MUTR CSV. Group tax credit rows for GST return checks. Runs in your browser. Free. Not tax advice. |
+| H1 | Amazon TCS and TDS reconciliation |
+| Canonical | `/free-amazon-tools/tcs-tds-reconciliation/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/tcs-tds-reconciliation.json` |
+| Notes | Not tax advice; browser-local CSV grouping |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage; free-tools directory complete |
 
-- `/free-amazon-tools/tcs-tds-reconciliation/`
 - `/free-amazon-tools/ppc-performance-dashboard/`
 
 ---
