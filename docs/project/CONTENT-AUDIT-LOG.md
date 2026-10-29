@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon product sourcing SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Sourcing metaDescription | Amazon product sourcing support with… | Amazon product sourcing services with… | Services intent | yes |
+| Sourcing canonical | Absolute URL | `/amazon-product-sourcing/` | absoluteUrl consistency | yes |
+| Sourcing ogImage | (missing) | amazon-product-sourcing-service.jpg | OG was null | yes |
+| Sourcing body | Multiple em dashes / en dashes | Plain punctuation / n/a / ASCII hyphens | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon company registration SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

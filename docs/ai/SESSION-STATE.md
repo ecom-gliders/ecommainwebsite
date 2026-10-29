@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Company registration SEO done
+## Latest (2026-10-30) — Product sourcing SEO done
 
-Completed through `/amazon-company-registration/`.
+Completed through `/amazon-product-sourcing/`.
 
-**Implemented:** meta “services”; ogImage; relative canonical; H1 already KW-aligned.
+**Implemented:** meta “services”; ogImage; relative canonical; strip em dashes; H1 already KW-aligned.
 
-**Next:** `/amazon-product-sourcing/` (or Shopify / TikTok / free-audit).
+**Next:** `/shopify-website-development/` (or TikTok / email retention / free-audit).

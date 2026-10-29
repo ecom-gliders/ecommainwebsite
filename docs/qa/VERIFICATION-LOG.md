@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon product sourcing SEO pass
+
+**Task:** Master-prompt pass `/amazon-product-sourcing/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** meta “services”; ogImage; relative canonical; strip em/en dashes (H1 already KW-aligned)  
+**VERIFIED (Playwright preview before commit):** H1 OK; og:image null; Service+FAQPage OK; em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/shopify-website-development/` or TikTok / free-audit
+
+---
+
 ## 2026-10-30 — Amazon company registration SEO pass
 
 **Task:** Master-prompt pass `/amazon-company-registration/`  

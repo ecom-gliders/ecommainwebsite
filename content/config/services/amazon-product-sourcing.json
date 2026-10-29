@@ -214,7 +214,7 @@
       "id": "supplier-shortlist-board",
       "type": "catalogHealthBoard",
       "heading": "Supplier shortlist matrix",
-      "subheading": "Same brief scored across capability, verification, and Amazon-ready packaging—not unit price alone. Competitors often stop at Alibaba quotes; we keep the decision evidence in one sheet.",
+      "subheading": "Same brief scored across capability, verification, and Amazon-ready packaging, not unit price alone. Competitors often stop at Alibaba quotes; we keep the decision evidence in one sheet.",
       "urlLabel": "sourcing.ecomgliders.com/shortlist",
       "boardLabel": "Shortlist · scored lanes",
       "disclaimer": "Illustrative shortlist structure. Not a quote, MOQ, or factory guarantee. We do not manufacture products.",
@@ -228,8 +228,8 @@
       "rows": [
         {
           "cells": [
-            "A — category factory",
-            "Fits launch / 8–10 wk",
+            "A: category factory",
+            "Fits launch / 8-10 wk",
             "Finish matches brief",
             "Licence + export trail OK",
             "Advance PO planning"
@@ -237,8 +237,8 @@
         },
         {
           "cells": [
-            "B — low unit quote",
-            "High MOQ / 10–12 wk",
+            "B: low unit quote",
+            "High MOQ / 10-12 wk",
             "Packaging redo needed",
             "Trading-co risk flagged",
             "Hold for sample #2"
@@ -246,8 +246,8 @@
         },
         {
           "cells": [
-            "C — fast sample",
-            "Low MOQ / 6–8 wk",
+            "C: fast sample",
+            "Low MOQ / 6-8 wk",
             "Comm delays on revisions",
             "Bank beneficiary check open",
             "Backup lane only"
@@ -256,7 +256,7 @@
         {
           "cells": [
             "Packaging / FBA marks",
-            "—",
+            "n/a",
             "Insert, barcode, carton",
             "Channel label rules listed",
             "Attach to approved sample"
@@ -265,7 +265,7 @@
         {
           "cells": [
             "Compliance path",
-            "—",
+            "n/a",
             "Category tests flagged",
             "Lab via qualified provider",
             "No marketplace guarantee"
@@ -274,7 +274,7 @@
         {
           "cells": [
             "Payment terms",
-            "—",
+            "n/a",
             "Deposit vs balance gate",
             "Beneficiary matches contract",
             "Written before deposit"
@@ -287,7 +287,7 @@
       "id": "landed-cost-waterfall",
       "type": "metricChart",
       "heading": "Landed-cost model (index, not a quote)",
-      "subheading": "Compare suppliers on identical assumptions: factory price is not your cost. Index weights only—real dollars set in your brief.",
+      "subheading": "Compare suppliers on identical assumptions: factory price is not your cost. Index weights only. Real dollars set in your brief.",
       "chartLabel": "Relative weight in a typical evaluation model",
       "points": [
         {
@@ -330,7 +330,7 @@
       "id": "sample-scorecard",
       "type": "catalogHealthBoard",
       "heading": "Sample scorecard before production",
-      "subheading": "Physical samples scored side by side against the written brief—the step photos and first quotes skip.",
+      "subheading": "Physical samples scored side by side against the written brief, the step photos and first quotes skip.",
       "urlLabel": "sourcing.ecomgliders.com/samples",
       "boardLabel": "Sample scorecard",
       "disclaimer": "Example evaluation sheet. Formal testing and certification go through qualified providers when required. We do not manufacture products.",
@@ -392,7 +392,7 @@
             "Approved reference",
             "Keep golden sample",
             "Retain A",
-            "—",
+            "n/a",
             "Inspection baseline"
           ]
         }
@@ -406,7 +406,7 @@
       {
         "metric": "7-figure brand in 9 months",
         "brand": "FocusForm (Office products)",
-        "description": "Multi-ASIN expansion to a 7-figure brand—the outcome sourcing supports when launches are planned correctly. Not a sourcing cost-cut claim.",
+        "description": "Multi-ASIN expansion to a 7-figure brand, the outcome sourcing supports when launches are planned correctly. Not a sourcing cost-cut claim.",
         "href": "/case-study-8/"
       },
       {
@@ -481,8 +481,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Product Sourcing Services | eCom Gliders",
-    "metaDescription": "Amazon product sourcing support with supplier shortlists, sample evaluation, and launch readiness for new ASINs. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-product-sourcing/",
+    "metaDescription": "Amazon product sourcing services with supplier shortlists, sample evaluation, and launch readiness for new ASINs. Free audit.",
+    "canonical": "/amazon-product-sourcing/",
+    "ogImage": "/images/services/amazon-product-sourcing-service.jpg",
     "robots": {
       "index": true,
       "follow": true
