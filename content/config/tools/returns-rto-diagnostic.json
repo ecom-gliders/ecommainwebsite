@@ -2,7 +2,7 @@
   "slug": "returns-rto-diagnostic",
   "badge": "Report",
   "hero": {
-    "title": "Returns and RTO diagnostic",
+    "title": "Amazon returns and RTO diagnostic",
     "subtitle": "Audit Amazon Returns Report XML for return reasons, RTO patterns, and cost drivers."
   },
   "intro": "Upload the Returns Report XML from Seller Central. Summaries of reasons and quantities are computed locally.",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Returns and RTO Diagnostic | Free Tool | eCom Gliders",
-    "metaDescription": "Analyze Amazon Returns Report XML for return reasons, RTO patterns, and SKU-level drivers.",
+    "metaTitle": "Amazon Returns and RTO Diagnostic | Free Tool | eCom Gliders",
+    "metaDescription": "Amazon returns and RTO diagnostic. Analyze Returns Report XML for return reasons, RTO patterns, and SKU-level drivers. Browser-side. Free.",
     "canonical": "/free-amazon-tools/returns-rto-diagnostic/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

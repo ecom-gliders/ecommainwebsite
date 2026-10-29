@@ -955,11 +955,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Browser-side CSV analysis |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
 
+### Free tool: Returns and RTO diagnostic
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/returns-rto-diagnostic/ |
+| Purpose | Analyze Seller Central Returns Report XML for reasons, RTO, and SKU drivers |
+| Audience | Sellers investigating return and RTO cost patterns |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon returns and RTO diagnostic |
+| Secondary keywords | Amazon returns report analyzer, Amazon RTO diagnostic, return reason analysis |
+| Entity | eCom Gliders; Returns Report; RTO; Seller Central XML |
+| Title | Amazon Returns and RTO Diagnostic \| Free Tool \| eCom Gliders |
+| Meta description | Amazon returns and RTO diagnostic. Analyze Returns Report XML for return reasons, RTO patterns, and SKU-level drivers. Browser-side. Free. |
+| H1 | Amazon returns and RTO diagnostic |
+| Canonical | `/free-amazon-tools/returns-rto-diagnostic/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/returns-rto-diagnostic.json` |
+| Notes | Browser-local XML summary |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/returns-rto-diagnostic/`
 - `/free-amazon-tools/monthly-seller-closeout/`
 - `/free-amazon-tools/tcs-tds-reconciliation/`
 - `/free-amazon-tools/ppc-performance-dashboard/`

@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Returns and RTO diagnostic SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Returns hero H1 | Returns and RTO diagnostic | Amazon returns and RTO diagnostic | Primary KW lead | yes |
+| Returns metaTitle | Returns and RTO Diagnostic \| … | Amazon Returns and RTO Diagnostic \| … | Amazon intent | yes |
+| Returns metaDescription | 90 chars | Expanded with Browser-side Free | Meta length | yes |
+| Returns ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — SKU profitability leaderboard SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
