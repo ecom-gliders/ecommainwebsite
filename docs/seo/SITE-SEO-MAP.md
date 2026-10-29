@@ -624,18 +624,24 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Field | Value |
 |-------|-------|
 | URL | https://ecomgliders.com/free-audit/ |
+| Purpose | Convert transactional free-audit demand into booked calls and qualified leads |
+| Audience | Sellers seeking ads/listings/catalog priorities before agency engagement |
 | Primary keyword | Free Amazon account audit |
-| Secondary keywords | Amazon PPC audit, Amazon account review |
+| Secondary keywords | Amazon PPC audit, Amazon account review, free Amazon audit |
 | Search intent | Transactional |
+| Entity | eCom Gliders; Amazon account audit; ads; listings; catalog |
 | Title | Free Amazon Account Audit \| eCom Gliders |
-| Meta description | Get a free audit of your Amazon account. PPC performance review, listing optimization opportunities, and actionable recommendations. No obligation. |
-| H1 | Free Amazon audit |
-| Canonical | https://ecomgliders.com/free-audit/ |
+| Meta description | Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. Book a call. No obligation. |
+| H1 | Free Amazon account audit |
+| Canonical | `/free-audit/` |
 | Indexability | Index |
-| Schema | WebPage, FAQPage |
-| Sections | Lime hero + score tiles; ink/canvas scope mosaic; ink findings tickets; lime turnaround ribbon; open split form; proof strip + FAQ |
-| Audit status | Redesigned (2026-10-23); URL cleaned from /free-audit/ (301) |
-| Redirect | /free-audit/ ? /free-audit/ (301) |
+| OG image | `/images/promo/free-audit-banner.png` |
+| Schema | WebPage + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | Funnel/booking CTA; related services via site nav |
+| AEO | FAQ covers deliverables, timing, who calls, obligation |
+| GEO | In-house Amazon team; no invented audit score guarantees |
+| Config | `content/config/free-audit-page.json` |
+| Audit status | Re-optimized 2026-10-30 — H1 primary KW; ogImage; meta CTA; strip em dashes |
 
 ---
 

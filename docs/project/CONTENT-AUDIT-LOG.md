@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Free audit page SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Free audit hero H1 | Free Amazon audit | Free Amazon account audit | Primary KW in H1 | yes |
+| Free audit metaDescription | …No obligation. | …Book a call. No obligation. | Clearer CTA; length | yes |
+| Free audit ogImage | (missing) | free-audit-banner.png | OG was null | yes |
+| Free audit body | Multiple em/en dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon account health SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

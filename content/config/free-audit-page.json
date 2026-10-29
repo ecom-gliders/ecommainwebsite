@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Free Amazon audit",
-    "subtitle": "We check ads, listings, and catalog health — then tell you what to fix first.",
+    "title": "Free Amazon account audit",
+    "subtitle": "We check ads, listings, and catalog health, then tell you what to fix first.",
     "ctaLabel": "Book a free call",
     "scorecardCaption": "Sample scores. Yours will look different."
   },
@@ -97,7 +97,7 @@
       {
         "severity": "medium",
         "title": "Size pack variation attributes incomplete",
-        "impact": "Child ASINs missing size data — browse clarity suffers."
+        "impact": "Child ASINs missing size data. Browse clarity suffers."
       },
       {
         "severity": "low",
@@ -125,7 +125,7 @@
   },
   "booking": {
     "heading": "Book your free audit call",
-    "subheading": "Choose a time that works. You book directly on this page — no multi-step intake required.",
+    "subheading": "Choose a time that works. You book directly on this page. No multi-step intake required.",
     "calendlyUrl": "https://calendly.com/ecomgliders-llc/30min",
     "embedTitle": "Free audit scheduling calendar"
   },
@@ -148,7 +148,7 @@
   },
   "caseProof": {
     "metric": "310%",
-    "metricLabel": "sales lift — GoSports",
+    "metricLabel": "sales lift, GoSports",
     "summary": "Listings, ads, and positioning over 90 days.",
     "href": "/case-study-9/",
     "label": "See the case"
@@ -165,7 +165,7 @@
     "items": [
       {
         "question": "What do I get?",
-        "answer": "Notes on ads, listings, catalog, and competition — ranked by what to fix first."
+        "answer": "Notes on ads, listings, catalog, and competition, ranked by what to fix first."
       },
       {
         "question": "How long?",
@@ -181,20 +181,21 @@
       },
       {
         "question": "Who will I meet?",
-        "answer": "Someone on our in-house Amazon team — not an outsourced call center."
+        "answer": "Someone on our in-house Amazon team, not an outsourced call center."
       }
     ]
   },
   "seo": {
     "metaTitle": "Free Amazon Account Audit | eCom Gliders",
-    "metaDescription": "Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. No obligation.",
+    "metaDescription": "Free Amazon account audit from eCom Gliders. Ads, listings, and catalog notes with clear priorities. Book a call. No obligation.",
     "canonical": "/free-audit/",
+    "ogImage": "/images/promo/free-audit-banner.png",
     "schema": "FAQPage"
   },
   "form": {
     "heading": "Send the account",
     "submitLabel": "Request free audit",
-    "successMessage": "Thanks — your Free Audit details are in. A specialist will follow up within one business day.",
+    "successMessage": "Thanks. Your Free Audit details are in. A specialist will follow up within one business day.",
     "errorMessage": "Please complete the required Free Audit fields and try again.",
     "consentLabel": "I agree to the privacy policy and being contacted about this audit.",
     "fields": [
@@ -245,7 +246,7 @@
           },
           {
             "value": "new",
-            "label": "New — no sales yet"
+            "label": "New, no sales yet"
           },
           {
             "value": "under-10k",
@@ -274,14 +275,14 @@
         "label": "Anything else",
         "type": "textarea",
         "required": false,
-        "placeholder": "Goals, headaches, ASIN count — optional."
+        "placeholder": "Goals, headaches, ASIN count (optional)."
       }
     ]
   },
   "funnel": {
     "booking": {
       "heading": "Book your strategy discussion",
-      "subheading": "Your Free Audit details are in. Pick a time below — you stay in this window.",
+      "subheading": "Your Free Audit details are in. Pick a time below. You stay in this window.",
       "calendlyUrl": "https://calendly.com/ecomgliders-llc/amazon-strategy-discussion",
       "embedTitle": "Amazon strategy discussion calendar",
       "eyebrow": "Strategy discussion"

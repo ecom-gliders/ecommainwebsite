@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Account health SEO done (services queue complete)
+## Latest (2026-10-30) — Free audit SEO done
 
-Completed through `/amazon-account-health/`. All mapped service detail pages in the SEO re-opt queue are done through this pass.
+Completed `/free-audit/` after the full service-detail re-opt queue.
 
-**Implemented:** SITE-SEO-MAP row; title/meta “services”; ogImage; relative canonical; strip em dashes.
+**Implemented:** H1 “Free Amazon account audit”; ogImage; meta CTA; strip em dashes.
 
-**Next convert candidates:** `/free-audit/`, Free Amazon Tools hub/pages, case studies, or Phase 1 `TECHNICAL-SEO-AUDIT.md`.
+**Next:** Free Amazon Tools directory / individual tools, or case studies hub.

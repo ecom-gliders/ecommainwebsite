@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Free audit page SEO pass
+
+**Task:** Master-prompt pass `/free-audit/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 primary KW; ogImage; meta CTA; strip em dashes; SITE-SEO-MAP refresh  
+**VERIFIED (Playwright preview before commit):** H1 missing “account”; og:image null; WebPage+FAQPage OK; canonical relative→preview host Observed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check on production host after DNS cutover  
+**NEXT ACTION:** Free Amazon Tools hub (`/free-amazon-tools/` or documented tools path) or case studies
+
+---
+
 ## 2026-10-30 — Amazon account health SEO pass
 
 **Task:** Master-prompt pass `/amazon-account-health/`  
