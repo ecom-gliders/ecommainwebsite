@@ -220,19 +220,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon product sourcing services, Amazon private label sourcing, Amazon supplier research, Amazon FBA sourcing |
 | Entity | eCom Gliders; Amazon ASINs; private label; supplier shortlist; FBA launch readiness |
 | Title | Amazon Product Sourcing Services \| eCom Gliders |
-| Meta description | Amazon product sourcing support with supplier research, sample evaluation, and launch readiness for new ASINs. Free audit. |
+| Meta description | Amazon product sourcing services with supplier shortlists, sample evaluation, and launch readiness for new ASINs. Free audit. |
 | H1 | Amazon product sourcing for new ASINs |
-| Canonical | https://ecomgliders.com/amazon-product-sourcing/ |
+| Canonical | `/amazon-product-sourcing/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-catalog-management/, /amazon-listing-optimization/, /full-service-amazon-agency/, /case-study-8/, /case-study-9/ |
-| AEO | FAQ covers manufacturing boundary, categories, supplier evaluation, compliance, launch handoff, first-timers, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No sourcing cost-cut invent. Results use catalog-expansion cases (case-study-8 7-figure; case-study-9 310%) with launch-support framing � Verified |
-| Competitors reviewed | AMZ Verse manufacturing/sourcing (2026-10-04); NexoFetch Amazon FBA sourcing agent (2026-10-04); EG services #service_7 Product Sourcing & Shipping (Verified backup) |
+| OG image | `/images/services/amazon-product-sourcing-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, catalog management, listing optimization, full-service, case studies |
+| AEO | FAQ covers manufacturing boundary, categories, supplier evaluation, compliance, launch handoff |
+| GEO | No sourcing cost-cut invent; we do not manufacture |
 | Config | `content/config/services/amazon-product-sourcing.json` |
-| Audit status | Implemented + Verified (C4, 2026-10-04) |
-| Notes | Dedicated WP slug HTML not found; services/#service_7 used as backup. No 35% cost-reduction or 100% FBA compliant claims copied. |
+| Audit status | Re-optimized 2026-10-30 — H1 already KW-aligned; meta “services”; ogImage; relative canonical; strip em dashes |
 
 ---
 
