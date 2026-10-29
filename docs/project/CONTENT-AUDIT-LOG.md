@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — GST calculator SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| GST hero H1 | GST calculator | GST calculator for Amazon sellers | Audience + entity KW | yes |
+| GST metaTitle | GST Calculator \| Free Tool \| … | GST Calculator for Amazon Sellers \| Free Tool \| … | Amazon seller intent | yes |
+| GST metaDescription | 87 chars | Expanded with India supply + Free browser tool | Meta length | yes |
+| GST ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Amazon P&L calculator SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

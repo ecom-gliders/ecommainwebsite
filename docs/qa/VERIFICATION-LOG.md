@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — GST calculator SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/gst-calculator/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; Amazon-seller KW in H1/title; longer meta; ogImage  
+**VERIFIED (Playwright preview before commit):** H1 thin; title thin; meta 87 chars; og:image null; WebApplication+WebPage+BreadcrumbList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; remaining tools  
+**NEXT ACTION:** `/free-amazon-tools/invoice-generator/` or case studies hub
+
+---
+
 ## 2026-10-30 — Amazon P&L calculator SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/amazon-pnl-calculator/`  

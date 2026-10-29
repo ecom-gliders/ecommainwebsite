@@ -824,11 +824,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Config | `content/config/tools/amazon-pnl-calculator.json` |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; meta polish; ogImage |
 
+### Free tool: GST calculator
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/gst-calculator/ |
+| Purpose | Interactive GST add/remove calculator for India supply scenarios |
+| Audience | Amazon sellers needing CGST/SGST or IGST splits for invoices |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | GST calculator for Amazon sellers |
+| Secondary keywords | GST calculator, CGST SGST calculator, IGST calculator, Amazon GST |
+| Entity | eCom Gliders; GST; CGST; SGST; IGST; India supply |
+| Title | GST Calculator for Amazon Sellers \| Free Tool \| eCom Gliders |
+| Meta description | GST calculator for Amazon sellers. Add or remove GST with CGST/SGST or IGST split for India supply. Free browser tool. No account required. |
+| H1 | GST calculator for Amazon sellers |
+| Canonical | `/free-amazon-tools/gst-calculator/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/gst-calculator.json` |
+| Notes | Not tax advice; calculation is browser-side |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon-seller KW in title/H1; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/gst-calculator/`
 - `/free-amazon-tools/invoice-generator/`
 - `/free-amazon-tools/product-catalog/`
 - `/free-amazon-tools/label-invoice-splitter/`
