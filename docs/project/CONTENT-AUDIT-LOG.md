@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon product launch services SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Launch metaDescription | …Request a free audit. | …Free audit. | Consistency with other service metas | yes |
+| Launch canonical | Absolute URL | `/amazon-product-launch-services/` | absoluteUrl consistency | yes |
+| Launch ogImage | (missing) | lnc-close-pack.jpg | OG was null; no dedicated -service.jpg | yes |
+| Launch body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Email retention marketing SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon product launch services SEO pass
+
+**Task:** Master-prompt pass `/amazon-product-launch-services/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row created; ogImage; relative canonical; meta CTA trim; strip em dashes (H1 already KW-aligned)  
+**VERIFIED (Playwright preview before commit):** H1 OK; og:image null; Service+FAQPage OK; em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; optional dedicated -service.jpg later  
+**NEXT ACTION:** `/amazon-inventory-management/` or Seller Central / free-audit
+
+---
+
 ## 2026-10-30 — Email retention marketing SEO pass
 
 **Task:** Master-prompt pass `/email-retention-marketing/`  

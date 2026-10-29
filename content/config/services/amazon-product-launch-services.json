@@ -4,7 +4,7 @@
   "layout": "launchCountdownBoard",
   "hero": {
     "title": "Amazon product launch services under one plan",
-    "subtitle": "Listing readiness, launch advertising, and early performance tracking coordinated from day one—so spend, stock, and conversion stay aligned.",
+    "subtitle": "Listing readiness, launch advertising, and early performance tracking coordinated from day one, so spend, stock, and conversion stay aligned.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -198,7 +198,7 @@
       },
       {
         "title": "In-house specialists",
-        "description": "Listing, ads, and ops stay with accountable operators—not a freelance scramble."
+        "description": "Listing, ads, and ops stay with accountable operators, not a freelance scramble."
       },
       {
         "title": "Verified case language only",
@@ -209,7 +209,7 @@
   "opsLanes": {
     "heading": "Launch issues we close before spend scales",
     "subheading": "Go-live is not three separate vendors. Listing, ads, and stock share one calendar.",
-    "note": "Scope is set during the free audit. Early results depend on listing quality, inventory, and category competition—not a fixed 30-day sales guarantee.",
+    "note": "Scope is set during the free audit. Early results depend on listing quality, inventory, and category competition, not a fixed 30-day sales guarantee.",
     "lanes": [
       {
         "title": "Spend before conversion readiness",
@@ -227,7 +227,7 @@
         "title": "No early decision gates",
         "issue": "Teams watch order count without ranking, conversion, or ACoS thresholds.",
         "fix": "Set week-one metrics that decide scale, pause, or listing fixes.",
-        "verify": "Weekly reviews cite gates—not vanity order totals alone."
+        "verify": "Weekly reviews cite gates, not vanity order totals alone."
       }
     ]
   },
@@ -359,7 +359,7 @@
     },
     {
       "question": "How long does a typical launch engagement run?",
-      "answer": "Most launches run a readiness phase plus early stabilization weeks. Exact length depends on catalog readiness and stock lead times—confirmed during the audit."
+      "answer": "Most launches run a readiness phase plus early stabilization weeks. Exact length depends on catalog readiness and stock lead times, confirmed during the audit."
     },
     {
       "question": "How do I get started?",
@@ -396,8 +396,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Product Launch Services | eCom Gliders",
-    "metaDescription": "Amazon product launch services with listing readiness, launch advertising, and inventory coordination under one plan. Request a free audit.",
-    "canonical": "https://ecomgliders.com/amazon-product-launch-services/",
+    "metaDescription": "Amazon product launch services with listing readiness, launch advertising, and inventory coordination under one plan. Free audit.",
+    "canonical": "/amazon-product-launch-services/",
+    "ogImage": "/images/services/amazon-product-launch-services/lnc-close-pack.jpg",
     "robots": {
       "index": true,
       "follow": true

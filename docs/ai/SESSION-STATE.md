@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Email retention SEO done
+## Latest (2026-10-30) — Product launch SEO done
 
-Completed through `/email-retention-marketing/`.
+Completed through `/amazon-product-launch-services/`.
 
-**Implemented:** H1 with primary KW; meta lead; ogImage; relative canonical; strip em dashes.
+**Implemented:** SITE-SEO-MAP row; ogImage; relative canonical; strip em dashes; H1 already KW-aligned.
 
-**Next:** `/amazon-product-launch-services/` (or inventory / Seller Central / free-audit).
+**Next:** `/amazon-inventory-management/` (or Seller Central / account ops / free-audit).

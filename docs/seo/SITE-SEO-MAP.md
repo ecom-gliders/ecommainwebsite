@@ -124,6 +124,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Amazon Product Launch Services
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-product-launch-services/ |
+| Purpose | Convert commercial new-ASIN / relaunch search into free-audit leads |
+| Audience | New ASIN launches; relaunches after weak starts; seasonal windows; full-service accounts adding SKUs |
+| Search intent | Commercial |
+| Primary keyword | Amazon product launch services |
+| Secondary keywords | Amazon product launch, Amazon ASIN launch, Amazon launch advertising, Amazon launch inventory |
+| Entity | eCom Gliders; Amazon ASINs; launch advertising; listing readiness; FBA inventory |
+| Title | Amazon Product Launch Services \| eCom Gliders |
+| Meta description | Amazon product launch services with listing readiness, launch advertising, and inventory coordination under one plan. Free audit. |
+| H1 | Amazon product launch services under one plan |
+| Canonical | `/amazon-product-launch-services/` |
+| Indexability | Index |
+| OG image | `/images/services/amazon-product-launch-services/lnc-close-pack.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, full-service, PPC, inventory management |
+| AEO | FAQ covers scope, timeline, ads readiness, inventory role, marketplaces |
+| GEO | No fixed 30-day sales guarantee; verified case language only |
+| Config | `content/config/services/amazon-product-launch-services.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; ogImage; relative canonical; strip em dashes |
+
+---
+
 ### Email Retention Marketing
 
 | Field | Value |
