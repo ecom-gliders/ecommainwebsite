@@ -304,19 +304,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon product video, Amazon listing video, Sponsored Brands video creative, Amazon advertising video |
 | Entity | eCom Gliders; Amazon listings; Sponsored Brands video; Amazon DSP |
 | Title | Amazon Video Creative Services \| eCom Gliders |
-| Meta description | Amazon video creative for listings and advertising. Product demos and brand cuts built for Amazon shoppers. Free audit. |
+| Meta description | Amazon video creative services for listings and advertising. Product demos and brand cuts built for Amazon shoppers. Free audit. |
 | H1 | Amazon video creative for listings and ads |
-| Canonical | https://ecomgliders.com/amazon-video-creative/ |
+| Canonical | `/amazon-video-creative/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-visual-creativity/, /tiktok-shop-ads/, /amazon-ppc-management-agency/, /case-study-4/, /case-study-9/ |
-| AEO | FAQ covers placements, scripting, footage reuse, length, copy alignment, DSP, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No video-attributed case metrics in config. Results use creative conversion cases (case-study-4 2X; case-study-9 CVR) with reinforcement framing � Verified |
-| Competitors reviewed | Canopy photography/video (2026-10-04); Seller Interactive storefront/video coordination (2026-10-04); Amazon Ads SB video guidance (Observed) |
+| OG image | `/images/services/amazon-video-creative-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, visual creativity, TikTok Shop ads, PPC, case studies |
+| AEO | FAQ covers placements, scripting, footage reuse, length, copy alignment, DSP |
+| GEO | since 2018 / in-house claims on page |
 | Config | `content/config/services/amazon-video-creative.json` |
-| Audit status | Implemented + Verified (C1, 2026-10-04) |
-| Notes | Dedicated WP service HTML for slug not found in backup. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta “services”; ogImage; relative canonical |
 
 ---
 

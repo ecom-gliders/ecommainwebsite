@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Visual creativity SEO done
+## Latest (2026-10-30) — Video creative SEO done
 
-Completed through `/amazon-visual-creativity/`.
+Completed through `/amazon-video-creative/`.
 
-**Implemented:** Title “Amazon A+ Content Design”; H1 with visual + A+ KW; ogImage; relative canonical.
+**Implemented:** H1 “for listings and ads”; meta “services”; ogImage; relative canonical.
 
-**Next:** `/amazon-video-creative/` (or DSP / reporting / free-audit).
+**Next:** `/amazon-reporting-analytics/` (or DSP / Brand Registry / free-audit).

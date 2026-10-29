@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon video creative SEO pass
+
+**Task:** Master-prompt pass `/amazon-video-creative/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 KW align; meta “services”; ogImage; relative canonical; subtitle punctuation  
+**VERIFIED (Playwright preview before commit):** H1 KW-weak; og:image null; Service+FAQPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-reporting-analytics/` or DSP / Brand Registry
+
+---
+
 ## 2026-10-30 — Amazon visual creativity SEO pass
 
 **Task:** Master-prompt pass `/amazon-visual-creativity/`  

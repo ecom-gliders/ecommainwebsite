@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Video Creative",
   "layout": "videoStoryboard",
   "hero": {
-    "title": "Amazon video with proof in the first seconds",
-    "subtitle": "Listing and ad cuts storyboarded for muted autoplay and placement specs—not recycled social films. No invented video CTR or CVR averages.",
+    "title": "Amazon video creative for listings and ads",
+    "subtitle": "Listing and ad cuts storyboarded for muted autoplay and placement specs, not recycled social films. No invented video CTR or CVR averages.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -435,8 +435,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Video Creative Services | eCom Gliders",
-    "metaDescription": "Amazon video creative for listings and advertising. Product demos and brand cuts built for Amazon shoppers. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-video-creative/",
+    "metaDescription": "Amazon video creative services for listings and advertising. Product demos and brand cuts built for Amazon shoppers. Free audit.",
+    "canonical": "/amazon-video-creative/",
+    "ogImage": "/images/services/amazon-video-creative-service.jpg",
     "robots": {
       "index": true,
       "follow": true

@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon video creative SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Video hero H1 | Amazon video with proof in the first seconds | Amazon video creative for listings and ads | Primary KW in H1 | yes |
+| Video metaDescription | Amazon video creative for listings… | Amazon video creative services for listings… | Services intent | yes |
+| Video canonical | Absolute URL | `/amazon-video-creative/` | absoluteUrl consistency | yes |
+| Video ogImage | (missing) | amazon-video-creative-service.jpg | OG was null | yes |
+| Video subtitle | specs—not recycled | specs, not recycled | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon visual creativity SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
