@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Reporting and Analytics",
   "layout": "reportingLedger",
   "hero": {
-    "title": "Amazon reporting for decisions—not export dumps",
-    "subtitle": "Weekly and monthly metrics so owners see sales, ad efficiency, and catalog priorities—specialist reviews, not a BI product.",
+    "title": "Amazon reporting and analytics for clear decisions",
+    "subtitle": "Weekly and monthly metrics so owners see sales, ad efficiency, and catalog priorities. Specialist reviews, not a BI product.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -417,8 +417,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Reporting and Analytics | eCom Gliders",
-    "metaDescription": "Amazon reporting and analytics with clear weekly and monthly metrics for sales, advertising efficiency, and catalog priorities. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-reporting-analytics/",
+    "metaDescription": "Amazon reporting and analytics services with clear weekly and monthly metrics for sales, advertising efficiency, and catalog priorities. Free audit.",
+    "canonical": "/amazon-reporting-analytics/",
+    "ogImage": "/images/services/amazon-reporting-analytics-service.jpg",
     "robots": {
       "index": true,
       "follow": true

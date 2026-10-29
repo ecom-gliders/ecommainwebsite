@@ -330,19 +330,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon reporting and analytics, Amazon advertising reporting, Amazon KPI reporting, Amazon profit analytics |
 | Entity | eCom Gliders; Seller Central; Amazon Ads; ACoS; TACoS |
 | Title | Amazon Reporting and Analytics \| eCom Gliders |
-| Meta description | Amazon reporting and analytics with clear weekly and monthly metrics for sales, advertising efficiency, and catalog priorities. Free audit. |
+| Meta description | Amazon reporting and analytics services with clear weekly and monthly metrics for sales, advertising efficiency, and catalog priorities. Free audit. |
 | H1 | Amazon reporting and analytics for clear decisions |
-| Canonical | https://ecomgliders.com/amazon-reporting-analytics/ |
+| Canonical | `/amazon-reporting-analytics/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-ppc-management-agency/, /full-service-amazon-agency/, /amazon-listing-optimization/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers data sources, cadence, scope beyond ads, internal teams, dashboards, service connection, marketplaces, getting started |
-| GEO | Aligns with homepage: specialists + reporting tied to sales/ACOS/catalog; measure success KPIs |
-| Claims source | Homepage FAQ measure-success + process reporting claims; case-study-9 ACOS; case-study-1 73% � Verified. No proprietary BI product claimed. |
-| Competitors reviewed | Incrementum DataOwl (2026-10-04); SalesDuo BI dashboard (2026-10-04); EG profit-analytics blog backup |
+| OG image | `/images/services/amazon-reporting-analytics-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, PPC, full-service, listing optimization, case studies |
+| AEO | FAQ covers data sources, cadence, scope beyond ads, internal teams, dashboards |
+| GEO | Specialist reporting tied to sales/ACOS/catalog; no proprietary BI product claimed |
 | Config | `content/config/services/amazon-reporting-analytics.json` |
-| Audit status | Implemented + Verified (B2, 2026-10-04) |
-| Notes | Dedicated WP service HTML for slug not found. Differentiated vs software-dashboard agencies per homepage positioning. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta “services”; ogImage; relative canonical; strip em dash |
 
 ---
 

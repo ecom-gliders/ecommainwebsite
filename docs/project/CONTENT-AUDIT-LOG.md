@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon reporting analytics SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Reporting hero H1 | Amazon reporting for decisions—not export dumps | Amazon reporting and analytics for clear decisions | Primary KW in H1; strip em dash | yes |
+| Reporting metaDescription | Amazon reporting and analytics with… | Amazon reporting and analytics services with… | Services intent | yes |
+| Reporting canonical | Absolute URL | `/amazon-reporting-analytics/` | absoluteUrl consistency | yes |
+| Reporting ogImage | (missing) | amazon-reporting-analytics-service.jpg | OG was null | yes |
+| Reporting subtitle | priorities—specialist | priorities. Specialist | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon video creative SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

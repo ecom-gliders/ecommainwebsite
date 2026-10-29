@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon reporting analytics SEO pass
+
+**Task:** Master-prompt pass `/amazon-reporting-analytics/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 KW align; meta “services”; ogImage; relative canonical; strip em dashes  
+**VERIFIED (Playwright preview before commit):** H1 KW-weak with em dash; og:image null; Service+FAQPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-dsp-management/` or Brand Registry / free-audit
+
+---
+
 ## 2026-10-30 — Amazon video creative SEO pass
 
 **Task:** Master-prompt pass `/amazon-video-creative/`  

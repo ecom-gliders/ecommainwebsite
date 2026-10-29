@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Video creative SEO done
+## Latest (2026-10-30) — Reporting analytics SEO done
 
-Completed through `/amazon-video-creative/`.
+Completed through `/amazon-reporting-analytics/`.
 
-**Implemented:** H1 “for listings and ads”; meta “services”; ogImage; relative canonical.
+**Implemented:** H1 with reporting + analytics KW; meta “services”; ogImage; relative canonical; strip em dashes.
 
-**Next:** `/amazon-reporting-analytics/` (or DSP / Brand Registry / free-audit).
+**Next:** `/amazon-dsp-management/` (or Brand Registry / free-audit).
