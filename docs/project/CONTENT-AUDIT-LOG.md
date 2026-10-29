@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Services hub SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| `/services/` hero H1 | Amazon services that keep ads, listings, and operations on one plan | Amazon growth services for ads, listings, and operations | Primary keyword in H1 | yes |
+| `/services/` metaDescription | Full-service Amazon account management with… | Amazon growth services: full-service account management with… | Lead with primary keyword | yes |
+| `/services/` seo.canonical | Absolute https://ecomgliders.com/services/ | `/services/` | Consistent with absoluteUrl helper | yes |
+| `/services/` seo.ogImage | (missing) | `/images/services/services-hub-hero-browser.jpg` | OG/Twitter was null | yes |
+
+---
+
 ## 2026-10-30 — Homepage SEO / AI-vibe pass
 
 | Location | Original | Replacement | Reason | Approved |

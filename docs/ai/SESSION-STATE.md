@@ -1,15 +1,13 @@
-## Latest (2026-10-30) — SEO Phase 0 done; Homepage implemented
+## Latest (2026-10-30) — `/services/` SEO pass done
 
-**Phase 0 (Verified):**
-- 13 SEO skills synced into `.cursor/skills/`
-- `docs/seo/PAGE-OPTIMIZATION-STANDARD.md` published
-- `AGENTS.md` skills pointer updated
+Homepage + services hub optimized and documented.
 
-**Homepage (Implemented in repo; preview deploy not yet confirmed for OG):**
-- Title → primary keyword “Amazon Account Management Agency”
-- Meta + `ogImage` set; comparison / Ask-AI copy de-hyped
-- SITE-SEO-MAP + CONTENT-AUDIT-LOG + VERIFICATION-LOG updated
+**Services hub Implemented:**
+- H1 includes primary keyword “Amazon growth services”
+- Meta leads with same keyword; `ogImage` set; canonical `/services/`
+- Schema CollectionPage + FAQPage Verified on Vercel preview (OG re-check after deploy)
 
-**Note:** Live ecomgliders.com still Observed as WordPress until DNS cutover. Audit against Vercel preview.
-
-**Next:** Push/deploy; re-verify OG on preview; then `/services/` master-prompt pass (or Phase 1 technical baseline).
+**Next page (pick one):**
+- `/full-service-amazon-agency/`
+- `/amazon-ppc-management-agency/`
+- or Phase 1 technical baseline

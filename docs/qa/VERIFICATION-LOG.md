@@ -4,6 +4,20 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Services hub `/services/` SEO pass
+
+**Task:** Master-prompt page pass for services index.  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 keyword align; meta lead with “Amazon growth services”; relative canonical; `ogImage`  
+**VERIFIED (Playwright https://ecom-gliders.vercel.app/services/ before this commit):**
+- Title OK; 1 H1; robots index,follow; canonical absolute to ecomgliders.com; schema CollectionPage+FAQPage
+- og:image null — fixed in config (Requires confirmation after deploy)
+**DOCUMENTED:** SITE-SEO-MAP services hub; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; next service detail or Phase 1  
+**NEXT ACTION:** Push; next URL e.g. `/full-service-amazon-agency/` or `/amazon-ppc-management-agency/`
+
+---
+
 ## 2026-10-30 — SEO Phase 0 + Homepage pass
 
 **Task:** Sync SEO skills; publish PAGE-OPTIMIZATION-STANDARD; optimize homepage meta/OG/copy.  

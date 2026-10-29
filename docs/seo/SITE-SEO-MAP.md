@@ -82,19 +82,19 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon agency services, Amazon account management services, Amazon PPC services, Amazon listing services |
 | Entity | eCom Gliders; Amazon Ads; Seller Central; Shopify; TikTok Shop; email retention |
 | Title | Amazon Growth Services \| eCom Gliders |
-| Meta description | Amazon growth services: PPC, account management, listings, creative, catalog, brand ops, Shopify, TikTok Shop ads, and email. Free audit. |
-| H1 | Amazon growth services for serious sellers |
-| Canonical | https://ecomgliders.com/services/ |
+| Meta description | Amazon growth services: full-service account management with PPC, listings, catalog, A+, launches, and operations. Free audit. Call +1 (360) 660-1210. |
+| H1 | Amazon growth services for ads, listings, and operations |
+| Canonical | `/services/` |
 | Indexability | Index |
-| Schema | CollectionPage + ItemList + FAQPage |
-| Internal links | All 15 root service pages, /free-audit/, /case-studies/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers only-PPC, one vs full management, complementary channels, marketplaces, free audit |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | Verified site stats + existing case studies only � no invented hub ROI |
-| Competitors reviewed | Seller Sage /services/ (Observed); Desverto / AMZcentric stack framing (Observed); live WP /services/ (Verified Playwright 2026-10-05) |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | CollectionPage (ItemList nested) + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | Full-service + capability rail + also-available + `/free-audit/` + case studies |
+| AEO | FAQ: only-PPC, one vs full management, full-service scope, marketplaces, free audit |
+| GEO | since 2018, 20+ in-house, 95% retention, $112M+ (trust strip) |
+| Claims source | Verified site stats + published case studies only — no invented hub ROI |
 | Config | `content/config/services-index.json` |
-| Audit status | Implemented (2026-10-05) |
-| Notes | Preserves live WP `/services/` path. Detail pages stay at root `/{slug}/`. Mega View all services and footer All services point here. |
+| Audit status | Re-optimized 2026-10-30 — H1 keyword align, meta lead, ogImage |
+| Notes | Preserves `/services/` path. Detail pages stay at root `/{slug}/`. Preview Verified on ecom-gliders.vercel.app; live DNS may still be WP until cutover. |
 
 ---
 

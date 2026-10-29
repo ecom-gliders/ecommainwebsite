@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Amazon services that keep ads, listings, and operations on one plan",
+    "title": "Amazon growth services for ads, listings, and operations",
     "subtitle": "Pick full-service account management, or start with a focused workstream. Free audit. Clear next steps.",
     "primaryCta": {
       "label": "Request a free audit",
@@ -282,8 +282,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Growth Services | eCom Gliders",
-    "metaDescription": "Full-service Amazon account management with PPC, listings, catalog, A+, launches, and operations. Free audit. Call +1 (360) 660-1210.",
-    "canonical": "https://ecomgliders.com/services/",
+    "metaDescription": "Amazon growth services: full-service account management with PPC, listings, catalog, A+, launches, and operations. Free audit. Call +1 (360) 660-1210.",
+    "canonical": "/services/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "robots": {
       "index": true,
       "follow": true
