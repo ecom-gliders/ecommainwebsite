@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon catalog management SEO pass
+
+**Task:** Master-prompt pass `/amazon-catalog-management/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 align; meta “services”; relative canonical; subtitle punctuation (OG already Verified on preview)  
+**VERIFIED (Playwright preview):** title OK; og:image + summary_large_image present; Service+FAQPage; H1 updated in config  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** none for this page beyond deploy confirm  
+**NEXT ACTION:** `/amazon-visual-creativity/`
+
+---
+
 ## 2026-10-30 — Amazon content writing SEO pass
 
 **Task:** Master-prompt pass `/amazon-content-writing/`  

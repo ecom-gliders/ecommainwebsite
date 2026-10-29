@@ -388,19 +388,18 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon catalog management, Amazon suppressed listings fix, Amazon variation management |
 | Entity | eCom Gliders; Seller Central; ASIN catalog; Brand Registry |
 | Title | Amazon Catalog Management Services \| eCom Gliders |
-| Meta description | Amazon catalog management for listing health, variation setup, suppressions, and attribute quality at scale. Free audit. |
+| Meta description | Amazon catalog management services for suppressions, variations, and attribute quality. Coordinated with PPC and listing work. Free audit. |
 | H1 | Amazon catalog management for healthy, scalable listings |
-| Canonical | https://ecomgliders.com/amazon-catalog-management/ |
+| Canonical | `/amazon-catalog-management/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-listing-optimization/, /full-service-amazon-agency/, /amazon-trademark-brand-registry/, /case-study-1/, /case-study-8/ |
-| AEO | FAQ covers scope, suppressions, variations, PPC link, catalog size, marketplaces, cadence, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-1 catalog optimization + 73%; case-study-8 catalog expansion to 7-figure � Verified |
-| Competitors reviewed | Olifant account audit/catalog (2026-10-04); Sequence Amazon account ops (2026-10-04); EG suppression/error blogs as backup |
+| OG image | `/images/services/catalog-management-v2.png` — Verified on preview 2026-10-30 |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, listing optimization, full-service, brand registry, case studies |
+| AEO | FAQ covers scope, suppressions, variations, PPC link, catalog size, marketplaces |
+| GEO | since 2018 / in-house claims on page |
 | Config | `content/config/services/amazon-catalog-management.json` |
-| Audit status | Implemented + Verified (A6, 2026-10-04) |
-| Notes | Dedicated WP service HTML for this slug not found; listing-errors + suppressed-listings blogs used as backup. No reinstatement guarantee. |
+| Audit status | Re-optimized 2026-10-30 — H1 align; meta “services”; relative canonical (OG already present) |
+| Notes | No reinstatement guarantee in copy. |
 
 ---
 

@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Catalog Management",
   "layout": "catalogBuyBoxGrid",
   "hero": {
-    "title": "Amazon catalog management that keeps ASINs live",
-    "subtitle": "Suppressions, variation structure, and attribute quality—prioritized by revenue impact and coordinated with advertising and listing work.",
+    "title": "Amazon catalog management for healthy, scalable listings",
+    "subtitle": "Suppressions, variation structure, and attribute quality, prioritized by revenue impact and coordinated with advertising and listing work.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -431,8 +431,8 @@
   },
   "seo": {
     "metaTitle": "Amazon Catalog Management Services | eCom Gliders",
-    "metaDescription": "Amazon catalog management for suppressions, variations, and attribute quality. Revenue-first remediation coordinated with PPC and listing work. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-catalog-management/",
+    "metaDescription": "Amazon catalog management services for suppressions, variations, and attribute quality. Coordinated with PPC and listing work. Free audit.",
+    "canonical": "/amazon-catalog-management/",
     "ogImage": "/images/services/catalog-management-v2.png",
     "robots": {
       "index": true,

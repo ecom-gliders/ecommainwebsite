@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon catalog management SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Catalog hero H1 | Amazon catalog management that keeps ASINs live | Amazon catalog management for healthy, scalable listings | Align SITE-SEO-MAP / clearer commercial H1 | yes |
+| Catalog metaDescription | Amazon catalog management for… Revenue-first… | Amazon catalog management services for… | Lead with primary KW “services” | yes |
+| Catalog canonical | Absolute URL | `/amazon-catalog-management/` | absoluteUrl consistency | yes |
+| Catalog subtitle | quality—prioritized | quality, prioritized | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon content writing SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
