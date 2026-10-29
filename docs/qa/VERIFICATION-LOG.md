@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Free Amazon Tools directory SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** Shorter title/meta; H1 KW align; ogImage; strip em dashes  
+**VERIFIED (Playwright preview before commit):** Title 70 chars; meta 202 chars; H1 “directory”; og:image null; CollectionPage+BreadcrumbList+ItemList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; individual tool page passes  
+**NEXT ACTION:** `/free-amazon-tools/amazon-fba-fee-profit-calculator/` or case studies hub
+
+---
+
 ## 2026-10-30 — Free audit page SEO pass
 
 **Task:** Master-prompt pass `/free-audit/`  

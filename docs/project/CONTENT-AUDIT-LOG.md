@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Free Amazon Tools directory SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Tools hub H1 | Free Amazon tools directory | Free Amazon tools for sellers | Primary KW + audience | yes |
+| Tools hub metaTitle | …\| Calculators & Utilities \| … | Free Amazon Tools for Sellers \| eCom Gliders | Under ~60 chars | yes |
+| Tools hub metaDescription | 202-char list | Shorter tools summary | Meta length | yes |
+| Tools hub ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+| Tools hub body | Em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Free audit page SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

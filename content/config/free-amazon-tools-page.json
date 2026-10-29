@@ -1,10 +1,10 @@
 {
   "hero": {
     "eyebrow": "Free Amazon Tools",
-    "title": "Free Amazon tools directory",
-    "subtitle": "Browser-based calculators and report utilities for Amazon sellers. Each tool has its own page — add bookmarks freely."
+    "title": "Free Amazon tools for sellers",
+    "subtitle": "Browser-based calculators and report utilities for Amazon sellers. Each tool has its own page. Add bookmarks freely."
   },
-  "intro": "Tools run in your browser where possible. File-based utilities expect standard Amazon Seller Central exports. Fee calculators use seller-entered estimates — they do not claim live Amazon fee tables. This directory grows one shipped tool at a time.",
+  "intro": "Tools run in your browser where possible. File-based utilities expect standard Amazon Seller Central exports. Fee calculators use seller-entered estimates. They do not claim live Amazon fee tables. This directory grows one shipped tool at a time.",
   "tools": [
     {
       "slug": "amazon-fba-fee-profit-calculator",
@@ -21,7 +21,7 @@
     {
       "slug": "amazon-pnl-calculator",
       "title": "Amazon P&L calculator",
-      "description": "See real profit after referral, fulfillment, ads, packaging, and COGS — manual entry or MUTR upload.",
+      "description": "See real profit after referral, fulfillment, ads, packaging, and COGS. Manual entry or MUTR upload.",
       "badge": "Calculator"
     },
     {
@@ -97,9 +97,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Free Amazon Tools for Sellers | Calculators & Utilities | eCom Gliders",
-    "metaDescription": "Free Amazon seller tools from eCom Gliders: FBA fee and profit calculator, PPC conversion cost, P&L, GST, invoice generator, label splitter, dispatch check, and more. Browser-based; no account required.",
+    "metaTitle": "Free Amazon Tools for Sellers | eCom Gliders",
+    "metaDescription": "Free Amazon tools from eCom Gliders: FBA fee and profit, PPC conversion cost, P&L, GST, and more. Browser-based. No account required.",
     "canonical": "/free-amazon-tools/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

@@ -745,20 +745,21 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 |-------|-------|
 | URL | https://ecomgliders.com/free-amazon-tools/ |
 | Purpose | Scalable directory of free Amazon tools; each tool has its own page under `/free-amazon-tools/{slug}/` |
+| Audience | Amazon sellers investigating unit economics, PPC cost, GST, invoices, and ops utilities |
 | Search intent | Informational / commercial investigation |
 | Primary keyword | free Amazon tools |
 | Secondary keywords | Amazon FBA calculator, Amazon seller tools, Amazon PPC calculator |
-| Title | Free Amazon Tools for Sellers \| Calculators & Utilities \| eCom Gliders |
-| Meta description | Free Amazon seller tools from eCom Gliders: FBA fee and profit calculator, PPC conversion cost, P&L, GST, invoice generator, label splitter, dispatch check, and more. Browser-based; no account required. |
-| H1 | Free Amazon tools directory |
-| Canonical | https://ecomgliders.com/free-amazon-tools/ |
+| Entity | eCom Gliders; free Amazon tools; FBA; PPC; browser calculators |
+| Title | Free Amazon Tools for Sellers \| eCom Gliders |
+| Meta description | Free Amazon tools from eCom Gliders: FBA fee and profit, PPC conversion cost, P&L, GST, and more. Browser-based. No account required. |
+| H1 | Free Amazon tools for sellers |
+| Canonical | `/free-amazon-tools/` |
 | Indexability | Index, follow |
-| Schema | CollectionPage, BreadcrumbList, ItemList |
-| Structure | Directory JSON lists cards by slug; tool pages live in `content/config/tools/{slug}.json` + `toolKind` |
-| XML sitemap | Included via `buildSitemapEntries` + `getAllFreeAmazonToolSlugs` |
-| HTML sitemap | Group “Free Amazon Tools” on `/site-map/` |
-| Footer | Resources → Free Amazon Tools |
-| Audit status | SEO hardened (2026-10-29) |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | CollectionPage + BreadcrumbList + ItemList — Verified Playwright preview 2026-10-30 |
+| Structure | Directory JSON lists cards by slug; tool pages in `content/config/tools/{slug}.json` |
+| Config | `content/config/free-amazon-tools-page.json` |
+| Audit status | Re-optimized 2026-10-30 — shorter title/meta; H1 KW align; ogImage; strip em dashes |
 
 ### Free tool: Amazon FBA fee and profit calculator
 
