@@ -912,11 +912,31 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Browser-only; files not uploaded to a server |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW in H1/title; meta length; ogImage |
 
+### Free tool: Dispatch check
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/dispatch-check/ |
+| Purpose | Pre-pickup scan checklist to catch unscanned packs against tracking IDs |
+| Audience | Amazon sellers packing and handing off shipments to carriers |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon dispatch check |
+| Secondary keywords | Amazon shipment scan check, missed order dispatch, packing checklist Amazon |
+| Entity | eCom Gliders; Seller Central; tracking IDs; dispatch |
+| Title | Amazon Dispatch Check \| Free Tool \| eCom Gliders |
+| Meta description | Amazon dispatch check for sellers. Scan shipment tracking IDs against your pack list to catch missed orders before carrier pickup. Free browser tool. |
+| H1 | Amazon dispatch check |
+| Canonical | `/free-amazon-tools/dispatch-check/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/dispatch-check.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage; CTA copy fix |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/dispatch-check/`
 - `/free-amazon-tools/sku-profitability-leaderboard/`
 - `/free-amazon-tools/returns-rto-diagnostic/`
 - `/free-amazon-tools/monthly-seller-closeout/`

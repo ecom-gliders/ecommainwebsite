@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Label and invoice splitter SEO done
+## Latest (2026-10-30) — Dispatch check SEO done
 
-Completed `/free-amazon-tools/label-invoice-splitter/`.
+Completed `/free-amazon-tools/dispatch-check/`.
 
-**Implemented:** Amazon KW in H1/title; longer meta; ogImage; SITE-SEO-MAP row.
+**Implemented:** Amazon KW in H1/title; longer meta; ogImage; CTA copy fix; SITE-SEO-MAP row.
 
-**Next:** `/free-amazon-tools/dispatch-check/` or case studies hub.
+**Next:** `/free-amazon-tools/sku-profitability-leaderboard/` or case studies hub.

@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Dispatch check SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Dispatch hero H1 | Dispatch check | Amazon dispatch check | Primary KW lead | yes |
+| Dispatch metaTitle | Dispatch Check \| Free Tool \| … | Amazon Dispatch Check \| Free Tool \| … | Amazon intent | yes |
+| Dispatch metaDescription | 96 chars | Expanded with seller + Free browser tool | Meta length | yes |
+| Dispatch CTA heading | Want help applying these numbers… | Need help with Amazon fulfillment and order ops? | Wrong CTA for non-calc tool | yes |
+| Dispatch ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Label and invoice splitter SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
