@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Invoice generator SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/invoice-generator/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; H1/title KW align; longer meta; ogImage; strip em dash  
+**VERIFIED (Playwright preview before commit):** H1 thin vs title; meta 93; og:image null; WebApplication+WebPage+BreadcrumbList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; remaining tools  
+**NEXT ACTION:** `/free-amazon-tools/product-catalog/` or case studies hub
+
+---
+
 ## 2026-10-30 — GST calculator SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/gst-calculator/`  

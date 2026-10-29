@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — GST calculator SEO done
+## Latest (2026-10-30) — Invoice generator SEO done
 
-Completed `/free-amazon-tools/gst-calculator/`.
+Completed `/free-amazon-tools/invoice-generator/`.
 
-**Implemented:** Amazon-seller KW in H1/title; longer meta; ogImage; SITE-SEO-MAP row.
+**Implemented:** H1/title with GST + Amazon sellers KW; longer meta; ogImage; SITE-SEO-MAP row.
 
-**Next:** `/free-amazon-tools/invoice-generator/` or case studies hub.
+**Next:** `/free-amazon-tools/product-catalog/` or case studies hub.

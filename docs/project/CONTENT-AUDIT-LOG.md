@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Invoice generator SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Invoice hero H1 | Invoice generator | GST invoice generator for Amazon sellers | Align with primary KW | yes |
+| Invoice metaTitle | GST Invoice Generator \| Free Tool \| … | GST Invoice Generator for Amazon Sellers \| … | Amazon seller intent | yes |
+| Invoice metaDescription | 93 chars | Expanded with HSN/GST + Free browser tool | Meta length | yes |
+| Invoice subtitle | items — then | items, then | Plain punctuation | yes |
+| Invoice ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — GST calculator SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

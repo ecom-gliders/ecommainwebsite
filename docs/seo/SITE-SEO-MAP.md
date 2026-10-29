@@ -846,11 +846,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Not tax advice; calculation is browser-side |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon-seller KW in title/H1; meta length; ogImage |
 
+### Free tool: Invoice generator
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/invoice-generator/ |
+| Purpose | Browser GST tax invoice builder for sellers needing print/PDF invoices |
+| Audience | Amazon sellers creating GST invoices with HSN and tax splits |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | GST invoice generator for Amazon sellers |
+| Secondary keywords | GST invoice generator, Amazon invoice generator, tax invoice PDF |
+| Entity | eCom Gliders; GST; HSN; tax invoice |
+| Title | GST Invoice Generator for Amazon Sellers \| Free Tool \| eCom Gliders |
+| Meta description | GST invoice generator for Amazon sellers. Build seller, buyer, and line items with HSN and GST rates. Print or save as PDF. Free browser tool. |
+| H1 | GST invoice generator for Amazon sellers |
+| Canonical | `/free-amazon-tools/invoice-generator/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/invoice-generator.json` |
+| Notes | Not tax/legal advice; print via browser |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; H1/title KW align; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/invoice-generator/`
 - `/free-amazon-tools/product-catalog/`
 - `/free-amazon-tools/label-invoice-splitter/`
 - `/free-amazon-tools/dispatch-check/`

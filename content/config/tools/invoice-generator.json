@@ -2,8 +2,8 @@
   "slug": "invoice-generator",
   "badge": "Generator",
   "hero": {
-    "title": "Invoice generator",
-    "subtitle": "Build a GST tax invoice with seller, buyer, and line items — then print or download."
+    "title": "GST invoice generator for Amazon sellers",
+    "subtitle": "Build a GST tax invoice with seller, buyer, and line items, then print or download."
   },
   "intro": "Fill seller and buyer details, add line items with HSN and GST rate, then print or save as PDF from your browser.",
   "toolKind": "invoice-generator",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "GST Invoice Generator | Free Tool | eCom Gliders",
-    "metaDescription": "Free GST tax invoice generator for Amazon sellers. Build line items and print or save as PDF.",
+    "metaTitle": "GST Invoice Generator for Amazon Sellers | Free Tool | eCom Gliders",
+    "metaDescription": "GST invoice generator for Amazon sellers. Build seller, buyer, and line items with HSN and GST rates. Print or save as PDF. Free browser tool.",
     "canonical": "/free-amazon-tools/invoice-generator/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }
