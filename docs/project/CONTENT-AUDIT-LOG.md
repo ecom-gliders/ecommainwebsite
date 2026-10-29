@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon account operations SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Ops metaTitle | Amazon Account Operations \| Cross-Service Alignment \| … | Amazon Account Operations \| eCom Gliders | Shorter title; primary KW | yes |
+| Ops metaDescription | Amazon account operations for… | Amazon account operations services for… | Services intent | yes |
+| Ops canonical | Absolute URL | `/amazon-account-operations/` | absoluteUrl consistency | yes |
+| Ops ogImage | (missing) | amazon-account-management-service.jpg | OG was null; shared related asset | yes |
+| Ops body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon Seller Central services SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

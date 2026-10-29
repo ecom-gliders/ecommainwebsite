@@ -124,6 +124,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Amazon Account Operations
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-account-operations/ |
+| Purpose | Convert commercial cross-service Amazon ops / vendor alignment search into free-audit leads |
+| Audience | Multi-vendor brands; in-house plus agency mixes; scaling multi-ASIN catalogs; full-service candidates |
+| Search intent | Commercial |
+| Primary keyword | Amazon account operations |
+| Secondary keywords | Amazon account operations services, Amazon cross-service alignment, Amazon vendor coordination, Amazon account ops |
+| Entity | eCom Gliders; PPC; listings; catalog; analytics; priority board |
+| Title | Amazon Account Operations \| eCom Gliders |
+| Meta description | Amazon account operations services for cross-service alignment across PPC, listings, catalog, and analytics under one priority board. Free audit. |
+| H1 | Amazon account operations across ads, listings, and catalog |
+| Canonical | `/amazon-account-operations/` |
+| Indexability | Index |
+| OG image | `/images/services/amazon-account-management-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, full-service, Seller Central, reporting |
+| AEO | FAQ covers priority board, vs full-service, vendors, reporting, marketplaces |
+| GEO | Verified outcomes only; weekly operating board framing |
+| Config | `content/config/services/amazon-account-operations.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; shorter title; meta “services”; ogImage; relative canonical |
+
+---
+
 ### Amazon Seller Central Services
 
 | Field | Value |

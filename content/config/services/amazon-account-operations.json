@@ -4,7 +4,7 @@
   "layout": "accountOpsShift",
   "hero": {
     "title": "Amazon account operations across ads, listings, and catalog",
-    "subtitle": "Cross-service alignment so ads, listings, catalog, and analytics share one priority board—not separate vendor lists.",
+    "subtitle": "Cross-service alignment so ads, listings, catalog, and analytics share one priority board, not separate vendor lists.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -202,7 +202,7 @@
       },
       {
         "title": "No slide-deck alignment",
-        "description": "Alignment is a weekly operating board with owners—not a quarterly workshop."
+        "description": "Alignment is a weekly operating board with owners, not a quarterly workshop."
       },
       {
         "title": "Verified outcomes only",
@@ -212,14 +212,14 @@
   },
   "opsLanes": {
     "heading": "Cross-service gaps we close on one board",
-    "subheading": "Alignment is weekly ownership—not a quarterly workshop. Ads, listings, and catalog share priorities.",
+    "subheading": "Alignment is weekly ownership, not a quarterly workshop. Ads, listings, and catalog share priorities.",
     "note": "Scope is set during the free audit. Outcomes depend on catalog readiness and how many workstreams you consolidate.",
     "lanes": [
       {
         "title": "Vendors with competing goals",
         "issue": "PPC, creative, and catalog teams optimize different KPIs.",
         "fix": "One priority board ranks ASINs and actions every specialist uses.",
-        "verify": "Weekly work traces to the shared roadmap—not separate vendor lists."
+        "verify": "Weekly work traces to the shared roadmap, not separate vendor lists."
       },
       {
         "title": "Hand-offs that stall",
@@ -355,7 +355,7 @@
     },
     {
       "question": "What sits on the priority board?",
-      "answer": "Ranked ASINs and actions across ads, listings, catalog, and open hand-offs—so every specialist works from the same list."
+      "answer": "Ranked ASINs and actions across ads, listings, catalog, and open hand-offs, so every specialist works from the same list."
     },
     {
       "question": "Do you replace our current agencies?",
@@ -395,9 +395,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Amazon Account Operations | Cross-Service Alignment | eCom Gliders",
-    "metaDescription": "Amazon account operations for cross-service alignment across PPC, listings, catalog, and analytics under one priority board. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-account-operations/",
+    "metaTitle": "Amazon Account Operations | eCom Gliders",
+    "metaDescription": "Amazon account operations services for cross-service alignment across PPC, listings, catalog, and analytics under one priority board. Free audit.",
+    "canonical": "/amazon-account-operations/",
+    "ogImage": "/images/services/amazon-account-management-service.jpg",
     "robots": {
       "index": true,
       "follow": true
