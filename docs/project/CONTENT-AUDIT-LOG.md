@@ -15,6 +15,16 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon P&L calculator SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| P&L metaDescription | Free Amazon P&L calculator. Estimate… | Amazon P&L calculator for sellers. Estimate… | Primary KW lead; Free in closing | yes |
+| P&L ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+| P&L canonical | Already relative | Kept `/free-amazon-tools/amazon-pnl-calculator/` | Consistency | yes |
+
+---
+
 ## 2026-10-30 — Amazon PPC conversion cost calculator SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

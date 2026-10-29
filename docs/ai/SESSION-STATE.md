@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — PPC conversion cost calculator SEO done
+## Latest (2026-10-30) — Amazon P&L calculator SEO done
 
-Completed `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/`.
+Completed `/free-amazon-tools/amazon-pnl-calculator/`.
 
-**Implemented:** Shorter title/meta; ogImage; strip em dash.
+**Implemented:** SITE-SEO-MAP row; meta polish; ogImage.
 
-**Next:** `/free-amazon-tools/amazon-pnl-calculator/` or case studies hub.
+**Next:** `/free-amazon-tools/gst-calculator/` or case studies hub.

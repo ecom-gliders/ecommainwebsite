@@ -34,8 +34,9 @@
   },
   "seo": {
     "metaTitle": "Amazon P&L Calculator | Free Tool | eCom Gliders",
-    "metaDescription": "Free Amazon P&L calculator. Estimate profit after GST, referral, fulfillment, advertising, packaging, and cost of goods.",
+    "metaDescription": "Amazon P&L calculator for sellers. Estimate profit after GST, referral, fulfillment, ads, packaging, and COGS. Free browser tool.",
     "canonical": "/free-amazon-tools/amazon-pnl-calculator/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

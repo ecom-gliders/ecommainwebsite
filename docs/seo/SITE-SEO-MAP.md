@@ -803,11 +803,31 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Config | `content/config/tools/amazon-ppc-conversion-cost-calculator.json` |
 | Audit status | Re-optimized 2026-10-30 — shorter title/meta; ogImage; relative canonical; strip em dash |
 
+### Free tool: Amazon P&L calculator
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/amazon-pnl-calculator/ |
+| Purpose | Interactive Amazon profit-and-loss estimate after fees, ads, and COGS |
+| Audience | Sellers checking unit profit before scaling ads or changing price |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon P&L calculator |
+| Secondary keywords | Amazon profit and loss calculator, Amazon seller P&L, Amazon unit economics |
+| Entity | eCom Gliders; Amazon P&L; GST; referral fee; FBA fulfillment |
+| Title | Amazon P&L Calculator \| Free Tool \| eCom Gliders |
+| Meta description | Amazon P&L calculator for sellers. Estimate profit after GST, referral, fulfillment, ads, packaging, and COGS. Free browser tool. |
+| H1 | Amazon P&L calculator |
+| Canonical | `/free-amazon-tools/amazon-pnl-calculator/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/amazon-pnl-calculator.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; meta polish; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/amazon-pnl-calculator/`
 - `/free-amazon-tools/gst-calculator/`
 - `/free-amazon-tools/invoice-generator/`
 - `/free-amazon-tools/product-catalog/`
