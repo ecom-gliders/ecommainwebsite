@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon PPC management agency SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-management-agency/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 + agency KW; shorter title; meta CTA; ogImage; relative canonical; subtitle punctuation  
+**VERIFIED (Playwright preview before commit):** title 54 chars; 1 H1; Service+FAQPage; og:image null — fixed in config  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** Next service slug (e.g. listing optimization) or Phase 1 technical
+
+---
+
 ## 2026-10-30 — Full-service Amazon agency SEO pass
 
 **Task:** Master-prompt pass `/full-service-amazon-agency/`  

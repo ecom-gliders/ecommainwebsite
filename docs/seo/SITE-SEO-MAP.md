@@ -109,19 +109,18 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Amazon PPC management agency |
 | Secondary keywords | Amazon PPC management services, Amazon advertising agency, Amazon Sponsored Products management |
 | Entity | eCom Gliders; Amazon Ads; Sponsored Products/Brands/Display; Amazon Ads Verified Partner |
-| Title | Amazon PPC Management Agency \| Cut ACOS \| eCom Gliders |
-| Meta description | Amazon PPC management agency across Sponsored Products, Brands, and Display. Lower ACoS and scale profitably with an Amazon Ads Verified Partner. |
+| Title | Amazon PPC Management Agency \| eCom Gliders |
+| Meta description | Amazon PPC management agency for Sponsored Products, Brands, and Display. Structure ads for efficiency with an Amazon Ads Verified Partner. Free audit. |
 | H1 | Amazon PPC management agency for profitable growth |
-| Canonical | https://ecomgliders.com/amazon-ppc-management-agency/ |
+| Canonical | `/amazon-ppc-management-agency/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /full-service-amazon-agency/, /amazon-listing-optimization/, /amazon-dsp-management/, /case-study-9/, /case-study-3/ |
-| AEO | FAQ covers ad types, timeline, spend, ownership, metrics, marketplaces, collaboration, getting started |
-| GEO | Verified partner + since 2018 + 20+ in-house + 95% retention + $112M+ |
-| Claims source | case-study-9 ACOS 52%?26.5% and +310% revenue; case-study-3 profitable PPC recovery � Verified in case-studies.json |
-| Competitors reviewed | Incrementum Amazon Advertising (2026-10-04); AMZ Dudes PPC guide (2026-10-04); backup WP page |
+| OG image | `/images/services/amazon-ppc-management-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, full-service, listing optimization, DSP, case studies |
+| AEO | FAQ covers ad types, timeline, spend, ownership, metrics, marketplaces, getting started |
+| GEO | Verified Partner + since 2018 + retention claims on page |
 | Config | `content/config/services/amazon-ppc-management-agency.json` |
-| Audit status | Implemented + Verified (A2, 2026-10-04) |
+| Audit status | Re-optimized 2026-10-30 — H1 includes agency KW; cleaner title; ogImage; relative canonical |
 
 ---
 

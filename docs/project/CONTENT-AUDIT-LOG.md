@@ -15,6 +15,19 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon PPC management agency SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| PPC hero H1 | Amazon PPC management for profitable growth | Amazon PPC management agency for profitable growth | Primary keyword “agency” in H1 | yes |
+| PPC metaTitle | …\| Cut ACOS \| eCom Gliders | Amazon PPC Management Agency \| eCom Gliders | Cleaner SERP; remove hype fragment | yes |
+| PPC metaDescription | Lower ACoS and scale profitably… | Structure ads for efficiency… Free audit. | Less hype; clear CTA | yes |
+| PPC canonical | Absolute URL | `/amazon-ppc-management-agency/` | absoluteUrl consistency | yes |
+| PPC ogImage | (missing) | amazon-ppc-management-service.jpg | OG was null | yes |
+| PPC hero subtitle | Display—structured | Display, structured | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Full-service Amazon agency SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

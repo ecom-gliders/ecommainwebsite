@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Full-service page SEO done
+## Latest (2026-10-30) — PPC agency page SEO done
 
-Completed page passes: `/` → `/services/` → `/full-service-amazon-agency/`.
+Page passes completed: `/` → `/services/` → `/full-service-amazon-agency/` → `/amazon-ppc-management-agency/`.
 
-**Full-service Implemented:** shorter meta title, H1 with secondary KW, ogImage, relative canonical.
+**PPC Implemented:** H1 includes “agency”; cleaner title (dropped “Cut ACOS”); ogImage; relative canonical.
 
-**Next:** `/amazon-ppc-management-agency/` (recommended) or another service slug.
+**Next:** `/amazon-listing-optimization/` (or another service from SITE-SEO-MAP).

@@ -3,8 +3,8 @@
   "breadcrumbLabel": "PPC Management",
   "layout": "ppcCockpit",
   "hero": {
-    "title": "Amazon PPC management for profitable growth",
-    "subtitle": "Sponsored Products, Brands, and Display—structured by an Amazon Ads Verified Partner.",
+    "title": "Amazon PPC management agency for profitable growth",
+    "subtitle": "Sponsored Products, Brands, and Display, structured by an Amazon Ads Verified Partner.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -441,9 +441,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Amazon PPC Management Agency | Cut ACOS | eCom Gliders",
-    "metaDescription": "Amazon PPC management agency across Sponsored Products, Brands, and Display. Lower ACoS and scale profitably with an Amazon Ads Verified Partner.",
-    "canonical": "https://ecomgliders.com/amazon-ppc-management-agency/",
+    "metaTitle": "Amazon PPC Management Agency | eCom Gliders",
+    "metaDescription": "Amazon PPC management agency for Sponsored Products, Brands, and Display. Structure ads for efficiency with an Amazon Ads Verified Partner. Free audit.",
+    "canonical": "/amazon-ppc-management-agency/",
+    "ogImage": "/images/services/amazon-ppc-management-service.jpg",
     "robots": {
       "index": true,
       "follow": true
