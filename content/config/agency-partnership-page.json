@@ -219,8 +219,8 @@
     "heading": "Apply to partner with eCom Gliders",
     "intro": "Tell us about your agency and the Amazon demand you need covered. We review for complementarity—we only approve partners whose clients we can help.",
     "submitLabel": "Submit partner application",
-    "successMessage": "Your partner application was received. Our team will review fit and reply within about two business days.",
-    "errorMessage": "We could not submit the application. Review the fields below and try again.",
+    "successMessage": "Thanks — your partnership application is in. Our team typically replies within about two business days.",
+    "errorMessage": "Please check the highlighted fields on your partnership application and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about this partner application.",
     "laneOptions": [
       { "value": "white-label", "label": "White-label delivery" },

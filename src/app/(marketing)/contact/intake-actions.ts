@@ -6,7 +6,9 @@ import {
   type FormActionState,
   getFormString,
 } from "@/domain/forms/form-action-state";
+import { resolveFormAttribution } from "@/infrastructure/forms/form-attribution";
 import { notifyFormSubmission } from "@/infrastructure/forms/form-notifier";
+import { getFormNotificationMeta } from "@/infrastructure/forms/form-notification-meta";
 import { isHoneypotTriggered } from "@/lib/security/honeypot";
 import { getRateLimitKey, isRateLimited } from "@/lib/security/rate-limit";
 
@@ -21,21 +23,21 @@ export async function submitContactIntakeForm(
   _prevState: FormActionState,
   formData: FormData,
 ): Promise<FormActionState> {
+  const copy = getFormNotificationMeta("contact-intake");
   const requestHeaders = await headers();
   const rateLimitKey = getRateLimitKey(requestHeaders, "contact-intake");
 
   if (isRateLimited(rateLimitKey)) {
     return {
       success: false,
-      message: "Too many submissions. Please wait before trying again.",
+      message: copy.rateLimited,
     };
   }
 
   if (isHoneypotTriggered(formData.get("website"))) {
     return {
       success: true,
-      message:
-        "Your strategy intake was received. A strategist will contact you within one business day.",
+      message: copy.submitSuccess,
     };
   }
 
@@ -44,7 +46,10 @@ export async function submitContactIntakeForm(
     email: getFormString(formData, "email"),
     services: getFormStringArray(formData, "services"),
     brandName: getFormString(formData, "brandName"),
-    amazonStoreUrl: getFormString(formData, "amazonStoreUrl") ?? "",
+    amazonStoreUrl:
+      getFormString(formData, "amazonStoreUrl") ||
+      getFormString(formData, "storeOrAsin") ||
+      "",
     marketplaces: getFormStringArray(formData, "marketplaces"),
     monthlyRevenue: getFormString(formData, "monthlyRevenue"),
     phone: getFormString(formData, "phone"),
@@ -58,13 +63,13 @@ export async function submitContactIntakeForm(
 
     return {
       success: false,
-      message:
-        "We could not submit the intake. Review the fields below and try again.",
+      message: copy.validationFailed,
       fieldErrors,
     };
   }
 
   const { website: _honeypot, consent: _consent, ...fields } = parsed.data;
+  const attribution = await resolveFormAttribution(formData);
 
   const delivery = await notifyFormSubmission({
     formType: "contact-intake",
@@ -80,20 +85,19 @@ export async function submitContactIntakeForm(
       "Monthly revenue": fields.monthlyRevenue,
       Phone: fields.phone,
       Note: fields.note ?? "",
+      ...attribution,
     },
   });
 
   if (!delivery.delivered) {
     return {
       success: false,
-      message:
-        "We could not deliver your intake. Please call us directly or try again later.",
+      message: copy.deliveryFailed,
     };
   }
 
   return {
     success: true,
-    message:
-      "Your strategy intake was received. A strategist will contact you within one business day.",
+    message: copy.submitSuccess,
   };
 }

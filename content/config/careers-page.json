@@ -201,8 +201,8 @@
     "heading": "Apply for an open role",
     "intro": "Select the role, share LinkedIn and a resume or portfolio URL, and tell us about your Amazon experience. We review for fit before scheduling a call.",
     "submitLabel": "Submit application",
-    "successMessage": "Your application was received. Our team will review fit and reply within about two business days.",
-    "errorMessage": "We could not submit the application. Review the fields below and try again.",
+    "successMessage": "Thanks — your application is in. Our hiring team typically replies within about two business days when there is a fit.",
+    "errorMessage": "Please check the highlighted fields on your application and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about this application.",
     "roleOptions": [
       { "value": "brand-manager", "label": "Brand Manager" },

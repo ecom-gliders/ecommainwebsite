@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useActionState, useId, type ReactNode } from "react";
 import { submitCareerApplicationForm } from "@/app/(marketing)/careers/actions";
 import type { CareersPageConfig } from "@/domain/content/schemas";
+import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import {
   initialFormActionState,
   type FormActionState,
@@ -62,6 +63,7 @@ export function CareerApplicationForm({
 
   return (
     <form action={formAction} className="relative space-y-6" noValidate>
+      <FormAttributionFields />
       <div id={liveId} className="sr-only" aria-live="polite" aria-atomic="true">
         {state.message}
       </div>

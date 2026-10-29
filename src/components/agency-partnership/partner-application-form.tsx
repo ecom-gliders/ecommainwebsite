@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useActionState, useId, type ReactNode } from "react";
 import { submitAgencyPartnerForm } from "@/app/(marketing)/agency-partnership/actions";
 import type { AgencyPartnershipPageConfig } from "@/domain/content/schemas";
+import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import {
   initialFormActionState,
   type FormActionState,
@@ -57,6 +58,7 @@ export function PartnerApplicationForm({
 
   return (
     <form action={formAction} className="relative space-y-6" noValidate>
+      <FormAttributionFields />
       <div
         id={liveId}
         className="sr-only"

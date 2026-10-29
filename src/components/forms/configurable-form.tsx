@@ -7,6 +7,7 @@ import { FormSelect } from "@/components/ui/form-select";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { cn } from "@/lib/utils";
 
@@ -81,11 +82,16 @@ export function ConfigurableForm({
           tabIndex={-1}
           autoComplete="off"
         />
+        {/* Short hero/service leads → Get in Touch Discord channel (override via hiddenFields). */}
+        {!hiddenFields?.leadChannel ? (
+          <input type="hidden" name="leadChannel" value="get-in-touch" />
+        ) : null}
         {hiddenFields
           ? Object.entries(hiddenFields).map(([name, value]) => (
               <input key={name} type="hidden" name={name} value={value} />
             ))
           : null}
+        <FormAttributionFields />
       </div>
 
       <div
@@ -168,9 +174,28 @@ export function ConfigurableForm({
                 <Input
                   id={fieldId}
                   name={field.name}
-                  type={field.type}
+                  type={
+                    field.name === "amazonStoreUrl" || field.type === "url"
+                      ? "text"
+                      : field.type
+                  }
+                  inputMode={
+                    field.name === "amazonStoreUrl" || field.type === "url"
+                      ? "url"
+                      : undefined
+                  }
+                  autoComplete={
+                    field.name === "amazonStoreUrl" || field.type === "url"
+                      ? "url"
+                      : undefined
+                  }
                   required={field.required}
-                  placeholder={field.placeholder}
+                  placeholder={
+                    field.name === "amazonStoreUrl"
+                      ? field.placeholder ||
+                        "amazon.com/stores/... or B0XXXXXXXXX"
+                      : field.placeholder
+                  }
                   aria-invalid={Boolean(error)}
                   aria-describedby={errorId}
                   className={cn(

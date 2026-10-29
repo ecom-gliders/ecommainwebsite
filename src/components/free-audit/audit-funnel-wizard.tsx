@@ -9,6 +9,7 @@ import {
 } from "react";
 import Link from "next/link";
 import type { FreeAuditPageConfig } from "@/domain/content/schemas";
+import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import { FormOptionChips } from "@/components/forms/form-option-chips";
 import { FormMultiSelect } from "@/components/forms/form-multi-select";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
@@ -17,6 +18,7 @@ import { PrimaryButton } from "@/components/ui/primary-button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { isAmazonStoreOrAsin } from "@/domain/forms/amazon-store-url";
 import { cn } from "@/lib/utils";
 
 const TOTAL_STEPS = 5;
@@ -75,15 +77,6 @@ function toggleInList(list: string[], value: string): string[] {
     : [...list, value];
 }
 
-function isHttpUrl(value: string): boolean {
-  try {
-    const parsed = new URL(value);
-    return parsed.protocol === "http:" || parsed.protocol === "https:";
-  } catch {
-    return false;
-  }
-}
-
 export function AuditFunnelWizard({
   form,
   funnel,
@@ -130,20 +123,20 @@ export function AuditFunnelWizard({
     }
     if (current === 3) {
       if (!values.amazonStoreUrl.trim()) {
-        return "Enter your Amazon storefront URL.";
+        return "Enter your Amazon storefront URL or ASIN.";
       }
-      if (!isHttpUrl(values.amazonStoreUrl.trim())) {
-        return "Enter a valid Amazon storefront URL.";
+      if (!isAmazonStoreOrAsin(values.amazonStoreUrl.trim())) {
+        return "Use an Amazon storefront URL, product link, or ASIN (B0…).";
       }
       if (values.marketplaces.length === 0) {
         return "Select at least one marketplace.";
       }
     }
     if (current === 4 && values.phone.trim().length < 7) {
-      return "Enter a valid phone number.";
+      return "Enter a phone number we can reach you on.";
     }
     if (current === 5 && !values.consent) {
-      return "You must agree to the privacy policy.";
+      return "Please confirm you agree to the privacy policy.";
     }
     return null;
   }
@@ -258,8 +251,10 @@ export function AuditFunnelWizard({
             tabIndex={-1}
             autoComplete="off"
           />
+          <FormAttributionFields />
         </div>
 
+        <input type="hidden" name="leadChannel" value="full-funnel" />
         <input type="hidden" name="name" value={values.name} />
         <input type="hidden" name="email" value={values.email} />
         <input type="hidden" name="phone" value={values.phone} />
@@ -380,11 +375,13 @@ export function AuditFunnelWizard({
               </div>
               <div>
                 <Label htmlFor={`${formId}-store`} className={labelClass}>
-                  Amazon storefront URL
+                  Amazon storefront URL or ASIN
                 </Label>
                 <Input
                   id={`${formId}-store`}
-                  type="url"
+                  type="text"
+                  inputMode="url"
+                  autoComplete="url"
                   value={values.amazonStoreUrl}
                   onChange={(event) =>
                     setValues((prev) => ({
@@ -393,7 +390,7 @@ export function AuditFunnelWizard({
                     }))
                   }
                   className={inputClass}
-                  placeholder="https://www.amazon.com/stores/..."
+                  placeholder="amazon.com/stores/... or B0XXXXXXXXX"
                   required
                 />
               </div>

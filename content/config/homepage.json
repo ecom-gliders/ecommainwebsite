@@ -70,10 +70,10 @@
             },
             {
               "name": "amazonStoreUrl",
-              "label": "Amazon storefront URL",
-              "type": "url",
+              "label": "Amazon storefront URL or ASIN",
+              "type": "text",
               "required": true,
-              "placeholder": "Enter store URL"
+              "placeholder": "amazon.com/stores/... or B0XXXXXXXXX"
             },
             {
               "name": "monthlyRevenue",
@@ -168,7 +168,10 @@
             "id": "prime-banner-gif",
             "kind": "image",
             "image": "/images/promo/amazon-big-prime-is-coming.gif",
-            "imageAlt": "Amazon Big Prime is coming — prepare your Amazon FBA business",
+            "imageAlt": "Free Amazon Account Audit — schedule a call",
+            "mobileHeadline": "Free Amazon Account Audit",
+            "mobileBody": "Book a call for a no-cost review and a clear plan to grow sales.",
+            "ctaLabel": "Schedule Call",
             "href": "/free-audit/",
             "backgroundColor": "#d4d5d5"
           },

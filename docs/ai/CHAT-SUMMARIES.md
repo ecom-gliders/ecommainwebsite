@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-10-30 — Form page attribution + dynamic messages
+
+Session topic: Per-form success/validation copy; include source page in Discord + email for metrics.
+Key decisions: `form-notification-meta` UI copy by form type; `FormAttributionFields` + `resolveFormAttribution` send **Submitted from** / **Prior referrer**; Discord embed URL points at that page.
+Evidence: `tsc --noEmit` clean.
+Next action: Commit when requested; smoke-submit from a service page.
+
 ## 2026-10-29 — Sitewide visual + responsive QA COMPLETE
 
 Session topic: Execute sitewide responsive QA plan (Waves 0–7); do not edit plan file.

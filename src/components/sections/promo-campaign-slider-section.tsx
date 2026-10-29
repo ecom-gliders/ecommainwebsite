@@ -3,7 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 import { cn } from "@/lib/utils";
 import { readNavLink, readRecordArray, readString } from "./section-data";
 
@@ -32,11 +38,22 @@ type ComposedSlide = {
 type ImageSlide = {
   kind: "image";
   id: string;
+  /** Desktop / tablet (sm+) banner art. */
   image: string;
   imageAlt: string;
+  /**
+   * Mobile-only banner art (&lt; sm). Required for a real image on phones;
+   * if omitted, a text+CTA card is shown instead of the wide desktop file.
+   */
+  mobileImage?: string;
+  mobileImageAlt?: string;
   href: string;
   external?: boolean;
   backgroundColor?: string;
+  /** Used only when mobileImage is missing. */
+  mobileHeadline?: string;
+  mobileBody?: string;
+  ctaLabel?: string;
 };
 
 type CampaignSlide = ComposedSlide | ImageSlide;
@@ -44,8 +61,11 @@ type CampaignSlide = ComposedSlide | ImageSlide;
 const AUTOPLAY_MS = 5000;
 const DRAG_THRESHOLD_PX = 48;
 const DEFAULT_COMPOSED_BG = "#131311";
-/** Fixed band height — prevents CLS when switching composed ↔ image slides. */
-const BAND_HEIGHT = "h-[6.75rem] sm:h-[7.25rem] lg:h-[7.75rem]";
+/**
+ * Fixed band height — prevents CLS when switching composed ↔ image slides.
+ * Mobile taller for stacked HTML slides or dedicated mobileImage art.
+ */
+const BAND_HEIGHT = "h-[11.5rem] sm:h-[7.25rem] lg:h-[7.75rem]";
 const RAIL =
   "relative hidden w-32 shrink-0 self-stretch overflow-visible sm:block lg:w-44";
 
@@ -68,14 +88,23 @@ function parseSlides(data: Record<string, unknown>): CampaignSlide[] {
         const image = readString(raw.image);
         const href = readString(raw.href);
         if (!image || !href) return null;
+        const mobileImage = readString(raw.mobileImage) || undefined;
         return {
           kind: "image",
           id,
           image,
           imageAlt: readString(raw.imageAlt, readString(raw.alt, "")),
+          mobileImage,
+          mobileImageAlt:
+            readString(raw.mobileImageAlt) ||
+            readString(raw.imageAlt, readString(raw.alt, "")) ||
+            undefined,
           href,
           external: raw.external === true,
           backgroundColor,
+          mobileHeadline: readString(raw.mobileHeadline) || undefined,
+          mobileBody: readString(raw.mobileBody) || undefined,
+          ctaLabel: readString(raw.ctaLabel) || undefined,
         };
       }
 
@@ -183,7 +212,7 @@ function ComposedSlideView({
   priority: boolean;
 }) {
   const ctaClassName = cn(
-    "promo-cta-pulse relative z-[1] inline-flex h-9 shrink-0 items-center justify-center gap-1.5",
+    "promo-cta-pulse relative z-[1] inline-flex h-9 w-full shrink-0 items-center justify-center gap-1.5 sm:w-auto",
     "rounded-[10px] border-2 border-primary bg-[#E23B3B] px-4",
     "text-xs font-bold uppercase tracking-[0.04em] text-white",
     "hover:bg-[#F04A4A] sm:h-10 sm:px-5 sm:text-xs",
@@ -215,7 +244,7 @@ function ComposedSlideView({
   );
 
   return (
-    <div className="relative flex h-full items-stretch gap-2.5 px-4 sm:gap-3 sm:px-5 lg:gap-4 lg:px-6">
+    <div className="relative flex h-full items-stretch gap-2.5 px-4 pb-8 pt-3 sm:gap-3 sm:px-5 sm:pb-0 sm:pt-0 lg:gap-4 lg:px-6">
       {slide.leftImage ? (
         <div className={RAIL}>
           <div className="relative h-full w-full">
@@ -249,39 +278,44 @@ function ComposedSlideView({
         </div>
       ) : null}
 
-      <div className="flex min-w-0 flex-1 items-center gap-2.5 sm:gap-4">
-        {slide.badgeImage ? (
-          <div className="relative h-9 w-9 shrink-0 rotate-[-8deg] sm:hidden">
-            <Image
-              src={slide.badgeImage}
-              alt={slide.badgeImageAlt || "Audit"}
-              fill
-              className="object-contain"
-              sizes="36px"
-              quality={85}
-              priority={priority}
-              draggable={false}
-            />
-          </div>
-        ) : null}
+      {/* Mobile: stack copy above CTA. sm+: side-by-side with image rails. */}
+      <div className="flex min-w-0 flex-1 flex-col justify-center gap-2 sm:flex-row sm:items-center sm:gap-4">
+        <div className="flex min-w-0 flex-1 items-start gap-2 sm:items-center">
+          {slide.badgeImage ? (
+            <div className="relative mt-0.5 h-8 w-8 shrink-0 rotate-[-8deg] sm:hidden">
+              <Image
+                src={slide.badgeImage}
+                alt={slide.badgeImageAlt || "Audit"}
+                fill
+                className="object-contain"
+                sizes="32px"
+                quality={85}
+                priority={priority}
+                draggable={false}
+              />
+            </div>
+          ) : null}
 
-        <div className="min-w-0 flex-1">
-          {slide.eyebrow ? (
-            <span className="mb-0.5 block text-xs font-semibold uppercase tracking-[0.12em] text-accent">
-              {slide.eyebrow}
-            </span>
-          ) : null}
-          <p className="text-base font-black leading-[1.12] tracking-[-0.03em] text-text-on-dark sm:text-lg lg:text-xl">
-            {slide.headline}
-          </p>
-          {slide.body ? (
-            <p className="mt-1 line-clamp-2 max-w-xl text-xs leading-snug text-text-on-dark/70 sm:line-clamp-1">
-              {slide.body}
+          <div className="min-w-0 flex-1">
+            {slide.eyebrow ? (
+              <span className="mb-0.5 block text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent sm:text-xs">
+                {slide.eyebrow}
+              </span>
+            ) : null}
+            <p className="text-[0.95rem] font-black leading-[1.18] tracking-[-0.03em] text-text-on-dark sm:text-lg lg:text-xl">
+              {slide.headline}
             </p>
-          ) : null}
+            {slide.body ? (
+              <p className="mt-0.5 line-clamp-1 max-w-xl text-xs leading-snug text-text-on-dark/70 sm:mt-1">
+                {slide.body}
+              </p>
+            ) : null}
+          </div>
         </div>
 
-        <div className="flex shrink-0 items-center">{cta}</div>
+        <div className="flex w-full shrink-0 items-center sm:w-auto">
+          {cta}
+        </div>
       </div>
 
       {slide.rightImage ? (
@@ -312,6 +346,62 @@ function isAnimatedRaster(src: string): boolean {
   return /\.gif($|\?)/i.test(src);
 }
 
+function wrapSlideLink(
+  slide: ImageSlide,
+  allowLink: boolean,
+  className: string,
+  children: ReactNode,
+) {
+  if (!allowLink) {
+    return <div className={className}>{children}</div>;
+  }
+  if (slide.external) {
+    return (
+      <a
+        href={slide.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+        draggable={false}
+      >
+        {children}
+        <span className="sr-only"> (opens in a new tab)</span>
+      </a>
+    );
+  }
+  return (
+    <Link href={slide.href} className={className} draggable={false}>
+      {children}
+    </Link>
+  );
+}
+
+function BannerImage({
+  src,
+  alt,
+  priority,
+}: {
+  src: string;
+  alt: string;
+  priority: boolean;
+}) {
+  return (
+    <div className="relative h-full w-full">
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-contain object-center"
+        sizes="(max-width: 640px) 100vw, (max-width: 1320px) 100vw, 1320px"
+        quality={85}
+        priority={priority}
+        unoptimized={isAnimatedRaster(src)}
+        draggable={false}
+      />
+    </div>
+  );
+}
+
 function ImageSlideView({
   slide,
   priority,
@@ -321,51 +411,111 @@ function ImageSlideView({
   priority: boolean;
   allowLink: boolean;
 }) {
-  const animated = isAnimatedRaster(slide.image);
-  const media = (
-    <div className="relative h-full w-full">
-      <Image
-        src={slide.image}
-        alt={slide.imageAlt}
-        fill
-        className="object-contain object-center"
-        sizes="(max-width: 1320px) 100vw, 1320px"
-        quality={85}
-        priority={priority}
-        unoptimized={animated}
-        draggable={false}
-      />
+  const light = isLightHex(slide.backgroundColor || "#d4d5d5");
+  const hasMobileImage = Boolean(slide.mobileImage?.trim());
+  const headline =
+    slide.mobileHeadline?.trim() ||
+    slide.imageAlt.trim() ||
+    "Campaign offer — tap to learn more";
+  const body = slide.mobileBody?.trim();
+  const ctaLabel = slide.ctaLabel?.trim() || "Learn more";
+
+  const ctaClassName = cn(
+    "promo-cta-pulse relative z-[1] inline-flex h-9 w-full items-center justify-center gap-1.5",
+    "rounded-[10px] border-2 border-primary bg-[#E23B3B] px-4",
+    "text-xs font-bold uppercase tracking-[0.04em] text-white",
+    "hover:bg-[#F04A4A]",
+    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2",
+  );
+
+  const ctaInner = (
+    <>
+      {ctaLabel}
+      <ArrowRight size={14} strokeWidth={2.5} aria-hidden="true" />
+    </>
+  );
+
+  /** Text+CTA only when no dedicated mobileImage is configured. */
+  const mobileTextFallback = (
+    <div className="flex h-full flex-col justify-center gap-2 px-4 pb-8 pt-3 sm:hidden">
+      <div className="min-w-0">
+        <p
+          className={cn(
+            "text-[0.95rem] font-black leading-[1.18] tracking-[-0.03em]",
+            light ? "text-primary" : "text-text-on-dark",
+          )}
+        >
+          {headline}
+        </p>
+        {body ? (
+          <p
+            className={cn(
+              "mt-0.5 line-clamp-2 text-xs leading-snug",
+              light ? "text-primary/65" : "text-text-on-dark/70",
+            )}
+          >
+            {body}
+          </p>
+        ) : null}
+      </div>
+      {allowLink ? (
+        slide.external ? (
+          <a
+            href={slide.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={ctaClassName}
+            draggable={false}
+          >
+            {ctaInner}
+            <span className="sr-only"> (opens in a new tab)</span>
+          </a>
+        ) : (
+          <Link href={slide.href} className={ctaClassName} draggable={false}>
+            {ctaInner}
+          </Link>
+        )
+      ) : (
+        <span className={ctaClassName}>{ctaInner}</span>
+      )}
     </div>
   );
 
   const shellClass = "block h-full w-full";
 
-  if (!allowLink) {
-    return (
-      <div className="relative h-full px-3 py-2 sm:px-4">
-        <div className={shellClass}>{media}</div>
+  return (
+    <div className="relative h-full">
+      {hasMobileImage ? (
+        <div className="relative h-full px-2 pb-6 pt-1 sm:hidden">
+          {wrapSlideLink(
+            slide,
+            allowLink,
+            shellClass,
+            <BannerImage
+              src={slide.mobileImage!}
+              alt={slide.mobileImageAlt || slide.imageAlt}
+              priority={priority}
+            />,
+          )}
+        </div>
+      ) : (
+        mobileTextFallback
+      )}
+
+      <div className="relative hidden h-full px-3 py-2 sm:block sm:px-4">
+        {wrapSlideLink(
+          slide,
+          allowLink,
+          shellClass,
+          <BannerImage
+            src={slide.image}
+            alt={slide.imageAlt}
+            priority={priority}
+          />,
+        )}
       </div>
-    );
-  }
-
-  const inner = slide.external ? (
-    <a
-      href={slide.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={shellClass}
-      draggable={false}
-    >
-      {media}
-      <span className="sr-only"> (opens in a new tab)</span>
-    </a>
-  ) : (
-    <Link href={slide.href} className={shellClass} draggable={false}>
-      {media}
-    </Link>
+    </div>
   );
-
-  return <div className="relative h-full px-3 py-2 sm:px-4">{inner}</div>;
 }
 
 /**

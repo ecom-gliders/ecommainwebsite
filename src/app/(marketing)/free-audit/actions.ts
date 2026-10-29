@@ -6,7 +6,12 @@ import {
   type FormActionState,
   getFormString,
 } from "@/domain/forms/form-action-state";
+import { resolveFormAttribution } from "@/infrastructure/forms/form-attribution";
 import { notifyFormSubmission } from "@/infrastructure/forms/form-notifier";
+import {
+  getFormNotificationMeta,
+  resolveLeadFormType,
+} from "@/infrastructure/forms/form-notification-meta";
 import { isHoneypotTriggered } from "@/lib/security/honeypot";
 import { getRateLimitKey, isRateLimited } from "@/lib/security/rate-limit";
 
@@ -31,6 +36,10 @@ const CORE_FORM_KEYS = new Set([
   "website",
   "serviceInterest",
   "serviceSlug",
+  "leadChannel",
+  "pageUrl",
+  "pagePath",
+  "pageReferrer",
 ]);
 
 /** Forward researched per-service qualification answers into the notification. */
@@ -61,20 +70,22 @@ export async function submitAuditForm(
   _prevState: FormActionState,
   formData: FormData,
 ): Promise<FormActionState> {
+  const formType = resolveLeadFormType(getFormString(formData, "leadChannel"));
+  const copy = getFormNotificationMeta(formType);
   const requestHeaders = await headers();
-  const rateLimitKey = getRateLimitKey(requestHeaders, "audit");
+  const rateLimitKey = getRateLimitKey(requestHeaders, formType);
 
   if (isRateLimited(rateLimitKey)) {
     return {
       success: false,
-      message: "Too many submissions. Please wait before trying again.",
+      message: copy.rateLimited,
     };
   }
 
   if (isHoneypotTriggered(formData.get("website"))) {
     return {
       success: true,
-      message: "Your audit request was received. A strategist will contact you within one business day.",
+      message: copy.submitSuccess,
     };
   }
 
@@ -104,19 +115,21 @@ export async function submitAuditForm(
 
     return {
       success: false,
-      message: "We could not submit the form. Review the fields below and try again.",
+      message: copy.validationFailed,
       fieldErrors,
     };
   }
 
   const { website: _honeypot, consent: _consent, ...fields } = parsed.data;
   const qualificationFields = collectQualificationFields(formData);
+  const attribution = await resolveFormAttribution(formData);
+  const isFunnel = formType === "audit-funnel";
 
   const delivery = await notifyFormSubmission({
-    formType: "audit",
+    formType,
     subject: serviceInterest
-      ? `Free audit request (${serviceInterest}): ${fields.name}`
-      : `Free audit request: ${fields.name}`,
+      ? `${copy.label} (${serviceInterest}): ${fields.name}`
+      : `${copy.label}: ${fields.name}`,
     fields: {
       Name: fields.name,
       Email: fields.email,
@@ -127,8 +140,10 @@ export async function submitAuditForm(
       Marketplaces: fields.marketplaces.join(", "),
       "Monthly revenue": fields.monthlyRevenue ?? "",
       Message: fields.message ?? "",
+      Channel: isFunnel ? "Full funnel" : "Get in Touch",
       ...(serviceInterest ? { Service: serviceInterest } : {}),
       ...(serviceSlug ? { "Service slug": serviceSlug } : {}),
+      ...attribution,
       ...qualificationFields,
     },
   });
@@ -136,12 +151,12 @@ export async function submitAuditForm(
   if (!delivery.delivered) {
     return {
       success: false,
-      message: "We could not deliver your request. Please call us directly or try again later.",
+      message: copy.deliveryFailed,
     };
   }
 
   return {
     success: true,
-    message: "Your audit request was received. A strategist will contact you within one business day.",
+    message: copy.submitSuccess,
   };
 }

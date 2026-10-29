@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { optionalAmazonStoreUrlSchema } from "@/domain/forms/amazon-store-url";
 
 export const contactIntakeFormSchema = z.object({
   name: z
@@ -20,12 +21,7 @@ export const contactIntakeFormSchema = z.object({
     .trim()
     .min(2, "Enter your brand or company name.")
     .max(150, "Brand name must be 150 characters or fewer."),
-  amazonStoreUrl: z
-    .string()
-    .trim()
-    .min(1, "Enter your Amazon storefront URL.")
-    .url("Enter a valid Amazon storefront URL.")
-    .max(500),
+  amazonStoreUrl: optionalAmazonStoreUrlSchema,
   marketplaces: z
     .array(z.string().trim().min(1))
     .min(1, "Select at least one marketplace.")
@@ -38,11 +34,11 @@ export const contactIntakeFormSchema = z.object({
   phone: z
     .string()
     .trim()
-    .min(7, "Enter a valid phone number.")
+    .min(7, "Enter a phone number we can reach you on.")
     .max(30, "Phone number must be 30 characters or fewer."),
   note: z.string().trim().max(5000).optional(),
   consent: z.literal("true", {
-    message: "You must agree to the privacy policy.",
+    message: "Please confirm you agree to the privacy policy.",
   }),
   website: z.string().max(0).optional(),
 });

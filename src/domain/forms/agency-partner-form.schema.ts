@@ -1,9 +1,9 @@
 import { z } from "zod";
 
 export const agencyPartnerFormSchema = z.object({
-  name: z.string().min(2, "Enter your name."),
+  name: z.string().min(2, "Enter your full name."),
   email: z.string().email("Enter a valid work email."),
-  phone: z.string().min(7, "Enter a phone number."),
+  phone: z.string().min(7, "Enter a phone number we can reach you on."),
   agencyName: z.string().min(2, "Enter your agency name."),
   agencyWebsite: z
     .string()
@@ -18,17 +18,19 @@ export const agencyPartnerFormSchema = z.object({
           return false;
         }
       },
-      { message: "Enter a valid website URL." },
+      { message: "Enter a valid website (for example youragency.com)." },
     ),
-  partnershipLane: z.enum(["white-label", "referral", "co-manage"]),
+  partnershipLane: z.enum(["white-label", "referral", "co-manage"], {
+    message: "Select a partnership lane.",
+  }),
   servicesOffered: z.string().min(8, "Describe the services you offer today."),
   amazonGap: z
     .string()
     .min(8, "Describe the Amazon work your clients need that you do not staff."),
-  volumeIntent: z.string().min(1, "Select an approximate volume."),
+  volumeIntent: z.string().min(1, "Select an approximate client volume."),
   fitNote: z.string().min(12, "Add a short note on why this partnership fits."),
   consent: z.literal("true", {
-    message: "You must agree to the privacy policy.",
+    message: "Please confirm you agree to the privacy policy.",
   }),
   website: z.string().optional(),
 });

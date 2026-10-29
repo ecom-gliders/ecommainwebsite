@@ -28,8 +28,8 @@
   "form": {
     "heading": "Send a message",
     "submitLabel": "Submit request",
-    "successMessage": "Your message was received. We will respond within one business day.",
-    "errorMessage": "We could not submit the form. Review the fields below and try again.",
+    "successMessage": "Thanks — your message is in. We typically reply within one business day.",
+    "errorMessage": "Please check the highlighted fields and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about my inquiry.",
     "fields": [
       {
@@ -104,8 +104,8 @@
     "heading": "Book a strategy conversation",
     "subheading": "Five short steps. We use your answers to prep before we reach out.",
     "submitLabel": "Submit intake",
-    "successMessage": "Your strategy intake was received. A strategist will contact you within one business day.",
-    "errorMessage": "We could not submit the intake. Review the fields below and try again.",
+    "successMessage": "Thanks — your strategy intake is in. We will follow up on next steps shortly.",
+    "errorMessage": "Please complete the required intake fields and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about this strategy conversation.",
     "services": [
       { "value": "full-account-management", "label": "Full Amazon Account Management" },

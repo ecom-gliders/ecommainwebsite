@@ -7,7 +7,9 @@ import {
 } from "@/domain/forms/form-action-state";
 import { newsletterFormSchema } from "@/domain/forms/newsletter-form.schema";
 import { subscribeToBeehiiv } from "@/infrastructure/forms/beehiiv-subscribe";
+import { resolveFormAttribution } from "@/infrastructure/forms/form-attribution";
 import { notifyFormSubmission } from "@/infrastructure/forms/form-notifier";
+import { getFormNotificationMeta } from "@/infrastructure/forms/form-notification-meta";
 import { isHoneypotTriggered } from "@/lib/security/honeypot";
 import { getRateLimitKey, isRateLimited } from "@/lib/security/rate-limit";
 
@@ -15,20 +17,21 @@ export async function submitNewsletterForm(
   _prevState: FormActionState,
   formData: FormData,
 ): Promise<FormActionState> {
+  const copy = getFormNotificationMeta("newsletter");
   const requestHeaders = await headers();
   const rateLimitKey = getRateLimitKey(requestHeaders, "newsletter");
 
   if (isRateLimited(rateLimitKey)) {
     return {
       success: false,
-      message: "Too many submissions. Please wait before trying again.",
+      message: copy.rateLimited,
     };
   }
 
   if (isHoneypotTriggered(formData.get("website"))) {
     return {
       success: true,
-      message: "You are subscribed. Check your inbox for confirmation.",
+      message: copy.submitSuccess,
     };
   }
 
@@ -40,12 +43,13 @@ export async function submitNewsletterForm(
   if (!parsed.success) {
     return {
       success: false,
-      message: "Enter a valid email address to subscribe.",
+      message: copy.validationFailed,
       fieldErrors: parsed.error.flatten().fieldErrors,
     };
   }
 
   const { website: _honeypot, ...fields } = parsed.data;
+  const attribution = await resolveFormAttribution(formData);
 
   // Beehiiv + team notify run independently — one failure must not block the other.
   const [beehiivOk, delivery] = await Promise.all([
@@ -56,6 +60,7 @@ export async function submitNewsletterForm(
       fields: {
         Email: fields.email,
         Source: "Site pre-footer",
+        ...attribution,
       },
     }),
   ]);
@@ -63,12 +68,12 @@ export async function submitNewsletterForm(
   if (!beehiivOk && !delivery.delivered) {
     return {
       success: false,
-      message: "We could not complete the subscription. Please try again shortly.",
+      message: copy.deliveryFailed,
     };
   }
 
   return {
     success: true,
-    message: "You are subscribed. Check your inbox for confirmation.",
+    message: copy.submitSuccess,
   };
 }

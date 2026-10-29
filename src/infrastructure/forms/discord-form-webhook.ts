@@ -1,4 +1,9 @@
-import type { FormNotificationType } from "@/infrastructure/forms/form-email-templates";
+import { brandMonogramUrl } from "@/infrastructure/forms/brand-assets";
+import {
+  discordWebhookUrlFor,
+  getFormNotificationMeta,
+  type AnyFormNotificationType,
+} from "@/infrastructure/forms/form-notification-meta";
 
 const BRAND_COLOR = 0xc6fd50;
 
@@ -10,93 +15,81 @@ function siteOrigin(): string {
   );
 }
 
-function formTypeLabel(formType: FormNotificationType): string {
-  switch (formType) {
-    case "contact":
-      return "Contact message";
-    case "contact-intake":
-      return "Strategy intake";
-    case "audit":
-      return "Get in Touch";
-    case "agency-partner":
-      return "Agency partnership";
-    case "career-application":
-      return "Career application";
-    case "newsletter":
-      return "Newsletter subscribe";
-    default:
-      return "Website form";
+function formatFieldValue(value: string): string {
+  const trimmed = value.trim();
+  if (trimmed.length > 1000) return `${trimmed.slice(0, 997)}...`;
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed.length > 80 ? `<${trimmed}>` : trimmed;
   }
-}
-
-/**
- * Get in Touch / audit lead forms → DISCORD_GET_IN_TOUCH_WEBHOOK_URL
- * All other forms → DISCORD_FORM_WEBHOOK_URL
- * Never hardcode webhook secrets.
- */
-function webhookUrlFor(formType: FormNotificationType): string | undefined {
-  if (formType === "audit") {
-    return (
-      process.env.DISCORD_GET_IN_TOUCH_WEBHOOK_URL?.trim() ||
-      process.env.DISCORD_FORM_WEBHOOK_URL?.trim()
-    );
-  }
-
-  return process.env.DISCORD_FORM_WEBHOOK_URL?.trim();
+  return trimmed;
 }
 
 /**
  * Posts a branded Discord embed for a form submission.
+ * Routing: see form-notification-meta.discordWebhookUrlFor
  */
 export async function notifyDiscordFormSubmission(input: {
-  formType: FormNotificationType;
+  formType: AnyFormNotificationType;
   subject: string;
   fields: Record<string, string>;
 }): Promise<boolean> {
-  const webhookUrl = webhookUrlFor(input.formType);
+  const webhookUrl = discordWebhookUrlFor(input.formType);
   if (!webhookUrl) return false;
 
   const origin = siteOrigin();
-  const logo = `${origin}/images/logo.png`;
-  const label = formTypeLabel(input.formType);
+  const logo = brandMonogramUrl();
+  const meta = getFormNotificationMeta(input.formType);
 
-  const fields = Object.entries(input.fields)
-    .filter(([, value]) => value.trim().length > 0)
-    .slice(0, 24)
-    .map(([name, value]) => ({
+  const attributionKeys = new Set([
+    "Submitted from",
+    "Page path",
+    "Prior referrer",
+  ]);
+  const entries = Object.entries(input.fields).filter(
+    ([, value]) => value.trim().length > 0,
+  );
+  // Keep page metrics near the top so they are not dropped by the field cap.
+  const ordered = [
+    ...entries.filter(([name]) => attributionKeys.has(name)),
+    ...entries.filter(([name]) => !attributionKeys.has(name)),
+  ];
+
+  const fields = ordered.slice(0, 24).map(([name, value]) => {
+    const formatted = formatFieldValue(value);
+    return {
       name: name.slice(0, 256),
-      value: value.length > 1000 ? `${value.slice(0, 997)}...` : value,
-      inline: value.length < 48,
-    }));
+      value: formatted,
+      inline: formatted.length < 40 && !/^https?:\/\//i.test(formatted),
+    };
+  });
 
   fields.push({
-    name: "Notification",
+    name: "Delivery",
     value: "Also emailed to info@ecomgliders.com",
     inline: false,
   });
 
+  const submittedFrom = input.fields["Submitted from"]?.trim();
+  const embedUrl =
+    submittedFrom && /^https?:\/\//i.test(submittedFrom)
+      ? submittedFrom
+      : origin;
+
   const payload = {
     username: "eCom Gliders",
     avatar_url: logo,
-    content: `**New lead** · ${label}`,
+    content: `**${meta.discordLead}**`,
     embeds: [
       {
-        author: {
-          name: "eCom Gliders Website",
-          url: origin,
-          icon_url: logo,
-        },
-        title: label,
+        title: meta.label,
         description: input.subject,
         color: BRAND_COLOR,
-        thumbnail: { url: logo },
+        url: embedUrl,
         fields,
         footer: {
-          text: "eCom Gliders · Amazon growth specialists since 2018",
-          icon_url: logo,
+          text: "eCom Gliders · since 2018",
         },
         timestamp: new Date().toISOString(),
-        url: origin,
       },
     ],
   };

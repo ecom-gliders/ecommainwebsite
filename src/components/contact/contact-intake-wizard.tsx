@@ -3,7 +3,9 @@
 import { useActionState, useEffect, useId, useState } from "react";
 import Link from "next/link";
 import type { ContactPageConfig } from "@/domain/content/schemas";
+import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
+import { isAmazonStoreOrAsin } from "@/domain/forms/amazon-store-url";
 import { submitContactIntakeForm } from "@/app/(marketing)/contact/intake-actions";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { Input } from "@/components/ui/input";
@@ -81,14 +83,24 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
       if (values.brandName.trim().length < 2) {
         return "Enter your brand or company name.";
       }
+      if (
+        values.storeOrAsin.trim() &&
+        !isAmazonStoreOrAsin(values.storeOrAsin.trim())
+      ) {
+        return "Use an Amazon storefront URL, product link, or ASIN (B0…).";
+      }
       if (!values.marketplace) return "Select a marketplace focus.";
     }
     if (current === 4 && !values.monthlyRevenue) {
       return "Select your monthly Amazon revenue range.";
     }
     if (current === 5) {
-      if (values.phone.trim().length < 7) return "Enter a valid phone number.";
-      if (!values.consent) return "You must agree to the privacy policy.";
+      if (values.phone.trim().length < 7) {
+        return "Enter a phone number we can reach you on.";
+      }
+      if (!values.consent) {
+        return "Please confirm you agree to the privacy policy.";
+      }
     }
     return null;
   }
@@ -185,6 +197,7 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
             tabIndex={-1}
             autoComplete="off"
           />
+          <FormAttributionFields />
         </div>
 
         {/* Persist all values across steps for final submit */}
@@ -319,6 +332,9 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                 </Label>
                 <Input
                   id={`${formId}-store`}
+                  type="text"
+                  inputMode="url"
+                  autoComplete="url"
                   value={values.storeOrAsin}
                   onChange={(event) =>
                     setValues((prev) => ({
@@ -327,7 +343,7 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                     }))
                   }
                   className="mt-2 border-text-on-dark/30 bg-background text-text-primary"
-                  placeholder="https://www.amazon.com/stores/... or B0..."
+                  placeholder="amazon.com/stores/... or B0XXXXXXXXX"
                 />
               </div>
               <div>

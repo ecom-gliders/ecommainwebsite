@@ -44,10 +44,10 @@
         },
         {
           "name": "amazonStoreUrl",
-          "label": "Amazon storefront URL",
-          "type": "url",
+          "label": "Amazon storefront URL or ASIN",
+          "type": "text",
           "required": true,
-          "placeholder": "https://www.amazon.com/stores/..."
+          "placeholder": "amazon.com/stores/... or B0XXXXXXXXX"
         },
         {
           "name": "catalogSize",

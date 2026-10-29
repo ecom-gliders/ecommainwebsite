@@ -1,12 +1,19 @@
 import nodemailer from "nodemailer";
 import type SMTPTransport from "nodemailer/lib/smtp-transport";
 
+export interface SmtpMailAttachment {
+  filename: string;
+  path: string;
+  cid: string;
+}
+
 export interface SmtpMailInput {
   to: string[];
   subject: string;
   text: string;
   html: string;
   replyTo?: string;
+  attachments?: SmtpMailAttachment[];
 }
 
 function smtpConfigured(): boolean {
@@ -68,6 +75,16 @@ export async function sendSmtpEmail(input: SmtpMailInput): Promise<boolean> {
       text: input.text,
       html: input.html,
       ...(input.replyTo ? { replyTo: input.replyTo } : {}),
+      ...(input.attachments?.length
+        ? {
+            attachments: input.attachments.map((file) => ({
+              filename: file.filename,
+              path: file.path,
+              cid: file.cid,
+              contentDisposition: "inline" as const,
+            })),
+          }
+        : {}),
     });
 
     if (info.rejected && info.rejected.length > 0) {

@@ -17,20 +17,22 @@ const urlField = z
   );
 
 export const careerApplicationFormSchema = z.object({
-  name: z.string().min(2, "Enter your name."),
-  email: z.string().email("Enter a valid work email."),
-  phone: z.string().min(7, "Enter a phone number."),
+  name: z.string().min(2, "Enter your full name."),
+  email: z.string().email("Enter a valid email address."),
+  phone: z.string().min(7, "Enter a phone number we can reach you on."),
   role: z.enum(["brand-manager", "junior-ppc-specialist"], {
-    message: "Select a role.",
+    message: "Select the role you are applying for.",
   }),
   linkedinUrl: urlField,
   resumeUrl: urlField,
   amazonExperience: z.enum(["under-1", "1-2", "3-5", "5-plus"], {
     message: "Select your Amazon or ecommerce experience.",
   }),
-  fitNote: z.string().min(12, "Add a short note on your relevant Amazon experience."),
+  fitNote: z
+    .string()
+    .min(12, "Add a short note on your relevant Amazon experience."),
   consent: z.literal("true", {
-    message: "You must agree to the privacy policy.",
+    message: "Please confirm you agree to the privacy policy.",
   }),
   website: z.string().optional(),
 });

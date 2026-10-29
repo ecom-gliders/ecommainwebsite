@@ -194,8 +194,8 @@
   "form": {
     "heading": "Send the account",
     "submitLabel": "Request free audit",
-    "successMessage": "Got it. Someone from the team will reply within one business day.",
-    "errorMessage": "We could not submit the form. Check the fields and try again.",
+    "successMessage": "Thanks — your Free Audit details are in. A specialist will follow up within one business day.",
+    "errorMessage": "Please complete the required Free Audit fields and try again.",
     "consentLabel": "I agree to the privacy policy and being contacted about this audit.",
     "fields": [
       {
@@ -228,10 +228,10 @@
       },
       {
         "name": "amazonStoreUrl",
-        "label": "Amazon storefront URL",
-        "type": "url",
+        "label": "Amazon storefront URL or ASIN",
+        "type": "text",
         "required": true,
-        "placeholder": "https://www.amazon.com/stores/..."
+        "placeholder": "amazon.com/stores/... or B0XXXXXXXXX"
       },
       {
         "name": "monthlyRevenue",
@@ -281,7 +281,7 @@
   "funnel": {
     "booking": {
       "heading": "Book your strategy discussion",
-      "subheading": "Your audit request is in. Pick a time below — you stay in this window.",
+      "subheading": "Your Free Audit details are in. Pick a time below — you stay in this window.",
       "calendlyUrl": "https://calendly.com/ecomgliders-llc/amazon-strategy-discussion",
       "embedTitle": "Amazon strategy discussion calendar",
       "eyebrow": "Strategy discussion"

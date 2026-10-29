@@ -9,18 +9,23 @@
 import {
   buildTeamNotificationHtml,
   buildUserConfirmationHtml,
-  type FormNotificationType,
 } from "@/infrastructure/forms/form-email-templates";
 import { notifyDiscordFormSubmission } from "@/infrastructure/forms/discord-form-webhook";
+import {
+  getFormNotificationMeta,
+  normalizeFormType,
+  type AnyFormNotificationType,
+  type FormNotificationType,
+} from "@/infrastructure/forms/form-notification-meta";
 import {
   isSmtpReady,
   sendSmtpEmail,
 } from "@/infrastructure/forms/smtp-mailer";
 
-export type { FormNotificationType };
+export type { FormNotificationType, AnyFormNotificationType };
 
 interface FormNotificationPayload {
-  formType: FormNotificationType;
+  formType: AnyFormNotificationType;
   subject: string;
   fields: Record<string, string>;
 }
@@ -70,21 +75,25 @@ export async function notifyFormSubmission(
   mode: "email" | "discord" | "both" | "logged";
   channels: { email: boolean; discord: boolean };
 }> {
+  const formType = normalizeFormType(payload.formType);
+  const meta = getFormNotificationMeta(formType);
+  const normalized = { ...payload, formType };
   const to = teamInbox();
-  const team = buildTeamNotificationHtml(payload);
+  const team = buildTeamNotificationHtml(normalized);
   const submitterEmail = extractSubmitterEmail(payload.fields);
   const submitterName = extractSubmitterName(payload.fields);
   const smtpReady = isSmtpReady();
+  const emailSubject = `[eCom Gliders] ${meta.label}: ${payload.subject}`;
 
   // Always fire Discord + team email in parallel. Failures are isolated.
   const [discordOk, teamEmailOk] = await Promise.all([
-    settledOk(notifyDiscordFormSubmission(payload)),
+    settledOk(notifyDiscordFormSubmission(normalized)),
     settledOk(
       (async () => {
         if (!smtpReady) return false;
         return sendSmtpEmail({
           to: [to],
-          subject: `[eCom Gliders] ${payload.subject}`,
+          subject: emailSubject,
           text: team.text,
           html: team.html,
           replyTo: submitterEmail,
@@ -96,7 +105,7 @@ export async function notifyFormSubmission(
   // Confirmation to submitter — best effort; never gates team/discord success.
   if (smtpReady && submitterEmail) {
     const confirmation = buildUserConfirmationHtml({
-      formType: payload.formType,
+      formType,
       recipientName: submitterName,
     });
     void settledOk(
@@ -111,7 +120,8 @@ export async function notifyFormSubmission(
 
   if (!smtpReady) {
     console.info("[form-submission]", {
-      formType: payload.formType,
+      formType,
+      webhook: meta.webhook,
       subject: payload.subject,
       to,
       smtp: "not configured — set SMTP_USER + SMTP_PASS",

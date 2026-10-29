@@ -1,5 +1,7 @@
-## Latest (2026-10-29) — Sitewide responsive QA complete
+## Latest (2026-10-30) — Form page attribution in Discord + email
 
-Waves 0–7 done. Playwright overflow audit: 68 pages clean (mobile/tablet/laptop; home all 5 breakpoints). Fixed blog `pre`/`code` overflow + pre-footer newsletter mobile width. Evidence: `docs/qa/responsive-audit-2026-10-29.json`, `docs/qa/responsive-home-sections-2026-10-29.json`, `docs/qa/responsive-regression-2026-10-29.json`, `docs/qa/VERIFICATION-LOG.md`, screenshots under `docs/qa/screenshots/responsive-2026-10-29/`.
+Leads include **Submitted from** (full page URL), optional **Prior referrer**. Client `FormAttributionFields` on all site forms/funnels; server fallback via Referer. Discord embed title link opens that page.
 
-**Next:** Commit when requested.
+Evidence: `tsc --noEmit` clean.
+
+**Next:** Commit when requested. Smoke-submit Get in Touch from a service page and confirm Discord/email show the URL.
