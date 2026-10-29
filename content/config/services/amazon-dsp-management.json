@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Amazon DSP",
   "layout": "dspReachLattice",
   "hero": {
-    "title": "Amazon DSP when Sponsored Ads are ready",
-    "subtitle": "Reach and retargeting beside Sponsored Ads—only when Brand Registry and PPC are ready.",
+    "title": "Amazon DSP management for brand growth beyond Sponsored Ads",
+    "subtitle": "Reach and retargeting beside Sponsored Ads, only when Brand Registry and PPC are ready.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -413,8 +413,9 @@
   },
   "seo": {
     "metaTitle": "Amazon DSP Management Agency | eCom Gliders",
-    "metaDescription": "Amazon DSP management for upper-funnel reach and retargeting, aligned with Sponsored Ads and Amazon sales goals. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-dsp-management/",
+    "metaDescription": "Amazon DSP management agency for upper-funnel reach and retargeting, aligned with Sponsored Ads and Amazon sales goals. Free audit.",
+    "canonical": "/amazon-dsp-management/",
+    "ogImage": "/images/services/amazon-dsp-management-service.jpg",
     "robots": {
       "index": true,
       "follow": true

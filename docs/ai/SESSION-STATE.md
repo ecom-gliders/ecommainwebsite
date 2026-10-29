@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Reporting analytics SEO done
+## Latest (2026-10-30) — DSP management SEO done
 
-Completed through `/amazon-reporting-analytics/`.
+Completed through `/amazon-dsp-management/`.
 
-**Implemented:** H1 with reporting + analytics KW; meta “services”; ogImage; relative canonical; strip em dashes.
+**Implemented:** H1 with DSP management KW; meta “agency”; ogImage; relative canonical.
 
-**Next:** `/amazon-dsp-management/` (or Brand Registry / free-audit).
+**Next:** `/amazon-trademark-brand-registry/` (or company registration / free-audit).

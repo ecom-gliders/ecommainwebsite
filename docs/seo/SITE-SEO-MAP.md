@@ -356,19 +356,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon DSP agency, Amazon Demand-Side Platform, Amazon programmatic advertising |
 | Entity | eCom Gliders; Amazon DSP; Amazon Ads; Brand Registry; Sponsored Ads |
 | Title | Amazon DSP Management Agency \| eCom Gliders |
-| Meta description | Amazon DSP management for upper-funnel reach and retargeting, aligned with Sponsored Ads and Amazon sales goals. Free audit. |
+| Meta description | Amazon DSP management agency for upper-funnel reach and retargeting, aligned with Sponsored Ads and Amazon sales goals. Free audit. |
 | H1 | Amazon DSP management for brand growth beyond Sponsored Ads |
-| Canonical | https://ecomgliders.com/amazon-dsp-management/ |
+| Canonical | `/amazon-dsp-management/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets (DSP inventory varies by market) |
-| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-video-creative/, /full-service-amazon-agency/, /case-study-9/, /case-study-3/ |
-| AEO | FAQ covers what DSP is, Brand Registry, Sponsored Ads relation, budget, measurement, creative, marketplaces, getting started |
-| GEO | Amazon Ads Verified Partner; since 2018; 20+ in-house; 95% retention; $112M+ |
-| Claims source | No DSP-attributed case metrics in config. Results use advertising foundation cases (GoSports ACOS; VoltTech PPC recovery) with explicit full-funnel-readiness framing � Verified |
-| Competitors reviewed | Sequence DSP agency (2026-10-04); Canopy DSP page (2026-10-04); EG Sponsored Display blog as related backup |
+| OG image | `/images/services/amazon-dsp-management-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, PPC, video creative, full-service, case studies |
+| AEO | FAQ covers what DSP is, Brand Registry, Sponsored Ads relation, budget, measurement, creative |
+| GEO | Amazon Ads Verified Partner framing; no invented DSP ROAS |
 | Config | `content/config/services/amazon-dsp-management.json` |
-| Audit status | Implemented + Verified (B1, 2026-10-04) |
-| Notes | No dedicated WP DSP service HTML in backup. Did not claim AMC-as-standard or competitor min-spend/ROAS figures. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta “agency”; ogImage; relative canonical |
 
 ---
 

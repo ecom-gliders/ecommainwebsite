@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon DSP management SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| DSP hero H1 | Amazon DSP when Sponsored Ads are ready | Amazon DSP management for brand growth beyond Sponsored Ads | Primary KW in H1 | yes |
+| DSP metaDescription | Amazon DSP management for… | Amazon DSP management agency for… | Agency intent | yes |
+| DSP canonical | Absolute URL | `/amazon-dsp-management/` | absoluteUrl consistency | yes |
+| DSP ogImage | (missing) | amazon-dsp-management-service.jpg | OG was null | yes |
+| DSP subtitle | Ads—only when | Ads, only when | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon reporting analytics SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
