@@ -2,7 +2,7 @@
   "slug": "product-catalog",
   "badge": "Catalog",
   "hero": {
-    "title": "Product catalog",
+    "title": "Product catalog for Amazon sellers",
     "subtitle": "Save SKU, HSN, GST rate, and costs locally in your browser for reuse across tools."
   },
   "intro": "Catalog data is stored in this browser only via localStorage. Export CSV for backup. Clearing site data removes the catalog.",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Product Catalog | Free Tool | eCom Gliders",
-    "metaDescription": "Browser-local product catalog for Amazon sellers. Store SKU, HSN, GST rate, and costs.",
+    "metaTitle": "Product Catalog for Amazon Sellers | Free Tool | eCom Gliders",
+    "metaDescription": "Product catalog for Amazon sellers. Store SKU, HSN, GST rate, and costs in your browser for reuse across tools. Export CSV. Free. No account required.",
     "canonical": "/free-amazon-tools/product-catalog/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

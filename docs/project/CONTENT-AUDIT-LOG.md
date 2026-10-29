@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Product catalog tool SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Catalog hero H1 | Product catalog | Product catalog for Amazon sellers | Audience + KW | yes |
+| Catalog metaTitle | Product Catalog \| Free Tool \| … | Product Catalog for Amazon Sellers \| … | Amazon seller intent | yes |
+| Catalog metaDescription | 86 chars | Expanded with reuse/CSV/Free | Meta length | yes |
+| Catalog ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Invoice generator SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

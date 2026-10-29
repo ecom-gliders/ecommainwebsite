@@ -868,11 +868,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Not tax/legal advice; print via browser |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; H1/title KW align; meta length; ogImage |
 
+### Free tool: Product catalog
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/product-catalog/ |
+| Purpose | Browser-local SKU catalog for reuse across free Amazon tools |
+| Audience | Amazon sellers keeping HSN, GST, and COGS handy for calculators |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Product catalog for Amazon sellers |
+| Secondary keywords | Amazon product catalog tool, SKU catalog browser, HSN GST catalog |
+| Entity | eCom Gliders; SKU; HSN; GST; localStorage catalog |
+| Title | Product Catalog for Amazon Sellers \| Free Tool \| eCom Gliders |
+| Meta description | Product catalog for Amazon sellers. Store SKU, HSN, GST rate, and costs in your browser for reuse across tools. Export CSV. Free. No account required. |
+| H1 | Product catalog for Amazon sellers |
+| Canonical | `/free-amazon-tools/product-catalog/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/product-catalog.json` |
+| Notes | Data stays in browser localStorage only |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon-seller KW; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/product-catalog/`
 - `/free-amazon-tools/label-invoice-splitter/`
 - `/free-amazon-tools/dispatch-check/`
 - `/free-amazon-tools/sku-profitability-leaderboard/`
