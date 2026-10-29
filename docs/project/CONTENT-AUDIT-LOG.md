@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon inventory management SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Inventory metaDescription | Amazon inventory management for… | Amazon inventory management services for… | Services intent | yes |
+| Inventory canonical | Absolute URL | `/amazon-inventory-management/` | absoluteUrl consistency | yes |
+| Inventory ogImage | (missing) | inv-close-pack.jpg | OG was null | yes |
+| Inventory body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon product launch services SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

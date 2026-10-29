@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Product launch SEO done
+## Latest (2026-10-30) — Inventory management SEO done
 
-Completed through `/amazon-product-launch-services/`.
+Completed through `/amazon-inventory-management/`.
 
-**Implemented:** SITE-SEO-MAP row; ogImage; relative canonical; strip em dashes; H1 already KW-aligned.
+**Implemented:** SITE-SEO-MAP row; meta “services”; ogImage; relative canonical; strip em dashes.
 
-**Next:** `/amazon-inventory-management/` (or Seller Central / account ops / free-audit).
+**Next:** `/amazon-seller-central-services/` (or account ops / account health / free-audit).

@@ -206,14 +206,14 @@
       },
       {
         "title": "No invented stockout savings",
-        "description": "We report process and verified account outcomes—not fabricated inventory ROI."
+        "description": "We report process and verified account outcomes, not fabricated inventory ROI."
       }
     ]
   },
   "opsLanes": {
     "heading": "Inventory issues we close with advertising and ops",
     "subheading": "Stock work is not a separate spreadsheet. Coverage, inbound, and spend decisions share one board.",
-    "note": "Scope is set during the free audit. Outcomes depend on supplier lead times, FBA capacity, and demand—not a fixed stockout guarantee.",
+    "note": "Scope is set during the free audit. Outcomes depend on supplier lead times, FBA capacity, and demand, not a fixed stockout guarantee.",
     "lanes": [
       {
         "title": "Ads into stockouts",
@@ -333,7 +333,7 @@
       {
         "metric": "76% to 37%",
         "brand": "VoltTech",
-        "description": "ACoS cut while ad spend fell 32% across US and UK—efficiency work that depends on buyable inventory.",
+        "description": "ACoS cut while ad spend fell 32% across US and UK, efficiency work that depends on buyable inventory.",
         "href": "/case-study-3/",
         "image": "/images/cases/case-study-3.png",
         "imageAlt": "VoltTech accessories from the Amazon PPC case study"
@@ -400,8 +400,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Inventory Management Services | eCom Gliders",
-    "metaDescription": "Amazon inventory management for FBA stock signals, restock follow-through, and launch timing tied to advertising demand. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-inventory-management/",
+    "metaDescription": "Amazon inventory management services for FBA stock signals, restock follow-through, and launch timing tied to advertising demand. Free audit.",
+    "canonical": "/amazon-inventory-management/",
+    "ogImage": "/images/services/amazon-inventory-management/inv-close-pack.jpg",
     "robots": {
       "index": true,
       "follow": true

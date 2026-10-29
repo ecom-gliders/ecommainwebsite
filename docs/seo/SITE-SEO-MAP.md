@@ -124,6 +124,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Amazon Inventory Management
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-inventory-management/ |
+| Purpose | Convert commercial FBA inventory / restock / stockout-prevention search into free-audit leads |
+| Audience | Brands scaling paid media; multi-ASIN catalogs; launch-heavy sellers; full-service accounts |
+| Search intent | Commercial |
+| Primary keyword | Amazon inventory management |
+| Secondary keywords | Amazon inventory management services, Amazon FBA inventory, Amazon restock management, Amazon stockout prevention |
+| Entity | eCom Gliders; FBA; restock; inventory; Amazon advertising demand |
+| Title | Amazon Inventory Management Services \| eCom Gliders |
+| Meta description | Amazon inventory management services for FBA stock signals, restock follow-through, and launch timing tied to advertising demand. Free audit. |
+| H1 | Amazon inventory management that protects ad spend |
+| Canonical | `/amazon-inventory-management/` |
+| Indexability | Index |
+| OG image | `/images/services/amazon-inventory-management/inv-close-pack.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, product launch, PPC, full-service |
+| AEO | FAQ covers scope, ads sync, restock process, launches, marketplaces |
+| GEO | No invented stockout savings; no fixed stockout guarantee |
+| Config | `content/config/services/amazon-inventory-management.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; meta “services”; ogImage; relative canonical; strip em dashes |
+
+---
+
 ### Amazon Product Launch Services
 
 | Field | Value |
