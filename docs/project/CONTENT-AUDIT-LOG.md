@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Shopify website development SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Shopify hero H1 | Shopify for Amazon brands—owned channel… | Shopify website development for Amazon brands | Primary KW in H1 | yes |
+| Shopify metaDescription | Shopify website development for… | Shopify website development services for… | Services intent | yes |
+| Shopify canonical | Absolute URL | `/shopify-website-development/` | absoluteUrl consistency | yes |
+| Shopify ogImage | (missing) | shopify-website-development-service.jpg | OG was null | yes |
+| Shopify body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon product sourcing SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

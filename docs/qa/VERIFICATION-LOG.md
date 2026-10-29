@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Shopify website development SEO pass
+
+**Task:** Master-prompt pass `/shopify-website-development/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 KW align; meta “services”; ogImage; relative canonical; strip em dashes  
+**VERIFIED (Playwright preview before commit):** H1 KW-weak with em dash; og:image null; Service+FAQPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/tiktok-shop-ads/` or email retention / free-audit
+
+---
+
 ## 2026-10-30 — Amazon product sourcing SEO pass
 
 **Task:** Master-prompt pass `/amazon-product-sourcing/`  

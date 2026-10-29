@@ -192,19 +192,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Shopify for Amazon brands, Shopify DTC storefront, Shopify store development, Amazon to Shopify |
 | Entity | eCom Gliders; Shopify; DTC; Amazon brands; owned channel |
 | Title | Shopify Website Development for Amazon Brands \| eCom Gliders |
-| Meta description | Shopify website development for Amazon brands. Owned-channel storefronts that complement marketplace growth. Free audit. |
+| Meta description | Shopify website development services for Amazon brands. Owned-channel storefronts that complement marketplace growth. Free audit. |
 | H1 | Shopify website development for Amazon brands |
-| Canonical | https://ecomgliders.com/shopify-website-development/ |
+| Canonical | `/shopify-website-development/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; Shopify scope separate) |
-| Internal links | /free-audit/, /email-retention-marketing/, /full-service-amazon-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers not replacing Amazon, rebuilds, content alignment, plans, ongoing updates, email, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No Shopify CVR invent. Results use brand-channel growth cases (case-study-9 310%; case-study-1 73%) with complementary framing � Verified |
-| Competitors reviewed | Velocity Sellers Shopify DTC (2026-10-04); Krolog Grow on Shopify (2026-10-04 Observed); EG services-2 Website Development + WooCommerce vs Shopify blog (Verified backup) |
+| OG image | `/images/services/shopify-website-development-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, email retention, full-service, visual creativity, case studies |
+| AEO | FAQ covers not replacing Amazon, rebuilds, content alignment, plans, email |
+| GEO | Complementary to Amazon; no invented Shopify CVR |
 | Config | `content/config/services/shopify-website-development.json` |
-| Audit status | Implemented + Verified (D1, 2026-10-04) |
-| Notes | Dedicated WP slug HTML not found; services-2 #s-6 Website Development used as backup. No competitor 27% CVR / Shop Pay 50% / pricing tiers copied. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta “services”; ogImage; relative canonical; strip em dashes |
 
 ---
 

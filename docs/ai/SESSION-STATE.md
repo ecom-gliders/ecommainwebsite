@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Product sourcing SEO done
+## Latest (2026-10-30) — Shopify SEO done
 
-Completed through `/amazon-product-sourcing/`.
+Completed through `/shopify-website-development/`.
 
-**Implemented:** meta “services”; ogImage; relative canonical; strip em dashes; H1 already KW-aligned.
+**Implemented:** H1 with primary KW; meta “services”; ogImage; relative canonical; strip em dashes.
 
-**Next:** `/shopify-website-development/` (or TikTok / email retention / free-audit).
+**Next:** `/tiktok-shop-ads/` (or email retention / free-audit).

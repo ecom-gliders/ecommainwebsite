@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Shopify Development",
   "layout": "dtcStorefrontRail",
   "hero": {
-    "title": "Shopify for Amazon brands—owned channel, not a rival",
-    "subtitle": "Conversion-focused storefronts that extend brand proof beyond the marketplace. Complementary to Amazon growth—not a replacement.",
+    "title": "Shopify website development for Amazon brands",
+    "subtitle": "Conversion-focused storefronts that extend brand proof beyond the marketplace. Complementary to Amazon growth, not a replacement.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -214,7 +214,7 @@
       "id": "amazon-shopify-sync-board",
       "type": "catalogHealthBoard",
       "heading": "Amazon and Shopify channel sheet",
-      "subheading": "Channel jobs in one browser board—owned site complements Amazon; it does not replace Seller Central. Pure Shopify CRO shops often ignore these edges.",
+      "subheading": "Channel jobs in one browser board. Owned site complements Amazon; it does not replace Seller Central. Pure Shopify CRO shops often ignore these edges.",
       "urlLabel": "channels.ecomgliders.com/amazon-shopify",
       "boardLabel": "Channel ops",
       "disclaimer": "Illustrative ops map. Inventory, price, and content sync depend on your apps and operations. Not a GMV or CVR promise. Shopify is not an Amazon replacement.",
@@ -288,7 +288,7 @@
       "id": "shopify-build-stamps",
       "type": "brandPathwayBoard",
       "heading": "Build milestones for Amazon-brand storefronts",
-      "subheading": "Structure before theme polish—lean apps only.",
+      "subheading": "Structure before theme polish. Lean apps only.",
       "urlLabel": "Build path",
       "disclaimer": "Typical milestones. Exact plan and apps confirmed during scoping.",
       "stages": [
@@ -319,7 +319,7 @@
       "id": "storefront-scope-grid",
       "type": "brandUnlockGrid",
       "heading": "Storefront scope sheet",
-      "subheading": "Typical Amazon-brand DTC scope from our Shopify vs WooCommerce guidance—exact line items depend on store status.",
+      "subheading": "Typical Amazon-brand DTC scope from our Shopify vs WooCommerce guidance. Exact line items depend on store status.",
       "note": "Scope and app stack confirmed in the free audit. No invented conversion-rate claims.",
       "sheetLabel": "shopify · scope sheet",
       "items": [
@@ -343,7 +343,7 @@
         },
         {
           "title": "Heavy app / script stack",
-          "description": "Optional only when operations require it—default is lean to protect checkout speed.",
+          "description": "Optional only when operations require it. Default is lean to protect checkout speed.",
           "unlocked": false,
           "statusLabel": "Scoped only if needed"
         },
@@ -362,13 +362,13 @@
       {
         "metric": "310% sales increase",
         "brand": "GoSports (Sports and Outdoors)",
-        "description": "Amazon listing, creative, and ads grew monthly revenue from $22.1K to $90.7K — the brand base a Shopify site can extend.",
+        "description": "Amazon listing, creative, and ads grew monthly revenue from $22.1K to $90.7K, the brand base a Shopify site can extend.",
         "href": "/case-study-9/"
       },
       {
         "metric": "73% sales growth",
         "brand": "Kitchen brand",
-        "description": "Catalog, listing, and PPC growth while channel foundations improved — not from a storefront rebuild alone.",
+        "description": "Catalog, listing, and PPC growth while channel foundations improved, not from a storefront rebuild alone.",
         "href": "/case-study-1/"
       }
     ]
@@ -429,7 +429,7 @@
   ],
   "cta": {
     "heading": "Request a Shopify project consult",
-    "subheading": "Share store status and goals. We outline channel fit and build scope—no invented conversion rates.",
+    "subheading": "Share store status and goals. We outline channel fit and build scope. No invented conversion rates.",
     "button": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -437,8 +437,9 @@
   },
   "seo": {
     "metaTitle": "Shopify Website Development for Amazon Brands | eCom Gliders",
-    "metaDescription": "Shopify website development for Amazon brands. Owned-channel storefronts that complement marketplace growth. Free audit.",
-    "canonical": "https://ecomgliders.com/shopify-website-development/",
+    "metaDescription": "Shopify website development services for Amazon brands. Owned-channel storefronts that complement marketplace growth. Free audit.",
+    "canonical": "/shopify-website-development/",
+    "ogImage": "/images/services/shopify-website-development-service.jpg",
     "robots": {
       "index": true,
       "follow": true
