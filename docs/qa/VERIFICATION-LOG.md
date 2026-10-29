@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon FBA fee calculator SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/amazon-fba-fee-profit-calculator/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** Title primary KW; shorter meta; ogImage (H1 already KW-aligned; canonical already relative)  
+**VERIFIED (Playwright preview before commit):** H1 OK; title 63; meta 163; og:image null; WebApplication+WebPage+BreadcrumbList+HowTo OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; optional dedicated tool OG asset  
+**NEXT ACTION:** `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/` or case studies
+
+---
+
 ## 2026-10-30 — Free Amazon Tools directory SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/`  

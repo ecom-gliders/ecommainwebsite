@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon FBA fee calculator SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| FBA tool metaTitle | Amazon FBA Fee and Profit Calculator \| Free Tool \| … | Amazon FBA Fee Calculator \| Free Tool \| … | Primary KW; shorter title | yes |
+| FBA tool metaDescription | Free Amazon FBA fee and profit calculator. Enter… | Amazon FBA fee calculator for profit and margin… | Primary KW lead; length | yes |
+| FBA tool ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+| FBA tool canonical | Already relative | Kept `/free-amazon-tools/amazon-fba-fee-profit-calculator/` | Consistency | yes |
+
+---
+
 ## 2026-10-30 — Free Amazon Tools directory SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

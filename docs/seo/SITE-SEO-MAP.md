@@ -767,17 +767,20 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 |-------|-------|
 | URL | https://ecomgliders.com/free-amazon-tools/amazon-fba-fee-profit-calculator/ |
 | Purpose | Interactive FBA unit-economics calculator; all fees seller-entered (no invented Amazon fee schedule) |
+| Audience | Sellers modeling FBA unit profit before launch or repricing |
 | Search intent | Informational / commercial investigation |
 | Primary keyword | Amazon FBA fee calculator |
 | Secondary keywords | FBA profit calculator, Amazon FBA margin calculator |
-| Title | Amazon FBA Fee and Profit Calculator \| Free Tool \| eCom Gliders |
-| Meta description | Free Amazon FBA fee and profit calculator. Enter sale price, COGS, referral fee, FBA fulfillment, and other costs to estimate profit, margin, and break-even price. |
+| Entity | eCom Gliders; Amazon FBA; referral fee; Seller Central fee estimates |
+| Title | Amazon FBA Fee Calculator \| Free Tool \| eCom Gliders |
+| Meta description | Amazon FBA fee calculator for profit and margin. Enter sale price, COGS, referral, and FBA fulfillment. Free browser tool. No account required. |
 | H1 | Amazon FBA fee and profit calculator |
-| Canonical | https://ecomgliders.com/free-amazon-tools/amazon-fba-fee-profit-calculator/ |
+| Canonical | `/free-amazon-tools/amazon-fba-fee-profit-calculator/` |
 | Indexability | Index, follow |
-| Schema | WebApplication, WebPage, BreadcrumbList, HowTo |
-| Content blocks | Instructions, assumptions/limits, result tips |
-| Audit status | Implemented (2026-10-29) |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList + HowTo — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/amazon-fba-fee-profit-calculator.json` |
+| Audit status | Re-optimized 2026-10-30 — title primary KW; shorter meta; ogImage; relative canonical |
 
 ### Free tool: PPC conversion cost calculator
 

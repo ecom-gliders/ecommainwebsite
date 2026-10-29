@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Free Amazon Tools directory SEO done
+## Latest (2026-10-30) — FBA fee calculator SEO done
 
-Completed `/free-amazon-tools/` hub.
+Completed `/free-amazon-tools/amazon-fba-fee-profit-calculator/`.
 
-**Implemented:** Shorter title/meta; H1 “Free Amazon tools for sellers”; ogImage; strip em dashes.
+**Implemented:** Title led with “Amazon FBA Fee Calculator”; shorter meta; ogImage.
 
-**Next:** First tool page `/free-amazon-tools/amazon-fba-fee-profit-calculator/` or case studies.
+**Next:** `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/` or case studies hub.
