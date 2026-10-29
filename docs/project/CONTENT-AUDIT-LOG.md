@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon company registration SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Company metaDescription | US company registration support for… | US company registration services for… | Services intent | yes |
+| Company canonical | Absolute URL | `/amazon-company-registration/` | absoluteUrl consistency | yes |
+| Company ogImage | (missing) | amazon-company-registration-service.jpg | OG was null | yes |
+| Company gates subheading | verification—requirements | verification. Requirements | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon Brand Registry SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

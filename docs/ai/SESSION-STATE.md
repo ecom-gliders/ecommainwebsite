@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Brand Registry SEO done
+## Latest (2026-10-30) — Company registration SEO done
 
-Completed through `/amazon-trademark-brand-registry/`.
+Completed through `/amazon-company-registration/`.
 
-**Implemented:** H1 with Amazon Brand Registry KW; meta “services”; ogImage; relative canonical.
+**Implemented:** meta “services”; ogImage; relative canonical; H1 already KW-aligned.
 
-**Next:** `/amazon-company-registration/` (or product sourcing / free-audit).
+**Next:** `/amazon-product-sourcing/` (or Shopify / TikTok / free-audit).

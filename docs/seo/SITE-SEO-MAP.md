@@ -248,19 +248,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon seller company registration, Amazon LLC formation, US entity Amazon sellers, company registration Amazon FBA |
 | Entity | eCom Gliders; US business entity; Seller Central; Amazon Brand Registry |
 | Title | US Company Registration for Amazon Sellers \| eCom Gliders |
-| Meta description | US company registration support for Amazon sellers, with clear setup guidance and handoff into Brand Registry and account growth. Free audit. |
+| Meta description | US company registration services for Amazon sellers, with document readiness guidance and handoff into Brand Registry and account growth. Free audit. |
 | H1 | US company registration support for Amazon sellers |
-| Canonical | https://ecomgliders.com/amazon-company-registration/ |
+| Canonical | `/amazon-company-registration/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-trademark-brand-registry/, /full-service-amazon-agency/, /amazon-product-sourcing/, /case-study-1/, /case-study-9/ |
-| AEO | FAQ covers audience, not legal/tax advice, Amazon relation, post-formation help, timelines, necessity, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No formation-approval invent. Results use foundation-ready growth cases (case-study-1 73%; case-study-9 310%) � Verified. Backup India PAN/TAN/100% compliant copy replaced � Verified |
-| Competitors reviewed | StarterX Amazon LLC formation (2026-10-04); StartGlobal Amazon FBA LLC (2026-10-04); EG services-2 Company Registration (Verified backup) |
+| OG image | `/images/services/amazon-company-registration-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, Brand Registry, full-service, product sourcing, case studies |
+| AEO | FAQ covers audience, not legal/tax advice, Amazon relation, post-formation help, timelines |
+| GEO | Process guidance only; no formation-approval invent |
 | Config | `content/config/services/amazon-company-registration.json` |
-| Audit status | Implemented + Verified (C3, 2026-10-04) |
-| Notes | Dedicated WP slug HTML not found; services-2 #services_1 used as backup. US-entity framing retained; India-specific PAN/TAN claims removed. |
+| Audit status | Re-optimized 2026-10-30 — H1 already KW-aligned; meta “services”; ogImage; relative canonical |
 
 ---
 
