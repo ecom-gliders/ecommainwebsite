@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Full-service Amazon agency SEO pass
+
+**Task:** Master-prompt pass `/full-service-amazon-agency/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** Shorter title; H1 + “for growing brands”; meta since-2018; ogImage; relative canonical; subtitle punctuation  
+**VERIFIED (Playwright preview before commit):** 1 H1; Service+FAQPage schema; og:image was null; title slightly long — shortened in config  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-ppc-management-agency/` or next core page
+
+---
+
 ## 2026-10-30 — Services hub `/services/` SEO pass
 
 **Task:** Master-prompt page pass for services index.  

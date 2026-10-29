@@ -15,6 +15,19 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Full-service Amazon agency SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Full-service hero H1 | Full-service Amazon account management | …for growing brands | Align secondary KW + SITE-SEO-MAP | yes |
+| Full-service metaTitle | …\| Account Management \| eCom Gliders | Full Service Amazon Agency \| eCom Gliders | Under ~60 chars; primary KW | yes |
+| Full-service metaDescription | …95% client retention. Free audit. | …since 2018. 95% retention. Free audit. | Verified claim + cleaner | yes |
+| Full-service canonical | Absolute URL | `/full-service-amazon-agency/` | absoluteUrl helper consistency | yes |
+| Full-service ogImage | (missing) | amazon-account-management-service.jpg | OG was null | yes |
+| Hero subtitle | em-dash connector | Comma connector | Prefer plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Services hub SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

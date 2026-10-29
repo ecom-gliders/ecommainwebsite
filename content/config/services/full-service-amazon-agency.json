@@ -86,8 +86,8 @@
     }
   },
   "hero": {
-    "title": "Full-service Amazon account management",
-    "subtitle": "PPC, listings, catalog health, and Seller Central operations under one accountable team—so media, conversion, and inventory stay aligned.",
+    "title": "Full-service Amazon account management for growing brands",
+    "subtitle": "PPC, listings, catalog health, and Seller Central operations under one accountable team, so media, conversion, and inventory stay aligned.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -580,9 +580,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Full Service Amazon Agency | Account Management | eCom Gliders",
-    "metaDescription": "Full-service Amazon agency for account management, PPC, listing optimization, content, and catalog management. 95% client retention. Free audit.",
-    "canonical": "https://ecomgliders.com/full-service-amazon-agency/",
+    "metaTitle": "Full Service Amazon Agency | eCom Gliders",
+    "metaDescription": "Full service Amazon agency for account management, PPC, listings, content, and catalog health. Helping sellers since 2018. 95% retention. Free audit.",
+    "canonical": "/full-service-amazon-agency/",
+    "ogImage": "/images/services/amazon-account-management-service.jpg",
     "robots": {
       "index": true,
       "follow": true

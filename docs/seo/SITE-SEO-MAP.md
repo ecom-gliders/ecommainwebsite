@@ -500,19 +500,18 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Full service Amazon agency |
 | Secondary keywords | Amazon account management agency, Amazon account management services, Amazon full account management |
 | Entity | eCom Gliders; Amazon Seller Central; Amazon PPC; Amazon Ads Verified Partner |
-| Title | Full Service Amazon Agency \| Account Management \| eCom Gliders |
-| Meta description | Full-service Amazon agency for account management, PPC, listing optimization, content, and catalog management. 95% client retention. Free audit. |
+| Title | Full Service Amazon Agency \| eCom Gliders |
+| Meta description | Full service Amazon agency for account management, PPC, listings, content, and catalog health. Helping sellers since 2018. 95% retention. Free audit. |
 | H1 | Full-service Amazon account management for growing brands |
-| Canonical | https://ecomgliders.com/full-service-amazon-agency/ |
+| Canonical | `/full-service-amazon-agency/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-listing-optimization/, /amazon-reporting-analytics/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers scope, ownership, PPC vs full-service, marketplaces, pricing, getting started |
-| GEO | Consistent claims: since 2018, 20+ in-house, 95% retention, $112M+ revenue managed |
-| Claims source | Homepage FAQ + case-studies.json (GoSports 310%, Kitchen 73%) � Verified in config |
-| Competitors reviewed | Canopy full-service AM (2026-10-04); Sequence Commerce Amazon (2026-10-04); backup WP page |
+| OG image | `/images/services/amazon-account-management-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, related services rail, case studies |
+| AEO | FAQ covers scope, ownership, PPC vs full-service, marketplaces, getting started |
+| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
 | Config | `content/config/services/full-service-amazon-agency.json` |
-| Audit status | Implemented + Verified (A1, 2026-10-04) |
+| Audit status | Re-optimized 2026-10-30 — shorter title, H1 secondary KW, ogImage, relative canonical |
 
 ---
 
