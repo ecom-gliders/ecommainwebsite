@@ -124,6 +124,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 
 ---
 
+### Amazon Seller Central Services
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-seller-central-services/ |
+| Purpose | Convert commercial Seller Central ops / day-to-day ownership search into free-audit leads |
+| Audience | Founders without ops bench; ticket chaos; PPC-led teams missing ops; full-service clients |
+| Search intent | Commercial |
+| Primary keyword | Amazon Seller Central services |
+| Secondary keywords | Amazon Seller Central management, Amazon seller account ops, Amazon promotions management, Seller Central case management |
+| Entity | eCom Gliders; Seller Central; cases; promotions; listing ops |
+| Title | Amazon Seller Central Services \| eCom Gliders |
+| Meta description | Amazon Seller Central services for cases, promotions, listing ops tasks, and day-to-day account ownership. You keep the account. Free audit. |
+| H1 | Amazon Seller Central services for day-to-day ownership |
+| Canonical | `/amazon-seller-central-services/` |
+| Indexability | Index |
+| OG image | `/images/services/amazon-seller-central-services/sc-hero-ops.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, full-service, account health, account operations |
+| AEO | FAQ covers ownership, cases, promotions, vs full-service, marketplaces |
+| GEO | You keep account ownership; no ownership-transfer myths |
+| Config | `content/config/services/amazon-seller-central-services.json` |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; ogImage; relative canonical; strip em dashes |
+
+---
+
 ### Amazon Inventory Management
 
 | Field | Value |

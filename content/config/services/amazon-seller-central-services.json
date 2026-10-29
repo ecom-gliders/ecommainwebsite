@@ -4,7 +4,7 @@
   "layout": "sellerCentralConsole",
   "hero": {
     "title": "Amazon Seller Central services for day-to-day ownership",
-    "subtitle": "Structured handling of account tasks, cases, promotions, and operational requests—so Seller Central work keeps moving between audits.",
+    "subtitle": "Structured handling of account tasks, cases, promotions, and operational requests, so Seller Central work keeps moving between audits.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -194,7 +194,7 @@
     "points": [
       {
         "title": "Ops connected to growth work",
-        "description": "Seller Central tasks sit beside PPC and listing priorities—not as a separate ticket dump."
+        "description": "Seller Central tasks sit beside PPC and listing priorities, not as a separate ticket dump."
       },
       {
         "title": "In-house specialists",
@@ -231,7 +231,7 @@
         "title": "Audit gaps between weeks",
         "issue": "Strategy calls end without a queue for day-to-day Seller Central work.",
         "fix": "Maintain an agreed task list with completion notes each operating week.",
-        "verify": "Reviews show completed ops work—not only high-level metrics."
+        "verify": "Reviews show completed ops work, not only high-level metrics."
       }
     ]
   },
@@ -264,7 +264,7 @@
       "id": "seller-central-weekly-board",
       "type": "catalogHealthBoard",
       "heading": "Weekly Seller Central ownership board",
-      "subheading": "Cases, listing tasks, and promotions with clear owners—not a ticket dump.",
+      "subheading": "Cases, listing tasks, and promotions with clear owners, not a ticket dump.",
       "urlLabel": "account.ecomgliders.com/seller-central",
       "disclaimer": "Illustrative weekly board. Exact task scope is set during onboarding.",
       "columns": [
@@ -401,7 +401,8 @@
   "seo": {
     "metaTitle": "Amazon Seller Central Services | eCom Gliders",
     "metaDescription": "Amazon Seller Central services for cases, promotions, listing ops tasks, and day-to-day account ownership. You keep the account. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-seller-central-services/",
+    "canonical": "/amazon-seller-central-services/",
+    "ogImage": "/images/services/amazon-seller-central-services/sc-hero-ops.jpg",
     "robots": {
       "index": true,
       "follow": true

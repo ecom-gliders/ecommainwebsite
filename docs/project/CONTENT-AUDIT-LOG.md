@@ -15,6 +15,16 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon Seller Central services SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Seller Central canonical | Absolute URL | `/amazon-seller-central-services/` | absoluteUrl consistency | yes |
+| Seller Central ogImage | (missing) | sc-hero-ops.jpg | OG was null | yes |
+| Seller Central body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Amazon inventory management SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon Seller Central services SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-central-services/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; ogImage; relative canonical; strip em dashes (H1/meta already KW-aligned)  
+**VERIFIED (Playwright preview before commit):** H1 OK; og:image null; Service+FAQPage OK; em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-account-operations/` or account health / free-audit
+
+---
+
 ## 2026-10-30 — Amazon inventory management SEO pass
 
 **Task:** Master-prompt pass `/amazon-inventory-management/`  
