@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Shopify SEO done
+## Latest (2026-10-30) — TikTok Shop ads SEO done
 
-Completed through `/shopify-website-development/`.
+Completed through `/tiktok-shop-ads/`.
 
-**Implemented:** H1 with primary KW; meta “services”; ogImage; relative canonical; strip em dashes.
+**Implemented:** H1 with primary KW; ogImage; relative canonical; strip em dashes.
 
-**Next:** `/tiktok-shop-ads/` (or email retention / free-audit).
+**Next:** `/email-retention-marketing/` (or product launch / free-audit).

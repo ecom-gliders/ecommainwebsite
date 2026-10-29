@@ -3,7 +3,7 @@
   "breadcrumbLabel": "TikTok Shop Ads",
   "layout": "tiktokSparkRail",
   "hero": {
-    "title": "TikTok Shop ads beside Amazon—not instead of it",
+    "title": "TikTok Shop ads for Amazon-led brands",
     "subtitle": "Short-form Shop ads for Amazon-led brands: creative before scale, clear SKU role, insights handed back to Amazon. No invented GMV, ROAS, or creator-network headcount claims.",
     "cta": {
       "label": "Request a free audit",
@@ -255,7 +255,7 @@
         "title": "Budget before creative learning",
         "issue": "Spend scales on one or two weak hooks with shallow testing.",
         "fix": "Hold scale until structured hook and offer tests show a clear winner set.",
-        "verify": "Scale decisions cite creative and SKU evidence—not spend alone."
+        "verify": "Scale decisions cite creative and SKU evidence, not spend alone."
       }
     ]
   },
@@ -264,7 +264,7 @@
       "id": "tiktok-fit-board",
       "type": "catalogHealthBoard",
       "heading": "TikTok Shop fit board",
-      "subheading": "Complementary Shop tests only—Amazon stays primary. GMV Max mills often skip these gates.",
+      "subheading": "Complementary Shop tests only. Amazon stays primary. GMV Max mills often skip these gates.",
       "urlLabel": "tiktok.ecomgliders.com/fit",
       "disclaimer": "Illustrative fit check. TikTok Shop eligibility and ad inventory vary by region. No invented GMV or ROAS guarantees.",
       "columns": [
@@ -330,7 +330,7 @@
       "id": "tiktok-scale-chart",
       "type": "metricChart",
       "heading": "Creative-before-scale focus",
-      "subheading": "Relative focus before budget scale—Amazon case metrics below are foundations, not TikTok attribution.",
+      "subheading": "Relative focus before budget scale. Amazon case metrics below are foundations, not TikTok attribution.",
       "chartLabel": "Relative focus (index)",
       "points": [
         {
@@ -364,7 +364,7 @@
       {
         "metric": "ACOS 52% to 26.5%",
         "brand": "GoSports (Sports and Outdoors)",
-        "description": "PPC restructuring and listing improvements cut ACOS while monthly revenue grew from $22.1K to $90.7K—the discipline complementary Shop tests should support. Not a TikTok-attributed result.",
+        "description": "PPC restructuring and listing improvements cut ACOS while monthly revenue grew from $22.1K to $90.7K, the discipline complementary Shop tests should support. Not a TikTok-attributed result.",
         "href": "/case-study-9/"
       },
       {
@@ -440,7 +440,8 @@
   "seo": {
     "metaTitle": "TikTok Shop Ads for Amazon Brands | eCom Gliders",
     "metaDescription": "TikTok Shop ads management for Amazon-led brands. Complementary product discovery without replacing marketplace growth. Free audit.",
-    "canonical": "https://ecomgliders.com/tiktok-shop-ads/",
+    "canonical": "/tiktok-shop-ads/",
+    "ogImage": "/images/services/tiktok-shop-ads-service.jpg",
     "robots": {
       "index": true,
       "follow": true

@@ -166,17 +166,15 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Title | TikTok Shop Ads for Amazon Brands \| eCom Gliders |
 | Meta description | TikTok Shop ads management for Amazon-led brands. Complementary product discovery without replacing marketplace growth. Free audit. |
 | H1 | TikTok Shop ads for Amazon-led brands |
-| Canonical | https://ecomgliders.com/tiktok-shop-ads/ |
+| Canonical | `/tiktok-shop-ads/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets (Amazon client markets; TikTok Shop eligibility varies) |
-| Internal links | /free-audit/, /amazon-ppc-management-agency/, /amazon-video-creative/, /shopify-website-development/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers not replacing Amazon, SKU fit, creative, timing, measurement, Amazon insight handoff, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No TikTok ROAS/GMV invent. Results use advertising-led Amazon cases (case-study-9 ACOS 52% to 26.5%; case-study-1 73%) with complementary framing � Verified |
-| Competitors reviewed | Viral Brand Works Amazon-to-TikTok Shop agency (2026-10-04 Verified); Sequence Amazon�TikTok program (2026-10-04 Observed); Desverto TikTok Shop for Amazon sellers (Observed search; Cloudflare blocked Playwright); EG blogs on TikTok external traffic (Observed) |
+| OG image | `/images/services/tiktok-shop-ads-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, PPC, video creative, Shopify, case studies |
+| AEO | FAQ covers not replacing Amazon, SKU fit, creative, timing, measurement, Amazon insight handoff |
+| GEO | Complementary to Amazon; no invented TikTok ROAS/GMV |
 | Config | `content/config/services/tiktok-shop-ads.json` |
-| Audit status | Implemented + Verified (D2, 2026-10-04) |
-| Notes | Dedicated WP service HTML not found. No competitor $50k+/mo, 500+ creators, $500M, or 285% claims copied. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; ogImage; relative canonical; strip em dashes |
 
 ---
 

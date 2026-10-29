@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — TikTok Shop ads SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| TikTok hero H1 | TikTok Shop ads beside Amazon—not instead of it | TikTok Shop ads for Amazon-led brands | Primary KW in H1 | yes |
+| TikTok canonical | Absolute URL | `/tiktok-shop-ads/` | absoluteUrl consistency | yes |
+| TikTok ogImage | (missing) | tiktok-shop-ads-service.jpg | OG was null | yes |
+| TikTok body | Multiple em dashes | Plain punctuation | Forbidden Unicode | yes |
+
+---
+
 ## 2026-10-30 — Shopify website development SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
