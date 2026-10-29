@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — DSP management SEO done
+## Latest (2026-10-30) — Brand Registry SEO done
 
-Completed through `/amazon-dsp-management/`.
+Completed through `/amazon-trademark-brand-registry/`.
 
-**Implemented:** H1 with DSP management KW; meta “agency”; ogImage; relative canonical.
+**Implemented:** H1 with Amazon Brand Registry KW; meta “services”; ogImage; relative canonical.
 
-**Next:** `/amazon-trademark-brand-registry/` (or company registration / free-audit).
+**Next:** `/amazon-company-registration/` (or product sourcing / free-audit).

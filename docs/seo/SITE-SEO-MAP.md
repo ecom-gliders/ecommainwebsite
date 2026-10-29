@@ -276,19 +276,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon brand registry services, USPTO trademark Amazon, Amazon trademark registration, Brand Registry enrollment |
 | Entity | eCom Gliders; Amazon Brand Registry; USPTO; A+ Content; Brand Stores |
 | Title | Amazon Brand Registry and Trademark Support \| eCom Gliders |
-| Meta description | Amazon Brand Registry and trademark pathway support for sellers who need protection tools, A+ Content access, and clearer enrollment guidance. Free audit. |
+| Meta description | Amazon Brand Registry services and trademark pathway support for protection tools, A+ access, and enrollment guidance. Free audit. |
 | H1 | Amazon Brand Registry and trademark pathway support |
-| Canonical | https://ecomgliders.com/amazon-trademark-brand-registry/ |
+| Canonical | `/amazon-trademark-brand-registry/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-company-registration/, /amazon-content-writing/, /amazon-catalog-management/, /case-study-8/, /case-study-1/ |
-| AEO | FAQ covers trademark requirement, not-a-law-firm boundary, timelines, unlocks, rejections, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | No trademark-approval-rate invent. Results use brand-ready growth cases (case-study-8 7-figure + brand defense; case-study-1 73%) with foundation framing � Verified |
-| Competitors reviewed | Seller Interactive brand protection (2026-10-04); Global Trademark Company Brand Registry filing (2026-10-04); Amazon Brand Registry eligibility (Observed); EG services-2 USPTO + Brand Registry sections (Verified backup) |
+| OG image | `/images/services/amazon-trademark-brand-registry-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, company registration, content writing, catalog management, case studies |
+| AEO | FAQ covers trademark requirement, not-a-law-firm boundary, timelines, unlocks, rejections |
+| GEO | Process guidance only; no approval-rate invent |
 | Config | `content/config/services/amazon-trademark-brand-registry.json` |
-| Audit status | Implemented + Verified (C2, 2026-10-04) |
-| Notes | Dedicated WP slug HTML not found; services-2 #services_3/#services_4 + Brand Registry benefits blog used as backup. |
+| Audit status | Re-optimized 2026-10-30 — H1 primary KW; meta “services”; ogImage; relative canonical |
 
 ---
 

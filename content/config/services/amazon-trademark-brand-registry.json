@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Trademark and Brand Registry",
   "layout": "brandPathwaySeal",
   "hero": {
-    "title": "Brand Registry pathway support for Amazon sellers",
-    "subtitle": "Trademark readiness, enrollment guidance, and post-approval activation for A+, Stores, and brand protection—without posing as a law firm.",
+    "title": "Amazon Brand Registry and trademark pathway support",
+    "subtitle": "Trademark readiness, enrollment guidance, and post-approval activation for A+, Stores, and brand protection, without posing as a law firm.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -377,8 +377,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Brand Registry and Trademark Support | eCom Gliders",
-    "metaDescription": "Amazon Brand Registry and trademark pathway support for sellers who need protection tools, A+ Content access, and clearer enrollment guidance. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-trademark-brand-registry/",
+    "metaDescription": "Amazon Brand Registry services and trademark pathway support for protection tools, A+ access, and enrollment guidance. Free audit.",
+    "canonical": "/amazon-trademark-brand-registry/",
+    "ogImage": "/images/services/amazon-trademark-brand-registry-service.jpg",
     "robots": {
       "index": true,
       "follow": true

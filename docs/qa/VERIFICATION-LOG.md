@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon Brand Registry SEO pass
+
+**Task:** Master-prompt pass `/amazon-trademark-brand-registry/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 primary KW; meta “services”; ogImage; relative canonical; subtitle punctuation  
+**VERIFIED (Playwright preview before commit):** H1 missing “Amazon”; og:image null; Service+FAQPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-company-registration/` or product sourcing / free-audit
+
+---
+
 ## 2026-10-30 — Amazon DSP management SEO pass
 
 **Task:** Master-prompt pass `/amazon-dsp-management/`  

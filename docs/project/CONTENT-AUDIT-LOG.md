@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon Brand Registry SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Brand Registry hero H1 | Brand Registry pathway support for Amazon sellers | Amazon Brand Registry and trademark pathway support | Primary KW lead | yes |
+| Brand Registry metaDescription | …and trademark pathway support for sellers who need… | …services and trademark pathway support for protection tools… | Services KW; trim length | yes |
+| Brand Registry canonical | Absolute URL | `/amazon-trademark-brand-registry/` | absoluteUrl consistency | yes |
+| Brand Registry ogImage | (missing) | amazon-trademark-brand-registry-service.jpg | OG was null | yes |
+| Brand Registry subtitle | protection—without | protection, without | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon DSP management SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
