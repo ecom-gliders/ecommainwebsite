@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Monthly seller close-out SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Close-out hero H1 | Monthly seller close-out report | Amazon monthly seller close-out report | Primary KW lead | yes |
+| Close-out metaTitle | Monthly Seller Close-Out Report \| … | Amazon Monthly Seller Close-Out \| … | Amazon intent; length | yes |
+| Close-out metaDescription | 86 chars | Expanded with Free | Meta length | yes |
+| Close-out ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Returns and RTO diagnostic SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

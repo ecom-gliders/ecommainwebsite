@@ -2,7 +2,7 @@
   "slug": "monthly-seller-closeout",
   "badge": "Report",
   "hero": {
-    "title": "Monthly seller close-out report",
+    "title": "Amazon monthly seller close-out report",
     "subtitle": "Combine MUTR, sales, and returns summaries into one monthly close-out view."
   },
   "intro": "Upload Monthly Unified Transaction Report CSV and optional returns XML. The tool summarizes credits, debits, and net settlement locally.",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Monthly Seller Close-Out Report | Free Tool | eCom Gliders",
-    "metaDescription": "Combine Amazon MUTR and returns into a monthly seller close-out summary. Browser-only.",
+    "metaTitle": "Amazon Monthly Seller Close-Out | Free Tool | eCom Gliders",
+    "metaDescription": "Amazon monthly seller close-out report. Combine MUTR and returns into one settlement summary. Runs in your browser. Free.",
     "canonical": "/free-amazon-tools/monthly-seller-closeout/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

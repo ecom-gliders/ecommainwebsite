@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Returns and RTO diagnostic SEO done
+## Latest (2026-10-30) — Monthly seller close-out SEO done
 
-Completed `/free-amazon-tools/returns-rto-diagnostic/`.
+Completed `/free-amazon-tools/monthly-seller-closeout/`.
 
 **Implemented:** Amazon KW in H1/title; longer meta; ogImage; SITE-SEO-MAP row.
 
-**Next:** `/free-amazon-tools/monthly-seller-closeout/` (then TCS/TDS), or case studies hub.
+**Next:** `/free-amazon-tools/tcs-tds-reconciliation/` (last remaining free tool), then case studies hub.

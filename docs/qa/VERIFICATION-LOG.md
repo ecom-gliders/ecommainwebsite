@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Monthly seller close-out SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/monthly-seller-closeout/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; Amazon KW in H1/title; longer meta; ogImage  
+**VERIFIED (Playwright preview before commit):** H1 missing Amazon; meta 86; og:image null; WebApplication+WebPage+BreadcrumbList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; last tool `/tcs-tds-reconciliation/`  
+**NEXT ACTION:** `/free-amazon-tools/tcs-tds-reconciliation/` or case studies hub
+
+---
+
 ## 2026-10-30 — Returns and RTO diagnostic SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/returns-rto-diagnostic/`  

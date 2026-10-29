@@ -977,11 +977,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Browser-local XML summary |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
 
+### Free tool: Monthly seller close-out report
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/monthly-seller-closeout/ |
+| Purpose | Combine MUTR and returns into a monthly settlement close-out summary |
+| Audience | Sellers reconciling a single Amazon settlement period |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon monthly seller close-out |
+| Secondary keywords | Amazon MUTR close-out, Amazon settlement summary, monthly seller close-out report |
+| Entity | eCom Gliders; MUTR; Seller Central; settlement |
+| Title | Amazon Monthly Seller Close-Out \| Free Tool \| eCom Gliders |
+| Meta description | Amazon monthly seller close-out report. Combine MUTR and returns into one settlement summary. Runs in your browser. Free. |
+| H1 | Amazon monthly seller close-out report |
+| Canonical | `/free-amazon-tools/monthly-seller-closeout/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/monthly-seller-closeout.json` |
+| Notes | Browser-local; one settlement period recommended |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/monthly-seller-closeout/`
 - `/free-amazon-tools/tcs-tds-reconciliation/`
 - `/free-amazon-tools/ppc-performance-dashboard/`
 
