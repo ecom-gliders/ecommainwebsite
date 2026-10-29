@@ -2,8 +2,8 @@
   "slug": "label-invoice-splitter",
   "badge": "PDF",
   "hero": {
-    "title": "Label and invoice splitter",
-    "subtitle": "Split Amazon bulk label+invoice PDFs into a labels-only file for thermal printing."
+    "title": "Amazon label and invoice splitter",
+    "subtitle": "Split Amazon bulk label and invoice PDFs into a labels-only file for thermal printing."
   },
   "intro": "Upload the combined shipment PDF from Seller Central. The tool keeps label pages and drops invoice pages. Processing stays in your browser.",
   "toolKind": "label-invoice-splitter",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Label and Invoice Splitter | Free Tool | eCom Gliders",
-    "metaDescription": "Split Amazon bulk label and invoice PDFs into a labels-only file for thermal printing. Browser-only.",
+    "metaTitle": "Amazon Label and Invoice Splitter | Free Tool | eCom Gliders",
+    "metaDescription": "Amazon label and invoice splitter. Split Seller Central bulk PDFs into a labels-only file for thermal printing. Runs in your browser. Free.",
     "canonical": "/free-amazon-tools/label-invoice-splitter/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Label and invoice splitter SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/label-invoice-splitter/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** SITE-SEO-MAP row; Amazon KW in H1/title; longer meta; ogImage  
+**VERIFIED (Playwright preview before commit):** H1 missing Amazon; meta 100; og:image null; WebApplication+WebPage+BreadcrumbList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; remaining tools  
+**NEXT ACTION:** `/free-amazon-tools/dispatch-check/` or case studies hub
+
+---
+
 ## 2026-10-30 — Product catalog tool SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/product-catalog/`  

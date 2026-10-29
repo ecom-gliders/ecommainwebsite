@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Label and invoice splitter SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Splitter hero H1 | Label and invoice splitter | Amazon label and invoice splitter | Primary KW lead | yes |
+| Splitter metaTitle | Label and Invoice Splitter \| … | Amazon Label and Invoice Splitter \| … | Amazon intent | yes |
+| Splitter metaDescription | 100 chars | Expanded with Seller Central + Free | Meta length | yes |
+| Splitter subtitle | label+invoice | label and invoice | Plain wording | yes |
+| Splitter ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Product catalog tool SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

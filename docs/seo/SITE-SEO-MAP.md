@@ -890,11 +890,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Notes | Data stays in browser localStorage only |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon-seller KW; meta length; ogImage |
 
+### Free tool: Label and invoice splitter
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/label-invoice-splitter/ |
+| Purpose | Split Seller Central bulk label+invoice PDFs into labels-only for thermal print |
+| Audience | FBA/FBM sellers printing 4x6 labels from combined Amazon PDFs |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon label and invoice splitter |
+| Secondary keywords | Amazon label splitter, Amazon invoice PDF split, thermal label PDF |
+| Entity | eCom Gliders; Seller Central; shipping labels; thermal printing |
+| Title | Amazon Label and Invoice Splitter \| Free Tool \| eCom Gliders |
+| Meta description | Amazon label and invoice splitter. Split Seller Central bulk PDFs into a labels-only file for thermal printing. Runs in your browser. Free. |
+| H1 | Amazon label and invoice splitter |
+| Canonical | `/free-amazon-tools/label-invoice-splitter/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/label-invoice-splitter.json` |
+| Notes | Browser-only; files not uploaded to a server |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW in H1/title; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/label-invoice-splitter/`
 - `/free-amazon-tools/dispatch-check/`
 - `/free-amazon-tools/sku-profitability-leaderboard/`
 - `/free-amazon-tools/returns-rto-diagnostic/`
