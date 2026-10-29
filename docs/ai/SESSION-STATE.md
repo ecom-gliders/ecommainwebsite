@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Listing optimization SEO done
+## Latest (2026-10-30) — Content writing SEO done
 
-Completed: `/` → `/services/` → full-service → PPC → `/amazon-listing-optimization/`.
+Completed through `/amazon-content-writing/`.
 
-**Listing Implemented:** H1 + primary KW; title “Services”; ogImage; relative canonical.
+**Implemented:** H1 “Amazon content writing for titles, bullets, and A+”; meta leads with services; ogImage; relative canonical.
 
-**Next:** `/amazon-content-writing/` or `/amazon-catalog-management/`.
+**Next:** `/amazon-catalog-management/` or `/amazon-visual-creativity/`.

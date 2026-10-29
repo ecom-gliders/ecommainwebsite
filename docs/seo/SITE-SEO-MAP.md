@@ -444,19 +444,17 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Secondary keywords | Amazon product copywriting, Amazon A+ Content copy, Amazon title and bullet writing |
 | Entity | eCom Gliders; Amazon A+ Content; Brand Registry; Seller Central |
 | Title | Amazon Content Writing Services \| eCom Gliders |
-| Meta description | Amazon content writing for titles, bullets, descriptions, and A+ Content. Conversion-focused copy for growing sellers. Free audit. |
+| Meta description | Amazon content writing services for titles, bullets, descriptions, and A+ Content. Clear copy for growing sellers. Free audit. |
 | H1 | Amazon content writing for titles, bullets, and A+ |
-| Canonical | https://ecomgliders.com/amazon-content-writing/ |
+| Canonical | `/amazon-content-writing/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-listing-optimization/, /amazon-visual-creativity/, /full-service-amazon-agency/, /case-study-9/, /case-study-4/ |
-| AEO | FAQ covers deliverables, keywords, voice, claims, Store/Brand Story, vs listing SEO, marketplaces, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-9 CVR + benefit-first copy; case-study-4 2X conversion with A+ content � Verified |
-| Competitors reviewed | Olifant listing optimization/copy (2026-10-04); Canopy listing copywriting package (2026-10-04); EG A+ SEO blog backup |
+| OG image | `/images/services/amazon-content-writing-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, listing optimization, visual creativity, full-service, case studies |
+| AEO | FAQ covers deliverables, keywords, voice, claims, Store/Brand Story, vs listing SEO |
+| GEO | since 2018 / in-house claims on page |
 | Config | `content/config/services/amazon-content-writing.json` |
-| Audit status | Implemented + Verified (A4, 2026-10-04) |
-| Notes | Dedicated WP service HTML for this slug not found in backup; A+ SEO blog used as content evidence. |
+| Audit status | Re-optimized 2026-10-30 — H1 KW align; meta “services”; ogImage; relative canonical |
 
 ---
 

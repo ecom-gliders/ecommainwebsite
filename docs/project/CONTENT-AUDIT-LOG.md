@@ -15,6 +15,18 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon content writing SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Content hero H1 | Amazon copy with voice, claims, and conversion hierarchy | Amazon content writing for titles, bullets, and A+ | Primary KW in H1 | yes |
+| Content metaDescription | Amazon content writing for… Conversion-focused… | Amazon content writing services for… Clear copy… | Lead with “services”; less buzzword | yes |
+| Content canonical | Absolute URL | `/amazon-content-writing/` | absoluteUrl consistency | yes |
+| Content ogImage | (missing) | amazon-content-writing-service.jpg | OG was null | yes |
+| Content subtitle | scan—not keyword dumps | scan, not keyword dumps | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon listing optimization SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

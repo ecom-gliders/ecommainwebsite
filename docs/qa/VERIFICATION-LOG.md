@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon content writing SEO pass
+
+**Task:** Master-prompt pass `/amazon-content-writing/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** H1 KW align; meta “services”; ogImage; relative canonical; subtitle punctuation  
+**VERIFIED (Playwright preview before commit):** title OK; H1 KW-weak; Service+FAQPage; og:image null — fixed  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check  
+**NEXT ACTION:** `/amazon-catalog-management/` or `/amazon-visual-creativity/`
+
+---
+
 ## 2026-10-30 — Amazon listing optimization SEO pass
 
 **Task:** Master-prompt pass `/amazon-listing-optimization/`  

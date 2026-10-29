@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Content Writing",
   "layout": "contentCopyDesk",
   "hero": {
-    "title": "Amazon copy with voice, claims, and conversion hierarchy",
-    "subtitle": "Titles, bullets, and A+ modules written for how shoppers actually scan—not keyword dumps. A+ does not directly raise search rank; it earns the click you already won.",
+    "title": "Amazon content writing for titles, bullets, and A+",
+    "subtitle": "Titles, bullets, and A+ modules written for how shoppers scan, not keyword dumps. A+ does not directly raise search rank; it supports the click you already won.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -435,8 +435,9 @@
   },
   "seo": {
     "metaTitle": "Amazon Content Writing Services | eCom Gliders",
-    "metaDescription": "Amazon content writing for titles, bullets, descriptions, and A+ Content. Conversion-focused copy for growing sellers. Free audit.",
-    "canonical": "https://ecomgliders.com/amazon-content-writing/",
+    "metaDescription": "Amazon content writing services for titles, bullets, descriptions, and A+ Content. Clear copy for growing sellers. Free audit.",
+    "canonical": "/amazon-content-writing/",
+    "ogImage": "/images/services/amazon-content-writing-service.jpg",
     "robots": {
       "index": true,
       "follow": true
