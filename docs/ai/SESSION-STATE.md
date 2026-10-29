@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — Dispatch check SEO done
+## Latest (2026-10-30) — SKU profitability leaderboard SEO done
 
-Completed `/free-amazon-tools/dispatch-check/`.
+Completed `/free-amazon-tools/sku-profitability-leaderboard/`.
 
-**Implemented:** Amazon KW in H1/title; longer meta; ogImage; CTA copy fix; SITE-SEO-MAP row.
+**Implemented:** Amazon KW in H1/title; longer meta; ogImage; SITE-SEO-MAP row.
 
-**Next:** `/free-amazon-tools/sku-profitability-leaderboard/` or case studies hub.
+**Next:** `/free-amazon-tools/returns-rto-diagnostic/` or case studies hub.

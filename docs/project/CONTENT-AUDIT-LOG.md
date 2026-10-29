@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — SKU profitability leaderboard SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| SKU board hero H1 | SKU profitability leaderboard | Amazon SKU profitability leaderboard | Primary KW lead | yes |
+| SKU board metaTitle | SKU Profitability Leaderboard \| … | Amazon SKU Profitability Leaderboard \| … | Amazon intent | yes |
+| SKU board metaDescription | 96 chars | Expanded with Free | Meta length | yes |
+| SKU board ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+
+---
+
 ## 2026-10-30 — Dispatch check SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

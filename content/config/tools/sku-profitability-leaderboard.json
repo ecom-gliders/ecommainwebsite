@@ -2,7 +2,7 @@
   "slug": "sku-profitability-leaderboard",
   "badge": "Report",
   "hero": {
-    "title": "SKU profitability leaderboard",
+    "title": "Amazon SKU profitability leaderboard",
     "subtitle": "Upload net proceeds CSV to rank which products actually make money after fees and refunds."
   },
   "intro": "Expect a CSV with SKU and net proceeds columns (Amazon settlement or custom export). Ranking and totals run in your browser.",
@@ -33,9 +33,10 @@
     }
   },
   "seo": {
-    "metaTitle": "SKU Profitability Leaderboard | Free Tool | eCom Gliders",
-    "metaDescription": "Rank Amazon SKUs by net proceeds after fees and refunds. Upload CSV and analyze in your browser.",
+    "metaTitle": "Amazon SKU Profitability Leaderboard | Free Tool | eCom Gliders",
+    "metaDescription": "Amazon SKU profitability leaderboard. Rank SKUs by net proceeds after fees and refunds. Upload CSV and analyze in your browser. Free.",
     "canonical": "/free-amazon-tools/sku-profitability-leaderboard/",
+    "ogImage": "/images/services/services-hub-hero-browser.jpg",
     "schema": "Organization"
   }
 }

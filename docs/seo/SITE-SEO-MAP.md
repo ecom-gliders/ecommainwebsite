@@ -933,11 +933,32 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Config | `content/config/tools/dispatch-check.json` |
 | Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage; CTA copy fix |
 
+### Free tool: SKU profitability leaderboard
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/free-amazon-tools/sku-profitability-leaderboard/ |
+| Purpose | Rank Amazon SKUs by net proceeds after fees and refunds from CSV upload |
+| Audience | Sellers reviewing contribution by SKU from settlement/proceeds exports |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon SKU profitability leaderboard |
+| Secondary keywords | Amazon SKU profitability, SKU net proceeds ranking, Amazon product profit ranking |
+| Entity | eCom Gliders; SKU; net proceeds; Amazon settlement CSV |
+| Title | Amazon SKU Profitability Leaderboard \| Free Tool \| eCom Gliders |
+| Meta description | Amazon SKU profitability leaderboard. Rank SKUs by net proceeds after fees and refunds. Upload CSV and analyze in your browser. Free. |
+| H1 | Amazon SKU profitability leaderboard |
+| Canonical | `/free-amazon-tools/sku-profitability-leaderboard/` |
+| Indexability | Index, follow |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/sku-profitability-leaderboard.json` |
+| Notes | Browser-side CSV analysis |
+| Audit status | Re-optimized 2026-10-30 — created SITE-SEO-MAP row; Amazon KW; meta length; ogImage |
+
 ### Free tools: remaining directory entries
 
 Additional indexable tool pages (same SEO pattern: unique title/meta/canonical, WebApplication JSON-LD, XML sitemap):
 
-- `/free-amazon-tools/sku-profitability-leaderboard/`
 - `/free-amazon-tools/returns-rto-diagnostic/`
 - `/free-amazon-tools/monthly-seller-closeout/`
 - `/free-amazon-tools/tcs-tds-reconciliation/`
