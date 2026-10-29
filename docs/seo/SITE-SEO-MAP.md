@@ -787,12 +787,21 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Field | Value |
 |-------|-------|
 | URL | https://ecomgliders.com/free-amazon-tools/amazon-ppc-conversion-cost-calculator/ |
-| Purpose | Interactive unit-economics calculator for Amazon PPC |
-| Title | Amazon PPC Conversion Cost Calculator \| Free Tool \| eCom Gliders |
-| Canonical | https://ecomgliders.com/free-amazon-tools/amazon-ppc-conversion-cost-calculator/ |
+| Purpose | Interactive unit-economics calculator for Amazon PPC spend efficiency |
+| Audience | Advertisers modeling CPC-to-conversion cost and net profit after ads |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon PPC conversion cost calculator |
+| Secondary keywords | Amazon PPC cost calculator, cost per conversion Amazon, Amazon advertising unit economics |
+| Entity | eCom Gliders; Amazon PPC; Sponsored Ads; conversion cost |
+| Title | Amazon PPC Conversion Cost Calculator \| eCom Gliders |
+| Meta description | Amazon PPC conversion cost calculator. Estimate cost per session, cost per conversion, and net profit after ad spend. Free browser tool. |
+| H1 | Amazon PPC conversion cost calculator |
+| Canonical | `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/` |
 | Indexability | Index, follow |
-| Schema | WebApplication, WebPage, BreadcrumbList |
-| Audit status | Implemented (2026-10-28); JSON-LD added 2026-10-29 |
+| OG image | `/images/services/services-hub-hero-browser.jpg` |
+| Schema | WebApplication + WebPage + BreadcrumbList — Verified Playwright preview 2026-10-30 |
+| Config | `content/config/tools/amazon-ppc-conversion-cost-calculator.json` |
+| Audit status | Re-optimized 2026-10-30 — shorter title/meta; ogImage; relative canonical; strip em dash |
 
 ### Free tools: remaining directory entries
 

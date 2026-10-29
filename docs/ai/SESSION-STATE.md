@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — FBA fee calculator SEO done
+## Latest (2026-10-30) — PPC conversion cost calculator SEO done
 
-Completed `/free-amazon-tools/amazon-fba-fee-profit-calculator/`.
+Completed `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/`.
 
-**Implemented:** Title led with “Amazon FBA Fee Calculator”; shorter meta; ogImage.
+**Implemented:** Shorter title/meta; ogImage; strip em dash.
 
-**Next:** `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/` or case studies hub.
+**Next:** `/free-amazon-tools/amazon-pnl-calculator/` or case studies hub.

@@ -4,6 +4,18 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Amazon PPC conversion cost calculator SEO pass
+
+**Task:** Master-prompt pass `/free-amazon-tools/amazon-ppc-conversion-cost-calculator/`  
+**STATUS:** IMPLEMENTED  
+**IMPLEMENTED:** Shorter title/meta; ogImage; strip em dash (H1 already KW-aligned)  
+**VERIFIED (Playwright preview before commit):** H1 OK; title 64; og:image null; WebApplication+WebPage+BreadcrumbList OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Post-deploy OG check; remaining tool pages in directory list  
+**NEXT ACTION:** `/free-amazon-tools/amazon-pnl-calculator/` or case studies hub
+
+---
+
 ## 2026-10-30 — Amazon FBA fee calculator SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/amazon-fba-fee-profit-calculator/`  

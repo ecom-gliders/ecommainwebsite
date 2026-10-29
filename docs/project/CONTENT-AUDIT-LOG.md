@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon PPC conversion cost calculator SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| PPC tool metaTitle | …\| Free Tool \| eCom Gliders | Amazon PPC Conversion Cost Calculator \| eCom Gliders | Under ~60 chars | yes |
+| PPC tool metaDescription | Free Amazon PPC conversion cost calculator. Estimate… | Amazon PPC conversion cost calculator. Estimate… | Primary KW lead; trim | yes |
+| PPC tool ogImage | (missing) | services-hub-hero-browser.jpg | OG was null | yes |
+| PPC tool intro | page — results | page. Results | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon FBA fee calculator SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
