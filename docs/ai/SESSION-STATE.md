@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — PPC agency page SEO done
+## Latest (2026-10-30) — Listing optimization SEO done
 
-Page passes completed: `/` → `/services/` → `/full-service-amazon-agency/` → `/amazon-ppc-management-agency/`.
+Completed: `/` → `/services/` → full-service → PPC → `/amazon-listing-optimization/`.
 
-**PPC Implemented:** H1 includes “agency”; cleaner title (dropped “Cut ACOS”); ogImage; relative canonical.
+**Listing Implemented:** H1 + primary KW; title “Services”; ogImage; relative canonical.
 
-**Next:** `/amazon-listing-optimization/` (or another service from SITE-SEO-MAP).
+**Next:** `/amazon-content-writing/` or `/amazon-catalog-management/`.

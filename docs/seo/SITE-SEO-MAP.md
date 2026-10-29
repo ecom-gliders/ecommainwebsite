@@ -471,20 +471,18 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | Primary keyword | Amazon listing optimization services |
 | Secondary keywords | Amazon listing optimization, Amazon listing SEO, Amazon product listing optimization |
 | Entity | eCom Gliders; Amazon SEO; Brand Registry / A+; Seller Central |
-| Title | Amazon Listing Optimization and SEO \| eCom Gliders |
-| Meta description | Amazon listing optimization and SEO with keyword research, conversion copy, and ongoing ranking improvements. Free audit for priority ASINs. |
+| Title | Amazon Listing Optimization Services \| eCom Gliders |
+| Meta description | Amazon listing optimization services: keyword research, conversion copy, and listing SEO maintenance for priority ASINs. Free audit. |
 | H1 | Amazon listing optimization and SEO for ranking and conversion |
-| Canonical | https://ecomgliders.com/amazon-listing-optimization/ |
+| Canonical | `/amazon-listing-optimization/` |
 | Indexability | Index |
-| Schema | Service, FAQPage; areaServed = 23 Seller Central markets |
-| Internal links | /free-audit/, /amazon-content-writing/, /amazon-ppc-management-agency/, /amazon-visual-creativity/, /case-study-9/, /case-study-1/ |
-| AEO | FAQ covers scope, timeline, prioritization, PPC impact, A+, marketplaces, metrics, getting started |
-| GEO | since 2018, 20+ in-house, 95% retention, $112M+ |
-| Claims source | case-study-9 CVR 9.8%?26.7% + 310% revenue; case-study-1 73% growth (listing optimization) � Verified |
-| Competitors reviewed | Canopy product listing optimization (2026-10-04); SalesDuo listing optimization agency (2026-10-04); EG listing blogs as backup |
+| OG image | `/images/services/amazon-listing-optimization-service.jpg` |
+| Schema | Service + FAQPage — Verified Playwright preview 2026-10-30 |
+| Internal links | `/free-audit/`, content writing, PPC, visual creativity, case studies |
+| AEO | FAQ covers scope, timeline, prioritization, PPC impact, A+, marketplaces, metrics |
+| GEO | since 2018 / in-house claims on page |
 | Config | `content/config/services/amazon-listing-optimization.json` |
-| Audit status | Implemented + Verified (A3, 2026-10-04) |
-| Notes | Dedicated WP service HTML for this slug not found in backup; service route is new-site canonical. Backup evidence from listing SEO blog posts. |
+| Audit status | Re-optimized 2026-10-30 — H1 keyword align; title uses “services”; ogImage; relative canonical |
 
 ---
 

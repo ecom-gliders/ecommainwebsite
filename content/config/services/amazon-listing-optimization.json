@@ -3,8 +3,8 @@
   "breadcrumbLabel": "Listing Optimization",
   "layout": "listingPdpStack",
   "hero": {
-    "title": "Listing SEO built for ranking and conversion",
-    "subtitle": "Keyword research, conversion copy, and field updates so organic and paid traffic land on pages that close—no unverified rank guarantees.",
+    "title": "Amazon listing optimization and SEO for ranking and conversion",
+    "subtitle": "Keyword research, conversion copy, and field updates so organic and paid traffic land on pages that close. No unverified rank guarantees.",
     "cta": {
       "label": "Request a free audit",
       "href": "/free-audit/"
@@ -417,9 +417,10 @@
     }
   },
   "seo": {
-    "metaTitle": "Amazon Listing Optimization and SEO | eCom Gliders",
-    "metaDescription": "Amazon listing optimization and SEO with keyword research, conversion copy, and ongoing ranking improvements. Free audit for priority ASINs.",
-    "canonical": "https://ecomgliders.com/amazon-listing-optimization/",
+    "metaTitle": "Amazon Listing Optimization Services | eCom Gliders",
+    "metaDescription": "Amazon listing optimization services: keyword research, conversion copy, and listing SEO maintenance for priority ASINs. Free audit.",
+    "canonical": "/amazon-listing-optimization/",
+    "ogImage": "/images/services/amazon-listing-optimization-service.jpg",
     "robots": {
       "index": true,
       "follow": true

@@ -15,6 +15,19 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Amazon listing optimization SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Listing hero H1 | Listing SEO built for ranking and conversion | Amazon listing optimization and SEO for ranking and conversion | Primary KW in H1 | yes |
+| Listing metaTitle | Amazon Listing Optimization and SEO \| … | Amazon Listing Optimization Services \| … | Match primary KW “services” | yes |
+| Listing metaDescription | …ongoing ranking improvements… | …listing SEO maintenance… Free audit. | Clearer + services lead | yes |
+| Listing canonical | Absolute URL | `/amazon-listing-optimization/` | absoluteUrl consistency | yes |
+| Listing ogImage | (missing) | amazon-listing-optimization-service.jpg | OG was null | yes |
+| Listing subtitle | close—no unverified | close. No unverified | Plain punctuation | yes |
+
+---
+
 ## 2026-10-30 — Amazon PPC management agency SEO pass
 
 | Location | Original | Replacement | Reason | Approved |
