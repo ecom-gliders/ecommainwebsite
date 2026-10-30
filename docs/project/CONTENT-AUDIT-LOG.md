@@ -15,6 +15,230 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Blog: Amazon PPC marketing Tennessee TN SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Tennessee; absolute canonical; sales-growth meta | Soft Service Map for Tennessee Sellers; relative canonical; soft ACoS framing | Soft claims; SEO standard | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft TN Mid-South PPC map; twin TX Elementor/SD + TN AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `…-intennessee-tn-…` | Unchanged (including `intennessee`) | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Texas (elementor-992655) SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Marketing Services in Texas; absolute canonical; sales-growth meta | Soft Service Map for Texas Sellers; relative canonical `/elementor-992655/`; soft ACoS framing | Soft claims; Elementor slug honesty | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft TX Sun Belt PPC map; Elementor URL note; twin TT/TN + TX AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `elementor-992655` | Unchanged | Old-site ranking URL preservation (Texas PPC lives here) | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Trust Territories TT SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Trust Territories; absolute canonical; sales-growth meta | Soft Service Map for Trust Territories Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft TT Pacific PPC map; eligibility honesty; twin UT/GU + TT AM; free-audit | Territory honesty; duplicate risk; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Utah UT SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Utah; absolute canonical; sales-growth meta | Soft Service Map for Utah Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft UT Wasatch PPC map; soft guarantees; twin VT/TT + UT AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Vermont VT SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Vermont; absolute canonical; sales-growth meta | Soft Service Map for Vermont Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft VT New England PPC map; soft guarantees; twin VA/UT + VT AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Virginia VA SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Virginia; absolute canonical; sales-growth meta | Soft Service Map for Virginia Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft VA Mid-Atlantic PPC map; soft guarantees; twin VI/VT + VA AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Virgin Islands VI SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Virgin Islands; absolute canonical; sales-growth meta | Soft Service Map for U.S. Virgin Islands Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; USVI clarity | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft USVI island PPC map; eligibility honesty; twin WA/VA + VI AM; free-audit | Territory honesty; duplicate risk; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Washington WA SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Washington; absolute canonical; sales-growth meta | Soft Service Map for Washington Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft WA PNW PPC map; soft guarantees; twin WV/VI + WA AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing West Virginia WV SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in West Virginia; absolute canonical; sales-growth meta | Soft Service Map for West Virginia Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft WV Appalachian PPC map; soft guarantees; twin WI/WA + WV AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Wisconsin WI SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Wisconsin; absolute canonical; sales-growth meta | Soft Service Map for Wisconsin Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft WI Great Lakes PPC map; soft guarantees; twin WY/WV + WI AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon PPC marketing Wyoming WY SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon PPC Services in Wyoming; absolute canonical; sales-growth meta | Soft Service Map for Wyoming Sellers; relative canonical; soft ACoS framing | Soft maximizing-sales URL; consistency | yes |
+| Blog body | Introduction/Conclusion; request-a-quote; “proven success” / case-study hype; spun template | Soft WY Mountain West PPC map; soft guarantees; twin WI/WV + WY AM; free-audit | Duplicate risk; claim honesty; CTA | yes |
+| URL / slug | `amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Alabama AL SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Alabama; absolute canonical | Soft Service Map for Alabama Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft AL Deep South map; NAP honesty; twin AK/MS; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...alabama-al-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Alaska AK SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Alaska; absolute canonical | Soft Service Map for Alaska Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft AK Far North inbound map; NAP honesty; twin AZ/AL/HI; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...alaska-ak-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Arizona AZ SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Arizona; absolute canonical | Soft Service Map for Arizona Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft AZ Southwest map; NAP honesty; twin AR/AK; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...arizona-az-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Arkansas AR SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Arkansas; absolute canonical | Soft Service Map for Arkansas Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft AR Mid-South map; NAP honesty; twin AS/AZ; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...arkansas-ar-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management American Samoa AS SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in American Samoa; absolute canonical | Soft Service Map for American Samoa Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft AS Pacific inbound map; eligibility honesty; twin CA/AR/GU; free-audit | Territory honesty; duplicate risk; CTA | yes |
+| URL / slug | `...american-samoa-as-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management California CA SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in California; absolute canonical | Soft Service Map for California Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft CA West Coast map; NAP honesty; twin CO/AS; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...california-ca-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Colorado CO SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Colorado; absolute canonical | Soft Service Map for Colorado Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft CO Front Range map; NAP honesty; twin CT/CA; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...colorado-co-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Connecticut CT SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Connecticut; absolute canonical | Soft Service Map for Connecticut Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft CT NYC-corridor map; NAP honesty; twin DE/CO; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...connecticut-ct-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Delaware DE SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Delaware; absolute canonical | Soft Service Map for Delaware Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft DE Mid-Atlantic map; NAP honesty; twin DC/CT; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...delaware-de-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management District of Columbia DC SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in District of Columbia; absolute canonical | Soft Service Map for DC Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft DC DMV map; NAP honesty; twin FL/DE; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...district-of-columbia-dc-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Florida FL SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Florida; absolute canonical | Soft Service Map for Florida Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft FL tourism/storm map; NAP honesty; twin GA/DC; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...florida-fl-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Georgia GA SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Georgia; absolute canonical | Soft Service Map for Georgia Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft GA Southeast logistics map; NAP honesty; twin GU/FL; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...georgia-ga-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Guam GU SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Guam; absolute canonical | Soft Service Map for Guam Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft GU Pacific territory map; eligibility honesty; twin HI/GA/CNMI; free-audit | Duplicate risk; territory honesty; CTA | yes |
+| URL / slug | `...guam-gu-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Hawaii HI SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Hawaii; absolute canonical | Soft Service Map for Hawaii Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft HI island inbound / tourism map; NAP honesty; twin ID/GU; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...hawaii-hi-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Idaho ID SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Idaho; absolute canonical | Soft Service Map for Idaho Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft ID outdoor-season map; NAP honesty; twin IL/HI; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...idaho-id-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Illinois IL SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Illinois; absolute canonical | Soft Service Map for Illinois Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft IL Chicago dense-competition map; NAP honesty; twin IN/ID; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...illinois-il-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog: Amazon account management Indiana IN SEO pass
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Blog title/meta | Amazon Account Management in Indiana; absolute canonical | Soft Service Map for Indiana Sellers; relative canonical | Soft maximize framing; consistency | yes |
+| Blog body | ```checklist```; Introduction/Conclusion; request-a-quote; spun template | Soft IN Midwest logistics map; NAP honesty; twin IA/IL; free-audit | Duplicate risk; local honesty; CTA | yes |
+| URL / slug | `...indiana-in-maximize-your-online-potential` | Unchanged | Old-site ranking URL preservation | yes |
+
 ## 2026-10-30 — Blog: Amazon account management Iowa IA SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

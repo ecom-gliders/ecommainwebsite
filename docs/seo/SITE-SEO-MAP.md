@@ -1411,6 +1411,594 @@ Per-post SEO audit during Phase 5. All URLs must preserve identical paths.
 | Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
 | Audit status | Re-optimized 2026-10-30 — Data-Backed Hacks/34% cut hype; soft fake cases; competitor outbounds; Unicode ▸; Calendly/WhatsApp footer; twin-diff vs fix-high-ACoS; free-audit; URL year preserved |
 
+### Blog: Amazon PPC marketing Tennessee TN
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Tennessee sellers into free audit / contact |
+| Audience | Tennessee Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Tennessee |
+| Secondary keywords | Nashville Amazon advertising, Memphis Amazon PPC, Sponsored Products Tennessee |
+| Entity | eCom Gliders; Amazon PPC; Tennessee (service area, not storefront) |
+| Title | Amazon PPC Marketing for Tennessee Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Tennessee sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Tennessee sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake TN LocalBusiness; Nashville / Memphis / Knoxville Mid-South context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft Tennessee PPC map; soft ACoS guarantees; twin-diff TX Elementor/SD PPC + TN AM; free-audit; **old-site URL path preserved** (`intennessee` spelling) |
+
+### Blog: Amazon PPC marketing Texas (Elementor slug)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/elementor-992655/ |
+| Purpose | Geo-intent Amazon PPC marketing for Texas sellers into free audit / contact (legacy Elementor path) |
+| Audience | Texas Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Texas |
+| Secondary keywords | Dallas Amazon advertising, Houston Amazon PPC, Sponsored Products Texas |
+| Entity | eCom Gliders; Amazon PPC; Texas (service area, not storefront) |
+| Title | Amazon PPC Marketing for Texas Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Texas sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Texas sellers: soft service map |
+| Canonical | `/elementor-992655/` |
+| Indexability | Index (legacy ranking URL; pretty-slug rename Requires confirmation + 301 approval) |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake TX LocalBusiness; Dallas / Houston / Austin Sun Belt context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft Texas PPC map on Elementor artifact slug; soft ACoS guarantees; twin-diff TT/TN PPC + TX AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Trust Territories TT
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Trust Territories sellers into free audit / contact |
+| Audience | Trust Territories / Pacific geo-intent Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Trust Territories |
+| Secondary keywords | Pacific Amazon advertising, Trust Territories Amazon PPC, Sponsored Products TT |
+| Entity | eCom Gliders; Amazon PPC; Trust Territories (geo-intent, not storefront; eligibility Requires confirmation) |
+| Title | Amazon PPC Marketing for Trust Territories Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Trust Territories geo-intent: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Trust Territories sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-trust-territories-tt-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake TT LocalBusiness; Pacific eligibility honesty |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; TT eligibility honesty; twin-diff UT/GU PPC + TT AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Utah UT
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Utah sellers into free audit / contact |
+| Audience | Utah Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Utah |
+| Secondary keywords | Salt Lake City Amazon advertising, Utah Amazon PPC, Sponsored Products Utah |
+| Entity | eCom Gliders; Amazon PPC; Utah (service area, not storefront) |
+| Title | Amazon PPC Marketing for Utah Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Utah sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Utah sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-utah-ut-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake UT LocalBusiness; Salt Lake City / Wasatch outdoor-season context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff VT/TT PPC + UT AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Vermont VT
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Vermont sellers into free audit / contact |
+| Audience | Vermont Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Vermont |
+| Secondary keywords | Burlington Amazon advertising, Vermont Amazon PPC, Sponsored Products Vermont |
+| Entity | eCom Gliders; Amazon PPC; Vermont (service area, not storefront) |
+| Title | Amazon PPC Marketing for Vermont Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Vermont sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Vermont sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-vermont-vt-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake VT LocalBusiness; Burlington / New England specialty lean-budget context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff VA/UT PPC + VT AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Virginia VA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Virginia sellers into free audit / contact |
+| Audience | Virginia Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Virginia |
+| Secondary keywords | Northern Virginia Amazon advertising, Richmond Amazon PPC, Sponsored Products Virginia |
+| Entity | eCom Gliders; Amazon PPC; Virginia (service area, not storefront) |
+| Title | Amazon PPC Marketing for Virginia Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Virginia sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Virginia sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-virginia-va-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake VA LocalBusiness; NoVA / Richmond / Hampton Roads Mid-Atlantic context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff VI/VT PPC + VA AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Virgin Islands VI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for U.S. Virgin Islands sellers into free audit / contact |
+| Audience | U.S. Virgin Islands Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Virgin Islands |
+| Secondary keywords | USVI Amazon advertising, St. Thomas Amazon PPC, Sponsored Products Virgin Islands |
+| Entity | eCom Gliders; Amazon PPC; U.S. Virgin Islands (service area, not storefront; not BVI) |
+| Title | Amazon PPC Marketing for U.S. Virgin Islands Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for U.S. Virgin Islands sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for U.S. Virgin Islands sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-virgin-islands-vi-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake VI LocalBusiness; St. Thomas / St. Croix eligibility honesty |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; USVI not BVI; twin-diff WA/VA PPC + VI AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Washington WA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Washington sellers into free audit / contact |
+| Audience | Washington Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Washington |
+| Secondary keywords | Seattle Amazon advertising, Tacoma Amazon PPC, Sponsored Products Washington |
+| Entity | eCom Gliders; Amazon PPC; Washington (service area, not storefront) |
+| Title | Amazon PPC Marketing for Washington Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Washington sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Washington sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-washington-wa-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake WA LocalBusiness; Seattle / Tacoma PNW high-CPC context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff WV/VI PPC + WA AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing West Virginia WV
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for West Virginia sellers into free audit / contact |
+| Audience | West Virginia Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC West Virginia |
+| Secondary keywords | West Virginia Amazon advertising, Charleston Amazon PPC, Sponsored Products West Virginia |
+| Entity | eCom Gliders; Amazon PPC; West Virginia (service area, not storefront) |
+| Title | Amazon PPC Marketing for West Virginia Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for West Virginia sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for West Virginia sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-west-virginia-wv-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake WV LocalBusiness; Charleston / Morgantown Appalachian lean-budget context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff WI/WA PPC + WV AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Wisconsin WI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Wisconsin sellers into free audit / contact |
+| Audience | Wisconsin Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Wisconsin |
+| Secondary keywords | Wisconsin Amazon advertising, Milwaukee Amazon PPC, Sponsored Products Wisconsin |
+| Entity | eCom Gliders; Amazon PPC; Wisconsin (service area, not storefront) |
+| Title | Amazon PPC Marketing for Wisconsin Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Wisconsin sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Wisconsin sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-wisconsin-wi-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake WI LocalBusiness; Milwaukee / Madison Great Lakes waste-control context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff WY/WV PPC + WI AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Wyoming WY
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Wyoming sellers into free audit / contact |
+| Audience | Wyoming Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Wyoming |
+| Secondary keywords | Wyoming Amazon advertising, Cheyenne Amazon PPC, Sponsored Products Wyoming |
+| Entity | eCom Gliders; Amazon PPC; Wyoming (service area, not storefront) |
+| Title | Amazon PPC Marketing for Wyoming Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Wyoming sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Wyoming sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-wyoming-wy-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake WY LocalBusiness; Cheyenne / Casper Mountain West waste-control context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximizing-sales URL framing; soft ACoS guarantees; twin-diff WI/WV PPC + WY AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Alabama AL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-alabama-al-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Alabama sellers into free audit / contact |
+| Audience | Alabama Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Alabama |
+| Secondary keywords | Birmingham Amazon sellers, Huntsville Amazon PPC, Alabama Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Alabama (service area, not storefront) |
+| Title | Amazon Account Management for Alabama Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Alabama sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Alabama sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-alabama-al-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake AL LocalBusiness; Birmingham / Huntsville / Mobile Deep South context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique AL Deep South context; twin-diff AK/MS; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Alaska AK
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-alaska-ak-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Alaska sellers into free audit / contact |
+| Audience | Alaska Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Alaska |
+| Secondary keywords | Anchorage Amazon sellers, Fairbanks Amazon PPC, Alaska Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Alaska (service area, not storefront) |
+| Title | Amazon Account Management for Alaska Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Alaska sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Alaska sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-alaska-ak-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake AK LocalBusiness; Anchorage / Fairbanks Far North inbound context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique AK Far North inbound context; twin-diff AZ/AL/HI; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Arizona AZ
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-arizona-az-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Arizona sellers into free audit / contact |
+| Audience | Arizona Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Arizona |
+| Secondary keywords | Phoenix Amazon sellers, Tucson Amazon PPC, Arizona Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Arizona (service area, not storefront) |
+| Title | Amazon Account Management for Arizona Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Arizona sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Arizona sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-arizona-az-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake AZ LocalBusiness; Phoenix / Tucson snowbird-season Southwest context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique AZ Southwest context; twin-diff AR/AK; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Arkansas AR
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-arkansas-ar-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Arkansas sellers into free audit / contact |
+| Audience | Arkansas Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Arkansas |
+| Secondary keywords | Little Rock Amazon sellers, Northwest Arkansas Amazon PPC, Arkansas Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Arkansas (service area, not storefront) |
+| Title | Amazon Account Management for Arkansas Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Arkansas sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Arkansas sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-arkansas-ar-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake AR LocalBusiness; Little Rock / NWA Mid-South context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique AR Mid-South context; twin-diff AS/AZ; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management American Samoa AS
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-american-samoa-as-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for American Samoa sellers into free audit / contact |
+| Audience | American Samoa Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management American Samoa |
+| Secondary keywords | Pago Pago Amazon sellers, American Samoa Amazon PPC, territory Amazon account management |
+| Entity | eCom Gliders; Amazon account management; American Samoa (service area, not storefront) |
+| Title | Amazon Account Management for American Samoa Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for American Samoa sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for American Samoa sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-american-samoa-as-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake AS LocalBusiness; Pago Pago / South Pacific inbound + eligibility honesty |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique AS Pacific inbound context; twin-diff CA/AR/GU; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management California CA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-california-ca-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for California sellers into free audit / contact |
+| Audience | California Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management California |
+| Secondary keywords | Los Angeles Amazon sellers, Bay Area Amazon PPC, California Amazon account management |
+| Entity | eCom Gliders; Amazon account management; California (service area, not storefront) |
+| Title | Amazon Account Management for California Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for California sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for California sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-california-ca-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake CA LocalBusiness; LA / Bay Area high-CPC West Coast context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique CA West Coast context; twin-diff CO/AS; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Colorado CO
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-colorado-co-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Colorado sellers into free audit / contact |
+| Audience | Colorado Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Colorado |
+| Secondary keywords | Denver Amazon sellers, Boulder Amazon PPC, Colorado Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Colorado (service area, not storefront) |
+| Title | Amazon Account Management for Colorado Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Colorado sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Colorado sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-colorado-co-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake CO LocalBusiness; Denver / Front Range outdoor-season context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique CO outdoor-season context; twin-diff CT/CA; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Connecticut CT
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-connecticut-ct-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Connecticut sellers into free audit / contact |
+| Audience | Connecticut Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Connecticut |
+| Secondary keywords | Hartford Amazon sellers, Stamford Amazon PPC, Connecticut Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Connecticut (service area, not storefront) |
+| Title | Amazon Account Management for Connecticut Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Connecticut sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Connecticut sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-connecticut-ct-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake CT LocalBusiness; Hartford / NYC-corridor context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique CT NYC-corridor context; twin-diff DE/CO; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Delaware DE
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-delaware-de-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Delaware sellers into free audit / contact |
+| Audience | Delaware Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Delaware |
+| Secondary keywords | Wilmington Amazon sellers, Delaware Amazon PPC, Mid-Atlantic Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Delaware (service area, not storefront) |
+| Title | Amazon Account Management for Delaware Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Delaware sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Delaware sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-delaware-de-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake DE LocalBusiness; Wilmington / Mid-Atlantic corridor context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique DE Mid-Atlantic context; twin-diff DC/CT; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management District of Columbia DC
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-district-of-columbia-dc-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for District of Columbia sellers into free audit / contact |
+| Audience | District of Columbia Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management District of Columbia |
+| Secondary keywords | DC Amazon sellers, Capitol area Amazon PPC, District of Columbia Amazon account management |
+| Entity | eCom Gliders; Amazon account management; District of Columbia (service area, not storefront) |
+| Title | Amazon Account Management for DC Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for District of Columbia sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for District of Columbia sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-district-of-columbia-dc-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake DC LocalBusiness; Capitol-area / DMV context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique DC DMV context; twin-diff FL/DE; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Florida FL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-florida-fl-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Florida sellers into free audit / contact |
+| Audience | Florida Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Florida |
+| Secondary keywords | Miami Amazon sellers, Orlando Amazon PPC, Florida Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Florida (service area, not storefront) |
+| Title | Amazon Account Management for Florida Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Florida sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Florida sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-florida-fl-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake FL LocalBusiness; Miami / Orlando tourism-and-storm-season context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique FL tourism/storm context; twin-diff GA/DC; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Georgia GA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-georgia-ga-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Georgia sellers into free audit / contact |
+| Audience | Georgia Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Georgia |
+| Secondary keywords | Atlanta Amazon sellers, Savannah Amazon PPC, Georgia Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Georgia (service area, not storefront) |
+| Title | Amazon Account Management for Georgia Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Georgia sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Georgia sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-georgia-ga-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake GA LocalBusiness; Atlanta / Savannah Southeast logistics context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique GA Southeast logistics context; twin-diff GU/FL; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Guam GU
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-guam-gu-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Guam sellers into free audit / contact |
+| Audience | Guam Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Guam |
+| Secondary keywords | Guam Amazon sellers, Dededo Amazon PPC, Guam Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Guam (service area / U.S. territory, not storefront) |
+| Title | Amazon Account Management for Guam Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Guam sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Guam sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-guam-gu-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake GU LocalBusiness; Pacific territory inbound + eligibility honesty |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique GU Pacific territory context; twin-diff HI/GA/CNMI; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Hawaii HI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-hawaii-hi-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Hawaii sellers into free audit / contact |
+| Audience | Hawaii Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Hawaii |
+| Secondary keywords | Honolulu Amazon sellers, Hawaii Amazon PPC, Hawaii Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Hawaii (service area, not storefront) |
+| Title | Amazon Account Management for Hawaii Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Hawaii sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Hawaii sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-hawaii-hi-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake HI LocalBusiness; Honolulu / island inbound and tourism-season context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique HI island inbound context; twin-diff ID/GU; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Idaho ID
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-idaho-id-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Idaho sellers into free audit / contact |
+| Audience | Idaho Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Idaho |
+| Secondary keywords | Boise Amazon sellers, Meridian Amazon PPC, Idaho Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Idaho (service area, not storefront) |
+| Title | Amazon Account Management for Idaho Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Idaho sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Idaho sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-idaho-id-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake ID LocalBusiness; Boise / outdoor-season mountain-West context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique ID outdoor-season context; twin-diff IL/HI; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Illinois IL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-illinois-il-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Illinois sellers into free audit / contact |
+| Audience | Illinois Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Illinois |
+| Secondary keywords | Chicago Amazon sellers, Naperville Amazon PPC, Illinois Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Illinois (service area, not storefront) |
+| Title | Amazon Account Management for Illinois Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Illinois sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Illinois sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-illinois-il-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake IL LocalBusiness; Chicago / dense Midwest competition context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique IL Chicago dense-competition context; twin-diff IN/ID; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon account management Indiana IN
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential/ |
+| Purpose | Geo-intent Amazon account management for Indiana sellers into free audit / contact |
+| Audience | Indiana Amazon sellers seeking remote full account management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon account management Indiana |
+| Secondary keywords | Indianapolis Amazon sellers, Fort Wayne Amazon PPC, Indiana Amazon account management |
+| Entity | eCom Gliders; Amazon account management; Indiana (service area, not storefront) |
+| Title | Amazon Account Management for Indiana Sellers \| eCom Gliders |
+| Meta description | Soft Amazon account management for Indiana sellers: listings, PPC, inventory, and account health—without local-office or sales guarantees. |
+| H1 | Amazon account management for Indiana sellers: soft service map |
+| Canonical | `/professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake IN LocalBusiness; Indianapolis / Fort Wayne Midwest logistics context |
+| OG image | `/images/blog/Amazon-full-account-management-services-4c7f8e2f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft maximize URL framing; ```checklist```; unique IN Midwest logistics context; twin-diff IA/IL; free-audit; **old-site URL path preserved** |
+
 ### Blog: Amazon account management Iowa IA
 
 | Field | Value |
