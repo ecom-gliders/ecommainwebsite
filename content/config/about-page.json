@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "About eCom Gliders",
+    "title": "About eCom Gliders, Amazon account management agency",
     "eyebrow": "Amazon growth agency since 2018",
     "subtitle": "Amazon account management specialists helping brands launch, optimize, and scale across US, UK, Canada, and EU marketplaces since 2018.",
     "primaryCta": {
@@ -38,7 +38,7 @@
     "paragraphs": [
       "eCom Gliders began in 2018 with a single focus: help Amazon sellers grow with structured account management, not generic templates. Officially established as eCom Gliders LLC in 2022, we are now a team of 20+ in-house Amazon specialists.",
       "We have helped clients generate more than $112M in Amazon sales while maintaining a 95% client retention rate. From new product launches to multi-marketplace expansion, our work spans PPC, listing optimization, catalog management, and full account oversight.",
-      "Every service is delivered internally by experienced team members. We are not a reseller of outsourced labor — we are a strategic partner invested in measurable outcomes for your brand."
+      "Every service is delivered internally by experienced team members. We are not a reseller of outsourced labor; we are a strategic partner invested in measurable outcomes for your brand."
     ]
   },
   "timeline": {
@@ -66,7 +66,7 @@
     "items": [
       {
         "title": "In-house delivery",
-        "description": "PPC, listings, creative, and account management are handled by our own team — not offshore resellers or rotating freelancers."
+        "description": "PPC, listings, creative, and account management are handled by our own team, not offshore resellers or rotating freelancers."
       },
       {
         "title": "Data-driven decisions",
@@ -110,7 +110,7 @@
       {
         "number": "04",
         "title": "Partner",
-        "description": "Operate as a long-term growth partner — not a one-off project vendor — with reporting aligned to your revenue goals.",
+        "description": "Operate as a long-term growth partner, not a one-off project vendor, with reporting aligned to your revenue goals.",
         "href": "/contact/",
         "linkLabel": "Talk with our team"
       }
@@ -227,7 +227,7 @@
         "client": "Safefine",
         "metric": "28.9%",
         "metricLabel": "Conversion rate",
-        "excerpt": "A psychology-first CRO redesign lifted conversion from 10.1% to 28.9% without changing the formula.",
+        "excerpt": "A listing CRO redesign lifted conversion from 10.1% to 28.9% without changing the formula.",
         "href": "/case-study-7/"
       }
     ],
@@ -245,7 +245,7 @@
     "items": [
       {
         "question": "Is eCom Gliders an in-house team or an outsourced reseller network?",
-        "answer": "All core services — PPC, listings, creative, catalog, and account management — are delivered by our in-house specialists. We are not a reseller of rotating offshore freelancers."
+        "answer": "All core services (PPC, listings, creative, catalog, and account management) are delivered by our in-house specialists. We are not a reseller of rotating offshore freelancers."
       },
       {
         "question": "Which Amazon marketplaces do you support?",
@@ -253,7 +253,7 @@
       },
       {
         "question": "What happens in a free account audit?",
-        "answer": "A strategist reviews your catalog and advertising posture, then outlines clear priorities — wasted spend, listing gaps, and what to fix first. There is no obligation to engage further."
+        "answer": "A strategist reviews your catalog and advertising posture, then outlines clear priorities: wasted spend, listing gaps, and what to fix first. There is no obligation to engage further."
       },
       {
         "question": "How do you report progress?",
@@ -266,7 +266,7 @@
     ]
   },
   "cta": {
-    "heading": "Ready to scale your Amazon business?",
+    "heading": "Talk with eCom Gliders about your Amazon account",
     "subheading": "Request a free account audit and speak with a strategist about your catalog and growth goals.",
     "primaryCta": {
       "label": "Request a free audit",
@@ -275,8 +275,9 @@
   },
   "seo": {
     "metaTitle": "About eCom Gliders | Amazon Account Management Agency",
-    "metaDescription": "eCom Gliders is a full-service Amazon agency with 20+ in-house specialists. Helping sellers since 2018. 95% client retention. Amazon Ads Verified Partner.",
+    "metaDescription": "About eCom Gliders: full-service Amazon account management agency. 20+ in-house specialists since 2018. 95% retention. Amazon Ads Verified Partner.",
     "canonical": "/about-us/",
+    "ogImage": "/images/about/hero.png",
     "schema": "Organization"
   }
 }

@@ -1,24 +1,24 @@
 {
   "index": {
     "hero": {
-      "title": "Turning goals into growth",
-      "subtitle": "Explore how we partner with Amazon brands to improve visibility, conversions, and brand presence — with measurable outcomes."
+      "title": "Amazon agency case studies",
+      "subtitle": "How we partner with Amazon brands on visibility, conversions, and brand presence, with published metrics from live accounts."
     },
-    "trustHeading": "Our work speaks for itself — trusted by brands across categories",
+    "trustHeading": "Published outcomes across categories",
     "featuredHeading": "Featured result",
-    "proofHeading": "Helping great brands win bigger, since 2018",
+    "proofHeading": "Helping Amazon brands grow since 2018",
     "proofSubheading": "20+ in-house professionals. 95% client retention. $112M+ revenue managed across Amazon seller accounts.",
     "cta": {
-      "heading": "Want results like these?",
-      "body": "Request a free Amazon audit. A strategist reviews PPC, listings, and catalog priorities and follows up within one business day.",
+      "heading": "Request a free Amazon audit",
+      "body": "A strategist reviews PPC, listings, and catalog priorities and follows up within one business day.",
       "primaryLabel": "Get your free audit",
       "primaryHref": "/free-audit/",
       "secondaryLabel": "Contact us",
       "secondaryHref": "/contact/"
     },
     "seo": {
-      "metaTitle": "Amazon Agency Case Studies | Client Results | eCom Gliders",
-      "metaDescription": "See how eCom Gliders helped Amazon sellers achieve measurable growth. Case studies with real metrics including 310% sales increase.",
+      "metaTitle": "Amazon Agency Case Studies | eCom Gliders",
+      "metaDescription": "Amazon agency case studies from eCom Gliders. Published seller metrics including a 310% sales lift. Helping sellers since 2018.",
       "canonical": "/case-studies/",
       "ogImage": "/images/cases/gosports.png",
       "schema": "Organization"
@@ -54,7 +54,7 @@
   "caseStudies": [
     {
       "slug": "case-study-1",
-      "title": "From Stagnant Sales to 73% Growth – Kitchen Brand Transformation",
+      "title": "FARBERWARE Amazon case study: 73% sales growth in 90 days",
       "client": "FARBERWARE",
       "clientDisplayName": "FARBERWARE",
       "metric": "73%",
@@ -136,7 +136,7 @@
           "bullets": [
             "SKAGs for granular control",
             "Discovery, ranking, and retention campaign phases",
-            "Peak-hour bid modifiers (Mon–Fri, 6–9 PM EST)"
+            "Peak-hour bid modifiers (Mon-Fri, 6-9 PM EST)"
           ],
           "outcome": "ACOS 51% to 34%; TACoS 19.8%; PPC-driven sales +37%."
         },
@@ -224,8 +224,8 @@
         "author": "FARBERWARE"
       },
       "seo": {
-        "metaTitle": "From Stagnant Sales to 73% Growth – Kitchen Brand Transformation | eCom Gliders",
-        "metaDescription": "FARBERWARE Home and Kitchen case study: 73% sales growth in 90 days through listing, creative, and PPC restructuring.",
+        "metaTitle": "FARBERWARE Amazon Case Study: 73% Sales Growth | eCom Gliders",
+        "metaDescription": "FARBERWARE Amazon case study: 73% sales growth in 90 days through listing, creative, and PPC restructuring. Published metrics.",
         "canonical": "/case-study-1/",
         "ogImage": "/images/cases/case-study-1.png",
         "schema": "Article"
@@ -235,7 +235,7 @@
     },
     {
       "slug": "case-study-2",
-      "title": "Ranked in 3 Weeks, 502 Units Sold in 30 Days – High-Competition Supplement Launch",
+      "title": "CULTURELLE Amazon case study: 502 units in 30 days",
       "client": "CULTURELLE",
       "clientDisplayName": "CULTURELLE",
       "metric": "502",
@@ -303,7 +303,7 @@
           "bullets": [
             "Premium A+ comparison modules",
             "Five-day friends-and-family micro-launch",
-            "Request a Review API within 48–72 hours"
+            "Request a Review API within 48-72 hours"
           ],
           "outcome": "11 reviews in first 7 days; 27% early order-to-review rate."
         },
@@ -368,7 +368,7 @@
         },
         {
           "label": "Conversion rate",
-          "before": "—",
+          "before": "n/a",
           "after": "19.2%"
         }
       ],
@@ -378,12 +378,12 @@
         "case-study-9"
       ],
       "quote": {
-        "text": "We launched in a red ocean, but still carved out our space. It wasn't hype—it was strategy. People bought into the brand before they ever saw the bottle.",
+        "text": "We launched in a red ocean, but still carved out our space. It was not hype; it was strategy. People bought into the brand before they ever saw the bottle.",
         "author": "CULTURELLE"
       },
       "seo": {
-        "metaTitle": "Ranked in 3 Weeks, 502 Units Sold in 30 Days – High-Competition Supplement Launch | eCom Gliders",
-        "metaDescription": "CULTURELLE supplement launch: 502 units in 30 days, 19.2% CVR, and 13 page-1 keywords without fake giveaways.",
+        "metaTitle": "CULTURELLE Amazon Case Study: 502 Units in 30 Days | eCom Gliders",
+        "metaDescription": "CULTURELLE Amazon case study: 502 units in 30 days, 19.2% CVR, and 13 page-1 keywords without fake giveaways. Published metrics.",
         "canonical": "/case-study-2/",
         "ogImage": "/images/cases/case-study-2.png",
         "schema": "Article"
@@ -393,7 +393,7 @@
     },
     {
       "slug": "case-study-3",
-      "title": "PPC Recovery – Cutting Wasted Ad Spend and Driving Profitable Traffic",
+      "title": "VoltTech Amazon PPC case study: ACOS 76% to 37%",
       "client": "VoltTech Accessories",
       "clientDisplayName": "VoltTech Accessories",
       "metric": "32%",
@@ -463,9 +463,9 @@
         {
           "title": "Bid adjustments and time segmentation",
           "bullets": [
-            "Peak-hour bid boosts (6–10 PM local)",
+            "Peak-hour bid boosts (6-10 PM local)",
             "Weekend bid reductions from historical ROAS",
-            "Dynamic bidding – down only"
+            "Dynamic bidding: down only"
           ]
         },
         {
@@ -544,8 +544,8 @@
         "author": "VoltTech Accessories"
       },
       "seo": {
-        "metaTitle": "PPC Recovery – Cutting Wasted Ad Spend and Driving Profitable Traffic | eCom Gliders",
-        "metaDescription": "VoltTech Accessories PPC recovery: ACOS 76% to 37%, ad spend down 32%, and stronger organic ratio in 60 days.",
+        "metaTitle": "VoltTech Amazon PPC Case Study: ACOS 76% to 37% | eCom Gliders",
+        "metaDescription": "VoltTech Amazon PPC case study: ACOS 76% to 37%, ad spend down 32%, stronger organic ratio in 60 days. Published metrics.",
         "canonical": "/case-study-3/",
         "ogImage": "/images/cases/case-study-3.png",
         "schema": "Article"
@@ -555,7 +555,7 @@
     },
     {
       "slug": "case-study-4",
-      "title": "From Generic to Premium – Full Visual Rebrand That 2X'd Conversion",
+      "title": "NIKKETTA Amazon case study: CVR 11.3% to 22.1%",
       "client": "NIKKETTA",
       "clientDisplayName": "NIKKETTA",
       "metric": "2X",
@@ -683,8 +683,8 @@
         "author": "NIKKETTA"
       },
       "seo": {
-        "metaTitle": "From Generic to Premium – Full Visual Rebrand That 2X'd Conversion | eCom Gliders",
-        "metaDescription": "NIKKETTA pet grooming case study: conversion 11.3% to 22.1% through visual rebrand and A+ redesign.",
+        "metaTitle": "NIKKETTA Amazon Case Study: CVR 11.3% to 22.1% | eCom Gliders",
+        "metaDescription": "NIKKETTA Amazon case study: conversion 11.3% to 22.1% via visual rebrand and A+ redesign for a pet grooming listing. Published metrics.",
         "canonical": "/case-study-4/",
         "ogImage": "/images/cases/case-study-4.png",
         "schema": "Article"
@@ -694,7 +694,7 @@
     },
     {
       "slug": "case-study-5",
-      "title": "Turning Delayed Inventory into a Seasonal Sell-Out",
+      "title": "FOCUS DESIGN Amazon case study: 1,038 units in 17 days",
       "client": "FOCUS DESIGN",
       "clientDisplayName": "FOCUS DESIGN",
       "metric": "1,038",
@@ -720,12 +720,12 @@
       "challenge": {
         "heading": "The challenge",
         "paragraphs": [
-          "FOCUS DESIGN missed their Q2 launch window due to supply chain delays. Inventory for foldable backpacks arrived on June 26 — past peak planning — with high risk of underperformance and storage fees."
+          "FOCUS DESIGN missed their Q2 launch window due to supply chain delays. Inventory for foldable backpacks arrived on June 26, past peak planning, with high risk of underperformance and storage fees."
         ]
       },
       "keyIssues": [
         "Late inventory arrival",
-        "No pre-launch hype or audience readiness",
+        "No pre-launch audience readiness",
         "Missed organic ranking opportunity",
         "Underutilized product page engagement tools"
       ],
@@ -815,12 +815,12 @@
         "case-study-4"
       ],
       "quote": {
-        "text": "We were late—but we still won the season. That timing strategy saved our quarter.",
+        "text": "We were late, but we still won the season. That timing strategy saved our quarter.",
         "author": "FOCUS DESIGN"
       },
       "seo": {
-        "metaTitle": "Turning Delayed Inventory into a Seasonal Sell-Out | eCom Gliders",
-        "metaDescription": "FOCUS DESIGN Amazon CA case study: 1,038 units sold in 17 days after a delayed seasonal inventory arrival.",
+        "metaTitle": "FOCUS DESIGN Amazon Case Study: 1,038 Units in 17 Days | eCom Gliders",
+        "metaDescription": "FOCUS DESIGN Amazon CA case study: 1,038 units sold in 17 days after delayed seasonal inventory. Coupons, Lightning Deal, and UGC-led PPC. Published metrics.",
         "canonical": "/case-study-5/",
         "ogImage": "/images/cases/case-study-5.png",
         "schema": "Article"
@@ -830,7 +830,7 @@
     },
     {
       "slug": "case-study-6",
-      "title": "Localized EU Expansion – €18.4K Launch Revenue Across DE, FR, and IT",
+      "title": "TIME TIMER Amazon EU case study: €18.4K launch revenue",
       "client": "TIME TIMER",
       "clientDisplayName": "TIME TIMER",
       "metric": "€18,450",
@@ -956,12 +956,12 @@
         "case-study-9"
       ],
       "quote": {
-        "text": "It stopped feeling like we were ‘testing’ the EU market—now it’s a real growth channel.",
+        "text": "It stopped feeling like we were testing the EU market; now it is a real growth channel.",
         "author": "TIME TIMER"
       },
       "seo": {
-        "metaTitle": "Localized EU Expansion – €18.4K Launch Revenue Across DE, FR, and IT | eCom Gliders",
-        "metaDescription": "TIME TIMER EU case study: €18,450 revenue, 22 page-1 DE keywords, and 4.8x ROAS across Amazon DE, FR, and IT.",
+        "metaTitle": "TIME TIMER Amazon EU Case Study: €18.4K Launch | eCom Gliders",
+        "metaDescription": "TIME TIMER Amazon EU case study: €18,450 revenue, 22 page-1 DE keywords, and 4.8x ROAS across Amazon DE, FR, and IT. Published metrics.",
         "canonical": "/case-study-6/",
         "ogImage": "/images/cases/case-study-6.png",
         "schema": "Article"
@@ -971,7 +971,7 @@
     },
     {
       "slug": "case-study-7",
-      "title": "Listing Optimization That Tripled Conversion in a Competitive Niche",
+      "title": "Safefine Amazon case study: CVR 10.1% to 28.9%",
       "client": "Safefine",
       "clientDisplayName": "Safefine",
       "metric": "28.9%",
@@ -997,7 +997,7 @@
       "challenge": {
         "heading": "The challenge",
         "paragraphs": [
-          "Safefine sold a facial serum priced at $23.90 while competitors offered similar-looking products near $16. The listing lacked trust cues, visuals felt overly clinical, and conversion sat at 10.1% despite 4.5-star reviews and 400–500 organic sessions per day."
+          "Safefine sold a facial serum priced at $23.90 while competitors offered similar-looking products near $16. The listing lacked trust cues, visuals felt overly clinical, and conversion sat at 10.1% despite 4.5-star reviews and 400-500 organic sessions per day."
         ]
       },
       "keyIssues": [
@@ -1096,12 +1096,12 @@
         "case-study-2"
       ],
       "quote": {
-        "text": "We didn’t change the formula, just the story. The results speak for themselves.",
+        "text": "We did not change the formula, just the story. The results speak for themselves.",
         "author": "Safefine"
       },
       "seo": {
-        "metaTitle": "Listing Optimization That Tripled Conversion in a Competitive Niche | eCom Gliders",
-        "metaDescription": "Safefine beauty case study: conversion 10.1% to 28.9% through listing CRO, visuals, and social proof.",
+        "metaTitle": "Safefine Amazon Case Study: CVR 10.1% to 28.9% | eCom Gliders",
+        "metaDescription": "Safefine Amazon case study: conversion 10.1% to 28.9% through listing CRO, visuals, and social proof. Published metrics.",
         "canonical": "/case-study-7/",
         "ogImage": "/images/cases/case-study-7.png",
         "schema": "Article"
@@ -1111,7 +1111,7 @@
     },
     {
       "slug": "case-study-8",
-      "title": "Scaling From 1 Product to a 7-Figure Brand in 9 Months",
+      "title": "FocusForm Amazon case study: $19K to $118K monthly",
       "client": "FocusForm",
       "clientDisplayName": "FocusForm",
       "metric": "$118K",
@@ -1253,12 +1253,12 @@
         "case-study-9"
       ],
       "quote": {
-        "text": "We grew past a single bestseller. Now we’re building something sustainable, with real brand equity.",
+        "text": "We grew past a single bestseller. Now we are building something sustainable, with real brand equity.",
         "author": "FocusForm"
       },
       "seo": {
-        "metaTitle": "Scaling From 1 Product to a 7-Figure Brand in 9 Months | eCom Gliders",
-        "metaDescription": "FocusForm case study: monthly revenue $19K to $118K and catalog growth from 1 to 7 SKUs in nine months.",
+        "metaTitle": "FocusForm Amazon Case Study: $19K to $118K Monthly | eCom Gliders",
+        "metaDescription": "FocusForm Amazon case study: monthly revenue $19K to $118K and catalog growth from 1 to 7 SKUs in nine months. Published metrics.",
         "canonical": "/case-study-8/",
         "ogImage": "/images/cases/case-study-8.png",
         "schema": "Article"
@@ -1268,7 +1268,7 @@
     },
     {
       "slug": "case-study-9",
-      "title": "From Backyard Game to Brand Powerhouse – 310% Growth for GoSports Cornhole",
+      "title": "GoSports Amazon case study: 310% sales growth",
       "client": "GoSports",
       "clientDisplayName": "GoSports",
       "metric": "310%",
@@ -1439,8 +1439,8 @@
         "case-study-5"
       ],
       "seo": {
-        "metaTitle": "From Backyard Game to Brand Powerhouse – 310% Growth for GoSports Cornhole | eCom Gliders",
-        "metaDescription": "GoSports case study: 310% sales growth, CVR 9.8% to 26.7%, and ACOS 52% to 26.5% in 90 days.",
+        "metaTitle": "GoSports Amazon Case Study: 310% Sales Growth | eCom Gliders",
+        "metaDescription": "GoSports Amazon case study: 310% sales growth, CVR 9.8% to 26.7%, and ACOS 52% to 26.5% in 90 days. Published metrics.",
         "canonical": "/case-study-9/",
         "ogImage": "/images/cases/gosports.png",
         "schema": "Article"

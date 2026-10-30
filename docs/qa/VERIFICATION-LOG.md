@@ -4,6 +4,3002 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Blog: Amazon account management Iowa IA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-iowa-ia-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Des Moines / Cedar Rapids Midwest lean-team context; Albuquerque NM NAP honesty; no fake IA LocalBusiness; twin-diff vs KS/IN; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Iowa title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Kansas KS SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-kansas-ks-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Wichita / Kansas City (KS) Plains lean-team context; Albuquerque NM NAP honesty; no fake KS LocalBusiness; twin-diff vs KY/IA; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Kansas title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Kentucky KY SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-kentucky-ky-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Louisville / Lexington central U.S. lean-team context; Albuquerque NM NAP honesty; no fake KY LocalBusiness; twin-diff vs LA/KS; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Kentucky title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Louisiana LA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-louisiana-la-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique New Orleans / Gulf Coast festival-and-storm-season context; Albuquerque NM NAP honesty; no fake LA LocalBusiness; twin-diff vs ME/KY; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Louisiana title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Maine ME SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-maine-me-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Portland / coastal tourism-season context; Albuquerque NM NAP honesty; no fake ME LocalBusiness; twin-diff vs MD/LA; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Maine title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Maryland MD SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-maryland-md-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Baltimore / Bethesda Mid-Atlantic DMV-corridor context; Albuquerque NM NAP honesty; no fake MD LocalBusiness; twin-diff vs MA/ME; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Maryland title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Massachusetts MA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-massachusetts-ma-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Greater Boston / New England dense-competition context; Albuquerque NM NAP honesty; no fake MA LocalBusiness; twin-diff vs MI/MD; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Massachusetts title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Michigan MI SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-michigan-mi-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Detroit / Grand Rapids Great Lakes industrial-and-outdoor context; Albuquerque NM NAP honesty; no fake MI LocalBusiness; twin-diff vs MN/MA; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Michigan title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Minnesota MN SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-minnesota-mn-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Twin Cities / cold-season demand context; Albuquerque NM NAP honesty; no fake MN LocalBusiness; twin-diff vs MS/MI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Minnesota title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Mississippi MS SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-mississippi-ms-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Jackson / Gulf Coast Southern lean-team context; Albuquerque NM NAP honesty; no fake MS LocalBusiness; twin-diff vs MO/MN; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Mississippi title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Missouri MO SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-missouri-mo-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Kansas City / St. Louis central-Midwest logistics context; Albuquerque NM NAP honesty; no fake MO LocalBusiness; twin-diff vs MT/MS; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Missouri title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Montana MT SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-montana-mt-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Billings / Missoula outdoor-season context; Albuquerque NM NAP honesty; no fake MT LocalBusiness; twin-diff vs NE/WY; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Montana title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Nebraska NE SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-nebraska-ne-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Omaha / Lincoln Midwest lean-team / seasonal Plains context; Albuquerque NM NAP honesty; no fake NE LocalBusiness; twin-diff vs NV/SD; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Nebraska title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Nevada NV SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-nevada-nv-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Las Vegas / Reno tourism-season demand context; Albuquerque NM NAP honesty; no fake NV LocalBusiness; twin-diff vs NH/UT; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Nevada title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management New Hampshire NH SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-new-hampshire-nh-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique New England lean-team / seasonal outdoor context; Albuquerque NM NAP honesty; no fake NH LocalBusiness; twin-diff vs NJ/VT; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: New Hampshire title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management New Jersey NJ SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-new-jersey-nj-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Mid-Atlantic / NYC-adjacent competition context; Albuquerque NM NAP honesty; no fake NJ LocalBusiness; twin-diff vs NY/NM; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: New Jersey title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management New Mexico NM SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-new-mexico-nm-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Southwest context; Verified Albuquerque NAP honesty pointing to Contact; LocalBusiness intentionally not added on this blog (PAGE-OPTIMIZATION-STANDARD); twin-diff vs NY/TX; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: New Mexico title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management New York NY SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-new-york-ny-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique NY metro competition / scale-vs-waste context; clarify NY State not only NYC; Albuquerque NM NAP honesty; no fake NY LocalBusiness; twin-diff vs NC/PA; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: New York title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management North Carolina NC SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-north-carolina-nc-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Research Triangle / Piedmont / coastal context; clarify NC not SC; Albuquerque NM NAP honesty; no fake NC LocalBusiness; twin-diff vs ND/SC; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: North Carolina title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management North Dakota ND SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-north-dakota-nd-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Northern Plains lean-team / winter-inbound context; clarify ND not SD; Albuquerque NM NAP honesty; no fake ND LocalBusiness; twin-diff vs SD/WY; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: North Dakota title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Northern Mariana Islands MP primary SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; brand title; removed ```checklist```; primary CNMI service map; Pacific-to-FBA context; eligibility Requires confirmation; twin-diff vs `-2` ops playbook + PR/TT; NAP honesty; no fake CNMI LocalBusiness; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Northern Mariana Islands title/H1 (no brand) + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Northern Mariana Islands MP-2 SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-northern-mariana-islands-mp-maximize-your-online-potential-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Critical fix: Ohio title/body on CNMI `-2` URL corrected to soft CNMI ops playbook; removed ```checklist```; Pacific-to-FBA cadence; twin-diff vs primary MP (non-`-2`) + PR; NAP honesty; no fake CNMI LocalBusiness; free-audit; URL `-2` preserved (not changed to Ohio)  
+**VERIFIED:** Preview pre-edit: Ohio title/H1 on CNMI `-2` canonical + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Oklahoma OK SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-oklahoma-ok-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Southern Plains mid-market context; Albuquerque NM NAP honesty; no fake OK LocalBusiness; twin-diff vs OR/TX; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Oklahoma title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Oregon OR SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-oregon-or-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique PNW outdoor/lifestyle seasonal context; clarify OR not WA; Albuquerque NM NAP honesty; no fake OR LocalBusiness; twin-diff vs PA/WA; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Oregon title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Pennsylvania PA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-pennsylvania-pa-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Mid-Atlantic metro / holiday-ops context; Albuquerque NM NAP honesty; no fake PA LocalBusiness; twin-diff vs PR/RI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Pennsylvania title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Puerto Rico PR SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-puerto-rico-pr-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique island-to-FBA lead-time context; eligibility/tax Requires confirmation; Albuquerque NM NAP honesty; no fake PR LocalBusiness; twin-diff vs RI/VI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Puerto Rico title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Rhode Island RI SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-rhode-island-ri-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique compact New England lean-team / seasonal context; Albuquerque NM NAP honesty; no fake RI LocalBusiness; twin-diff vs SC/VT; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Rhode Island title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management South Carolina SC SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-south-carolina-sc-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Southeast coastal / Upstate seasonal context; clarify SC not SD; Albuquerque NM NAP honesty; no fake SC LocalBusiness; twin-diff vs SD/TN; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: South Carolina title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management South Dakota SD SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-south-dakota-sd-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Plains lean-team / winter-inbound context; clarify SD not ND; Albuquerque NM NAP honesty; no fake SD LocalBusiness; twin-diff vs TN/WY; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: South Dakota title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Tennessee TN SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-tennessee-tn-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Mid-South metro / seasonal context; Albuquerque NM NAP honesty; no fake TN LocalBusiness; twin-diff vs TX/UT; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Tennessee title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Texas TX SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-texas-tx-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique TX mega-metro competition / scale-vs-waste context; Albuquerque NM NAP honesty; no fake TX LocalBusiness; twin-diff vs UT/TT; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Texas title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Trust Territories TT SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-trust-territories-tt-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Pacific-to-FBA / legacy TT slug honesty; Albuquerque NM NAP honesty; no fake TT LocalBusiness; twin-diff vs UT/VI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Trust Territories title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Utah UT SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-utah-ut-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Mountain West / Wasatch Front outdoor-season context; Albuquerque NM NAP honesty; no fake UT LocalBusiness; twin-diff vs VT/WY; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Utah title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Reduce Amazon ACoS 2025 SEO pass
+
+**Task:** Master-prompt pass `/reduce-amazon-acos-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Data-Backed Hacks/34% cut hype; removed soft client cases + competitor outbounds + Unicode ▸ + Calendly/WhatsApp/free-audit-2 footer; soft efficiency hygiene map; twin-diff vs fix-high-ACoS; free-audit/contact; URL year preserved  
+**VERIFIED:** Preview pre-edit: Data-Backed Hacks title + 34% meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Vermont VT SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-vermont-vt-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique New England seasonal/lean-team context; Albuquerque NM NAP honesty; no fake VT LocalBusiness; twin-diff vs VA/WI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Vermont title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Virginia VA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-virginia-va-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Mid-Atlantic/NoVA context; clarify VA not WV; Albuquerque NM NAP honesty; no fake VA LocalBusiness; twin-diff vs WV/VI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Virginia title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management U.S. Virgin Islands SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-virgin-islands-vi-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique island-to-FBA lead-time context; clarify USVI not BVI; eligibility/tax Requires confirmation; Albuquerque NM NAP honesty; no fake USVI LocalBusiness; twin-diff vs WA/WV; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Virgin Islands title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Washington WA SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-washington-wa-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique PNW competition context; clarify WA state not D.C.; non-affiliation with Amazon corporate; Albuquerque NM NAP honesty; no fake WA LocalBusiness; twin-diff vs WV/WI; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Washington title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management West Virginia SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-west-virginia-wv-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique WV lean-ops/inbound lead-time context; remote-service honesty with Albuquerque NM NAP (Verified site config); no fake WV LocalBusiness; twin-diff vs WI/WY + account ops/agency; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: West Virginia title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Wisconsin SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-wisconsin-wi-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Wisconsin seasonal/manufacturing-adjacent context; remote-service honesty with Albuquerque NM NAP (Verified site config); no fake Wisconsin LocalBusiness; twin-diff vs Wyoming + account ops/agency; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Wisconsin title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management Wyoming SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-management-services-in-wyoming-wy-maximize-your-online-potential/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximize URL framing; removed ```checklist```; unique Wyoming inland-inventory context; remote-service honesty with Albuquerque NM NAP (Verified site config); no fake Wyoming LocalBusiness; twin-diff to account ops/agency/blog; free-audit; URL preserved  
+**VERIFIED:** Preview pre-edit: Wyoming title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested. LocalBusiness intentionally not added (PAGE-OPTIMIZATION-STANDARD).  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Increase sales on Amazon 2025 SEO pass
+
+**Task:** Master-prompt pass `/increase-sales-on-amazon-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Discover proven/AI-powered/bestseller hype; removed fabricated A10 weights + soft % guarantees; duplicate SEO section; competitor outbound; junk CSS; twin-diff vs stagnant/growth/SEO/store; URL year preserved; free-audit  
+**VERIFIED:** Preview pre-edit: Increase Sales 2025 title + CEO Playbook H1 + Discover proven meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon customer image playbook SEO pass
+
+**Task:** Master-prompt pass `/amazon-customer-image-playbook-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Boost CTR/Sales/secret/CPC hype; removed soft 1.8→11% case + Nielsen/A9 causal chain; competitor outbounds; soft review-incentive caution; twin-diff vs SEO/branded contributions/review compliance; free-audit  
+**VERIFIED:** Preview pre-edit: Boost CTR & Sales title + Boost CTR H1 + truncated secret meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Shopify plugins DTC brands SEO pass
+
+**Task:** Master-prompt pass `/top-shopify-plugins-dtc-brands-2025-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Boost Sales/Every Seller Should Use/2025 hype; fixed truncated meta; category Ecommerce (was Top PPC tools); removed competitor outbounds; soft price/store-count claims; twin-diff vs WooCommerce comparison; URL `-2` preserved; free-audit  
+**VERIFIED:** Preview pre-edit: Boost Sales 2025 title + Every Seller Should Use H1 + truncated meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Review manipulation on Amazon SEO pass
+
+**Task:** Master-prompt pass `/review-manipulation-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed image-alt metaTitle leak; soft pay-off/92%/case % hype; category Amazon Compliance; removed competitor outbounds + ```checklist``` + wrong internal links; compliance/report brief with no how-to-abuse; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Determined Latina… title + pay-off H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: UPC codes for Amazon SEO pass
+
+**Task:** Master-prompt pass `/upc-codes-for-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Replaced Buy Genuine/Fast Affordable commerce meta; fixed truncated Must Known H1 + TOC-dump excerpt; category Amazon Compliance; removed competitor outbounds + ```checklist```; soft GS1 price tables; twin-diff vs listing errors/suppression/bulk; free-audit; clarified eCom Gliders does not sell UPCs  
+**VERIFIED:** Preview pre-edit: Buy Genuine title + Must Known H1 + boost-sales meta + BlogPosting/BreadcrumbList/FAQPage Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC advertising guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-advertising-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Guide 2025 year + Maximize Profit/Without Wasting Budget hype; fixed TOC-dump excerpt; removed mid-word competitor outbounds + ```checklist```; soft That Work/saves thousands claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Guide 2025 title + Profitable…Without Wasting Budget H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Sponsored Products vs Sponsored Brands SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-comparison-sponsored-products-vs-sponsored-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated vs. Sponsored metaTitle + TOC-dump meta; soft CPC averages and growth-engine hype; removed competitor outbounds + ```checklist```/```tip```; Guide 2025 category drop; twin-diff vs campaign types; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + TOC meta + SP vs SB H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC hacks SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-hacks/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Proven/Discover/powerful hype; fixed TOC-dump excerpt; removed competitor outbounds + ```checklist```/```tip```; soft save-thousands/70–80% budget claims; twin-diff vs profit sibling + tips/strategies/beginners; URL slug preserved; free-audit  
+**VERIFIED:** Preview pre-edit: Proven Hacks title/H1 + Discover powerful meta + empty extra H1s + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC optimization tips SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-optimization-tips/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong ACoS Analysis metaTitle; category Amazon PPC; soft Lower ACoS/Boost Sales hype; removed competitor outbounds + ```checklist```; soft fake case % and 10–20% budget-as-fact; twin-diff vs high-ACoS/secrets/management/keywords; free-audit  
+**VERIFIED:** Preview pre-edit: ACoS Analysis title + Lower ACoS/Boost Sales H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC campaign types explained SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-campaign-types-explained/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong Ads Dashboard metaTitle + TOC-dump meta/excerpt; category Amazon PPC; soft Maximum ROI/bestseller/optional hype; removed competitor outbounds + ```checklist```/```tip```; soft type/bidding map; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Ads Dashboard title + TOC meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC strategy keyword research 2025 SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-strategy-keyword-research-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Complete Guide/dominance/competition-high hype; fixed truncated TOC-dump meta; removed competitor outbound + ```checklist```/```tip``` + junk table markdown; soft CPC/PKR claims; twin-diff vs beginners/strategies/management; free-audit  
+**VERIFIED:** Preview pre-edit: Strategy 2025 title + Complete Guide H1 + TOC-dump meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC campaign management SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-campaign-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Maximize ROI/Discover proven hype; removed competitor outbounds + ```checklist```; soft weekly ops cadence; soft fake cases; category Amazon PPC; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Campaign Management title + Maximize ROI H1 + Discover proven meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC campaign beginners guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-campaign-beginners-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong Infographic metaTitle; soft 7500-word/grow-sales hype; removed competitor outbounds + ```checklist```; soft first-campaign steps; soft fake cases; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Infographic Workflow title + Beginners H1 + Launch…grow sales meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Scale Amazon 10K to 100K SEO pass
+
+**Task:** Master-prompt pass `/w-to-scale-your-amazon-business-from-10k-to-100k-in-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft 2025/2026 mismatch + proven/fast hype; removed emoji TOC + competitor outbounds; soft stage roadmap; soft income guarantees; twin-diff; free-audit; URL slug preserved  
+**VERIFIED:** Preview pre-edit: Scale 2025 title + Scale 2026 H1 + proven/fast meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon listing errors fix guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-listing-errors-fix-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Fast/2025 hype; removed competitor outbounds + ```checklist```; soft error map; soft case restore times; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Catalog Troubleshooting 2025 title + Errors Fast H1 + Solve…fast meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC optimization secrets 2025 FBA guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-optimization-secrets-2025-fba-sellers-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Secrets/2025–2026 mismatch; fixed truncated meta; removed competitor outbounds + ```tip```/```checklist```; soft pillars/stages; soft fake benchmarks/cases; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Secrets 2025 title + Secrets 2026 H1 + truncated meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon Seller Central bulk listing SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-central-bulk-listing/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft 2026 year mismatch + Save Time hype; removed competitor outbounds + broken image markdown + ```tip```/```checklist```; soft flat-file steps; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Guide 2026 title + Save Time H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon account management SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed broken metaTitle (missing space) + truncated meta; seller-only scope (cut buyer/Prime stuffing); removed competitor outbounds + fake case metrics + ```tip```; soft cadence; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: ManagementSave Time title + truncated meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon FBA growth scaling mistakes SEO pass
+
+**Task:** Master-prompt pass `/amazon-fba-growth-scaling-mistakes/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong PPC Secrets metaTitle; soft Discover/proven hype; removed competitor outbounds + ```checklist```; soft stages/metrics map; twin-diff vs failure-mistakes; free-audit  
+**VERIFIED:** Preview pre-edit: PPC Secrets title + Fail at Scaling H1 + Discover meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon SEO optimization increase sales SEO pass
+
+**Task:** Master-prompt pass `/amazon-seo-optimization-increase-sales/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Burning Money / ranking-hacks hype; removed competitor outbounds + ```tip```/```checklist```; soft SEO vs PPC map; soft A9 claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Burning Money title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Fix stagnant Amazon sales SEO pass
+
+**Task:** Master-prompt pass `/fix-stagnant-amazon-sales/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong PPC Funnel metaTitle; soft Discover/proven/fast hype; removed competitor outbounds + Unicode ✅ + ```tip```; soft root-cause map; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: wrong PPC Funnel title + Unlock Growth Fast H1 + Discover meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon branded listing contributions guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-branded-listing-contributions-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; removed viral-launch outbounds + ```tip```; soft resolve path; soft override/pro-tip hype; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + Learn how meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Top Amazon seller growth hacks 2025 SEO pass
+
+**Task:** Master-prompt pass `/top-amazon-seller-growth-hacks-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Growth Hacks / 2025–2026 mismatch; removed keyword stuffing + YouTube outbound; soft practice map; soft A10/A11 and mobile %; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Hacks 2025 title + Hacks 2026 H1 + Master/win rankings meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon suppressed listings fix SEO pass
+
+**Task:** Master-prompt pass `/amazon-suppressed-listings-fix/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Quickly/Fast/Discover/hacks hype; removed competitor outbounds; soft cause/fix map; soft case restore times; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Fix Them Fast title + Quickly H1 + Discover/hacks meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon seller issues solutions SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-issues-solutions/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Proven/Discover/fix-fast hype; removed ```tip```/```checklist``` + competitor outbound; soft verification/Seller Central/listing/Buy Box/health deep-dive; twin-diff vs problems checklist; free-audit  
+**VERIFIED:** Preview pre-edit: Proven Solutions title/H1 + Discover meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Amazon PPC strategies SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-strategies/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Explosive Growth title; soft Discover/Perfect/ultimate hype; removed ```tip```/```checklist``` + competitor outbounds; soft campaign/bidding map; twin-diff vs evergreen/framework/high-ACoS; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Explosive Growth title + Discover meta + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Scaling Amazon FBA failure mistakes SEO pass
+
+**Task:** Master-prompt pass `/scaling-amazon-fba-business-failure-mistakes/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title/meta; fixed truncated H1; soft Discover/proven/growth-hacks; removed ```tip```/```checklist``` + competitor outbounds; soft mistake map; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: truncated H1 + Discover meta + tip/checklist fences in source + competitor outbounds (amzprep/fulltimefba/youtube/reddit) + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+## 2026-10-30 — Blog: Fix high ACoS Amazon PPC 2025 SEO pass
+
+**Task:** Master-prompt pass `/fix-high-acos-amazon-ppc-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Aligned title/meta; soft “like a Pro” hype; removed competitor outbounds; soft ACoS triage + TACOS; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Optimization 2025 title + Pro/2026 H1 + competitor outbounds + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon seller problems fix guide 2025 SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-problems-fix-guide-2025/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Discover/proven-fixes hype; removed competitor/attorney outbounds; soft absolute seller-count claims; removed ```tip```; twin-diff vs issues-solutions; free-audit  
+**VERIFIED:** Preview pre-edit: Expert 2025 title + Discover meta + attorney outbound + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon data-driven growth SEO pass
+
+**Task:** Master-prompt pass `/amazon-data-driven-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated “for Higher” title; removed JS get-in-touch leak + ```cta```/request-a-quote; soft ranking-dominance claims; KPI framework; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + get-in-touch/request-a-quote + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Strategic Amazon management services SEO pass
+
+**Task:** Master-prompt pass `/strategic-amazon-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft absolute maximize/guarantee framing; removed ```cta```/get-in-touch + free-audit-2; soft scope map; twin-diff vs store-opt; free-audit  
+**VERIFIED:** Preview pre-edit: Higher Sales title + get-in-touch/free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon store optimization guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-store-optimization-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated AI-driven meta; replaced `/request-a-quote/` + `/free-audit-2/`; removed ```checklist``` fences; soft A10/AI hype; practical stack checklist; free-audit  
+**VERIFIED:** Preview pre-edit: Comprehensive title + truncated meta + request-a-quote/free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Do I have to pay 40 dollars to sell on Amazon SEO pass
+
+**Task:** Master-prompt pass `/do-i-have-to-pay-40-dollars-to-sell-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated “mazon” title; soft Individual vs Professional; fee verify disclaimer; replaced `/request-a-quote/` + `/free-audit-2/`; free-audit  
+**VERIFIED:** Preview pre-edit: “mazon” title + request-a-quote/free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How many Amazon sellers make over 100k SEO pass
+
+**Task:** Master-prompt pass `/how-many-amazon-sellers-make-over-100k/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed broken meta; soft absolute survey %; sales vs profit framing; removed ```cta```/request-a-quote + free-audit-2; removed competitor outbounds; twin-diff vs $1k/$10k; free-audit  
+**VERIFIED:** Preview pre-edit: Complete Guide title + broken meta + request-a-quote/free-audit-2 + LitCommerce/GETIDA outbounds + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Are Amazon sales increasing SEO pass
+
+**Task:** Master-prompt pass `/are-amazon-sales-increasing/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated 2024 title; replaced `/get-in-touch/`; removed 10k-word hype and stale $ table; soft absolute increasing; twin-diff vs growing; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + get-in-touch + BlogPosting/BreadcrumbList/FAQPage Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon sales down since boycott SEO pass
+
+**Task:** Master-prompt pass `/amazon-sales-down-since-boycott/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; removed ```cta```/free-audit-2; soft absolute “not down” conclusion; twin-diff vs after-boycott/losses; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Full Analysis title + free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Are Amazon sales growing SEO pass
+
+**Task:** Master-prompt pass `/are-amazon-sales-growing/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title/meta; replaced `/request-a-quote/`; removed Jungle Scout outbound; removed duplicate sections; soft absolute growth; twin-diff vs increasing/decline; free-audit  
+**VERIFIED:** Preview pre-edit: truncated 2025 Market title + excerpt meta + request-a-quote + Jungle Scout + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Jim Cramer Amazon stock analysis SEO pass
+
+**Task:** Master-prompt pass `/jim-cramer-amazon-stock-analysis/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Expert/Long Term title; fixed mismatched seller meta; replaced `/get-in-touch/`; soft absolute Cramer attribution; not-investment-advice disclaimer; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + mismatched meta + get-in-touch + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Number one selling product Amazon SEO pass
+
+**Task:** Master-prompt pass `/number-one-selling-product-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Advanced title; soft Discover meta; removed ```cta```/request-a-quote; removed Helium10/AMZScout outbounds; removed orphan Cloud Strength junk; soft forever-#1 claims; free-audit  
+**VERIFIED:** Preview pre-edit: Advanced title + Discover meta + request-a-quote + competitor outbounds + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Is Amazon Prime losing customers SEO pass
+
+**Task:** Master-prompt pass `/is-amazon-prime-losing-customers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft absolute “growing churn” meta; replaced `/free-audit-2/`; twin-diff vs boycott-prime; soft membership-collapse claims; free-audit  
+**VERIFIED:** Preview pre-edit: Decline title + growing-churn meta + free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Invested 100000 in Amazon 10 years ago SEO pass
+
+**Task:** Master-prompt pass `/invested-100000-in-amazon-10-years-ago/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated “hat If” title; soft absolute return framing + disclaimer; replaced `/get-in-touch/`; removed Icons8/Reddit body outbounds; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title + get-in-touch + Reddit body links + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon sales after boycott analysis SEO pass
+
+**Task:** Master-prompt pass `/amazon-sales-after-boycott-analysis/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title/meta; replaced `/request-a-quote/`; soft absolute sales-drop claims; twin-diff vs losses/effectiveness; seller checklist; free-audit  
+**VERIFIED:** Preview pre-edit: truncated “Complete Data” title + excerpt meta + request-a-quote + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon boycott losses 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-boycott-losses-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed broken ?2026 title; soft Discover/data-backed meta; replaced `/free-audit-2/`; removed orphan feature H2s; soft absolute $ loss claims; twin-diff vs effectiveness; free-audit  
+**VERIFIED:** Preview pre-edit: “Boycott?2026” title + Discover meta + free-audit-2 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon boycott effectiveness SEO pass
+
+**Task:** Master-prompt pass `/amazon-boycott-effectiveness/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft 2024/Discover title; seller measurement framing; replaced `/free-audit-2/`; removed competitor outbounds; soft absolute financial impact; twin-diff vs losses/Prime; free-audit  
+**VERIFIED:** Preview pre-edit: “How Effective Is the Amazon Boycott in 2024” title Observed via navigate; free-audit-2/absolute impact Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Decline in Amazon sales SEO pass
+
+**Task:** Master-prompt pass `/decline-in-amazon-sales/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; stripped fake % stats; replaced `/get-in-touch/`; removed competitor outbounds; soft absolute platform claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Advanced title Observed via navigate; get-in-touch/fake stats Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why everyone is boycotting Amazon Prime SEO pass
+
+**Task:** Master-prompt pass `/why-everyone-is-boycotting-amazon-prime/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft “Everyone” absolute framing; brand title; replaced `/get-in-touch/`; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Everyone title Observed via navigate; get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why people are leaving Amazon SEO pass
+
+**Task:** Master-prompt pass `/why-people-are-leaving-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft “so many” absolute framing; fixed truncated title; replaced `/get-in-touch/`; twin-diff vs boycott post; free-audit  
+**VERIFIED:** Preview pre-edit: truncated So Many title Observed via navigate; get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Make $1,000 a month selling on Amazon SEO pass
+
+**Task:** Master-prompt pass `/make-one-thousand-dollars-a-month-selling-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft $1k income/timeline guarantees; fixed truncated/duplicated meta; replaced `/get-in-touch/`; removed competitor outbounds; stripped lorem leak; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; get-in-touch/lorem Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Best AI tools for Amazon sellers SEO pass
+
+**Task:** Master-prompt pass `/best-artificial-intelligence-tools-for-amazon-sellers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Best/2025 meta; stripped ```cta``` `/request-a-quote/`; replaced ranked vendor list with capability map; soft absolute 70% claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Best AI (2025) title Observed via navigate; request-a-quote CTA Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon inventory forecasting SEO pass
+
+**Task:** Master-prompt pass `/amazon-inventory-forecasting/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Advanced title; replaced `/get-in-touch/`; removed Google aclk + competitor outbounds; soft absolute claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Advanced title Observed via navigate; get-in-touch/aclk Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Zero to ten thousand Amazon income roadmap SEO pass
+
+**Task:** Master-prompt pass `/zero-to-ten-thousand-dollars-amazon-income-roadmap/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft $10k income-guarantee framing; replaced `/free-audit-2/`; removed competitor outbounds; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Best Amazon deals of the week SEO pass
+
+**Task:** Master-prompt pass `/best-amazon-deals-of-the-week-save-big-today/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Save Big meta; removed fake deal table; replaced `/free-audit-2/`; removed competitor outbounds; soft absolute savings claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Save Big title Observed via navigate; free-audit-2/fake deals Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: FBA inventory avoid stockout now SEO pass
+
+**Task:** Master-prompt pass `/fba-inventory-management-avoid-stockout-now/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Boost title; replaced `/get-in-touch/`; removed competitor outbounds; soft absolute claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: truncated Boost title Observed via navigate; get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon FBA warehouse / inventory forecasting SEO pass
+
+**Task:** Master-prompt pass `/amazon-fba-warehouse-illustration-inventory-forecasting/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed mismatched Warehouse Illustration meta; replaced `/request-a-quote/`; removed competitor outbounds; soft absolute never-OOS; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Warehouse Illustration title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: FBA inventory stockouts to stability SEO pass
+
+**Task:** Master-prompt pass `/fba-inventory-management-stockouts-to-stability/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated Transform title; stripped ```feature-grid```; replaced `/get-in-touch/`; removed competitor outbounds; soft absolute claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; get-in-touch/feature-grid Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Evergreen Amazon PPC strategies SEO pass
+
+**Task:** Master-prompt pass `/evergreen-amazon-ppc-strategies-a-long-term-blueprint-for-profitable-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; brand title; replaced `/free-audit-2/`; removed competitor outbounds; soft absolute empires/waste % claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Future of Amazon PPC scalable frameworks SEO pass
+
+**Task:** Master-prompt pass `/future-of-amazon-ppc-scalable-advertising-frameworks-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; brand title; stripped ```checklist```; replaced `/request-a-quote/`; removed competitor outbounds; soft absolute 2026 predictions; free-audit  
+**VERIFIED:** Preview pre-edit: title Observed via navigate; request-a-quote/checklist Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: FBA inventory avoid stockouts SEO pass
+
+**Task:** Master-prompt pass `/fba-inventory-management-avoid-stockouts/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Master/Today/Learn meta; replaced `/request-a-quote/`; removed competitor outbounds; soft absolute perpetual claims; twin-diff; free-audit  
+**VERIFIED:** Preview pre-edit: Master/Today title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC framework launch to scale SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-framework-launch-to-scale/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; soft Learn/Universal meta; stripped ```cta``` `/get-in-touch/`; removed competitor outbounds; soft absolute dominance; free-audit  
+**VERIFIED:** Preview pre-edit: Universal title Observed via navigate; get-in-touch CTA Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Never run out of stock FBA inventory SEO pass
+
+**Task:** Master-prompt pass `/never-run-out-of-stock-amazon-fba-inventory-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated “Never…” title; replaced `/request-a-quote/`; removed competitor outbounds; soft absolute never/leadership claims; twin-diff link; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Long-term Amazon PPC strategy SEO pass
+
+**Task:** Master-prompt pass `/long-term-amazon-ppc-strategy-2026-2030/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated/duplicated meta; stripped ```cta``` `/free-audit-2/`; removed competitor outbounds; soft absolute year claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated-style title Observed via navigate; free-audit-2 CTA Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Audience targeting intent Amazon PPC SEO pass
+
+**Task:** Master-prompt pass `/audience-targeting-intent-amazon-ppc-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title/meta; stripped ```feature-grid```; replaced `/request-a-quote/`; removed competitor outbounds; soft absolute 2026 claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; feature-grid/request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: System-first business strategy SEO pass
+
+**Task:** Master-prompt pass `/system-first-business-strategy-scalable-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Learn meta; replaced `/get-in-touch/`; removed competitor outbounds; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Scalable Amazon business systems SEO pass
+
+**Task:** Master-prompt pass `/scalable-amazon-business-systems/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Learn/dominance meta; replaced `/request-a-quote/`; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon growth system strategic frameworks SEO pass
+
+**Task:** Master-prompt pass `/amazon-growth-system-strategic-frameworks/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; stripped ```feature-grid```; replaced `/get-in-touch/`; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated-style title Observed via navigate; feature-grid/get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: System-first selling Amazon brands SEO pass
+
+**Task:** Master-prompt pass `/system-first-selling-amazon-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft elite/predictable absolute claims; stripped ```feature-grid```/emoji; replaced `/get-in-touch/`; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; feature-grid/get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Beyond optimization systematic Amazon growth SEO pass
+
+**Task:** Master-prompt pass `/beyond-optimization-systematic-amazon-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; replaced free-audit-2; soft A10+/absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Strategic leverage Amazon brand growth SEO pass
+
+**Task:** Master-prompt pass `/strategic-leverage-amazon-brand-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; stripped leaked CSS; replaced `/get-in-touch/`; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; get-in-touch/CSS leak Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon as a system strategic architecture market leadership SEO pass
+
+**Task:** Master-prompt pass `/amazon-as-a-system-strategic-architecture-market-leadership/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; replaced `/request-a-quote/`; soft leadership absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How to build scalable Amazon business strategically SEO pass
+
+**Task:** Master-prompt pass `/how-to-build-a-scalable-amazon-business-strategically/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand meta; de-duped as “what scale means”; soft margin absolutes; replaced `/request-a-quote/`; free-audit  
+**VERIFIED:** Preview pre-edit: unbranded title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How to build scalable Amazon business strategically-2 SEO pass
+
+**Task:** Master-prompt pass `/how-to-build-a-scalable-amazon-business-strategically-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed wrong Hidden Architecture title/meta; de-duped as practical sequence; replaced `/get-in-touch/`; free-audit  
+**VERIFIED:** Preview pre-edit: title Observed via navigate; wrong excerpt/get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; twin without `-2` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Hidden architecture successful Amazon brands 2026 SEO pass
+
+**Task:** Master-prompt pass `/hidden-architecture-successful-amazon-brands-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand meta; replaced free-audit-2; soft elite/effortless absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: unbranded title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; twin how-to-build-scalable (197/198) next for de-dupe  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon as an operating system predictable growth SEO pass
+
+**Task:** Master-prompt pass `/amazon-as-an-operating-system-predictable-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated/duplicated meta; replaced free-audit-2; soft predictable absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: From decision to dominance scalable Amazon business systems SEO pass
+
+**Task:** Master-prompt pass `/from-decision-to-dominance-scalable-amazon-business-systems/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; removed free-audit-2 CTA; soft dominance absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Architecting Amazon success sustainable scale SEO pass
+
+**Task:** Master-prompt pass `/architecting-amazon-success-sustainable-scale/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed duplicate/broken meta; removed free-audit-2 CTA fence; soft inevitable/dominance absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: short brand title Observed via navigate; free-audit-2 Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: From tactical wins to strategic scale Amazon brand blueprint SEO pass
+
+**Task:** Master-prompt pass `/from-tactical-wins-to-strategic-scale-amazon-brand-blueprint/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; replaced `/request-a-quote/`; soft dominance/predictable absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why Amazon sellers plateau system-led brands (twin) SEO pass
+
+**Task:** Master-prompt pass `/why-amazon-sellers-plateau-system-led-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; de-duped as structural-ceiling twin; replaced `/request-a-quote/`; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why most Amazon sellers plateau (long slug) SEO pass
+
+**Task:** Master-prompt pass `/why-most-amazon-sellers-plateau-and-how-system-led-brands-break-through/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; de-duped vs twin (root-causes angle); replaced `/request-a-quote/`; soft predictable claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; request-a-quote Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; twin `/why-amazon-sellers-plateau-system-led-brands/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Strategy layer Amazon success high-growth brands SEO pass
+
+**Task:** Master-prompt pass `/strategy-layer-amazon-success-high-growth-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft Discover/dominance meta; replaced `/get-in-touch/`; soft absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; get-in-touch/Discover Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon brand architecture outlast algorithm changes SEO pass
+
+**Task:** Master-prompt pass `/amazon-brand-architecture-outlast-algorithm-changes/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated 2025 meta; replaced `/get-in-touch/`; soft algorithm absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Designing growth on Amazon strategy before scale SEO pass
+
+**Task:** Master-prompt pass `/designing-growth-on-amazon-strategy-before-scale/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; stripped ```feature-grid```; replaced `/get-in-touch/`; soft absolute claims; corrected image alt; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; truncated meta/feature-grid Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: SEO as a growth system search strategy SEO pass
+
+**Task:** Master-prompt pass `/seo-as-a-growth-system-search-strategy/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; stripped ```feature-grid```; replaced `/get-in-touch/`; soft compounding hype; category News 2026; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; feature-grid/get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Architecting SEO success 2026 SEO pass
+
+**Task:** Master-prompt pass `/architecting-seo-success-2026-strategy-before-execution/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand meta; removed duplicate section + external outbounds; replaced `/get-in-touch/`; soft absolute claims; category News 2026; free-audit  
+**VERIFIED:** Preview pre-edit: unbranded truncated-style title Observed via navigate; get-in-touch/duplicates Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Business of SEO 2026 predictable growth SEO pass
+
+**Task:** Master-prompt pass `/business-of-seo-2026-predictable-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft predictable-growth absolute claims; stripped ```checklist```; removed external outbounds; replaced `/get-in-touch/`; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; checklists/get-in-touch Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Beyond rankings AI-driven SEO strategy SEO pass
+
+**Task:** Master-prompt pass `/beyond-rankings-ai-driven-seo-strategy/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; stripped ```checklist```; removed external SEO outbounds; replaced `/request-a-quote/`; soft AI absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; checklists/quote CTA Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: From traffic to trust SEO blueprint SEO pass
+
+**Task:** Master-prompt pass `/from-traffic-to-trust-seo-blueprint-for-authority-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; removed Google aclk ad links; replaced `/get-in-touch/`; soft trust-currency hype; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; aclk links Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Scaling SEO like a business 2026 framework SEO pass
+
+**Task:** Master-prompt pass `/scaling-seo-like-a-business-2026-framework/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft AI/authority absolute claims; stripped ```checklist```; replaced `/request-a-quote/`; tags updated; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed via navigate; `/request-a-quote/` Observed in source MDX. Schema Assumed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: SEO in the age of AI search 2026 SEO pass
+
+**Task:** Master-prompt pass `/seo-in-the-age-of-ai-search-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed Breeze + SEO.com; kept SEJ citation; replaced `/request-a-quote/`; soft predictable/Future Ready/absolute AI claims; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed via navigate; outbounds Observed in source MDX. Schema Assumed (evaluate failed). Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Decision-driven SEO winning search visibility SEO pass
+
+**Task:** Master-prompt pass `/decision-driven-seo-winning-search-visibility/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; removed Yellowhead/DMI/ResearchFDI; stripped ```checklist```; replaced `/get-in-touch/`; soft growth-engine claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed via navigate; outbounds Observed in source MDX. Schema Assumed (evaluate failed). Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon tools growth system seller software SEO pass
+
+**Task:** Master-prompt pass `/amazon-tools-growth-system-seller-software/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed broken excerpt/meta; removed Kanhasoft + SellerGoals; replaced `/request-a-quote/`; soft “software that thinks” hype; free-audit  
+**VERIFIED:** Preview pre-edit: broken meta Observed; Kanhasoft/SellerGoals and `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: From features to frameworks Amazon tools architecture SEO pass
+
+**Task:** Master-prompt pass `/from-features-to-frameworks-amazon-tools-architecture-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; title punctuation; removed SellerGoals + AWS agentic/APN; replaced `/get-in-touch/`; soft AI/durable-advantage hype; free-audit  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; SellerGoals/AWS and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Architecting Amazon success 2026 strategy-first tools SEO pass
+
+**Task:** Master-prompt pass `/architecting-amazon-success-2026-strategy-first-tools/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; brand title; removed DotcomReps/Novadata/Olifant; stripped ```checklist```; replaced `/get-in-touch/`; soft AI/real-time hype; free-audit; de-duped vs system-first  
+**VERIFIED:** Preview pre-edit: truncated title Observed; competitor outbounds and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: System-first Amazon tools seller infrastructure SEO pass
+
+**Task:** Master-prompt pass `/system-first-amazon-tools-seller-infrastructure/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Clearer meta; completed five pillars (inventory + health were missing); stripped ```checklist```; replaced `/get-in-touch/`; soft forever/AI-hype claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; incomplete pillars and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How to find profitable products on Amazon SEO pass
+
+**Task:** Master-prompt pass `/how-to-find-profitable-products-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed AMZScout + Jungle Scout + Repricer outbounds; stripped ```checklist```; replaced `/get-in-touch/` and SEO growth CTA; soft lazy/tourist hype; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Top Amazon sellers niche research guide SEO pass
+
+**Task:** Master-prompt pass `/top-amazon-sellers-niche-research-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed SellerApp outbound; stripped ```checklist```; replaced `/get-in-touch/` and Discover CTA; soft seven-figure/25–35% margin claims; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed (Playwright navigate); SellerApp and `/get-in-touch/` Observed in source MDX. Schema Assumed BlogPosting pattern (evaluate call failed). Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Smart way research demand competition Amazon SEO pass
+
+**Task:** Master-prompt pass `/smart-way-to-research-demand-and-competition-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; stripped ```checklist```; replaced `/get-in-touch/` and unrelated SEO CTA; soft exploit/absolute-profit claims; free-audit; de-duped vs validation/saturation cluster  
+**VERIFIED:** Preview pre-edit: title without brand Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Step-by-step validate products on Amazon SEO pass
+
+**Task:** Master-prompt pass `/step-by-step-method-to-validate-products-on-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated “Like” meta; brand title; removed Scribd + Helium10; stripped ```checklist```; fixed Data-Backd typo; replaced `/get-in-touch/`; soft margin/outperform claims; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Scribd/Helium10 and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Avoid saturated niche price wars Amazon SEO pass
+
+**Task:** Master-prompt pass `/avoid-saturated-niche-price-wars-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; aligned H1; removed Analyzer.tools + ZonGuru; stripped ```checklist```/```tip``` and Unicode arrow; replaced `/get-in-touch/`; soft named Helium/Jungle tool list and absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; H1/title mismatch Observed; Analyzer/ZonGuru and `/get-in-touch/` Observed; forbidden Unicode Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: High-demand low-competition products Amazon SEO pass
+
+**Task:** Master-prompt pass `/high-demand-low-competition-products-amazon/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; aligned H1; removed AMZScout + SellerSprite; fixed Hdden/Idntify typos; stripped ```checklist```; replaced `/request-a-quote/`; soft unit/review/margin cutoffs; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; H1/title mismatch Observed; AMZScout/SellerSprite and `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why Amazon sellers fail product research SEO pass
+
+**Task:** Master-prompt pass `/why-amazon-sellers-fail-product-research/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated meta; removed Stripe + Tabs; stripped ```checklist```/```cta```; replaced `/request-a-quote/`; soft killer/steal/absolute-most claims; free-audit; de-duped vs research cluster  
+**VERIFIED:** Preview pre-edit: brand title Observed; truncated meta Observed; Stripe/Tabs and `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Seller's guide demand pricing competition SEO pass
+
+**Task:** Master-prompt pass `/a-sellers-guide-to-understanding-demand-pricing-and-competition/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Amazon-first meta; removed Tabs + CliffsNotes outbounds; stripped ```checklist```; replaced `/get-in-touch/`; soft outperform/weapon/maximize ROI claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; Tabs/CliffsNotes and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Predict Amazon product success SEO pass
+
+**Task:** Master-prompt pass `/predict-amazon-product-success/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Aligned H1/title; brand title; removed Reddit/Quora; replaced `/get-in-touch/`; soft ensure/30–40% margin claims; free-audit; de-duped vs research cluster  
+**VERIFIED:** Preview pre-edit: title without brand Observed; H1/title mismatch Observed; Quora and `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Products research strategies Amazon sellers SEO pass
+
+**Task:** Master-prompt pass `/products-research-strategies-used-by-successful-amazon-sellers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title (fix truncated meta); removed AMZScout outbound; stripped ```checklist```; soft predictable-revenue hype; free-audit; de-duped vs choose-winning / hidden-signal / predict-success  
+**VERIFIED:** Preview pre-edit: truncated title Observed; AMZScout outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Choose winning products without guesswork SEO pass
+
+**Task:** Master-prompt pass `/choose-winning-products-without-guesswork/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Amazon-first meta; removed Shopify/ProfitTree/TrendHijacking outbounds; stripped ```checklist```; replaced `/free-audit-2/`; soft predictable-growth and fixed-margin hype; free-audit; de-duped vs hidden-signal / predict-success  
+**VERIFIED:** Preview pre-edit: brand title Observed; competitor outbounds and `/free-audit-2/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Hidden signal Amazon product success SEO pass
+
+**Task:** Master-prompt pass `/hidden-signal-amazon-product-success/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; reframed as multi-signal (not guaranteed predictor); removed Helium10 + Signalytics; replaced `/request-a-quote/`; soft accuracy/viral/insider hype; free-audit; cluster links to choose-winning and predict-success  
+**VERIFIED:** Preview pre-edit: title without brand Observed; Helium10/Signalytics and `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management vs partial management SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-vs-partial-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; fixed duplicated thin meta; removed Seller Forums + Helium10 outbounds; stripped ```checklist```; replaced `/free-audit-2/`; soft dominance/LTV/Buy Box absolute claims; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; duplicated meta Observed; forums/Helium10 and `/free-audit-2/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management vs in-house team SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-vs-inhouse-team/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Meta rewritten; removed BellaVix outbound; stripped ```checklist```/```tip``` and Unicode bullets; fixed Conrol typo; replaced `/request-a-quote/`; soft outperform claims; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; BellaVix and `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management vs Seller Central tool SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-vs-seller-central-tool/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; clarified Seller Central is platform not competing tool; removed Saras outbound; stripped ```checklist```; replaced `/get-in-touch/`; soft always-in-stock/maximize claims; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; Saras outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management vs DIY selling SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-vs-diy-selling/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; soft absolute better/outperform framing; removed eStoreFactory and Seller Forums outbounds; free-audit; differentiated from `/amazon-account-management-vs-diy/`  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor/forum outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Full Amazon account management services 2026 SEO pass
+
+**Task:** Master-prompt pass `/full-amazon-account-management-services-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed MMF/Data4Amazon; stripped ```checklist```; replaced Discover/`/get-in-touch/`; soft necessity/maximize; partner comparison checklist; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; thin body (~3772 chars) Observed; competitor outbounds Observed; Discover + `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management services SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft A9/A10/maximize/Buy Box claims; removed SpectrumBPO; stripped ```checklist```/```cta```; definitional overview; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; SpectrumBPO outbound Observed; CTA fence Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management featured services SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-featured-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Stripped ```checklist```; removed AmzPrep outbound; soft algorithm mastery/suspension absolutes; kept balanced pros/cons; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; AmzPrep outbound Observed; checklist fences Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management PPC listing brand protection SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-ppc-listing-brand-protection/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Keyword-matched brand title; stripped ```checklist```; removed SellerMetrics; replaced `/get-in-touch/`; soft A9/A10/Quality Score/CPC; Unicode arrows; advanced playbook vs with-twin; free-audit  
+**VERIFIED:** Preview pre-edit: generic title Observed; SellerMetrics outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management with PPC listing brand protection SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-with-ppc-listing-brand-protection/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected wrong title/H1; removed FNDecommerce; stripped ```checklist```; replaced `/get-in-touch/`; soft A9/A10/ROAS; three-pillar framing; free-audit  
+**VERIFIED:** Preview pre-edit: title mismatched to Account Setup Observed; competitor outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management worth it 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-worth-it-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; strip Discover; removed SalesDuo/MMF; soft A10+/revenue thresholds/necessity; decision guide; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Discover meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Scale brand with export Amazon full account management SEO pass
+
+**Task:** Master-prompt pass `/scale-your-brand-with-export-amazon-full-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; stripped ```checklist```/```cta```; soft optional/eliminates-risk/smooth-logistics claims; expanded thin body; tax/customs soft; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; thin body (~3832 chars) Observed; CTA fence to `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon full account management maximizes sales ROI SEO pass
+
+**Task:** Master-prompt pass `/amazon-full-account-management-maximizes-sales-roi/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; soft maximize absolutes; removed UpscaleValley/SalesDuo; stripped ```checklist```/```cta``` and Unicode arrows; expanded thin body; free-audit  
+**VERIFIED:** Preview pre-edit: Discover meta Observed; thin body (~3507 chars) Observed; competitor outbounds Observed; CTA fence Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Grow faster with Amazon full account management SEO pass
+
+**Task:** Master-prompt pass `/grow-faster-with-amazon-full-account-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; stripped ```checklist```; removed Canopy outbound; replaced `/get-in-touch/`; soft dominance/future-proof claims; grow-faster levers; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; Canopy outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Benefits of Amazon full account management SEO pass
+
+**Task:** Master-prompt pass `/benefits-of-amazon-full-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Full brand title; stripped ```checklist``` fences; removed SellingOS/Enso outbounds; replaced Discover+/get-in-touch/; soft A9/A10; new vs advanced benefits; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; competitor outbounds Observed; Discover + `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon seller growth strategies account management-2 SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-growth-strategies-account-management-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; preserved `-2` URL; removed MagicInfoMedia outbound; replaced `/get-in-touch/`; soft algorithmic/Buy Box claims; weekly sequence; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; competitor outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified; canonical `-2` Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account management brand growth SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-brand-growth/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected wrong meta title; removed MagicInfoMedia outbound; stripped ```checklist```/```cta``` and mismatched export quote; soft ACOS/Buy Box claims; free-audit  
+**VERIFIED:** Preview pre-edit: meta title mismatched (Advanced…) Observed; competitor outbound Observed; CTA fence to `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account management vs DIY SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-vs-diy/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Full brand title; removed Enso/AmazonListingService outbounds; replaced `/request-a-quote/`; soft ROI absolutes; decision checklist; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; competitor outbounds Observed; `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How Amazon account managers improve Buy Box wins SEO pass
+
+**Task:** Master-prompt pass `/how-amazon-account-managers-improve-buy-box-wins/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Team playbook framing vs singular twin; soft controlled-chaos/optional hype; removed SellerApp outbound; replaced `/get-in-touch/`; kept Amazon official Buy Box link; free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; SellerApp outbound Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: How an Amazon account manager improves Buy Box wins SEO pass
+
+**Task:** Master-prompt pass `/how-amazon-account-manager-improves-buy-box-wins/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; soft 80%/dominance/AI claims; removed Repricer/Headline/SellerLabs outbounds; stripped ```checklist```; replaced `/get-in-touch/`; day-to-day cadence vs plural twin  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; competitor outbounds Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Common Amazon seller mistakes account management SEO pass
+
+**Task:** Master-prompt pass `/common-amazon-seller-mistakes-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; strip Discover/Let's; removed PracticalEcommerce/eDesk/ZonGuru outbounds; replaced `/get-in-touch/`; soft A9/A10; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Discover meta Observed; competitor outbounds Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon seller support and account management SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-support-account-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected wrong meta title; removed esols outbound; soft approval/Buy Box claims; support vs management framing; free-audit  
+**VERIFIED:** Preview pre-edit: meta title mismatched to outsourced post Observed; esols outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Outsourced Amazon account management worth it-2 SEO pass
+
+**Task:** Master-prompt pass `/outsourced-amazon-account-management-worth-it-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title with worth-it; preserved `-2` URL; removed DriftTravel/AmzDudes outbounds; soft hours/ROI claims; decision framework; free-audit  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; competitor/broken outbounds Observed; broken list headings Observed; BlogPosting+BreadcrumbList Verified; canonical `-2` Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: From setup to scale Amazon account management SEO pass
+
+**Task:** Master-prompt pass `/from-setup-to-scale-amazon-account-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed URTasker/EcommerceVilla/Ave7Lift outbounds; soft survival/dominance/DSP; lifecycle phases; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account optimization and management services-2 SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-optimization-and-management-services-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; preserved `-2` URL; removed AMZOptimized/Data4Ecom/EcommercePlanners outbounds; soft A10/hype; combined opt+mgmt framing; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; A10 absolutism Observed; BlogPosting+BreadcrumbList Verified; canonical `-2` path Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon seller management services that actually work SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-management-services-that-actually-work/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; expanded thin body; removed BeBold/Quora outbounds; replaced checklist/CTA fences and `/request-a-quote/`; partner evaluation criteria; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; thin body (~3111 chars) Observed; competitor outbounds Observed; `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account management scale faster SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-scale-faster/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed WorldFirst/Ave7Lift/forum outbounds; replaced `/get-in-touch/`; soft unlock/algorithm-mercy hype; systems-for-speed framing; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; `/get-in-touch/` Observed; "unlocks"/"algorithm shows mercy" Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account handling services SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-handling-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed meta; removed E-Compioneers/Quiktek/MunirAhmad outbounds; replaced `/get-in-touch/`; soft A9/heatmap hype; busy-seller handoff framing; readingTime corrected; free-audit  
+**VERIFIED:** Preview pre-edit: broken meta Observed; competitor outbounds Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Managed Amazon seller services long-term success SEO pass
+
+**Task:** Master-prompt pass `/managed-amazon-seller-services-long-term-success/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed broken meta; removed SPCTek outbound; replaced dead `/get-in-touch/`; soft A9/hype; quarterly long-term framing; kept Amazon official links; free-audit  
+**VERIFIED:** Preview pre-edit: duplicated broken meta Observed; SPCTek + `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account management services for brands SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-services-for-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Branded title aligned to URL; removed PandaBoom/SellingOS/EcommercePlanners outbounds; fixed typos/wrong SEO closing; replaced `/request-a-quote/`; free-audit  
+**VERIFIED:** Preview pre-edit: title/H1 mismatch Observed; competitor outbounds Observed; `/request-a-quote/` Observed; wrong SEO closing Observed in source; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon Seller Central management services explained SEO pass
+
+**Task:** Master-prompt pass `/amazon-seller-central-management-services-explained/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed Helium10/Quiktek outbounds; kept sell.amazon.com; soft A9/DSP; replaced `/request-a-quote/`; AEO definition + co-manage framing; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Full-service Amazon seller account handling SEO pass
+
+**Task:** Master-prompt pass `/full-service-amazon-seller-account-handling/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Aligned title/H1; removed LahoreAnalytica/FNDecommerce outbounds; ownership/scope differentiation; free-audit  
+**VERIFIED:** Preview pre-edit: title/H1 mismatch Observed; vague meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon store management services drive sales SEO pass
+
+**Task:** Master-prompt pass `/amazon-store-management-services-drive-sales/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed WTechy/QERetail outbounds; replaced request-a-quote CTA; soft Discover/A9-A10/eye-tracking hype; Brand Store focus; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Discover meta Observed; competitor outbounds Observed; `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Expert Amazon seller management for brands SEO pass
+
+**Task:** Master-prompt pass `/expert-amazon-seller-management-services/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed Fiverr/Spectrum/WeProms outbounds; replaced mismatched exports/request-a-quote CTA fence; soft hype; free-audit; brand-vs-reseller differentiation  
+**VERIFIED:** Preview pre-edit: title without brand Observed; Fiverr + competitor outbounds Observed; `/request-a-quote/` from CTA Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: End-to-end Amazon seller account management SEO pass
+
+**Task:** Master-prompt pass `/end-to-end-amazon-seller-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed Data4Amazon/Enso/EcomSellersSupport outbounds; replaced dead `/get-in-touch/`; soft Discover/DSP/hype; lifecycle framing vs solutions post; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Discover meta Observed; competitor outbounds Observed; `/get-in-touch/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Professional seller account management solutions SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-seller-account-management-solutions/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed SellerMetrics/Sellerboard/WeProms outbounds; replaced `/request-a-quote/`; soft hype; AEO lead; free-audit; verified since-2018 claim  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; `/request-a-quote/` Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Scale without suspension strategy SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-strategy-scale-without-suspension/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft absolute without-suspension and "enforcement radar" framing; removed YouTube/Velocity/Expandly outbounds; AEO lead; free-audit; readingTime corrected  
+**VERIFIED:** Preview pre-edit: branded short title Observed; competitor/YouTube outbounds Observed; absolute "without suspensions" meta Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon performance metrics guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-performance-metrics-guide-and-control/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Specific meta; soft hype/absolute thresholds; removed SellerSprite outbound; kept Seller Central help links; AEO lead; free-audit; readingTime corrected  
+**VERIFIED:** Preview pre-edit: branded title Observed; SellerSprite outbound Observed; "advanced/top sellers" hype Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon Account Health Rating explained SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-health-rating-explained/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Specific meta; soft internal-logic/weight absolutism; removed Jumpfly/SellerEngine/SellerAssistant outbounds; replaced dead `/get-in-touch/`; AEO lead; Seller Central caveat  
+**VERIFIED:** Preview pre-edit: branded title Observed; competitor outbounds Observed; `/get-in-touch/` Observed; "Let's clear the fog" Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Policy violations account managers SEO pass
+
+**Task:** Master-prompt pass `/professional-amazon-account-managers-handle-policy-violations/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; fixed Cyrillic typo; removed Megaficus/LinkedIn outbounds; replaced dead `/get-in-touch/` and wrong closing; free-audit; soft reinstatement guarantees  
+**VERIFIED:** Preview pre-edit: truncated title Observed; Megaficus + `/get-in-touch/` Observed; Cyrillic "шаблон" Observed in source; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Brands vs resellers account management SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-for-brands-vs-resellers-key-differences-explained/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Specific meta; removed EcomBalance/Velocity Sellers/Spectrum outbounds; soft game/DSP/unlock absolutism; AEO lead; free-audit  
+**VERIFIED:** Preview pre-edit: branded title Observed; game-metaphor meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Long-term Amazon account growth plan SEO pass
+
+**Task:** Master-prompt pass `/long-term-amazon-account-growth-plan/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; specific meta; replaced H4-only outline with H2 sections; removed Onramp/SPCTek outbounds; AEO lead; free-audit  
+**VERIFIED:** Preview pre-edit: title without brand Observed; title-echo meta Observed; broken outline (mostly H4) Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account management mistakes SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-management-mistakes-killing-profits/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; AEO lead; removed Amazoniac/EcomManagers/Facebook outbounds; soft dramatization; tags; free-audit; internal service links  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor outbounds Observed; "Let's expose them" Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Manage multiple Amazon seller accounts SEO pass
+
+**Task:** Master-prompt pass `/manage-multiple-amazon-seller-accounts-without-risk/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; compliance-first rewrite; removed MyAmazonGuy/SellerSprite/Multilogin outbounds; soft absolute-risk and "algorithmic dragon" tone; free-audit; no anti-detect guidance  
+**VERIFIED:** Preview pre-edit: title without brand Observed; competitor/anti-detect outbounds Observed; dramatic closing Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon account optimization checklist SEO pass
+
+**Task:** Master-prompt pass `/amazon-account-optimization-checklist-expert-managers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; professional checklist rewrite; removed EmarsPro/Trivium/Channel Supply outbounds; soft domination/sentiment-engineering/Final Thought hype; free-audit  
+**VERIFIED:** Preview pre-edit: truncated title Observed; competitor outbounds Observed; hype headings Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Automation tools for Amazon account management SEO pass
+
+**Task:** Master-prompt pass `/automation-tools-amazon-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Aligned title/H1 with brand; removed IBR Infotech outbound; soft AI hype; expanded thin body; free-audit CTA; internal service links  
+**VERIFIED:** Preview pre-edit: title without brand Observed; title/H1 mismatch Observed; IBR Infotech outbound Observed; thin body (~2769 chars) Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Mastering Amazon account management strategies SEO pass
+
+**Task:** Master-prompt pass `/mastering-amazon-account-management-strategies/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; expanded thin body; removed JuggernautCommerce outbound; replaced request-a-quote CTA fence with free-audit; internal service links  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; Juggernaut outbound Observed; `/request-a-quote/` Observed; thin body (~2604 chars) Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: What sets eCom Gliders apart SEO pass
+
+**Task:** Master-prompt pass `/what-sets-ecom-gliders-apart-amazon-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; removed Discover/Final Thoughts/checklist fences; soft overclaims; verified company stats; service + free-audit links  
+**VERIFIED:** Preview pre-edit: title without brand Observed; Discover meta Observed; checklist fences Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Canopy Management SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-canopy-amazon-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected eCom "aggressive tactical" understatement; removed SalesDuo/VelocitySellers/MyAmazonGuy; replaced `/request-a-quote/`; fair Observed Canopy full-service framing; free-audit CTA  
+**VERIFIED:** Preview pre-edit: competitor outbounds Assumed from source; Canopy public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Eva Commerce SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-eva-amazon-management-agency/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected EVA mislabel (VA shop → Eva Commerce full-service/omnichannel); brand title; removed aggressive eCom frame; replaced `/request-a-quote/`; free-audit CTA  
+**VERIFIED:** Preview pre-edit: truncated title Observed; `/request-a-quote/` Observed; Eva Commerce public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs GNO Partners SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-gno-partners-amazon-growth-comparison/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected false eCom "aggressive revenue" framing; fixed broken GNO paragraph; replaced `/request-a-quote/` with free-audit; fair Observed consultancy model; AEO lead  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; `/request-a-quote/` outbound Observed; BlogPosting path Assumed; GNO public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Million Dollar Sellers SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-million-dollar-sellers-amazon-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Preserved agency vs MDS community distinction; removed HighOnRank/MyAmazonGuy; removed tip fences; AEO lead; Observed mds.co framing; free-audit CTA  
+**VERIFIED:** Preview pre-edit: competitor outbounds Observed; BlogPosting schema path Assumed same pattern; MDS public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs SalesDuo SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-salesduo-amazon-seller-support/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected SalesDuo understatement; removed SalesDuo blog/Medium/MyAmazonGuy outbounds; fair Observed Seller/Vendor + AI framing; free-audit CTA  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; SalesDuo public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Sophie Society SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-sophie-society-amazon-ppc-account-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected Sophie Society understatement (Observed full-service + Verified Partner); removed MyAmazonGuy/LinkedIn; stripped Unicode arrows; fair comparison table; free-audit CTA  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; Sophie public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Teikametrics SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-teikametrics-amazon-ppc-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO agency-vs-software lead; removed MyAmazonGuy/EcomManagers/EcomInsights; corrected "fully automated" overclaim; Observed Teikametrics platform + managed services; free-audit CTA  
+**VERIFIED:** Preview pre-edit: truncated meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; Teikametrics public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Titan Network SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-titan-network-amazon-seller-growth-agency-comparison/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected Titan Network = mastermind/coaching (not peer agency); removed MyAmazonGuy/ImpactWolves; fixed unfair eCom "basic tactical" framing; AEO lead; free-audit CTA  
+**VERIFIED:** Preview pre-edit: competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; Titan Network public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Quartile SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-quartile-ppc-automation-vs-expert-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO automation-vs-agency lead; removed AInfluencer + Astra Sellrbox; fair Observed Quartile platform framing; markdown comparison table; free-audit CTA  
+**VERIFIED:** Preview pre-edit: vague meta Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; Quartile public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: eCom Gliders vs Velocity Sellers SEO pass
+
+**Task:** Master-prompt pass `/ecom-gliders-vs-velocity-sellers-amazon-store-management/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Corrected false passive-automation framing of eCom Gliders; removed Google Ads IncrementumDigital spam link; fair comparison table; Velocity details labeled Observed from public site; free-audit CTA  
+**VERIFIED:** Preview pre-edit: vague meta Observed; Incrementum aclk outbound Verified; BlogPosting+BreadcrumbList Verified; Velocity public positioning Observed via WebSearch 2026-10-30. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon listing not ranking 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-listing-not-ranking-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; removed CaptenAmz + broken services anchors; repaired corrupted title/bullet text; restored missing Reason 5 (conversion/velocity); AEO lead; free-audit CTA  
+**VERIFIED:** Preview pre-edit: truncated title Observed; CaptenAmz outbound Observed; Reason 4→6 skip Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon listing optimization checklist 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-listing-optimization-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title fix; removed Flairox/PCO Studio; removed unverified 8%/20% claims; fixed corrupted A+ loyalty bullet; AEO checklist lead; free-audit CTA  
+**VERIFIED:** Preview pre-edit: EcomGliders title Observed; truncated meta Observed; competitor outbounds Observed; corruption Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon keyword research 2026 guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-keyword-research-2026-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO how-to lead; specific meta; relative canonical; removed Final Thoughts/hype closer; fixed /services/#service_5 and optimize→PPC mislink; research steps + free-audit  
+**VERIFIED:** Preview pre-edit: brand title Observed; vague meta Observed; BlogPosting+BreadcrumbList Verified; thin body (~3113 chars) Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon A+ Content SEO 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon_a_plus_content_seo_2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO direct No (not direct ranking factor); conversion→visibility path; removed GreenOnion/Keywords.am; fixed PPC/service_5 mislinks; professional structure; free-audit CTA; underscore URL preserved  
+**VERIFIED:** Preview pre-edit: title/meta/H1/canonical Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList+FAQPage Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why your Amazon PPC is wasting money in 2026 SEO pass
+
+**Task:** Master-prompt pass `/why-your-amazon-ppc-is-wasting-money-in-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed H1/URL vs meta/body topic mismatch (backend keywords content removed); AEO symptoms + quick waste audit; differentiated from sister `/amazon-ppc-wasting-money-2026/`; removed Canopy/ChrisTurton/AdsMasters + tip fences; free-audit CTA  
+**VERIFIED:** Live WP + preview: title/body backend keywords Observed; H1 PPC waste Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; optional later home for backend-keywords article if desired (no URL change this pass)  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why Amazon organic rank dropped suddenly SEO pass
+
+**Task:** Master-prompt pass `/why-your-amazon-organic-rank-dropped-suddenly/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; removed SellTru + Seller forums outbound; removed checklist fences; brand title + relative canonical; diagnosis-before-ads + recovery sequence; free-audit CTA  
+**VERIFIED:** Preview pre-edit: title without brand Observed; SellTru + forums outbounds Observed; BlogPosting+BreadcrumbList Verified; thin body (~2848 chars) Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon A10 algorithm 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-a10-algorithm-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead defining A10 as industry shorthand; removed SellerSprite + broken checklist; relative canonical; replaced Introduction/Final Thoughts; cross-linked ranking/silent/keywords/listing/PPC; free-audit CTA  
+**VERIFIED:** Preview pre-edit: title/meta/H1/canonical/BlogPosting+BreadcrumbList Observed/Verified; SellerSprite outbound Observed; thin body (~2466 chars) Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC wasting money 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-wasting-money-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; removed Pare/SellerQI; removed checklist code leaks; de-hyped headings; free-audit CTA; sister-post cross-link  
+**VERIFIED:** Preview brand title Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC for beginners full guide 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-for-beginners-full-guide-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed quoted metaTitle/H1; completed truncated ending; removed SellerSprite; fixed /services/ and ad-type blurbs; AEO lead; free-audit CTA  
+**VERIFIED:** Preview quoted title Observed; SellerSprite outbound Observed; BlogPosting+BreadcrumbList Verified; truncated body ending Observed in source. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Lower Amazon ACOS without losing sales SEO pass
+
+**Task:** Master-prompt pass `/lower-amazon-acos-without-losing-sales/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; removed Reddit/Jarvio; softened unverified claims; fixed broken ending CTA; free-audit  
+**VERIFIED:** Preview missing brand Observed; BlogPosting+BreadcrumbList Verified (~1280 words Observed). Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Sponsored Brands vs Sponsored Products SEO pass
+
+**Task:** Master-prompt pass `/amazon-sponsored-brands-vs-products/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** De-hyped "wins" framing; brand metaTitle; AEO lead; removed Saras/#service_5; softened unverified ROAS/ratio claims; free-audit CTA  
+**VERIFIED:** Preview missing brand Observed; Saras outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC campaign structure SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-campaign-structure/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; removed eComManagers/Autron outbounds; de-hyped copy; free-audit CTA  
+**VERIFIED:** Preview missing brand Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon negative keywords 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-negative-keywords-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Full rewrite of broken/typo MDX; brand title; AEO lead; removed SellerApp/#service_5/checklist leak; free-audit CTA  
+**VERIFIED:** Preview missing brand Observed; typo meta Observed; SellerApp outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC no conversions 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-no-conversions-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; expanded thin body; removed #service_5/LinkedIn; fixed category amp; free-audit CTA; cleaned meta  
+**VERIFIED:** Preview thin (~423 words) Observed; duplicate headings Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: New seller 90-day SEO PPC plan 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-new-seller-seo-ppc-plan-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** De-hyped AI-casual copy; fixed broken tables; brand metaTitle; AEO lead; removed Bellavix/#service_5; free-audit CTA  
+**VERIFIED:** Preview missing brand Observed; jungle meta cut Observed; Bellavix outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Reduce Amazon ad spend with SEO 2026 SEO pass
+
+**Task:** Master-prompt pass `/reduce-amazon-ad-spend-with-seo-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; expanded thin body; removed Sellerise/#service_5; free-audit CTA  
+**VERIFIED:** Preview missing brand Observed; thin wordApprox ~399 Observed; Sellerise outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon product launch strategy 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-product-launch-strategy-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; improved meta; removed Emplicit/LinkedIn/#service_5; free-audit CTA; taxonomy  
+**VERIFIED:** Preview brand title Observed; weak meta Observed; Emplicit outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Why hiring Amazon SEO PPC agency 2026 SEO pass
+
+**Task:** Master-prompt pass `/why-hiring-amazon-seo-ppc-agency-is-worth-it-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; removed Serplogic/Bridgeway/#service_5; free-audit CTA; de-stuffed agency keyword spam  
+**VERIFIED:** Preview missing brand Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon sellers overpaying for PPC 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-sellers-overpaying-for-ppc-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; fixed /free-audit-2/ to /free-audit/; removed SellerQI/#service_5; stripped arrow CTA  
+**VERIFIED:** Preview Expert Guide title Observed; wrong audit URL Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Hidden Amazon PPC tax SEO pass
+
+**Task:** Master-prompt pass `/hidden-amazon-ppc-tax/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; AEO lead; removed Tall Oak/#service_5; fixed bold typo; free-audit CTA; taxonomy  
+**VERIFIED:** Preview missing brand Observed; Tall Oak outbound Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon SEO ranking factors 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-seo-2026-ranking-factors/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** De-hyped title/meta; AEO lead; H2/H3 hierarchy (removed H5 dump); removed #service_5/keywords.am/goaura; free-audit CTA  
+**VERIFIED:** Preview clickbait title Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Listing looks perfect but still doesn't rank SEO pass
+
+**Task:** Master-prompt pass `/why-your-amazon-listing-looks-perfect-but-still-doesnt-rank/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand metaTitle; fixed truncated metaDescription; AEO lead; removed Reddit/forum/#service_5; free-audit CTA; taxonomy  
+**VERIFIED:** Preview missing brand Observed; meta cut Observed; BlogPosting+BreadcrumbList Verified. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Overlooked Amazon SEO factors SEO pass
+
+**Task:** Master-prompt pass `/overlooked-amazon-seo-factors-affecting-product-rankings/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated metaTitle; AEO lead; removed Sellerise/My Amazon Guy/#service_5; fixed CSS-leak CTA; free-audit; taxonomy  
+**VERIFIED:** Preview truncated title Observed; competitor outbounds Observed; BlogPosting+BreadcrumbList Verified; CSS leak Observed in MDX source. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon silent ranking factors SEO pass
+
+**Task:** Master-prompt pass `/amazons-silent-ranking-factors-what-top-sellers-know-that-most-brands-dont/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; de-hyped meta/H1; expanded thin body; removed LinkedIn/#service_5/arrow get-in-touch CTA; free-audit; taxonomy  
+**VERIFIED:** Preview thin (~489 words) Observed; forbidden arrow/quotes Observed; BlogPosting+BreadcrumbList Verified. Live also thin (~385) Observed. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon SEO 2026 keywords not enough SEO pass
+
+**Task:** Master-prompt pass `/amazon-seo-2026-keywords-no-longer-matter/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated metaTitle; AEO lead; de-hyped H1; removed Bridgeway outbound; fixed /services/ link; free-audit CTA; relative canonical  
+**VERIFIED:** Preview truncated title ending "&" Observed; BlogPosting+BreadcrumbList Verified; live full title Observed. Post-deploy re-render Not yet tested. Forbidden Unicode local: 0.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon profit analytics 7 KPIs SEO pass
+
+**Task:** Master-prompt pass `/best-amazon-profit-analytics-for-amazon-sellers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; restored empty sections from live WP; removed Nova Data outbound promo; AEO lead; relative canonical; featured/OG image swap; free-audit CTA; taxonomy  
+**VERIFIED:** Preview pre-edit truncated H1/title Observed; empty H3s Observed; BlogPosting+BreadcrumbList Verified; Nova Data outbound Observed. Live WP fuller body Observed (~1070 words). Forbidden Unicode scan local: 0. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Agency vs DIY Amazon PPC hidden costs SEO pass
+
+**Task:** Master-prompt pass `/agency-vs-diy-amazon-ppc-hidden-costs/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** AEO lead; de-hyped title; meta/canonical; fixed broken/markdown links; Reddit outbound removed from body CTA path; free-audit CTA; taxonomy  
+**VERIFIED (Playwright preview pre-edit):** Title with brand Observed; meta lead-cut Observed; BlogPosting+BreadcrumbList Verified; og:image Observed; wordApprox ~557 Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; post-deploy re-render Not yet tested  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: 5 best Amazon agencies 2026 SEO pass
+
+**Task:** Master-prompt pass `/5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Restored truncated MDX from live WP; AEO lead; meta/canonical; comparison table; free-audit CTAs; claim framing; ASCII copy  
+**VERIFIED (Playwright):** Preview pre-edit: title/meta cut Observed; BlogPosting+BreadcrumbList Verified; og:image Observed. Live WP body ~18k chars Observed as restore source. Post-edit re-render Not yet tested (awaiting deploy). Forbidden Unicode scan: 0 hits Verified locally.  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next chronological featured blog after this slug  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: AI for Amazon sellers 2026 SEO pass
+
+**Task:** Master-prompt pass `/ai-for-amazon-sellers-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title; AEO lead; remove competitor outbound; internal CTAs; human-oversight framing; taxonomy  
+**VERIFIED (Playwright preview before edit):** Title OK length missing brand; og:image OK; BlogPosting OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/5-best-amazon-agencies-to-work-with-in-2026-for-serious-fba-brands/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Brand Registry benefits SEO pass
+
+**Task:** Master-prompt pass `/benefits-of-amazon-brand-registry-for-private-label-sellers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated title; AEO lead; markdown tables; Brand Registry service link; claim softening; taxonomy  
+**VERIFIED (Playwright preview before edit):** Title truncated at "Private"; og:image OK; BlogPosting OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/ai-for-amazon-sellers-2026/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon growth strategy 2026 SEO pass
+
+**Task:** Master-prompt pass `/amazon-growth-strategy-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** KW title + brand; AEO lead; fix comparison table; internal links; free-audit CTA; remove Introduction/Final Thoughts  
+**VERIFIED (Playwright preview before edit):** Title missing brand; og:image OK; BlogPosting OK; meta already decent Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/benefits-of-amazon-brand-registry-for-private-label-sellers/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon growth partner vs DIY PPC SEO pass
+
+**Task:** Master-prompt pass `/amazon-growth-partner-vs-diy-ppc-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Comparative title; AEO lead; remove AI headings; internal service/audit links; fix free-audit CTA  
+**VERIFIED (Playwright preview before edit):** Title OK with "Beats"; og:image OK; soft meta Observed in source  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; featured blog batch (8) complete; next = continue chronological/remaining blogs  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC draining wallet SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-draining-your-wallet/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Professional title/H1; AEO lead; remove duplicate H2/hype CTA; internal links; URL preserved  
+**VERIFIED (Playwright preview before edit):** Title 61 with curly apostrophe; og:image OK; BlogPosting OK; duplicate H2s Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/amazon-growth-partner-vs-diy-ppc-2026/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC lower ACOS (hack slug) SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-hack-slash-acos/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Hack→Strategy title; AEO lead; fixed truncated intro; removed competitor/reddit/broken CTAs; URL preserved  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image OK; BlogPosting OK; meta soft; truncated body Observed in source  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/amazon-ppc-draining-your-wallet/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon brand growth guide SEO pass
+
+**Task:** Master-prompt pass `/amazon-brand-growth-guide/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Fixed truncated metaTitle; meta rewrite; AEO lead; comparison table; internal links; taxonomy cleanup  
+**VERIFIED (Playwright preview before edit):** Title truncated at "That Amazon"; og:image OK; BlogPosting OK; H1 OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/amazon-ppc-hack-slash-acos/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC tactics (hacks slug) SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-hacks-that-actually-increase-profit/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Hacks→Tactics title/H1; AEO lead; internal links; trim tags; relative canonical; URL preserved  
+**VERIFIED (Playwright preview before edit):** Title 61; og:image OK; BlogPosting OK; outbound competitor links in MDX Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/amazon-brand-growth-guide/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Launch Amazon SEO 2026 pass
+
+**Task:** Master-prompt pass `/launch-new-product-amazon-seo-2026/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Shorter title/meta; AEO lead; internal service links; remove competitor outbound; fix free-audit CTA; rename Final Thoughts  
+**VERIFIED (Playwright preview before edit):** Title 65; og:image OK; BlogPosting OK; meta soft; competitor links Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/amazon-ppc-hacks-that-actually-increase-profit/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Amazon PPC formula SEO pass
+
+**Task:** Master-prompt pass `/amazon-ppc-formula-that-scales-without-wasting-budget/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand title/meta; AEO lead; category/tags; internal CTAs; remove competitor outbound; strip curly quotes  
+**VERIFIED (Playwright preview before edit):** Title OK length; og:image OK; BlogPosting OK; meta soft; category mismatch Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/launch-new-product-amazon-seo-2026/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog: Sponsored Display Ads SEO pass
+
+**Task:** Master-prompt pass `/when-should-you-use-sponsored-display-ads/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Title/H1 Amazon KW; fixed truncated meta/excerpt; AEO lead H2; internal links; remove competitor outbound; rename Final Thoughts; category Amazon PPC; relative canonical  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image OK; BlogPosting schema OK; meta truncated; H2 KW-weak; hasEmDash on page chrome Assumed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next featured blog `/amazon-ppc-formula-that-scales-without-wasting-budget/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Terms and Conditions SEO pass
+
+**Task:** Master-prompt pass `/terms-conditions/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand H1/title; meta KW lead; ogImage  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; WebPage+BreadcrumbList OK; no em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; core/legal convert queue complete; next = blog posts if user pastes TARGET  
+**NEXT ACTION:** Ask user: commit only vs commit+push for full pending batch
+
+---
+
+## 2026-10-30 — Privacy Policy SEO pass
+
+**Task:** Master-prompt pass `/privacy-policy/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Brand H1/title; meta KW lead; ogImage  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; WebPage+BreadcrumbList OK; no em dashes Observed  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/terms-conditions/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — HTML sitemap SEO pass
+
+**Task:** Master-prompt pass `/site-map/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; metaTitle/meta lead; ogImage; CollectionPage+BreadcrumbList schema; strip em dash  
+**VERIFIED (Playwright preview before edit):** Title thin; og:image null; schema empty; H1 KW-weak; em dash in intro  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/privacy-policy/` then `/terms-conditions/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Agency partnership SEO pass
+
+**Task:** Master-prompt pass `/agency-partnership/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; shorter title/meta; ogImage; strip em/en dashes  
+**VERIFIED (Playwright preview before edit):** Title 69; og:image null; WebPage+FAQ schema OK; H1 KW-weak; em dash in meta  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/site-map/` or legal pages  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — FAQ page SEO pass
+
+**Task:** Master-prompt pass `/faq/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; metaTitle/meta lead; ogImage; strip em dashes in faq.json  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; FAQPage schema OK; H1 KW-weak  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/agency-partnership/` or `/site-map/` / legal  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Careers page SEO pass
+
+**Task:** Master-prompt pass `/careers/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW + roles; metaTitle/meta lead; ogImage; strip em/en dashes  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; JobPosting x2 + FAQ schema OK; H1 KW-weak  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/faq/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Blog index SEO pass
+
+**Task:** Master-prompt pass `/blog/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; meta lead; OG/Twitter; strip em dash; CollectionPage name align  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; CollectionPage schema OK; H1 KW mismatch  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/careers/` or `/faq/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Contact page SEO pass
+
+**Task:** Master-prompt pass `/contact/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 KW; meta Amazon agency lead; ogImage; strip en/em dashes  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; ContactPage+Org+FAQ schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; next `/blog/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — About page SEO pass
+
+**Task:** Master-prompt pass `/about-us/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; meta lead; ogImage; strip em dashes; CTA de-hype  
+**VERIFIED (Playwright preview before edit):** Title OK; og:image null; AboutPage+Org+FAQ schema OK; robots index,follow  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel (cases batch + about); next core `/contact/` or `/blog/`  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Case study 9 (GoSports) SEO pass
+
+**Task:** Master-prompt pass `/case-study-9/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+growth KW; shorter metaTitle; meta Amazon lead; strip en dash / hype title  
+**VERIFIED (Playwright preview before edit):** Title 89 with en dash; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; case-studies queue complete (hub + CS1–CS9)  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS9); next queue after cases = blogs or remaining convert pages
+
+---
+
+## 2026-10-30 — Case study 8 (FocusForm) SEO pass
+
+**Task:** Master-prompt pass `/case-study-8/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+revenue KW; metaTitle align; meta Amazon lead; strip curly apostrophe  
+**VERIFIED (Playwright preview before edit):** Title 69 story-led; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-9/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS8)
+
+---
+
+## 2026-10-30 — Case study 7 (Safefine) SEO pass
+
+**Task:** Master-prompt pass `/case-study-7/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+CVR KW; shorter metaTitle; meta Amazon lead; strip en dash and curly apostrophe  
+**VERIFIED (Playwright preview before edit):** Title 82 story-led; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-8/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS7)
+
+---
+
+## 2026-10-30 — Case study 6 (TIME TIMER) SEO pass
+
+**Task:** Master-prompt pass `/case-study-6/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+revenue KW; shorter metaTitle; meta Amazon lead; strip en/em dashes and curly quotes  
+**VERIFIED (Playwright preview before edit):** Title 83 with en dash; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-7/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS6)
+
+---
+
+## 2026-10-30 — Case study 5 (FOCUS DESIGN) SEO pass
+
+**Task:** Master-prompt pass `/case-study-5/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+units KW; metaTitle align; strip em dashes; soften "hype" issue label  
+**VERIFIED (Playwright preview before edit):** Title 65 story-led; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-6/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS5)
+
+---
+
+## 2026-10-30 — Case study 4 (NIKKETTA) SEO pass
+
+**Task:** Master-prompt pass `/case-study-4/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+CVR KW; shorter metaTitle; meta Amazon lead; strip en dash  
+**VERIFIED (Playwright preview before edit):** Title 81 with en dash; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-5/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS4)
+
+---
+
+## 2026-10-30 — Case study 3 (VoltTech) SEO pass
+
+**Task:** Master-prompt pass `/case-study-3/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+ACOS KW; shorter metaTitle; meta Amazon lead; strip en dashes  
+**VERIFIED (Playwright preview before edit):** Title 84 with en dash; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-4/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1–CS3)
+
+---
+
+## 2026-10-30 — Case study 2 (CULTURELLE) SEO pass
+
+**Task:** Master-prompt pass `/case-study-2/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+outcome KW; shorter metaTitle; meta Amazon lead; strip en dashes  
+**VERIFIED (Playwright preview before edit):** Title 96 with en dash; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; `/case-study-3/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push (hub + CS1 + CS2)
+
+---
+
+## 2026-10-30 — Case study 1 (FARBERWARE) SEO pass
+
+**Task:** Master-prompt pass `/case-study-1/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1/title entity+outcome KW; shorter metaTitle; meta Amazon lead; strip en dashes  
+**VERIFIED (Playwright preview before edit):** Title 79 with en dash; H1 same; og:image OK; Article schema OK  
+**DOCUMENTED:** SITE-SEO-MAP row; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User approval for commit/push (includes prior `/case-studies/` hub edits); `/case-study-2/` next  
+**NEXT ACTION:** Ask user: commit only vs commit+push
+
+---
+
+## 2026-10-30 — Case studies hub SEO pass
+
+**Task:** Master-prompt pass `/case-studies/`  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** H1 primary KW; shorter title; meta lead; strip em dashes; CTA/proof copy tone  
+**VERIFIED (Playwright preview before edit):** H1 KW-weak; og:image present (gosports.png); CollectionPage OK  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** Bundled with case-study-1 commit approval  
+**NEXT ACTION:** User git counsel
+
+---
+
 ## 2026-10-30 — TCS/TDS reconciliation SEO pass
 
 **Task:** Master-prompt pass `/free-amazon-tools/tcs-tds-reconciliation/`  

@@ -12,16 +12,32 @@ import { buildBlogIndexModel } from "@/lib/blog/build-blog-index-model";
 import { absoluteUrl } from "@/lib/seo/site-url";
 import { JsonLdScript } from "@/lib/seo/json-ld-script";
 
+const blogIndexOgImage = "/images/blog/ecomglidersbanner-1024x598-e176afa2.png";
+
 export const metadata: Metadata = {
   title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
   description:
-    "328 articles on Amazon PPC, listing optimization, account management, and seller growth strategies from eCom Gliders.",
+    "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
   alternates: {
     canonical: absoluteUrl("/blog/"),
   },
   robots: {
     index: true,
     follow: true,
+  },
+  openGraph: {
+    title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
+    description:
+      "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
+    url: absoluteUrl("/blog/"),
+    images: [{ url: absoluteUrl(blogIndexOgImage) }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
+    description:
+      "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
+    images: [absoluteUrl(blogIndexOgImage)],
   },
 };
 
@@ -73,9 +89,9 @@ export default async function BlogIndexPage({ searchParams }: BlogIndexPageProps
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Amazon Seller Insights",
+    name: "Amazon seller blog",
     description:
-      "Articles on Amazon PPC, listing optimization, account management, and seller growth.",
+      "Amazon seller blog from eCom Gliders: articles on Amazon PPC, listing optimization, account management, and seller growth.",
     url: absoluteUrl("/blog/"),
     isPartOf: {
       "@type": "WebSite",

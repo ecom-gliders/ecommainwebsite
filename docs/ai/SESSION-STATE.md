@@ -1,7 +1,7 @@
-## Latest (2026-10-30) — TCS/TDS reconciliation SEO done (free tools complete)
+## Latest (2026-10-30) — Blog: Amazon account management Iowa IA SEO (awaiting commit approval)
 
-Completed `/free-amazon-tools/tcs-tds-reconciliation/`. All free-tool directory pages now have SITE-SEO-MAP rows from this re-opt queue.
+Completed `/professional-amazon-account-management-services-in-iowa-ia-maximize-your-online-potential/` locally (loop index 87). Soft Des Moines / Cedar Rapids Midwest lean-team service map; free-audit; Albuquerque NM NAP honesty; no fake IA LocalBusiness; twin-diff vs KS/IN; URL maximize slug preserved.
 
-**Implemented:** Amazon KW in H1/title; longer meta; ogImage; CTA fix.
+**User instruction:** Do not auto-push; ask before git commit/push.
 
-**Next convert candidates:** `/case-studies/` hub, individual case studies, or Phase 1 `TECHNICAL-SEO-AUDIT.md`.
+**Next:** `/professional-amazon-account-management-services-in-indiana-in-maximize-your-online-potential/` (loop index 86) unless user pastes another URL.

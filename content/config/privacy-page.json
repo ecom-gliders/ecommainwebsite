@@ -1,12 +1,13 @@
 {
   "seo": {
-    "metaTitle": "Privacy Policy | eCom Gliders",
-    "metaDescription": "How eCom Gliders collects, uses, shares, and protects personal and business information when you visit our website or work with our Amazon agency team.",
+    "metaTitle": "eCom Gliders Privacy Policy | Data Practices",
+    "metaDescription": "eCom Gliders Privacy Policy: how we collect, use, share, and protect personal and business information when you visit our website or work with our Amazon agency team.",
     "canonical": "/privacy-policy/",
+    "ogImage": "/images/about/hero.png",
     "robots": { "index": true, "follow": true }
   },
   "eyebrow": "Legal",
-  "h1": "Privacy Policy",
+  "h1": "eCom Gliders Privacy Policy",
   "dateLabel": "Effective date",
   "dateValue": "28 October 2026",
   "intro": "eCom Gliders LLC (\"eCom Gliders,\" \"we,\" \"us,\" or \"our\") respects your privacy. This Privacy Policy explains what information we collect, how we use it, when we share it, and the choices available to you when you visit ecomgliders.com, submit a form, or engage our Amazon agency services.",

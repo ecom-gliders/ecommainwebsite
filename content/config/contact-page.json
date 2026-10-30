@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "Contact eCom Gliders",
+    "title": "Contact eCom Gliders, Amazon agency",
     "subtitle": "Talk with an Amazon strategist about your catalog, advertising, or account goals.",
-    "hoursLine": "Monday–Friday, 9:00 AM–5:00 PM EST",
+    "hoursLine": "Monday-Friday, 9:00 AM-5:00 PM EST",
     "slaLine": "We respond within one business day."
   },
   "paths": [
@@ -21,14 +21,14 @@
     {
       "id": "audit",
       "label": "Request a free audit",
-      "description": "Structured catalog and advertising review — opens the intake funnel.",
+      "description": "Structured catalog and advertising review. Opens the free-audit intake.",
       "href": "/free-audit/"
     }
   ],
   "form": {
     "heading": "Send a message",
     "submitLabel": "Submit request",
-    "successMessage": "Thanks — your message is in. We typically reply within one business day.",
+    "successMessage": "Thanks. Your message is in. We typically reply within one business day.",
     "errorMessage": "Please check the highlighted fields and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about my inquiry.",
     "fields": [
@@ -82,7 +82,7 @@
     "emailLabel": "Email",
     "addressLabel": "Office",
     "hoursLabel": "Hours",
-    "hoursValue": "Monday–Friday, 9:00 AM–5:00 PM EST",
+    "hoursValue": "Monday-Friday, 9:00 AM-5:00 PM EST",
     "mapsLabel": "Open office address in Google Maps",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=1209+Mountain+Rd+NE,+Albuquerque,+NM",
     "roleEmails": [
@@ -104,7 +104,7 @@
     "heading": "Book a strategy conversation",
     "subheading": "Five short steps. We use your answers to prep before we reach out.",
     "submitLabel": "Submit intake",
-    "successMessage": "Thanks — your strategy intake is in. We will follow up on next steps shortly.",
+    "successMessage": "Thanks. Your strategy intake is in. We will follow up on next steps shortly.",
     "errorMessage": "Please complete the required intake fields and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about this strategy conversation.",
     "services": [
@@ -205,7 +205,7 @@
       },
       {
         "question": "What should I include in a message?",
-        "answer": "Share your marketplace, roughly what you sell, and the main challenge — for example wasted ad spend, listing conversion, or multi-marketplace expansion. Links to your storefront help when available."
+        "answer": "Share your marketplace, roughly what you sell, and the main challenge: for example wasted ad spend, listing conversion, or multi-marketplace expansion. Links to your storefront help when available."
       }
     ]
   },
@@ -219,8 +219,9 @@
   },
   "seo": {
     "metaTitle": "Contact eCom Gliders | Amazon Agency",
-    "metaDescription": "Contact eCom Gliders for Amazon account management, PPC, and listing optimization. Call +1 (360) 660-1210 or send a message.",
+    "metaDescription": "Contact eCom Gliders Amazon agency for account management, PPC, and listing optimization. Call +1 (360) 660-1210 or send a message.",
     "canonical": "/contact/",
+    "ogImage": "/images/about/hero.png",
     "schema": "Organization"
   }
 }

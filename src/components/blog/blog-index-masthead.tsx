@@ -54,7 +54,7 @@ export function BlogIndexMasthead({
               : "text-[2.25rem] leading-[1.05] sm:text-[3rem] lg:text-[3.75rem]",
           )}
         >
-          Amazon Seller Insights
+          Amazon seller blog
         </h1>
         <p
           className={cn(
@@ -63,7 +63,7 @@ export function BlogIndexMasthead({
           )}
         >
           Practical playbooks on Amazon PPC, SEO, listing optimization, and full
-          account management — {totalCount} articles from the eCom Gliders team.
+          account management. {totalCount} articles from the eCom Gliders team.
         </p>
         <BlogIndexSearch
           query={query}

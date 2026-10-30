@@ -1,7 +1,7 @@
 {
   "hero": {
     "eyebrow": "Answers",
-    "title": "Frequently asked questions",
+    "title": "eCom Gliders FAQ: Amazon agency questions",
     "subtitle": "Clear answers about eCom Gliders services, audits, marketplaces, and how we work with Amazon brands."
   },
   "cta": {
@@ -16,9 +16,10 @@
     }
   },
   "seo": {
-    "metaTitle": "FAQ | Amazon Agency Questions Answered | eCom Gliders",
-    "metaDescription": "Answers about eCom Gliders Amazon account management, free audits, PPC, marketplaces, pricing, and how our in-house team works with sellers.",
+    "metaTitle": "eCom Gliders FAQ | Amazon Agency Questions",
+    "metaDescription": "eCom Gliders FAQ: answers on Amazon account management, free audits, PPC, marketplaces, pricing, and how our in-house team works with sellers.",
     "canonical": "/faq/",
+    "ogImage": "/images/about/hero.png",
     "schema": "FAQPage"
   }
 }

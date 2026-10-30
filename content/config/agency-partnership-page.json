@@ -1,14 +1,18 @@
 {
   "seo": {
-    "metaTitle": "Agency Partnership | Amazon Collaboration for Agencies | eCom Gliders",
-    "metaDescription": "Apply to partner with eCom Gliders. White-label, referral, and co-managed Amazon delivery for complementary agencies—not an open vendor pitch inbox.",
+    "metaTitle": "Amazon Agency Partnership | White-Label and Referral | eCom Gliders",
+    "metaDescription": "Amazon agency partnership with eCom Gliders: white-label, referral, and co-managed delivery for complementary agencies. Apply to partner.",
     "canonical": "/agency-partnership/",
-    "robots": { "index": true, "follow": true }
+    "robots": {
+      "index": true,
+      "follow": true
+    },
+    "ogImage": "/images/about/hero.png"
   },
   "hero": {
     "eyebrow": "Agency partnerships",
-    "title": "Amazon delivery capacity for agencies that already own the relationship",
-    "subtitle": "eCom Gliders collaborates with complementary agencies that need a trusted Amazon bench—white-label execution, referrals, or co-managed lanes—without turning this page into an open RFP for unrelated vendors.",
+    "title": "Amazon agency partnership: white-label, referral, co-manage",
+    "subtitle": "eCom Gliders collaborates with complementary agencies that need a trusted Amazon bench: white-label execution, referrals, or co-managed lanes, without turning this page into an open RFP for unrelated vendors.",
     "forLine": "For: digital, creative, web, PR, 3PL, finance, and other agencies whose clients ask for Amazon work you do not staff in-house.",
     "notForLine": "Not for: Amazon brands seeking services (use Free Audit), freelancers pitching us work, or vendors selling tools, media, or sponsorships to eCom Gliders.",
     "primaryCta": {
@@ -28,7 +32,7 @@
   "demand": {
     "eyebrow": "Why agencies reach out",
     "heading": "Amazon shows up in client conversations before you have a full Amazon team",
-    "intro": "Many agencies win brands on web, creative, logistics, or finance—then Amazon demand appears. Building a full Amazon ops bench is expensive. Leaving the ask unanswered risks the relationship.",
+    "intro": "Many agencies win brands on web, creative, logistics, or finance; then Amazon demand appears. Building a full Amazon ops bench is expensive. Leaving the ask unanswered risks the relationship.",
     "signals": [
       {
         "title": "Clients ask for Amazon, not another agency pitch deck",
@@ -36,7 +40,7 @@
       },
       {
         "title": "Hiring a full Amazon pod is a multi-role commitment",
-        "description": "PPC, listings, creative, catalog, and account ops rarely fit one generalist hire—and overflow still happens."
+        "description": "PPC, listings, creative, catalog, and account ops rarely fit one generalist hire, and overflow still happens."
       },
       {
         "title": "You need capacity without losing the client relationship",
@@ -46,7 +50,7 @@
   },
   "lanes": {
     "eyebrow": "Partnership lanes",
-    "heading": "Three ways to collaborate—pick the model that matches how you sell",
+    "heading": "Three ways to collaborate. Pick the model that matches how you sell",
     "intro": "Commercial terms are set after a fit review. On this page we define operating models, not published commission rates.",
     "items": [
       {
@@ -75,7 +79,7 @@
   "complement": {
     "eyebrow": "Complementarity",
     "heading": "Your practice stays yours. Amazon lanes stay clear.",
-    "intro": "We partner to extend Amazon capacity—not to absorb your core service line or open an inbox for every vendor pitch.",
+    "intro": "We partner to extend Amazon capacity; not to absorb your core service line or open an inbox for every vendor pitch.",
     "yourPractice": {
       "heading": "Your practice stays yours",
       "items": [
@@ -90,14 +94,38 @@
     "ourLanes": {
       "heading": "Amazon lanes we can cover",
       "items": [
-        { "label": "Full Amazon account management", "href": "/full-service-amazon-agency/" },
-        { "label": "Amazon PPC", "href": "/amazon-ppc-management-agency/" },
-        { "label": "Listing optimization", "href": "/amazon-listing-optimization/" },
-        { "label": "Content writing", "href": "/amazon-content-writing/" },
-        { "label": "Visual creativity", "href": "/amazon-visual-creativity/" },
-        { "label": "Catalog management", "href": "/amazon-catalog-management/" },
-        { "label": "DSP", "href": "/amazon-dsp-management/" },
-        { "label": "Reporting and analytics", "href": "/amazon-reporting-analytics/" }
+        {
+          "label": "Full Amazon account management",
+          "href": "/full-service-amazon-agency/"
+        },
+        {
+          "label": "Amazon PPC",
+          "href": "/amazon-ppc-management-agency/"
+        },
+        {
+          "label": "Listing optimization",
+          "href": "/amazon-listing-optimization/"
+        },
+        {
+          "label": "Content writing",
+          "href": "/amazon-content-writing/"
+        },
+        {
+          "label": "Visual creativity",
+          "href": "/amazon-visual-creativity/"
+        },
+        {
+          "label": "Catalog management",
+          "href": "/amazon-catalog-management/"
+        },
+        {
+          "label": "DSP",
+          "href": "/amazon-dsp-management/"
+        },
+        {
+          "label": "Reporting and analytics",
+          "href": "/amazon-reporting-analytics/"
+        }
       ]
     },
     "weDoNot": {
@@ -136,7 +164,7 @@
   "cadence": {
     "eyebrow": "How it works",
     "heading": "From application to operating rhythm",
-    "intro": "Partnership starts with fit—not a calendar link for every inbound message.",
+    "intro": "Partnership starts with fit; not a calendar link for every inbound message.",
     "steps": [
       {
         "number": "01",
@@ -167,7 +195,7 @@
   },
   "fit": {
     "eyebrow": "Selective intake",
-    "heading": "Who we approve—and who we decline",
+    "heading": "Who we approve, and who we decline",
     "intro": "We keep a selective partner cohort so delivery quality stays high. Quality over volume.",
     "approve": {
       "heading": "We typically approve",
@@ -217,21 +245,42 @@
     "id": "partner-application",
     "eyebrow": "Application",
     "heading": "Apply to partner with eCom Gliders",
-    "intro": "Tell us about your agency and the Amazon demand you need covered. We review for complementarity—we only approve partners whose clients we can help.",
+    "intro": "Tell us about your agency and the Amazon demand you need covered. We review for complementarity; we only approve partners whose clients we can help.",
     "submitLabel": "Submit partner application",
-    "successMessage": "Thanks — your partnership application is in. Our team typically replies within about two business days.",
+    "successMessage": "Thanks. Your partnership application is in. Our team typically replies within about two business days.",
     "errorMessage": "Please check the highlighted fields on your partnership application and try again.",
     "consentLabel": "I agree to the privacy policy and consent to being contacted about this partner application.",
     "laneOptions": [
-      { "value": "white-label", "label": "White-label delivery" },
-      { "value": "referral", "label": "Referral" },
-      { "value": "co-manage", "label": "Co-manage" }
+      {
+        "value": "white-label",
+        "label": "White-label delivery"
+      },
+      {
+        "value": "referral",
+        "label": "Referral"
+      },
+      {
+        "value": "co-manage",
+        "label": "Co-manage"
+      }
     ],
     "volumeOptions": [
-      { "value": "exploring", "label": "Exploring—no active handoffs yet" },
-      { "value": "1-2", "label": "About 1–2 clients in the next quarter" },
-      { "value": "3-5", "label": "About 3–5 clients in the next quarter" },
-      { "value": "6-plus", "label": "6 or more clients in the next quarter" }
+      {
+        "value": "exploring",
+        "label": "Exploring, no active handoffs yet"
+      },
+      {
+        "value": "1-2",
+        "label": "About 1-2 clients in the next quarter"
+      },
+      {
+        "value": "3-5",
+        "label": "About 3-5 clients in the next quarter"
+      },
+      {
+        "value": "6-plus",
+        "label": "6 or more clients in the next quarter"
+      }
     ]
   },
   "close": {

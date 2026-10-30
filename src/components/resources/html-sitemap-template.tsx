@@ -30,17 +30,17 @@ export function HtmlSitemapTemplate({
                 </Link>
               </li>
               <li aria-hidden="true">/</li>
-              <li className="text-text-primary">Sitemap</li>
+              <li className="text-text-primary">eCom Gliders sitemap</li>
             </ol>
           </nav>
           <h1
             id="sitemap-hero-heading"
             className="mt-6 max-w-3xl text-[clamp(2rem,4.5vw,3.25rem)] font-bold tracking-tight text-text-primary"
           >
-            Sitemap
+            eCom Gliders sitemap
           </h1>
           <p className="mt-4 max-w-2xl text-base font-medium leading-relaxed text-text-secondary">
-            Organized links to our main public pages — services, case studies,
+            Organized links to our main public pages: services, case studies,
             company, resources, and more. Search engines should use the XML feed
             at{" "}
             <Link
