@@ -77,7 +77,7 @@ export function AskAiSection({
                   // eslint-disable-next-line @next/next/no-img-element -- tiny local SVGs
                   <img
                     src={action.icon}
-                    alt=""
+                    alt={`${action.label} logo`}
                     width={40}
                     height={40}
                     className="h-10 w-10 shrink-0 object-contain"

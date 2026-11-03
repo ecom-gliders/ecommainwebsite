@@ -4,6 +4,16 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-11-03 — Homepage alts + Lighthouse CWV
+
+**Task:** Explain and fix optional homepage missing alts + run Lighthouse CWV  
+**STATUS:** Alts COMPLETE; Lighthouse lab Verified on localhost  
+**IMPLEMENTED:** Non-empty alts on markets flags, hero orbit, case blur, creative float, Ask AI / announcement icons; promo CTA contrast; seller-journey inactive CTA hide; testimonial caption contrast; pain bubbles contrast; remove footer watermark  
+**VERIFIED:** Playwright `missingAltCount: 0` (76 images). Lighthouse home image-alt Pass; contrastFails 0; scores Home 87/91/100/100, Service 94/100/100/100, Blog 94/100/96/100  
+**DOCUMENTED:** TECHNICAL-SEO-AUDIT; SESSION-STATE; lighthouse-*.json  
+**REMAINING:** DNS cutover; optional home Perf 90+  
+**NEXT ACTION:** User DNS when ready
+
 ## 2026-11-03 — Soft Soft push + Phase 1/3/4/6 staging closeout
 
 **Task:** Continue remaining Soft Soft backlog + SEO program Phases 1, 3, 4, 6  

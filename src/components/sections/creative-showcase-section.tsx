@@ -137,7 +137,7 @@ export function CreativeShowcaseSection({
                         <div className="relative aspect-[4/3] w-full">
                           <Image
                             src={item.image}
-                            alt=""
+                            alt={item.alt || label}
                             fill
                             className="object-cover"
                             sizes="(max-width: 640px) 288px, 352px"

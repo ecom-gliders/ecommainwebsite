@@ -84,7 +84,7 @@ export function HeroOrbitMedia({
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[6px] bg-surface">
             <Image
               src={item.src}
-              alt=""
+              alt={item.alt}
               fill
               className="object-cover"
               sizes="140px"

@@ -1,17 +1,15 @@
-## Latest (2026-11-03) — Soft Soft backlog pushed; Phase 1/3/4/6 staging closeout
+## Latest (2026-11-03) — Homepage alts + Lighthouse CWV done
 
-**Phase 5 Soft Soft maps:** Pushed (`65df7f4`). Soft Soft FL PPC title Observed live on preview.
+**Homepage image alts:** Fixed. Playwright localhost: 0/76 missing. Lighthouse `image-alt` Pass.
 
-**Phase 1 TECHNICAL-SEO-AUDIT:** COMPLETE on staging (`docs/seo/TECHNICAL-SEO-AUDIT.md`). robots/sitemap/canonicals/HTTPS/schema Pass; GSC readiness `readyForSearchConsole: true` (384 URLs). Homepage missing alt IMPROVE logged (35/71). CWV lab Not yet tested.
+**Contrast/a11y follow-ups in same pass:** Promo CTA red darkened; inactive seller-journey CTAs hidden (not opacity-faded); testimonial captions use `text-text-secondary`; pain bubbles dark green + white text; decorative footer watermark removed.
 
-**Phase 3 service Soft Soft spot-pass:** Sampled PPC / full-service / listing — titles Soft Soft, hype scan 0. No content edits this pass.
+**Lighthouse lab (localhost:3002):**
+- Home: Perf 87 / A11y 91 / BP 100 / SEO 100 — LCP ~2.6–2.9s, CLS 0.002
+- PPC service: 94 / 100 / 100 / 100
+- Blog sample: 94 / 100 / 96 / 100
 
-**Phase 4 tools + case studies Soft Soft spot-pass:** Tools hub, FBA calculator, case studies — Soft Soft titles/meta, hype scan 0. No content edits.
-
-**Phase 6:** Staging GSC/sitemap spot verify COMPLETE. Production GSC submit blocked on DNS cutover.
-
-**Remaining (user):**
-1. DNS cutover (Hostinger) when ready
-2. After cutover: re-verify GSC readiness on `ecomgliders.com` + submit sitemap
-3. Optional: homepage image alt pass; Lighthouse CWV lab
-4. Untracked local scripts/QA PNGs / `wordpress-blog-export/` — commit only if wanted
+**Still remaining (user):**
+1. DNS cutover (Hostinger)
+2. Production GSC submit after cutover
+3. Optional: homepage Perf 87 → 90+ (LCP/Speed Index)

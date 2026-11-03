@@ -82,7 +82,7 @@ export function MarketsSection({ id, data }: MarketsSectionProps) {
               <span className="relative h-3.5 w-5 shrink-0 overflow-hidden rounded-[2px] border border-primary/15 bg-surface-muted sm:h-4 sm:w-6">
                 <Image
                   src={market.flag}
-                  alt=""
+                  alt={market.flagAlt}
                   fill
                   className="object-cover"
                   sizes="24px"

@@ -213,18 +213,13 @@ export function SellerSegmentsSection({ id, data }: SellerSegmentsSectionProps) 
                     {segment.description}
                   </p>
 
-                  <PrimaryButton
-                    asChild
-                    size="sm"
-                    className={cn(
-                      "mt-5 w-full sm:w-auto",
-                      !isActive && "pointer-events-none opacity-40",
-                    )}
-                    tabIndex={isActive ? 0 : -1}
-                    aria-hidden={!isActive}
-                  >
-                    <Link href={segment.ctaHref}>{segment.ctaLabel}</Link>
-                  </PrimaryButton>
+                  {isActive ? (
+                    <PrimaryButton asChild size="sm" className="mt-5 w-full sm:w-auto">
+                      <Link href={segment.ctaHref}>{segment.ctaLabel}</Link>
+                    </PrimaryButton>
+                  ) : (
+                    <div className="mt-5 h-10" aria-hidden="true" />
+                  )}
                 </div>
               </div>
             </li>

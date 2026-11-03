@@ -22,9 +22,9 @@ export function PromoAnnouncementBar({ promo }: PromoAnnouncementBarProps) {
 
   const ctaClassName = cn(
     "promo-cta-pulse relative z-[1] inline-flex h-9 shrink-0 items-center justify-center gap-1.5",
-    "rounded-[10px] border-2 border-primary bg-[#E23B3B] px-4",
+    "rounded-[10px] border-2 border-primary bg-[#C62828] px-4",
     "text-xs font-bold uppercase tracking-[0.04em] text-white",
-    "hover:bg-[#F04A4A] sm:h-10 sm:px-5 sm:text-xs",
+    "hover:bg-[#D32F2F] sm:h-10 sm:px-5 sm:text-xs",
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary",
   );
 

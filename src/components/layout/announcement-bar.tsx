@@ -97,7 +97,7 @@ function AiAnnouncementBar({
                     // eslint-disable-next-line @next/next/no-img-element -- tiny local SVGs
                     <img
                       src={action.icon}
-                      alt=""
+                      alt={`${action.label} logo`}
                       width={20}
                       height={20}
                       className="h-4 w-4 shrink-0 object-contain sm:h-5 sm:w-5"

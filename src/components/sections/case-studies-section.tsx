@@ -126,7 +126,7 @@ export function CaseStudiesSection({ id, data }: CaseStudiesSectionProps) {
                   <div className="case-proof-media relative aspect-[4/3] w-full shrink-0 overflow-hidden bg-primary">
                     <Image
                       src={scene}
-                      alt=""
+                      alt={sceneAlt}
                       fill
                       aria-hidden="true"
                       className="case-proof-blur scale-125 object-cover opacity-70 blur-2xl"

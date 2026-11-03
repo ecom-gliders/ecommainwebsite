@@ -243,7 +243,7 @@ export function TestimonialsSection({ id, data }: TestimonialsSectionProps) {
                       {attribution}
                     </p>
                     {role && company ? (
-                      <p className="mt-0.5 text-xs font-normal text-primary/55 sm:text-sm">
+                      <p className="mt-0.5 text-xs font-normal text-text-secondary sm:text-sm">
                         {role}
                       </p>
                     ) : null}
