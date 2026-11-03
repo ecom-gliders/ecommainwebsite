@@ -1,15 +1,17 @@
-## Latest (2026-10-30) — Phase 5 Soft-map COMPLETE; /services/ Soft-verified; backlog await push
+## Latest (2026-11-03) — Soft Soft backlog pushed; Phase 1/3/4/6 staging closeout
 
-**Phase 5 Soft-map SEO (blogs):** COMPLETE locally (Soft PPC geo + Soft editorials through calculator).
+**Phase 5 Soft Soft maps:** Pushed (`65df7f4`). Soft Soft FL PPC title Observed live on preview.
 
-**/services/ hub Soft pass:** Spot-verify Observed on Vercel preview — title `Amazon Growth Services | eCom Gliders`, meta, H1, OG, CollectionPage+FAQPage, no AI symbols/hype. No further Soft content edits this pass (already Soft-optimized earlier 2026-10-30).
+**Phase 1 TECHNICAL-SEO-AUDIT:** COMPLETE on staging (`docs/seo/TECHNICAL-SEO-AUDIT.md`). robots/sitemap/canonicals/HTTPS/schema Pass; GSC readiness `readyForSearchConsole: true` (384 URLs). Homepage missing alt IMPROVE logged (35/71). CWV lab Not yet tested.
 
-**Blocker:** Large Soft PPC + Soft editorial MDX + docs still **local / unpushed**. Preview will not show Soft Soft maps until commit+push.
+**Phase 3 service Soft Soft spot-pass:** Sampled PPC / full-service / listing — titles Soft Soft, hype scan 0. No content edits this pass.
 
-**Next (after push):**
-1. Phase 1 — TECHNICAL-SEO-AUDIT.md with live evidence
-2. Phase 3 — Soft Soft re-pass any service detail pages still needing Soft claim hygiene (many already Soft-audited 2026-10-30)
-3. Phase 4 — Free Amazon Tools / case studies Soft Soft spot-pass
-4. Phase 6 — GSC/sitemap/spot verify closeout
+**Phase 4 tools + case studies Soft Soft spot-pass:** Tools hub, FBA calculator, case studies — Soft Soft titles/meta, hype scan 0. No content edits.
 
-**User action needed:** Build check + commit + push Soft Soft backlog.
+**Phase 6:** Staging GSC/sitemap spot verify COMPLETE. Production GSC submit blocked on DNS cutover.
+
+**Remaining (user):**
+1. DNS cutover (Hostinger) when ready
+2. After cutover: re-verify GSC readiness on `ecomgliders.com` + submit sitemap
+3. Optional: homepage image alt pass; Lighthouse CWV lab
+4. Untracked local scripts/QA PNGs / `wordpress-blog-export/` — commit only if wanted

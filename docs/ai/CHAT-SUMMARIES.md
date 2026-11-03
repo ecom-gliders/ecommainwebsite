@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-11-03 — Soft Soft push + Phase 1/3/4/6 staging closeout
+
+Session topic: Continue remaining Soft Soft backlog and SEO phases after status check.  
+Key decisions: Build then commit+push Soft Soft MDX/docs (`65df7f4`); Phase 1 audit against staging preview; Soft Soft Phase 3/4 spot-pass only (no edits when hype scan clean); Phase 6 staging GSC ready, production blocked on DNS.  
+Evidence: Build 393 pages OK; GSC readiness all pass / 384 URLs; Playwright Soft Soft FL + homepage + hubs Observed.  
+Next action: DNS cutover when user ready; then production GSC submit; optional homepage alt + Lighthouse.
+
 ## 2026-10-30 — SEO/AEO/GEO program Phase 0 + Homepage
 
 Session topic: Full-site SEO program; user confirmed execute.
