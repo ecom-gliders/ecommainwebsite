@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-02T03:47:31.092Z",
+  "generatedAt": "2026-11-03T17:57:00.047Z",
   "baseUrl": "https://ecom-gliders.vercel.app",
   "sitemapSubmitUrl": "https://ecom-gliders.vercel.app/sitemap.xml",
   "robotsUrl": "https://ecom-gliders.vercel.app/robots.txt",
-  "urlCount": 343,
+  "urlCount": 384,
   "checks": [
     {
       "id": "robots-http-200",
@@ -28,12 +28,12 @@
     {
       "id": "sitemap-xml-valid",
       "status": "pass",
-      "detail": "urlset namespace present; 343 <loc> entries"
+      "detail": "urlset namespace present; 384 <loc> entries"
     },
     {
       "id": "sitemap-blog-count",
       "status": "pass",
-      "detail": "Expected at least 340 URLs (328 blog + static); found 343"
+      "detail": "Expected at least 340 URLs (328 blog + static); found 384"
     },
     {
       "id": "sitemap-canonical-host",
