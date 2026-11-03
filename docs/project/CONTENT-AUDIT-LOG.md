@@ -15,6 +15,51 @@ Approved: yes | pending
 
 ---
 
+## 2026-10-30 — Blog Soft editorial closeout (loop 19–1 remaining)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| 10 editorials (Woo/Shopify, tariffs, international, best sellers, compliance, reselling, Prime Day, ACoS-2, algorithm, PPC calculator) | Hype / ultimate guides; TITLE pollution; unverified GMV stats; absolute promises | Soft decision/response maps; soft claims; free-audit; relative canonicals | Finish Phase 5 Soft-map SEO loop | yes |
+| URL / slug | Unchanged incl. ACoS `-2` | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog Soft PPC closeout FL→NY-early + BSR row (loop 23–6 Soft PPC)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| BSR tips | Soft map already local; SITE-SEO-MAP row missing | Documented Soft BSR row; preview still old until deploy | Close loop 23 | yes |
+| 12 Soft PPC (FL, DC, DE, CT@colorado-2, CO, CA, AS, AR, AZ@alaska-2, AK, AL, NY-early) | Spun templates; slug≠topic on CT/AZ paths | Soft Service Maps; URL honesty; AS eligibility; dual NY slug honesty | Finish Soft PPC geo series | yes |
+| URL / slug | Unchanged incl. polluted CT/AZ paths | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog Soft PPC batch LA→GA (loop 33–24)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| 10 Soft PPC blogs (LA, KY, KS, IA, IN, IL, ID, GU, HI, GA) | Spun templates; request-a-quote; proven-success hype | Soft Service Maps; unique geo; Guam eligibility honesty; free-audit | Accelerate Soft PPC loop | yes |
+| Loop note | Index 23 is BSR tips (non-PPC) | GA twins Florida Soft PPC (22), skips 23 | Preserve Soft PPC twin chain | yes |
+| URL / slug | Unchanged | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog Soft PPC batch NE→ME (loop 42–34)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| 9 Soft PPC blogs (NE, MT, MO, MS, MN, MI, MA, MD, ME) | Spun templates; request-a-quote; proven-success hype | Soft Service Maps; unique geo; free-audit; soft ACoS | Accelerate Soft PPC loop | yes |
+| URL / slug | Unchanged | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog Soft PPC batch MP→NV (loop 50–43)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| 8 Soft PPC blogs (MP, ND, NC, NY, NM, NJ, NH, NV) | Spun Intro/Conclusion; request-a-quote; proven-success hype | Soft Service Maps; unique geo; CNMI eligibility; NM Albuquerque NAP honesty; free-audit | Accelerate Soft PPC loop | yes |
+| URL / slug | Unchanged | Unchanged | Old-site ranking URL preservation | yes |
+
+## 2026-10-30 — Blog Soft PPC batch SD→OH (loop 58–51)
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| 8 Soft PPC blogs (SD, SC, RI, PR, PA, OR, OK, OH) | Spun Intro/Conclusion templates; request-a-quote; “proven success”; absolute canonicals | Soft Service Maps with unique geo modifiers; relative canonicals; free-audit; soft ACoS/sales guarantees; eligibility honesty on PR | Accelerate Soft PPC loop; twin-diff; claim honesty | yes |
+| Slug quirks (`insouth-*`, `inrhode-*`) | Unchanged | Unchanged | Old-site ranking URL preservation | yes |
+| Tennessee twin link | Wrong `in-south-dakota` path | Correct `insouth-dakota` | Internal link fix | yes |
+
 ## 2026-10-30 — Blog: Amazon PPC marketing Tennessee TN SEO pass
 
 | Location | Original | Replacement | Reason | Approved |

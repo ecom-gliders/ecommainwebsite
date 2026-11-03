@@ -93,7 +93,7 @@ All 328 blog post URLs must preserve identical root-level paths. See `backup/met
 | GEO | since 2018, 20+ in-house, 95% retention, $112M+ (trust strip) |
 | Claims source | Verified site stats + published case studies only — no invented hub ROI |
 | Config | `content/config/services-index.json` |
-| Audit status | Re-optimized 2026-10-30 — H1 keyword align, meta lead, ogImage |
+| Audit status | Soft spot-verify 2026-10-30 — title/meta/H1/OG/schema CollectionPage+FAQPage Observed; no emoji/arrow/hype; free-audit CTA; no further Soft edits required this pass |
 | Notes | Preserves `/services/` path. Detail pages stay at root `/{slug}/`. Preview Verified on ecom-gliders.vercel.app; live DNS may still be WP until cutover. |
 
 ---
@@ -1410,6 +1410,872 @@ Per-post SEO audit during Phase 5. All URLs must preserve identical paths.
 | OG image | `/images/blog/Q3-Do-I-need-software-to-reduce-ACoS-b5f9be1b.png` — Observed preview 2026-10-30 |
 | Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 |
 | Audit status | Re-optimized 2026-10-30 — Data-Backed Hacks/34% cut hype; soft fake cases; competitor outbounds; Unicode ▸; Calendly/WhatsApp footer; twin-diff vs fix-high-ACoS; free-audit; URL year preserved |
+
+### Blog: Amazon PPC conversion cost calculator Soft guide
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-conversion-cost-calculator/ |
+| Purpose | Soft explanatory guide into free calculator tool + free audit |
+| Primary keyword | Amazon PPC conversion cost calculator |
+| Title | Amazon PPC Conversion Cost Calculator Soft Guide \| eCom Gliders |
+| H1 | Amazon PPC conversion cost calculator: soft guide |
+| Canonical | `/amazon-ppc-conversion-cost-calculator/` |
+| Audit status | Re-optimized 2026-10-30 — Soft calculator guide; strip title pollution; twin free tool; **slug preserved** |
+
+### Blog: 2025 Amazon algorithm updates Soft response map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/2025-amazon-algorithm-updates-what-sellers-need-to-know/ |
+| Purpose | Soft seller response map for ranking/discovery changes into free audit |
+| Primary keyword | Amazon algorithm updates |
+| Title | Amazon Algorithm Updates Soft Seller Response Map \| eCom Gliders |
+| H1 | Amazon algorithm updates: soft seller response map |
+| Canonical | `/2025-amazon-algorithm-updates-what-sellers-need-to-know/` |
+| Audit status | Re-optimized 2026-10-30 — Soft response map; strip TITLE pollution; soft unofficial algorithm names; **slug preserved** |
+
+### Blog: Reduce ACoS Soft efficiency map (-2 slug)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/how-to-reduce-acos-and-grow-sales-for-your-ecommerce-business-2/ |
+| Purpose | Soft ACoS efficiency map into free audit / PPC services |
+| Primary keyword | reduce Amazon ACoS |
+| Title | Reduce Amazon ACoS Soft Efficiency Map \| eCom Gliders |
+| H1 | Reduce Amazon ACoS: soft efficiency map |
+| Canonical | `/how-to-reduce-acos-and-grow-sales-for-your-ecommerce-business-2/` |
+| Audit status | Re-optimized 2026-10-30 — Soft ACoS map; soft dual sales+ACoS promise; preserve `-2` slug |
+
+### Blog: Amazon Prime Day Soft peak-event prep map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance/ |
+| Purpose | Soft Prime Day / peak-event prep into free audit |
+| Primary keyword | Amazon Prime Day seller guide |
+| Title | Amazon Prime Day Soft Peak-Event Prep Map \| eCom Gliders |
+| H1 | Amazon Prime Day: soft peak-event prep map |
+| Canonical | `/amazon-prime-day-2025-the-ultimate-guide-to-maximizing-your-sales-and-amazon-account-performance/` |
+| Audit status | Re-optimized 2026-10-30 — Soft peak-event map; soft maximizing-sales framing; **slug preserved** |
+
+### Blog: Amazon reselling Soft guidelines map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/reselling-in-amazon-stores-guidelines-and-tips-for-success/ |
+| Purpose | Soft Amazon reselling guidelines into free audit |
+| Primary keyword | Amazon reselling guidelines |
+| Title | Amazon Reselling Soft Guidelines Map \| eCom Gliders |
+| H1 | Amazon reselling: soft guidelines map |
+| Canonical | `/reselling-in-amazon-stores-guidelines-and-tips-for-success/` |
+| Audit status | Re-optimized 2026-10-30 — Soft guidelines; soft success/income framing; **slug preserved** |
+
+### Blog: Amazon compliance documents Soft workflow map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-compliance-documents-in-2025/ |
+| Purpose | Soft compliance document workflow into free audit / account health |
+| Primary keyword | Amazon compliance documents |
+| Title | Amazon Compliance Documents Soft Workflow Map \| eCom Gliders |
+| H1 | Amazon compliance documents: soft 2025 workflow map |
+| Canonical | `/amazon-compliance-documents-in-2025/` |
+| Audit status | Re-optimized 2026-10-30 — Soft workflow; soft complete-guide framing; **slug preserved** |
+
+### Blog: U.S. Amazon best sellers Soft research map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/best-selling-amazon-products-in-the-us-you-should-know-about/ |
+| Purpose | Soft best-seller research method into free audit |
+| Primary keyword | best selling Amazon products US |
+| Title | U.S. Amazon Best Sellers Soft Research Map \| eCom Gliders |
+| H1 | U.S. Amazon best sellers: soft research map |
+| Canonical | `/best-selling-amazon-products-in-the-us-you-should-know-about/` |
+| Audit status | Re-optimized 2026-10-30 — Soft research map; soft stale product lists; **slug preserved** |
+
+### Blog: Amazon global marketplaces Soft expansion map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/international-expansion-selling-on-amazon-global-marketplaces-in-2025/ |
+| Purpose | Soft international expansion planning into free audit |
+| Primary keyword | Amazon global marketplaces expansion |
+| Title | Amazon Global Marketplaces Soft Expansion Map \| eCom Gliders |
+| H1 | Amazon global marketplaces 2025: soft expansion map |
+| Canonical | `/international-expansion-selling-on-amazon-global-marketplaces-in-2025/` |
+| Audit status | Re-optimized 2026-10-30 — Soft expansion map; soft unverified GMV stats; **slug preserved** |
+
+### Blog: Trade tariffs and Prime Day margins Soft map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory/ |
+| Purpose | Soft tariff / Prime Day margin planning into free audit |
+| Primary keyword | Amazon Prime Day tariffs margins |
+| Title | Trade Tariffs and Amazon Prime Day Margins \| eCom Gliders |
+| H1 | Trade tariffs and Prime Day margins: soft seller map |
+| Canonical | `/how-trade-tariffs-are-impacting-amazon-prime-day-margins-strategies-for-adjusting-prices-and-inventory/` |
+| Audit status | Re-optimized 2026-10-30 — Soft tariff map; not legal advice; **slug preserved** |
+
+### Blog: WooCommerce vs Shopify Soft decision map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose/ |
+| Purpose | Soft DTC platform decision map into Shopify service / free audit |
+| Primary keyword | WooCommerce vs Shopify DTC |
+| Title | WooCommerce vs Shopify for DTC Brands \| eCom Gliders |
+| H1 | WooCommerce vs Shopify for DTC brands: soft decision map |
+| Canonical | `/woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose/` |
+| Schema | BlogPosting — Assumed; pre-edit title Observed Playwright 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft decision map; strip TITLE pollution; soft platform guarantees; **slug preserved** |
+
+### Blog: Amazon Best Sellers Rank soft 12-point map
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/boost-your-amazon-best-sellers-rank-with-12-proven-tips/ |
+| Purpose | Informational Soft BSR improvement map into free audit / contact |
+| Audience | Amazon sellers seeking BSR / ranking improvement guidance |
+| Search intent | Informational / commercial investigation |
+| Primary keyword | Amazon Best Sellers Rank tips |
+| Secondary keywords | improve Amazon BSR, Amazon ranking factors, Amazon SEO PPC |
+| Title | Amazon Best Sellers Rank Soft Improvement Map \| eCom Gliders |
+| Meta description | Soft 12-point Amazon BSR map: keywords, listings, PPC, inventory, reviews, and pricing—without ranking or sales guarantees. |
+| H1 | Amazon Best Sellers Rank: soft 12-point improvement map |
+| Canonical | `/boost-your-amazon-best-sellers-rank-with-12-proven-tips/` |
+| Indexability | Index |
+| Schema | BlogPosting — Assumed; preview pre-deploy still showed old title Observed 2026-10-30 |
+| Audit status | Soft map already in local MDX 2026-10-30 — soft “proven tips” / % guarantees; free-audit; **old-site URL preserved**; post-deploy verify Not yet tested |
+
+### Blog: Amazon PPC marketing Alabama AL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-alabama-al-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Alabama sellers into free audit / contact |
+| Primary keyword | Amazon PPC Alabama |
+| Title | Amazon PPC Marketing for Alabama Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Alabama sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-alabama-al-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Birmingham Deep South; no fake AL LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Alabama PPC; twin AK/NY-early + AL AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Alaska AK
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Alaska sellers into free audit / contact |
+| Primary keyword | Amazon PPC Alaska |
+| Title | Amazon PPC Marketing for Alaska Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Alaska sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Anchorage Far North logistics; no fake AK LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Alaska PPC; twin AZ/AL + AK AM; **slug preserved** (`ak-path`) |
+
+### Blog: Amazon PPC marketing American Samoa AS
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-american-samoa-as-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for American Samoa sellers into free audit / contact |
+| Primary keyword | Amazon PPC American Samoa |
+| Title | Amazon PPC Marketing for American Samoa Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for American Samoa sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-american-samoa-as-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Pacific eligibility honesty; no fake AS LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft American Samoa PPC; eligibility honesty; twin CA/AR + AS AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Arizona AZ (alaska-ak-2 slug)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales-2/ |
+| Purpose | Geo-intent Amazon PPC for Arizona sellers (legacy Alaska-2 path) into free audit / contact |
+| Primary keyword | Amazon PPC Arizona |
+| Title | Amazon PPC Marketing for Arizona Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Arizona sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-alaska-ak-path-to-maximizing-your-sales-2/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Phoenix / Tucson Sun Belt; slug≠topic honesty; no fake AZ LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Arizona PPC on alaska-ak-2 ranking URL; twin AR/AK + AZ AM; **old-site URL preserved** |
+
+### Blog: Amazon PPC marketing Arkansas AR
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-arkansas-ar-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Arkansas sellers into free audit / contact |
+| Primary keyword | Amazon PPC Arkansas |
+| Title | Amazon PPC Marketing for Arkansas Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Arkansas sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-arkansas-ar-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Little Rock / NWA Mid-South; no fake AR LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Arkansas PPC; twin AS/AZ + AR AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing California CA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-california-ca-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for California sellers into free audit / contact |
+| Primary keyword | Amazon PPC California |
+| Title | Amazon PPC Marketing for California Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for California sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-california-ca-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); LA / Bay Area high-CPC; no fake CA LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft California PPC; twin CO/AS + CA AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Colorado CO
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Colorado sellers into free audit / contact |
+| Primary keyword | Amazon PPC Colorado |
+| Title | Amazon PPC Marketing for Colorado Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Colorado sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Denver Front Range outdoor; no fake CO LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Colorado PPC; twin CT/CA + CO AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Connecticut CT (colorado-co-2 slug)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales-2/ |
+| Purpose | Geo-intent Amazon PPC for Connecticut sellers (legacy Colorado-2 path) into free audit / contact |
+| Primary keyword | Amazon PPC Connecticut |
+| Title | Amazon PPC Marketing for Connecticut Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Connecticut sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-colorado-co-path-to-maximizing-your-sales-2/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Hartford / Stamford NYC corridor; slug≠topic honesty; no fake CT LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Connecticut PPC on colorado-co-2 ranking URL; twin DE/CO + CT AM; **old-site URL preserved** |
+
+### Blog: Amazon PPC marketing Delaware DE
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-delaware-de-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Delaware sellers into free audit / contact |
+| Primary keyword | Amazon PPC Delaware |
+| Title | Amazon PPC Marketing for Delaware Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Delaware sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-delaware-de-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Wilmington Mid-Atlantic; no fake DE LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Delaware PPC; twin DC/CT + DE AM; **slug preserved** (`de-path`) |
+
+### Blog: Amazon PPC marketing District of Columbia DC
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-district-of-columbia-dc-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for DC sellers into free audit / contact |
+| Primary keyword | Amazon PPC District of Columbia |
+| Title | Amazon PPC Marketing for District of Columbia Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for District of Columbia sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-district-of-columbia-dc-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); DMV Mid-Atlantic; no fake DC LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft DC PPC; twin FL/DE + DC AM; **slug preserved** (`dc-path`) |
+
+### Blog: Amazon PPC marketing Florida FL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Florida sellers into free audit / contact |
+| Primary keyword | Amazon PPC Florida |
+| Title | Amazon PPC Marketing for Florida Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Florida sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-florida-fl-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Miami / Orlando Sun Belt; no fake FL LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Florida PPC; twin GA/DC + FL AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing New York (early slug)
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-new-york-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for New York sellers (early slug) into free audit / contact |
+| Primary keyword | Amazon PPC New York |
+| Title | Amazon PPC Marketing for New York Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for New York sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-new-york-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); NYC high-CPC; twin NY-ny Soft sibling; no fake NY LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft NY early-slug PPC; dual-URL honesty vs NY-ny; twin AL/NY-ny + NY AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Georgia GA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Georgia sellers into free audit / contact |
+| Primary keyword | Amazon PPC Georgia |
+| Title | Amazon PPC Marketing for Georgia Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Georgia sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-georgia-ga-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Atlanta Southeast hub; no fake GA LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Georgia PPC; twin HI/FL + GA AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Guam GU
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Guam sellers into free audit / contact |
+| Primary keyword | Amazon PPC Guam |
+| Title | Amazon PPC Marketing for Guam Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Guam sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-guam-gu-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Pacific eligibility honesty; no fake GU LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Guam PPC; eligibility honesty; twin ID/HI + GU AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Hawaii HI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Hawaii sellers into free audit / contact |
+| Primary keyword | Amazon PPC Hawaii |
+| Title | Amazon PPC Marketing for Hawaii Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Hawaii sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-hawaii-hi-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Honolulu Pacific island logistics; no fake HI LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Hawaii PPC; twin GU/GA + HI AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Idaho ID
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Idaho sellers into free audit / contact |
+| Primary keyword | Amazon PPC Idaho |
+| Title | Amazon PPC Marketing for Idaho Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Idaho sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-idaho-id-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Boise Mountain West; no fake ID LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Idaho PPC; twin IL/GU + ID AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Illinois IL
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Illinois sellers into free audit / contact |
+| Primary keyword | Amazon PPC Illinois |
+| Title | Amazon PPC Marketing for Illinois Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Illinois sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-illinois-il-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Chicago high-CPC Midwest; no fake IL LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Illinois PPC; twin IN/ID + IL AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Indiana IN
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Indiana sellers into free audit / contact |
+| Primary keyword | Amazon PPC Indiana |
+| Title | Amazon PPC Marketing for Indiana Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Indiana sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-indiana-in-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Indianapolis Midwest logistics; no fake IN LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Indiana PPC; twin IA/IL + IN AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Iowa IA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Iowa sellers into free audit / contact |
+| Primary keyword | Amazon PPC Iowa |
+| Title | Amazon PPC Marketing for Iowa Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Iowa sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-iowa-ia-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Des Moines Plains; no fake IA LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Iowa PPC; twin KS/IN + IA AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Kansas KS
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Kansas sellers into free audit / contact |
+| Primary keyword | Amazon PPC Kansas |
+| Title | Amazon PPC Marketing for Kansas Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Kansas sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-kansas-ks-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Wichita Plains; no fake KS LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Kansas PPC; twin KY/IA + KS AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Kentucky KY
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Kentucky sellers into free audit / contact |
+| Primary keyword | Amazon PPC Kentucky |
+| Title | Amazon PPC Marketing for Kentucky Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Kentucky sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-kentucky-ky-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Louisville / Lexington Mid-South; no fake KY LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Kentucky PPC; twin LA/KS + KY AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Louisiana LA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Louisiana sellers into free audit / contact |
+| Primary keyword | Amazon PPC Louisiana |
+| Title | Amazon PPC Marketing for Louisiana Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Louisiana sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-louisiana-la-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); New Orleans Gulf Coast; no fake LA LocalBusiness |
+| Schema | BlogPosting — Assumed; pre-edit title/H1 Observed Playwright 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft Louisiana PPC; twin ME/KY + LA AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Maine ME
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Maine sellers into free audit / contact |
+| Primary keyword | Amazon PPC Maine |
+| Title | Amazon PPC Marketing for Maine Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Maine sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-maine-me-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Portland ME coastal context; no fake ME LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Maine PPC; twin MD/LA + ME AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Maryland MD
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Maryland sellers into free audit / contact |
+| Primary keyword | Amazon PPC Maryland |
+| Title | Amazon PPC Marketing for Maryland Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Maryland sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-maryland-md-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Baltimore / DMV context; no fake MD LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Maryland PPC; twin MA/ME + MD AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Massachusetts MA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Massachusetts sellers into free audit / contact |
+| Primary keyword | Amazon PPC Massachusetts |
+| Title | Amazon PPC Marketing for Massachusetts Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Massachusetts sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-massachusetts-ma-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Boston high-CPC New England context; no fake MA LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Massachusetts PPC; twin MI/MD + MA AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Michigan MI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Michigan sellers into free audit / contact |
+| Primary keyword | Amazon PPC Michigan |
+| Title | Amazon PPC Marketing for Michigan Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Michigan sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-michigan-mi-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Detroit / Grand Rapids Great Lakes context; no fake MI LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Michigan PPC; twin MN/MA + MI AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Minnesota MN
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Minnesota sellers into free audit / contact |
+| Primary keyword | Amazon PPC Minnesota |
+| Title | Amazon PPC Marketing for Minnesota Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Minnesota sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-minnesota-mn-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Twin Cities Upper Midwest context; no fake MN LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Minnesota PPC; twin MS/MI + MN AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Mississippi MS
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Mississippi sellers into free audit / contact |
+| Primary keyword | Amazon PPC Mississippi |
+| Title | Amazon PPC Marketing for Mississippi Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Mississippi sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-mississippi-ms-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Jackson Deep South context; no fake MS LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Mississippi PPC; twin MO/MN + MS AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Missouri MO
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Missouri sellers into free audit / contact |
+| Primary keyword | Amazon PPC Missouri |
+| Title | Amazon PPC Marketing for Missouri Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Missouri sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-missouri-mo-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Kansas City / St. Louis Midwest hub context; no fake MO LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Missouri PPC; twin MT/MS + MO AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Montana MT
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Montana sellers into free audit / contact |
+| Primary keyword | Amazon PPC Montana |
+| Title | Amazon PPC Marketing for Montana Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Montana sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-montana-mt-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Billings / Bozeman Mountain West outdoor context; no fake MT LocalBusiness |
+| Audit status | Re-optimized 2026-10-30 — Soft Montana PPC; twin NE/MO + MT AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Nebraska NE
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC for Nebraska sellers into free audit / contact |
+| Primary keyword | Amazon PPC Nebraska |
+| Title | Amazon PPC Marketing for Nebraska Sellers \| eCom Gliders |
+| H1 | Amazon PPC marketing for Nebraska sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-nebraska-ne-a-path-to-maximizing-your-sales/` |
+| Local SEO | Service-area; NAP Albuquerque NM (Verified); Omaha / Lincoln Plains context; no fake NE LocalBusiness |
+| Schema | BlogPosting — Assumed; pre-edit title/H1 Observed Playwright 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft Nebraska PPC; twin NV/MT + NE AM; **slug preserved** |
+
+### Blog: Amazon PPC marketing Nevada NV
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Nevada sellers into free audit / contact |
+| Audience | Nevada Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Nevada |
+| Secondary keywords | Las Vegas Amazon advertising, Reno Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; Nevada (service area, not storefront) |
+| Title | Amazon PPC Marketing for Nevada Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Nevada sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Nevada sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-nevada-nv-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake NV LocalBusiness; Las Vegas / Reno tourism-corridor context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Nevada PPC map; soft ACoS guarantees; twin-diff NH/NE PPC + NV AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing New Hampshire NH
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for New Hampshire sellers into free audit / contact |
+| Audience | New Hampshire Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC New Hampshire |
+| Secondary keywords | Manchester Amazon advertising, Nashua Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; New Hampshire (service area, not storefront) |
+| Title | Amazon PPC Marketing for New Hampshire Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for New Hampshire sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for New Hampshire sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-new-hampshire-nh-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake NH LocalBusiness; Manchester / Northern New England context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft New Hampshire PPC map; soft ACoS guarantees; twin-diff NJ/NV PPC + NH AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing New Jersey NJ
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for New Jersey sellers into free audit / contact |
+| Audience | New Jersey Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC New Jersey |
+| Secondary keywords | Newark Amazon advertising, Jersey City Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; New Jersey (service area, not storefront) |
+| Title | Amazon PPC Marketing for New Jersey Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for New Jersey sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for New Jersey sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-new-jersey-nj-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake NJ LocalBusiness; NYC metro Mid-Atlantic context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft New Jersey PPC map; soft ACoS guarantees; twin-diff NM/NH PPC + NJ AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing New Mexico NM
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for New Mexico sellers into free audit / contact |
+| Audience | New Mexico Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC New Mexico |
+| Secondary keywords | Albuquerque Amazon advertising, Santa Fe Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; New Mexico (service area; office city is Albuquerque) |
+| Title | Amazon PPC Marketing for New Mexico Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for New Mexico sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for New Mexico sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-new-mexico-nm-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified office city); no fake extra LocalBusiness on blog; Southwest context + NAP honesty |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft New Mexico PPC map; Albuquerque NAP honesty; soft ACoS guarantees; twin-diff NY/NJ PPC + NM AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing New York NY
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for New York sellers into free audit / contact |
+| Audience | New York Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC New York |
+| Secondary keywords | NYC Amazon advertising, Buffalo Amazon PPC, Sponsored Products New York |
+| Entity | eCom Gliders; Amazon PPC; New York (service area, not storefront) |
+| Title | Amazon PPC Marketing for New York Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for New York sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for New York sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-new-york-ny-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake NY LocalBusiness; NYC / Upstate high-CPC context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft New York PPC map; soft ACoS guarantees; twin-diff NC/NM PPC + NY AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing North Carolina NC
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for North Carolina sellers into free audit / contact |
+| Audience | North Carolina Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC North Carolina |
+| Secondary keywords | Charlotte Amazon advertising, Raleigh Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; North Carolina (service area, not storefront) |
+| Title | Amazon PPC Marketing for North Carolina Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for North Carolina sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for North Carolina sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-north-carolina-nc-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake NC LocalBusiness; Charlotte / Research Triangle context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft North Carolina PPC map; soft ACoS guarantees; twin-diff ND/NY PPC + NC AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing North Dakota ND
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for North Dakota sellers into free audit / contact |
+| Audience | North Dakota Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC North Dakota |
+| Secondary keywords | Fargo Amazon advertising, Bismarck Amazon PPC |
+| Entity | eCom Gliders; Amazon PPC; North Dakota (service area, not storefront) |
+| Title | Amazon PPC Marketing for North Dakota Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for North Dakota sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for North Dakota sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-north-dakota-nd-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake ND LocalBusiness; Fargo / Bismarck Plains context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft North Dakota PPC map; soft ACoS guarantees; twin-diff MP/NC PPC + ND AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Northern Mariana Islands MP
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Northern Mariana Islands sellers into free audit / contact |
+| Audience | CNMI Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Northern Mariana Islands |
+| Secondary keywords | Saipan Amazon advertising, CNMI Sponsored Products |
+| Entity | eCom Gliders; Amazon PPC; Northern Mariana Islands (service area, not storefront) |
+| Title | Amazon PPC Marketing for Northern Mariana Islands Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Northern Mariana Islands sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Northern Mariana Islands sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-northern-mariana-islands-mp-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake MP LocalBusiness; Saipan eligibility honesty |
+| OG image | Shared Soft PPC OG — Observed preview title/H1 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout; pre-edit title Observed Playwright 2026-10-30 |
+| Audit status | Re-optimized 2026-10-30 — Soft CNMI PPC map; eligibility honesty; soft ACoS guarantees; twin-diff OH/ND PPC + MP AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Ohio OH
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Ohio sellers into free audit / contact |
+| Audience | Ohio Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Ohio |
+| Secondary keywords | Columbus Amazon advertising, Cleveland Amazon PPC, Cincinnati Sponsored Products |
+| Entity | eCom Gliders; Amazon PPC; Ohio (service area, not storefront) |
+| Title | Amazon PPC Marketing for Ohio Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Ohio sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Ohio sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-ohio-oh-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake OH LocalBusiness; Columbus / Cleveland / Cincinnati Midwest context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Ohio PPC map; soft ACoS guarantees; twin-diff OK/MP PPC; no Ohio AM geo slug Observed (link full-service); free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Oklahoma OK
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Oklahoma sellers into free audit / contact |
+| Audience | Oklahoma Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Oklahoma |
+| Secondary keywords | Oklahoma City Amazon advertising, Tulsa Amazon PPC, Sponsored Products Oklahoma |
+| Entity | eCom Gliders; Amazon PPC; Oklahoma (service area, not storefront) |
+| Title | Amazon PPC Marketing for Oklahoma Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Oklahoma sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Oklahoma sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-oklahoma-ok-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake OK LocalBusiness; Oklahoma City / Tulsa Southern Plains context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Oklahoma PPC map; soft ACoS guarantees; twin-diff OR/OH PPC + OK AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Oregon OR
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Oregon sellers into free audit / contact |
+| Audience | Oregon Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Oregon |
+| Secondary keywords | Portland Amazon advertising, Bend Amazon PPC, Sponsored Products Oregon |
+| Entity | eCom Gliders; Amazon PPC; Oregon (service area, not storefront) |
+| Title | Amazon PPC Marketing for Oregon Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Oregon sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Oregon sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-oregon-or-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake OR LocalBusiness; Portland / Bend PNW context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Oregon PPC map; soft ACoS guarantees; twin-diff PA/OK PPC + OR AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Pennsylvania PA
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Pennsylvania sellers into free audit / contact |
+| Audience | Pennsylvania Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Pennsylvania |
+| Secondary keywords | Philadelphia Amazon advertising, Pittsburgh Amazon PPC, Sponsored Products Pennsylvania |
+| Entity | eCom Gliders; Amazon PPC; Pennsylvania (service area, not storefront) |
+| Title | Amazon PPC Marketing for Pennsylvania Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Pennsylvania sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Pennsylvania sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-pennsylvania-pa-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake PA LocalBusiness; Philadelphia / Pittsburgh Mid-Atlantic context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Pennsylvania PPC map; soft ACoS guarantees; twin-diff PR/OR PPC + PA AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Puerto Rico PR
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Puerto Rico sellers into free audit / contact |
+| Audience | Puerto Rico Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Puerto Rico |
+| Secondary keywords | San Juan Amazon advertising, Puerto Rico Sponsored Products |
+| Entity | eCom Gliders; Amazon PPC; Puerto Rico (service area, not storefront) |
+| Title | Amazon PPC Marketing for Puerto Rico Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Puerto Rico sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Puerto Rico sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-in-puerto-rico-pr-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake PR LocalBusiness; San Juan eligibility honesty |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Puerto Rico PPC map; eligibility honesty; soft ACoS guarantees; twin-diff RI/PA PPC + PR AM; free-audit; **old-site URL path preserved** |
+
+### Blog: Amazon PPC marketing Rhode Island RI
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for Rhode Island sellers into free audit / contact |
+| Audience | Rhode Island Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC Rhode Island |
+| Secondary keywords | Providence Amazon advertising, Sponsored Products Rhode Island |
+| Entity | eCom Gliders; Amazon PPC; Rhode Island (service area, not storefront) |
+| Title | Amazon PPC Marketing for Rhode Island Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for Rhode Island sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for Rhode Island sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-inrhode-island-ri-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake RI LocalBusiness; Providence / coastal New England context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft Rhode Island PPC map; soft ACoS guarantees; twin-diff SC/PR PPC + RI AM; free-audit; **old-site URL path preserved** (`inrhode-island`) |
+
+### Blog: Amazon PPC marketing South Carolina SC
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for South Carolina sellers into free audit / contact |
+| Audience | South Carolina Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC South Carolina |
+| Secondary keywords | Charleston Amazon advertising, Greenville Amazon PPC, Sponsored Products South Carolina |
+| Entity | eCom Gliders; Amazon PPC; South Carolina (service area, not storefront) |
+| Title | Amazon PPC Marketing for South Carolina Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for South Carolina sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for South Carolina sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-insouth-carolina-sc-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake SC LocalBusiness; Charleston / Greenville / Columbia context |
+| Schema | BlogPosting + BreadcrumbList — Assumed same blog layout as Observed Soft PPC siblings |
+| Audit status | Re-optimized 2026-10-30 — Soft South Carolina PPC map; soft ACoS guarantees; twin-diff SD/RI PPC + SC AM; free-audit; **old-site URL path preserved** (`insouth-carolina`) |
+
+### Blog: Amazon PPC marketing South Dakota SD
+
+| Field | Value |
+|-------|-------|
+| URL | https://ecomgliders.com/amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales/ |
+| Purpose | Geo-intent Amazon PPC marketing for South Dakota sellers into free audit / contact |
+| Audience | South Dakota Amazon sellers seeking remote PPC management |
+| Search intent | Commercial investigation / Local-intent informational |
+| Primary keyword | Amazon PPC South Dakota |
+| Secondary keywords | Sioux Falls Amazon advertising, Rapid City Amazon PPC, Sponsored Products South Dakota |
+| Entity | eCom Gliders; Amazon PPC; South Dakota (service area, not storefront) |
+| Title | Amazon PPC Marketing for South Dakota Sellers \| eCom Gliders |
+| Meta description | Soft Amazon PPC for South Dakota sellers: Sponsored ads, keyword research, bid control, and budget hygiene—without ACoS or sales guarantees. |
+| H1 | Amazon PPC marketing for South Dakota sellers: soft service map |
+| Canonical | `/amazon-ppc-marketing-services-insouth-dakota-sd-a-path-to-maximizing-your-sales/` |
+| Indexability | Index |
+| Local SEO | Service-area article; NAP Albuquerque NM (Verified); no fake SD LocalBusiness; Sioux Falls / Rapid City Plains context |
+| OG image | `/images/blog/Amazon-PPC-Marketing-Services-in-New-York-A-Path-to-Maximizing-Your-Sales-76048e3f.png` — Observed preview 2026-10-30 |
+| Schema | BlogPosting + BreadcrumbList — Observed Playwright evaluate 2026-10-30 (pre-edit) |
+| Audit status | Re-optimized 2026-10-30 — Soft South Dakota PPC map; soft ACoS guarantees; twin-diff TN/SC PPC + SD AM; free-audit; **old-site URL path preserved** (`insouth-dakota`) |
 
 ### Blog: Amazon PPC marketing Tennessee TN
 

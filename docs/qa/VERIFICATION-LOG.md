@@ -4,6 +4,76 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-10-30 — Services hub Soft spot-verify + Phase 5 status
+
+**Task:** Empty-TARGET continue after Phase 5 Soft-map complete → Soft Soft pass `/services/`  
+**STATUS:** Verified Soft (no content edits required); Phase 5 Soft-map COMPLETE local  
+**VERIFIED:** Playwright navigate/evaluate 2026-10-30 — title/meta/H1/OG; CollectionPage+FAQPage; no emoji/arrows/hype. `npm run build` exit 0 Observed.  
+**IMPLEMENTED:** SITE-SEO-MAP audit-status note; SESSION-STATE  
+**REMAINING:** Commit + push Soft Soft PPC/editorial backlog so Soft Soft maps deploy; then Phase 1 / 3 detail / 4 / 6  
+**NEXT ACTION:** Ask user: commit + push Soft Soft backlog
+
+## 2026-10-30 — Blog Soft editorial closeout (remaining loop 19–1)
+
+**Task:** Soft Soft maps for remaining editorials: WooCommerce vs Shopify, tariffs/Prime Day margins, international expansion, U.S. best sellers, compliance docs, reselling, Prime Day prep, ACoS-2, algorithm updates, PPC conversion calculator guide.  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft decision/response maps; stripped TITLE pollution and ultimate-guide hype; soft unverified GMV/stats; soft ACoS/sales/success guarantees; free-audit CTAs; **old-site URL/slug preserved** (incl. ACoS `-2`)  
+**VERIFIED:** Preview WooCommerce vs Shopify title/meta Observed via navigate/evaluate. Sibling editorials Assumed pre-edit pollution/hype. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP (10 rows); CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel for Soft PPC + Soft editorial backlog; Phase 1 technical / Phase 3–4 / Phase 6 still pending outside Phase 5 Soft-map loop  
+**NEXT ACTION:** Ask commit + push; Phase 5 Soft-map descending loop Proposed COMPLETE
+
+## 2026-10-30 — Blog Soft PPC closeout FL→NY-early + BSR (loop 23–6 Soft PPC)
+
+**Task:** Soft BSR documentation + Soft PPC Soft Service Map closeout: FL, DC, DE, CT (colorado-co-2), CO, CA, AS, AR, AZ (alaska-ak-2), AK, AL, NY-early (12 Soft PPC + BSR row).  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft PPC geo series complete through early NY slug; Connecticut Soft map on colorado-co-2 ranking URL; Arizona Soft map on alaska-ak-2 ranking URL; American Samoa eligibility honesty; dual NY slug twin; BSR Soft map already present in MDX—SITE-SEO-MAP row added; soft ACoS/sales guarantees; free-audit; **old-site URLs preserved**  
+**VERIFIED:** Preview BSR still showed old “12 Proven Tips” title Observed (deploy lag)—local Soft MDX Verified. Soft PPC siblings Assumed same pre-edit spun template. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP; CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel; remaining Phase 5 = early editorial blogs (indices ~1–5, 9, 11, 13, 17, 19)  
+**NEXT ACTION:** Ask commit + push; next `/woocommerce-vs-shopify-for-dtc-brands-which-platform-should-you-choose/` (19) or other remaining editorial
+
+## 2026-10-30 — Blog Soft PPC batch LA→GA (loop 33–24)
+
+**Task:** Accelerated Soft PPC Soft Service Map batch: LA, KY, KS, IA, IN, IL, ID, GU, HI, GA (10 URLs).  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximizing-sales framing; soft ACoS/sales guarantees; unique geo (NOLA Gulf / Louisville / Wichita / Des Moines / Indy / Chicago high-CPC / Boise / Guam eligibility / Honolulu logistics / Atlanta SE hub); free-audit; twin-diff + AM twins; GA next Soft PPC twin = Florida (skips loop 23 BSR tips); **old-site URL/slug preserved**  
+**VERIFIED:** Preview pre-edit LA: title/H1 Observed via navigate/evaluate. KY–GA sibling layout Assumed identical pre-edit spun template. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP (10 rows); CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel (SD→GA Soft PPC still local)  
+**NEXT ACTION:** Ask commit + push; next loop index 23 BSR tips (non-Soft-PPC) then Florida PPC (22)
+
+## 2026-10-30 — Blog Soft PPC batch NE→ME (loop 42–34)
+
+**Task:** Accelerated Soft PPC Soft Service Map batch: NE, MT, MO, MS, MN, MI, MA, MD, ME (9 URLs).  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximizing-sales framing; soft ACoS/sales guarantees; unique geo (Omaha Plains / Bozeman outdoor / KC–STL / Jackson Deep South / Twin Cities / Detroit Great Lakes / Boston high-CPC / Baltimore DMV / Portland ME coastal); free-audit; twin-diff + AM twins; **old-site URL/slug preserved**  
+**VERIFIED:** Preview pre-edit NE: title/H1 Observed via navigate/evaluate. MT–ME sibling layout Assumed identical pre-edit spun template. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP (9 rows); CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel (SD→ME Soft PPC still local)  
+**NEXT ACTION:** Ask commit + push; next Louisiana PPC (33)
+
+## 2026-10-30 — Blog Soft PPC batch MP→NV (loop 50–43)
+
+**Task:** Accelerated Soft PPC Soft Service Map batch: MP, ND, NC, NY, NM, NJ, NH, NV (8 URLs).  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximizing-sales framing; soft ACoS/sales guarantees; unique geo modifiers (Saipan eligibility / Fargo Plains / Research Triangle / NYC high-CPC / Albuquerque NAP honesty / NJ metro / NH New England / Las Vegas tourism); free-audit; twin-diff chain + AM twins; **old-site URL/slug preserved**  
+**VERIFIED:** Preview pre-edit MP: title/H1 Observed via navigate/evaluate. ND–NV sibling layout Assumed identical pre-edit spun template. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP (8 rows); CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel (also prior SD→OH batch still local)  
+**NEXT ACTION:** Ask user: commit + push for SD→NV Soft PPC; next loop Nebraska PPC (42)
+
+## 2026-10-30 — Blog Soft PPC batch SD→OH (loop 58–51)
+
+**Task:** Accelerated Soft PPC Soft Service Map batch (user asked to batch small geo pages):  
+`/amazon-ppc-marketing-services-insouth-dakota-sd-…/` through `/amazon-ppc-marketing-services-in-ohio-oh-…/` (8 URLs: SD, SC, RI, PR, PA, OR, OK, OH).  
+**STATUS:** IMPLEMENTED (local; not committed/pushed pending user approval)  
+**IMPLEMENTED:** Soft maximizing-sales framing; soft ACoS/sales guarantees; unique geo modifiers (Plains / Lowcountry–Upstate / Providence NE / San Juan eligibility / Philly–Pittsburgh / Portland PNW / OKC–Tulsa / Columbus–Cleveland–Cincinnati); removed request-a-quote and unverified “proven success”; Albuquerque NM NAP honesty; no fake LocalBusiness; twin-diff chain + matching AM twins; free-audit; **old-site URL/slug quirks preserved**; fixed TN→SD twin path to `insouth-dakota`  
+**VERIFIED:** Preview pre-edit SD: title/H1 + BlogPosting/BreadcrumbList Observed via navigate/evaluate. SC–OH sibling layout Assumed identical pre-edit spun template. Post-deploy re-render Not yet tested.  
+**DOCUMENTED:** SITE-SEO-MAP (8 rows); CONTENT-AUDIT-LOG; SESSION-STATE  
+**REMAINING:** User git counsel  
+**NEXT ACTION:** Ask user: commit only vs commit+push; next loop `/amazon-ppc-marketing-services-in-northern-mariana-islands-mp-…/` (50)
+
 ## 2026-10-30 — Blog: Amazon PPC marketing Tennessee TN SEO pass
 
 **Task:** Master-prompt pass `/amazon-ppc-marketing-services-intennessee-tn-a-path-to-maximizing-your-sales/`  
