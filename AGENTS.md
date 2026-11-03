@@ -55,6 +55,20 @@ For substantial decisions, document WHAT, WHY, HOW, EVIDENCE, RISK, VALIDATION.
 Update `docs/ai/CHAT-SUMMARIES.md` and `docs/project/DECISIONS.md` after material decisions.
 Never rely on chat history alone.
 
+## Git remotes (always dual-push)
+
+When the user asks to push code, push `main` to **both** remotes:
+
+| Remote | URL |
+|--------|-----|
+| `origin` | `https://github.com/faizanMayo786/ecomgliders-site.git` |
+| `ecom` | `https://github.com/ecom-gliders/ecommainwebsite.git` |
+
+```bash
+git push origin main
+git push ecom main
+```
+
 ## Writing
 
 Professional, factual, concise. No emojis. No Unicode symbols as icons. No AI marketing clichés.
