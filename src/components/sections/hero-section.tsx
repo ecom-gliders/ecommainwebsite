@@ -252,6 +252,7 @@ export function HeroSection({ id, data }: HeroSectionProps) {
                 columns={2}
                 submitVariant="primary"
                 submitFullWidth
+                hiddenFields={{ leadChannel: "get-in-touch" }}
               />
             </div>
           </div>

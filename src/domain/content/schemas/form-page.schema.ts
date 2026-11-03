@@ -53,7 +53,8 @@ export const contactPageConfigSchema = z.object({
       }),
     )
     .min(1),
-  form: formConfigSchema,
+  /** Optional legacy simple form — contact page keeps strategy intake only. */
+  form: formConfigSchema.optional(),
   contactDetails: z.object({
     heading: z.string(),
     phoneLabel: z.string(),

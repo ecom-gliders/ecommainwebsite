@@ -3,9 +3,6 @@ import { ArrowRight, Clock3, Mail, MapPin, Phone } from "lucide-react";
 import type { ContactPageConfig, SiteConfig } from "@/domain/content/schemas";
 import { AboutBreadcrumb } from "@/components/about/about-breadcrumb";
 import { ContactIntakeWizard } from "@/components/contact/contact-intake-wizard";
-import { ConfigurableForm } from "@/components/forms/configurable-form";
-import { submitContactForm } from "@/app/(marketing)/contact/actions";
-import { initialFormActionState } from "@/domain/forms/form-action-state";
 import { cn } from "@/lib/utils";
 
 interface ContactPageTemplateProps {
@@ -68,7 +65,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         </div>
       </section>
 
-      {/* 2. PATHS — stacked intent rows (menu), not equal cards */}
+      {/* 2. PATHS — stacked intent rows */}
       <section
         id="contact-paths"
         aria-labelledby="contact-paths-heading"
@@ -131,175 +128,144 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         </div>
       </section>
 
-      {/* 3. MESSAGE — editorial split: open form + NAP list (no twin boxes) */}
+      {/* 3. CONTACT DETAILS — direct channels only (no simple form) */}
       <section
-        id="contact-message"
-        aria-labelledby="contact-message-heading"
+        id="contact-details"
+        aria-labelledby="contact-details-heading"
         className="scroll-mt-24 py-16 sm:py-20 lg:py-24"
       >
         <div className="container-page">
-          <div className="grid items-start gap-14 lg:grid-cols-12 lg:gap-16">
-            <div className="lg:col-span-7">
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
-                General inquiry
-              </p>
-              <h2
-                id="contact-message-heading"
-                className="mt-3 text-[clamp(1.75rem,3vw,2.35rem)] font-bold leading-[1.1] tracking-[-0.02em] text-text-primary"
-              >
-                {page.form.heading}
-              </h2>
-              <p className="mt-3 max-w-lg text-base font-medium text-text-secondary">
-                Quick questions only. For a prep call, use the strategy intake
-                below.
-              </p>
-              <div className="mt-8 max-w-xl">
-                <ConfigurableForm
-                  formId="contact-form"
-                  fields={page.form.fields}
-                  submitLabel={page.form.submitLabel}
-                  consentLabel={page.form.consentLabel}
-                  action={submitContactForm}
-                  initialState={initialFormActionState}
-                />
-              </div>
-            </div>
-
-            <aside
-              className="lg:col-span-5 lg:sticky lg:top-28"
-              aria-labelledby="contact-details-heading"
+          <div className="mx-auto max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
+              Direct channels
+            </p>
+            <h2
+              id="contact-details-heading"
+              className="mt-3 text-[clamp(1.5rem,2.5vw,1.85rem)] font-bold tracking-tight text-text-primary"
             >
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-text-secondary">
-                Direct channels
-              </p>
-              <h2
-                id="contact-details-heading"
-                className="mt-3 text-[clamp(1.5rem,2.5vw,1.85rem)] font-bold tracking-tight text-text-primary"
-              >
-                {page.contactDetails.heading}
-              </h2>
+              {page.contactDetails.heading}
+            </h2>
 
-              <ul className="mt-8 space-y-0 border-t-2 border-primary">
-                <li className="flex gap-4 border-b-2 border-primary py-5">
-                  <Phone
-                    className="mt-1 h-5 w-5 shrink-0 text-primary"
-                    aria-hidden="true"
-                  />
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
-                      {page.contactDetails.phoneLabel}
-                    </p>
-                    <a
-                      href={`tel:${site.phone.tel}`}
-                      className="mt-1 inline-flex min-h-11 items-center text-xl font-bold text-text-primary hover:text-link-hover"
-                    >
-                      {site.phone.display}
-                    </a>
-                  </div>
-                </li>
-                <li className="flex gap-4 border-b-2 border-primary py-5">
-                  <Mail
-                    className="mt-1 h-5 w-5 shrink-0 text-primary"
-                    aria-hidden="true"
-                  />
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
-                      {page.contactDetails.emailLabel}
-                    </p>
-                    <a
-                      href={`mailto:${site.email}`}
-                      className="mt-1 inline-flex min-h-11 items-center text-base font-semibold text-text-primary hover:underline"
-                    >
-                      {site.email}
-                    </a>
-                  </div>
-                </li>
-                <li className="flex gap-4 border-b-2 border-primary py-5">
-                  <Clock3
-                    className="mt-1 h-5 w-5 shrink-0 text-primary"
-                    aria-hidden="true"
-                  />
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
-                      {page.contactDetails.hoursLabel}
-                    </p>
-                    <p className="mt-1 text-base font-medium text-text-primary">
-                      {page.contactDetails.hoursValue}
-                    </p>
-                  </div>
-                </li>
-                <li className="flex gap-4 border-b-2 border-primary py-5">
-                  <MapPin
-                    className="mt-1 h-5 w-5 shrink-0 text-primary"
-                    aria-hidden="true"
-                  />
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
-                      {page.contactDetails.addressLabel}
-                    </p>
-                    <p className="mt-1 text-base font-medium text-text-primary">
-                      {site.address.formatted}
-                    </p>
-                    <a
-                      href={page.contactDetails.mapsUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 inline-flex min-h-11 items-center text-small font-bold uppercase tracking-[0.06em] text-primary underline-offset-4 hover:underline"
-                    >
-                      {page.contactDetails.mapsLabel}
-                    </a>
-                  </div>
-                </li>
-              </ul>
-
-              {page.contactDetails.roleEmails.length > 0 ? (
-                <div className="mt-6">
-                  <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
-                    Direct emails
+            <ul className="mt-8 space-y-0 border-t-2 border-primary">
+              <li className="flex gap-4 border-b-2 border-primary py-5">
+                <Phone
+                  className="mt-1 h-5 w-5 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    {page.contactDetails.phoneLabel}
                   </p>
-                  <ul className="mt-3 space-y-2">
-                    {page.contactDetails.roleEmails.map((role) => (
-                      <li
-                        key={role.email}
-                        className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"
-                      >
-                        <span className="text-sm font-medium text-text-secondary">
-                          {role.label}
-                        </span>
-                        <a
-                          href={`mailto:${role.email}`}
-                          className="text-sm font-bold text-text-primary hover:underline"
-                        >
-                          {role.email}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
+                  <a
+                    href={`tel:${site.phone.tel}`}
+                    className="mt-1 inline-flex min-h-11 items-center text-xl font-bold text-text-primary hover:text-link-hover"
+                  >
+                    {site.phone.display}
+                  </a>
                 </div>
-              ) : null}
+              </li>
+              <li className="flex gap-4 border-b-2 border-primary py-5">
+                <Mail
+                  className="mt-1 h-5 w-5 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    {page.contactDetails.emailLabel}
+                  </p>
+                  <a
+                    href={`mailto:${site.email}`}
+                    className="mt-1 inline-flex min-h-11 items-center text-base font-semibold text-text-primary hover:underline"
+                  >
+                    {site.email}
+                  </a>
+                </div>
+              </li>
+              <li className="flex gap-4 border-b-2 border-primary py-5">
+                <Clock3
+                  className="mt-1 h-5 w-5 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    {page.contactDetails.hoursLabel}
+                  </p>
+                  <p className="mt-1 text-base font-medium text-text-primary">
+                    {page.contactDetails.hoursValue}
+                  </p>
+                </div>
+              </li>
+              <li className="flex gap-4 border-b-2 border-primary py-5">
+                <MapPin
+                  className="mt-1 h-5 w-5 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-[0.1em] text-text-secondary">
+                    {page.contactDetails.addressLabel}
+                  </p>
+                  <p className="mt-1 text-base font-medium text-text-primary">
+                    {site.address.formatted}
+                  </p>
+                  <a
+                    href={page.contactDetails.mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 inline-flex min-h-11 items-center text-small font-bold uppercase tracking-[0.06em] text-primary underline-offset-4 hover:underline"
+                  >
+                    {page.contactDetails.mapsLabel}
+                  </a>
+                </div>
+              </li>
+            </ul>
 
-              <ul className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
-                {Object.entries(site.social).map(([network, href]) =>
-                  href ? (
-                    <li key={network}>
+            {page.contactDetails.roleEmails.length > 0 ? (
+              <div className="mt-6">
+                <p className="text-xs font-bold uppercase tracking-[0.12em] text-text-secondary">
+                  Direct emails
+                </p>
+                <ul className="mt-3 space-y-2">
+                  {page.contactDetails.roleEmails.map((role) => (
+                    <li
+                      key={role.email}
+                      className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5"
+                    >
+                      <span className="text-sm font-medium text-text-secondary">
+                        {role.label}
+                      </span>
                       <a
-                        href={href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex min-h-11 items-center text-small font-bold uppercase tracking-[0.08em] text-text-secondary underline-offset-4 hover:text-primary hover:underline"
+                        href={`mailto:${role.email}`}
+                        className="text-sm font-bold text-text-primary hover:underline"
                       >
-                        {network}
+                        {role.email}
                       </a>
                     </li>
-                  ) : null,
-                )}
-              </ul>
-            </aside>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+
+            <ul className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
+              {Object.entries(site.social).map(([network, href]) =>
+                href ? (
+                  <li key={network}>
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex min-h-11 items-center text-small font-bold uppercase tracking-[0.08em] text-text-secondary underline-offset-4 hover:text-primary hover:underline"
+                    >
+                      {network}
+                    </a>
+                  </li>
+                ) : null,
+              )}
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* 4. INTAKE — full-bleed lime + sticky intro / wizard */}
+      {/* 4. INTAKE — single contact form (funnel) */}
       <section
         id="contact-intake"
         aria-labelledby="contact-intake-heading"
@@ -344,7 +310,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         </div>
       </section>
 
-      {/* 5. PROCESS — vertical timeline on ink (not another 3-col box) */}
+      {/* 5. PROCESS */}
       <section
         id="contact-process"
         aria-labelledby="contact-process-heading"
@@ -396,7 +362,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         </div>
       </section>
 
-      {/* 6. FAQ — Q | A columns, numbered rail */}
+      {/* 6. FAQ */}
       <section
         id="contact-faq"
         aria-labelledby="contact-faq-heading"
@@ -438,7 +404,7 @@ export function ContactPageTemplate({ page, site }: ContactPageTemplateProps) {
         </div>
       </section>
 
-      {/* 7. LINKS — compact text strip */}
+      {/* 7. LINKS */}
       <section
         id="contact-links"
         aria-labelledby="contact-links-heading"

@@ -2,6 +2,7 @@ import { brandMonogramUrl } from "@/infrastructure/forms/brand-assets";
 import {
   discordWebhookUrlFor,
   getFormNotificationMeta,
+  resolveFormDisplayTitle,
   type AnyFormNotificationType,
 } from "@/infrastructure/forms/form-notification-meta";
 
@@ -39,6 +40,7 @@ export async function notifyDiscordFormSubmission(input: {
   const origin = siteOrigin();
   const logo = brandMonogramUrl();
   const meta = getFormNotificationMeta(input.formType);
+  const displayTitle = resolveFormDisplayTitle(input.formType, input.fields);
 
   const attributionKeys = new Set([
     "Submitted from",
@@ -78,10 +80,10 @@ export async function notifyDiscordFormSubmission(input: {
   const payload = {
     username: "eCom Gliders",
     avatar_url: logo,
-    content: `**${meta.discordLead}**`,
+    content: `**${meta.discordLead}${displayTitle !== meta.label ? `: ${displayTitle}` : ""}**`,
     embeds: [
       {
-        title: meta.label,
+        title: displayTitle,
         description: input.subject,
         color: BRAND_COLOR,
         url: embedUrl,

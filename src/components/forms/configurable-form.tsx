@@ -82,10 +82,8 @@ export function ConfigurableForm({
           tabIndex={-1}
           autoComplete="off"
         />
-        {/* Short hero/service leads → Get in Touch Discord channel (override via hiddenFields). */}
-        {!hiddenFields?.leadChannel ? (
-          <input type="hidden" name="leadChannel" value="get-in-touch" />
-        ) : null}
+        {/* leadChannel must be set explicitly via hiddenFields:
+            get-in-touch (homepage only) | service-lead | full-funnel */}
         {hiddenFields
           ? Object.entries(hiddenFields).map(([name, value]) => (
               <input key={name} type="hidden" name={name} value={value} />

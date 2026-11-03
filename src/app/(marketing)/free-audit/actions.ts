@@ -123,7 +123,12 @@ export async function submitAuditForm(
   const { website: _honeypot, consent: _consent, ...fields } = parsed.data;
   const qualificationFields = collectQualificationFields(formData);
   const attribution = await resolveFormAttribution(formData);
-  const isFunnel = formType === "audit-funnel";
+  const channelLabel =
+    formType === "audit-funnel"
+      ? "Full funnel"
+      : formType === "get-in-touch"
+        ? "Get in Touch"
+        : "Service form";
 
   const delivery = await notifyFormSubmission({
     formType,
@@ -140,7 +145,7 @@ export async function submitAuditForm(
       Marketplaces: fields.marketplaces.join(", "),
       "Monthly revenue": fields.monthlyRevenue ?? "",
       Message: fields.message ?? "",
-      Channel: isFunnel ? "Full funnel" : "Get in Touch",
+      Channel: channelLabel,
       ...(serviceInterest ? { Service: serviceInterest } : {}),
       ...(serviceSlug ? { "Service slug": serviceSlug } : {}),
       ...attribution,

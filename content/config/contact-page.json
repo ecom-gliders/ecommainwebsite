@@ -7,12 +7,6 @@
   },
   "paths": [
     {
-      "id": "message",
-      "label": "Send a message",
-      "description": "General questions and quick inquiries.",
-      "href": "#contact-message"
-    },
-    {
       "id": "intake",
       "label": "Book a strategy conversation",
       "description": "A short intake so we can prep before we talk.",
@@ -23,59 +17,14 @@
       "label": "Request a free audit",
       "description": "Structured catalog and advertising review. Opens the free-audit intake.",
       "href": "/free-audit/"
+    },
+    {
+      "id": "details",
+      "label": "Call or email us",
+      "description": "Phone, email, and office details.",
+      "href": "#contact-details"
     }
   ],
-  "form": {
-    "heading": "Send a message",
-    "submitLabel": "Submit request",
-    "successMessage": "Thanks. Your message is in. We typically reply within one business day.",
-    "errorMessage": "Please check the highlighted fields and try again.",
-    "consentLabel": "I agree to the privacy policy and consent to being contacted about my inquiry.",
-    "fields": [
-      {
-        "name": "name",
-        "label": "Full name",
-        "type": "text",
-        "required": true,
-        "placeholder": "Your name"
-      },
-      {
-        "name": "email",
-        "label": "Email",
-        "type": "email",
-        "required": true,
-        "placeholder": "you@company.com"
-      },
-      {
-        "name": "phone",
-        "label": "Phone number",
-        "type": "tel",
-        "required": true,
-        "placeholder": "+1 (555) 000-0000"
-      },
-      {
-        "name": "serviceInterest",
-        "label": "Service interest",
-        "type": "select",
-        "required": false,
-        "options": [
-          { "value": "", "label": "Select a service (optional)" },
-          { "value": "ppc", "label": "Amazon PPC management" },
-          { "value": "account-management", "label": "Full account management" },
-          { "value": "listing-optimization", "label": "Listing optimization" },
-          { "value": "content", "label": "Content writing" },
-          { "value": "other", "label": "Other" }
-        ]
-      },
-      {
-        "name": "message",
-        "label": "Message",
-        "type": "textarea",
-        "required": true,
-        "placeholder": "Tell us about your Amazon business and what you need help with."
-      }
-    ]
-  },
   "contactDetails": {
     "heading": "Contact details",
     "phoneLabel": "Phone",
@@ -196,15 +145,15 @@
         "answer": "We respond within one business day to messages and strategy intake submissions."
       },
       {
-        "question": "What is the difference between Send a message, Book a strategy conversation, and a free audit?",
-        "answer": "Send a message is for general questions. Book a strategy conversation is a short intake so we can prep before we talk. A free audit is a structured catalog and advertising review on its own dedicated page."
+        "question": "What is the difference between a strategy conversation and a free audit?",
+        "answer": "Book a strategy conversation is a short intake on this page so we can prep before we talk. A free audit is a structured catalog and advertising review on its own dedicated page."
       },
       {
         "question": "Is my account information confidential?",
         "answer": "Yes. Catalog, advertising, and account details you share are treated as confidential and used only to respond to your inquiry."
       },
       {
-        "question": "What should I include in a message?",
+        "question": "What should I include in the intake?",
         "answer": "Share your marketplace, roughly what you sell, and the main challenge: for example wasted ad spend, listing conversion, or multi-marketplace expansion. Links to your storefront help when available."
       }
     ]
@@ -219,7 +168,7 @@
   },
   "seo": {
     "metaTitle": "Contact eCom Gliders | Amazon Agency",
-    "metaDescription": "Contact eCom Gliders Amazon agency for account management, PPC, and listing optimization. Call +1 (360) 660-1210 or send a message.",
+    "metaDescription": "Contact eCom Gliders Amazon agency for account management, PPC, and listing optimization. Call +1 (360) 660-1210 or book a strategy conversation.",
     "canonical": "/contact/",
     "ogImage": "/images/about/hero.png",
     "schema": "Organization"

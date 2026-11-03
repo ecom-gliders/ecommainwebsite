@@ -208,6 +208,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
             }
             submitFullWidth
             hiddenFields={{
+              leadChannel: "service-lead",
               serviceInterest: service.breadcrumbLabel,
               serviceSlug: service.slug,
             }}

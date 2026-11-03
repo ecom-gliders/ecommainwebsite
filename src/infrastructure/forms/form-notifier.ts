@@ -14,6 +14,7 @@ import { notifyDiscordFormSubmission } from "@/infrastructure/forms/discord-form
 import {
   getFormNotificationMeta,
   normalizeFormType,
+  resolveFormDisplayTitle,
   type AnyFormNotificationType,
   type FormNotificationType,
 } from "@/infrastructure/forms/form-notification-meta";
@@ -77,13 +78,14 @@ export async function notifyFormSubmission(
 }> {
   const formType = normalizeFormType(payload.formType);
   const meta = getFormNotificationMeta(formType);
+  const displayTitle = resolveFormDisplayTitle(formType, payload.fields);
   const normalized = { ...payload, formType };
   const to = teamInbox();
   const team = buildTeamNotificationHtml(normalized);
   const submitterEmail = extractSubmitterEmail(payload.fields);
   const submitterName = extractSubmitterName(payload.fields);
   const smtpReady = isSmtpReady();
-  const emailSubject = `[eCom Gliders] ${meta.label}: ${payload.subject}`;
+  const emailSubject = `[eCom Gliders] ${displayTitle}: ${payload.subject}`;
 
   // Always fire Discord + team email in parallel. Failures are isolated.
   const [discordOk, teamEmailOk] = await Promise.all([
