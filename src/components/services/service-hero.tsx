@@ -129,7 +129,7 @@ export function ServiceHero({ service, site }: ServiceHeroProps) {
       {
         name: "amazonStoreUrl",
         label: "Amazon storefront URL or ASIN",
-        type: "text" as const,
+        type: "url" as const,
         required: false,
         placeholder: "amazon.com/stores/... or B0XXXXXXXXX",
       },

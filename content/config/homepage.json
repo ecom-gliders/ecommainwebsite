@@ -71,7 +71,7 @@
             {
               "name": "amazonStoreUrl",
               "label": "Amazon storefront URL or ASIN",
-              "type": "text",
+              "type": "url",
               "required": true,
               "placeholder": "amazon.com/stores/... or B0XXXXXXXXX"
             },

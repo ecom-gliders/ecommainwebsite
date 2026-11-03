@@ -228,17 +228,19 @@ export function HeroSection({ id, data }: HeroSectionProps) {
           ) : null}
           <div
             id="hero-lead-form"
-            className="relative z-10 mx-auto w-full max-w-3xl scroll-mt-28 rounded-[16px] border-2 border-primary bg-accent p-5 shadow-[4px_4px_0_0_#131311] sm:p-6 lg:p-7 [&_button[role=combobox]]:rounded-[10px] [&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_button[role=combobox]]:bg-background [&_input]:rounded-[10px] [&_input]:border-2 [&_input]:border-primary [&_input]:bg-background [&_label]:text-primary [&_textarea]:rounded-[10px] [&_textarea]:border-2 [&_textarea]:border-primary [&_textarea]:bg-background"
+            className="relative z-10 mx-auto w-full max-w-3xl scroll-mt-28 rounded-[16px] border-2 border-primary bg-accent p-5 shadow-[4px_4px_0_0_#131311] sm:p-7 lg:p-8 [&_button[role=combobox]]:h-11 [&_button[role=combobox]]:rounded-[10px] [&_button[role=combobox]]:border-2 [&_button[role=combobox]]:border-primary [&_button[role=combobox]]:bg-background [&_input]:rounded-[10px] [&_input]:border-2 [&_input]:border-primary [&_input]:bg-background [&_textarea]:rounded-[10px] [&_textarea]:border-2 [&_textarea]:border-primary [&_textarea]:bg-background"
           >
-            <h2 className="text-center text-xl font-black tracking-tight text-primary sm:text-2xl">
-              {formHeading}
-            </h2>
-            {formSubheading ? (
-              <p className="mt-1.5 text-center text-sm leading-snug text-primary/75">
-                {formSubheading}
-              </p>
-            ) : null}
-            <div className="mt-5">
+            <div className="mx-auto max-w-xl text-center">
+              <h2 className="text-xl font-black tracking-tight text-primary sm:text-2xl">
+                {formHeading}
+              </h2>
+              {formSubheading ? (
+                <p className="mt-2 text-sm font-medium leading-relaxed text-primary/80 sm:text-[0.95rem]">
+                  {formSubheading}
+                </p>
+              ) : null}
+            </div>
+            <div className="mt-6 sm:mt-7">
               <ConfigurableForm
                 formId="hero-audit-form"
                 fields={formFields}

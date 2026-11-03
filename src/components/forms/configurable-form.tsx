@@ -70,7 +70,7 @@ export function ConfigurableForm({
       id={formId}
       action={formAction}
       noValidate
-      className={cn(compact ? "space-y-2.5" : "space-y-6", className)}
+      className={cn(compact ? "space-y-4" : "space-y-6", className)}
       aria-describedby={`${formId}-status`}
     >
       <div className="hidden" aria-hidden="true">
@@ -98,12 +98,12 @@ export function ConfigurableForm({
         className={cn(
           columns === 2
             ? cn(
-                // items-end keeps paired inputs aligned when one label wraps.
-                "grid grid-cols-1 items-end sm:grid-cols-2",
-                compact ? "gap-x-2.5 gap-y-2.5" : "gap-x-3 gap-y-3.5",
+                // items-start keeps labels top-aligned across the row.
+                "grid grid-cols-1 items-start sm:grid-cols-2",
+                compact ? "gap-x-3 gap-y-3.5" : "gap-x-4 gap-y-4",
               )
             : compact
-              ? "space-y-2.5"
+              ? "space-y-3.5"
               : "space-y-6",
         )}
       >
@@ -111,29 +111,32 @@ export function ConfigurableForm({
           const fieldId = `${formId}-${field.name}`;
           const error = state.fieldErrors?.[field.name]?.[0];
           const errorId = error ? `${fieldId}-error` : undefined;
-          // Selects/URLs need full row width in compact 2-col heroes —
-          // half-columns force long option labels to wrap and clip.
+          const isStoreUrl =
+            field.name === "amazonStoreUrl" || field.type === "url";
+          // Long fields need full row width in 2-col layouts — half-columns
+          // leave empty gaps (store URL) or clip select option labels.
           const spansFull =
             columns === 2 &&
             (field.type === "textarea" ||
               field.type === "select" ||
               field.type === "url" ||
+              isStoreUrl ||
               field.name === "message");
 
           return (
             <div
               key={field.name}
               className={cn(
-                "min-w-0",
-                compact ? "space-y-1" : "space-y-1.5",
+                "flex min-w-0 flex-col",
+                compact ? "gap-1.5" : "gap-2",
                 spansFull && "sm:col-span-2",
               )}
             >
               <Label
                 htmlFor={fieldId}
                 className={cn(
-                  "block text-text-primary leading-snug",
-                  compact ? "text-sm font-medium" : "text-sm",
+                  "block leading-snug text-text-primary",
+                  compact ? "text-sm font-semibold" : "text-sm font-medium",
                 )}
               >
                 {field.label}
@@ -153,10 +156,10 @@ export function ConfigurableForm({
                   placeholder={field.placeholder}
                   aria-invalid={Boolean(error)}
                   aria-describedby={errorId}
-                  rows={compact ? 2 : 5}
+                  rows={compact ? 3 : 5}
                   className={cn(
                     fieldControlClass,
-                    compact && "min-h-14 py-2 text-sm",
+                    compact ? "min-h-[5.5rem] px-3.5 py-2.5 text-sm" : "px-3.5 py-3",
                     error && "border-error",
                   )}
                 />
@@ -167,31 +170,31 @@ export function ConfigurableForm({
                   required={field.required}
                   aria-invalid={Boolean(error)}
                   aria-describedby={errorId}
-                  className={cn(controlHeight, error && "border-error")}
+                  className={cn(controlHeight, "w-full", error && "border-error")}
                   options={field.options ?? []}
                 />
               ) : (
                 <Input
                   id={fieldId}
                   name={field.name}
-                  type={
-                    field.name === "amazonStoreUrl" || field.type === "url"
-                      ? "text"
-                      : field.type
-                  }
-                  inputMode={
-                    field.name === "amazonStoreUrl" || field.type === "url"
-                      ? "url"
-                      : undefined
-                  }
+                  type={isStoreUrl ? "text" : field.type}
+                  inputMode={isStoreUrl ? "url" : undefined}
                   autoComplete={
-                    field.name === "amazonStoreUrl" || field.type === "url"
+                    isStoreUrl
                       ? "url"
-                      : undefined
+                      : field.name === "name"
+                        ? "name"
+                        : field.name === "email"
+                          ? "email"
+                          : field.name === "phone"
+                            ? "tel"
+                            : field.name === "brandName"
+                              ? "organization"
+                              : undefined
                   }
                   required={field.required}
                   placeholder={
-                    field.name === "amazonStoreUrl"
+                    isStoreUrl
                       ? field.placeholder ||
                         "amazon.com/stores/... or B0XXXXXXXXX"
                       : field.placeholder
@@ -201,7 +204,7 @@ export function ConfigurableForm({
                   className={cn(
                     fieldControlClass,
                     controlHeight,
-                    "min-w-0 truncate",
+                    "min-w-0 px-3.5",
                     error && "border-error",
                   )}
                 />
@@ -217,15 +220,15 @@ export function ConfigurableForm({
         })}
       </div>
 
-      <div className={cn(compact ? "space-y-1.5" : "space-y-2")}>
-        <div className="flex items-start gap-2.5">
+      <div className={cn(compact ? "space-y-2" : "space-y-2")}>
+        <div className="flex items-start gap-3">
           <input
             id={`${formId}-consent`}
             name="consent"
             type="checkbox"
             value="true"
             required
-            className="mt-0.5 h-4 w-4 shrink-0 rounded border-border accent-primary focus-visible:ring-2 focus-visible:ring-primary"
+            className="mt-1 h-5 w-5 shrink-0 rounded-[4px] border-2 border-primary bg-background accent-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
             aria-invalid={Boolean(state.fieldErrors?.consent)}
             aria-describedby={
               state.fieldErrors?.consent
@@ -237,14 +240,14 @@ export function ConfigurableForm({
             id={`${formId}-consent-label`}
             htmlFor={`${formId}-consent`}
             className={cn(
-              "font-normal leading-snug text-text-secondary",
+              "cursor-pointer font-medium leading-relaxed text-primary/85",
               compact ? "text-sm" : "text-small",
             )}
           >
             {consentLabel}{" "}
             <Link
               href="/privacy-policy/"
-              className="text-primary underline underline-offset-2 hover:text-accent"
+              className="font-semibold text-primary underline underline-offset-2 hover:text-primary/70"
             >
               Privacy policy
             </Link>
