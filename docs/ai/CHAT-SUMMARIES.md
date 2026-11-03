@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-11-03 — OG images + social preview principles
+
+Session topic: Meta previews still showed old website art; need per-page OG, landscape + square, lighter files, performance principles for future AI.  
+Key decisions: Static optimized JPEG pairs under `/images/og/` (not ImageResponse for 328 blogs); resolver fallback; no GitHub SEO skill re-download (already in-repo); local `og-social-preview` skill + `OG-IMAGE-STANDARD.md`.  
+Evidence: Localhost OG tags dual-aspect Verified; 368 files all under 200 KB; tsc clean.  
+Next action: Deploy; refresh social debuggers after cutover.
+
 ## 2026-11-03 — Soft Soft push + Phase 1/3/4/6 staging closeout
 
 Session topic: Continue remaining Soft Soft backlog and SEO phases after status check.  

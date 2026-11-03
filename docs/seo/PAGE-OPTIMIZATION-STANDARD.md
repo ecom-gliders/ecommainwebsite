@@ -29,14 +29,18 @@ Canonical rules for every indexable eCom Gliders page: SEO, AEO, GEO/LLM SEO, lo
 
 ## Open Graph / Twitter
 
+Full rules: `docs/seo/OG-IMAGE-STANDARD.md` · skill `og-social-preview`.
+
 | Element | Rule |
 |---------|------|
 | og:title | Match or slight shorten of title |
 | og:description | Match meta description intent |
 | og:url | Canonical URL |
 | og:type | `website` (core/home/service) or `article` (blog) |
-| og:image | Absolute URL; prefer ~1200×630; brand-safe |
-| twitter:card | `summary_large_image` when image present |
+| og:image | Absolute URL under `/images/og/*-1200x630.jpg`; width 1200 height 630 alt set; optional second square 1200×1200 |
+| og:image weight | Under ~200 KB JPEG; never raw 1 MB heroes |
+| twitter:card | `summary_large_image` with landscape image |
+| Fallback | `seo.ogImage` → featured/hero → `/images/og/default-1200x630.jpg` |
 
 ## Heading hierarchy
 

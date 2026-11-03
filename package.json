@@ -14,6 +14,7 @@
     "verify:sitemap": "tsx scripts/verify-sitemap.ts",
     "verify:gsc-readiness": "tsx scripts/verify-gsc-readiness.ts",
     "verify:gsc-submission": "tsx scripts/verify-gsc-submission.ts",
+    "generate:og": "node scripts/generate-og-images.mjs",
     "audit:lighthouse": "tsx scripts/run-lighthouse.ts",
     "test:a11y": "playwright test tests/accessibility-wcag.spec.ts",
     "deploy:vercel": "npx vercel deploy --yes --scope faizanmayo786s-projects",
@@ -63,6 +64,7 @@
     "@playwright/test": "^1.62.1",
     "@types/nodemailer": "^8.0.2",
     "@types/turndown": "^5.0.6",
+    "sharp": "^0.33.5",
     "tsx": "^4.23.13"
   }
 }

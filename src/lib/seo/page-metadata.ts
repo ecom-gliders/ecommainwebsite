@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import type { PageSeo } from "@/domain/content/schemas";
+import {
+  OG_LANDSCAPE,
+  OG_SQUARE,
+  resolveOgImages,
+} from "@/lib/seo/og-images";
 import { absoluteUrl } from "./site-url";
 
 interface PageMetadataOptions {
   openGraphType?: "website" | "article";
   siteName?: string;
+  /** On-page primary image when seo.ogImage is missing */
+  featuredImage?: string;
+  ogImageAlt?: string;
 }
 
 export function pageSeoToMetadata(
@@ -14,6 +22,31 @@ export function pageSeoToMetadata(
   const canonical = absoluteUrl(seo.canonical);
   const robots = seo.robots ?? { index: true, follow: true };
   const siteName = options.siteName ?? "eCom Gliders";
+
+  const imagesResolved = resolveOgImages({
+    ogImage: seo.ogImage,
+    featuredImage: options.featuredImage,
+    alt: options.ogImageAlt ?? seo.ogImageAlt,
+    metaTitle: seo.metaTitle,
+  });
+
+  const ogImages: NonNullable<Metadata["openGraph"]>["images"] = [
+    {
+      url: absoluteUrl(imagesResolved.landscape),
+      width: OG_LANDSCAPE.width,
+      height: OG_LANDSCAPE.height,
+      alt: imagesResolved.alt,
+    },
+  ];
+
+  if (imagesResolved.square) {
+    ogImages.push({
+      url: absoluteUrl(imagesResolved.square),
+      width: OG_SQUARE.width,
+      height: OG_SQUARE.height,
+      alt: imagesResolved.alt,
+    });
+  }
 
   return {
     title: seo.metaTitle,
@@ -32,21 +65,13 @@ export function pageSeoToMetadata(
       siteName,
       locale: "en_US",
       type: options.openGraphType ?? "website",
-      ...(seo.ogImage
-        ? {
-            images: [{ url: absoluteUrl(seo.ogImage) }],
-          }
-        : {}),
+      images: ogImages,
     },
     twitter: {
-      card: seo.ogImage ? "summary_large_image" : "summary",
+      card: "summary_large_image",
       title: seo.metaTitle,
       description: seo.metaDescription,
-      ...(seo.ogImage
-        ? {
-            images: [absoluteUrl(seo.ogImage)],
-          }
-        : {}),
+      images: [absoluteUrl(imagesResolved.landscape)],
     },
   };
 }

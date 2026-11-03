@@ -5,6 +5,8 @@ export const pageSeoSchema = z.object({
   metaDescription: z.string(),
   canonical: z.string(),
   ogImage: z.string().optional(),
+  /** Alt text for og:image; falls back to metaTitle when omitted */
+  ogImageAlt: z.string().optional(),
   robots: z
     .object({
       index: z.boolean(),

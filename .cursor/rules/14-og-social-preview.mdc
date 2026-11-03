@@ -1,0 +1,38 @@
+---
+description: Open Graph and social preview images
+globs: "**/*.{tsx,ts,json,mdx}"
+alwaysApply: false
+---
+
+# OG and Social Previews
+
+## Standard
+
+Follow `docs/seo/OG-IMAGE-STANDARD.md` and skill `.cursor/skills/og-social-preview/SKILL.md`.
+
+## Required on every indexable page
+
+- Absolute `og:image` (prefer `/images/og/*-1200x630.jpg`)
+- Companion square when available (`*-1200x1200.jpg`) as second OG image
+- Width, height, and alt on Open Graph images
+- `twitter:card` = `summary_large_image` with the landscape URL
+
+## Do not
+
+- Point social tags at WordPress CDN URLs or multi-megabyte raw heroes
+- Use the migrated WP site banner (`ecomglidersbanner-…`) for home/blog index
+- Omit `metadataBase` / absolute URLs
+- Redesign every blog featured image when only the OG derivative needs a crop
+
+## When changing heroes or adding pages
+
+1. Update source art under `public/images/`
+2. Run `npm run generate:og`
+3. Set `seo.ogImage` to the new landscape path
+4. Verify head tags on staging; refresh platform debuggers after production cutover
+
+## Code entry points
+
+- `src/lib/seo/og-images.ts` — sizes, defaults, resolver
+- `src/lib/seo/page-metadata.ts` — Metadata emission
+- `scripts/generate-og-images.mjs` — crop + re-point pipeline

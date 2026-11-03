@@ -4,6 +4,19 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-11-03 — OG images + social preview system
+
+**Task:** Replace old-site / heavy OG previews; dual-aspect optimized images; principles for future AI  
+**STATUS:** COMPLETE (local Verified)  
+**IMPLEMENTED:** `og-images.ts` + `pageSeoToMetadata` dual images + `metadataBase`; `npm run generate:og`; 368 OG files under `/images/og/`; content re-pointed; docs/rule/skill  
+**VERIFIED:**
+- `tsc --noEmit` exit 0
+- All OG files under 200 KB (0 over budget)
+- Localhost head: home/contact/PPC service/blog post each emit landscape + square absolute `og:image`, widths 1200, `twitter:card=summary_large_image`; no `ecomglidersbanner`; no raw `/images/about/hero.png` in OG  
+**DOCUMENTED:** `OG-IMAGE-STANDARD.md`, rule `14-og-social-preview`, skill `og-social-preview`, DECISIONS, SESSION-STATE  
+**REMAINING:** Deploy; after DNS cutover refresh Facebook/LinkedIn/Discord caches  
+**NEXT ACTION:** User deploy + debugger refresh when ready
+
 ## 2026-11-03 — Homepage alts + Lighthouse CWV
 
 **Task:** Explain and fix optional homepage missing alts + run Lighthouse CWV  

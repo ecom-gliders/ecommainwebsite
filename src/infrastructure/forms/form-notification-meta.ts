@@ -53,9 +53,9 @@ const RATE_LIMITED =
 const META: Record<FormNotificationType, FormNotificationMeta> = {
   "get-in-touch": {
     label: "Get in Touch",
-    teamEyebrow: "Get in Touch lead",
-    discordLead: "New Get in Touch lead",
-    confirmationEyebrow: "Confirmation",
+    teamEyebrow: "Get in Touch",
+    discordLead: "New Get in Touch request",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "We received your Get in Touch request — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your Get in Touch request is with our team.`,
@@ -70,10 +70,10 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
       "We could not send your Get in Touch request. Call us or email info@ecomgliders.com.",
   },
   "service-lead": {
-    label: "Service lead",
-    teamEyebrow: "Service page lead",
-    discordLead: "New service lead",
-    confirmationEyebrow: "Confirmation",
+    label: "Service request",
+    teamEyebrow: "Service page",
+    discordLead: "New service request",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "We received your request — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your request is with our team.`,
@@ -89,9 +89,9 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
   },
   "audit-funnel": {
     label: "Free Audit",
-    teamEyebrow: "Full funnel lead",
-    discordLead: "New Free Audit lead",
-    confirmationEyebrow: "Confirmation",
+    teamEyebrow: "Free Audit",
+    discordLead: "New Free Audit request",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "We received your Free Audit request — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your Free Audit details are with our team.`,
@@ -110,7 +110,7 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
     label: "Contact message",
     teamEyebrow: "Contact form",
     discordLead: "New contact message",
-    confirmationEyebrow: "Confirmation",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "We received your message — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your message has reached our team.`,
@@ -128,10 +128,10 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
     label: "Strategy intake",
     teamEyebrow: "Strategy intake",
     discordLead: "New strategy intake",
-    confirmationEyebrow: "Confirmation",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "Strategy intake received — eCom Gliders",
     confirmationIntro: (name) =>
-      `Thank you, ${name}. Your strategy intake is in our queue.`,
+      `Thank you, ${name}. Your strategy intake is with our team.`,
     confirmationNext: "We will review your notes and follow up on next steps.",
     webhook: "forms",
     submitSuccess:
@@ -146,7 +146,7 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
     label: "Agency partnership",
     teamEyebrow: "Partnership application",
     discordLead: "New partnership application",
-    confirmationEyebrow: "Confirmation",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "Partnership application received — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. We received your agency partnership application.`,
@@ -165,7 +165,7 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
     label: "Career application",
     teamEyebrow: "Careers",
     discordLead: "New career application",
-    confirmationEyebrow: "Confirmation",
+    confirmationEyebrow: "Message received",
     confirmationSubject: "Application received — eCom Gliders",
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your application is with our hiring team.`,
@@ -181,13 +181,13 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
       "We could not send your application. Email info@ecomgliders.com or try again later.",
   },
   newsletter: {
-    label: "Newsletter subscribe",
+    label: "Newsletter",
     teamEyebrow: "Newsletter",
     discordLead: "New newsletter subscriber",
-    confirmationEyebrow: "Confirmation",
-    confirmationSubject: "Subscription confirmed — eCom Gliders",
+    confirmationEyebrow: "Subscription",
+    confirmationSubject: "You are subscribed — eCom Gliders",
     confirmationIntro: (name) =>
-      `Thank you, ${name}. You are subscribed to eCom Gliders insights.`,
+      `Thank you, ${name}. You are subscribed to the eCom Gliders newsletter.`,
     confirmationNext:
       "You will receive practical Amazon growth notes. Unsubscribe anytime by emailing us.",
     webhook: "forms",
@@ -245,7 +245,7 @@ export function resolveFormDisplayTitle(
     fields.Services?.trim();
 
   if (normalized === "service-lead" && service) {
-    return `${service} · Service lead`;
+    return `${service} · Service request`;
   }
   if (normalized === "get-in-touch") {
     return "Get in Touch";

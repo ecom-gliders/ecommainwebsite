@@ -87,7 +87,7 @@ export function SiteHeaderShell({ navigation, site }: SiteHeaderShellProps) {
               />
             </div>
 
-            <div className="ml-0 flex shrink-0 items-center gap-1.5 sm:ml-auto sm:gap-2.5">
+            <div className="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2.5">
               <a
                 href={`tel:${site.phone.tel}`}
                 className="mr-0.5 hidden items-center gap-1.5 border-l border-white/15 pl-3 text-sm font-medium text-text-on-dark/75 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary xl:inline-flex"

@@ -4,6 +4,7 @@ import { PageAtmosphere } from "@/components/layout/page-atmosphere";
 import { SkipLink } from "@/components/layout/skip-link";
 import { ThemeReset } from "@/components/layout/theme-reset";
 import { buildCssVariables } from "@/lib/design-tokens";
+import { getSiteUrl } from "@/lib/seo/site-url";
 import "./globals.css";
 
 /**
@@ -13,6 +14,7 @@ import "./globals.css";
  */
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
   title: "eCom Gliders",
   description: "Full-service Amazon account management",
   icons: {

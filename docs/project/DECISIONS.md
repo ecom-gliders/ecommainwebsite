@@ -17,6 +17,20 @@ Impact: What needs updating
 
 ---
 
+## 2026-11-03 — Dual-aspect optimized OG images
+
+**WHAT:** Site-wide Open Graph / Twitter images use optimized JPEG pairs (1200×630 + 1200×1200) under `/images/og/`, emitted with width/height/alt via `pageSeoToMetadata`. Generator: `npm run generate:og`.
+
+**WHY:** Meta previews still showed migrated WP banner / heavy about hero (~1 MB); social cards cropped poorly; previews were slow.
+
+**CHOSEN:** Static optimized derivatives + resolver fallback (ogImage → featured → defaults). Not per-request `ImageResponse` for 328 blogs.
+
+**TRADEOFFS:** Must re-run generator when heroes change; Discord/Facebook cache still needs manual refresh after cutover.
+
+**IMPACT:** `og-images.ts`, `page-metadata.ts`, `scripts/generate-og-images.mjs`, content `seo.ogImage` paths, `docs/seo/OG-IMAGE-STANDARD.md`, rule `14-og-social-preview`, skill `og-social-preview`.
+
+---
+
 ## 2026-10-29 — Footer newsletter + Hostinger SMTP + Discord
 
 **WHAT:** Footer newsletter + unified lead pipeline: Hostinger SMTP to `info@ecomgliders.com` (team + user confirmation) and Discord webhook embeds. Channels run in parallel; one failure does not block the other.

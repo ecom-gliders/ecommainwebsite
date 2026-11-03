@@ -1,15 +1,11 @@
-## Latest (2026-11-03) — Homepage alts + Lighthouse CWV done
+## Latest (2026-11-03) — OG social previews + principles
 
-**Homepage image alts:** Fixed. Playwright localhost: 0/76 missing. Lighthouse `image-alt` Pass.
+**Done:** Dual-aspect OG system (1200×630 + 1200×1200) under `/images/og/`; metadata emits width/height/alt; homepage/contact/services/blogs no longer use WP banner or 1 MB about hero for social; `npm run generate:og`; standard + rule 14 + skill `og-social-preview`; performance rule expanded.
 
-**Contrast/a11y follow-ups in same pass:** Promo CTA red darkened; inactive seller-journey CTAs hidden (not opacity-faded); testimonial captions use `text-text-secondary`; pain bubbles dark green + white text; decorative footer watermark removed.
-
-**Lighthouse lab (localhost:3002):**
-- Home: Perf 87 / A11y 91 / BP 100 / SEO 100 — LCP ~2.6–2.9s, CLS 0.002
-- PPC service: 94 / 100 / 100 / 100
-- Blog sample: 94 / 100 / 96 / 100
+**Verified locally:** head tags on home, contact, PPC service, sample blog; 368 OG files, 0 over 200 KB; tsc clean.
 
 **Still remaining (user):**
-1. DNS cutover (Hostinger)
-2. Production GSC submit after cutover
-3. Optional: homepage Perf 87 → 90+ (LCP/Speed Index)
+1. Deploy so staging/production serve new OG assets
+2. DNS cutover (Hostinger) when ready
+3. After cutover: Facebook / LinkedIn / Discord cache refresh
+4. Optional: homepage Perf 87 → 90+

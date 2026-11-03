@@ -13,16 +13,45 @@ Lazy loading, code splitting, image optimization, responsive images, caching, mi
 ## Measure before optimizing
 
 Track LCP, CLS, INP, TTFB, bundle size, image weight, request count.
+Record lab evidence in `docs/seo/TECHNICAL-SEO-AUDIT.md` and `docs/qa/VERIFICATION-LOG.md`.
+Do not claim Perf gains without before/after numbers.
 
 ## Critical content
 
 Do not lazy-load above-the-fold content that harms comprehension or accessibility.
+LCP candidates (hero image/video poster, primary headline block) use priority / eager loading where Next Image supports it.
 
 ## Migration performance baseline
 
 Record current site performance metrics during audit in `docs/seo/TECHNICAL-SEO-AUDIT.md`.
 New site must meet or exceed baseline scores.
 
-## Images
+## Images (UI)
 
-Use modern formats (WebP, AVIF where supported). Provide width and height attributes. Use srcset for responsive images.
+- Prefer `next/image` with explicit width/height or `fill` + sized parent.
+- Modern formats (WebP, AVIF where the pipeline supports them).
+- Responsive `sizes` for grid/hero layouts.
+- Do not ship multi-megabyte PNGs for decorative or below-fold UI when a compressed JPEG/WebP suffices.
+
+## Social / OG images
+
+- Separate from UI: optimized crops under `/images/og/` (see `docs/seo/OG-IMAGE-STANDARD.md`).
+- Budget: under ~200 KB per OG JPEG; dual 1200×630 + 1200×1200.
+- Heavy heroes must not be used directly as `og:image`.
+
+## Fonts
+
+- `display=swap` on stylesheet fonts.
+- Limit font families/weights on critical path.
+- Prefer existing Fontshare / Google CSS approach unless migrating to `next/font` with measured benefit.
+
+## JavaScript
+
+- Prefer server components; client islands only for interaction.
+- Avoid shipping large client libraries for static marketing sections.
+- Code-split heavy tools (calculators, wizards) behind their routes.
+
+## Caching
+
+- Static marketing pages: cache-friendly build output on Vercel.
+- Do not cache personalized form responses.

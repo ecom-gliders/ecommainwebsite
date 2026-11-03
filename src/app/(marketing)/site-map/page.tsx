@@ -11,7 +11,7 @@ const pageSeo = {
   metaDescription:
     "eCom Gliders sitemap: browse HTML links to homepage, services, case studies, Contact Us, partnership, careers, FAQ, Free Amazon Tools, and more.",
   canonical: "/site-map/",
-  ogImage: "/images/about/hero.png",
+  ogImage: "/images/og/about-1200x630.jpg",
 } as const;
 
 export function generateMetadata(): Metadata {

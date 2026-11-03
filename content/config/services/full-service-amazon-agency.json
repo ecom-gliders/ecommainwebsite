@@ -41,10 +41,22 @@
         }
       ],
       "metrics": [
-        { "value": "$112M+", "label": "Revenue managed" },
-        { "value": "95%", "label": "Client retention" },
-        { "value": "20+", "label": "In-house specialists" },
-        { "value": "2018", "label": "Helping sellers since" }
+        {
+          "value": "$112M+",
+          "label": "Revenue managed"
+        },
+        {
+          "value": "95%",
+          "label": "Client retention"
+        },
+        {
+          "value": "20+",
+          "label": "In-house specialists"
+        },
+        {
+          "value": "2018",
+          "label": "Helping sellers since"
+        }
       ]
     },
     "fitContinuum": {
@@ -583,7 +595,7 @@
     "metaTitle": "Full Service Amazon Agency | eCom Gliders",
     "metaDescription": "Full service Amazon agency for account management, PPC, listings, content, and catalog health. Helping sellers since 2018. 95% retention. Free audit.",
     "canonical": "/full-service-amazon-agency/",
-    "ogImage": "/images/services/amazon-account-management-service.jpg",
+    "ogImage": "/images/og/services/amazon-account-operations-1200x630.jpg",
     "robots": {
       "index": true,
       "follow": true

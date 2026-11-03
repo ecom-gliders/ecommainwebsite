@@ -65,7 +65,8 @@ Sources cached under: `~\.cursor\skills\_src\`
 ## Project skills (eCom Gliders repo)
 
 Existing: `seo-audit`, `web-audit`, `research`, `migration-audit`, `competitive-research`, `asset-management`  
-Added mirrors: `seo-aeo-geo`, `seo-schema-snippets`, `seo-performance`, `seo-crawling-indexing`, `seo-meta-tags`, `nextjs-security-scan`, `gha-security-review`
+Added mirrors: `seo-aeo-geo`, `seo-schema-snippets`, `seo-performance`, `seo-crawling-indexing`, `seo-meta-tags`, `nextjs-security-scan`, `gha-security-review`  
+Added 2026-11-03: `og-social-preview` (local) — dual-aspect OG crops, weight budget, `npm run generate:og`; pairs with `docs/seo/OG-IMAGE-STANDARD.md`. Do not re-clone magnetoid pack for OG/CWV.
 
 ## How to invoke
 

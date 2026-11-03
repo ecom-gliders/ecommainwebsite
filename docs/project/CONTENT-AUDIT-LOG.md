@@ -15,6 +15,17 @@ Approved: yes | pending
 
 ---
 
+## 2026-11-03 — Form confirmation email copy
+
+| Location | Original | Replacement | Reason | Approved |
+|----------|----------|-------------|--------|----------|
+| Confirmation email / Discord labels | "Service lead", "… lead", eyebrow "Confirmation" | "Service request", "… request", "Message received" | Remove CRM/AI "Lead" wording from user email | yes |
+| Confirmation footer | `Reference: {label}` | Plain "If you did not submit this form…" | Drop internal label jargon | yes |
+| Contact intake intro | "in our queue" | "with our team" | Less SaaS tone | yes |
+| Newsletter subject/intro | "Subscription confirmed" / "insights" | "You are subscribed" / "newsletter" | Less buzzword | yes |
+
+---
+
 ## 2026-10-30 — Blog Soft editorial closeout (loop 19–1 remaining)
 
 | Location | Original | Replacement | Reason | Approved |

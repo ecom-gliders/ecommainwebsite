@@ -9,15 +9,27 @@ import { BlogPostCta } from "@/components/blog/blog-post-cta";
 import { SectionShell } from "@/components/sections/section-shell";
 import { getContentRepository } from "@/infrastructure/content/get-content-repository";
 import { buildBlogIndexModel } from "@/lib/blog/build-blog-index-model";
+import {
+  OG_LANDSCAPE,
+  OG_SQUARE,
+  resolveOgImages,
+} from "@/lib/seo/og-images";
 import { absoluteUrl } from "@/lib/seo/site-url";
 import { JsonLdScript } from "@/lib/seo/json-ld-script";
 
-const blogIndexOgImage = "/images/blog/ecomglidersbanner-1024x598-e176afa2.png";
+const blogIndexTitle =
+  "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders";
+const blogIndexDescription =
+  "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.";
+const blogIndexOg = resolveOgImages({
+  ogImage: "/images/og/home-1200x630.jpg",
+  alt: blogIndexTitle,
+  metaTitle: blogIndexTitle,
+});
 
 export const metadata: Metadata = {
-  title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
-  description:
-    "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
+  title: blogIndexTitle,
+  description: blogIndexDescription,
   alternates: {
     canonical: absoluteUrl("/blog/"),
   },
@@ -26,18 +38,33 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
-    description:
-      "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
+    title: blogIndexTitle,
+    description: blogIndexDescription,
     url: absoluteUrl("/blog/"),
-    images: [{ url: absoluteUrl(blogIndexOgImage) }],
+    images: [
+      {
+        url: absoluteUrl(blogIndexOg.landscape),
+        width: OG_LANDSCAPE.width,
+        height: OG_LANDSCAPE.height,
+        alt: blogIndexOg.alt,
+      },
+      ...(blogIndexOg.square
+        ? [
+            {
+              url: absoluteUrl(blogIndexOg.square),
+              width: OG_SQUARE.width,
+              height: OG_SQUARE.height,
+              alt: blogIndexOg.alt,
+            },
+          ]
+        : []),
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amazon Seller Blog | PPC, SEO and Growth Tips | eCom Gliders",
-    description:
-      "Amazon seller blog from eCom Gliders: 328 articles on Amazon PPC, listing optimization, account management, and seller growth.",
-    images: [absoluteUrl(blogIndexOgImage)],
+    title: blogIndexTitle,
+    description: blogIndexDescription,
+    images: [absoluteUrl(blogIndexOg.landscape)],
   },
 };
 

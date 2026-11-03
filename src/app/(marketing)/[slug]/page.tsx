@@ -65,7 +65,11 @@ export async function generateMetadata({
   const caseStudy = await repository.getCaseStudy(slug);
 
   if (caseStudy) {
-    return pageSeoToMetadata(caseStudy.seo, { openGraphType: "article" });
+    return pageSeoToMetadata(caseStudy.seo, {
+      openGraphType: "article",
+      featuredImage: caseStudy.featuredImage,
+      ogImageAlt: caseStudy.featuredImageAlt,
+    });
   }
 
   const post = await repository.getBlogPost(slug);
@@ -77,7 +81,10 @@ export async function generateMetadata({
     };
   }
 
-  return pageSeoToMetadata(post.seo, { openGraphType: "article" });
+  return pageSeoToMetadata(post.seo, {
+    openGraphType: "article",
+    featuredImage: post.featuredImage,
+  });
 }
 
 export default async function SlugPage({ params }: SlugPageProps) {

@@ -167,7 +167,7 @@ export function buildUserConfirmationHtml(input: {
       </tr>
     </table>
     <p style="margin:20px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:${BRAND.muted};">
-      Reference: ${escapeHtml(meta.label)}. If you did not send this request, reply to this email and we will remove your details.
+      If you did not submit this form, reply to this email and we will remove your details.
     </p>`;
 
   const html = shellHtml({
