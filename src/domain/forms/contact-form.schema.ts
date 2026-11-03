@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { phoneE164Schema } from "@/domain/forms/phone.schema";
 
 export const contactFormSchema = z.object({
   name: z
@@ -11,11 +12,7 @@ export const contactFormSchema = z.object({
     .trim()
     .email("Enter a valid email address.")
     .max(254, "Email must be 254 characters or fewer."),
-  phone: z
-    .string()
-    .trim()
-    .min(7, "Enter a phone number we can reach you on.")
-    .max(30, "Phone number must be 30 characters or fewer."),
+  phone: phoneE164Schema,
   serviceInterest: z.string().trim().max(100).optional(),
   message: z
     .string()

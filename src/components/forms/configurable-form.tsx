@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import Link from "next/link";
 import type { FormActionState } from "@/domain/forms/form-action-state";
 import { FormSelect } from "@/components/ui/form-select";
@@ -8,8 +8,36 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
+import { PhoneField } from "@/components/forms/phone-field";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { cn } from "@/lib/utils";
+
+function ConfigurablePhoneField({
+  id,
+  name,
+  label,
+  required,
+  error,
+}: {
+  id: string;
+  name: string;
+  label: string;
+  required?: boolean;
+  error?: string;
+}) {
+  const [value, setValue] = useState("");
+  return (
+    <PhoneField
+      id={id}
+      name={name}
+      label={label}
+      value={value}
+      onChange={setValue}
+      required={required}
+      error={error}
+    />
+  );
+}
 
 interface FormFieldOption {
   value: string;
@@ -120,6 +148,27 @@ export function ConfigurableForm({
               field.type === "url" ||
               isStoreUrl ||
               field.name === "message");
+
+          if (field.name === "phone" || field.type === "tel") {
+            return (
+              <div
+                key={field.name}
+                className={cn(
+                  "flex min-w-0 flex-col",
+                  compact ? "gap-1.5" : "gap-2",
+                  spansFull && "sm:col-span-2",
+                )}
+              >
+                <ConfigurablePhoneField
+                  id={fieldId}
+                  name={field.name}
+                  label={field.label}
+                  required={field.required}
+                  error={error}
+                />
+              </div>
+            );
+          }
 
           return (
             <div

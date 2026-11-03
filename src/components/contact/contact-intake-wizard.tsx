@@ -4,8 +4,12 @@ import { useActionState, useEffect, useId, useState } from "react";
 import Link from "next/link";
 import type { ContactPageConfig } from "@/domain/content/schemas";
 import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
+import { FormMultiSelect } from "@/components/forms/form-multi-select";
+import { FormOptionChips } from "@/components/forms/form-option-chips";
+import { PhoneField } from "@/components/forms/phone-field";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
 import { isAmazonStoreOrAsin } from "@/domain/forms/amazon-store-url";
+import { isValidLeadPhone } from "@/domain/forms/phone.schema";
 import { submitContactIntakeForm } from "@/app/(marketing)/contact/intake-actions";
 import { PrimaryButton } from "@/components/ui/primary-button";
 import { Input } from "@/components/ui/input";
@@ -14,6 +18,19 @@ import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 
 const TOTAL_STEPS = 5;
+
+const FIELD_TO_STEP: Record<string, number> = {
+  name: 1,
+  email: 1,
+  services: 2,
+  brandName: 3,
+  amazonStoreUrl: 3,
+  marketplaces: 3,
+  monthlyRevenue: 4,
+  phone: 5,
+  note: 5,
+  consent: 5,
+};
 
 interface ContactIntakeWizardProps {
   wizard: ContactPageConfig["intakeWizard"];
@@ -25,7 +42,7 @@ interface WizardValues {
   services: string[];
   brandName: string;
   storeOrAsin: string;
-  marketplace: string;
+  marketplaces: string[];
   monthlyRevenue: string;
   phone: string;
   note: string;
@@ -38,7 +55,7 @@ const emptyValues: WizardValues = {
   services: [],
   brandName: "",
   storeOrAsin: "",
-  marketplace: "",
+  marketplaces: [],
   monthlyRevenue: "",
   phone: "",
   note: "",
@@ -47,6 +64,21 @@ const emptyValues: WizardValues = {
 
 function progressPercent(step: number): number {
   return Math.round(((step - 1) / TOTAL_STEPS) * 100);
+}
+
+function firstFieldError(
+  fieldErrors: Record<string, string[]> | undefined,
+): { step: number; message: string } | null {
+  if (!fieldErrors) return null;
+  for (const [field, messages] of Object.entries(fieldErrors)) {
+    const message = messages?.[0];
+    if (!message) continue;
+    return {
+      step: FIELD_TO_STEP[field] ?? TOTAL_STEPS,
+      message,
+    };
+  }
+  return null;
 }
 
 export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
@@ -66,8 +98,15 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
       setStep(1);
       setValues(emptyValues);
       setStepError(null);
+      return;
     }
-  }, [state.success]);
+    if (!state.message && !state.fieldErrors) return;
+    const mapped = firstFieldError(state.fieldErrors);
+    if (mapped) {
+      setStep(mapped.step);
+      setStepError(mapped.message);
+    }
+  }, [state]);
 
   function validateStep(current: number): string | null {
     if (current === 1) {
@@ -89,14 +128,16 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
       ) {
         return "Use an Amazon storefront URL, product link, or ASIN (B0…).";
       }
-      if (!values.marketplace) return "Select a marketplace focus.";
+      if (values.marketplaces.length === 0) {
+        return "Select at least one marketplace.";
+      }
     }
     if (current === 4 && !values.monthlyRevenue) {
       return "Select your monthly Amazon revenue range.";
     }
     if (current === 5) {
-      if (values.phone.trim().length < 7) {
-        return "Enter a phone number we can reach you on.";
+      if (!isValidLeadPhone(values.phone)) {
+        return "Enter a valid phone number with country code.";
       }
       if (!values.consent) {
         return "Please confirm you agree to the privacy policy.";
@@ -146,9 +187,13 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="font-mono text-small font-bold text-accent">
-            Step {String(step).padStart(2, "0")} / {String(TOTAL_STEPS).padStart(2, "0")}
+            Step {String(step).padStart(2, "0")} /{" "}
+            {String(TOTAL_STEPS).padStart(2, "0")}
           </p>
-          <p className="mt-1 text-sm font-medium text-text-on-dark/70" aria-hidden="true">
+          <p
+            className="mt-1 text-sm font-medium text-text-on-dark/70"
+            aria-hidden="true"
+          >
             {percent}% complete
           </p>
         </div>
@@ -156,7 +201,10 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
           className="h-2 w-full max-w-xs overflow-hidden border border-text-on-dark/20 bg-primary sm:w-48"
           aria-hidden="true"
         >
-          <div className="h-full bg-accent transition-[width] duration-300" style={{ width: `${percent}%` }} />
+          <div
+            className="h-full bg-accent transition-[width] duration-300"
+            style={{ width: `${percent}%` }}
+          />
         </div>
       </div>
 
@@ -200,7 +248,6 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
           <FormAttributionFields />
         </div>
 
-        {/* Persist all values across steps for final submit */}
         <input type="hidden" name="name" value={values.name} />
         <input type="hidden" name="email" value={values.email} />
         {values.services.map((service) => (
@@ -208,19 +255,28 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
         ))}
         <input type="hidden" name="brandName" value={values.brandName} />
         <input type="hidden" name="storeOrAsin" value={values.storeOrAsin} />
-        <input type="hidden" name="marketplace" value={values.marketplace} />
-        <input type="hidden" name="monthlyRevenue" value={values.monthlyRevenue} />
+        {values.marketplaces.map((market) => (
+          <input key={market} type="hidden" name="marketplaces" value={market} />
+        ))}
+        <input
+          type="hidden"
+          name="monthlyRevenue"
+          value={values.monthlyRevenue}
+        />
         <input type="hidden" name="phone" value={values.phone} />
         <input type="hidden" name="note" value={values.note} />
         {values.consent ? (
           <input type="hidden" name="consent" value="true" />
         ) : null}
 
-        <div className="min-h-[16rem]">
+        <div className="min-h-[16rem] max-h-[min(28rem,55vh)] overflow-y-auto pr-1">
           {step === 1 ? (
             <fieldset className="space-y-5">
               <legend>
-                <h3 id={headingId} className="text-2xl font-bold tracking-tight text-text-on-dark">
+                <h3
+                  id={headingId}
+                  className="text-2xl font-bold tracking-tight text-text-on-dark"
+                >
                   {stepTitles[0]}
                 </h3>
                 <p className="mt-2 text-body font-medium text-text-on-dark/75">
@@ -251,7 +307,10 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                   type="email"
                   value={values.email}
                   onChange={(event) =>
-                    setValues((prev) => ({ ...prev, email: event.target.value }))
+                    setValues((prev) => ({
+                      ...prev,
+                      email: event.target.value,
+                    }))
                   }
                   className="mt-2 border-text-on-dark/30 bg-background text-text-primary"
                   autoComplete="email"
@@ -264,45 +323,35 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
           {step === 2 ? (
             <fieldset>
               <legend>
-                <h3 id={headingId} className="text-2xl font-bold tracking-tight text-text-on-dark">
+                <h3
+                  id={headingId}
+                  className="text-2xl font-bold tracking-tight text-text-on-dark"
+                >
                   {stepTitles[1]}
                 </h3>
                 <p className="mt-2 text-body font-medium text-text-on-dark/75">
                   Select as many as apply.
                 </p>
               </legend>
-              <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-                {wizard.services.map((service) => {
-                  const checked = values.services.includes(service.value);
-                  return (
-                    <li key={service.value}>
-                      <label
-                        className={cn(
-                          "flex min-h-12 cursor-pointer items-center gap-3 border-2 px-4 py-3 text-sm font-bold",
-                          checked
-                            ? "border-accent bg-accent text-primary"
-                            : "border-text-on-dark/25 bg-primary text-text-on-dark hover:border-accent",
-                        )}
-                      >
-                        <input
-                          type="checkbox"
-                          className="sr-only"
-                          checked={checked}
-                          onChange={() => toggleService(service.value)}
-                        />
-                        {service.label}
-                      </label>
-                    </li>
-                  );
-                })}
-              </ul>
+              <div className="mt-6">
+                <FormOptionChips
+                  name={`${formId}-services`}
+                  options={wizard.services}
+                  selected={values.services}
+                  onToggle={toggleService}
+                  tone="dark"
+                />
+              </div>
             </fieldset>
           ) : null}
 
           {step === 3 ? (
             <fieldset className="space-y-5">
               <legend>
-                <h3 id={headingId} className="text-2xl font-bold tracking-tight text-text-on-dark">
+                <h3
+                  id={headingId}
+                  className="text-2xl font-bold tracking-tight text-text-on-dark"
+                >
                   {stepTitles[2]}
                 </h3>
                 <p className="mt-2 text-body font-medium text-text-on-dark/75">
@@ -346,47 +395,26 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                   placeholder="amazon.com/stores/... or B0XXXXXXXXX"
                 />
               </div>
-              <div>
-                <p className="text-sm font-semibold text-text-on-dark">Marketplace focus</p>
-                <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-                  {wizard.marketplaces.map((market) => {
-                    const checked = values.marketplace === market.value;
-                    return (
-                      <li key={market.value}>
-                        <label
-                          className={cn(
-                            "flex min-h-11 cursor-pointer items-center border-2 px-4 py-2.5 text-sm font-bold",
-                            checked
-                              ? "border-accent bg-accent text-primary"
-                              : "border-text-on-dark/25 text-text-on-dark hover:border-accent",
-                          )}
-                        >
-                          <input
-                            type="radio"
-                            className="sr-only"
-                            name={`${formId}-marketplace-ui`}
-                            checked={checked}
-                            onChange={() =>
-                              setValues((prev) => ({
-                                ...prev,
-                                marketplace: market.value,
-                              }))
-                            }
-                          />
-                          {market.label}
-                        </label>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
+              <FormMultiSelect
+                id={`${formId}-markets`}
+                label="Marketplaces"
+                options={wizard.marketplaces}
+                selected={values.marketplaces}
+                placeholder="Select marketplaces"
+                onChange={(marketplaces) =>
+                  setValues((prev) => ({ ...prev, marketplaces }))
+                }
+              />
             </fieldset>
           ) : null}
 
           {step === 4 ? (
             <fieldset>
               <legend>
-                <h3 id={headingId} className="text-2xl font-bold tracking-tight text-text-on-dark">
+                <h3
+                  id={headingId}
+                  className="text-2xl font-bold tracking-tight text-text-on-dark"
+                >
                   {stepTitles[3]}
                 </h3>
                 <p className="mt-2 text-body font-medium text-text-on-dark/75">
@@ -430,29 +458,26 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
           {step === 5 ? (
             <fieldset className="space-y-5">
               <legend>
-                <h3 id={headingId} className="text-2xl font-bold tracking-tight text-text-on-dark">
+                <h3
+                  id={headingId}
+                  className="text-2xl font-bold tracking-tight text-text-on-dark"
+                >
                   {stepTitles[4]}
                 </h3>
                 <p className="mt-2 text-body font-medium text-text-on-dark/75">
                   So a strategist can reach you to schedule the conversation.
                 </p>
               </legend>
-              <div>
-                <Label htmlFor={`${formId}-phone`} className="text-text-on-dark">
-                  Phone number
-                </Label>
-                <Input
-                  id={`${formId}-phone`}
-                  type="tel"
-                  value={values.phone}
-                  onChange={(event) =>
-                    setValues((prev) => ({ ...prev, phone: event.target.value }))
-                  }
-                  className="mt-2 border-text-on-dark/30 bg-background text-text-primary"
-                  autoComplete="tel"
-                  required
-                />
-              </div>
+              <PhoneField
+                id={`${formId}-phone`}
+                label="Phone number"
+                value={values.phone}
+                onChange={(phone) =>
+                  setValues((prev) => ({ ...prev, phone }))
+                }
+                tone="dark"
+                labelClassName="text-text-on-dark"
+              />
               <div>
                 <Label htmlFor={`${formId}-note`} className="text-text-on-dark">
                   Additional note (optional)
@@ -461,7 +486,10 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                   id={`${formId}-note`}
                   value={values.note}
                   onChange={(event) =>
-                    setValues((prev) => ({ ...prev, note: event.target.value }))
+                    setValues((prev) => ({
+                      ...prev,
+                      note: event.target.value,
+                    }))
                   }
                   className="mt-2 min-h-24 border-text-on-dark/30 bg-background text-text-primary"
                   placeholder="Anything we should know before we talk."
@@ -495,7 +523,10 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
         </div>
 
         {stepError ? (
-          <p className="mt-5 border-2 border-accent bg-accent px-4 py-3 text-sm font-bold text-primary" role="alert">
+          <p
+            className="mt-5 border-2 border-accent bg-accent px-4 py-3 text-sm font-bold text-primary"
+            role="alert"
+          >
             {stepError}
           </p>
         ) : null}
@@ -531,11 +562,21 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
             </button>
           ) : null}
           {step < TOTAL_STEPS ? (
-            <PrimaryButton type="button" variant="accent" size="lg" onClick={goNext}>
+            <PrimaryButton
+              type="button"
+              variant="accent"
+              size="lg"
+              onClick={goNext}
+            >
               Next
             </PrimaryButton>
           ) : (
-            <PrimaryButton type="submit" variant="accent" size="lg" disabled={pending}>
+            <PrimaryButton
+              type="submit"
+              variant="accent"
+              size="lg"
+              disabled={pending}
+            >
               {pending ? "Submitting…" : wizard.submitLabel}
             </PrimaryButton>
           )}

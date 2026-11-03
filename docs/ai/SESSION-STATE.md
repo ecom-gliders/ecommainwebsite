@@ -1,11 +1,10 @@
-## Latest (2026-11-03) — OG social previews + principles
+## Latest (2026-11-04) — Contact funnel phone + multi-select
 
-**Done:** Dual-aspect OG system (1200×630 + 1200×1200) under `/images/og/`; metadata emits width/height/alt; homepage/contact/services/blogs no longer use WP banner or 1 MB about hero for social; `npm run generate:og`; standard + rule 14 + skill `og-social-preview`; performance rule expanded.
+**Done:** Contact intake marketplaces FormData bug fixed (`marketplaces[]`); FormMultiSelect + FormOptionChips; step pane height capped to reduce CLS; shared `PhoneField` + E.164 Zod across lead forms; log redaction for phone/email.
 
-**Verified locally:** head tags on home, contact, PPC service, sample blog; 368 OG files, 0 over 200 KB; tsc clean.
+**Verified locally:** tsc clean; phone schema accepts valid US E.164 / formatted and rejects junk; `/contact/` renders phone widget.
 
 **Still remaining (user):**
-1. Deploy so staging/production serve new OG assets
-2. DNS cutover (Hostinger) when ready
-3. After cutover: Facebook / LinkedIn / Discord cache refresh
-4. Optional: homepage Perf 87 → 90+
+1. Manual submit smoke on contact + free-audit popup
+2. Deploy / dual-push when ready
+3. DNS cutover when ready

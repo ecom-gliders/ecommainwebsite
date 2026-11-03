@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { phoneE164Schema } from "@/domain/forms/phone.schema";
 
 const urlField = z
   .string()
@@ -19,7 +20,7 @@ const urlField = z
 export const careerApplicationFormSchema = z.object({
   name: z.string().min(2, "Enter your full name."),
   email: z.string().email("Enter a valid email address."),
-  phone: z.string().min(7, "Enter a phone number we can reach you on."),
+  phone: phoneE164Schema,
   role: z.enum(["brand-manager", "junior-ppc-specialist"], {
     message: "Select the role you are applying for.",
   }),

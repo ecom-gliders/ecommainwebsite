@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { optionalAmazonStoreUrlSchema } from "@/domain/forms/amazon-store-url";
+import { phoneE164Schema } from "@/domain/forms/phone.schema";
 
 export const contactIntakeFormSchema = z.object({
   name: z
@@ -31,11 +32,7 @@ export const contactIntakeFormSchema = z.object({
     .trim()
     .min(1, "Select your monthly Amazon revenue range.")
     .max(50),
-  phone: z
-    .string()
-    .trim()
-    .min(7, "Enter a phone number we can reach you on.")
-    .max(30, "Phone number must be 30 characters or fewer."),
+  phone: phoneE164Schema,
   note: z.string().trim().max(5000).optional(),
   consent: z.literal("true", {
     message: "Please confirm you agree to the privacy policy.",

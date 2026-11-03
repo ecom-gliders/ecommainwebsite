@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState, useId, type ReactNode } from "react";
+import { useActionState, useId, useState, type ReactNode } from "react";
 import { submitCareerApplicationForm } from "@/app/(marketing)/careers/actions";
 import type { CareersPageConfig } from "@/domain/content/schemas";
 import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
+import { PhoneField } from "@/components/forms/phone-field";
 import {
   initialFormActionState,
   type FormActionState,
@@ -33,6 +34,7 @@ export function CareerApplicationForm({
 }: CareerApplicationFormProps) {
   const formId = useId();
   const liveId = `${formId}-live`;
+  const [phone, setPhone] = useState("");
   const [state, formAction, pending] = useActionState(
     submitCareerApplicationForm,
     initialFormActionState,
@@ -99,17 +101,15 @@ export function CareerApplicationForm({
             className="border-2 border-primary"
           />
         </Field>
-        <Field id={`${formId}-phone`} label="Phone" error={fieldError(state, "phone")}>
-          <Input
-            id={`${formId}-phone`}
-            name="phone"
-            type="tel"
-            autoComplete="tel"
-            required
-            aria-invalid={Boolean(fieldError(state, "phone"))}
-            className="border-2 border-primary"
-          />
-        </Field>
+        <PhoneField
+          id={`${formId}-phone`}
+          name="phone"
+          label="Phone"
+          value={phone}
+          onChange={setPhone}
+          required
+          error={fieldError(state, "phone")}
+        />
         <Field id={`${formId}-role`} label="Role" error={fieldError(state, "role")}>
           <Select
             id={`${formId}-role`}

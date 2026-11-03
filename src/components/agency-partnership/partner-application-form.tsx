@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState, useId, type ReactNode } from "react";
+import { useActionState, useId, useState, type ReactNode } from "react";
 import { submitAgencyPartnerForm } from "@/app/(marketing)/agency-partnership/actions";
 import type { AgencyPartnershipPageConfig } from "@/domain/content/schemas";
 import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
+import { PhoneField } from "@/components/forms/phone-field";
 import {
   initialFormActionState,
   type FormActionState,
@@ -34,6 +35,7 @@ export function PartnerApplicationForm({
 }: PartnerApplicationFormProps) {
   const formId = useId();
   const liveId = `${formId}-live`;
+  const [phone, setPhone] = useState("");
   const [state, formAction, pending] = useActionState(
     submitAgencyPartnerForm,
     initialFormActionState,
@@ -107,21 +109,15 @@ export function PartnerApplicationForm({
             className="border-2 border-primary"
           />
         </Field>
-        <Field
+        <PhoneField
           id={`${formId}-phone`}
+          name="phone"
           label="Phone"
+          value={phone}
+          onChange={setPhone}
+          required
           error={fieldError(state, "phone")}
-        >
-          <Input
-            id={`${formId}-phone`}
-            name="phone"
-            type="tel"
-            autoComplete="tel"
-            required
-            aria-invalid={Boolean(fieldError(state, "phone"))}
-            className="border-2 border-primary"
-          />
-        </Field>
+        />
         <Field
           id={`${formId}-agency`}
           label="Agency name"

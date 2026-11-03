@@ -12,6 +12,7 @@ import type { FreeAuditPageConfig } from "@/domain/content/schemas";
 import { FormAttributionFields } from "@/components/forms/form-attribution-fields";
 import { FormOptionChips } from "@/components/forms/form-option-chips";
 import { FormMultiSelect } from "@/components/forms/form-multi-select";
+import { PhoneField } from "@/components/forms/phone-field";
 import { initialFormActionState } from "@/domain/forms/form-action-state";
 import { submitAuditForm } from "@/app/(marketing)/free-audit/actions";
 import { PrimaryButton } from "@/components/ui/primary-button";
@@ -19,6 +20,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { isAmazonStoreOrAsin } from "@/domain/forms/amazon-store-url";
+import { isValidLeadPhone } from "@/domain/forms/phone.schema";
 import { cn } from "@/lib/utils";
 
 const TOTAL_STEPS = 5;
@@ -132,8 +134,8 @@ export function AuditFunnelWizard({
         return "Select at least one marketplace.";
       }
     }
-    if (current === 4 && values.phone.trim().length < 7) {
-      return "Enter a phone number we can reach you on.";
+    if (current === 4 && !isValidLeadPhone(values.phone)) {
+      return "Enter a valid phone number with country code.";
     }
     if (current === 5 && !values.consent) {
       return "Please confirm you agree to the privacy policy.";
@@ -426,22 +428,17 @@ export function AuditFunnelWizard({
                   Scale and phone
                 </h3>
               </legend>
-              <div>
-                <Label htmlFor={`${formId}-phone`} className={labelClass}>
-                  Phone
-                </Label>
-                <Input
-                  id={`${formId}-phone`}
-                  type="tel"
-                  value={values.phone}
-                  onChange={(event) =>
-                    setValues((prev) => ({ ...prev, phone: event.target.value }))
-                  }
-                  className={inputClass}
-                  autoComplete="tel"
-                  required
-                />
-              </div>
+              <PhoneField
+                id={`${formId}-phone`}
+                label="Phone"
+                value={values.phone}
+                onChange={(phone) =>
+                  setValues((prev) => ({ ...prev, phone }))
+                }
+                tone="light"
+                labelClassName={labelClass}
+                required
+              />
               {revenueOptions.length > 0 ? (
                 <div>
                   <p className={labelClass}>Monthly Amazon revenue</p>

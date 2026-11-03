@@ -33,10 +33,12 @@ interface FormNotificationPayload {
 
 function sanitizeForLog(fields: Record<string, string>): Record<string, string> {
   return Object.fromEntries(
-    Object.entries(fields).map(([key, value]) => [
-      key,
-      value.length > 120 ? `${value.slice(0, 120)}…` : value,
-    ]),
+    Object.entries(fields).map(([key, value]) => {
+      if (/e-?mail/i.test(key) || /^phone$/i.test(key) || /phone/i.test(key)) {
+        return [key, "[redacted]"];
+      }
+      return [key, value.length > 120 ? `${value.slice(0, 120)}…` : value];
+    }),
   );
 }
 

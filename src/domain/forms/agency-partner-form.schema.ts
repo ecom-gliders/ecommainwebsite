@@ -1,9 +1,10 @@
 import { z } from "zod";
+import { phoneE164Schema } from "@/domain/forms/phone.schema";
 
 export const agencyPartnerFormSchema = z.object({
   name: z.string().min(2, "Enter your full name."),
   email: z.string().email("Enter a valid work email."),
-  phone: z.string().min(7, "Enter a phone number we can reach you on."),
+  phone: phoneE164Schema,
   agencyName: z.string().min(2, "Enter your agency name."),
   agencyWebsite: z
     .string()

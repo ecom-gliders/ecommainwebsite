@@ -4,6 +4,23 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-11-04 — Contact funnel multi-select, CLS, shared phone
+
+**Task:** Fix contact phone/submit; FormMultiSelect parity; step CLS; shared country phone field  
+**STATUS:** COMPLETE (local Verified for schema + page load)  
+**IMPLEMENTED:**
+- Contact `marketplaces[]` hidden inputs + `FormMultiSelect`; services via `FormOptionChips` tone=dark
+- Step pane `max-h-[min(28rem,55vh)] overflow-y-auto`; server `fieldErrors` jump to step
+- `phoneE164Schema` + `PhoneField` (react-phone-number-input searchable country); wired contact, audit, careers, partnership, configurable-form
+- `sanitizeForLog` redacts phone/email  
+**VERIFIED:**
+- `tsc --noEmit` exit 0
+- Zod: `+12025550147` and `+1 (202) 555-0147` → E.164; junk `12345` rejected
+- Localhost `/contact/` loads PhoneInput / marketplace UI Observed  
+**DOCUMENTED:** this log; SESSION-STATE  
+**REMAINING:** Manual full submit smoke in browser (Discord/email E.164); deploy + dual-push when user asks  
+**NEXT ACTION:** User QA on contact + free-audit popup
+
 ## 2026-11-03 — OG images + social preview system
 
 **Task:** Replace old-site / heavy OG previews; dual-aspect optimized images; principles for future AI  

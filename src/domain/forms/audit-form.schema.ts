@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { amazonStoreUrlSchema } from "@/domain/forms/amazon-store-url";
+import { phoneE164Schema } from "@/domain/forms/phone.schema";
 
 export const auditFormSchema = z.object({
   name: z
@@ -12,11 +13,7 @@ export const auditFormSchema = z.object({
     .trim()
     .email("Enter a valid email address.")
     .max(254, "Email must be 254 characters or fewer."),
-  phone: z
-    .string()
-    .trim()
-    .min(7, "Enter a phone number we can reach you on.")
-    .max(30, "Phone number must be 30 characters or fewer."),
+  phone: phoneE164Schema,
   brandName: z.string().trim().max(150).optional(),
   amazonStoreUrl: amazonStoreUrlSchema,
   // Funnel requires these client-side; service-page embeds may omit them.
