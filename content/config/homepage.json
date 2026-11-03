@@ -503,7 +503,7 @@
         "subheading": "Share your catalog basics and a strategist will follow up with a written audit summary. No obligation.",
         "primaryCta": {
           "label": "Get your free audit",
-          "href": "#hero-lead-form"
+          "href": "/free-audit/"
         },
         "items": []
       }
@@ -636,7 +636,7 @@
             "imageAlt": "Desk with laptop and shipping boxes for Amazon new seller setup",
             "cta": {
               "label": "Get a launch audit",
-              "href": "#hero-lead-form"
+              "href": "/free-audit/"
             }
           },
           {
@@ -648,7 +648,7 @@
             "imageAlt": "Dual monitors with growth charts for scaling Amazon brands",
             "cta": {
               "label": "Get a growth audit",
-              "href": "#hero-lead-form"
+              "href": "/free-audit/"
             }
           },
           {
@@ -660,7 +660,7 @@
             "imageAlt": "Warehouse shelves and catalog tablet for multi-ASIN management",
             "cta": {
               "label": "Get a catalog audit",
-              "href": "#hero-lead-form"
+              "href": "/free-audit/"
             }
           }
         ]
@@ -931,7 +931,7 @@
         "cardSupport": "No obligation. A strategist follows up within one business day.",
         "primaryCta": {
           "label": "Get your free audit",
-          "href": "#hero-lead-form"
+          "href": "/free-audit/"
         },
         "secondaryCta": {
           "label": "Prefer to review results first? See case studies",

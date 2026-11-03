@@ -21,7 +21,7 @@ export function StatsSection({ id, data }: StatsSectionProps) {
   const subheading = readString(data.subheading);
   const primaryCta = readNavLink(data.primaryCta) ?? {
     label: "Get your free audit",
-    href: "#hero-lead-form",
+    href: "/free-audit/",
   };
   const items = readRecordArray(data.items);
   const headingId = `${id}-heading`;

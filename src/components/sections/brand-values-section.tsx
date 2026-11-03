@@ -26,7 +26,7 @@ export function BrandValuesSection({ id, data }: BrandValuesSectionProps) {
   const subheading = readString(data.subheading);
   const cta = readNavLink(data.cta) ?? {
     label: "Get your free audit",
-    href: "#hero-lead-form",
+    href: "/free-audit/",
   };
   const headingId = `${id}-heading`;
 

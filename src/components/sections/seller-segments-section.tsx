@@ -56,7 +56,7 @@ export function SellerSegmentsSection({ id, data }: SellerSegmentsSectionProps) 
             image,
             imageAlt,
             ctaLabel: cta?.label ?? "Get a free audit",
-            ctaHref: cta?.href ?? "#hero-lead-form",
+            ctaHref: cta?.href ?? "/free-audit/",
           };
         })
         .filter((item): item is SegmentItem => item !== null),
