@@ -1,9 +1,10 @@
 /**
  * Single source of truth for form notification labels, Discord routing, and copy.
  *
- * Webhooks:
+ * Webhooks (three separate channels):
  * - DISCORD_GET_IN_TOUCH_WEBHOOK_URL → homepage Get in Touch form only
- * - DISCORD_FORM_WEBHOOK_URL → service leads, Free Audit funnel, contact intake, and other site forms
+ * - DISCORD_SERVICES_WEBHOOK_URL → service page lead forms only
+ * - DISCORD_FORM_WEBHOOK_URL → Free Audit full funnel + contact intake + careers / partnership / newsletter
  */
 
 export type FormNotificationType =
@@ -21,7 +22,7 @@ export type LegacyAuditFormType = "audit";
 
 export type AnyFormNotificationType = FormNotificationType | LegacyAuditFormType;
 
-export type DiscordWebhookChannel = "forms" | "get-in-touch";
+export type DiscordWebhookChannel = "forms" | "services" | "get-in-touch";
 
 export interface FormNotificationMeta {
   /** Short label for Discord title / email H1 */
@@ -77,7 +78,7 @@ const META: Record<FormNotificationType, FormNotificationMeta> = {
     confirmationIntro: (name) =>
       `Thank you, ${name}. Your request is with our team.`,
     confirmationNext: "We usually reply within one business day.",
-    webhook: "forms",
+    webhook: "services",
     submitSuccess:
       "Thanks — your request is in. Our team typically replies within one business day.",
     rateLimited: RATE_LIMITED,
@@ -213,8 +214,7 @@ export function getFormNotificationMeta(
 
 /**
  * Resolve Discord webhook URL for a form type.
- * Get in Touch only → DISCORD_GET_IN_TOUCH_WEBHOOK_URL (no fallback)
- * Everything else → DISCORD_FORM_WEBHOOK_URL
+ * Three separate channels — no cross-fallback between them.
  */
 export function discordWebhookUrlFor(
   formType: AnyFormNotificationType,
@@ -222,6 +222,9 @@ export function discordWebhookUrlFor(
   const meta = getFormNotificationMeta(formType);
   if (meta.webhook === "get-in-touch") {
     return process.env.DISCORD_GET_IN_TOUCH_WEBHOOK_URL?.trim();
+  }
+  if (meta.webhook === "services") {
+    return process.env.DISCORD_SERVICES_WEBHOOK_URL?.trim();
   }
   return process.env.DISCORD_FORM_WEBHOOK_URL?.trim();
 }
