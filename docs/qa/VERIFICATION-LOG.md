@@ -4,22 +4,39 @@ Record of verification results for project tasks.
 
 ---
 
+## 2026-11-04 — Phone/multi-select portals, wizard height, no scroll jump
+
+**Task:** Polish PhoneField UI; fix marketplace clip; fix Step 1 empty height; stop flag-click page jump; agent docs  
+**STATUS:** COMPLETE (local Verified)  
+**IMPLEMENTED:**
+- PhoneField: unified border, `size` sm/md, label weight, council-C country sync, body portal, preventScroll focus
+- FormMultiSelect: body portal + space-aware flip
+- ContactIntakeWizard: active step only (removed invisible tallest-step grid and max-h scroll clip)
+- Docs/rules/skills: `LEAD-FORMS.md`, `15-lead-forms`, `lead-forms` skill, AGENTS.md  
+**VERIFIED:**
+- `tsc --noEmit` exit 0
+- Homepage phone vs company: height delta 0, gap 7.5px both, label fw 600 Observed
+- Flag open: scrollY delta 0; search focused; panel on `document.body` below shell Observed
+- Marketplace listbox portaled / in-viewport Observed (earlier pass)  
+**DOCUMENTED:** LEAD-FORMS, DECISIONS, SESSION-STATE, CHAT-SUMMARIES, this log  
+**REMAINING:** Manual Discord/email submit smoke; dual-push on user request (this session)  
+**NEXT ACTION:** Push both remotes
+
 ## 2026-11-04 — Contact funnel multi-select, CLS, shared phone
 
 **Task:** Fix contact phone/submit; FormMultiSelect parity; step CLS; shared country phone field  
-**STATUS:** COMPLETE (local Verified for schema + page load)  
+**STATUS:** SUPERSEDED by portal + active-step polish above (initial ship kept)  
 **IMPLEMENTED:**
-- Contact `marketplaces[]` hidden inputs + `FormMultiSelect`; services via `FormOptionChips` tone=dark
-- Step pane `max-h-[min(28rem,55vh)] overflow-y-auto`; server `fieldErrors` jump to step
-- `phoneE164Schema` + `PhoneField` (react-phone-number-input searchable country); wired contact, audit, careers, partnership, configurable-form
+- Contact `marketplaces` hidden inputs + `FormMultiSelect`; services via `FormOptionChips` tone=dark
+- `phoneE164Schema` + `PhoneField`; wired contact, audit, careers, partnership, configurable-form
 - `sanitizeForLog` redacts phone/email  
 **VERIFIED:**
 - `tsc --noEmit` exit 0
 - Zod: `+12025550147` and `+1 (202) 555-0147` → E.164; junk `12345` rejected
 - Localhost `/contact/` loads PhoneInput / marketplace UI Observed  
 **DOCUMENTED:** this log; SESSION-STATE  
-**REMAINING:** Manual full submit smoke in browser (Discord/email E.164); deploy + dual-push when user asks  
-**NEXT ACTION:** User QA on contact + free-audit popup
+**REMAINING:** see newer 2026-11-04 entry  
+**NEXT ACTION:** n/a
 
 ## 2026-11-03 — OG images + social preview system
 

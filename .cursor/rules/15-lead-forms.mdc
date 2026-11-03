@@ -1,0 +1,36 @@
+---
+description: Lead form phone fields, multi-select, wizards, and submission rules
+globs: "src/components/forms/**/*.{ts,tsx},src/components/contact/**/*.{ts,tsx},src/components/free-audit/**/*.{ts,tsx},src/domain/forms/**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# Lead Forms
+
+Canonical detail: `docs/project/LEAD-FORMS.md`. Skill: `.cursor/skills/lead-forms/SKILL.md`.
+
+## Phone
+
+- Use shared `PhoneField` (`src/components/forms/phone-field.tsx`) on every lead form.
+- Validate and store with `phoneE164Schema` / `isValidLeadPhone` (`src/domain/forms/phone.schema.ts`).
+- Country UX (council C): controlled `country`; update flag only when typed value resolves uniquely or validates; shared codes like `+1` stay sticky until valid; dropdown picks are explicit.
+- Country and marketplace dropdown panels must `createPortal` to `document.body` with `position: fixed`.
+- Never `autoFocus` into a body portal. Focus with `element.focus({ preventScroll: true })` after layout, or the page jumps to the document end.
+- Match sibling control height (`size="sm"` in compact `ConfigurableForm`). Labels use the same weight as sibling fields.
+- Parent shells that force `[&_input]:border-*` must be beaten with `!border-0` on the inner tel input so the phone control reads as one field.
+
+## Multi-select and chips
+
+- Long option lists: `FormMultiSelect` (portaled panel).
+- Short toggles: `FormOptionChips`.
+- Server FormData: repeat hidden inputs named `marketplaces` / `services` (not a single `marketplaces[]` string the server cannot parse).
+
+## Wizards (contact / free-audit)
+
+- Render the **active step only**. Do not CSS-grid-stack invisible steps to “fix” CLS — that leaves huge empty space on short steps.
+- Prefer portaled overlays over `overflow-y-auto` parents that clip dropdowns.
+- Map `fieldErrors` back to the correct step via an explicit field→step table.
+
+## Logging and notifications
+
+- Redact phone and email in `sanitizeForLog` / server logs.
+- Discord channel routing stays as configured (get-in-touch, full-funnel, service-lead separate when required).

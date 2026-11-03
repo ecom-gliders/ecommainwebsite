@@ -1113,6 +1113,51 @@ html[data-a11y-motion="reduce"] main img[src*=".gif?"] {
   animation: none !important;
 }
 
+/* Phone field — one control; beat parent [&_input]:border-* shells */
+.eg-phone-field .PhoneInput {
+  margin: 0 !important;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.eg-phone-field .PhoneInputCountry {
+  margin-right: 0 !important;
+  align-self: stretch;
+}
+
+.eg-phone-field .eg-phone-number.PhoneInputInput,
+.eg-phone-field input.eg-phone-number {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  min-width: 0;
+}
+
+.eg-phone-field input.eg-phone-search {
+  box-sizing: border-box;
+  min-height: 3rem;
+  padding: 0.75rem 1rem 0.75rem 2.75rem !important;
+  line-height: 1.25;
+}
+
+.eg-phone-field input.eg-phone-search::-webkit-search-cancel-button,
+.eg-phone-field input.eg-phone-search::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.eg-phone-field .PhoneInputCountryIcon--border {
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+}
+
+.eg-phone-field .PhoneInputCountrySelectArrow {
+  display: none;
+}
+
 @media print {
   header,
   footer,

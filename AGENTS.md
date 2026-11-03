@@ -4,15 +4,15 @@ You are operating on the eCom Gliders website migration project.
 
 ## Project
 
-Migrate https://ecomgliders.com/ to custom code.
-Current phase: Planning and audit. Do not start development unless explicitly instructed.
+Migrate https://ecomgliders.com/ to custom code (Next.js app in this repo).
+Current phase: **Active implementation and polish** on `main` (forms, SEO, content). Treat production cutover / DNS as blocked until the user explicitly asks. Prefer fixing and shipping in-repo over re-auditing from scratch.
 
 ## Before any work
 
 1. Inspect repository structure
 2. Read relevant `.cursor/rules/` files
-3. Read `obsidian/01-Project/Project-Brief.md`
-4. Check `docs/ai/SESSION-STATE.md`
+3. Read `obsidian/01-Project/Project-Brief.md` when scope is unclear
+4. Check `docs/ai/SESSION-STATE.md` and recent `docs/ai/CHAT-SUMMARIES.md`
 5. Search existing docs before researching externally
 
 ## Rules location
@@ -35,16 +35,19 @@ All rules are project-local in `.cursor/rules/`. Key rules:
 | 11-documentation | Docs and Obsidian |
 | 12-migration-seo-preservation | Blog URL preservation |
 | 13-professional-copy | Copy standards |
+| 14-og-social-preview | OG / Twitter image pairs |
+| 15-lead-forms | PhoneField, multi-select, wizards, portals |
 
 ## Skills location
 
 Project skills in `.cursor/skills/`:
 
-- research, web-audit, migration-audit, asset-management, competitive-research, `og-social-preview`
+- research, web-audit, migration-audit, asset-management, competitive-research, `og-social-preview`, **`lead-forms`**
 - **SEO pack:** `seo-audit`, `seo-aeo-geo`, `seo-meta-tags`, `seo-schema-snippets`, `seo-crawling-indexing`, `seo-performance`, `seo-content-quality`, `seo-core-html`, `seo-llm-context`, `seo-local-seo`, `seo-media`, `seo-url-structure`, `seo-accessibility`, `seo-javascript`, `seo-ecommerce`, `seo-enterprise`, `seo-international`, `seo-security-https`, `seo-youtube-video`
 
 Page SEO passes: follow `docs/seo/PAGE-OPTIMIZATION-STANDARD.md` and update `docs/seo/SITE-SEO-MAP.md`.  
-Social previews: `docs/seo/OG-IMAGE-STANDARD.md` + `npm run generate:og`.
+Social previews: `docs/seo/OG-IMAGE-STANDARD.md` + `npm run generate:og`.  
+Lead forms: `docs/project/LEAD-FORMS.md` + skill `lead-forms`.
 
 ## Decision protocol
 

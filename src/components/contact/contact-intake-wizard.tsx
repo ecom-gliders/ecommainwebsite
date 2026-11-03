@@ -269,7 +269,8 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
           <input type="hidden" name="consent" value="true" />
         ) : null}
 
-        <div className="min-h-[16rem] max-h-[min(28rem,55vh)] overflow-y-auto pr-1">
+        {/* Active step only — height follows content. Dropdowns portal outside. */}
+        <div>
           {step === 1 ? (
             <fieldset className="space-y-5">
               <legend>
@@ -395,16 +396,25 @@ export function ContactIntakeWizard({ wizard }: ContactIntakeWizardProps) {
                   placeholder="amazon.com/stores/... or B0XXXXXXXXX"
                 />
               </div>
-              <FormMultiSelect
-                id={`${formId}-markets`}
-                label="Marketplaces"
-                options={wizard.marketplaces}
-                selected={values.marketplaces}
-                placeholder="Select marketplaces"
-                onChange={(marketplaces) =>
-                  setValues((prev) => ({ ...prev, marketplaces }))
-                }
-              />
+              <div>
+                <Label
+                  htmlFor={`${formId}-markets`}
+                  className="text-text-on-dark"
+                >
+                  Marketplaces
+                </Label>
+                <FormMultiSelect
+                  id={`${formId}-markets`}
+                  label="Marketplaces"
+                  className="mt-2"
+                  options={wizard.marketplaces}
+                  selected={values.marketplaces}
+                  placeholder="Select marketplaces"
+                  onChange={(marketplaces) =>
+                    setValues((prev) => ({ ...prev, marketplaces }))
+                  }
+                />
+              </div>
             </fieldset>
           ) : null}
 

@@ -32,3 +32,9 @@ Verify rendered output, not only source code.
 ## Responsive testing
 
 Test desktop, tablet, and mobile viewports. Capture screenshots for significant UI changes.
+
+## Overlays and focus
+
+Dropdowns and popovers that would clip inside `overflow` parents must portal to `document.body` with fixed positioning.
+Never HTML-`autoFocus` a portaled control; use `focus({ preventScroll: true })` after layout or the page jumps.
+Lead-form specifics: `.cursor/rules/15-lead-forms.mdc` and `docs/project/LEAD-FORMS.md`.

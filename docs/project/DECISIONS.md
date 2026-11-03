@@ -17,6 +17,20 @@ Impact: What needs updating
 
 ---
 
+## 2026-11-04 — Lead phone country sync + portaled overlays + wizard height
+
+**WHAT:** Shared `PhoneField` with searchable country (portaled), E.164 validation, sticky country on ambiguous/`+1` until valid (council C). `FormMultiSelect` also portaled. Contact wizard shows active step only.
+
+**WHY:** Nested absolute menus clipped inside overflow shells; first open with `autoFocus` on a body portal scrolled to document end; grid-stacking all wizard steps removed CLS but left a large empty Step 1.
+
+**CHOSEN:** Portal + fixed placement; `focus({ preventScroll: true })`; active-step-only wizards; mild step height change accepted.
+
+**TRADEOFFS:** Slight layout shift between steps; portal panels need scroll/resize listeners while open.
+
+**IMPACT:** `phone-field.tsx`, `form-multi-select.tsx`, `contact-intake-wizard.tsx`, `globals.css` `.eg-phone-field`, `docs/project/LEAD-FORMS.md`, rule `15-lead-forms`, skill `lead-forms`, `AGENTS.md`.
+
+---
+
 ## 2026-11-03 — Dual-aspect optimized OG images
 
 **WHAT:** Site-wide Open Graph / Twitter images use optimized JPEG pairs (1200×630 + 1200×1200) under `/images/og/`, emitted with width/height/alt via `pageSeoToMetadata`. Generator: `npm run generate:og`.

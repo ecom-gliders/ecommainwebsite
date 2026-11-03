@@ -18,12 +18,16 @@ function ConfigurablePhoneField({
   label,
   required,
   error,
+  size = "md",
+  className,
 }: {
   id: string;
   name: string;
   label: string;
   required?: boolean;
   error?: string;
+  size?: "sm" | "md";
+  className?: string;
 }) {
   const [value, setValue] = useState("");
   return (
@@ -35,6 +39,8 @@ function ConfigurablePhoneField({
       onChange={setValue}
       required={required}
       error={error}
+      size={size}
+      className={className}
     />
   );
 }
@@ -151,22 +157,16 @@ export function ConfigurableForm({
 
           if (field.name === "phone" || field.type === "tel") {
             return (
-              <div
+              <ConfigurablePhoneField
                 key={field.name}
-                className={cn(
-                  "flex min-w-0 flex-col",
-                  compact ? "gap-1.5" : "gap-2",
-                  spansFull && "sm:col-span-2",
-                )}
-              >
-                <ConfigurablePhoneField
-                  id={fieldId}
-                  name={field.name}
-                  label={field.label}
-                  required={field.required}
-                  error={error}
-                />
-              </div>
+                id={fieldId}
+                name={field.name}
+                label={field.label}
+                required={field.required}
+                error={error}
+                size={compact ? "sm" : "md"}
+                className={cn(spansFull && "sm:col-span-2")}
+              />
             );
           }
 

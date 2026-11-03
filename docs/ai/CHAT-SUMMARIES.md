@@ -2,6 +2,13 @@
 
 Extract material decisions and discoveries from Cursor chat sessions.
 
+## 2026-11-04 — Lead form phone UX, wizard height, agent lead-forms pack
+
+Session topic: Phone country UI polish; contact intake CLS vs empty space; marketplace/country dropdowns clipped; first flag click scrolled to page end; document for future agents; dual-push.  
+Key decisions: Portal phone country + FormMultiSelect to `document.body`; `focus({ preventScroll: true })` (never autoFocus portal); council C sticky country on shared codes; wizards render active step only (no invisible tallest-step grid); add rule 15 + skill `lead-forms` + `docs/project/LEAD-FORMS.md`.  
+Evidence: tsc clean; height/gap match Company; scroll delta 0 on flag open; marketplace listbox on body Observed.  
+Next action: Dual-push origin + ecom; user submit smoke.
+
 ## 2026-11-03 — OG images + social preview principles
 
 Session topic: Meta previews still showed old website art; need per-page OG, landscape + square, lighter files, performance principles for future AI.  
