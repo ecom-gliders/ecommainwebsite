@@ -55,6 +55,12 @@ export async function SiteFooter() {
         recentCaseStudyLinks={recentCaseStudyLinks}
       />
       <FooterBottom legal={navigation.footer.legal} copyright={site.copyright} />
+      <p
+        className="pointer-events-none relative z-0 select-none px-4 pb-6 pt-2 text-center text-[clamp(2.5rem,11vw,6.5rem)] font-black leading-none tracking-[-0.06em] text-text-on-dark/[0.06] sm:pb-8"
+        aria-hidden="true"
+      >
+        eCom Gliders
+      </p>
     </footer>
   );
 }
