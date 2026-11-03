@@ -4,6 +4,14 @@ Personal (global): `C:\Users\Faizan\.cursor\skills\`
 Project: `D:\Desktop\Project\ecomgliders-site\.cursor\skills\`  
 Sources cached under: `~\.cursor\skills\_src\`
 
+## Project-authored (eCom Gliders)
+
+| Skill | Use |
+|-------|-----|
+| `lead-forms` | PhoneField, E.164, FormMultiSelect, wizards, portaled menus |
+| `og-social-preview` | Dual-aspect OG JPEG generation and checks |
+| `migration-audit` / `web-audit` / `research` / `asset-management` / `competitive-research` | See each `SKILL.md` |
+
 ## Council / deliberation agents
 
 | Skill | Source | Use |

@@ -1,20 +1,13 @@
-## Latest (2026-11-04) — Lead forms polish + agent docs; dual-push
+## Latest (2026-11-04) — Repo structure cleanup
 
-**Done this session:**
-- PhoneField: unified control, compact `size="sm"`, bold labels, council-C country sync, body portal for country list, `focus({ preventScroll: true })` (no first-click page jump)
-- FormMultiSelect: body portal + flip-up placement (marketplace options no longer clipped)
-- Contact intake: active-step-only height (rejected invisible-grid “CLS fix” that left huge empty Step 1)
-- Agent docs: `docs/project/LEAD-FORMS.md`, rule `15-lead-forms`, skill `lead-forms`, AGENTS.md phase + skill table
+**Done:**
+- Root cleaned: partner PNGs → `assets/source/partners/`; long prompts → `docs/ai/`; root keeps thin pointers
+- Deleted scratch `tmp-blog-*.js`; untracked tick JSON removed from git; `.gitignore` tightened
+- Docs: `REPO-STRUCTURE.md`, README + Folder-Structure + SKILLS-CATALOG updated
+- Prior: lead-form portals / PhoneField / dual-push `a5c692c`
 
-**Verified locally:**
-- `tsc --noEmit` clean
-- Phone vs Company height/gap aligned (50px / 7.5px) Observed
-- Country portal below trigger; scrollY unchanged on first open Observed
-- Marketplace listbox `parentIsBody` + in-viewport Observed
-
-**Do not commit:** root one-off PNGs, ad-hoc `docs/qa` screenshots, `wordpress-blog-export/` dumps, scratch `scripts/migration/_*.mjs` unless explicitly requested.
+**Do not commit:** untracked `scripts/migration/blog-*.mjs` batch helpers, `wordpress-blog-export/`, `docs/qa/screenshots/`.
 
 **Still remaining (user):**
-1. Manual Discord/email submit smoke (E.164 on wire)
+1. Manual Discord/email submit smoke
 2. DNS cutover when ready
-3. Optional: audit funnel pane CLS if product wants tighter popup height

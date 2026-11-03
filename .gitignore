@@ -1,5 +1,4 @@
-# Dependencies
-
+# Dependencies / build
 node_modules/
 dist/
 build/
@@ -7,6 +6,7 @@ build/
 .nuxt/
 .output/
 .cache/
+*.tsbuildinfo
 
 # Environment / secrets — never commit
 .env
@@ -27,7 +27,7 @@ auth.json
 Thumbs.db
 desktop.ini
 
-# Playwright local artifacts
+# Playwright / browser automation artifacts
 .playwright-mcp/
 test-results/
 playwright-report/
@@ -36,43 +36,50 @@ playwright-report/
 *.log
 npm-debug.log*
 
-# Build artifacts
-*.tsbuildinfo
-.next/
-node_modules/
-dist/
-build/
-
 # Vercel local link / deploy cache
 .vercel/
 
-# Large site backup (local only)
+# Large site backup payloads (local only)
 backup/pages/
 backup/blog/
 backup/blog-mdx-sanitize/
 backup/assets/
 backup/raw/
 backup/scrape-log.txt
+
+# Temporary / scratch
+tmp/
+temp/
+*.tmp
 tmp-*.js
+tmp-*.mjs
+/tmp-*.js
+/tmp-*.mjs
+
+# Root one-off dumps (use assets/source/ instead)
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+
+# Agent skill install mirrors (canonical copies live under .cursor/skills/)
+.agents/
+skills-lock.json
+
+# Live WP export payloads (large)
+wordpress-blog-export/
+
+# Scratch migration / QA loops (keep intentional scripts under scripts/)
+scripts/migration/_*.mjs
+scripts/migration/_*.js
+docs/ai/_*.json
+docs/qa/screenshots/
+docs/qa/live-*.png
+docs/qa/vercel-*.png
 
 # Obsidian local UI state only (vault notes stay tracked)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 obsidian/.obsidian/workspace.json
 obsidian/.obsidian/workspace-mobile.json
-
-# Temporary
-tmp/
-temp/
-*.tmp
-
-# Agent skill install mirrors (canonical copies live under .cursor/skills/)
-.agents/
-skills-lock.json
-
-# Live WP export payloads (large); keep CSV/manifest via force-add if needed
-wordpress-blog-export/posts/
-wordpress-blog-export/posts-all.json
-wordpress-blog-export/mdx-backup-before-restore/
-
-.vercel

@@ -8,7 +8,7 @@ description: Evidence-based web and technical research for eCom Gliders. Uses MC
 ## Before external research
 
 1. Search `docs/research/` and `obsidian/09-Research/`
-2. Search `cursor_project_prompt_cookbook.md` for existing guidance
+2. Search `docs/ai/cursor-project-prompt-cookbook.md` for existing guidance
 3. Stop if sufficient verified evidence already exists
 
 ## Research workflow
